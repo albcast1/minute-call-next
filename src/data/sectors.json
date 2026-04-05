@@ -1,0 +1,83 @@
+[
+  {
+    "slug": "recepcionista-ia-clinicas",
+    "sector": "clínicas",
+    "title": "Recepcionista de IA para clínicas.",
+    "metaTitle": "Recepcionista IA para clínicas | Atención telefónica 24/7 - minute call",
+    "metaDescription": "Servicio de recepcionista virtual con IA para clínicas. Atendemos tus llamadas, filtramos leads y agendamos citas 24/7.",
+    "heroTag": "Atención telefónica para clínicas",
+    "heroSubtitle": "Atendemos tus llamadas por ti. Filtrado de leads, toma mensajes y agenda de citas 24/7. Deja de perder clientes por no estar disponible.",
+    "socialProof": "Más de 80 clínicas confían en nuestra IA",
+    "testimonial": {
+      "quote": "Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdíamos fuera de horario y fines de semana.",
+      "author": "María Monsalve",
+      "role": "Director de Clínica"
+    },
+    "features": [
+      { "title": "Disponible 24/7", "description": "Tus clientes llaman cuando ellos pueden, no solo cuando tú estás abierto. Captura leads cuando estás ocupado y fuera de horario." },
+      { "title": "Sin tiempos de espera", "description": "Elimina la música de espera frustrante. La IA contesta al instante, mejorando la satisfacción del cliente." },
+      { "title": "Aprende de tu clínica", "description": "Entrenamos a la IA con tus propios datos, FAQs y políticas para que actúe como un empleado experto." },
+      { "title": "Reduce costes", "description": "Ahorra miles de euros en salarios y costes de contratación. Paga solo una fracción por un servicio superior." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés. Somos partner de Teleperformance y trabajamos con sectores de alto valor como clínicas, agencias inmobiliarias y otras empresas de servicio." },
+      { "question": "¿Qué es una secretaria virtual?", "answer": "Es una profesional remota que atiende llamadas como si fuera parte de tu equipo. A diferencia de una recepcionista interna, puede trabajar 24/7, en varios idiomas, y escalar según tus necesidades. No es un bot: sigue tus instrucciones, agenda citas y filtra clientes." },
+      { "question": "¿Qué coste tienen vuestros servicios?", "answer": "Minute Call funciona con un modelo de suscripción mensual flexible, que combina una tarifa base fija con un coste por llamada. No hay costes de activación ni contratos de permanencia." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Ofrecemos dos tipos de recepcionistas: agentes humanos o recepcionistas virtuales con inteligencia artificial. La IA puede responder llamadas básicas, proporcionar información general, derivar solicitudes y apoyar fuera de horario." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-inmobiliarias",
+    "sector": "inmobiliarias",
+    "title": "Recepcionista de IA para inmobiliarias.",
+    "metaTitle": "Recepcionista IA para inmobiliarias | Atención telefónica 24/7 - minute call",
+    "metaDescription": "Servicio de recepcionista virtual con IA para agencias inmobiliarias. Atendemos llamadas, filtramos leads y agendamos visitas 24/7.",
+    "heroTag": "Atención telefónica para inmobiliarias",
+    "heroSubtitle": "Atendemos tus llamadas por ti. Filtrado de leads, toma mensajes y agenda de visitas 24/7. Deja de perder clientes por no estar disponible.",
+    "socialProof": "Más de 70 inmobiliarias confían en nuestra IA",
+    "testimonial": {
+      "quote": "Desde que lo integramos, perdemos menos el tiempo con leads de bajo valor e identificamos rápidamente quién merece nuestra atención. Es como tener una recepcionista estrella que nunca duerme.",
+      "author": "Juan Gámez",
+      "role": "Gerente de agencia inmobiliaria"
+    },
+    "features": [
+      { "title": "Disponible 24/7", "description": "Tus clientes llaman cuando ellos pueden, no solo cuando tú estás abierto. Captura leads cuando estás ocupado y fuera de horario." },
+      { "title": "Sin tiempos de espera", "description": "Elimina la música de espera frustrante. La IA contesta al instante, mejorando la satisfacción del cliente." },
+      { "title": "Aprende de tu agencia", "description": "Entrenamos a la IA con tus propios datos, FAQs y políticas para que actúe como un empleado experto." },
+      { "title": "Reduce costes", "description": "Ahorra miles de euros en salarios y costes de contratación. Paga solo una fracción por un servicio superior." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Qué es una secretaria virtual?", "answer": "Es una profesional remota que atiende llamadas como si fuera parte de tu equipo. A diferencia de una recepcionista interna, puede trabajar 24/7, en varios idiomas, y escalar según tus necesidades." },
+      { "question": "¿Qué coste tienen vuestros servicios?", "answer": "Minute Call funciona con un modelo de suscripción mensual flexible, que combina una tarifa base fija con un coste por llamada. No hay costes de activación ni contratos de permanencia." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Ofrecemos dos tipos de recepcionistas: agentes humanos o recepcionistas virtuales con inteligencia artificial." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-restaurantes",
+    "sector": "restaurantes",
+    "title": "Recepcionista de IA para restaurantes.",
+    "metaTitle": "Recepcionista IA para restaurantes | Atención telefónica 24/7 - minute call",
+    "metaDescription": "Servicio de recepcionista virtual con IA para hostelería. Gestiona reservas, atiende llamadas y filtra consultas 24/7.",
+    "heroTag": "Atención telefónica para hostelería",
+    "heroSubtitle": "Atendemos tus llamadas por ti. Gestión de reservas, toma de mensajes y filtrado de consultas 24/7. Deja de perder clientes por no estar disponible.",
+    "socialProof": "Más de 50 restaurantes confían en nuestra IA",
+    "testimonial": {
+      "quote": "Ya no perdemos reservas porque no podemos coger el teléfono durante el servicio. Minute Call se encarga de todo.",
+      "author": "Carlos Ruiz",
+      "role": "Propietario de restaurante"
+    },
+    "features": [
+      { "title": "Disponible 24/7", "description": "Tus clientes llaman cuando ellos pueden, no solo cuando tú estás abierto. Captura reservas cuando estás en pleno servicio." },
+      { "title": "Sin tiempos de espera", "description": "La IA contesta al instante, mejorando la satisfacción del cliente." },
+      { "title": "Aprende de tu negocio", "description": "Entrenamos a la IA con tu carta, horarios, políticas de reservas y FAQs para que actúe como un empleado experto." },
+      { "title": "Reduce costes", "description": "Ahorra miles de euros en salarios. Paga solo una fracción por un servicio superior." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Cómo gestiona las reservas?", "answer": "La IA puede gestionar reservas siguiendo tus reglas: horarios, número de comensales, disponibilidad. Se integra con tu sistema de reservas o envía notificaciones por email." },
+      { "question": "¿Qué coste tienen vuestros servicios?", "answer": "Modelo de suscripción mensual flexible. Tarifa base fija + coste por llamada. Sin permanencia ni costes de activación." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Agentes humanos o IA, tú eliges según tu volumen y necesidades." }
+    ]
+  }
+]
