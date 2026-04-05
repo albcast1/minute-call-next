@@ -51,7 +51,7 @@ export default function Footer() {
 
           {/* Articles */}
           <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-            <h4 style={{ fontSize: 14, fontWeight: 600, color: "black", margin: 0 }}>Nosotros</h4>
+            <h4 style={{ fontSize: 14, fontWeight: 600, color: "black", margin: 0 }}>Articles</h4>
             <nav style={{ display: "flex", flexDirection: "column", gap: 8 }}>
               <Link href="/articulos/secretaria-virtual-pymes-espana" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>
                 Qué es un servicio de secretaría virtual

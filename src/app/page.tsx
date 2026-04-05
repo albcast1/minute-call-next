@@ -1,4 +1,5 @@
 import Link from "next/link";
+import VideoCard from "@/components/VideoCard";
 
 export default function Home() {
   return (
@@ -19,18 +20,22 @@ export default function Home() {
         {/* Left column */}
         <div style={{ flex: "1 1 500px", maxWidth: 600 }}>
           {/* Trustpilot badge */}
-          <a href="https://www.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", marginBottom: 16 }}>
-            <img
-              src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
-              alt="Trustpilot reviews"
-              style={{ height: 40 }}
-            />
-          </a>
+          <div style={{ marginBottom: 20 }}>
+            <a href="https://www.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block" }}>
+              <img
+                src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
+                alt="Trustpilot reviews"
+                style={{ height: 36 }}
+              />
+            </a>
+          </div>
 
           {/* Pill label */}
-          <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
-            Recepción de llamadas para PYMES
-          </span>
+          <div style={{ marginBottom: 24 }}>
+            <span className="pill-label">
+              Recepción de llamadas para PYMES
+            </span>
+          </div>
 
           {/* Main heading */}
           <h1 style={{ marginTop: 24 }}>
@@ -50,104 +55,7 @@ export default function Home() {
         </div>
 
         {/* Right column - Video card */}
-        <div
-          style={{
-            flex: "1 1 400px",
-            maxWidth: 460,
-            background: "#F5F5F5",
-            borderRadius: 16,
-            overflow: "hidden",
-          }}
-        >
-          {/* Tabs */}
-          <div style={{ display: "flex", borderBottom: "1px solid rgba(0,0,0,0.08)" }}>
-            <div
-              style={{
-                flex: 1,
-                padding: "16px 24px",
-                background: "white",
-                textAlign: "center",
-                fontFamily: "var(--font-sans)",
-                fontSize: 14,
-                fontWeight: 500,
-              }}
-            >
-              Recepcionista
-            </div>
-            <div
-              style={{
-                flex: 1,
-                padding: "16px 24px",
-                background: "transparent",
-                textAlign: "center",
-                fontFamily: "var(--font-sans)",
-                fontSize: 14,
-                fontWeight: 500,
-                color: "rgba(0,0,0,0.4)",
-              }}
-            >
-              Recepcionista IA
-            </div>
-          </div>
-          {/* Video */}
-          <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden" }}>
-            <video
-              src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
-              playsInline
-              muted
-              loop
-              preload="auto"
-              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-            />
-          </div>
-          {/* Video controls bar */}
-          <div
-            style={{
-              padding: "12px 20px",
-              display: "flex",
-              alignItems: "center",
-              gap: 12,
-              background: "white",
-            }}
-          >
-            <div
-              style={{
-                width: 40,
-                height: 40,
-                borderRadius: "50%",
-                background: "black",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                flexShrink: 0,
-              }}
-            >
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="white">
-                <path d="M3 1.5v11l9-5.5z" />
-              </svg>
-            </div>
-            <div
-              style={{
-                width: 8,
-                height: 8,
-                borderRadius: "50%",
-                background: "black",
-                flexShrink: 0,
-              }}
-            />
-            <div
-              style={{
-                flex: 1,
-                height: 3,
-                background: "rgba(0,0,0,0.1)",
-                borderRadius: 2,
-              }}
-            />
-            <span style={{ fontSize: 12, color: "rgba(0,0,0,0.5)", whiteSpace: "nowrap" }}>
-              0:00 / 0:00
-            </span>
-          </div>
-        </div>
+        <VideoCard />
       </section>
 
       {/* ===== PARTNERS ===== */}
@@ -167,13 +75,24 @@ export default function Home() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            gap: 40,
             opacity: 0.6,
           }}
         >
           <img
             src="https://framerusercontent.com/assets/vVcZO7NVGGx5NLbyvAVMug0g1ko.png"
-            alt="Partner logos"
-            style={{ height: 35, width: "auto" }}
+            alt="Teleperformance"
+            style={{ height: 34, width: "auto" }}
+          />
+          <img
+            src="https://framerusercontent.com/images/pZqRL99lnwLqdJMbZFfqwh1XGBk.png"
+            alt="Intelcia"
+            style={{ height: 30, width: "auto" }}
+          />
+          <img
+            src="https://framerusercontent.com/images/B3NliQmX4vcGor4wPgTZ3oHU.png"
+            alt="Zendesk"
+            style={{ height: 19, width: "auto" }}
           />
         </div>
       </section>
@@ -263,7 +182,7 @@ export default function Home() {
             <img
               src="https://framerusercontent.com/images/yFHgV1OOpi4Y9SNihdiTqSFXU.png"
               alt="Resultados de clientes"
-              style={{ width: 180, borderRadius: 12 }}
+              style={{ width: 360, maxWidth: "100%", borderRadius: 16 }}
             />
           </div>
         </div>
@@ -309,28 +228,42 @@ export default function Home() {
         }}
       >
         <div
+          className="sectors-grid"
           style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: 12,
+            display: "grid",
+            gridTemplateColumns: "repeat(3, 1fr)",
+            gap: 32,
           }}
         >
           {[
-            "Clinicas & Salud",
-            "Agencias inmobiliarias",
-            "Hostelería",
-            "Turismo",
-            "Despachos de abogados",
-            "Otros servicios",
-          ].map((sector) => (
-            <span
-              key={sector}
-              className="pill-label"
-              style={{ fontSize: 14, padding: "10px 20px" }}
-            >
-              {sector}
-            </span>
-          ))}
+            { name: "Clinicas & Salud", href: "/lp/recepcionista-ia-clinicas" },
+            { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias" },
+            { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes" },
+            { name: "Turismo", href: null },
+            { name: "Despachos de abogados", href: null },
+            { name: "Otros servicios", href: null },
+          ].map((sector) => {
+            const content = (
+              <div
+                key={sector.name}
+                className="card"
+                style={{
+                  padding: "28px 24px",
+                  display: "flex",
+                  alignItems: "center",
+                  cursor: sector.href ? "pointer" : "default",
+                }}
+              >
+                <span style={{ fontSize: 18, fontWeight: 500, color: "black", letterSpacing: "-0.72px" }}>
+                  {sector.name}
+                </span>
+              </div>
+            );
+            if (sector.href) {
+              return <Link key={sector.name} href={sector.href} style={{ textDecoration: "none" }}>{content}</Link>;
+            }
+            return content;
+          })}
         </div>
       </section>
 
@@ -619,7 +552,7 @@ export default function Home() {
       {/* ===== CTA FINAL ===== */}
       <section
         style={{
-          maxWidth: 1200,
+          maxWidth: 900,
           margin: "0 auto",
           padding: "80px 24px 120px",
           textAlign: "center",
@@ -628,7 +561,7 @@ export default function Home() {
         <h2>
           No pierdas ninguna llamada <span className="serif-italic">más.</span>
         </h2>
-        <p style={{ maxWidth: 500, margin: "16px auto 32px" }}>
+        <p style={{ maxWidth: 560, margin: "16px auto 40px" }}>
           Servicio premium de secretaría virtual y atención telefónica para PYMES.
         </p>
         <Link href="/reserva-llamada" className="btn-cta">

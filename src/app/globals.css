@@ -282,4 +282,8 @@ a:hover {
   .card-warm {
     padding: var(--spacing-lg);
   }
+
+  .sectors-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
