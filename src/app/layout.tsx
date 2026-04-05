@@ -4,10 +4,9 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "minute call | Atención telefónica para PYMES",
+  title: "Atención telefónica para PYMES",
   description:
-    "Servicio premium de secretaría virtual y atención telefónica para PYMES. No pierdas ninguna llamada más.",
-  viewport: "width=device-width, initial-scale=1.0",
+    "Servicio de atención telefónica con agentes nativos y asistentes de IA. Recepción de llamadas, filtrado, conversión de leads, y gestión de citas.",
 };
 
 export default function RootLayout({
