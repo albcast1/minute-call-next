@@ -19,18 +19,13 @@ export default function Home() {
         {/* Left column */}
         <div style={{ flex: "1 1 500px", maxWidth: 600 }}>
           {/* Trustpilot badge */}
-          <div style={{ marginBottom: 16 }}>
+          <a href="https://www.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", marginBottom: 16 }}>
             <img
-              src="https://framerusercontent.com/images/pZqRL99lnwLqdJMbZFfqwh1XGBk.png"
-              alt="Trustpilot"
-              style={{ height: 30, display: "inline" }}
+              src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
+              alt="Trustpilot reviews"
+              style={{ height: 40 }}
             />
-            <img
-              src="https://framerusercontent.com/images/B3NliQmX4vcGor4wPgTZ3oHU.png"
-              alt="Trustpilot stars"
-              style={{ height: 19, marginLeft: 4, display: "inline" }}
-            />
-          </div>
+          </a>
 
           {/* Pill label */}
           <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
@@ -58,9 +53,9 @@ export default function Home() {
         <div
           style={{
             flex: "1 1 400px",
-            maxWidth: 500,
+            maxWidth: 460,
             background: "#F5F5F5",
-            borderRadius: 24,
+            borderRadius: 16,
             overflow: "hidden",
           }}
         >
@@ -102,7 +97,7 @@ export default function Home() {
               muted
               loop
               autoPlay
-              style={{ width: "100%", display: "block" }}
+              style={{ width: "100%", maxHeight: 500, objectFit: "cover", display: "block" }}
             />
           </div>
           {/* Video controls bar */}
