@@ -1,250 +1,123 @@
-import type { Metadata } from "next";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
-
-export const metadata: Metadata = {
-  title: "Política de Cookies | minute call",
-  description: "Política de cookies de minute call",
-};
-
 export default function PoliticaCookies() {
+  const containerStyle = {
+    maxWidth: 800,
+    margin: "0 auto",
+    padding: "80px 24px",
+  };
+
+  const headingStyle = {
+    fontSize: "32px",
+    fontWeight: "bold",
+    marginBottom: "32px",
+    marginTop: "0",
+  };
+
+  const sectionHeadingStyle = {
+    fontSize: "20px",
+    fontWeight: "bold",
+    marginTop: "32px",
+    marginBottom: "16px",
+  };
+
+  const paragraphStyle = {
+    fontSize: "16px",
+    lineHeight: "1.6",
+    marginBottom: "16px",
+    color: "#333",
+  };
+
+  const listStyle = {
+    marginLeft: "24px",
+    marginBottom: "16px",
+  };
+
+  const listItemStyle = {
+    fontSize: "16px",
+    lineHeight: "1.6",
+    marginBottom: "8px",
+    color: "#333",
+  };
+
   return (
-    <div className="min-h-screen flex flex-col bg-[#EFEBE5]">
-      <Nav />
-      <main className="flex-1 max-w-4xl mx-auto w-full px-6 py-16">
-        <h1 className="text-5xl font-bold text-black mb-12">
-          Política de Cookies
-        </h1>
+    <div style={containerStyle}>
+      <h1 style={headingStyle}>Política de cookies</h1>
 
-        <div className="space-y-8 text-lg leading-relaxed text-[#6B6B6B]">
-          {/* Introducción */}
-          <section>
-            <h2 className="text-2xl font-bold text-black mb-4">
-              Introducción
-            </h2>
-            <p>
-              Esta Política de Cookies explica cómo Minute Call utiliza cookies
-              y tecnologías similares en nuestro sitio web. Las cookies son
-              pequeños archivos de datos que se almacenan en su navegador o
-              dispositivo.
-            </p>
-          </section>
+      <p style={paragraphStyle}>
+        Minute Call S.L. (en adelante, "Minute Call") informa, a través de la presente Política de Cookies, sobre el uso de dispositivos de almacenamiento y recuperación de datos en los equipos terminales de los usuarios.
+      </p>
 
-          {/* ¿Qué son las Cookies? */}
-          <section>
-            <h2 className="text-2xl font-bold text-black mb-4">
-              ¿Qué son las Cookies?
-            </h2>
-            <p>
-              Las cookies son archivos de texto pequeños que se descargan en su
-              dispositivo cuando accede a nuestro sitio web. Las cookies permiten
-              que el sitio web recuerde información sobre su visita, como su
-              idioma preferido y otras configuraciones, lo que puede facilitar
-              futuras visitas y mejorar la utilidad del sitio.
-            </p>
-          </section>
+      <h2 style={sectionHeadingStyle}>1. ¿Qué son las cookies?</h2>
+      <p style={paragraphStyle}>
+        Las cookies son pequeños archivos que se instalan en el dispositivo del usuario a solicitud del sitio web y que se utilizan para realizar determinadas funciones dentro del servicio web al que se accede.
+      </p>
 
-          {/* Tipos de Cookies */}
-          <section>
-            <h2 className="text-2xl font-bold text-black mb-4">
-              Tipos de Cookies que Utilizamos
-            </h2>
+      <p style={paragraphStyle}>
+        Este sitio web utiliza cookies propias y de terceros para mantener la sesión del usuario que accede al servicio (cookies técnicas), recordar las preferencias del usuario (cookies de personalización), analizar el uso del sitio web (cookies de análisis) y permitir la interacción con redes sociales (cookies de redes sociales). Al interactuar con servicios web de terceros que prestan un servicio a Minute Call, también pueden utilizarse cookies de dichos servicios (cookies de terceros).
+      </p>
 
-            <div className="mt-6 space-y-6">
-              <div>
-                <h3 className="font-semibold text-black text-lg mb-2">
-                  1. Cookies Esenciales
-                </h3>
-                <p>
-                  Estas cookies son necesarias para el funcionamiento correcto de
-                  nuestro sitio web. Sin ellas, el sitio no funcionaría
-                  correctamente. Incluyen cookies de autenticación y seguridad.
-                </p>
-              </div>
+      <h2 style={sectionHeadingStyle}>2. ¿Para qué utiliza Minute Call las cookies?</h2>
+      <p style={paragraphStyle}>
+        De conformidad con el artículo 22 de la Ley de Servicios de la Sociedad de la Información y de Comercio Electrónico y el Considerando 30 del Reglamento General de Protección de Datos (RGPD), este sitio web utiliza cookies o tecnologías similares para rastrear las interacciones de los usuarios con los servicios ofrecidos en la web.
+      </p>
 
-              <div>
-                <h3 className="font-semibold text-black text-lg mb-2">
-                  2. Cookies de Funcionalidad
-                </h3>
-                <p>
-                  Estas cookies permiten que nuestro sitio recuerde sus opciones
-                  (como nombre de usuario, idioma o región) para proporcionar
-                  características personalizadas. Sin ellas, algunas funciones
-                  podrían no estar disponibles.
-                </p>
-              </div>
+      <p style={paragraphStyle}>
+        Las cookies permiten reconocer el navegador y el tipo de dispositivo del usuario, haciendo que el sitio web sea más eficiente y útil en futuras visitas.
+      </p>
 
-              <div>
-                <h3 className="font-semibold text-black text-lg mb-2">
-                  3. Cookies de Rendimiento
-                </h3>
-                <p>
-                  Estas cookies recopilan información sobre cómo utiliza nuestro
-                  sitio web. Utilizamos esta información para mejorar el
-                  funcionamiento y la experiencia del sitio. No identifican
-                  personalmente a los usuarios.
-                </p>
-              </div>
+      <p style={paragraphStyle}>
+        Las cookies técnicas se utilizan para mantener la sesión del usuario y garantizar el correcto funcionamiento de las áreas restringidas a las que acceden usuarios autenticados. Si se desactivan las cookies en el navegador, es posible que ciertos servicios no funcionen correctamente. Una vez finalizada la sesión, estas cookies se eliminan automáticamente.
+      </p>
 
-              <div>
-                <h3 className="font-semibold text-black text-lg mb-2">
-                  4. Cookies de Marketing
-                </h3>
-                <p>
-                  Estas cookies se utilizan para rastrear su actividad en
-                  internet y mostrar anuncios personalizados. Se comparten con
-                  terceros y requieren su consentimiento explícito.
-                </p>
-              </div>
-            </div>
-          </section>
+      <p style={paragraphStyle}>
+        Las cookies de personalización se utilizan para recordar preferencias de navegación como el idioma o las opciones elegidas previamente. Si se desactivan las cookies o se accede desde otro dispositivo, sus preferencias no se guardarán y deberán seleccionarse de nuevo.
+      </p>
 
-          {/* Terceros */}
-          <section>
-            <h2 className="text-2xl font-bold text-black mb-4">
-              Cookies de Terceros
-            </h2>
-            <p>
-              Nuestro sitio web puede contener enlaces a sitios web de terceros
-              que pueden establecer sus propias cookies. Minute Call no es
-              responsable de las políticas de cookies de estos sitios. Le
-              recomendamos que revise las políticas de cookies de cualquier sitio
-              web de terceros antes de aceptar sus cookies.
-            </p>
-            <p className="mt-4">
-              Los siguientes son algunos de los servicios de terceros que
-              utilizamos:
-            </p>
-            <ul className="list-disc list-inside mt-4 space-y-2">
-              <li>Google Analytics</li>
-              <li>Facebook Pixel</li>
-              <li>LinkedIn Insights</li>
-              <li>Cloudflare</li>
-            </ul>
-          </section>
+      <p style={paragraphStyle}>
+        Las cookies de análisis se utilizan para medir y analizar la actividad de los usuarios en el sitio web con el fin de mejorar la oferta de productos o servicios. Estas cookies no recopilan datos personales. Minute Call utiliza Google Analytics para esta finalidad. La desactivación de estas cookies no afectará al funcionamiento del sitio web, aunque impedirá el análisis estadístico.
+      </p>
 
-          {/* Duración */}
-          <section>
-            <h2 className="text-2xl font-bold text-black mb-4">
-              Duración de las Cookies
-            </h2>
-            <p>
-              Las cookies pueden ser de dos tipos en cuanto a su duración:
-            </p>
-            <ul className="list-disc list-inside mt-4 space-y-2">
-              <li>
-                <strong>Cookies de sesión:</strong> Se eliminan cuando cierra su
-                navegador.
-              </li>
-              <li>
-                <strong>Cookies persistentes:</strong> Se almacenan durante un
-                período especificado, que puede ser de días, meses o años.
-              </li>
-            </ul>
-          </section>
+      <p style={paragraphStyle}>
+        Las cookies de redes sociales son cookies de terceros que permiten a los usuarios interactuar con plataformas como Facebook, Twitter, LinkedIn u otras similares. Su uso se rige por las políticas de privacidad y cookies de cada red social.
+      </p>
 
-          {/* Control de Cookies */}
-          <section>
-            <h2 className="text-2xl font-bold text-black mb-4">
-              Control de Cookies
-            </h2>
-            <p>
-              Puede controlar y administrar las cookies de varias maneras:
-            </p>
+      <p style={paragraphStyle}>
+        Minute Call no utiliza cookies propias que almacenen información personal identificable como nombre, apellidos, direcciones de correo electrónico o datos postales, ni se emplean cookies para obtener o acceder a información personal.
+      </p>
 
-            <div className="mt-6 space-y-4">
-              <div>
-                <h3 className="font-semibold text-black mb-2">
-                  Configuración del Navegador
-                </h3>
-                <p>
-                  La mayoría de navegadores le permiten rechazar o aceptar
-                  cookies. Puede ajustar estas configuraciones en el menú de
-                  preferencias de su navegador. Consulte la documentación de su
-                  navegador para obtener más información.
-                </p>
-              </div>
+      <p style={paragraphStyle}>
+        Los usuarios que no deseen que se instalen cookies (lo que puede impedir el correcto funcionamiento de algunos servicios) o que prefieran ser informados antes de su instalación pueden configurar su navegador en consecuencia. Los usuarios también pueden eliminar en cualquier momento todas las cookies generadas en sus dispositivos.
+      </p>
 
-              <div>
-                <h3 className="font-semibold text-black mb-2">
-                  Nuestra Herramienta de Consentimiento
-                </h3>
-                <p>
-                  Al visitar nuestro sitio web, puede ver una pancarta de
-                  cookies que le permite aceptar o rechazar diferentes tipos de
-                  cookies. Puede cambiar sus preferencias en cualquier momento
-                  haciendo clic en el enlace de configuración de cookies en el
-                  pie de página.
-                </p>
-              </div>
-            </div>
-          </section>
+      <p style={paragraphStyle}>
+        Estas son cookies esenciales que no requieren consentimiento:
+      </p>
 
-          {/* Consentimiento */}
-          <section>
-            <h2 className="text-2xl font-bold text-black mb-4">
-              Consentimiento
-            </h2>
-            <p>
-              De conformidad con la Ley de Cookies de la UE y la normativa de
-              privacidad, obtenemos su consentimiento antes de usar cookies de
-              marketing o de rendimiento. Las cookies esenciales se utilizan sin
-              consentimiento previo, ya que son necesarias para el
-              funcionamiento del sitio.
-            </p>
-            <p className="mt-4">
-              Al hacer clic en "Aceptar" en nuestra pancarta de cookies,
-              acepta el uso de todas las cookies descritas en esta política.
-              Puede retirar su consentimiento en cualquier momento.
-            </p>
-          </section>
+      <ul style={listStyle}>
+        <li style={listItemStyle}>__hs_opt_out – recuerda que el visitante ha rechazado las cookies; caduca en 6 meses</li>
+        <li style={listItemStyle}>__hs_do_not_track – evita que el código de seguimiento envíe información; caduca en 6 meses</li>
+        <li style={listItemStyle}>__hs_initial_opt_in – evita que el banner se muestre siempre en modo estricto; caduca en 7 días</li>
+        <li style={listItemStyle}>__hs_cookie_cat_pref – registra las categorías consentidas; caduca en 6 meses</li>
+        <li style={listItemStyle}>__hs_gpc_banner_dismiss – guarda cuándo se cierra el banner de Control Global de Privacidad; caduca en 180 días</li>
+        <li style={listItemStyle}>__hs_notify_banner_dismiss – guarda cuándo se cierra el banner de notificación; caduca en 180 días</li>
+        <li style={listItemStyle}>hs_ab_test – garantiza que los visitantes vean la misma versión de una página en pruebas A/B; caduca al final de la sesión</li>
+        <li style={listItemStyle}>id_key – mantiene el acceso a páginas protegidas por contraseña; caduca en 14 días</li>
+        <li style={listItemStyle}>hs-messages-is-open – guarda si el widget de chat está abierto; caduca en 30 minutos</li>
+        <li style={listItemStyle}>hs-messages-hide-welcome-message – evita que el mensaje de bienvenida vuelva a mostrarse; caduca en 1 día</li>
+        <li style={listItemStyle}>__hsmem – identifica a los miembros con sesión iniciada; caduca en 7 días</li>
+        <li style={listItemStyle}>hs-membership-csrf – garantiza que los inicios de sesión de miembros no puedan falsificarse; caduca al final de la sesión</li>
+        <li style={listItemStyle}>hs_langswitcher_choice – guarda el idioma seleccionado; caduca en 2 años</li>
+        <li style={listItemStyle}>__cfruid, __cfuvid, __cf_bm – cookies de Cloudflare para seguridad y limitación de tráfico; caducan al final de la sesión o en 30 minutos</li>
+      </ul>
 
-          {/* Consentimiento de Menores */}
-          <section>
-            <h2 className="text-2xl font-bold text-black mb-4">
-              Consentimiento de Menores
-            </h2>
-            <p>
-              Nuestro sitio web no está dirigido a menores de 16 años. No
-              recopilamos información personal de menores de 16 años. Si
-              descubrimos que hemos recopilado información de un menor sin el
-              consentimiento de sus padres, eliminaremos esa información de
-              inmediato.
-            </p>
-          </section>
+      <h2 style={sectionHeadingStyle}>3. Cómo desactivar las cookies</h2>
+      <p style={paragraphStyle}>
+        Las cookies no esenciales pueden desactivarse en la sección "Configurar Cookies" disponible en el pie de página del sitio web. Todos los navegadores también permiten gestionar o eliminar cookies.
+      </p>
 
-          {/* Cambios */}
-          <section>
-            <h2 className="text-2xl font-bold text-black mb-4">
-              Cambios en la Política de Cookies
-            </h2>
-            <p>
-              Minute Call puede actualizar esta Política de Cookies
-              periódicamente. Le informaremos sobre cualquier cambio importante
-              publicando la política actualizada en nuestro sitio web con una
-              fecha de revisión actualizada.
-            </p>
-          </section>
-
-          {/* Contacto */}
-          <section>
-            <h2 className="text-2xl font-bold text-black mb-4">
-              Contacto
-            </h2>
-            <p>
-              Si tiene preguntas sobre nuestra Política de Cookies, contáctenos
-              en:
-            </p>
-            <div className="mt-4 bg-white rounded-2xl p-6">
-              <p className="font-semibold text-black">Minute Call</p>
-              <p className="text-[#6B6B6B]">
-                Email: privacy@minutecall.com
-              </p>
-            </div>
-          </section>
-        </div>
-      </main>
-      <Footer />
+      <h2 style={sectionHeadingStyle}>4. Aceptación de cookies</h2>
+      <p style={paragraphStyle}>
+        Este sitio web no instala cookies en los dispositivos de los usuarios hasta que estos hayan aceptado su instalación. Si decide no aceptarlas o posteriormente desactivarlas, es posible que algunos servicios no estén disponibles o que no pueda acceder a determinadas funciones o características del sitio web.
+      </p>
     </div>
   );
 }

@@ -79,7 +79,7 @@ export default function SobreNosotros() {
               }}
             >
               <img
-                src="https://framerusercontent.com/images/6QCXvNGkCPpl1XOgOz1Op6nosP0.jpeg"
+                src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
                 alt="Alberto Castiel"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
@@ -104,7 +104,7 @@ export default function SobreNosotros() {
               }}
             >
               <img
-                src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
+                src="https://framerusercontent.com/images/6QCXvNGkCPpl1XOgOz1Op6nosP0.jpeg"
                 alt="Beatriz De Tena"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />

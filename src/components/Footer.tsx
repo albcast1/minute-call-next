@@ -59,7 +59,7 @@ export default function Footer() {
               <Link href="/articulos/secretaria-virtual-o-call-center-para-pymes" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>
                 Secretaría virtual vs call center
               </Link>
-              <Link href="/articulos/recepcionista-virtual-para-pymes-evitar-llamadas-perdidas" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>
+              <Link href="/articulos/recepcionista-virtual-para-pymes-evitar-llamadas-perdidas-leads-frios-y-distracciones-en-el-equipo" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>
                 Recepcionista virtual para PYMES
               </Link>
               <Link href="/articulos/coste-externalizar-atencion-telefonica-pyme-espana" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>
