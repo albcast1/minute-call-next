@@ -13,36 +13,15 @@ export default function Nav() {
     >
       <div
         className="mx-auto px-6 py-0 flex items-center justify-between"
-        style={{
-          maxWidth: "1200px",
-          height: "70px",
-        }}
+        style={{ maxWidth: "1200px", height: "70px" }}
       >
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <svg
-            width="25"
-            height="25"
-            viewBox="0 0 25 25"
-            fill="none"
-          >
-            <rect width="25" height="25" rx="6" fill="black" />
-            <path
-              d="M14.5 4L8 13.5h4l-1.5 7.5L17 11.5h-4L14.5 4z"
-              fill="#5AFF15"
-            />
-          </svg>
-          <span
-            className="text-black"
-            style={{
-              fontFamily: "Inter",
-              fontSize: "26px",
-              fontWeight: 500,
-              letterSpacing: "-1.56px",
-            }}
-          >
-            minute call
-          </span>
+        {/* Logo - PNG from Framer */}
+        <Link href="/" className="hover:opacity-80 transition-opacity">
+          <img
+            src="https://framerusercontent.com/assets/vVcZO7NVGGx5NLbyvAVMug0g1ko.png"
+            alt="minute call"
+            style={{ height: 34, width: "auto" }}
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -93,14 +72,14 @@ export default function Nav() {
           />
           <span
             className="w-6 h-0.5 bg-black transition-all"
-            style={{
-              opacity: mobileMenuOpen ? "0" : "1",
-            }}
+            style={{ opacity: mobileMenuOpen ? "0" : "1" }}
           />
           <span
             className="w-6 h-0.5 bg-black transition-all"
             style={{
-              transform: mobileMenuOpen ? "rotate(-45deg) translateY(-8px)" : "",
+              transform: mobileMenuOpen
+                ? "rotate(-45deg) translateY(-8px)"
+                : "",
             }}
           />
         </button>
@@ -114,14 +93,7 @@ export default function Nav() {
         >
           <Link
             href="/sobre-nosotros"
-            style={{
-              fontFamily: "Inter",
-              fontSize: "14px",
-              fontWeight: 500,
-              letterSpacing: "-0.56px",
-              color: "black",
-            }}
-            className="hover:opacity-80 transition-opacity"
+            style={{ fontSize: "14px", fontWeight: 500, color: "black" }}
             onClick={() => setMobileMenuOpen(false)}
           >
             Nosotros
@@ -129,18 +101,14 @@ export default function Nav() {
           <Link
             href="/reserva-llamada"
             style={{
-              fontFamily: "Inter",
               fontSize: "14px",
               fontWeight: 500,
-              letterSpacing: "-0.56px",
               color: "white",
               backgroundColor: "black",
               padding: "10px 20px",
               borderRadius: "50px",
-              display: "inline-block",
               textAlign: "center",
             }}
-            className="hover:opacity-80 transition-opacity"
             onClick={() => setMobileMenuOpen(false)}
           >
             Contacto

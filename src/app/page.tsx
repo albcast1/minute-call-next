@@ -167,12 +167,13 @@ export default function Home() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            opacity: 0.6,
           }}
         >
           <img
             src="https://framerusercontent.com/assets/vVcZO7NVGGx5NLbyvAVMug0g1ko.png"
             alt="Partner logos"
-            style={{ maxWidth: "100%", height: "auto", maxHeight: 60 }}
+            style={{ height: 35, width: "auto" }}
           />
         </div>
       </section>
@@ -258,11 +259,11 @@ export default function Home() {
             </p>
           </div>
 
-          <div style={{ flex: "1 1 350px", maxWidth: 450 }}>
+          <div style={{ flex: "0 0 auto", alignSelf: "center" }}>
             <img
               src="https://framerusercontent.com/images/yFHgV1OOpi4Y9SNihdiTqSFXU.png"
               alt="Resultados de clientes"
-              style={{ width: "100%", borderRadius: 16 }}
+              style={{ width: 180, borderRadius: 12 }}
             />
           </div>
         </div>
@@ -454,7 +455,7 @@ export default function Home() {
               }}
             >
               <img
-                src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
+                src="https://framerusercontent.com/images/6QCXvNGkCPpl1XOgOz1Op6nosP0.jpeg"
                 alt="Alberto Castiel"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
@@ -462,7 +463,7 @@ export default function Home() {
             <h3 style={{ fontSize: 22 }}>Alberto Castiel</h3>
             <p className="service-card-body">
               Ex General Manager en Leocare (130M€ en Series B). Lideró el
-              crecimiento de una fintech de 0 a 45M€ with +30 agentes.
+              crecimiento de una fintech de 0 a 45M€ con +30 agentes.
             </p>
           </div>
 
@@ -478,7 +479,7 @@ export default function Home() {
               }}
             >
               <img
-                src="https://framerusercontent.com/images/6QCXvNGkCPpl1XOgOz1Op6nosP0.jpeg"
+                src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
                 alt="Beatriz De Tena"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
