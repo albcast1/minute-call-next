@@ -9,11 +9,16 @@ export default function Footer() {
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 48 }}>
           {/* Branding */}
           <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-            <img
-              src="https://framerusercontent.com/assets/vVcZO7NVGGx5NLbyvAVMug0g1ko.png"
-              alt="minute call"
-              style={{ height: 28, width: "auto", display: "block" }}
-            />
+            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <img
+                src="https://framerusercontent.com/images/ovXvDkQi2KTHjwV1Nl9n9WlloRI.png"
+                alt=""
+                style={{ width: 20, height: 20 }}
+              />
+              <span style={{ fontFamily: "Inter, sans-serif", fontSize: 18, fontWeight: 500, letterSpacing: "-1px", color: "black" }}>
+                minute call
+              </span>
+            </div>
             <p style={{ fontSize: 14, fontWeight: 500, color: "black", margin: 0 }}>
               No pierdas ninguna llamada más.
             </p>

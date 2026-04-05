@@ -15,13 +15,24 @@ export default function Nav() {
         className="mx-auto px-6 py-0 flex items-center justify-between"
         style={{ maxWidth: "1200px", height: "70px" }}
       >
-        {/* Logo - PNG from Framer */}
-        <Link href="/" className="hover:opacity-80 transition-opacity">
+        {/* Logo: icon + text */}
+        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <img
-            src="https://framerusercontent.com/assets/vVcZO7NVGGx5NLbyvAVMug0g1ko.png"
-            alt="minute call"
-            style={{ height: 34, width: "auto" }}
+            src="https://framerusercontent.com/images/ovXvDkQi2KTHjwV1Nl9n9WlloRI.png"
+            alt=""
+            style={{ width: 25, height: 25 }}
           />
+          <span
+            style={{
+              fontFamily: "Inter, sans-serif",
+              fontSize: 26,
+              fontWeight: 500,
+              letterSpacing: "-1.56px",
+              color: "black",
+            }}
+          >
+            minute call
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -29,8 +40,8 @@ export default function Nav() {
           <Link
             href="/sobre-nosotros"
             style={{
-              fontFamily: "Inter",
-              fontSize: "14px",
+              fontFamily: "Inter, sans-serif",
+              fontSize: 14,
               fontWeight: 500,
               letterSpacing: "-0.56px",
               color: "black",
@@ -42,15 +53,14 @@ export default function Nav() {
           <Link
             href="/reserva-llamada"
             style={{
-              fontFamily: "Inter",
-              fontSize: "14px",
+              fontFamily: "Inter, sans-serif",
+              fontSize: 14,
               fontWeight: 500,
               letterSpacing: "-0.56px",
               color: "white",
               backgroundColor: "black",
               padding: "10px 20px",
-              borderRadius: "50px",
-              display: "inline-block",
+              borderRadius: 50,
             }}
             className="hover:opacity-80 transition-opacity"
           >
@@ -64,51 +74,20 @@ export default function Nav() {
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
-          <span
-            className="w-6 h-0.5 bg-black transition-all"
-            style={{
-              transform: mobileMenuOpen ? "rotate(45deg) translateY(8px)" : "",
-            }}
-          />
-          <span
-            className="w-6 h-0.5 bg-black transition-all"
-            style={{ opacity: mobileMenuOpen ? "0" : "1" }}
-          />
-          <span
-            className="w-6 h-0.5 bg-black transition-all"
-            style={{
-              transform: mobileMenuOpen
-                ? "rotate(-45deg) translateY(-8px)"
-                : "",
-            }}
-          />
+          <span className="w-6 h-0.5 bg-black transition-all" style={{ transform: mobileMenuOpen ? "rotate(45deg) translateY(8px)" : "" }} />
+          <span className="w-6 h-0.5 bg-black transition-all" style={{ opacity: mobileMenuOpen ? 0 : 1 }} />
+          <span className="w-6 h-0.5 bg-black transition-all" style={{ transform: mobileMenuOpen ? "rotate(-45deg) translateY(-8px)" : "" }} />
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div
-          className="md:hidden px-6 py-4 flex flex-col gap-4"
-          style={{ backgroundColor: "#EFEBE5" }}
-        >
-          <Link
-            href="/sobre-nosotros"
-            style={{ fontSize: "14px", fontWeight: 500, color: "black" }}
-            onClick={() => setMobileMenuOpen(false)}
-          >
+        <div className="md:hidden px-6 py-4 flex flex-col gap-4" style={{ backgroundColor: "#EFEBE5" }}>
+          <Link href="/sobre-nosotros" style={{ fontSize: 14, fontWeight: 500, color: "black" }} onClick={() => setMobileMenuOpen(false)}>
             Nosotros
           </Link>
           <Link
             href="/reserva-llamada"
-            style={{
-              fontSize: "14px",
-              fontWeight: 500,
-              color: "white",
-              backgroundColor: "black",
-              padding: "10px 20px",
-              borderRadius: "50px",
-              textAlign: "center",
-            }}
+            style={{ fontSize: 14, fontWeight: 500, color: "white", backgroundColor: "black", padding: "10px 20px", borderRadius: 50, textAlign: "center" }}
             onClick={() => setMobileMenuOpen(false)}
           >
             Contacto
