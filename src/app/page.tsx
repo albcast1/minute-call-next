@@ -90,14 +90,14 @@ export default function Home() {
             </div>
           </div>
           {/* Video */}
-          <div style={{ position: "relative" }}>
+          <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden" }}>
             <video
               src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
               playsInline
               muted
               loop
               autoPlay
-              style={{ width: "100%", maxHeight: 500, objectFit: "cover", display: "block" }}
+              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
             />
           </div>
           {/* Video controls bar */}
