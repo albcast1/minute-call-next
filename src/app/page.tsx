@@ -72,7 +72,7 @@ export default function Home() {
                 fontWeight: 500,
               }}
             >
-              Receptionista
+              Recepcionista
             </div>
             <div
               style={{
