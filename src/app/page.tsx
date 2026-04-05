@@ -21,12 +21,12 @@ export default function Home() {
           {/* Trustpilot badge */}
           <div style={{ marginBottom: 16 }}>
             <img
-              src="https://www.minute-call.com/images/pZqRL99lnwLqdJMbZFfqwh1XGBk.png"
+              src="https://framerusercontent.com/images/pZqRL99lnwLqdJMbZFfqwh1XGBk.png"
               alt="Trustpilot"
               style={{ height: 30, display: "inline" }}
             />
             <img
-              src="https://www.minute-call.com/images/B3NliQmX4vcGor4wPgTZ3oHU.png"
+              src="https://framerusercontent.com/images/B3NliQmX4vcGor4wPgTZ3oHU.png"
               alt="Trustpilot stars"
               style={{ height: 19, marginLeft: 4, display: "inline" }}
             />
@@ -94,11 +94,14 @@ export default function Home() {
               Recepcionista IA
             </div>
           </div>
-          {/* Video thumbnail */}
+          {/* Video */}
           <div style={{ position: "relative" }}>
-            <img
-              src="https://www.minute-call.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
-              alt="Recepcionista atendiendo llamada"
+            <video
+              src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
+              playsInline
+              muted
+              loop
+              autoPlay
               style={{ width: "100%", display: "block" }}
             />
           </div>
@@ -169,29 +172,13 @@ export default function Home() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            gap: 48,
-            flexWrap: "wrap",
-            opacity: 0.4,
           }}
         >
-          {["Logo 1", "Logo 2", "Logo 3", "Logo 4", "Logo 5"].map((logo, i) => (
-            <div
-              key={i}
-              style={{
-                width: 100,
-                height: 40,
-                background: "rgba(0,0,0,0.06)",
-                borderRadius: 8,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: 11,
-                color: "rgba(0,0,0,0.3)",
-              }}
-            >
-              {logo}
-            </div>
-          ))}
+          <img
+            src="https://framerusercontent.com/assets/vVcZO7NVGGx5NLbyvAVMug0g1ko.png"
+            alt="Partner logos"
+            style={{ maxWidth: "100%", height: "auto", maxHeight: 60 }}
+          />
         </div>
       </section>
 
@@ -278,7 +265,7 @@ export default function Home() {
 
           <div style={{ flex: "1 1 350px", maxWidth: 450 }}>
             <img
-              src="https://www.minute-call.com/images/yFHgV1OOpi4Y9SNihdiTqSFXU.png"
+              src="https://framerusercontent.com/images/yFHgV1OOpi4Y9SNihdiTqSFXU.png"
               alt="Resultados de clientes"
               style={{ width: "100%", borderRadius: 16 }}
             />
@@ -472,7 +459,7 @@ export default function Home() {
               }}
             >
               <img
-                src="https://www.minute-call.com/images/ZEsJWCM3N6KfEZyYHqm1kNH6GE.jpg"
+                src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
                 alt="Alberto Castiel"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
@@ -496,7 +483,7 @@ export default function Home() {
               }}
             >
               <img
-                src="https://www.minute-call.com/images/lJYwrz3h1IZqjhKLB2lJJw8Jfp8.jpg"
+                src="https://framerusercontent.com/images/6QCXvNGkCPpl1XOgOz1Op6nosP0.jpeg"
                 alt="Beatriz De Tena"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
