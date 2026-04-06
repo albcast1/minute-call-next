@@ -65,8 +65,8 @@ export default async function ArticlePage({
       </Link>
 
       {/* Article Header */}
-      <h1 style={{ marginBottom: 16 }}>{article.title}</h1>
-      <p style={{ fontSize: 18, marginBottom: 48 }}>{article.excerpt}</p>
+      <h1 style={{ marginBottom: 16, fontSize: 36, letterSpacing: "-2px", lineHeight: "40px" }}>{article.title}</h1>
+      <p style={{ fontSize: 16, marginBottom: 48 }}>{article.excerpt}</p>
 
       {/* Article Content */}
       <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
@@ -96,18 +96,7 @@ export default async function ArticlePage({
         </section>
       )}
 
-      {/* CTA */}
-      <section style={{ marginTop: 80, textAlign: "center" }}>
-        <h2>
-          No pierdas ninguna llamada <span className="serif-italic">más.</span>
-        </h2>
-        <p style={{ maxWidth: 500, margin: "16px auto 32px" }}>
-          Servicio premium de secretaría virtual y atención telefónica para PYMES.
-        </p>
-        <Link href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada
-        </Link>
-      </section>
+      {/* No CTA section - "No pierdas" text is only in the footer */}
     </div>
   );
 }

@@ -8,14 +8,14 @@ export const metadata: Metadata = {
 
 export default function PoliticaPrivacidad() {
   return (
-    <div style={{ maxWidth: 1200, margin: "0 auto", padding: "60px 24px 80px" }}>
+    <div style={{ maxWidth: 1200, margin: "0 auto", padding: "60px 64px 80px" }}>
       {/* Badge */}
       <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
         Privacidad
       </span>
 
       {/* Heading */}
-      <h1 style={{ marginTop: 16 }}>
+      <h1 style={{ marginTop: 16, fontSize: 36, letterSpacing: "-2px" }}>
         Política de <span className="serif-italic">Privacidad</span>
       </h1>
 
@@ -30,7 +30,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Sobre nosotros */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>Sobre nosotros</h2>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>Sobre nosotros</h2>
           <p>
             Somos Minute Call S.L. y tratamos sus datos personales como Responsables del Tratamiento.
             Esto significa que nos encargamos de cómo utilizar y proteger sus datos.
@@ -39,7 +39,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Qué uso damos a sus datos */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>Qué uso damos a sus datos</h2>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>Qué uso damos a sus datos</h2>
           <p>
             Utilizaremos sus datos (facilitados online o por otros medios), entre otras finalidades,
             para responder a sus consultas, dudas y sugerencias.
@@ -48,7 +48,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Para qué los utilizamos */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>Para qué los utilizamos</h2>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>Para qué los utilizamos</h2>
           <p>
             Estamos legitimados para tratar sus datos porque tenemos un interés legítimo en responder
             a sus preguntas y atender sus dudas y sugerencias.
@@ -57,7 +57,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Sus derechos */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>Sus derechos</h2>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>Sus derechos</h2>
           <p>
             Tiene derecho a acceder, rectificar o suprimir sus datos personales.
           </p>
@@ -65,7 +65,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Cómo puede contactarnos */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>Cómo puede contactarnos</h2>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>Cómo puede contactarnos</h2>
           <p>
             Puede contactar con el Delegado de Protección de Datos por correo electrónico:{" "}
             <a href="mailto:privacy@minute-call.com" style={{ color: "black", fontWeight: 500, textDecoration: "underline" }}>
@@ -76,7 +76,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Qué datos recopila Minute Call */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>
             Qué datos recopila Minute Call a través del sitio web
           </h2>
           <p>
@@ -94,7 +94,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Con qué finalidad trata Minute Call */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>
             Con qué finalidad trata Minute Call sus datos personales
           </h2>
           <p>
@@ -134,7 +134,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Durante cuánto tiempo conservamos */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>
             Durante cuánto tiempo conservamos sus datos personales
           </h2>
           <p>
@@ -160,7 +160,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Legitimación */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>
             Cuál es la legitimación para el tratamiento de mis datos personales
           </h2>
           <p>
@@ -172,7 +172,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Derechos del titular */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>
             Qué derechos tiene como titular de los datos
           </h2>
           <p>
@@ -204,7 +204,7 @@ export default function PoliticaPrivacidad() {
 
         {/* Cambios en la política */}
         <section>
-          <h2 style={{ marginTop: 48, marginBottom: 16 }}>Cambios en la política de privacidad</h2>
+          <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 24, letterSpacing: "-1px" }}>Cambios en la política de privacidad</h2>
           <p>
             Podremos modificar la información contenida en esta Política de Privacidad cuando lo
             consideremos oportuno. En cualquier caso, le sugerimos que revise esta Política de

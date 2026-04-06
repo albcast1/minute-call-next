@@ -12,8 +12,8 @@ export default function Nav() {
       style={{ backgroundColor: "#EFEBE5" }}
     >
       <div
-        className="mx-auto px-6 py-0 flex items-center justify-between"
-        style={{ maxWidth: "1200px", height: "70px" }}
+        className="mx-auto flex items-center justify-between"
+        style={{ maxWidth: "1200px", height: "85px", padding: "24px 64px" }}
       >
         {/* Logo: icon + text */}
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">

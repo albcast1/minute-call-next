@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <footer style={{ backgroundColor: "#EFEBE5", borderTop: "1px solid rgba(0,0,0,0.06)" }}>
-      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "48px 24px" }}>
+      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "48px 64px" }}>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 48 }}>
           {/* Branding */}
           <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
@@ -19,9 +19,9 @@ export default function Footer() {
                 minute call
               </span>
             </div>
-            <p style={{ fontSize: 14, fontWeight: 500, color: "black", margin: 0 }}>
+            <h2 style={{ fontSize: 32, fontWeight: 500, color: "black", margin: 0, letterSpacing: "-1.92px", lineHeight: "35.2px" }}>
               No pierdas ninguna llamada más.
-            </p>
+            </h2>
             <p style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", margin: 0 }}>
               Servicio premium de secretaría virtual y atención telefónica para PYMES.
             </p>

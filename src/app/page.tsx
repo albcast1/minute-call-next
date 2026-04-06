@@ -1,5 +1,4 @@
 import Link from "next/link";
-import VideoCard from "@/components/VideoCard";
 
 export default function Home() {
   return (
@@ -9,7 +8,7 @@ export default function Home() {
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "80px 24px 60px",
+          padding: "80px 64px 60px",
           display: "flex",
           alignItems: "flex-start",
           justifyContent: "space-between",
@@ -18,17 +17,15 @@ export default function Home() {
         }}
       >
         {/* Left column */}
-        <div style={{ flex: "1 1 500px", maxWidth: 600 }}>
+        <div style={{ flex: "1 1 480px", maxWidth: 560 }}>
           {/* Trustpilot badge */}
-          <div style={{ marginBottom: 20 }}>
-            <a href="https://www.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block" }}>
-              <img
-                src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
-                alt="Trustpilot reviews"
-                style={{ height: 36 }}
-              />
-            </a>
-          </div>
+          <a href="https://www.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", marginBottom: 20 }}>
+            <img
+              src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
+              alt="Trustpilot reviews"
+              style={{ height: 36 }}
+            />
+          </a>
 
           {/* Pill label */}
           <div style={{ marginBottom: 24 }}>
@@ -54,8 +51,22 @@ export default function Home() {
           </Link>
         </div>
 
-        {/* Right column - Video card */}
-        <VideoCard />
+        {/* Right column - Video placeholder (waiting for Alberto's videos) */}
+        <div
+          style={{
+            flex: "1 1 400px",
+            maxWidth: 460,
+            background: "#F5F5F5",
+            borderRadius: 16,
+            overflow: "hidden",
+            minHeight: 400,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <p style={{ color: "rgba(0,0,0,0.3)", fontSize: 14 }}>Video pendiente</p>
+        </div>
       </section>
 
       {/* ===== PARTNERS ===== */}
@@ -63,7 +74,7 @@ export default function Home() {
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "40px 24px",
+          padding: "40px 64px",
           textAlign: "center",
         }}
       >
@@ -102,7 +113,7 @@ export default function Home() {
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "80px 24px",
+          padding: "80px 64px",
           textAlign: "center",
         }}
       >
@@ -148,18 +159,19 @@ export default function Home() {
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "80px 24px",
+          padding: "80px 64px",
+          textAlign: "center",
         }}
       >
-        <div style={{ display: "flex", gap: 60, alignItems: "flex-start", flexWrap: "wrap" }}>
+        <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
+          Resultados de clientes
+        </span>
+        <h2 style={{ marginTop: 16 }}>
+          Cada llamada perdida es una{" "}
+          <span className="serif-italic">oportunidad perdida.</span>
+        </h2>
+        <div style={{ display: "flex", gap: 60, alignItems: "flex-start", flexWrap: "wrap", textAlign: "left", marginTop: 24 }}>
           <div style={{ flex: "1 1 500px" }}>
-            <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
-              Resultados de clientes
-            </span>
-            <h2 style={{ marginTop: 16 }}>
-              Cada llamada perdida es una{" "}
-              <span className="serif-italic">oportunidad perdida.</span>
-            </h2>
             <p style={{ maxWidth: 520, marginTop: 24 }}>
               El <strong style={{ color: "black" }}>78% de los leads</strong> contratan al negocio
               que responde <strong style={{ color: "black" }}>primero</strong> - sin embargo la
@@ -218,7 +230,8 @@ export default function Home() {
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "40px 24px 80px",
+          padding: "40px 64px 80px",
+          textAlign: "center",
         }}
       >
         <p style={{ fontSize: 14, fontWeight: 500, color: "rgba(0,0,0,0.56)", marginBottom: 8, letterSpacing: -0.5 }}>
@@ -272,7 +285,8 @@ export default function Home() {
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "80px 24px",
+          padding: "80px 64px",
+          textAlign: "center",
         }}
       >
         <span className="pill-label" style={{ marginBottom: 16, display: "inline-block" }}>
@@ -288,6 +302,7 @@ export default function Home() {
             gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))",
             gap: 24,
             marginTop: 48,
+            textAlign: "left",
           }}
         >
           {/* Otros Call Centers */}
@@ -358,7 +373,8 @@ export default function Home() {
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "80px 24px",
+          padding: "80px 64px",
+          textAlign: "center",
         }}
       >
         <span className="pill-label" style={{ marginBottom: 16, display: "inline-block" }}>
@@ -376,12 +392,12 @@ export default function Home() {
             flexWrap: "wrap",
           }}
         >
-          <div style={{ flex: "1 1 0", minWidth: 300 }}>
-            <div style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20 }}>
+          <div style={{ flex: "1 1 0", minWidth: 300, textAlign: "left" }}>
+            <div style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}>
               <img
                 src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
                 alt="Alberto Castiel"
-                style={{ width: "100%", height: "auto", display: "block" }}
+                style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
               />
             </div>
             <h3 style={{ fontSize: 22 }}>Alberto Castiel</h3>
@@ -391,12 +407,12 @@ export default function Home() {
             </p>
           </div>
 
-          <div style={{ flex: "1 1 0", minWidth: 300 }}>
-            <div style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20 }}>
+          <div style={{ flex: "1 1 0", minWidth: 300, textAlign: "left" }}>
+            <div style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}>
               <img
                 src="https://framerusercontent.com/images/6QCXvNGkCPpl1XOgOz1Op6nosP0.jpeg"
                 alt="Beatriz De Tena"
-                style={{ width: "100%", height: "auto", display: "block" }}
+                style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
               />
             </div>
             <h3 style={{ fontSize: 22 }}>Beatriz De Tena</h3>
@@ -413,7 +429,8 @@ export default function Home() {
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "80px 24px",
+          padding: "80px 64px",
+          textAlign: "center",
         }}
       >
         <span className="pill-label" style={{ marginBottom: 16, display: "inline-block" }}>
@@ -429,6 +446,7 @@ export default function Home() {
             gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
             gap: 24,
             marginTop: 48,
+            textAlign: "left",
           }}
         >
           {[
@@ -472,7 +490,8 @@ export default function Home() {
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "80px 24px",
+          padding: "80px 64px",
+          textAlign: "center",
         }}
       >
         <span className="pill-label" style={{ marginBottom: 16, display: "inline-block" }}>
@@ -480,7 +499,7 @@ export default function Home() {
         </span>
         <h2 style={{ marginTop: 16 }}>FAQ</h2>
 
-        <div style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 0 }}>
+        <div style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 0, textAlign: "left" }}>
           {[
             {
               q: "¿Qué es Minute Call?",
@@ -531,25 +550,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== CTA FINAL ===== */}
-      <section
-        style={{
-          maxWidth: 900,
-          margin: "0 auto",
-          padding: "80px 24px 120px",
-          textAlign: "center",
-        }}
-      >
-        <h2>
-          No pierdas ninguna llamada <span className="serif-italic">más.</span>
-        </h2>
-        <p style={{ maxWidth: 560, margin: "16px auto 40px" }}>
-          Servicio premium de secretaría virtual y atención telefónica para PYMES.
-        </p>
-        <Link href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada
-        </Link>
-      </section>
+      {/* No CTA section here - "No pierdas" text is only in the footer */}
     </>
   );
 }

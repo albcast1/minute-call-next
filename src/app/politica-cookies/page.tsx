@@ -2,18 +2,18 @@ export default function PoliticaCookies() {
   const containerStyle = {
     maxWidth: 800,
     margin: "0 auto",
-    padding: "80px 24px",
+    padding: "80px 64px",
   };
 
   const headingStyle = {
-    fontSize: "32px",
+    fontSize: "28px",
     fontWeight: "bold",
     marginBottom: "32px",
     marginTop: "0",
   };
 
   const sectionHeadingStyle = {
-    fontSize: "20px",
+    fontSize: "18px",
     fontWeight: "bold",
     marginTop: "32px",
     marginBottom: "16px",
