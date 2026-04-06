@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import sectors from '@/data/sectors.json'
 import articles from '@/data/articles.json'
+import cities from '@/data/cities.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.minute-call.com'
@@ -28,5 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
-  return [...staticPages, ...sectorPages, ...articlePages]
+  const cityPages = cities.map((city) => ({
+    url: `${baseUrl}/atencion-telefonica/${city.slug}`,
+    lastModified: new Date('2025-04-06'),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  return [...staticPages, ...sectorPages, ...articlePages, ...cityPages]
 }
