@@ -160,18 +160,18 @@ export default function Home() {
           maxWidth: 1200,
           margin: "0 auto",
           padding: "80px 64px",
-          textAlign: "center",
         }}
       >
-        <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
-          Resultados de clientes
-        </span>
-        <h2 style={{ marginTop: 16 }}>
-          Cada llamada perdida es una{" "}
-          <span className="serif-italic">oportunidad perdida.</span>
-        </h2>
-        <div style={{ display: "flex", gap: 60, alignItems: "flex-start", flexWrap: "wrap", textAlign: "left", marginTop: 24 }}>
+        <div style={{ display: "flex", gap: 48, alignItems: "flex-start", flexWrap: "wrap" }}>
+          {/* Left column: title, text, KPIs */}
           <div style={{ flex: "1 1 500px" }}>
+            <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
+              Resultados de clientes
+            </span>
+            <h2 style={{ marginTop: 16 }}>
+              Cada llamada perdida es una{" "}
+              <span className="serif-italic">oportunidad perdida.</span>
+            </h2>
             <p style={{ maxWidth: 520, marginTop: 24 }}>
               El <strong style={{ color: "black" }}>78% de los leads</strong> contratan al negocio
               que responde <strong style={{ color: "black" }}>primero</strong> - sin embargo la
@@ -188,39 +188,39 @@ export default function Home() {
               somos partners de Teleperformance (nº1 mundial BPO), muestra de
               nuestras altos estándares e calidad.
             </p>
+
+            {/* KPIs - inside left column */}
+            <div style={{ display: "flex", gap: 20, marginTop: 40, flexWrap: "wrap" }}>
+              <div className="card" style={{ padding: 24, flex: "1 1 180px" }}>
+                <p style={{ fontSize: 48, fontWeight: 500, color: "black", letterSpacing: -2, marginBottom: 8 }}>
+                  15 s
+                </p>
+                <h3 style={{ fontSize: 18 }}>Tiempo de respuesta</h3>
+                <p className="service-card-body">Somos rápidos.</p>
+              </div>
+              <div className="card" style={{ padding: 24, flex: "1 1 180px" }}>
+                <p style={{ fontSize: 48, fontWeight: 500, color: "black", letterSpacing: -2, marginBottom: 8 }}>
+                  98%
+                </p>
+                <h3 style={{ fontSize: 18 }}>Tasa de respuesta</h3>
+                <p className="service-card-body">No pierdas más llamadas.</p>
+              </div>
+            </div>
           </div>
 
-          <div style={{ flex: "0 0 auto", alignSelf: "center" }}>
-            <img
-              src="https://framerusercontent.com/images/yFHgV1OOpi4Y9SNihdiTqSFXU.png"
-              alt="Resultados de clientes"
-              style={{ width: 172, borderRadius: 12 }}
-            />
-          </div>
-        </div>
-
-        {/* Stats */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-            gap: 24,
-            marginTop: 64,
-          }}
-        >
-          <div className="card" style={{ padding: 32 }}>
-            <p style={{ fontSize: 48, fontWeight: 500, color: "black", letterSpacing: -2, marginBottom: 8 }}>
-              15 s
-            </p>
-            <h3>Tiempo de respuesta</h3>
-            <p className="service-card-body">Somos rápidos.</p>
-          </div>
-          <div className="card" style={{ padding: 32 }}>
-            <p style={{ fontSize: 48, fontWeight: 500, color: "black", letterSpacing: -2, marginBottom: 8 }}>
-              98%
-            </p>
-            <h3>Tasa de respuesta</h3>
-            <p className="service-card-body">No pierdas más llamadas.</p>
+          {/* Right column: Glowhaus video */}
+          <div style={{ flex: "0 0 420px", alignSelf: "center" }}>
+            <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5" }}>
+              <video
+                src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
+                playsInline
+                muted
+                loop
+                autoPlay
+                preload="auto"
+                style={{ width: "100%", height: "auto", display: "block" }}
+              />
+            </div>
           </div>
         </div>
       </section>

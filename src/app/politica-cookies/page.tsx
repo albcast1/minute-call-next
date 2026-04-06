@@ -5,18 +5,22 @@ export default function PoliticaCookies() {
     padding: "80px 64px",
   };
 
-  const headingStyle = {
+  const headingStyle: React.CSSProperties = {
     fontSize: "28px",
     fontWeight: "bold",
     marginBottom: "32px",
     marginTop: "0",
+    lineHeight: "34px",
+    letterSpacing: "-1px",
   };
 
-  const sectionHeadingStyle = {
+  const sectionHeadingStyle: React.CSSProperties = {
     fontSize: "18px",
-    fontWeight: "bold",
+    fontWeight: 600,
     marginTop: "32px",
     marginBottom: "16px",
+    lineHeight: "24px",
+    letterSpacing: "-0.5px",
   };
 
   const paragraphStyle = {

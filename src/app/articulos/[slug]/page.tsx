@@ -65,8 +65,8 @@ export default async function ArticlePage({
       </Link>
 
       {/* Article Header */}
-      <h1 style={{ marginBottom: 16, fontSize: 36, letterSpacing: "-2px", lineHeight: "40px" }}>{article.title}</h1>
-      <p style={{ fontSize: 16, marginBottom: 48 }}>{article.excerpt}</p>
+      <h1 style={{ marginBottom: 16, fontSize: 32, letterSpacing: "-1.5px", lineHeight: "38px" }}>{article.title}</h1>
+      <p style={{ fontSize: 16, marginBottom: 48, lineHeight: "24px" }}>{article.excerpt}</p>
 
       {/* Article Content */}
       <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
@@ -80,7 +80,7 @@ export default async function ArticlePage({
       {/* Related Articles */}
       {relatedArticles.length > 0 && (
         <section style={{ marginTop: 80 }}>
-          <h2 style={{ fontSize: 28, marginBottom: 24 }}>
+          <h2 style={{ fontSize: 22, letterSpacing: "-0.8px", lineHeight: "28px", marginBottom: 24 }}>
             Otros artículos
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
