@@ -2,11 +2,19 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import { OrganizationSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Atención telefónica para PYMES",
   description:
     "Servicio de atención telefónica con agentes nativos y asistentes de IA. Recepción de llamadas, filtrado, conversión de leads, y gestión de citas.",
+  metadataBase: new URL("https://www.minute-call.com"),
+  alternates: { canonical: "/" },
+  openGraph: {
+    siteName: "minute call",
+    locale: "es_ES",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -32,6 +40,7 @@ export default function RootLayout({
             `,
           }}
         />
+        <OrganizationSchema />
       </head>
       <body className="min-h-full flex flex-col bg-[#EFEBE5]">
         <Nav />

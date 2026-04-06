@@ -72,7 +72,7 @@ export default async function LandingPage({
   }
 
   return (
-    <main className="min-h-screen bg-[#EFEBE5] font-sans">
+    <div>
       {/* Hero Section */}
       <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
@@ -106,7 +106,7 @@ export default async function LandingPage({
 
           {/* CTA Button */}
           <div className="flex justify-center mb-12">
-            <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-full text-lg transition-colors">
+            <button style={{ backgroundColor: "#5AFF15", color: "black", border: "2px solid #222", fontWeight: "600", padding: "16px 32px", borderRadius: "50px", fontSize: "18px", cursor: "pointer", transition: "all 0.2s ease" }}>
               Solicitar demo
             </button>
           </div>
@@ -114,7 +114,7 @@ export default async function LandingPage({
       </section>
 
       {/* Testimonial Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "rgba(0,0,0,0.04)" }}>
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-4 text-4xl">💬</div>
           <blockquote className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-6 italic">
@@ -139,7 +139,7 @@ export default async function LandingPage({
             {sector.features.map((feature, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow"
+                style={{ backgroundColor: "rgba(0,0,0,0.04)", borderRadius: "24px", padding: "32px" }}
               >
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
                   {feature.title}
@@ -154,7 +154,7 @@ export default async function LandingPage({
       </section>
 
       {/* How It Works Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "rgba(0,0,0,0.04)" }}>
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-12 text-center">
             Cómo funciona
@@ -206,7 +206,7 @@ export default async function LandingPage({
       </section>
 
       {/* Bottom CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "rgba(0,0,0,0.04)" }}>
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
             ¿Listo para transformar tu atención telefónica?
@@ -215,68 +215,11 @@ export default async function LandingPage({
             Prueba Minute Call sin compromiso. La mayoría de clientes ven
             resultados en la primera semana.
           </p>
-          <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-full text-lg transition-colors">
+          <button style={{ backgroundColor: "#5AFF15", color: "black", border: "2px solid #222", fontWeight: "600", padding: "16px 32px", borderRadius: "50px", fontSize: "18px", cursor: "pointer", transition: "all 0.2s ease" }}>
             Solicitar demo gratis
           </button>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <h3 className="font-bold mb-4">Minute Call</h3>
-              <p className="text-gray-400 text-sm">
-                Atención telefónica 24/7 con IA para pymes en Europa.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-bold mb-4">Producto</h3>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Características
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Precios
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Casos de uso
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold mb-4">Empresa</h3>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Contacto
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Legal
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-            <p>&copy; 2024 Minute Call. Todos los derechos reservados.</p>
-          </div>
-        </div>
-      </footer>
-    </main>
+    </div>
   );
 }

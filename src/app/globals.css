@@ -236,6 +236,11 @@ a:hover {
   font-style: italic;
 }
 
+/* Contact grid */
+.contact-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
 /* Footer grid */
 .footer-grid {
   grid-template-columns: 1fr 1fr 1fr;
@@ -286,6 +291,10 @@ a:hover {
   .card-white,
   .card-warm {
     padding: var(--spacing-lg);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr !important;
   }
 
   .sectors-grid {

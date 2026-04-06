@@ -67,6 +67,12 @@ export default function Footer() {
               <Link href="/articulos/coste-externalizar-atencion-telefonica-pyme-espana" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>
                 Cuánto cuesta externalizar la atención telefónica
               </Link>
+              <div style={{ marginTop: 16 }}>
+                <h4 style={{ fontSize: 14, fontWeight: 600, color: "black", margin: "0 0 8px 0" }}>Sectores</h4>
+                <Link href="/lp/recepcionista-ia-clinicas" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 8 }}>Clínicas</Link>
+                <Link href="/lp/recepcionista-ia-inmobiliarias" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 8 }}>Inmobiliarias</Link>
+                <Link href="/lp/recepcionista-ia-restaurantes" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block" }}>Hostelería</Link>
+              </div>
             </nav>
           </div>
         </div>

@@ -1,8 +1,33 @@
 import Link from "next/link";
+import { FAQPageSchema } from "@/components/JsonLd";
 
 export default function Home() {
+  const faqs = [
+    {
+      q: "¿Qué es Minute Call?",
+      a: "Minute Call es un servicio de atención telefónica para empresas que atiende llamadas en nombre del negocio con recepcionistas nativos o agentes de IA para evitar perder contactos y oportunidades comerciales.",
+    },
+    {
+      q: "¿En qué se diferencia de un call center tradicional?",
+      a: "Un call center tradicional está orientado a grandes volúmenes de llamadas, mientras que Minute Call se centra en la atención telefónica para pymes y empresas de servicios donde cada llamada es relevante.",
+    },
+    {
+      q: "¿Las llamadas las atienden humanos o IA?",
+      a: "Las empresas pueden elegir entre recepcionistas nativos, agentes de IA o una combinación según su volumen de llamadas, horario y tipo de cliente.",
+    },
+    {
+      q: "¿Para qué tipo de empresas está pensado el servicio?",
+      a: "Principalmente para pymes, clínicas, despachos, inmobiliarias y empresas de servicios que reciben llamadas frecuentes y no pueden permitirse perder oportunidades por no atender el teléfono.",
+    },
+    {
+      q: "¿Qué ocurre cuando no se atiende una llamada?",
+      a: "Cuando una empresa no responde una llamada, es habitual que el cliente potencial no vuelva a llamar. Por eso la atención telefónica continua es clave para la captación y conversión de clientes.",
+    },
+  ];
+
   return (
     <>
+      <FAQPageSchema faqs={faqs.map(f => ({ question: f.q, answer: f.a }))} />
       {/* ===== HERO SECTION ===== */}
       <section
         style={{
@@ -500,28 +525,7 @@ export default function Home() {
         <h2 style={{ marginTop: 16 }}>FAQ</h2>
 
         <div style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 0, textAlign: "left" }}>
-          {[
-            {
-              q: "¿Qué es Minute Call?",
-              a: "Minute Call es un servicio de atención telefónica para empresas que atiende llamadas en nombre del negocio con recepcionistas nativos o agentes de IA para evitar perder contactos y oportunidades comerciales.",
-            },
-            {
-              q: "¿En qué se diferencia de un call center tradicional?",
-              a: "Un call center tradicional está orientado a grandes volúmenes de llamadas, mientras que Minute Call se centra en la atención telefónica para pymes y empresas de servicios donde cada llamada es relevante.",
-            },
-            {
-              q: "¿Las llamadas las atienden humanos o IA?",
-              a: "Las empresas pueden elegir entre recepcionistas nativos, agentes de IA o una combinación según su volumen de llamadas, horario y tipo de cliente.",
-            },
-            {
-              q: "¿Para qué tipo de empresas está pensado el servicio?",
-              a: "Principalmente para pymes, clínicas, despachos, inmobiliarias y empresas de servicios que reciben llamadas frecuentes y no pueden permitirse perder oportunidades por no atender el teléfono.",
-            },
-            {
-              q: "¿Qué ocurre cuando no se atiende una llamada?",
-              a: "Cuando una empresa no responde una llamada, es habitual que el cliente potencial no vuelva a llamar. Por eso la atención telefónica continua es clave para la captación y conversión de clientes.",
-            },
-          ].map((faq) => (
+          {faqs.map((faq) => (
             <details
               key={faq.q}
               style={{

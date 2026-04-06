@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Política de Cookies | minute call",
+  description: "Información sobre el uso de cookies en minute-call.com. Tipos de cookies, finalidad y cómo desactivarlas.",
+};
+
 export default function PoliticaCookies() {
   const containerStyle = {
     maxWidth: 800,
