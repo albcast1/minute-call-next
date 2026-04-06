@@ -5,8 +5,8 @@ export default function Footer() {
 
   return (
     <footer style={{ backgroundColor: "#EFEBE5", borderTop: "1px solid rgba(0,0,0,0.06)" }}>
-      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "48px 64px" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 48 }}>
+      <div className="footer-container" style={{ maxWidth: 1200, margin: "0 auto", padding: "48px 64px" }}>
+        <div className="footer-grid" style={{ display: "grid", gap: 48 }}>
           {/* Branding */}
           <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>

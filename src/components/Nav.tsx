@@ -12,8 +12,7 @@ export default function Nav() {
       style={{ backgroundColor: "#EFEBE5" }}
     >
       <div
-        className="mx-auto flex items-center justify-between"
-        style={{ maxWidth: "1200px", height: "85px", padding: "24px 64px" }}
+        style={{ maxWidth: 1200, height: 85, padding: "0 64px", margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" }}
       >
         {/* Logo: icon + text */}
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
@@ -81,7 +80,7 @@ export default function Nav() {
       </div>
 
       {mobileMenuOpen && (
-        <div className="md:hidden px-6 py-4 flex flex-col gap-4" style={{ backgroundColor: "#EFEBE5" }}>
+        <div style={{ backgroundColor: "#EFEBE5", padding: "16px 64px", display: "flex", flexDirection: "column", gap: 16 }} className="md:hidden">
           <Link href="/sobre-nosotros" style={{ fontSize: 14, fontWeight: 500, color: "black" }} onClick={() => setMobileMenuOpen(false)}>
             Nosotros
           </Link>

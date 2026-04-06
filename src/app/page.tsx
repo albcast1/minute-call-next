@@ -18,8 +18,8 @@ export default function Home() {
       >
         {/* Left column */}
         <div style={{ flex: "1 1 480px", maxWidth: 560 }}>
-          {/* Trustpilot badge */}
-          <a href="https://www.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", marginBottom: 20 }}>
+          {/* Trustpilot badge — marginLeft 16px to align with pill-label text (pill has 16px inner padding) */}
+          <a href="https://www.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", marginBottom: 20, marginLeft: 16 }}>
             <img
               src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
               alt="Trustpilot reviews"
@@ -163,8 +163,8 @@ export default function Home() {
         }}
       >
         <div style={{ display: "flex", gap: 48, alignItems: "flex-start", flexWrap: "wrap" }}>
-          {/* Left column: title, text, KPIs */}
-          <div style={{ flex: "1 1 500px" }}>
+          {/* Left column: title, text, KPIs (60%) */}
+          <div style={{ flex: "3 1 0", minWidth: 400 }}>
             <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
               Resultados de clientes
             </span>
@@ -208,8 +208,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right column: Glowhaus video */}
-          <div style={{ flex: "0 0 420px", alignSelf: "center" }}>
+          {/* Right column: Glowhaus video (40%) */}
+          <div style={{ flex: "2 1 0", minWidth: 300, alignSelf: "center" }}>
             <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5" }}>
               <video
                 src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
