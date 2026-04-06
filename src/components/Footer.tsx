@@ -69,9 +69,15 @@ export default function Footer() {
               </Link>
               <div style={{ marginTop: 16 }}>
                 <h4 style={{ fontSize: 14, fontWeight: 600, color: "black", margin: "0 0 8px 0" }}>Sectores</h4>
-                <Link href="/lp/recepcionista-ia-clinicas" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 8 }}>Clínicas</Link>
-                <Link href="/lp/recepcionista-ia-inmobiliarias" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 8 }}>Inmobiliarias</Link>
-                <Link href="/lp/recepcionista-ia-restaurantes" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block" }}>Hostelería</Link>
+                <Link href="/lp/recepcionista-ia-clinicas" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 6 }}>Clínicas</Link>
+                <Link href="/lp/recepcionista-ia-inmobiliarias" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 6 }}>Inmobiliarias</Link>
+                <Link href="/lp/recepcionista-ia-restaurantes" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 6 }}>Hostelería</Link>
+                <Link href="/lp/recepcionista-ia-abogados" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 6 }}>Abogados</Link>
+                <Link href="/lp/recepcionista-ia-clinicas-dentales" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 6 }}>Dentistas</Link>
+                <Link href="/lp/recepcionista-ia-asesorias" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 6 }}>Asesorías</Link>
+                <Link href="/lp/recepcionista-ia-veterinarias" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 6 }}>Veterinarias</Link>
+                <Link href="/lp/recepcionista-ia-seguros" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block", marginBottom: 6 }}>Seguros</Link>
+                <Link href="/lp/recepcionista-ia-turismo" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", display: "block" }}>Turismo</Link>
               </div>
             </nav>
           </div>

@@ -269,17 +269,24 @@ export default function Home() {
           className="sectors-grid"
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
-            gap: 32,
+            gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
+            gap: 16,
           }}
         >
           {[
-            { name: "Clinicas & Salud", href: "/lp/recepcionista-ia-clinicas" },
+            { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas" },
             { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias" },
             { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes" },
-            { name: "Turismo", href: null },
-            { name: "Despachos de abogados", href: null },
-            { name: "Otros servicios", href: null },
+            { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados" },
+            { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales" },
+            { name: "Asesorías y gestorías", href: "/lp/recepcionista-ia-asesorias" },
+            { name: "Veterinarias", href: "/lp/recepcionista-ia-veterinarias" },
+            { name: "Centros de estética", href: "/lp/recepcionista-ia-centros-estetica" },
+            { name: "Fisioterapia", href: "/lp/recepcionista-ia-fisioterapia" },
+            { name: "Seguros", href: "/lp/recepcionista-ia-seguros" },
+            { name: "Turismo", href: "/lp/recepcionista-ia-turismo" },
+            { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas" },
+            { name: "Consultoría", href: "/lp/recepcionista-ia-consultoria" },
           ].map((sector) => {
             const content = (
               <div

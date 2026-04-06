@@ -79,5 +79,275 @@
       { "question": "¿Qué coste tienen vuestros servicios?", "answer": "Modelo de suscripción mensual flexible. Tarifa base fija + coste por llamada. Sin permanencia ni costes de activación." },
       { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Agentes humanos o IA, tú eliges según tu volumen y necesidades." }
     ]
+  },
+  {
+    "slug": "recepcionista-ia-abogados",
+    "sector": "despachos de abogados",
+    "title": "Recepcionista de IA para despachos de abogados.",
+    "metaTitle": "Recepcionista IA para abogados | Atención telefónica segura 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para despachos de abogados con máxima confidencialidad. Gestiona urgencias, filtra por prioridad y protege datos RGPD.",
+    "heroTag": "Atención telefónica para despachos de abogados",
+    "heroSubtitle": "Atendemos llamadas urgentes con total confidencialidad garantizada. Filtrado por prioridad, derivación inteligente y protección RGPD. No pierdas leads de alto valor por no estar disponible.",
+    "socialProof": "Más de 45 despachos de abogados confían en nuestra IA",
+    "testimonial": {
+      "quote": "La IA de Minute Call nos permite atender urgencias legales sin que se pierda una sola llamada. La confidencialidad está completamente garantizada y los clientes perciben una imagen mucho más profesional.",
+      "author": "Laura Fernández",
+      "role": "Socia directora de despacho"
+    },
+    "features": [
+      { "title": "Filtrado por urgencia legal", "description": "La IA identifica automáticamente casos urgentes, violaciones de derechos y demandas inminentes, derivando al letrado disponible de inmediato." },
+      { "title": "Confidencialidad garantizada RGPD", "description": "Cumplimiento total de RGPD y secreto profesional. Encriptación end-to-end, almacenamiento seguro y auditorías de acceso." },
+      { "title": "Agenda de consultas con potenciales", "description": "Gestiona primeras consultas automáticamente: datos del cliente, motivo legal, disponibilidad de letrados. Sin perder información crítica." },
+      { "title": "Derivación inteligente de casos", "description": "Distribuye llamadas según especialidad del letrado (civil, mercantil, penal, fiscal), disponibilidad y carga actual." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Cómo garantizáis la confidencialidad y el RGPD?", "answer": "Todos nuestros agentes firman NDA. Los datos se procesan en servidores europeos encriptados, con auditorías de seguridad regulares. La recepción de llamadas cumple con las obligaciones RGPD y secreto profesional de despachos." },
+      { "question": "¿Cómo gestiona la IA casos urgentes y demandas?", "answer": "Nuestro sistema identifica palabras clave de urgencia (demanda interpuesta, querella, embargo, violencia, negligencia) y avisa al letrado inmediatamente con llamada directa o mensajes de máxima prioridad." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Nuestros agentes pueden actuar como recepcionistas humanos o combinar con IA para filtrado inicial, clasificación y derivación automática según el tipo de caso." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-clinicas-dentales",
+    "sector": "clínicas dentales",
+    "title": "Recepcionista de IA para clínicas dentales.",
+    "metaTitle": "Recepcionista IA para clínicas dentales | Gestión de citas 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para odontología. Gestión de citas, cancelaciones, recordatorios y captura de urgencias dentales.",
+    "heroTag": "Atención telefónica para clínicas dentales",
+    "heroSubtitle": "Tu dentista está en consulta. La IA atiende: gestiona citas, cancelaciones y recibe urgencias. Nunca pierdas un paciente por no coger el teléfono.",
+    "socialProof": "Más de 65 clínicas dentales confían en nuestra IA",
+    "testimonial": {
+      "quote": "Antes perdíamos pacientes porque no podíamos atender durante los tratamientos. Ahora la IA gestiona todo: nuevas citas, cancelaciones, urgencias. Hemos aumentado un 25% las citas confirmadas.",
+      "author": "Dr. Javier Martín",
+      "role": "Director de clínica dental"
+    },
+    "features": [
+      { "title": "Gestión de citas y reprogramaciones", "description": "La IA agenda citas nuevas, gestiona cambios de horario y evita dobles-booking. Se integra con software dental como Dentix y Topdata." },
+      { "title": "Captura de urgencias dentales", "description": "Identifica dolor agudo, infecciones y traumatismos, permitiendo encaje de urgencias o derivación a guardias." },
+      { "title": "Recordatorios automáticos", "description": "Envía recordatorios de citas 48h antes por SMS o llamada, reduciendo no-shows hasta un 40%." },
+      { "title": "Respuesta durante tratamientos", "description": "Contesta llamadas mientras el dentista está operando, eliminando interrupciones pero sin perder clientes." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Se integra con mi software dental?", "answer": "Sí. Nos integramos con Dentix, Topdata, Orysis y otros sistemas. También funcionamos sin integración: enviamos datos por email o permitimos acceso a panel de control para consultar citas agendadas." },
+      { "question": "¿Cómo gestionáis urgencias dentales?", "answer": "La IA identifica urgencias (dolor agudo, infección, accidente) y avisa inmediatamente al dentista. Puede encajar el paciente en huecos libres, ofrecerle teléfono del servicio de guardias o agendar para al día siguiente." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Ofrecemos agentes humanos para atención premium o IA para flujo de citas, cancelaciones y recordatorios automáticos." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-asesorias",
+    "sector": "asesorías y gestorías",
+    "title": "Recepcionista de IA para asesorías y gestorías.",
+    "metaTitle": "Recepcionista IA para gestorías | Cobertura en picos fiscales 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para asesorías. Gestiona picos fiscales, informa sobre expedientes y captura nuevos clientes.",
+    "heroTag": "Atención telefónica para asesorías y gestorías",
+    "heroSubtitle": "Abril, junio y diciembre sobrecargan tu equipo. La IA cubre los picos: informa estado de trámites, captura nuevos clientes, filtra consultas repetitivas.",
+    "socialProof": "Más de 85 asesorías confían en nuestra IA",
+    "testimonial": {
+      "quote": "En picos fiscales recibimos 5 veces más llamadas. Con Minute Call no perdemos un solo cliente potencial y nuestro equipo puede enfocarse en el trabajo técnico sin estar saturado de teléfono.",
+      "author": "Patricia Gómez",
+      "role": "Gestora colegiada"
+    },
+    "features": [
+      { "title": "Información de expedientes en tiempo real", "description": "Conecta con tu sistema de gestión. Clientes pueden consultar estado de IRPF, IVA, traspasos, sin molestar al gestor." },
+      { "title": "Cobertura en picos fiscales", "description": "Escala automáticamente en abril (IRPF), junio (IVA trimestral) y septiembre (impuestos autonómicos). No rechaza llamadas." },
+      { "title": "Filtrado de consultas repetitivas", "description": "Identifica consultas recurrentes (¿cuándo me devuelven?, ¿cuánto me cuesta?, ¿qué documentos necesito?) y responde automáticamente." },
+      { "title": "Captura de nuevos clientes", "description": "Cualifica prospectos (actividad, tamaño, sector) y agenda consultoría con tu equipo de ventas o comercial." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Cómo manejáis los picos de abril y junio?", "answer": "Escalamos automáticamente nuestro equipo en fechas críticas: 15 abril (IRPF), 20 junio (IVA trimestral). Puedes personalizar qué respuestas automáticas se activan y qué requiere transferencia con gestor." },
+      { "question": "¿Se integra con software de gestión?", "answer": "Sí. Nos conectamos con Wolters Kluwer, ASESOR, Sisconweb y otros. La IA consulta estado de expedientes, fechas de presentación, documentos faltantes, sin necesidad de transferencia." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Agentes humanos para consultoría premium, o IA para información de expedientes, filtrado de llamadas y captura de potenciales." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-veterinarias",
+    "sector": "veterinarias",
+    "title": "Recepcionista de IA para veterinarias.",
+    "metaTitle": "Recepcionista IA para veterinarias | Triaje de urgencias 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para clínicas veterinarias. Triaje de urgencias, gestión de citas y información sobre vacunaciones.",
+    "heroTag": "Atención telefónica para veterinarias",
+    "heroSubtitle": "Tu veterinario está en quirófano. Un dueño llama con la mascota enferma. La IA evalúa urgencia, atiende 24/7 y jamás pierde una emergencia.",
+    "socialProof": "Más de 55 clínicas veterinarias confían en nuestra IA",
+    "testimonial": {
+      "quote": "Un paciente llamó a las 11 de la noche porque su gato no respiraba bien. Minute Call evaluó la urgencia y nos alertó. Salvamos la vida de ese gato. Eso no tiene precio.",
+      "author": "Dra. Silvia López",
+      "role": "Veterinaria directora"
+    },
+    "features": [
+      { "title": "Triaje telefónico de urgencias", "description": "La IA pregunta síntomas, edad, historial. Clasifica como urgencia crítica (shock, inconsciencia, paro cardiaco) o urgencia moderada (trauma, sangrado)." },
+      { "title": "Agenda de consultas automática", "description": "Gestiona citas de revisión, vacunaciones, esterilizaciones. Previene dobles booking y optimiza horarios de quirófano." },
+      { "title": "Información de vacunaciones y desparasitaciones", "description": "Responde sobre calendarios, próximas vacunas, productos recomendados. Reduce consultas administrativas." },
+      { "title": "Derivación de urgencias a guardias", "description": "Fuera de horario, proporciona teléfono de guardias veterinarias, informa coste estimado y referencias de emergencias." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Cómo evalúa urgencias veterinarias?", "answer": "La IA pregunta síntomas específicos (dificultad respiratoria, sangrado, inconsciencia, traumatismo) y edad del animal. Clasifica urgencia en crítica, moderada o electiva, alertando inmediatamente al veterinario si es necesario." },
+      { "question": "¿Ofrecéis cobertura nocturna?", "answer": "Sí, 24/7 incluyendo horario nocturno. Para urgencias fuera de horario, la IA proporciona teléfono de guardias veterinarias, referencia de clínicas 24h y estimación de costes." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Agentes humanos para consultoría, o IA para triaje, gestión de citas y información de vacunaciones." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-centros-estetica",
+    "sector": "centros de estética",
+    "title": "Recepcionista de IA para centros de estética.",
+    "metaTitle": "Recepcionista IA para estética | Gestión de agenda 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para centros de belleza. Gestión de citas, recordatorios y captura de nuevos clientes.",
+    "heroTag": "Atención telefónica para centros de estética",
+    "heroSubtitle": "Tu agenda es tu negocio. La IA atiende 24/7: confirma citas, maneja cancelaciones, informa de tratamientos y captura cada cliente potencial.",
+    "socialProof": "Más de 90 centros de estética confían en nuestra IA",
+    "testimonial": {
+      "quote": "En estética, una llamada perdida es dinero perdido. Desde que usamos Minute Call hemos aumentado un 35% nuestra ocupación porque ahora contestamos todas las llamadas, incluso cuando estamos con clientas.",
+      "author": "Marta Campos",
+      "role": "Propietaria de centro de estética"
+    },
+    "features": [
+      { "title": "Gestión integral de agenda", "description": "Reserva nuevas citas, gestiona cambios y cancelaciones. Evita dobles bookings. Se sincroniza con Acuity, Studio y otros software de estética." },
+      { "title": "Información de tratamientos y precios", "description": "Clientes preguntan sobre duración, precio, contraindicaciones. La IA responde instantáneamente, aumentando conversión." },
+      { "title": "Recordatorios y reducción de no-shows", "description": "Recordatorios automáticos 48h y 24h antes. Reduce ausencias hasta un 50%, maximizando ocupación." },
+      { "title": "Captura de nuevos clientes", "description": "Primera cita es crítica: la IA agenda rápidamente, toma datos (tipo de piel, presupuesto, preferencias) para experiencia personalizada." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Se integra con mi software de agenda?", "answer": "Sí. Nos integramos con Acuity Scheduling, Genexus Studio, PracticePRO y otros. También sin integración: la IA te avisa por email de nuevas citas y cancelaciones." },
+      { "question": "¿Cómo gestionáis múltiples profesionales?", "answer": "La IA distribuye citas según disponibilidad de cada profesional. Sabe quién hace qué tratamiento y encaja clientes automáticamente en el hueco óptimo." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Agentes humanos para consultoría sobre tratamientos complejos, o IA para gestión de agenda, información de precios y recordatorios." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-fisioterapia",
+    "sector": "fisioterapia",
+    "title": "Recepcionista de IA para centros de fisioterapia.",
+    "metaTitle": "Recepcionista IA para fisioterapeutas | Gestión de citas recurrentes 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para fisioterapia. Gestión de citas recurrentes, listas de espera y soporte 24/7.",
+    "heroTag": "Atención telefónica para centros de fisioterapia",
+    "heroSubtitle": "Tu fisioterapeuta atiende un paciente en camilla. Alguien llama para cambiar cita. La IA gestiona citas recurrentes, bajas y listas de espera instantáneamente.",
+    "socialProof": "Más de 72 centros de fisioterapia confían en nuestra IA",
+    "testimonial": {
+      "quote": "Nuestros pacientes hacen 2-3 citas a la semana. Gestionar cambios es una pesadilla, pero Minute Call lo hace automáticamente. Ahora tenemos listas de espera sincronizadas sin perder a nadie.",
+      "author": "Roberto Sánchez",
+      "role": "Fisioterapeuta director"
+    },
+    "features": [
+      { "title": "Gestión de citas recurrentes", "description": "Pacientes con tratamientos de múltiples sesiones. La IA mantiene calendario de citas regulares, gestiona cambios y ajusta horarios sin perder continuidad del tratamiento." },
+      { "title": "Listas de espera dinámicas", "description": "Cuando alguien cancela, la IA contacta automáticamente a pacientes en lista de espera para ocupar el hueco. Maximiza ocupación." },
+      { "title": "Información de tratamientos y duraciones", "description": "Pacientes preguntan sobre lesiones, tiempos de recuperación, contraindicaciones. La IA proporciona información básica sin sobrecargar al fisio." },
+      { "title": "Gestión de bajas temporales", "description": "Si el fisio está enfermo o de vacaciones, la IA avisa a pacientes, reprograma citas y mantiene continuidad del tratamiento." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Cómo gestionáis citas recurrentes?", "answer": "La IA mantiene un calendario de sesiones (ej: 3 sesiones semanales durante 6 semanas). Cuando paciente llama para cambiar, la IA reorganiza sin afectar otras citas ni el plan terapéutico." },
+      { "question": "¿Se integra con calendarios de fisioterapia?", "answer": "Sí. Nos conectamos con Heali, Physitrack, Terapify y software estándar. La IA consulta disponibilidad en tiempo real y sincroniza cambios automáticamente." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Agentes humanos para valoración de lesiones complejas, o IA para gestión de citas, listas de espera y información terapéutica." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-seguros",
+    "sector": "seguros y corredurías",
+    "title": "Recepcionista de IA para seguros y corredurías.",
+    "metaTitle": "Recepcionista IA para seguros | Recepción de siniestros 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para corredurías. Recepción de siniestros, cualificación de leads y gestión de pólizas 24/7.",
+    "heroTag": "Atención telefónica para seguros",
+    "heroSubtitle": "Un accidente a las 3 de la mañana. Llamadas de siniestros sin horario. La IA atiende 24/7: recibe siniestros, cualifica leads y jamás pierde una venta.",
+    "socialProof": "Más de 78 corredurías de seguros confían en nuestra IA",
+    "testimonial": {
+      "quote": "En seguros el que contesta primero gana el lead. Con Minute Call atendemos llamadas 24/7 mientras dormimos. Hemos recuperado clientes que antes iban a la competencia por no coger el teléfono.",
+      "author": "Fernando Díaz",
+      "role": "Corredor de seguros"
+    },
+    "features": [
+      { "title": "Recepción de siniestros 24/7", "description": "Accidentes, robos, incendios. La IA toma datos del siniestro (qué pasó, dónde, cuándo, heridos), abre expediente y avisa inmediatamente al ajustador." },
+      { "title": "Cualificación de leads automática", "description": "La IA pregunta tipo de seguro que busca (hogar, coche, salud, vida, responsabilidad), empresa anterior, presupuesto. Entrega lead calificado al comercial." },
+      { "title": "Información de pólizas", "description": "Clientes preguntan cobertura, límites, franquicias. La IA consulta sistema, responde y reduce derivaciones innecesarias." },
+      { "title": "Derivación por tipo de seguro", "description": "Distribuye automáticamente llamadas de siniestros y ventas según especialidad del agente: vida, responsabilidad civil, salud." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Cómo gestiona siniestros fuera de horario?", "answer": "La IA toma datos completos del siniestro (circunstancias, daños, testigos, lesionados) y abre expediente automáticamente. El ajustador recibe notificación inmediata con toda la información. Para urgencias críticas, activamos escala de emergencias." },
+      { "question": "¿Se integra con sistemas de seguros?", "answer": "Sí. Nos conectamos con AMSAFIN, Operativa, Dinámico y otros. La IA consulta pólizas, historiales de siniestros y cobertura en tiempo real." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Agentes humanos para negociación de pólizas, o IA para recepción de siniestros, cualificación de leads y información de coberturas." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-turismo",
+    "sector": "turismo y agencias de viajes",
+    "title": "Recepcionista de IA para agencias de viajes.",
+    "metaTitle": "Recepcionista IA para agencias de viajes | Atención multilingüe 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para turismo. Atención multilingüe, gestión de reservas y soporte durante viajes.",
+    "heroTag": "Atención telefónica para agencias de viajes",
+    "heroSubtitle": "Tu cliente está en Marrakech y necesita ayuda. Alguien llama en francés. Tú estás comiendo. La IA atiende multilingüe 24/7 y gestiona emergencias de viaje.",
+    "socialProof": "Más de 62 agencias de viajes confían en nuestra IA",
+    "testimonial": {
+      "quote": "Manejamos clientes en diferentes continentes y husos horarios. Minute Call en inglés, español y francés nos permite estar disponibles sin sobrecargo. Un cliente perdió su vuelo y la IA lo ayudó a rebooking a las 2am.",
+      "author": "Cristina Barbosa",
+      "role": "Directora de agencia de viajes"
+    },
+    "features": [
+      { "title": "Atención multilingüe (español, inglés, francés)", "description": "Clientes en diferentes zonas horarias. La IA atiende en su idioma, toma reservas, consultas y soporte sin barrera de idioma." },
+      { "title": "Gestión de reservas y cambios", "description": "Gestiona vuelos, hoteles y actividades. Cambios de fechas, cancelaciones, upgrade de habitaciones. Integra con GDS Amadeus, Sabre, Galileo." },
+      { "title": "Información de paquetes y destinos", "description": "Clientes preguntan sobre visados, clima, vacunaciones, horarios de tours. La IA responde instantáneamente con información actualizada." },
+      { "title": "Soporte durante viajes", "description": "Cliente se pierde, vuelo retrasado, emergencia médica. La IA contacta hotel, línea aérea, aseguradora. Proporciona teléfonos de emergencia locales." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Qué idiomas manejáis?", "answer": "Español, inglés y francés nativos. Nuestros agentes entienden referencias culturales, dialectos y contextos locales. Aún no disponemos chino ni árabe." },
+      { "question": "¿Cómo gestionáis emergencias durante viajes?", "answer": "Si cliente llama con problema (vuelo cancelado, enfermedad, robo), la IA escala inmediatamente. Contacta hotel, aseguradora, embajada o línea aérea. Mantiene a cliente en línea hasta resolución." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Agentes humanos para consultoría en destinos y personalización de itinerarios, o IA para gestión de reservas, información y soporte multilingüe." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-autoescuelas",
+    "sector": "autoescuelas",
+    "title": "Recepcionista de IA para autoescuelas.",
+    "metaTitle": "Recepcionista IA para autoescuelas | Gestión de horarios 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para academias de conducción. Gestión de cambios de horario, información DGT y captura de alumnos.",
+    "heroTag": "Atención telefónica para autoescuelas",
+    "heroSubtitle": "Tu profesor está en ruta con alumno. 5 llamadas de cambios de horario. Un alumno pregunta sobre cita de examen DGT. La IA lo maneja todo sin interrupciones.",
+    "socialProof": "Más de 58 autoescuelas confían en nuestra IA",
+    "testimonial": {
+      "quote": "Los alumnos llaman constantemente para cambiar horarios de prácticas. Nuestro profesor andaba siempre al teléfono. Ahora Minute Call gestiona todo: cambios, información de precios, fechas de exámenes. Recuperamos 10 horas semanales de conducción.",
+      "author": "Miguel Rodríguez",
+      "role": "Propietario de autoescuela"
+    },
+    "features": [
+      { "title": "Gestión de cambios de horario de prácticas", "description": "Alumnos necesitan cambiar día/hora. La IA reprograma automáticamente, evita conflictos con otros alumnos y notifica al profesor de cualquier cambio." },
+      { "title": "Información de precios y trámites DGT", "description": "¿Cuánto cuesta el carné? ¿Cuándo me examino? ¿Qué papeles necesito? La IA responde sobre licencias, tasas y plazos de la DGT." },
+      { "title": "Captura de nuevos alumnos", "description": "Llamadas de gente interesada. La IA agenda prueba gratis, toma datos (edad, licencia anterior, disponibilidad) y acelera matrícula." },
+      { "title": "Recordatorios de clases y exámenes", "description": "Alumnos olvidan clases teóricas o prácticas. Recordatorios automáticos 24h antes reducen ausencias y maximizan aprovechamiento." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Cómo gestionáis cambios de horario?", "answer": "La IA consulta disponibilidad de coches y profesores. Busca alternativas que se adapten al alumno, reprograma sin doble-booking. El profesor recibe notificación clara de cada cambio." },
+      { "question": "¿Qué información de la DGT podéis proporcionar?", "answer": "Información pública: tipos de licencia, tasas, requisitos de edad, duración de permisos, puntos de tráfico, fechas de exámenes en tu provincia. No interferimos en gestión oficial de la DGT." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Agentes humanos para asesoría compleja sobre licencias, o IA para gestión de horarios, información DGT y captura de alumnos nuevos." }
+    ]
+  },
+  {
+    "slug": "recepcionista-ia-consultoria",
+    "sector": "consultoría y formación",
+    "title": "Recepcionista de IA para consultoría y formación.",
+    "metaTitle": "Recepcionista IA para consultores | Imagen corporativa premium 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para consultores. Filtrado inteligente de llamadas, agenda de reuniones y gestión de leads de alto valor.",
+    "heroTag": "Atención telefónica para consultoría",
+    "heroSubtitle": "Estás en reunión con cliente clave. Suena el teléfono: es un lead de 100k€. Con Minute Call, esa llamada la atiende profesional perfecto sin interrupciones, con imagen premium garantizada.",
+    "socialProof": "Más de 68 consultorias confían en nuestra IA",
+    "testimonial": {
+      "quote": "En consultoría la imagen es todo. Perder una llamada de CEO a las 6pm es inaceptable. Minute Call nos da imagen de empresa establecida, 24/7, sin que nos cueste un equipo permanente. Hemos ganado 3 proyectos gracias a ser siempre disponibles.",
+      "author": "Ana Rovira",
+      "role": "Socia consultora"
+    },
+    "features": [
+      { "title": "Filtrado inteligente de llamadas", "description": "La IA evalúa: tamaño de empresa, presupuesto estimado, urgencia, si es lead conocido o competencia. Identifica oportunidades de alto valor instantáneamente." },
+      { "title": "Agenda de reuniones con consultores", "description": "Cita reuniones directamente en calendarios de consultores. Evita dobles bookings. Respeta tiempos de preparación y viajes entre clientes." },
+      { "title": "Información sobre servicios y casos de éxito", "description": "Prospecto pregunta sobre expertise, duración de proyectos, ROI típico. La IA responde con confianza, proyectando imagen premium." },
+      { "title": "Imagen corporativa premium 24/7", "description": "Voz, tono y información perfectamente alineados con brand consultant. Nunca dice 'ahora no podemos', siempre ofrece alternativas profesionales." }
+    ],
+    "faq": [
+      { "question": "¿Qué es Minute Call?", "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés." },
+      { "question": "¿Cómo personalizáis el tono para consultoría?", "answer": "Tu onboarding define vocabulario, casos de éxito, el tono corporativo. Nuestros agentes suena como parte de tu equipo: seguridad, confidencialidad, profesionalismo. Son embajadores de tu marca." },
+      { "question": "¿Cómo gestionáis múltiples consultores?", "answer": "Cada consultor tiene calendario y especialidad. La IA redirige: si llama sobre strategy, va a tu partner expert en strategy. Si sobre transformación digital, al especialista correspondiente." },
+      { "question": "¿Ofrecéis recepcionista virtual con IA?", "answer": "Sí. Agentes humanos completamente personalizados para tu marca, o IA avanzada para filtrado de leads y respuestas de servicios que mantiene tono premium." }
+    ]
   }
 ]

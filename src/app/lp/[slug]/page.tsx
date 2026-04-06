@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import sectors from "@/data/sectors.json";
+import { FAQPageSchema, BreadcrumbSchema } from "@/components/JsonLd";
 
 type SectorData = (typeof sectors)[0];
 
@@ -73,6 +74,11 @@ export default async function LandingPage({
 
   return (
     <div>
+      <FAQPageSchema faqs={sector.faq.map(f => ({ question: f.question, answer: f.answer }))} />
+      <BreadcrumbSchema items={[
+        { name: "Inicio", url: "https://www.minute-call.com" },
+        { name: sector.title, url: `https://www.minute-call.com/lp/${sector.slug}` }
+      ]} />
       {/* Hero Section */}
       <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
