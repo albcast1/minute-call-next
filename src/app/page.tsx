@@ -182,7 +182,7 @@ export default function Home() {
             <img
               src="https://framerusercontent.com/images/yFHgV1OOpi4Y9SNihdiTqSFXU.png"
               alt="Resultados de clientes"
-              style={{ width: 360, maxWidth: "100%", borderRadius: 16 }}
+              style={{ width: 172, borderRadius: 12 }}
             />
           </div>
         </div>
@@ -210,12 +210,6 @@ export default function Home() {
             <h3>Tasa de respuesta</h3>
             <p className="service-card-body">No pierdas más llamadas.</p>
           </div>
-          <div className="card" style={{ padding: 32 }}>
-            <p style={{ fontSize: 14, fontWeight: 500, color: "rgba(0,0,0,0.56)", marginBottom: 8, letterSpacing: -0.5 }}>
-              Creados por ser flexibles.
-            </p>
-            <h3>Diseñado para PYMES.</h3>
-          </div>
         </div>
       </section>
 
@@ -227,6 +221,12 @@ export default function Home() {
           padding: "40px 24px 80px",
         }}
       >
+        <p style={{ fontSize: 14, fontWeight: 500, color: "rgba(0,0,0,0.56)", marginBottom: 8, letterSpacing: -0.5 }}>
+          Creados por ser flexibles.
+        </p>
+        <h2 style={{ marginBottom: 32 }}>
+          Diseñado para <span className="serif-italic">PYMES.</span>
+        </h2>
         <div
           className="sectors-grid"
           style={{
@@ -370,27 +370,18 @@ export default function Home() {
 
         <div
           style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))",
+            display: "flex",
             gap: 24,
             marginTop: 48,
+            flexWrap: "wrap",
           }}
         >
-          <div className="card" style={{ padding: 32 }}>
-            <div
-              style={{
-                width: 80,
-                height: 80,
-                borderRadius: "50%",
-                background: "rgba(0,0,0,0.08)",
-                marginBottom: 20,
-                overflow: "hidden",
-              }}
-            >
+          <div style={{ flex: "1 1 0", minWidth: 300 }}>
+            <div style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20 }}>
               <img
                 src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
                 alt="Alberto Castiel"
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                style={{ width: "100%", height: "auto", display: "block" }}
               />
             </div>
             <h3 style={{ fontSize: 22 }}>Alberto Castiel</h3>
@@ -400,21 +391,12 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="card" style={{ padding: 32 }}>
-            <div
-              style={{
-                width: 80,
-                height: 80,
-                borderRadius: "50%",
-                background: "rgba(0,0,0,0.08)",
-                marginBottom: 20,
-                overflow: "hidden",
-              }}
-            >
+          <div style={{ flex: "1 1 0", minWidth: 300 }}>
+            <div style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20 }}>
               <img
                 src="https://framerusercontent.com/images/6QCXvNGkCPpl1XOgOz1Op6nosP0.jpeg"
                 alt="Beatriz De Tena"
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                style={{ width: "100%", height: "auto", display: "block" }}
               />
             </div>
             <h3 style={{ fontSize: 22 }}>Beatriz De Tena</h3>

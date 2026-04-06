@@ -102,7 +102,7 @@ export default function VideoCard() {
 
       {/* Video */}
       <div
-        style={{ position: "relative", aspectRatio: "16/10", overflow: "hidden", cursor: "pointer" }}
+        style={{ position: "relative", aspectRatio: "9/16", overflow: "hidden", cursor: "pointer" }}
         onClick={togglePlay}
       >
         <video
