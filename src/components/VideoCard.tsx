@@ -13,7 +13,7 @@ export default function VideoCard() {
 
   const audioSrc =
     activeTab === "human"
-      ? "/audio/audio-recepcionista.mp3"
+      ? "https://framerusercontent.com/assets/m5w1yjJG2zBpKHzi3rnUYCRXRio.mp3"
       : "/audio/audio-recepcionista-ia.mp3";
 
   useEffect(() => {
