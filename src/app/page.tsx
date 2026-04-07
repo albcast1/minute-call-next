@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FAQPageSchema } from "@/components/JsonLd";
+import VideoCard from "@/components/VideoCard";
 
 export default function Home() {
   const faqs = [
@@ -76,22 +77,7 @@ export default function Home() {
           </Link>
         </div>
 
-        {/* Right column - Video placeholder (waiting for Alberto's videos) */}
-        <div
-          style={{
-            flex: "1 1 400px",
-            maxWidth: 460,
-            background: "#F5F5F5",
-            borderRadius: 16,
-            overflow: "hidden",
-            minHeight: 400,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <p style={{ color: "rgba(0,0,0,0.3)", fontSize: 14 }}>Video pendiente</p>
-        </div>
+        <VideoCard />
       </section>
 
       {/* ===== PARTNERS ===== */}
