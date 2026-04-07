@@ -1,242 +1,192 @@
 "use client";
-
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 
 export default function VideoCard() {
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
   const [playing, setPlaying] = useState(false);
   const [activeTab, setActiveTab] = useState<"human" | "ai">("human");
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
 
   const videoSrc =
+    "https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4";
+
+  const audioSrc =
     activeTab === "human"
-      ? "https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
-      : "https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4";
+      ? "/audio/audio-recepcionista.mp3"
+      : "/audio/audio-recepcionista-ia.mp3";
+
+  useEffect(() => {
+    setPlaying(false);
+    setCurrentTime(0);
+    setDuration(0);
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+  }, [activeTab]);
 
   const togglePlay = () => {
-    const video = videoRef.current;
-    if (!video) return;
-    if (video.paused) {
-      video.play();
+    const audio = audioRef.current;
+    if (!audio) return;
+    if (audio.paused) {
+      audio.play();
       setPlaying(true);
     } else {
-      video.pause();
+      audio.pause();
       setPlaying(false);
     }
   };
 
   const restart = () => {
-    const video = videoRef.current;
-    if (!video) return;
-    video.currentTime = 0;
-    video.play();
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.currentTime = 0;
+    setCurrentTime(0);
+    audio.play();
     setPlaying(true);
   };
 
-  const formatTime = (t: number) => {
-    const m = Math.floor(t / 60);
-    const s = Math.floor(t % 60);
-    return `${m}:${s.toString().padStart(2, "0")}`;
-  };
-
-  const handleTabSwitch = (tab: "human" | "ai") => {
-    setActiveTab(tab);
-    setPlaying(false);
-    setCurrentTime(0);
-    if (videoRef.current) {
-      videoRef.current.pause();
-      videoRef.current.currentTime = 0;
-    }
+  const formatTime = (s: number) => {
+    const m = Math.floor(s / 60);
+    const sec = Math.floor(s % 60);
+    return `${m}:${sec.toString().padStart(2, "0")}`;
   };
 
   return (
     <div
       style={{
-        flex: "1 1 400px",
-        maxWidth: 500,
-        background: "#F5F5F5",
-        borderRadius: 16,
+        width: "100%",
+        maxWidth: 460,
+        borderRadius: 20,
         overflow: "hidden",
+        background: "#fff",
+        boxShadow: "0 4px 32px rgba(0,0,0,0.10)",
+        fontFamily: "inherit",
       }}
     >
-      {/* Tabs */}
-      <div style={{ display: "flex", borderBottom: "1px solid rgba(0,0,0,0.08)" }}>
-        <button
-          onClick={() => handleTabSwitch("human")}
-          style={{
-            flex: 1,
-            padding: "16px 24px",
-            background: activeTab === "human" ? "white" : "transparent",
-            textAlign: "center",
-            fontFamily: "Inter, sans-serif",
-            fontSize: 14,
-            fontWeight: 500,
-            color: activeTab === "human" ? "black" : "rgba(0,0,0,0.4)",
-            border: "none",
-            cursor: "pointer",
-            transition: "all 0.2s ease",
-          }}
-        >
-          Recepcionista
-        </button>
-        <button
-          onClick={() => handleTabSwitch("ai")}
-          style={{
-            flex: 1,
-            padding: "16px 24px",
-            background: activeTab === "ai" ? "white" : "transparent",
-            textAlign: "center",
-            fontFamily: "Inter, sans-serif",
-            fontSize: 14,
-            fontWeight: 500,
-            color: activeTab === "ai" ? "black" : "rgba(0,0,0,0.4)",
-            border: "none",
-            cursor: "pointer",
-            transition: "all 0.2s ease",
-          }}
-        >
-          Recepcionista IA
-        </button>
+      {/* Tab Toggle */}
+      <div
+        style={{
+          display: "flex",
+          background: "#F5F5F5",
+          borderRadius: "14px 14px 0 0",
+          padding: "6px",
+          gap: 4,
+        }}
+      >
+        {(["human", "ai"] as const).map((tab) => (
+          <button
+            key={tab}
+            onClick={() => setActiveTab(tab)}
+            style={{
+              flex: 1,
+              padding: "10px 0",
+              borderRadius: 10,
+              border: "none",
+              cursor: "pointer",
+              fontWeight: 600,
+              fontSize: 14,
+              transition: "all 0.2s",
+              background: activeTab === tab ? "#fff" : "transparent",
+              color: activeTab === tab ? "#111" : "#888",
+              boxShadow:
+                activeTab === tab ? "0 2px 8px rgba(0,0,0,0.08)" : "none",
+            }}
+          >
+            {tab === "human" ? "Recepcionista" : "Recepcionista IA"}
+          </button>
+        ))}
       </div>
 
       {/* Video */}
-      <div
-        style={{ position: "relative", aspectRatio: "9/16", overflow: "hidden", cursor: "pointer" }}
-        onClick={togglePlay}
-      >
+      <div style={{ position: "relative", width: "100%", aspectRatio: "16/9" }}>
         <video
-          ref={videoRef}
-          key={videoSrc}
           src={videoSrc}
           playsInline
           muted
-          preload="auto"
-          onTimeUpdate={() => {
-            if (videoRef.current) setCurrentTime(videoRef.current.currentTime);
-          }}
-          onLoadedMetadata={() => {
-            if (videoRef.current) setDuration(videoRef.current.duration);
-          }}
-          onEnded={() => setPlaying(false)}
+          loop
+          autoPlay
           style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
         />
-        {/* Play overlay when paused */}
-        {!playing && (
-          <div
-            style={{
-              position: "absolute",
-              inset: 0,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              background: "rgba(0,0,0,0.15)",
-            }}
-          >
-            <div
-              style={{
-                width: 56,
-                height: 56,
-                borderRadius: "50%",
-                background: "black",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <svg width="18" height="18" viewBox="0 0 14 14" fill="white">
-                <path d="M3 1.5v11l9-5.5z" />
-              </svg>
-            </div>
-          </div>
-        )}
+        <audio
+          ref={audioRef}
+          src={audioSrc}
+          onTimeUpdate={() => setCurrentTime(audioRef.current?.currentTime ?? 0)}
+          onLoadedMetadata={() => setDuration(audioRef.current?.duration ?? 0)}
+          onEnded={() => setPlaying(false)}
+        />
       </div>
 
-      {/* Video controls bar */}
+      {/* Controls */}
       <div
         style={{
-          padding: "12px 20px",
+          padding: "14px 16px",
+          background: "#fff",
           display: "flex",
           alignItems: "center",
-          gap: 12,
-          background: "white",
+          gap: 10,
         }}
       >
-        {/* Play/Pause button */}
         <button
           onClick={togglePlay}
           style={{
-            width: 36,
-            height: 36,
+            width: 40,
+            height: 40,
             borderRadius: "50%",
-            background: "black",
+            background: "#111",
+            border: "none",
+            cursor: "pointer",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
             flexShrink: 0,
-            border: "none",
-            cursor: "pointer",
           }}
         >
           {playing ? (
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="white">
-              <rect x="1" y="1" width="3.5" height="10" rx="1" />
-              <rect x="7.5" y="1" width="3.5" height="10" rx="1" />
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="white">
+              <rect x="3" y="2" width="4" height="12" rx="1" />
+              <rect x="9" y="2" width="4" height="12" rx="1" />
             </svg>
           ) : (
-            <svg width="12" height="12" viewBox="0 0 14 14" fill="white">
-              <path d="M3 1.5v11l9-5.5z" />
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="white">
+              <polygon points="4,2 14,8 4,14" />
             </svg>
           )}
         </button>
 
-        {/* Progress dot */}
-        <div
-          style={{
-            width: 8,
-            height: 8,
-            borderRadius: "50%",
-            background: "black",
-            flexShrink: 0,
-          }}
-        />
+        <span style={{ fontSize: 12, color: "#888", minWidth: 72, flexShrink: 0 }}>
+          {formatTime(currentTime)} / {formatTime(duration)}
+        </span>
 
-        {/* Progress bar */}
         <div
           style={{
             flex: 1,
-            height: 3,
-            background: "rgba(0,0,0,0.1)",
+            height: 4,
+            background: "#E5E5E5",
             borderRadius: 2,
-            position: "relative",
+            overflow: "hidden",
             cursor: "pointer",
           }}
           onClick={(e) => {
-            const bar = e.currentTarget;
-            const rect = bar.getBoundingClientRect();
-            const pct = (e.clientX - rect.left) / rect.width;
-            if (videoRef.current) {
-              videoRef.current.currentTime = pct * duration;
+            const rect = (e.currentTarget as HTMLDivElement).getBoundingClientRect();
+            const ratio = (e.clientX - rect.left) / rect.width;
+            if (audioRef.current) {
+              audioRef.current.currentTime = ratio * (audioRef.current.duration || 0);
             }
           }}
         >
           <div
             style={{
-              width: duration > 0 ? `${(currentTime / duration) * 100}%` : "0%",
               height: "100%",
-              background: "black",
+              width: duration > 0 ? `${(currentTime / duration) * 100}%` : "0%",
+              background: "#111",
               borderRadius: 2,
               transition: "width 0.1s linear",
             }}
           />
         </div>
 
-        {/* Time */}
-        <span style={{ fontSize: 12, color: "rgba(0,0,0,0.5)", whiteSpace: "nowrap" }}>
-          {formatTime(currentTime)} / {formatTime(duration)}
-        </span>
-
-        {/* Restart button */}
         <button
           onClick={restart}
           style={{
@@ -244,13 +194,12 @@ export default function VideoCard() {
             border: "none",
             cursor: "pointer",
             padding: 4,
-            display: "flex",
-            alignItems: "center",
+            flexShrink: 0,
           }}
         >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(0,0,0,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M1 4v6h6" />
-            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#888" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="1 4 1 10 7 10" />
+            <path d="M3.51 15a9 9 0 1 0 .49-4.71" />
           </svg>
         </button>
       </div>
