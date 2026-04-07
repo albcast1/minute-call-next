@@ -8,6 +8,9 @@ export default function VideoCard() {
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
 
+  const videoSrc =
+    "https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4";
+
   const audioSrc =
     activeTab === "human"
       ? "https://framerusercontent.com/assets/m5w1yjJG2zBpKHzi3rnUYCRXRio.mp3"
@@ -20,6 +23,7 @@ export default function VideoCard() {
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
+      audioRef.current.load();
     }
   }, [activeTab]);
 
@@ -96,11 +100,14 @@ export default function VideoCard() {
         ))}
       </div>
 
-      {/* Photo */}
+      {/* Video */}
       <div style={{ position: "relative", width: "100%", aspectRatio: "16/9" }}>
-        <img
-          src={activeTab === "human" ? "/images/recepcionista.jpg" : "/images/recepcionista-ia.jpg"}
-          alt={activeTab === "human" ? "Recepcionista" : "Recepcionista IA"}
+        <video
+          src={videoSrc}
+          playsInline
+          muted
+          loop
+          autoPlay
           style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
         />
         <audio
