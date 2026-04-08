@@ -309,3 +309,33 @@ a:hover {
     padding: 32px 24px !important;
   }
 }
+
+
+/* ── Sectors grid: flexible layout, last row centred ── */
+.sectors-grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center;
+}
+.sectors-grid > * {
+  flex: 0 0 calc(25% - 12px);
+  max-width: calc(25% - 12px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 960px) {
+  .sectors-grid > * {
+    flex: 0 0 calc(33.333% - 11px);
+    max-width: calc(33.333% - 11px);
+  }
+}
+
+@media (max-width: 640px) {
+  .sectors-grid > * {
+    flex: 0 0 calc(50% - 8px);
+    max-width: calc(50% - 8px);
+  }
+  .sectors-grid .card {
+    padding: 14px 12px !important;
+  }
+}
