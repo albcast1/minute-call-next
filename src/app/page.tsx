@@ -29,6 +29,7 @@ export default function Home() {
   return (
     <>
       <FAQPageSchema faqs={faqs.map(f => ({ question: f.q, answer: f.a }))} />
+
       {/* ===== HERO SECTION ===== */}
       <section
         style={{
@@ -44,8 +45,13 @@ export default function Home() {
       >
         {/* Left column */}
         <div style={{ flex: "1 1 480px", maxWidth: 560 }}>
-          {/* Trustpilot badge — marginLeft 16px to align with pill-label text (pill has 16px inner padding) */}
-          <a href="https://www.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", marginBottom: 20, marginLeft: 16 }}>
+          {/* Trustpilot badge */}
+          <a
+            href="https://www.trustpilot.com/review/minute-call.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: "inline-block", marginBottom: 20, marginLeft: 16 }}
+          >
             <img
               src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
               alt="Trustpilot reviews"
@@ -55,9 +61,7 @@ export default function Home() {
 
           {/* Pill label */}
           <div style={{ marginBottom: 24 }}>
-            <span className="pill-label">
-              Recepción de llamadas para PYMES
-            </span>
+            <span className="pill-label">Recepción de llamadas para PYMES</span>
           </div>
 
           {/* Main heading */}
@@ -67,8 +71,8 @@ export default function Home() {
 
           {/* Subtext */}
           <p style={{ maxWidth: 500, marginBottom: 32 }}>
-            Atendemos las llamadas de tu empresa con agentes nativos o asistentes
-            de IA - tú eliges. Sin permanencia, diseñado para PYMES.
+            Atendemos las llamadas de tu empresa con agentes nativos o asistentes de IA - tú
+            eliges. Sin permanencia, diseñado para PYMES.
           </p>
 
           {/* CTA Button */}
@@ -77,7 +81,10 @@ export default function Home() {
           </Link>
         </div>
 
-        <VideoCard />
+        {/* Right column — VideoCard centered vertically */}
+        <div style={{ alignSelf: "center" }}>
+          <VideoCard />
+        </div>
       </section>
 
       {/* ===== PARTNERS ===== */}
@@ -132,7 +139,6 @@ export default function Home() {
         <h2 style={{ marginTop: 24 }}>
           Qué hacemos <span className="serif-italic">por ti.</span>
         </h2>
-
         <div
           style={{
             display: "grid",
@@ -174,9 +180,12 @@ export default function Home() {
         }}
       >
         <div style={{ display: "flex", gap: 48, alignItems: "flex-start", flexWrap: "wrap" }}>
-          {/* Left column: title, text, KPIs (60%) */}
+          {/* Left column */}
           <div style={{ flex: "3 1 0", minWidth: 400 }}>
-            <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
+            <span
+              className="pill-label"
+              style={{ marginBottom: 24, display: "inline-block" }}
+            >
               Resultados de clientes
             </span>
             <h2 style={{ marginTop: 16 }}>
@@ -184,33 +193,48 @@ export default function Home() {
               <span className="serif-italic">oportunidad perdida.</span>
             </h2>
             <p style={{ maxWidth: 520, marginTop: 24 }}>
-              El <strong style={{ color: "black" }}>78% de los leads</strong> contratan al negocio
-              que responde <strong style={{ color: "black" }}>primero</strong> - sin embargo la
-              mayoría de las PYMES{" "}
-              <strong style={{ color: "black" }}>pierde entre el 40-60% de las llamadas entrantes.</strong>
+              El <strong style={{ color: "black" }}>78% de los leads</strong> contratan al
+              negocio que responde <strong style={{ color: "black" }}>primero</strong> - sin
+              embargo la mayoría de las PYMES{" "}
+              <strong style={{ color: "black" }}>
+                pierde entre el 40-60% de las llamadas entrantes.
+              </strong>
             </p>
             <p style={{ maxWidth: 520 }}>
-              Para las empresas de servicios, el teléfono no es solo un canal de
-              comunicación: es su fuente de ingresos.
+              Para las empresas de servicios, el teléfono no es solo un canal de comunicación:
+              es su fuente de ingresos.
             </p>
             <p style={{ maxWidth: 520 }}>
-              Minute Call es un servicio de atención telefónica 24/7 para empresas
-              y PYMES que no pueden permitirse perder llamadas. Basados en España,
-              somos partners de Teleperformance (nº1 mundial BPO), muestra de
-              nuestras altos estándares e calidad.
+              Minute Call es un servicio de atención telefónica 24/7 para empresas y PYMES que
+              no pueden permitirse perder llamadas. Basados en España, somos partners de
+              Teleperformance (nº1 mundial BPO), muestra de nuestras altos estándares e calidad.
             </p>
-
-            {/* KPIs - inside left column */}
             <div style={{ display: "flex", gap: 20, marginTop: 40, flexWrap: "wrap" }}>
               <div className="card" style={{ padding: 24, flex: "1 1 180px" }}>
-                <p style={{ fontSize: 48, fontWeight: 500, color: "black", letterSpacing: -2, marginBottom: 8 }}>
+                <p
+                  style={{
+                    fontSize: 48,
+                    fontWeight: 500,
+                    color: "black",
+                    letterSpacing: -2,
+                    marginBottom: 8,
+                  }}
+                >
                   15 s
                 </p>
                 <h3 style={{ fontSize: 18 }}>Tiempo de respuesta</h3>
                 <p className="service-card-body">Somos rápidos.</p>
               </div>
               <div className="card" style={{ padding: 24, flex: "1 1 180px" }}>
-                <p style={{ fontSize: 48, fontWeight: 500, color: "black", letterSpacing: -2, marginBottom: 8 }}>
+                <p
+                  style={{
+                    fontSize: 48,
+                    fontWeight: 500,
+                    color: "black",
+                    letterSpacing: -2,
+                    marginBottom: 8,
+                  }}
+                >
                   98%
                 </p>
                 <h3 style={{ fontSize: 18 }}>Tasa de respuesta</h3>
@@ -218,8 +242,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          {/* Right column: Glowhaus video (40%) */}
+          {/* Right column: video */}
           <div style={{ flex: "2 1 0", minWidth: 300, alignSelf: "center" }}>
             <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5" }}>
               <video
@@ -245,7 +268,15 @@ export default function Home() {
           textAlign: "center",
         }}
       >
-        <p style={{ fontSize: 14, fontWeight: 500, color: "rgba(0,0,0,0.56)", marginBottom: 8, letterSpacing: -0.5 }}>
+        <p
+          style={{
+            fontSize: 14,
+            fontWeight: 500,
+            color: "rgba(0,0,0,0.56)",
+            marginBottom: 8,
+            letterSpacing: -0.5,
+          }}
+        >
           Creados por ser flexibles.
         </p>
         <h2 style={{ marginBottom: 32 }}>
@@ -285,20 +316,31 @@ export default function Home() {
                   cursor: sector.href ? "pointer" : "default",
                 }}
               >
-                <span style={{ fontSize: 18, fontWeight: 500, color: "black", letterSpacing: "-0.72px" }}>
+                <span
+                  style={{
+                    fontSize: 18,
+                    fontWeight: 500,
+                    color: "black",
+                    letterSpacing: "-0.72px",
+                  }}
+                >
                   {sector.name}
                 </span>
               </div>
             );
             if (sector.href) {
-              return <Link key={sector.name} href={sector.href} style={{ textDecoration: "none" }}>{content}</Link>;
+              return (
+                <Link key={sector.name} href={sector.href} style={{ textDecoration: "none" }}>
+                  {content}
+                </Link>
+              );
             }
             return content;
           })}
         </div>
       </section>
 
-      {/* ===== POR QUÉ NOS ELIGEN (COMPARACIÓN) ===== */}
+      {/* ===== POR QUÉ NOS ELIGEN ===== */}
       <section
         style={{
           maxWidth: 1200,
@@ -313,7 +355,6 @@ export default function Home() {
         <h2 style={{ marginTop: 16 }}>
           Por qué nos <span className="serif-italic">eligen.</span>
         </h2>
-
         <div
           style={{
             display: "grid",
@@ -323,7 +364,6 @@ export default function Home() {
             textAlign: "left",
           }}
         >
-          {/* Otros Call Centers */}
           <div className="card" style={{ padding: 32 }}>
             <h3 style={{ fontSize: 20, marginBottom: 24 }}>Otros Call Centers</h3>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: 16 }}>
@@ -349,8 +389,6 @@ export default function Home() {
               ))}
             </ul>
           </div>
-
-          {/* minute call */}
           <div
             style={{
               background: "black",
@@ -401,17 +439,11 @@ export default function Home() {
         <h2 style={{ marginTop: 16 }}>
           Fundado por quienes escalaron <span className="serif-italic">startups.</span>
         </h2>
-
-        <div
-          style={{
-            display: "flex",
-            gap: 24,
-            marginTop: 48,
-            flexWrap: "wrap",
-          }}
-        >
+        <div style={{ display: "flex", gap: 24, marginTop: 48, flexWrap: "wrap" }}>
           <div style={{ flex: "1 1 0", minWidth: 300, textAlign: "left" }}>
-            <div style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}>
+            <div
+              style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}
+            >
               <img
                 src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
                 alt="Alberto Castiel"
@@ -420,13 +452,14 @@ export default function Home() {
             </div>
             <h3 style={{ fontSize: 22 }}>Alberto Castiel</h3>
             <p className="service-card-body">
-              Ex General Manager en Leocare (130M€ en Series B). Lideró el
-              crecimiento de una fintech de 0 a 45M€ con +30 agentes.
+              Ex General Manager en Leocare (130M€ en Series B). Lideró el crecimiento de una
+              fintech de 0 a 45M€ con +30 agentes.
             </p>
           </div>
-
           <div style={{ flex: "1 1 0", minWidth: 300, textAlign: "left" }}>
-            <div style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}>
+            <div
+              style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}
+            >
               <img
                 src="https://framerusercontent.com/images/6QCXvNGkCPpl1XOgOz1Op6nosP0.jpeg"
                 alt="Beatriz De Tena"
@@ -435,8 +468,8 @@ export default function Home() {
             </div>
             <h3 style={{ fontSize: 22 }}>Beatriz De Tena</h3>
             <p className="service-card-body">
-              Ex CEO en Walmeric by Globant (NYSE:GLOB). También fue Directora
-              Global de Ventas en Konecta y Telefónica.
+              Ex CEO en Walmeric by Globant (NYSE:GLOB). También fue Directora Global de Ventas
+              en Konecta y Telefónica.
             </p>
           </div>
         </div>
@@ -457,7 +490,6 @@ export default function Home() {
         <h2 style={{ marginTop: 16 }}>
           Cómo <span className="serif-italic">funciona.</span>
         </h2>
-
         <div
           style={{
             display: "grid",
@@ -516,8 +548,9 @@ export default function Home() {
           Preguntas
         </span>
         <h2 style={{ marginTop: 16 }}>FAQ</h2>
-
-        <div style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 0, textAlign: "left" }}>
+        <div
+          style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 0, textAlign: "left" }}
+        >
           {faqs.map((faq) => (
             <details
               key={faq.q}
@@ -546,8 +579,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      {/* No CTA section here - "No pierdas" text is only in the footer */}
     </>
   );
 }
