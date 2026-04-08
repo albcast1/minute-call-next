@@ -23,6 +23,8 @@ export default function ContactForm() {
       if (res.ok) {
         setSubmitted(true);
         form.reset();
+      } else {
+        alert("Error al enviar. Inténtalo de nuevo.");
       }
     } catch {
       alert("Error al enviar. Inténtalo de nuevo.");
@@ -33,20 +35,34 @@ export default function ContactForm() {
 
   if (submitted) {
     return (
-      <div
-        style={{
-          background: "#EDE8DF",
-          borderRadius: 16,
-          padding: 48,
-          textAlign: "center",
-        }}
-      >
-        <div style={{ fontSize: 48, marginBottom: 16 }}>✓</div>
-        <h3 style={{ fontSize: 22, marginBottom: 8 }}>¡Gracias!</h3>
-        <p className="service-card-body">
-          Hemos recibido tu solicitud. Nos pondremos en contacto contigo dentro
-          de 24 horas.
-        </p>
+      <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+        <div
+          style={{
+            background: "#EDE8DF",
+            borderRadius: 16,
+            padding: "24px 32px",
+            display: "flex",
+            alignItems: "center",
+            gap: 16,
+          }}
+        >
+          <span style={{ fontSize: 28 }}>✓</span>
+          <div>
+            <p style={{ fontWeight: 600, color: "black", marginBottom: 2 }}>
+              ¡Solicitud recibida!
+            </p>
+            <p className="service-card-body" style={{ marginBottom: 0 }}>
+              Ahora elige el hueco que mejor te venga:
+            </p>
+          </div>
+        </div>
+        <iframe
+          src="https://calendly.com/alberto-minutecall/20min?hide_landing_page_details=1&hide_gdpr_banner=1&background_color=EFEBE5&text_color=000000&primary_color=5AFF15"
+          width="100%"
+          height="700"
+          frameBorder="0"
+          style={{ borderRadius: 16, border: "none" }}
+        />
       </div>
     );
   }
