@@ -95,7 +95,10 @@ export default async function LandingPage({
           </Link>
         </div>
 
-        <VideoCard />
+        {/* Right column — centrado verticalmente */}
+        <div style={{ alignSelf: "center" }}>
+          <VideoCard />
+        </div>
       </section>
 
       {/* ===== TESTIMONIAL ===== */}
