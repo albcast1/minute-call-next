@@ -1,34 +1,65 @@
 import Link from "next/link";
-import { FAQPageSchema } from "@/components/JsonLd";
+import { FAQPageSchema, LocalBusinessSchema, HowToSchema, ServiceSchema } from "@/components/JsonLd";
 import VideoCard from "@/components/VideoCard";
 
 export default function Home() {
   const faqs = [
     {
-      q: "¿Qué es Minute Call?",
-      a: "Minute Call es un servicio de atención telefónica para empresas que atiende llamadas en nombre del negocio con recepcionistas nativos o agentes de IA para evitar perder contactos y oportunidades comerciales.",
+      q: "\u00bfQu\u00e9 es Minute Call?",
+      a: "Minute Call es un servicio de atenci\u00f3n telef\u00f3nica para empresas que atiende llamadas en nombre del negocio con recepcionistas nativos o agentes de IA para evitar perder contactos y oportunidades comerciales.",
     },
     {
-      q: "¿En qué se diferencia de un call center tradicional?",
-      a: "Un call center tradicional está orientado a grandes volúmenes de llamadas, mientras que Minute Call se centra en la atención telefónica para pymes y empresas de servicios donde cada llamada es relevante.",
+      q: "\u00bfEn qu\u00e9 se diferencia de un call center tradicional?",
+      a: "Un call center tradicional est\u00e1 orientado a grandes vol\u00famenes de llamadas, mientras que Minute Call se centra en la atenci\u00f3n telef\u00f3nica para pymes y empresas de servicios donde cada llamada es relevante.",
     },
     {
-      q: "¿Las llamadas las atienden humanos o IA?",
-      a: "Las empresas pueden elegir entre recepcionistas nativos, agentes de IA o una combinación según su volumen de llamadas, horario y tipo de cliente.",
+      q: "\u00bfLas llamadas las atienden humanos o IA?",
+      a: "Las empresas pueden elegir entre recepcionistas nativos, agentes de IA o una combinaci\u00f3n seg\u00fan su volumen de llamadas, horario y tipo de cliente.",
     },
     {
-      q: "¿Para qué tipo de empresas está pensado el servicio?",
-      a: "Principalmente para pymes, clínicas, despachos, inmobiliarias y empresas de servicios que reciben llamadas frecuentes y no pueden permitirse perder oportunidades por no atender el teléfono.",
+      q: "\u00bfPara qu\u00e9 tipo de empresas est\u00e1 pensado el servicio?",
+      a: "Principalmente para pymes, cl\u00ednicas, despachos, inmobiliarias y empresas de servicios que reciben llamadas frecuentes y no pueden permitirse perder oportunidades por no atender el tel\u00e9fono.",
     },
     {
-      q: "¿Qué ocurre cuando no se atiende una llamada?",
-      a: "Cuando una empresa no responde una llamada, es habitual que el cliente potencial no vuelva a llamar. Por eso la atención telefónica continua es clave para la captación y conversión de clientes.",
+      q: "\u00bfQu\u00e9 ocurre cuando no se atiende una llamada?",
+      a: "Cuando una empresa no responde una llamada, es habitual que el cliente potencial no vuelva a llamar. Por eso la atenci\u00f3n telef\u00f3nica continua es clave para la captaci\u00f3n y conversi\u00f3n de clientes.",
     },
-  ];
+    {
+      q: "\u00bfCu\u00e1nto cuesta el servicio de recepcionista virtual?",
+      a: "Los planes de Minute Call empiezan desde 250\u20ac/mes para peque\u00f1as PYMES. El precio var\u00eda seg\u00fan el volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia ni costes ocultos.",
+    },
+    {
+      q: "\u00bfHay permanencia o compromiso de duraci\u00f3n?",
+      a: "No. Minute Call funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelaci\u00f3n. Puedes activar o desactivar el servicio cuando lo necesites.",
+    },
+    {
+      q: "\u00bfCu\u00e1nto se tarda en activar el servicio?",
+      a: "El servicio se activa en menos de 48 horas. Definimos contigo el protocolo de atenci\u00f3n y configuramos todo para que las llamadas se atiendan siguiendo las instrucciones de tu empresa.",
+    },
+    {
+      q: "\u00bfSe integra con mi CRM o agenda?",
+      a: "S\u00ed. Minute Call se integra con los principales CRM y herramientas de agenda para agendar citas, registrar leads y enviar notificaciones autom\u00e1ticas a tu equipo.",
+    },
+    {
+      q: "\u00bfEn qu\u00e9 idiomas se atienden las llamadas?",
+      a: "Nuestros agentes atienden en espa\u00f1ol, ingl\u00e9s y franc\u00e9s. Todos los recepcionistas son nativos, garantizando una atenci\u00f3n profesional y natural en cada idioma.",
+    },
+  ]
 
   return (
     <>
       <FAQPageSchema faqs={faqs.map(f => ({ question: f.q, answer: f.a }))} />
+      <LocalBusinessSchema />
+      <HowToSchema steps={[
+        { name: "Definici\u00f3n del flujo", text: "Personalizamos contigo el gui\u00f3n de llamada y acciones del agente." },
+        { name: "Llamada entrante", text: "Respondemos en nombre de tu empresa siguiendo tu procedimiento." },
+        { name: "Citas y mensajes", text: "Agendamos la cita o enviamos el mensaje al instante a tu email." },
+      ]} />
+      <ServiceSchema services={[
+        { name: "Toma de mensajes", description: "Recepci\u00f3n de llamadas con protocolo personalizado para cada empresa." },
+        { name: "Cualificaci\u00f3n de leads", description: "Cualificamos y recopilamos datos clave para que tu equipo se centre en leads relevantes." },
+        { name: "Reserva de citas", description: "Integraci\u00f3n con CRM y agenda para programar citas en nombre de tu empresa." },
+      ]} />
 
       {/* ===== HERO SECTION ===== */}
       <section
