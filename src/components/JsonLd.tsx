@@ -10,8 +10,9 @@ export const OrganizationSchema: React.FC = () => {
     '@type': 'Organization',
     name: 'minute call',
     url: 'https://www.minute-call.com',
-    logo: 'https://framerusercontent.com/images/ovXvDkQi2KTHjwV1Nl9n9WlloRI.png',
-    description: 'Servicio de atenciÃ³n telefÃ³nica 24/7 para PYMES con agentes nativos y asistentes de IA',
+    logo: 'https://www.minute-call.com/og-image.png',
+    description:
+      'Servicio de atención telefónica 24/7 para PYMES con agentes nativos y asistentes de IA',
     sameAs: ['https://www.linkedin.com/company/minute-call/'],
     contactPoint: {
       '@type': 'ContactPoint',
@@ -25,6 +26,130 @@ export const OrganizationSchema: React.FC = () => {
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
     />
+  );
+};
+
+/**
+ * LocalBusinessSchema Component
+ * Outputs LocalBusiness schema for local SEO and AEO
+ */
+export const LocalBusinessSchema: React.FC = () => {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'minute call',
+    url: 'https://www.minute-call.com',
+    logo: 'https://www.minute-call.com/og-image.png',
+    image: 'https://www.minute-call.com/og-image.png',
+    description:
+      'Servicio de atención telefónica 24/7 para PYMES. Recepcionistas nativos y asistentes de IA. Sin permanencia.',
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'ES',
+    },
+    areaServed: [
+      { '@type': 'Country', name: 'España' },
+    ],
+    priceRange: '€€',
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      opens: '00:00',
+      closes: '23:59',
+    },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer service',
+      availableLanguage: ['Spanish', 'English', 'French'],
+    },
+    sameAs: ['https://www.linkedin.com/company/minute-call/'],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+};
+
+/**
+ * HowToSchema Component
+ * Outputs HowTo schema for the "Cómo funciona" section
+ */
+interface HowToStep {
+  name: string;
+  text: string;
+}
+
+interface HowToSchemaProps {
+  steps: HowToStep[];
+}
+
+export const HowToSchema: React.FC<HowToSchemaProps> = ({ steps }) => {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: 'Cómo funciona el servicio de recepcionista virtual de Minute Call',
+    description:
+      'Activa tu recepcionista virtual en 3 sencillos pasos: define el flujo, recibe llamadas y gestiona citas automáticamente.',
+    step: steps.map((s, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+};
+
+/**
+ * ServiceSchema Component
+ * Outputs Service schema for each core offering
+ */
+interface ServiceItem {
+  name: string;
+  description: string;
+}
+
+interface ServiceSchemaProps {
+  services: ServiceItem[];
+}
+
+export const ServiceSchema: React.FC<ServiceSchemaProps> = ({ services }) => {
+  const schema = services.map((s) => ({
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: s.name,
+    description: s.description,
+    provider: {
+      '@type': 'Organization',
+      name: 'minute call',
+      url: 'https://www.minute-call.com',
+    },
+    areaServed: { '@type': 'Country', name: 'España' },
+    availableChannel: {
+      '@type': 'ServiceChannel',
+      serviceType: 'Atención telefónica',
+    },
+  }));
+
+  return (
+    <>
+      {schema.map((s, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }}
+        />
+      ))}
+    </>
   );
 };
 
