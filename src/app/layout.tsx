@@ -5,15 +5,43 @@ import Footer from "@/components/Footer";
 import { OrganizationSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Atención telefónica para PYMES",
+  title: "Recepcionista virtual para PYMES | Minute Call",
   description:
-    "Servicio de atención telefónica con agentes nativos y asistentes de IA. Recepción de llamadas, filtrado, conversión de leads, y gestión de citas.",
+    "Servicio de atención telefónica con agentes nativos y asistentes de IA. Recepción de llamadas, filtrado, conversión de leads y gestión de citas para PYMES.",
   metadataBase: new URL("https://www.minute-call.com"),
   alternates: { canonical: "/" },
   openGraph: {
-    siteName: "minute call",
+    siteName: "Minute Call",
     locale: "es_ES",
     type: "website",
+    title: "Recepcionista virtual para PYMES | Minute Call",
+    description:
+      "Servicio de atención telefónica con agentes nativos y asistentes de IA para PYMES. Sin perder ni una llamada.",
+    url: "https://www.minute-call.com",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Minute Call – Recepcionista virtual para PYMES",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Recepcionista virtual para PYMES | Minute Call",
+    description:
+      "Servicio de atención telefónica con agentes nativos y asistentes de IA. Sin perder ni una llamada.",
+    images: ["/og-image.png"],
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png" }],
+    other: [{ rel: "manifest", url: "/site.webmanifest" }],
   },
 };
 
