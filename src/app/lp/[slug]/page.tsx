@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import sectors from "@/data/sectors.json";
 import { FAQPageSchema, BreadcrumbSchema } from "@/components/JsonLd";
+import VideoCard from "@/components/VideoCard";
 
 export async function generateStaticParams() {
   return sectors.map((sector) => ({
@@ -49,36 +50,52 @@ export default async function LandingPage({
       ]} />
 
       {/* ===== HERO ===== */}
-      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px 60px" }}>
-        <a
-          href="https://www.trustpilot.com/review/minute-call.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ display: "inline-block", marginBottom: 20, marginLeft: 16 }}
-        >
-          <img
-            src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
-            alt="Trustpilot reviews"
-            style={{ height: 36 }}
-          />
-        </a>
+      <section
+        style={{
+          maxWidth: 1200,
+          margin: "0 auto",
+          padding: "80px 64px 60px",
+          display: "flex",
+          alignItems: "flex-start",
+          justifyContent: "space-between",
+          gap: 60,
+          flexWrap: "wrap",
+        }}
+      >
+        {/* Left column */}
+        <div style={{ flex: "1 1 480px", maxWidth: 560 }}>
+          <a
+            href="https://www.trustpilot.com/review/minute-call.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: "inline-block", marginBottom: 20, marginLeft: 16 }}
+          >
+            <img
+              src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
+              alt="Trustpilot reviews"
+              style={{ height: 36 }}
+            />
+          </a>
 
-        <div style={{ marginBottom: 24 }}>
-          <span className="pill-label">{sector.heroTag}</span>
+          <div style={{ marginBottom: 24 }}>
+            <span className="pill-label">{sector.heroTag}</span>
+          </div>
+
+          <h1>
+            Recepcionista de IA para{" "}
+            <span className="serif-italic">{sector.sector}.</span>
+          </h1>
+
+          <p style={{ maxWidth: 500, marginBottom: 16 }}>{sector.heroSubtitle}</p>
+
+          <p style={{ marginBottom: 40 }}>{sector.socialProof}</p>
+
+          <Link href="/reserva-llamada" className="btn-cta">
+            Solicitar demo gratis
+          </Link>
         </div>
 
-        <h1 style={{ maxWidth: 720 }}>
-          Recepcionista de IA para{" "}
-          <span className="serif-italic">{sector.sector}.</span>
-        </h1>
-
-        <p style={{ maxWidth: 560, marginBottom: 16 }}>{sector.heroSubtitle}</p>
-
-        <p style={{ marginBottom: 40 }}>{sector.socialProof}</p>
-
-        <Link href="/reserva-llamada" className="btn-cta">
-          Solicitar demo gratis
-        </Link>
+        <VideoCard />
       </section>
 
       {/* ===== TESTIMONIAL ===== */}
