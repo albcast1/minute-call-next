@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: "Minute Call <onboarding@resend.dev>",
+        from: "Minute Call <contacto@minute-call.com>",
         to: ["alberto@minute-call.com"],
         reply_to: email,
         subject: `Nueva solicitud de llamada — ${nombre}`,
