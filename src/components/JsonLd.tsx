@@ -11,11 +11,10 @@ export const OrganizationSchema: React.FC = () => {
     name: 'minute call',
     url: 'https://www.minute-call.com',
     logo: 'https://framerusercontent.com/images/ovXvDkQi2KTHjwV1Nl9n9WlloRI.png',
-    description: 'Servicio de atención telefónica 24/7 para PYMES con agentes nativos y asistentes de IA',
+    description: 'Servicio de atenciÃ³n telefÃ³nica 24/7 para PYMES con agentes nativos y asistentes de IA',
     sameAs: ['https://www.linkedin.com/company/minute-call/'],
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '',
       contactType: 'customer service',
       availableLanguage: ['Spanish', 'English', 'French'],
     },
