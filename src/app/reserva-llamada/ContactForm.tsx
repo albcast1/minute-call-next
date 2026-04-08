@@ -2,6 +2,9 @@
 
 import { FormEvent, useState } from "react";
 
+// Fondo del form: más claro que el fondo de página (#EFEBE5)
+const FORM_BG = "#F5F1EB";
+
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -13,24 +16,16 @@ export default function ContactForm() {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    try {
-      const res = await fetch("https://formspree.io/f/xpwrjqkd", {
-        method: "POST",
-        body: formData,
-        headers: { Accept: "application/json" },
-      });
+    // Enviamos a Formspree en paralelo (fire & forget) — no bloqueamos el flujo
+    fetch("https://formspree.io/f/xpwrjqkd", {
+      method: "POST",
+      body: formData,
+      headers: { Accept: "application/json" },
+    }).catch(() => {});
 
-      if (res.ok) {
-        setSubmitted(true);
-        form.reset();
-      } else {
-        alert("Error al enviar. Inténtalo de nuevo.");
-      }
-    } catch {
-      alert("Error al enviar. Inténtalo de nuevo.");
-    } finally {
-      setLoading(false);
-    }
+    // Mostramos Calendly siempre
+    setSubmitted(true);
+    setLoading(false);
   };
 
   if (submitted) {
@@ -38,30 +33,30 @@ export default function ContactForm() {
       <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
         <div
           style={{
-            background: "#EDE8DF",
+            background: FORM_BG,
             borderRadius: 16,
-            padding: "24px 32px",
+            padding: "20px 28px",
             display: "flex",
             alignItems: "center",
             gap: 16,
           }}
         >
-          <span style={{ fontSize: 28 }}>✓</span>
+          <span style={{ fontSize: 24 }}>✓</span>
           <div>
-            <p style={{ fontWeight: 600, color: "black", marginBottom: 2 }}>
+            <p style={{ fontWeight: 600, color: "black", marginBottom: 2, fontSize: 16 }}>
               ¡Solicitud recibida!
             </p>
             <p className="service-card-body" style={{ marginBottom: 0 }}>
-              Ahora elige el hueco que mejor te venga:
+              Elige el hueco que mejor te venga:
             </p>
           </div>
         </div>
         <iframe
-          src="https://calendly.com/alberto-minutecall/20min?hide_landing_page_details=1&hide_gdpr_banner=1&background_color=EFEBE5&text_color=000000&primary_color=5AFF15"
+          src="https://calendly.com/alberto-minutecall/20min?hide_landing_page_details=1&hide_gdpr_banner=1&background_color=F5F1EB&text_color=000000&primary_color=5AFF15"
           width="100%"
-          height="700"
+          height="680"
           frameBorder="0"
-          style={{ borderRadius: 16, border: "none" }}
+          style={{ borderRadius: 16, border: "none", display: "block" }}
         />
       </div>
     );
@@ -71,7 +66,7 @@ export default function ContactForm() {
     <form
       onSubmit={handleSubmit}
       style={{
-        background: "#EDE8DF",
+        background: FORM_BG,
         borderRadius: 16,
         padding: 40,
         display: "flex",
@@ -80,15 +75,7 @@ export default function ContactForm() {
       }}
     >
       <div>
-        <label
-          style={{
-            fontSize: 14,
-            fontWeight: 500,
-            color: "black",
-            display: "block",
-            marginBottom: 8,
-          }}
-        >
+        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
           Nombre *
         </label>
         <input
@@ -110,15 +97,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label
-          style={{
-            fontSize: 14,
-            fontWeight: 500,
-            color: "black",
-            display: "block",
-            marginBottom: 8,
-          }}
-        >
+        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
           Email de empresa *
         </label>
         <input
@@ -140,15 +119,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label
-          style={{
-            fontSize: 14,
-            fontWeight: 500,
-            color: "black",
-            display: "block",
-            marginBottom: 8,
-          }}
-        >
+        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
           Teléfono *
         </label>
         <input
@@ -170,15 +141,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label
-          style={{
-            fontSize: 14,
-            fontWeight: 500,
-            color: "black",
-            display: "block",
-            marginBottom: 8,
-          }}
-        >
+        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
           Contexto (necesidad, volumen de llamadas diario, etc.) *
         </label>
         <textarea
