@@ -62,7 +62,6 @@ export default async function LandingPage({
           flexWrap: "wrap",
         }}
       >
-        {/* Left column */}
         <div style={{ flex: "1 1 480px", maxWidth: 560 }}>
           <a
             href="https://www.trustpilot.com/review/minute-call.com"
@@ -95,7 +94,6 @@ export default async function LandingPage({
           </Link>
         </div>
 
-        {/* Right column — centrado verticalmente */}
         <div style={{ alignSelf: "center" }}>
           <VideoCard />
         </div>
@@ -134,7 +132,7 @@ export default async function LandingPage({
         </div>
       </section>
 
-      {/* ===== VENTAJAS CLAVE ===== */}
+      {/* ===== VENTAJAS CLAVE — siempre 3 cards ===== */}
       <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}>
         <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
           Ventajas
@@ -145,12 +143,12 @@ export default async function LandingPage({
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gridTemplateColumns: "repeat(3, 1fr)",
             gap: 20,
             marginTop: 48,
           }}
         >
-          {sector.features.map((feature, index) => (
+          {sector.features.slice(0, 3).map((feature, index) => (
             <div key={index} className="card" style={{ textAlign: "left", padding: 32 }}>
               <h3 className="service-card-title" style={{ fontSize: 24 }}>
                 {feature.title}
@@ -172,7 +170,7 @@ export default async function LandingPage({
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gridTemplateColumns: "repeat(3, 1fr)",
             gap: 24,
             marginTop: 48,
             textAlign: "left",
