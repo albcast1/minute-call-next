@@ -35,7 +35,7 @@ export default function ContactForm() {
     return (
       <div
         style={{
-          background: "white",
+          background: "#EDE8DF",
           borderRadius: 16,
           padding: 48,
           textAlign: "center",
@@ -55,7 +55,7 @@ export default function ContactForm() {
     <form
       onSubmit={handleSubmit}
       style={{
-        background: "white",
+        background: "#EDE8DF",
         borderRadius: 16,
         padding: 40,
         display: "flex",
@@ -64,7 +64,15 @@ export default function ContactForm() {
       }}
     >
       <div>
-        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
+        <label
+          style={{
+            fontSize: 14,
+            fontWeight: 500,
+            color: "black",
+            display: "block",
+            marginBottom: 8,
+          }}
+        >
           Nombre *
         </label>
         <input
@@ -76,7 +84,7 @@ export default function ContactForm() {
             width: "100%",
             padding: "12px 0",
             border: "none",
-            borderBottom: "1px solid rgba(0,0,0,0.15)",
+            borderBottom: "1px solid rgba(0,0,0,0.2)",
             background: "transparent",
             fontSize: 16,
             outline: "none",
@@ -86,7 +94,15 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
+        <label
+          style={{
+            fontSize: 14,
+            fontWeight: 500,
+            color: "black",
+            display: "block",
+            marginBottom: 8,
+          }}
+        >
           Email de empresa *
         </label>
         <input
@@ -98,7 +114,7 @@ export default function ContactForm() {
             width: "100%",
             padding: "12px 0",
             border: "none",
-            borderBottom: "1px solid rgba(0,0,0,0.15)",
+            borderBottom: "1px solid rgba(0,0,0,0.2)",
             background: "transparent",
             fontSize: 16,
             outline: "none",
@@ -108,7 +124,15 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
+        <label
+          style={{
+            fontSize: 14,
+            fontWeight: 500,
+            color: "black",
+            display: "block",
+            marginBottom: 8,
+          }}
+        >
           Teléfono *
         </label>
         <input
@@ -120,7 +144,7 @@ export default function ContactForm() {
             width: "100%",
             padding: "12px 0",
             border: "none",
-            borderBottom: "1px solid rgba(0,0,0,0.15)",
+            borderBottom: "1px solid rgba(0,0,0,0.2)",
             background: "transparent",
             fontSize: 16,
             outline: "none",
@@ -130,7 +154,15 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
+        <label
+          style={{
+            fontSize: 14,
+            fontWeight: 500,
+            color: "black",
+            display: "block",
+            marginBottom: 8,
+          }}
+        >
           Contexto (necesidad, volumen de llamadas diario, etc.) *
         </label>
         <textarea
@@ -142,7 +174,7 @@ export default function ContactForm() {
             width: "100%",
             padding: "12px 0",
             border: "none",
-            borderBottom: "1px solid rgba(0,0,0,0.15)",
+            borderBottom: "1px solid rgba(0,0,0,0.2)",
             background: "transparent",
             fontSize: 16,
             outline: "none",
