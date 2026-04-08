@@ -1,8 +1,7 @@
+import Link from "next/link";
 import { Metadata } from "next";
 import sectors from "@/data/sectors.json";
 import { FAQPageSchema, BreadcrumbSchema } from "@/components/JsonLd";
-
-type SectorData = (typeof sectors)[0];
 
 export async function generateStaticParams() {
   return sectors.map((sector) => ({
@@ -17,11 +16,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const sector = sectors.find((s) => s.slug === slug);
-
-  if (!sector) {
-    return {};
-  }
-
+  if (!sector) return {};
   return {
     title: sector.metaTitle,
     description: sector.metaDescription,
@@ -33,31 +28,6 @@ export async function generateMetadata({
   };
 }
 
-function FAQAccordion({
-  faq,
-}: {
-  faq: Array<{ question: string; answer: string }>;
-}) {
-  return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-      {faq.map((item, index) => (
-        <details
-          key={index}
-          style={{ border: "1.5px solid rgba(0,0,0,0.12)", borderRadius: 16, overflow: "hidden" }}
-        >
-          <summary style={{ cursor: "pointer", padding: "20px 24px", background: "#fff", display: "flex", alignItems: "center", justifyContent: "space-between", fontWeight: 600, fontSize: 17, color: "#111", listStyle: "none" }}>
-            <span>{item.question}</span>
-            <span style={{ color: "rgba(0,0,0,0.4)", fontSize: 14, flexShrink: 0, marginLeft: 16 }}>▼</span>
-          </summary>
-          <div style={{ padding: "16px 24px", background: "#F5F0E8", color: "rgba(0,0,0,0.7)", fontSize: 16, lineHeight: 1.6, borderTop: "1.5px solid rgba(0,0,0,0.08)" }}>
-            {item.answer}
-          </div>
-        </details>
-      ))}
-    </div>
-  );
-}
-
 export default async function LandingPage({
   params,
 }: {
@@ -67,146 +37,222 @@ export default async function LandingPage({
   const sector = sectors.find((s) => s.slug === slug);
 
   if (!sector) {
-    return <div style={{ textAlign: "center", padding: "80px 24px", background: "#F5F0E8" }}>Sector no encontrado</div>;
+    return <div style={{ textAlign: "center", padding: "80px 64px" }}>Sector no encontrado</div>;
   }
 
   return (
-    <div style={{ background: "#F5F0E8", minHeight: "100vh", fontFamily: "inherit" }}>
+    <>
       <FAQPageSchema faqs={sector.faq.map(f => ({ question: f.question, answer: f.answer }))} />
       <BreadcrumbSchema items={[
         { name: "Inicio", url: "https://www.minute-call.com" },
         { name: sector.title, url: `https://www.minute-call.com/lp/${sector.slug}` }
       ]} />
 
-      {/* Hero Section */}
-      <section style={{ paddingTop: 100, paddingBottom: 80, paddingLeft: 24, paddingRight: 24 }}>
-        <div style={{ maxWidth: 860, margin: "0 auto" }}>
-          {/* Trustpilot Badge */}
-          <div style={{ display: "flex", justifyContent: "center", marginBottom: 32 }}>
-            <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "#fff", padding: "8px 20px", borderRadius: 50, fontSize: 14, fontWeight: 500, color: "#111", boxShadow: "0 2px 8px rgba(0,0,0,0.08)" }}>
-              <span style={{ color: "#f59e0b" }}>★★★★★</span>
-              <span>4.9 en Trustpilot</span>
-            </div>
-          </div>
+      {/* ===== HERO ===== */}
+      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px 60px" }}>
+        <a
+          href="https://www.trustpilot.com/review/minute-call.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ display: "inline-block", marginBottom: 20, marginLeft: 16 }}
+        >
+          <img
+            src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
+            alt="Trustpilot reviews"
+            style={{ height: 36 }}
+          />
+        </a>
 
-          {/* Tag Badge */}
-          <div style={{ display: "flex", justifyContent: "center", marginBottom: 24 }}>
-            <span style={{ display: "inline-block", background: "#fff", padding: "8px 20px", borderRadius: 50, fontSize: 14, fontWeight: 600, color: "#111", boxShadow: "0 2px 8px rgba(0,0,0,0.08)" }}>
-              {sector.heroTag}
-            </span>
-          </div>
-
-          {/* Main Headline */}
-          <h1 style={{ fontSize: "clamp(36px, 6vw, 64px)", fontWeight: 800, textAlign: "center", color: "#111", marginBottom: 24, lineHeight: 1.1, letterSpacing: "-0.02em" }}>
-            Recepcionista de IA para <em style={{ fontStyle: "italic" }}>{sector.sector}</em>.
-          </h1>
-
-          {/* Subtitle */}
-          <p style={{ fontSize: 19, color: "rgba(0,0,0,0.7)", textAlign: "center", lineHeight: 1.6, maxWidth: 680, margin: "0 auto 32px auto" }}>
-            {sector.heroSubtitle}
-          </p>
-
-          {/* Social Proof */}
-          <p style={{ textAlign: "center", color: "rgba(0,0,0,0.56)", fontSize: 15, marginBottom: 40 }}>{sector.socialProof}</p>
-
-          {/* CTA Button */}
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <button style={{ backgroundColor: "#5AFF15", color: "#000", border: "2px solid #222", fontWeight: 700, padding: "18px 40px", borderRadius: 50, fontSize: 18, cursor: "pointer", boxShadow: "0 4px 16px rgba(0,0,0,0.12)" }}>
-              Solicitar demo
-            </button>
-          </div>
+        <div style={{ marginBottom: 24 }}>
+          <span className="pill-label">{sector.heroTag}</span>
         </div>
+
+        <h1 style={{ maxWidth: 720 }}>
+          Recepcionista de IA para{" "}
+          <span className="serif-italic">{sector.sector}.</span>
+        </h1>
+
+        <p style={{ maxWidth: 560, marginBottom: 16 }}>{sector.heroSubtitle}</p>
+
+        <p style={{ marginBottom: 40 }}>{sector.socialProof}</p>
+
+        <Link href="/reserva-llamada" className="btn-cta">
+          Solicitar demo gratis
+        </Link>
       </section>
 
-      {/* Testimonial Section */}
-      <section style={{ padding: "80px 24px", background: "rgba(0,0,0,0.04)" }}>
-        <div style={{ maxWidth: 720, margin: "0 auto", textAlign: "center" }}>
-          <div style={{ marginBottom: 16, fontSize: 40 }}>💬</div>
-          <blockquote style={{ fontSize: "clamp(20px, 3vw, 28px)", fontWeight: 600, color: "#111", marginBottom: 24, fontStyle: "italic", lineHeight: 1.4, margin: "0 0 24px 0" }}>
+      {/* ===== TESTIMONIAL ===== */}
+      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}>
+        <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
+          Clientes
+        </span>
+        <h2 style={{ marginTop: 16 }}>
+          Lo que dicen <span className="serif-italic">nuestros clientes.</span>
+        </h2>
+        <div
+          className="card"
+          style={{ maxWidth: 720, margin: "48px auto 0", padding: 48, textAlign: "center" }}
+        >
+          <p
+            style={{
+              fontSize: 22,
+              fontStyle: "italic",
+              color: "black",
+              marginBottom: 24,
+              lineHeight: 1.5,
+              letterSpacing: "-0.5px",
+            }}
+          >
             &ldquo;{sector.testimonial.quote}&rdquo;
-          </blockquote>
-          <p style={{ color: "rgba(0,0,0,0.7)", fontSize: 16 }}>
-            <span style={{ fontWeight: 700 }}>{sector.testimonial.author}</span>
-            <br />
-            <span style={{ color: "rgba(0,0,0,0.56)" }}>{sector.testimonial.role}</span>
+          </p>
+          <p style={{ fontWeight: 600, color: "black", marginBottom: 4 }}>
+            {sector.testimonial.author}
+          </p>
+          <p style={{ color: "rgba(0,0,0,0.56)", marginBottom: 0 }}>
+            {sector.testimonial.role}
           </p>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section style={{ padding: "80px 24px" }}>
-        <div style={{ maxWidth: 900, margin: "0 auto" }}>
-          <h2 style={{ fontSize: "clamp(28px, 4vw, 42px)", fontWeight: 800, color: "#111", marginBottom: 48, textAlign: "center", letterSpacing: "-0.02em" }}>
-            Ventajas clave
-          </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24 }}>
-            {sector.features.map((feature, index) => (
-              <div
-                key={index}
-                style={{ background: "#fff", borderRadius: 24, padding: 32, boxShadow: "0 2px 16px rgba(0,0,0,0.06)" }}
+      {/* ===== VENTAJAS CLAVE ===== */}
+      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}>
+        <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
+          Ventajas
+        </span>
+        <h2 style={{ marginTop: 16 }}>
+          Qué hacemos <span className="serif-italic">por ti.</span>
+        </h2>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gap: 20,
+            marginTop: 48,
+          }}
+        >
+          {sector.features.map((feature, index) => (
+            <div key={index} className="card" style={{ textAlign: "left", padding: 32 }}>
+              <h3 className="service-card-title" style={{ fontSize: 24 }}>
+                {feature.title}
+              </h3>
+              <p className="service-card-body">{feature.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ===== CÓMO FUNCIONA ===== */}
+      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}>
+        <span className="pill-label" style={{ marginBottom: 16, display: "inline-block" }}>
+          Como funciona
+        </span>
+        <h2 style={{ marginTop: 16 }}>
+          Cómo <span className="serif-italic">funciona.</span>
+        </h2>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gap: 24,
+            marginTop: 48,
+            textAlign: "left",
+          }}
+        >
+          {[
+            {
+              step: "01",
+              title: "Configuración",
+              description: "Te conocemos. Entrenamos a la IA con tus datos, políticas y FAQs.",
+            },
+            {
+              step: "02",
+              title: "Integración",
+              description: "Configuramos tu número. Los clientes siguen llamando al mismo número.",
+            },
+            {
+              step: "03",
+              title: "Gestión",
+              description: "La IA atiende, filtra leads y agenda citas. Tú solo enfocado en cerrar.",
+            },
+          ].map((item) => (
+            <div key={item.step} className="card" style={{ padding: 32 }}>
+              <p
+                style={{
+                  fontSize: 48,
+                  fontWeight: 500,
+                  color: "rgba(0,0,0,0.1)",
+                  marginBottom: 16,
+                  letterSpacing: -2,
+                }}
               >
-                <h3 style={{ fontSize: 19, fontWeight: 700, color: "#111", marginBottom: 12 }}>
-                  {feature.title}
-                </h3>
-                <p style={{ color: "rgba(0,0,0,0.65)", lineHeight: 1.6, fontSize: 16 }}>
-                  {feature.description}
-                </p>
-              </div>
-            ))}
-          </div>
+                {item.step}
+              </p>
+              <h3 style={{ fontSize: 22 }}>{item.title}</h3>
+              <p className="service-card-body">{item.description}</p>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <section style={{ padding: "80px 24px", background: "rgba(0,0,0,0.04)" }}>
-        <div style={{ maxWidth: 900, margin: "0 auto" }}>
-          <h2 style={{ fontSize: "clamp(28px, 4vw, 42px)", fontWeight: 800, color: "#111", marginBottom: 48, textAlign: "center", letterSpacing: "-0.02em" }}>
-            Cómo funciona
-          </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 32 }}>
-            {[
-              { number: "1", title: "Configuración", description: "Te conocemos. Entrenamos a la IA con tus datos, políticas y FAQs." },
-              { number: "2", title: "Integración", description: "Configuramos tu número. Los clientes siguen llamando al mismo número." },
-              { number: "3", title: "Gestión", description: "La IA atiende, filtra leads y agenda citas. Tú solo enfocado en cerrar." },
-            ].map((step, index) => (
-              <div key={index} style={{ textAlign: "center" }}>
-                <div style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: 64, height: 64, background: "#5AFF15", border: "2px solid #222", borderRadius: "50%", fontWeight: 800, fontSize: 24, color: "#111", marginBottom: 16 }}>
-                  {step.number}
-                </div>
-                <h3 style={{ fontSize: 19, fontWeight: 700, color: "#111", marginBottom: 10 }}>
-                  {step.title}
-                </h3>
-                <p style={{ color: "rgba(0,0,0,0.65)", fontSize: 16, lineHeight: 1.6 }}>{step.description}</p>
-              </div>
-            ))}
-          </div>
+      {/* ===== FAQ ===== */}
+      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}>
+        <span className="pill-label" style={{ marginBottom: 16, display: "inline-block" }}>
+          Preguntas
+        </span>
+        <h2 style={{ marginTop: 16 }}>FAQ</h2>
+        <div
+          style={{
+            marginTop: 32,
+            display: "flex",
+            flexDirection: "column",
+            gap: 0,
+            textAlign: "left",
+          }}
+        >
+          {sector.faq.map((faq, index) => (
+            <details
+              key={index}
+              style={{ padding: "24px 0", borderBottom: "1px solid rgba(0,0,0,0.08)" }}
+            >
+              <summary
+                style={{
+                  fontSize: 18,
+                  fontWeight: 500,
+                  cursor: "pointer",
+                  listStyle: "none",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  color: "black",
+                }}
+              >
+                {faq.question}
+                <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
+              </summary>
+              <p style={{ marginTop: 16, maxWidth: 700 }}>{faq.answer}</p>
+            </details>
+          ))}
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section style={{ padding: "80px 24px" }}>
-        <div style={{ maxWidth: 720, margin: "0 auto" }}>
-          <h2 style={{ fontSize: "clamp(28px, 4vw, 42px)", fontWeight: 800, color: "#111", marginBottom: 48, textAlign: "center", letterSpacing: "-0.02em" }}>
-            Preguntas frecuentes
-          </h2>
-          <FAQAccordion faq={sector.faq} />
-        </div>
+      {/* ===== BOTTOM CTA ===== */}
+      <section
+        style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}
+      >
+        <span className="pill-label" style={{ marginBottom: 16, display: "inline-block" }}>
+          Empieza hoy
+        </span>
+        <h2 style={{ marginTop: 16 }}>
+          ¿Listo para <span className="serif-italic">transformar</span> tu atención?
+        </h2>
+        <p style={{ maxWidth: 520, margin: "0 auto 40px auto" }}>
+          Prueba Minute Call sin compromiso. La mayoría de clientes ven resultados en la primera
+          semana.
+        </p>
+        <Link href="/reserva-llamada" className="btn-cta">
+          Solicitar demo gratis
+        </Link>
       </section>
-
-      {/* Bottom CTA Section */}
-      <section style={{ padding: "80px 24px", background: "rgba(0,0,0,0.04)" }}>
-        <div style={{ maxWidth: 720, margin: "0 auto", textAlign: "center" }}>
-          <h2 style={{ fontSize: "clamp(28px, 4vw, 42px)", fontWeight: 800, color: "#111", marginBottom: 24, letterSpacing: "-0.02em" }}>
-            ¿Listo para transformar tu atención telefónica?
-          </h2>
-          <p style={{ fontSize: 18, color: "rgba(0,0,0,0.7)", marginBottom: 40, lineHeight: 1.6 }}>
-            Prueba Minute Call sin compromiso. La mayoría de clientes ven resultados en la primera semana.
-          </p>
-          <button style={{ backgroundColor: "#5AFF15", color: "#000", border: "2px solid #222", fontWeight: 700, padding: "18px 40px", borderRadius: 50, fontSize: 18, cursor: "pointer", boxShadow: "0 4px 16px rgba(0,0,0,0.12)" }}>
-            Solicitar demo gratis
-          </button>
-        </div>
-      </section>
-    </div>
+    </>
   );
 }
