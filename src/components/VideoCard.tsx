@@ -8,8 +8,10 @@ export default function VideoCard() {
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
 
-  const videoSrc =
-    "https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4";
+  const imageSrc =
+    activeTab === "human"
+      ? "/images/recepcionista.jpg"
+      : "/images/recepcionista-ia.jpg";
 
   const audioSrc =
     activeTab === "human"
@@ -100,14 +102,11 @@ export default function VideoCard() {
         ))}
       </div>
 
-      {/* Video */}
+      {/* Photo */}
       <div style={{ position: "relative", width: "100%", aspectRatio: "16/9" }}>
-        <video
-          src={videoSrc}
-          playsInline
-          muted
-          loop
-          autoPlay
+        <img
+          src={imageSrc}
+          alt={activeTab === "human" ? "Recepcionista" : "Recepcionista IA"}
           style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
         />
         <audio
