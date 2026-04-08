@@ -1,32 +1,41 @@
 "use client";
+import { useState } from "react";
 
-import { FormEvent, useState } from "react";
-
-// Fondo del form: más claro que el fondo de página (#EFEBE5)
 const FORM_BG = "#F5F1EB";
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
+    setError("");
 
     const form = e.currentTarget;
-    const formData = new FormData(form);
+    const data: Record<string, string> = {};
+    const fd = new FormData(form);
+    fd.forEach((v, k) => { data[k] = String(v); });
 
-    // Enviamos a Formspree en paralelo (fire & forget) — no bloqueamos el flujo
-    fetch("https://formspree.io/f/xpwrjqkd", {
-      method: "POST",
-      body: formData,
-      headers: { Accept: "application/json" },
-    }).catch(() => {});
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(data),
+      });
 
-    // Mostramos Calendly siempre
-    setSubmitted(true);
-    setLoading(false);
-  };
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError("Error al enviar. Inténtalo de nuevo.");
+      }
+    } catch {
+      setError("Error al enviar. Inténtalo de nuevo.");
+    } finally {
+      setLoading(false);
+    }
+  }
 
   if (submitted) {
     return (
@@ -36,20 +45,12 @@ export default function ContactForm() {
             background: FORM_BG,
             borderRadius: 16,
             padding: "20px 28px",
-            display: "flex",
-            alignItems: "center",
-            gap: 16,
+            fontSize: 16,
+            color: "#222",
+            border: "1px solid rgba(0,0,0,0.06)",
           }}
         >
-          <span style={{ fontSize: 24 }}>✓</span>
-          <div>
-            <p style={{ fontWeight: 600, color: "black", marginBottom: 2, fontSize: 16 }}>
-              ¡Solicitud recibida!
-            </p>
-            <p className="service-card-body" style={{ marginBottom: 0 }}>
-              Elige el hueco que mejor te venga:
-            </p>
-          </div>
+          ✓ ¡Solicitud recibida! Elige el hueco que mejor te venga:
         </div>
         <iframe
           src="https://calendly.com/alberto-minutecall/20min?hide_landing_page_details=1&hide_gdpr_banner=1&background_color=F5F1EB&text_color=000000&primary_color=5AFF15"
@@ -62,120 +63,73 @@ export default function ContactForm() {
     );
   }
 
+  const inputStyle: React.CSSProperties = {
+    width: "100%",
+    padding: "14px 16px",
+    borderRadius: 10,
+    border: "1px solid rgba(0,0,0,0.12)",
+    background: "#fff",
+    fontSize: 15,
+    color: "#222",
+    outline: "none",
+    boxSizing: "border-box",
+  };
+
+  const labelStyle: React.CSSProperties = {
+    display: "block",
+    fontSize: 13,
+    fontWeight: 500,
+    color: "rgba(0,0,0,0.5)",
+    marginBottom: 6,
+  };
+
   return (
-    <form
-      onSubmit={handleSubmit}
+    <div
       style={{
         background: FORM_BG,
-        borderRadius: 16,
-        padding: 40,
-        display: "flex",
-        flexDirection: "column",
-        gap: 24,
+        borderRadius: 20,
+        padding: "36px 40px",
+        border: "1px solid rgba(0,0,0,0.06)",
       }}
     >
-      <div>
-        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
-          Nombre *
-        </label>
-        <input
-          type="text"
-          name="nombre"
-          required
-          placeholder="Tu nombre"
-          style={{
-            width: "100%",
-            padding: "12px 0",
-            border: "none",
-            borderBottom: "1px solid rgba(0,0,0,0.2)",
-            background: "transparent",
-            fontSize: 16,
-            outline: "none",
-            fontFamily: "Inter, sans-serif",
-          }}
-        />
-      </div>
+      <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+        <div>
+          <label style={labelStyle} htmlFor="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" required placeholder="Tu nombre" style={inputStyle} />
+        </div>
+        <div>
+          <label style={labelStyle} htmlFor="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="tu@email.com" style={inputStyle} />
+        </div>
+        <div>
+          <label style={labelStyle} htmlFor="telefono">Teléfono</label>
+          <input id="telefono" name="telefono" type="tel" required placeholder="+34 600 000 000" style={inputStyle} />
+        </div>
+        <div>
+          <label style={labelStyle} htmlFor="contexto">¿En qué contexto usarías Minute Call?</label>
+          <textarea
+            id="contexto"
+            name="contexto"
+            required
+            rows={4}
+            placeholder="Cuéntanos brevemente..."
+            style={{ ...inputStyle, resize: "vertical" }}
+          />
+        </div>
 
-      <div>
-        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
-          Email de empresa *
-        </label>
-        <input
-          type="email"
-          name="email"
-          required
-          placeholder="tu@empresa.com"
-          style={{
-            width: "100%",
-            padding: "12px 0",
-            border: "none",
-            borderBottom: "1px solid rgba(0,0,0,0.2)",
-            background: "transparent",
-            fontSize: 16,
-            outline: "none",
-            fontFamily: "Inter, sans-serif",
-          }}
-        />
-      </div>
+        {error && (
+          <p style={{ color: "#cc0000", fontSize: 14, margin: 0 }}>{error}</p>
+        )}
 
-      <div>
-        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
-          Teléfono *
-        </label>
-        <input
-          type="tel"
-          name="telefono"
-          required
-          placeholder="+34 XXX XXX XXX"
-          style={{
-            width: "100%",
-            padding: "12px 0",
-            border: "none",
-            borderBottom: "1px solid rgba(0,0,0,0.2)",
-            background: "transparent",
-            fontSize: 16,
-            outline: "none",
-            fontFamily: "Inter, sans-serif",
-          }}
-        />
-      </div>
-
-      <div>
-        <label style={{ fontSize: 14, fontWeight: 500, color: "black", display: "block", marginBottom: 8 }}>
-          Contexto (necesidad, volumen de llamadas diario, etc.) *
-        </label>
-        <textarea
-          name="contexto"
-          required
-          rows={4}
-          placeholder="Cuéntanos sobre tu empresa y tus necesidades..."
-          style={{
-            width: "100%",
-            padding: "12px 0",
-            border: "none",
-            borderBottom: "1px solid rgba(0,0,0,0.2)",
-            background: "transparent",
-            fontSize: 16,
-            outline: "none",
-            fontFamily: "Inter, sans-serif",
-            resize: "none",
-          }}
-        />
-      </div>
-
-      <button
-        type="submit"
-        disabled={loading}
-        className="btn-cta"
-        style={{
-          width: "100%",
-          marginTop: 8,
-          cursor: loading ? "wait" : "pointer",
-          opacity: loading ? 0.6 : 1,
-        }}
-      >
-        {loading ? "Enviando..." : "Reserva una llamada →"}
-      </button>
-    </form>
+        <button
+          type="submit"
+          disabled={loading}
+          className="btn-cta"
+          style={{ opacity: loading ? 0.7 : 1, cursor: loading ? "not-allowed" : "pointer", width: "100%" }}
+        >
+          {loading ? "Enviando..." : "Reservar llamada →"}
+        </button>
+      </form>
+    </div>
   );
 }
