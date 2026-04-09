@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import { Metadata } from 'next';
 import sectors from '@/data/sectors.json';
@@ -5,49 +7,27 @@ import cities from '@/data/cities.json';
 import { FAQPageSchema, BreadcrumbSchema, ServiceSchema } from '@/components/JsonLd';
 
 type SectorType = {
+  id: string;
   slug: string;
-  sector: string;
-  title: string;
-  metaTitle: string;
-  metaDescription: string;
-  heroTag: string;
+  name: string;
   heroSubtitle: string;
-  socialProof: string;
-  testimonial: {
-    quote: string;
-    author: string;
-    role: string;
-  };
   features: Array<{
     title: string;
     description: string;
   }>;
-  faq: Array<{
-    question: string;
-    answer: string;
-  }>;
-};
-
-type CityType = {
-  slug: string;
-  city: string;
-  region: string;
-  metaTitle: string;
-  metaDescription: string;
-  heroTag: string;
-  heroTitle: string;
-  heroSubtitle: string;
-  localContext: string;
-  keySectors: string[];
   testimonial: {
-    quote: string;
+    text: string;
     author: string;
     role: string;
   };
-  stats: {
-    pymes: string;
-    callsLost: string;
-  };
+};
+
+type CityType = {
+  id: string;
+  slug: string;
+  name: string;
+  localContext: string;
+  keySectors: string[];
 };
 
 export async function generateStaticParams() {
@@ -82,8 +62,8 @@ export async function generateMetadata({
     };
   }
 
-  const title = `Recepcionista IA para ${sector.sector} en ${city.city} | minute call`;
-  const description = `Servicio de recepcionista de IA especializado en ${sector.sector} en ${city.city}. Automatiza tu atención telefónica con inteligencia artificial.`;
+  const title = `Recepcionista Virtual para ${sector.name} en ${city.name} | minute call`;
+  const description = `Atención telefónica 24/7 para ${sector.name} en ${city.name} con agentes nativos o IA — tú eliges. Sin permanencia.`;
 
   return {
     title,
@@ -133,26 +113,26 @@ export default async function SectorCityPage({
 
   const breadcrumbItems = [
     { name: 'Inicio', url: '/' },
-    { name: sector.sector, url: `/lp/${sector.slug}` },
-    { name: city.city, url: `/lp/${sector.slug}/${city.slug}` },
+    { name: sector.name, url: `/lp/${sector.slug}` },
+    { name: city.name, url: `/lp/${sector.slug}/${city.slug}` },
   ];
 
   const faqItems = [
     {
-      question: `¿Minute Call ofrece recepcionista para ${sector.sector} en ${city.city}?`,
-      answer: `Sí, minute call ofrece un servicio especializado de recepcionista de IA para ${sector.sector} en ${city.city}. Nuestro sistema está diseñado para atender las necesidades específicas de este sector en esta región, proporcionando respuestas inteligentes y personalizadas.`,
+      question: `¿Minute Call ofrece recepcionista para ${sector.name} en ${city.name}?`,
+      answer: `Sí, Minute Call ofrece atención telefónica especializada para ${sector.name} en ${city.name} con agentes nativos basados en España o asistentes de IA — tú eliges. Nuestro servicio está diseñado para las necesidades específicas de este sector.`,
     },
     {
-      question: `¿Qué sectores atiende Minute Call en ${city.city}?`,
-      answer: `En ${city.city}, Minute Call atiende a varios sectores clave: ${city.keySectors.join(', ')}. Cada uno cuenta con una solución personalizada de recepcionista de IA.`,
+      question: `¿Qué sectores atiende Minute Call en ${city.name}?`,
+      answer: `En ${city.name}, Minute Call atiende a varios sectores clave: ${city.keySectors.join(', ')}. Cada uno cuenta con una solución personalizada de recepcionista virtual con agentes nativos o IA.`,
     },
     {
-      question: `¿Cuánto cuesta el servicio de recepcionista para ${sector.sector}?`,
-      answer: `El coste del servicio de recepcionista de IA para ${sector.sector} varía según tus necesidades específicas. Te invitamos a reservar una llamada donde nuestro equipo te proporcionará un presupuesto personalizado.`,
+      question: `¿Cuánto cuesta el servicio de recepcionista para ${sector.name}?`,
+      answer: `Los planes de Minute Call empiezan desde 250€/mes. El precio varía según el volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia ni costes ocultos. Solicita una demo gratuita para un presupuesto personalizado.`,
     },
     {
-      question: `¿Cómo funciona el servicio en ${city.city}?`,
-      answer: `Nuestro servicio funciona en 3 pasos: primero, configuramos tu recepcionista de IA con los detalles de tu negocio; segundo, integramos el sistema con tu telefonía actual; finalmente, tu recepcionista de IA gestiona las llamadas automáticamente.`,
+      question: `¿Cómo funciona el servicio en ${city.name}?`,
+      answer: `Nuestro servicio funciona en 3 pasos: primero, personalizamos el guión de llamada y acciones del agente; segundo, respondemos en nombre de tu empresa siguiendo tu procedimiento; tercero, agendamos la cita o enviamos el mensaje al instante a tu email.`,
     },
   ];
 
@@ -345,12 +325,10 @@ export default async function SectorCityPage({
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
-        services={[{
-          name: `Recepcionista de IA para ${sector.sector}`,
-          description: `Servicio de recepcionista de IA especializado en ${sector.sector} en ${city.city}`
-        }]}
+        name={`Recepcionista Virtual para ${sector.name}`}
+        description={`Atención telefónica 24/7 para ${sector.name} en ${city.name} con agentes nativos o IA`}
       />
-      <FAQPageSchema faqs={faqItems} />
+      <FAQPageSchema items={faqItems} />
 
       {/* Breadcrumb */}
       <div style={{ ...containerStyle, ...breadcrumbStyle, paddingTop: '20px' }}>
@@ -372,14 +350,14 @@ export default async function SectorCityPage({
       <section style={heroStyle}>
         <div style={containerStyle}>
           <div style={pillStyle} className="pill-label">
-            Recepcionista IA para {sector.sector}
+            Recepcionista Virtual para {sector.name}
           </div>
           <h1 style={h1Style}>
-            Recepcionista de IA para {sector.sector} en {city.city}.
+            Atención telefónica para {sector.name} en {city.name}.
           </h1>
           <p style={subtitleStyle}>
-            {sector.heroSubtitle} en {city.city}. Automatiza tu atención telefónica con
-            inteligencia artificial especializada en tu sector.
+            {sector.heroSubtitle} en {city.name}. Automatiza tu atención telefónica con
+            agentes nativos basados en España o asistentes de IA — tú eliges.
           </p>
           <Link href="/reserva-llamada" style={buttonStyle} className="btn-cta">
             Reserva una llamada
@@ -391,7 +369,7 @@ export default async function SectorCityPage({
       <section style={sectionStyle}>
         <div style={containerStyle}>
           <h2 style={h2Style}>
-            Por qué necesitas un recepcionista de IA en {city.city}
+            Por qué necesitas atención telefónica profesional en {city.name}
           </h2>
           <p style={{ fontSize: '16px', color: '#666', lineHeight: '1.6', marginBottom: '20px' }}>
             {city.localContext}
@@ -412,7 +390,7 @@ export default async function SectorCityPage({
       {/* 3 Feature Cards */}
       <section style={sectionStyle}>
         <div style={containerStyle}>
-          <h2 style={h2Style}>Características principales para {sector.sector}</h2>
+          <h2 style={h2Style}>Características principales para {sector.name}</h2>
           <div style={cardContainerStyle}>
             {featureCards.map((feature, idx) => (
               <div key={idx} style={cardStyle} className="card">
@@ -434,7 +412,7 @@ export default async function SectorCityPage({
           <h2 style={h2Style}>Lo que dicen nuestros clientes</h2>
           <div style={testimonialStyle}>
             <p style={testimonialTextStyle} className="serif-italic">
-              "{sector.testimonial.quote}"
+              "{sector.testimonial.text}"
             </p>
             <p style={authorStyle}>{sector.testimonial.author}</p>
             <p style={roleStyle}>{sector.testimonial.role}</p>
@@ -451,7 +429,7 @@ export default async function SectorCityPage({
               <div style={stepNumberStyle}>1</div>
               <h3 style={h3Style}>Configuración</h3>
               <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
-                Configuramos tu recepcionista de IA con los detalles específicos de tu
+                Personalizamos el guión de llamada y acciones del agente con los detalles de tu
                 negocio y sector.
               </p>
             </div>
@@ -467,8 +445,56 @@ export default async function SectorCityPage({
               <div style={stepNumberStyle}>3</div>
               <h3 style={h3Style}>Gestión</h3>
               <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
-                Tu recepcionista de IA gestiona automáticamente las llamadas y consultas
+                Tu recepcionista virtual gestiona las llamadas y consultas
                 de forma inteligente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* IA vs Human Agent Section */}
+      <section style={sectionStyle}>
+        <div style={containerStyle}>
+          <h2 style={h2Style}>¿IA o agente humano? Tú decides</h2>
+          <p style={{ fontSize: '16px', color: '#666', lineHeight: '1.6', marginBottom: '30px' }}>
+            En Minute Call puedes elegir entre asistentes de IA y recepcionistas nativos basados en España, o combinar ambos según tus necesidades.
+          </p>
+          <div style={cardContainerStyle}>
+            <div style={cardStyle} className="card">
+              <h3 style={h3Style}>Agente de IA</h3>
+              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
+                Ideal para consultas frecuentes, confirmaciones de cita, horarios y disponibilidad. Responde al instante, 24/7, sin esperas. Perfecto para volumen alto y horario nocturno o fines de semana.
+              </p>
+            </div>
+            <div style={cardStyle} className="card">
+              <h3 style={h3Style}>Agente Humano Nativo</h3>
+              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
+                Mejor para primeras consultas de alto valor, quejas, presupuestos personalizados y situaciones que requieren empatía. Recepcionistas nativos basados en España que atienden en español, inglés y francés.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Minute Call vs Call Centers Section */}
+      <section style={{ ...sectionStyle, background: '#f5f7fa' }}>
+        <div style={containerStyle}>
+          <h2 style={h2Style}>Minute Call vs Call Centers Tradicionales</h2>
+          <p style={{ fontSize: '16px', color: '#666', lineHeight: '1.6', marginBottom: '30px' }}>
+            Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para corporaciones. Minute Call está diseñado para PYMES como tu {sector.name.toLowerCase()} en {city.name}.
+          </p>
+          <div style={cardContainerStyle}>
+            <div style={cardStyle} className="card">
+              <h3 style={h3Style}>Call Centers Tradicionales</h3>
+              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
+                Agentes basados en LATAM · Contratos rígidos a largo plazo · Bajo nivel tecnológico · Errores frecuentes · Falta de personalización · Diseñados para grandes corporaciones
+              </p>
+            </div>
+            <div style={cardStyle} className="card">
+              <h3 style={h3Style}>Minute Call</h3>
+              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
+                Agentes nativos basados en España · Sin permanencia, mes a mes · Agentes humanos o IA, tú eliges · Control de calidad de cada conversación · Partners de Teleperformance (#1 BPO mundial) · Desde 250€/mes
               </p>
             </div>
           </div>
@@ -497,17 +523,17 @@ export default async function SectorCityPage({
           <div style={linksStyle}>
             <div style={linkItemStyle}>
               <Link href={`/lp/${sector.slug}`} style={{ color: '#0066cc', textDecoration: 'none' }}>
-                → Recepcionista IA para {sector.sector}
+                → Recepcionista Virtual para {sector.name}
               </Link>
             </div>
             <div style={linkItemStyle}>
               <Link href={`/atencion-telefonica/${city.slug}`} style={{ color: '#0066cc', textDecoration: 'none' }}>
-                → Servicios de atención telefónica en {city.city}
+                → Servicios de atención telefónica en {city.name}
               </Link>
             </div>
           </div>
           <h3 style={{ ...h3Style, marginTop: '40px', marginBottom: '20px' }}>
-            Sectores relacionados en {city.city}
+            Sectores relacionados en {city.name}
           </h3>
           <div style={linksStyle}>
             {relatedSectors.map((relatedSector, idx) => (
@@ -516,7 +542,7 @@ export default async function SectorCityPage({
                   href={`/lp/${relatedSector.slug}/${city.slug}`}
                   style={{ color: '#0066cc', textDecoration: 'none' }}
                 >
-                  → Recepcionista IA para {relatedSector.sector}
+                  → Recepcionista Virtual para {relatedSector.name}
                 </Link>
               </div>
             ))}
@@ -535,10 +561,10 @@ export default async function SectorCityPage({
         }}
       >
         <div style={containerStyle}>
-          <h2 style={h2Style}>Empieza a recibir llamadas hoy</h2>
+          <h2 style={h2Style}>Comienza con una demo gratuita</h2>
           <p style={{ fontSize: '18px', color: '#666', marginBottom: '30px', lineHeight: '1.6' }}>
-            Descubre cómo nuestro recepcionista de IA puede transformar la atención
-            telefónica de tu {sector.sector} en {city.city}.
+            Descubre cómo Minute Call puede transformar la atención
+            telefónica de tu {sector.name} en {city.name}.
           </p>
           <Link href="/reserva-llamada" style={buttonStyle} className="btn-cta">
             Reserva una llamada
