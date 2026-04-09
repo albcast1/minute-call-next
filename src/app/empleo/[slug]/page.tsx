@@ -68,7 +68,7 @@ export default async function EmpleoSlugPage({
 
   return (
     <>
-      <FAQPageSchema items={job.faq} />
+      <FAQPageSchema faqs={job.faq} />
 
       {/* Hero */}
       <section style={{ textAlign: 'center', padding: '80px 20px', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
