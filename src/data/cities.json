@@ -9,7 +9,11 @@
     "heroTitle": "Atención telefónica para empresas en Madrid.",
     "heroSubtitle": "Madrid concentra el mayor número de PYMES en España con más de 400.000 empresas registradas. Nuestro servicio de recepcionista virtual garantiza que ninguna llamada se pierda en tu negocio mientras creces.",
     "localContext": "Madrid alberga el 15% de todas las PYMES españolas, con un ecosistema empresarial diversificado que incluye startups tecnológicas, consultoría, finanzas y servicios profesionales. La capital tiene una tasa de emprendimiento 30% superior a la media nacional, lo que genera una demanda constante de soluciones de atención al cliente profesionalizadas. Las empresas madrileñas pierden en promedio 25% de llamadas potenciales debido a la saturación de líneas, impactando directamente en ventas y reputación.",
-    "keySectors": ["Tecnología y startups", "Servicios profesionales y consultoría", "Finanzas e inversión"],
+    "keySectors": [
+      "Tecnología y startups",
+      "Servicios profesionales y consultoría",
+      "Finanzas e inversión"
+    ],
     "testimonial": {
       "quote": "Gracias a minute call, hemos reducido las llamadas perdidas un 90% sin necesidad de contratar recepcionista presencial. El ROI se vio en el primer mes.",
       "author": "María López",
@@ -30,7 +34,11 @@
     "heroTitle": "Atención telefónica profesional para empresas en Barcelona.",
     "heroSubtitle": "Barcelona es el epicentro del emprendimiento tecnológico en España con más de 2.000 startups activas. Gestiona llamadas internacionales y consultas en múltiples idiomas sin límites con nuestro servicio multiidioma.",
     "localContext": "Barcelona concentra el 40% del ecosistema startup español y atrae inversión internacional constantemente. El tejido empresarial es altamente internacional con empresas que operan en inglés, catalán y español. La competencia por captar clientes es feroz, y perder una llamada significa perder oportunidades frente a competidores tecnológicos consolidados. Las agencias digitales, estudios de diseño y empresas tech requieren atención profesional en múltiples idiomas.",
-    "keySectors": ["Startups y tecnología", "Agencias digitales y diseño", "Comercio electrónico"],
+    "keySectors": [
+      "Startups y tecnología",
+      "Agencias digitales y diseño",
+      "Comercio electrónico"
+    ],
     "testimonial": {
       "quote": "Trabajamos con clientes de toda Europa. minute call nos permite atender en 5 idiomas sin duplicar costos. Ha sido crucial para nuestro crecimiento internacional.",
       "author": "Carlos Martínez",
@@ -51,7 +59,11 @@
     "heroTitle": "Atención telefónica para empresas en Valencia.",
     "heroSubtitle": "Valencia es la tercera ciudad con mayor actividad empresarial en España y está en transición hacia un modelo de economía digital. Protege tu reputación empresarial con un servicio de recepción que entiende las necesidades del sector agrícola y tecnológico local.",
     "localContext": "Valencia concentra más de 120.000 PYMES distribuidas entre el sector agrícola tradicional (exportación de naranjas y cítricos), manufactura, logística portuaria y un creciente ecosistema tech emergente. El puerto de Valencia es el tercero más importante de Europa, generando demanda de servicios B2B especializados. Las empresas aquí enfrentan presión de automatización pero requieren atención humana de calidad en ventas y consulta.",
-    "keySectors": ["Agricultura y agroexportación", "Logística y puerto", "Tecnología emergente"],
+    "keySectors": [
+      "Agricultura y agroexportación",
+      "Logística y puerto",
+      "Tecnología emergente"
+    ],
     "testimonial": {
       "quote": "Como empresa agrícola exportadora, nuestros clientes internacionales valoran la respuesta profesional. minute call nos ha permitido mantener presencia 24/7 sin costos fijos.",
       "author": "Juan García",
@@ -72,7 +84,11 @@
     "heroTitle": "Atención telefónica de calidad para empresas en Sevilla.",
     "heroSubtitle": "Sevilla lidera el sector de servicios profesionales en Andalucía con miles de despachos legales, contables y consultorías. Mejora tu imagen empresarial con una recepción que refleje la excelencia de tu servicio profesional.",
     "localContext": "Sevilla alberga aproximadamente 95.000 PYMES concentradas en servicios profesionales (bufetes legales, asesorías fiscales, consultoría empresarial), turismo de alta gama y patrimonio cultural. La ciudad es destino turístico mundial pero su economía actual depende mayormente de servicios B2B. Los despachos profesionales compiten principalmente en imagen y disponibilidad, lo que hace crítica una recepción telefónica impecable.",
-    "keySectors": ["Servicios profesionales y consultoría", "Turismo de lujo", "Patrimonio y eventos"],
+    "keySectors": [
+      "Servicios profesionales y consultoría",
+      "Turismo de lujo",
+      "Patrimonio y eventos"
+    ],
     "testimonial": {
       "quote": "En un bufete, la primera impresión al teléfono es fundamental. minute call nos ha permitido proyectar una imagen de empresa consolidada sin gastos de recepción presencial.",
       "author": "Ana Ruiz",
@@ -93,7 +109,11 @@
     "heroTitle": "Atención telefónica inteligente para empresas en Málaga.",
     "heroSubtitle": "Málaga ha emergido como hub tecnológico con el Málaga TechPark atrayendo empresas internacionales de IA, software e innovación. Atiende a una base de clientes global con un servicio que crece a tu ritmo, sin infraestructura física.",
     "localContext": "Málaga está transformándose de destino turístico a zona de innovación con más de 1.200 empresas tecnológicas registradas en los últimos 5 años. El Málaga TechPark alberga startups de IA, deep tech y software B2B con ambiciones globales. Simultáneamente, mantiene una fuerte economía de turismo y servicios hoteleros. Este contraste crea demanda por servicios que sean profesionales, escalables y con capacidad multiidioma.",
-    "keySectors": ["Tecnología e innovación", "Turismo y hostelería", "Comercio y retail"],
+    "keySectors": [
+      "Tecnología e innovación",
+      "Turismo y hostelería",
+      "Comercio y retail"
+    ],
     "testimonial": {
       "quote": "Como startup del TechPark, necesitábamos escalar sin incrementar costos fijos. minute call es nuestra recepción virtual perfecta para atender a inversores y clientes internacionales.",
       "author": "David Pérez",
@@ -114,7 +134,11 @@
     "heroTitle": "Atención telefónica profesional para empresas en Bilbao.",
     "heroSubtitle": "Bilbao concentra empresas manufactureras y de servicios financieros con reputación internacional. Mantén un estándar de atención de primera línea con un servicio que entiende la excelencia operativa vasca.",
     "localContext": "Bilbao es centro neurálgico de manufactura avanzada, metalurgia, ingeniería y servicios financieros especializados. La economía bilbaína se caracteriza por empresas consolidadas con altos estándares de calidad y eficiencia operativa. Más de 70.000 PYMES operan en la zona, muchas integradas en cadenas de suministro internacionales. La profesionalidad en la atención es reflejo directo de la imagen corporativa en un mercado donde la confianza y la seriedad son diferenciales competitivos.",
-    "keySectors": ["Manufactura e ingeniería", "Servicios financieros", "Construcción y obra civil"],
+    "keySectors": [
+      "Manufactura e ingeniería",
+      "Servicios financieros",
+      "Construcción y obra civil"
+    ],
     "testimonial": {
       "quote": "En Bilbao, nuestros clientes esperan máxima calidad en cada interacción. minute call mantiene ese nivel sin comprometer nuestro presupuesto operativo.",
       "author": "Iñigo Etxebarria",
@@ -135,7 +159,11 @@
     "heroTitle": "Atención telefónica para empresas logísticas en Zaragoza.",
     "heroSubtitle": "Zaragoza es el mayor hub logístico de España con posición estratégica entre Barcelona y Madrid. Optimiza la gestión de llamadas de clientes y proveedores con un servicio que entiende el ritmo de la logística.",
     "localContext": "Zaragoza alberga el Parque Logístico más importante de España con más de 3.000 empresas del sector logístico, distribución y transporte. Además, concentra industria pesada (químicos, acero, fabricación) y un sector servicios creciente. Aproximadamente 60.000 PYMES operan en la zona, muchas con operaciones 24/7 que requieren cobertura de llamadas constante. La configuración geográfica hace de Zaragoza nodo crítico donde la gestión eficiente de comunicaciones impacta directamente en cadenas de suministro.",
-    "keySectors": ["Logística y distribución", "Transporte y almacenaje", "Manufactura industrial"],
+    "keySectors": [
+      "Logística y distribución",
+      "Transporte y almacenaje",
+      "Manufactura industrial"
+    ],
     "testimonial": {
       "quote": "En logística, los tiempos de respuesta son críticos. minute call atiende nuestras llamadas en segundos, 24/7, sin sobrecostos de personal.",
       "author": "Roberto Jiménez",
@@ -156,7 +184,11 @@
     "heroTitle": "Atención telefónica asequible para empresas en Murcia.",
     "heroSubtitle": "Murcia lidera el sector agroalimentario español como principal productor de frutas y hortalizas. Mejora tu llegada a clientes nacionales e internacionales con un servicio de recepción sin inversión en infraestructura.",
     "localContext": "La Región de Murcia es el principal productor agroalimentario de España, exportando a nivel mundial frutas, hortalizas y productos transformados. Aproximadamente 50.000 PYMES dependen directamente del sector agrícola o de servicios complementarios (empaque, logística, comercio). Las empresas murcianas enfrentan presión de márgenes ajustados y buscan soluciones de costos eficientes. Un servicio de recepción virtual es esencial para competir internacionalmente sin incrementar costos operativos fijos.",
-    "keySectors": ["Agroalimentación y producción agrícola", "Comercio y distribución", "Servicios de empaque y logística"],
+    "keySectors": [
+      "Agroalimentación y producción agrícola",
+      "Comercio y distribución",
+      "Servicios de empaque y logística"
+    ],
     "testimonial": {
       "quote": "Nuestros clientes en Francia, Alemania e Italia valoran la respuesta rápida. Con minute call podemos atender internacionalmente manteniendo márgenes ajustados.",
       "author": "Leticia Fernández",
@@ -177,7 +209,11 @@
     "heroTitle": "Atención telefónica multiidioma para empresas en Palma de Mallorca.",
     "heroSubtitle": "Palma recibe más de 8 millones de turistas anuales con una economía centrada en hospitalidad de lujo. Atiende a clientes internacionales en su idioma con un servicio que escala con la demanda estacional.",
     "localContext": "Palma de Mallorca es destino turístico mundial con una economía altamente dependiente de hostelería, turismo y servicios complementarios. El archipiélago concentra aproximadamente 35.000 PYMES, muchas operando bajo estrés estacional con picos de demanda en verano. Las empresas requieren capacidad de respuesta en inglés, alemán, francés e italiano para atender su base clientelar diversa. La competencia por experiencia del cliente es feroz, haciendo crítica la primera impresión telefónica.",
-    "keySectors": ["Turismo y hostelería", "Servicios gastronómicos y entretenimiento", "Comercio minorista premium"],
+    "keySectors": [
+      "Turismo y hostelería",
+      "Servicios gastronómicos y entretenimiento",
+      "Comercio minorista premium"
+    ],
     "testimonial": {
       "quote": "En temporada alta, recibimos consultas en 6 idiomas simultáneamente. minute call maneja todo sin que tengamos que contratar personal estacional. Ahorro increíble.",
       "author": "Isabel Calafat",
@@ -198,7 +234,11 @@
     "heroTitle": "Atención telefónica para empresas en Las Palmas de Gran Canaria.",
     "heroSubtitle": "Las Palmas es hub emergente de trabajo remoto y emprendimiento gracias a beneficios fiscales especiales. Gestiona equipos distribuidos con un servicio de recepción que trasciende barreras geográficas.",
     "localContext": "Las Palmas ha atraído en los últimos años empresas de tecnología, servicios fintech y consultorías aprovechando beneficios fiscales canarios (ZEC). Simultáneamente, mantiene economía basada en turismo, logística portuaria y servicios. Aproximadamente 28.000 PYMES operan en la zona, con crecimiento acelerado de startups remotas que necesitan presencia profesional sin oficina física. La ubicación estratégica entre Europa y América genera demanda de servicio en múltiples zonas horarias.",
-    "keySectors": ["Tecnología y startups remota", "Turismo y servicios", "Logística y puerto"],
+    "keySectors": [
+      "Tecnología y startups remota",
+      "Turismo y servicios",
+      "Logística y puerto"
+    ],
     "testimonial": {
       "quote": "Nuestro equipo está distribuido entre Las Palmas, Madrid y remoto. minute call nos da presencia profesional centralizada para clientes en cualquier zona horaria.",
       "author": "Miguel Rodríguez",
@@ -219,7 +259,11 @@
     "heroTitle": "Atención telefónica para empresas en Alicante.",
     "heroSubtitle": "Alicante combina economía turística tradicional con crecimiento tecnológico acelerado y comercio internacional. Conecta con clientes en múltiples canales sin dependencia de ubicación física.",
     "localContext": "Alicante concentra aproximadamente 42.000 PYMES divididas entre turismo costero, comercio electrónico y servicios profesionales. El puerto de Alicante mueve volumen significativo de carga internacional, generando demanda de servicios logísticos y comerciales. En los últimos años, ha emergido un ecosistema de startups tech atraídas por costo de vida más bajo que Barcelona o Madrid. Las empresas alicantinas compiten globalmente pero operan con presupuestos ajustados, buscando soluciones de máxima eficiencia.",
-    "keySectors": ["Turismo y comercio minorista", "Tecnología y comercio electrónico", "Servicios logísticos y portuarios"],
+    "keySectors": [
+      "Turismo y comercio minorista",
+      "Tecnología y comercio electrónico",
+      "Servicios logísticos y portuarios"
+    ],
     "testimonial": {
       "quote": "Como tienda online, nuestros clientes llaman desde toda Europa. minute call atiende en español e inglés, capturando cada oportunidad de venta.",
       "author": "Patricia Gómez",
@@ -240,7 +284,11 @@
     "heroTitle": "Atención telefónica profesional para empresas en Valladolid.",
     "heroSubtitle": "Valladolid es polo industrial de automoción con presencia de proveedores de primer nivel. Optimiza tu cadena de comunicación con un servicio que entiende ciclos de producción y demanda B2B.",
     "localContext": "Valladolid alberga plantas de manufactura automotriz y un ecosistema de más de 2.000 proveedores de automoción. Aproximadamente 48.000 PYMES operan en la zona, muchas integradas en cadenas de suministro de grupos como Renault, PSA y otros fabricantes. La economía local es altamente sensible a ciclos de producción global. Las empresas requieren comunicación ágil con clientes y proveedores, con capacidad de respuesta inmediata para mantener cadenas de suministro funcionando sin interrupciones.",
-    "keySectors": ["Automoción y manufactura", "Logística y distribución industrial", "Servicios de ingeniería"],
+    "keySectors": [
+      "Automoción y manufactura",
+      "Logística y distribución industrial",
+      "Servicios de ingeniería"
+    ],
     "testimonial": {
       "quote": "Como proveedor de automoción, los tiempos de respuesta son críticos. minute call garantiza que nunca perdamos llamadas de producción, quality checks o urgencias de cliente.",
       "author": "Fernando García",
@@ -261,7 +309,11 @@
     "heroTitle": "Atención telefónica para empresas en A Coruña.",
     "heroSubtitle": "A Coruña es sede del imperio textil Inditex y centro de distribución logística de envergadura mundial. Mantén eficiencia operativa con un servicio que integra comunicaciones sin fricciones.",
     "localContext": "A Coruña es centro estratégico de Inditex, empresa de moda de alcance global, además de albergar una significativa industria de confección y distribución. Aproximadamente 35.000 PYMES operan en la región, muchas en servicios complementarios a textil, logística, comercio y distribución. La economía coruñesa depende fuertemente de cadenas de suministro eficientes y comunicación fluida entre nodos de distribución. La competencia en el sector textil es global, exigiendo máxima profesionalidad en cada punto de contacto.",
-    "keySectors": ["Textil, moda y confección", "Logística y distribución", "Comercio minorista"],
+    "keySectors": [
+      "Textil, moda y confección",
+      "Logística y distribución",
+      "Comercio minorista"
+    ],
     "testimonial": {
       "quote": "En el sector textil, la coordinación con proveedores y distribuidores es constante. minute call mantiene todas las líneas funcionando 24/7 sin duplicar costos operativos.",
       "author": "Yolanda Sáez",
@@ -282,7 +334,11 @@
     "heroTitle": "Atención telefónica de lujo para empresas en San Sebastián.",
     "heroSubtitle": "San Sebastián es capital mundial de gastronomía de alta cocina con presencia de 3 restaurantes con 3 estrellas Michelin. Proyecta distinción y disponibilidad 24/7 con un servicio de recepción que refleja tu estándar premium.",
     "localContext": "San Sebastián concentra la mayor densidad de restaurantes de lujo de España y es destino gastronómico mundial. Aproximadamente 18.000 PYMES operan en la zona, con especialización en gastronomía, turismo experiencial, servicios de lujo y entretenimiento de alto nivel. La economía se basa en experiencia y diferenciación de premium. Cada interacción telefónica es oportunidad de reforzar posicionamiento de marca. Los clientes esperan disponibilidad inmediata, disponibilidad en idiomas múltiples y trato excepcional.",
-    "keySectors": ["Gastronomía y restauración de lujo", "Turismo experiencial y ocio premium", "Servicios de hospedaje y entretenimiento"],
+    "keySectors": [
+      "Gastronomía y restauración de lujo",
+      "Turismo experiencial y ocio premium",
+      "Servicios de hospedaje y entretenimiento"
+    ],
     "testimonial": {
       "quote": "En San Sebastián, nuestro diferencial es experiencia premium en cada detalle. minute call atiende como si fuera nuestra recepcionista personal, 24/7, en la lengua del cliente.",
       "author": "Gorka Azcona",
@@ -303,7 +359,11 @@
     "heroTitle": "Atención telefónica para empresas en Granada.",
     "heroSubtitle": "Granada alberga la Universidad de Granada, una de las más importantes de España, más patrimonio UNESCO mundial. Captura oportunidades de estudiantes, académicos y turistas con un servicio de recepción disponible en múltiples idiomas.",
     "localContext": "Granada combina economía de patrimonio y turismo cultural (La Alhambra atrae 3+ millones de visitantes anuales) con un ecosistema académico robusto (Universidad de Granada con 80.000+ estudiantes). Aproximadamente 32.000 PYMES operan en la zona, distribuidas entre servicios educativos, turismo, gastronomía y servicios profesionales. Las empresas granadinas atienden población joven flotante, turismo internacional y profesionales académicos. La demanda es estacional e internacional, exigiendo flexibilidad y capacidad multiidioma.",
-    "keySectors": ["Turismo y patrimonio cultural", "Educación y servicios académicos", "Servicios profesionales y comercio"],
+    "keySectors": [
+      "Turismo y patrimonio cultural",
+      "Educación y servicios académicos",
+      "Servicios profesionales y comercio"
+    ],
     "testimonial": {
       "quote": "Con 80.000 estudiantes y millones de turistas, nuestros negocios necesitan respuesta 24/7 en múltiples idiomas. minute call ha sido perfecto para escalar sin gastos de estructura.",
       "author": "Rafael López",
@@ -312,6 +372,916 @@
     "stats": {
       "pymes": "33.000+",
       "callsLost": "31% de consultas de estudiantes e internacionales"
+    }
+  },
+  {
+    "slug": "vigo",
+    "city": "Vigo",
+    "region": "Galicia",
+    "metaTitle": "Atención telefónica para empresas en Vigo | minute call",
+    "metaDescription": "Soluciones de atención telefónica profesional en Vigo. Receptora virtual para empresas gallegas. ¡Especializada en pesca y comercio!",
+    "heroTag": "Atención telefónica en Vigo",
+    "heroTitle": "Atención telefónica para empresas en Vigo.",
+    "heroSubtitle": "Vigo es el epicentro pesquero de Europa con un puerto de gran movimiento comercial. Nuestro servicio de atención telefónica está diseñado para empresas de logística, acuicultura y comercio internacional que necesitan respuestas rápidas 24/7.",
+    "localContext": "Vigo concentra la mayor flota pesquera de España con más de 5.000 PyMEs en sectores como la acuicultura, conservas de pescado y logística portuaria. El puerto de Vigo movimenta más de 1.5 millones de toneladas anuales, generando una intensa actividad comercial. La ciudad es clave para importadores y exportadores de productos del mar. Las empresas vigueñas pierden en promedio un 35% de llamadas por falta de cobertura en horarios punta.",
+    "keySectors": [
+      "Pesca y Acuicultura",
+      "Logística Portuaria",
+      "Conservas Alimentarias",
+      "Comercio Exterior"
+    ],
+    "testimonial": {
+      "quote": "Desde que usamos minute call, no perdemos ni una sola llamada de nuestros clientes en el extranjero. Es fundamental en nuestro negocio de exportación de mejillones.",
+      "author": "Carlos Fernández",
+      "role": "Gerente de Exportación en Vigo"
+    },
+    "stats": {
+      "pymes": "5.200+",
+      "callsLost": "35% de llamadas perdidas por cobertura insuficiente"
+    }
+  },
+  {
+    "slug": "gijon",
+    "city": "Gijón",
+    "region": "Asturias",
+    "metaTitle": "Atención telefónica para empresas en Gijón | minute call",
+    "metaDescription": "Receptora virtual en Gijón. Servicio de atención telefónica para PyMEs asturianas en turismo, industria y servicios.",
+    "heroTag": "Atención telefónica en Gijón",
+    "heroTitle": "Atención telefónica para empresas en Gijón.",
+    "heroSubtitle": "Gijón combina patrimonio industrial con turismo de playa y cultura. Nuestro servicio telefónico es ideal para hoteles, restaurantes y empresas de servicios que atienden tanto turismo nacional como internacional.",
+    "localContext": "Gijón es la mayor ciudad de Asturias con más de 4.800 PyMEs en turismo, hostelería, construcción e industria. Su costa atrae 1.2 millones de visitantes anuales, generando una alta demanda de servicios de atención al cliente. Las empresas gijonesas necesitan manejar llamadas en múltiples idiomas durante temporada alta. El 40% de las llamadas comerciales se pierden por saturación telefónica.",
+    "keySectors": [
+      "Turismo y Hostelería",
+      "Patrimonio Industrial",
+      "Construcción",
+      "Comercio Minorista"
+    ],
+    "testimonial": {
+      "quote": "Con nuestros tres hoteles en Gijón, es imposible responder todas las llamadas en julio. Minute call nos permite mantener a cada cliente cuidado sin perder reservas.",
+      "author": "María López Rodríguez",
+      "role": "Directora de Operaciones Hoteleras en Gijón"
+    },
+    "stats": {
+      "pymes": "4.800+",
+      "callsLost": "40% de llamadas no atendidas en temporada alta"
+    }
+  },
+  {
+    "slug": "santander",
+    "city": "Santander",
+    "region": "Cantabria",
+    "metaTitle": "Atención telefónica para empresas en Santander | minute call",
+    "metaDescription": "Servicio de receptora virtual en Santander. Atención telefónica para empresas de turismo, banca y servicios cantabros.",
+    "heroTag": "Atención telefónica en Santander",
+    "heroTitle": "Atención telefónica para empresas en Santander.",
+    "heroSubtitle": "Santander es capital de Cantabria y hub de servicios financieros y turismo costero. Nuestro servicio garantiza que los clientes de tus sucursales y negocios siempre encuentren respuesta profesional.",
+    "localContext": "Santander alberga sedes de instituciones financieras y más de 3.500 PyMEs en banca, turismo, transporte marítimo y comercio. La ciudad recibe 900.000 turistas anuales y es punto de conexión con el resto de Europa. Las empresas santanderinas requieren manejo profesional de consultas financieras y reservas turísticas. El 32% de las llamadas comerciales quedan sin respuesta.",
+    "keySectors": [
+      "Servicios Financieros",
+      "Turismo Marítimo",
+      "Transporte Marítimo",
+      "Comercio Regional"
+    ],
+    "testimonial": {
+      "quote": "En el sector financiero, cada llamada no contestada es una oportunidad perdida. Minute call es nuestro partner de confianza en Santander.",
+      "author": "Diego Martínez Valle",
+      "role": "Director de Atención al Cliente en Santander"
+    },
+    "stats": {
+      "pymes": "3.500+",
+      "callsLost": "32% de consultas sin respuesta durante horarios pico"
+    }
+  },
+  {
+    "slug": "pamplona",
+    "city": "Pamplona",
+    "region": "Navarra",
+    "metaTitle": "Atención telefónica para empresas en Pamplona | minute call",
+    "metaDescription": "Receptora virtual en Pamplona. Atención telefónica especializada para PyMEs navarras en industria automotriz, turismo y servicios.",
+    "heroTag": "Atención telefónica en Pamplona",
+    "heroTitle": "Atención telefónica para empresas en Pamplona.",
+    "heroSubtitle": "Pamplona es polo de innovación en automoción, componentes electrónicos y servicios avanzados. Nuestro servicio telefónico está optimizado para empresas tech y manufactureras que operan a nivel europeo.",
+    "localContext": "Pamplona concentra 4.200 PyMEs especializadas en automoción, componentes automotrices, electrónica industrial y servicios de IT. El cluster automotriz navarro genera miles de contactos B2B diarios. Los Sanfermines atraen 2 millones de visitantes anuales, generando picos de demanda telefónica. Las empresas pamplonesas pierden en promedio el 38% de llamadas comerciales y turísticas.",
+    "keySectors": [
+      "Automoción y Componentes",
+      "Electrónica Industrial",
+      "Tecnología",
+      "Turismo Cultural"
+    ],
+    "testimonial": {
+      "quote": "Nuestras proveedoras en Alemania e Italia necesitan respuestas rápidas. Minute call es nuestra ventanilla al mundo con servicio en español de 24 horas.",
+      "author": "Javier Etxebarria",
+      "role": "Responsable Comercial en Pamplona"
+    },
+    "stats": {
+      "pymes": "4.200+",
+      "callsLost": "38% de llamadas internacionales sin atender"
+    }
+  },
+  {
+    "slug": "vitoria-gasteiz",
+    "city": "Vitoria-Gasteiz",
+    "region": "País Vasco",
+    "metaTitle": "Atención telefónica para empresas en Vitoria-Gasteiz | minute call",
+    "metaDescription": "Servicio de atención telefónica en Vitoria. Receptora virtual para empresas vascas en industria, automoción y logística.",
+    "heroTag": "Atención telefónica en Vitoria-Gasteiz",
+    "heroTitle": "Atención telefónica para empresas en Vitoria-Gasteiz.",
+    "heroSubtitle": "Vitoria es capital agroalimentario y hub de logística en el País Vasco. Nuestro servicio garantiza cobertura profesional para empresas que gestionan cadenas de suministro complejas.",
+    "localContext": "Vitoria-Gasteiz alberga 3.800 PyMEs en agroalimentación, automoción, logística e industria manufacturera. La ciudad es referente europeo en sostenibilidad empresarial y ha recibido el premio Capital Verde de Europa. Las empresas agroalimentarias requieren gestión eficiente de pedidos y consultas de distribución. El 36% de las llamadas telefónicas quedan sin respuesta adecuada.",
+    "keySectors": [
+      "Agroalimentación y Bebidas",
+      "Automoción",
+      "Logística y Distribución",
+      "Industria Manufacturera"
+    ],
+    "testimonial": {
+      "quote": "En nuestra empresa de productos agroalimentarios, cada llamada de un distribuidor es crítica. Minute call nos da la cobertura que necesitamos sin expandir nuestro equipo.",
+      "author": "Izaskun Goikoetxea",
+      "role": "Directora de Ventas en Vitoria"
+    },
+    "stats": {
+      "pymes": "3.800+",
+      "callsLost": "36% de llamadas de distribuidores sin atender"
+    }
+  },
+  {
+    "slug": "logrono",
+    "city": "Logroño",
+    "region": "La Rioja",
+    "metaTitle": "Atención telefónica para empresas en Logroño | minute call",
+    "metaDescription": "Receptora virtual en Logroño. Atención telefónica para viticultores, comercio y servicios de La Rioja.",
+    "heroTag": "Atención telefónica en Logroño",
+    "heroTitle": "Atención telefónica para empresas en Logroño.",
+    "heroSubtitle": "Logroño es la capital mundial del vino de la región riojana. Nuestro servicio es esencial para bodegas, exportadores y empresas turísticas que atienden clientela internacional.",
+    "localContext": "Logroño concentra más de 2.200 PyMEs vinculadas a viticultura, comercio de vinos, enología, hostelería y turismo gastronómico. La denominación de origen Rioja genera miles de contactos de importadores y distribuidores internacionales. Las bodegas y productores de vino reciben ofertas y consultas a cualquier hora. El 34% de las llamadas de negocio quedan sin respuesta profesional.",
+    "keySectors": [
+      "Viticultura y Producción de Vino",
+      "Enología",
+      "Turismo Gastronómico",
+      "Comercio Especializado"
+    ],
+    "testimonial": {
+      "quote": "Nuestras bodegas reciben llamadas de Francia, Italia y Alemania a todas horas. Minute call nos permite responder como si tuviéramos un equipo internacional dedicado.",
+      "author": "Ramón Martínez de la Riva",
+      "role": "Gerente de Bodega en Logroño"
+    },
+    "stats": {
+      "pymes": "2.200+",
+      "callsLost": "34% de consultas de importadores sin respuesta"
+    }
+  },
+  {
+    "slug": "cordoba",
+    "city": "Córdoba",
+    "region": "Andalucía",
+    "metaTitle": "Atención telefónica para empresas en Córdoba | minute call",
+    "metaDescription": "Servicio de receptora virtual en Córdoba. Atención telefónica para PyMEs del sector turismo, construcción e industrial.",
+    "heroTag": "Atención telefónica en Córdoba",
+    "heroTitle": "Atención telefónica para empresas en Córdoba.",
+    "heroSubtitle": "Córdoba es patrimonio histórico y hub de turismo en Andalucía, con una economía diversa en construcción e industria. Nuestro servicio garantiza respuestas profesionales para empresas turísticas e industriales.",
+    "localContext": "Córdoba alberga 5.100 PyMEs en turismo cultural, construcción, industria metalúrgica y comercio. La ciudad recibe 1.3 millones de visitantes anuales atraídos por la Mezquita y el Casco Histórico. Las empresas turísticas y de construcción requieren manejo ágil de reservas y presupuestos. El 38% de las llamadas comerciales no se atienden por falta de cobertura.",
+    "keySectors": [
+      "Turismo Cultural",
+      "Construcción y Obra Civil",
+      "Industria Metalúrgica",
+      "Hostelería"
+    ],
+    "testimonial": {
+      "quote": "Nuestro negocio de tours por Córdoba necesita responder reservas en tiempo real. Minute call nos ha permitido crecer sin contratar más personal administrativo.",
+      "author": "Francesca Gutiérrez Morales",
+      "role": "Propietaria de Agencia de Turismo en Córdoba"
+    },
+    "stats": {
+      "pymes": "5.100+",
+      "callsLost": "38% de reservas no procesadas por falta de atención"
+    }
+  },
+  {
+    "slug": "cadiz",
+    "city": "Cádiz",
+    "region": "Andalucía",
+    "metaTitle": "Atención telefónica para empresas en Cádiz | minute call",
+    "metaDescription": "Receptora virtual en Cádiz. Atención telefónica para empresas portuarias, turísticas y comerciales gaditanas.",
+    "heroTag": "Atención telefónica en Cádiz",
+    "heroTitle": "Atención telefónica para empresas en Cádiz.",
+    "heroSubtitle": "Cádiz es puerto estratégico del Atlántico con gran movimiento de tráfico marítimo y turismo náutico. Nuestro servicio es ideal para empresas portuarias, navieras y comercio marítimo.",
+    "localContext": "Cádiz concentra 3.900 PyMEs en transporte marítimo, puerto, pesca, turismo costero y comercio. El puerto de Cádiz conecta Europa, África y América, generando intenso tráfico comercial. Las empresas navieras y de logística portuaria requieren respuestas inmediatas a consultas de carga y descarga. El 40% de las llamadas comerciales quedan sin atender.",
+    "keySectors": [
+      "Transporte Marítimo",
+      "Logística Portuaria",
+      "Turismo Náutico",
+      "Servicios Portuarios"
+    ],
+    "testimonial": {
+      "quote": "Nuestras operaciones portuarias no pueden esperar. Con minute call tenemos cobertura 24/7 sin aumentar costes de personal.",
+      "author": "Ángel Rodríguez Montes",
+      "role": "Supervisor de Operaciones Portuarias en Cádiz"
+    },
+    "stats": {
+      "pymes": "3.900+",
+      "callsLost": "40% de consultas operativas sin respuesta inmediata"
+    }
+  },
+  {
+    "slug": "castellon-de-la-plana",
+    "city": "Castellón de la Plana",
+    "region": "Valencia",
+    "metaTitle": "Atención telefónica para empresas en Castellón | minute call",
+    "metaDescription": "Servicio de atención telefónica en Castellón. Receptora virtual para PyMEs en cerámica, agroalimentación y logística.",
+    "heroTag": "Atención telefónica en Castellón",
+    "heroTitle": "Atención telefónica para empresas en Castellón.",
+    "heroSubtitle": "Castellón es capital mundial de la cerámica con producción industrial intensiva. Nuestro servicio está especializado en gestión de pedidos y atención a compradores internacionales de este sector.",
+    "localContext": "Castellón es epicentro de la industria cerámica mundial con más de 4.300 PyMEs productoras y distribuidoras. La ciudad exporta 80% de su producción cerámica a mercados internacionales. Las empresas cerámicas reciben contactos diarios de distribuidores de Europa, América y Asia. El 42% de las llamadas comerciales internacionales quedan sin respuesta profesional.",
+    "keySectors": [
+      "Cerámica Industrial",
+      "Comercio Internacional",
+      "Agroalimentación",
+      "Logística Exportadora"
+    ],
+    "testimonial": {
+      "quote": "Nuestras fábricas de cerámica no pueden perder llamadas de clientes en Italia o Alemania. Minute call es esencial para nuestra competitividad global.",
+      "author": "Susana Aparicio Sempere",
+      "role": "Gerenta de Ventas Internacionales en Castellón"
+    },
+    "stats": {
+      "pymes": "4.300+",
+      "callsLost": "42% de contactos de importadores sin procesar"
+    }
+  },
+  {
+    "slug": "oviedo",
+    "city": "Oviedo",
+    "region": "Asturias",
+    "metaTitle": "Atención telefónica para empresas en Oviedo | minute call",
+    "metaDescription": "Receptora virtual en Oviedo. Atención telefónica para empresas asturianas en química, servicios y construcción.",
+    "heroTag": "Atención telefónica en Oviedo",
+    "heroTitle": "Atención telefónica para empresas en Oviedo.",
+    "heroSubtitle": "Oviedo es capital de Asturias y centro administrativo, cultural y comercial. Nuestro servicio es fundamental para empresas de servicios, construcción y la administración pública que necesitan atención profesional.",
+    "localContext": "Oviedo alberga 4.500 PyMEs en servicios administrativos, construcción, comercio, educación y salud. Es centro de decisión política y administrativa asturiana. Las empresas oviedanas requieren manejo profesional de expedientes y consultas ciudadanas. El 36% de las llamadas de ciudadanos y clientes quedan sin respuesta adecuada.",
+    "keySectors": [
+      "Servicios Administrativos",
+      "Construcción",
+      "Educación Superior",
+      "Comercio Urbano"
+    ],
+    "testimonial": {
+      "quote": "Como empresa de servicios a la administración, necesitamos responder rápidamente. Minute call nos permite mantener profesionalismo en todas nuestras comunicaciones.",
+      "author": "Patricia Fernández Álvarez",
+      "role": "Directora de Operaciones en Oviedo"
+    },
+    "stats": {
+      "pymes": "4.500+",
+      "callsLost": "36% de consultas administrativas sin atender"
+    }
+  },
+  {
+    "slug": "santa-cruz-de-tenerife",
+    "city": "Santa Cruz de Tenerife",
+    "region": "Canarias",
+    "metaTitle": "Atención telefónica para empresas en Santa Cruz de Tenerife | minute call",
+    "metaDescription": "Servicio de receptora virtual en Santa Cruz de Tenerife. Atención telefónica para PyMEs canarias en turismo, logística y servicios.",
+    "heroTag": "Atención telefónica en Santa Cruz de Tenerife",
+    "heroTitle": "Atención telefónica para empresas en Santa Cruz de Tenerife.",
+    "heroSubtitle": "Santa Cruz de Tenerife es hub turístico y portuario de Canarias con flujo constante de viajeros internacionales. Nuestro servicio garantiza atención multiidioma para empresas turísticas y de logística.",
+    "localContext": "Santa Cruz de Tenerife concentra 5.800 PyMEs en turismo, hostelería, transporte marítimo, logística y comercio. Recibe 5 millones de turistas anuales y es puerto de conexión estratégico. Las empresas turísticas y hoteleras requieren respuesta inmediata en múltiples idiomas. El 44% de las llamadas de reservas quedan sin atender por saturación.",
+    "keySectors": [
+      "Turismo de Masas",
+      "Hostelería Completa",
+      "Transporte Marítimo Canario",
+      "Logística Insular"
+    ],
+    "testimonial": {
+      "quote": "En temporada alta, nuestros hoteles reciben reservas en 8 idiomas simultáneamente. Minute call nos ayuda a no perder ni una sola.",
+      "author": "Miguel Rodríguez Peña",
+      "role": "Gerente de Cadena Hotelera en Tenerife"
+    },
+    "stats": {
+      "pymes": "5.800+",
+      "callsLost": "44% de reservas internacionales sin procesar"
+    }
+  },
+  {
+    "slug": "elche",
+    "city": "Elche",
+    "region": "Valencia",
+    "metaTitle": "Atención telefónica para empresas en Elche | minute call",
+    "metaDescription": "Receptora virtual en Elche. Atención telefónica para la industria del calzado, juguete y comercio del Vinalopó.",
+    "heroTag": "Atención telefónica en Elche",
+    "heroTitle": "Atención telefónica para empresas en Elche.",
+    "heroSubtitle": "Elche es capital mundial del calzado con miles de fabricantes y distribuidoras. Nuestro servicio es especializado para empresas de moda y comercio que operan en mercados europeos.",
+    "localContext": "Elche concentra 6.200 PyMEs en fabricación de calzado, moda, juguetes y comercio. Produce 30% del calzado de España y exporta a más de 100 países. Las empresas elbanas reciben contactos diarios de compradores internacionales en moda. El 39% de las llamadas comerciales no se atienden por saturación de líneas.",
+    "keySectors": [
+      "Fabricación de Calzado",
+      "Moda y Textil",
+      "Juguetes y Juegos",
+      "Comercio Mayorista"
+    ],
+    "testimonial": {
+      "quote": "Nuestras fábricas de zapatos reciben pedidos de toda Europa. Con minute call nunca perdemos una oportunidad por no responder.",
+      "author": "Cristina Ripoll Navarro",
+      "role": "Responsable de Ventas en Elche"
+    },
+    "stats": {
+      "pymes": "6.200+",
+      "callsLost": "39% de pedidos internacionales sin procesar"
+    }
+  },
+  {
+    "slug": "jerez-de-la-frontera",
+    "city": "Jerez de la Frontera",
+    "region": "Andalucía",
+    "metaTitle": "Atención telefónica para empresas en Jerez | minute call",
+    "metaDescription": "Servicio de atención telefónica en Jerez. Receptora virtual para empresas vitivinícolas, ecuestre y turísticas.",
+    "heroTag": "Atención telefónica en Jerez",
+    "heroTitle": "Atención telefónica para empresas en Jerez.",
+    "heroSubtitle": "Jerez es famosa por sus vinos fortificados y tradición ecuestre. Nuestro servicio atiende bodegas, escuelas de equitación y empresas turísticas que requieren contacto internacional.",
+    "localContext": "Jerez alberga 3.600 PyMEs en producción vitivinícola, turismo ecuestre, gastronomía y comercio especializado. Sus vinos (Jerez, Xérès, Sherry) se exportan a todo el mundo. Las bodegas y empresas ecuestres reciben consultas de importadores y turistas internacionales. El 37% de las llamadas de negocio quedan sin respuesta profesional.",
+    "keySectors": [
+      "Viticultura y Sherry",
+      "Turismo Ecuestre",
+      "Gastronomía",
+      "Comercio de Bebidas"
+    ],
+    "testimonial": {
+      "quote": "Nuestras bodegas necesitan responder a compradores en Francia, Reino Unido y Japón. Minute call es nuestro secreto comercial para no perder oportunidades.",
+      "author": "Rodrigo Alcázar Herrera",
+      "role": "Director Comercial de Bodega en Jerez"
+    },
+    "stats": {
+      "pymes": "3.600+",
+      "callsLost": "37% de consultas de importadores sin atender"
+    }
+  },
+  {
+    "slug": "cartagena",
+    "city": "Cartagena",
+    "region": "Murcia",
+    "metaTitle": "Atención telefónica para empresas en Cartagena | minute call",
+    "metaDescription": "Receptora virtual en Cartagena. Atención telefónica para empresas portuarias, turísticas y de logística murciana.",
+    "heroTag": "Atención telefónica en Cartagena",
+    "heroTitle": "Atención telefónica para empresas en Cartagena.",
+    "heroSubtitle": "Cartagena es puerto histórico del Mediterráneo con gran movimiento marítimo y turismo cultural. Nuestro servicio es ideal para empresas de logística, transporte y turismo náutico.",
+    "localContext": "Cartagena concentra 4.200 PyMEs en puertos y logística, turismo histórico, transporte marítimo y comercio. Es puerto estratégico del Mediterráneo con conexiones a mercados europeos y africanos. Las empresas portuarias requieren respuestas inmediatas a operaciones de carga. El 41% de las llamadas operativas quedan sin atender por saturación.",
+    "keySectors": [
+      "Logística Portuaria",
+      "Turismo Histórico",
+      "Transporte Marítimo",
+      "Servicios Navales"
+    ],
+    "testimonial": {
+      "quote": "Como operador portuario, cada minuto sin respuesta nos cuesta dinero. Minute call es la solución perfecta para nuestra operativa.",
+      "author": "Fernando Martínez López",
+      "role": "Jefe de Operaciones en Cartagena"
+    },
+    "stats": {
+      "pymes": "4.200+",
+      "callsLost": "41% de operativas portuarias sin respuesta inmediata"
+    }
+  },
+  {
+    "slug": "tarragona",
+    "city": "Tarragona",
+    "region": "Cataluña",
+    "metaTitle": "Atención telefónica para empresas en Tarragona | minute call",
+    "metaDescription": "Servicio de receptora virtual en Tarragona. Atención telefónica para PyMEs de química, petroquímica y turismo.",
+    "heroTag": "Atención telefónica en Tarragona",
+    "heroTitle": "Atención telefónica para empresas en Tarragona.",
+    "heroSubtitle": "Tarragona es polo petroquímico europeo y destino de turismo de playa. Nuestro servicio gestiona las complejas necesidades de comunicación de industria química y turismo.",
+    "localContext": "Tarragona alberga 4.700 PyMEs en industria petroquímica, química, turismo de playa, construcción y logística. Su complejo químico es uno de los mayores de Europa. Las empresas químicas requieren manejo profesional de consultas técnicas y comerciales. El 38% de las llamadas comerciales quedan sin respuesta por falta de cobertura.",
+    "keySectors": [
+      "Industria Petroquímica",
+      "Química Industrial",
+      "Turismo de Playa",
+      "Logística Portuaria"
+    ],
+    "testimonial": {
+      "quote": "Nuestras plantas químicas reciben consultas técnicas de clientes europeos todo el día. Minute call garantiza que alguien competente siempre responda.",
+      "author": "Montserrat Puig Solé",
+      "role": "Directora de Atención Técnica en Tarragona"
+    },
+    "stats": {
+      "pymes": "4.700+",
+      "callsLost": "38% de consultas técnicas sin procesamiento inmediato"
+    }
+  },
+  {
+    "slug": "marbella",
+    "city": "Marbella",
+    "region": "Andalucía",
+    "metaTitle": "Atención telefónica para empresas en Marbella | minute call",
+    "metaDescription": "Receptora virtual en Marbella. Atención telefónica para empresas turísticas, hoteleras y de lujo de la Costa del Sol.",
+    "heroTag": "Atención telefónica en Marbella",
+    "heroTitle": "Atención telefónica para empresas en Marbella.",
+    "heroSubtitle": "Marbella es destino turístico de lujo en la Costa del Sol con clientela internacional de alto poder adquisitivo. Nuestro servicio es especializado en atención premium y multiidioma para empresas turísticas.",
+    "localContext": "Marbella concentra 3.400 PyMEs en turismo de lujo, hostelería 5 estrellas, residencias, comercio exclusivo y servicios premium. Recibe 1.8 millones de turistas anuales de alto poder adquisitivo. Las empresas de lujo requieren respuestas en inglés, francés, alemán y ruso. El 35% de las consultas de clientes premium quedan sin atender profesionalmente.",
+    "keySectors": [
+      "Turismo de Lujo",
+      "Hostelería Premium",
+      "Real Estate de Lujo",
+      "Comercio Exclusivo"
+    ],
+    "testimonial": {
+      "quote": "En Marbella, nuestros clientes son oligarcas rusos, empresarios franceses y celebridades. Necesitamos respuestas impecables en múltiples idiomas. Minute call es exactamente eso.",
+      "author": "Emilia de la Cruz Navarro",
+      "role": "Gestora de Propiedades de Lujo en Marbella"
+    },
+    "stats": {
+      "pymes": "3.400+",
+      "callsLost": "35% de consultas de clientela premium sin respuesta inmediata"
+    }
+  },
+  {
+    "slug": "salamanca",
+    "city": "Salamanca",
+    "region": "Castilla y León",
+    "metaTitle": "Atención telefónica para empresas en Salamanca | minute call",
+    "metaDescription": "Servicio de atención telefónica en Salamanca. Receptora virtual para PyMEs de educación, turismo y comercio.",
+    "heroTag": "Atención telefónica en Salamanca",
+    "heroTitle": "Atención telefónica para empresas en Salamanca.",
+    "heroSubtitle": "Salamanca es ciudad de cultura e industria educativa con la universidad más antigua de España. Nuestro servicio es ideal para instituciones educativas, academias y empresas turísticas.",
+    "localContext": "Salamanca alberga 2.900 PyMEs en educación superior, academia de idiomas, turismo cultural y comercio. Su universidad atrae 15.000 estudiantes internacionales. Las academias de español reciben consultas de estudiantes de todo el mundo. El 33% de las llamadas de consultas académicas quedan sin respuesta profesional.",
+    "keySectors": [
+      "Educación Superior",
+      "Academia de Idiomas",
+      "Turismo Cultural",
+      "Comercio Urbano"
+    ],
+    "testimonial": {
+      "quote": "Nuestra academia de español recibe estudiantes de Japón, Brasil y Suecia. Minute call nos permite dar atención bilingüe sin costosos empleados dedicados.",
+      "author": "Beatriz Macías González",
+      "role": "Directora de Academia en Salamanca"
+    },
+    "stats": {
+      "pymes": "2.900+",
+      "callsLost": "33% de consultas de estudiantes internacionales sin respuesta"
+    }
+  },
+  {
+    "slug": "burgos",
+    "city": "Burgos",
+    "region": "Castilla y León",
+    "metaTitle": "Atención telefónica para empresas en Burgos | minute call",
+    "metaDescription": "Receptora virtual en Burgos. Atención telefónica para PyMEs de automoción, textil y construcción castellana.",
+    "heroTag": "Atención telefónica en Burgos",
+    "heroTitle": "Atención telefónica para empresas en Burgos.",
+    "heroSubtitle": "Burgos es centro de automoción y textil en Castilla y León. Nuestro servicio está optimizado para fabricantes y distribuidoras que operan a escala nacional e internacional.",
+    "localContext": "Burgos concentra 3.700 PyMEs en automoción y componentes, textil, construcción, logística y comercio. Es nudo de conexión entre Madrid, Barcelona y Francia. Las empresas burgalesas requieren manejo ágil de pedidos y consultas técnicas. El 37% de las llamadas comerciales quedan sin respuesta adecuada.",
+    "keySectors": [
+      "Automoción y Componentes",
+      "Textil Industrial",
+      "Construcción",
+      "Logística"
+    ],
+    "testimonial": {
+      "quote": "Nuestras plantas de componentes automotrices funcionan 24 horas. Minute call nos da la cobertura que necesitamos sin costosos turnos administrativos.",
+      "author": "Aurelio Fernández González",
+      "role": "Gerente de Planta en Burgos"
+    },
+    "stats": {
+      "pymes": "3.700+",
+      "callsLost": "37% de consultas técnicas de clientes sin respuesta"
+    }
+  },
+  {
+    "slug": "albacete",
+    "city": "Albacete",
+    "region": "Castilla-La Mancha",
+    "metaTitle": "Atención telefónica para empresas en Albacete | minute call",
+    "metaDescription": "Servicio de receptora virtual en Albacete. Atención telefónica para PyMEs de cutlery, cuchillería y comercio regional.",
+    "heroTag": "Atención telefónica en Albacete",
+    "heroTitle": "Atención telefónica para empresas en Albacete.",
+    "heroSubtitle": "Albacete es capital mundial de la cuchillería y cutlería con tradición de siglos. Nuestro servicio atiende fabricantes y comerciantes de cuchillos que exportan a todo el mundo.",
+    "localContext": "Albacete alberga 2.600 PyMEs especializadas en fabricación de cuchillería, comercio mayorista, hostelería y distribución. Es referente mundial en cuchillos de calidad. Las empresas albaceteñas exportan a mercados europeos, americanos y asiáticos. El 32% de las llamadas de compradores internacionales quedan sin respuesta profesional.",
+    "keySectors": [
+      "Cuchillería de Lujo",
+      "Cutlería Industrial",
+      "Comercio Mayorista",
+      "Logística Internacional"
+    ],
+    "testimonial": {
+      "quote": "Nuestros cuchillos viajan al mundo entero. Minute call nos permite responder a compradores en Japón, Francia y Suecia sin dilaciones.",
+      "author": "Enrique Martínez Castillo",
+      "role": "Director Comercial en Albacete"
+    },
+    "stats": {
+      "pymes": "2.600+",
+      "callsLost": "32% de pedidos internacionales sin procesar"
+    }
+  },
+  {
+    "slug": "badajoz",
+    "city": "Badajoz",
+    "region": "Extremadura",
+    "metaTitle": "Atención telefónica para empresas en Badajoz | minute call",
+    "metaDescription": "Receptora virtual en Badajoz. Atención telefónica para PyMEs de agroalimentación, construcción y servicios extremeños.",
+    "heroTag": "Atención telefónica en Badajoz",
+    "heroTitle": "Atención telefónica para empresas en Badajoz.",
+    "heroSubtitle": "Badajoz es capital de Extremadura con economía basada en agroalimentación y construcción. Nuestro servicio atiende productores agrícolas, ganaderos y empresas constructoras.",
+    "localContext": "Badajoz concentra 3.200 PyMEs en agroalimentación, ganadería, construcción, comercio y servicios. Es puerta entre España y Portugal con importante comercio bilateral. Las empresas extremeñas requieren manejo eficiente de consultas de clientes en Portugal. El 35% de las llamadas comerciales quedan sin atender.",
+    "keySectors": [
+      "Agroalimentación",
+      "Ganadería y Jamón",
+      "Construcción",
+      "Comercio Fronterizo"
+    ],
+    "testimonial": {
+      "quote": "Nuestros productos de jamón se venden en Portugal y el centro de España. Minute call nos facilita responder de forma profesional a clientes portugueses.",
+      "author": "Rosario Díaz Freire",
+      "role": "Responsable de Ventas en Badajoz"
+    },
+    "stats": {
+      "pymes": "3.200+",
+      "callsLost": "35% de consultas de clientes fronterizos sin respuesta"
+    }
+  },
+  {
+    "slug": "leon",
+    "city": "León",
+    "region": "Castilla y León",
+    "metaTitle": "Atención telefónica para empresas en León | minute call",
+    "metaDescription": "Servicio de atención telefónica en León. Receptora virtual para PyMEs de textil, piel y construcción.",
+    "heroTag": "Atención telefónica en León",
+    "heroTitle": "Atención telefónica para empresas en León.",
+    "heroSubtitle": "León es tradicional centro de industria peletera y textil. Nuestro servicio es especializado en gestión de pedidos para fabricantes y distribuidoras de moda e industria de la piel.",
+    "localContext": "León alberga 3.100 PyMEs en industria peletera, textil, calzado, construcción y comercio. Su industria de la piel tiene siglos de tradición. Las empresas leonesas exportan a Italia, Francia e Alemania. El 36% de las llamadas comerciales internacionales quedan sin respuesta.",
+    "keySectors": [
+      "Industria Peletera",
+      "Textil y Confección",
+      "Calzado",
+      "Comercio de Lujo"
+    ],
+    "testimonial": {
+      "quote": "Nuestras pieles viajan a Milán, París y Barcelona. Minute call garantiza que siempre haya alguien profesional para responder a nuestros clientes.",
+      "author": "Javier Pérez Rebollo",
+      "role": "Gerente de Fábrica Peletera en León"
+    },
+    "stats": {
+      "pymes": "3.100+",
+      "callsLost": "36% de pedidos internacionales sin procesar"
+    }
+  },
+  {
+    "slug": "huelva",
+    "city": "Huelva",
+    "region": "Andalucía",
+    "metaTitle": "Atención telefónica para empresas en Huelva | minute call",
+    "metaDescription": "Receptora virtual en Huelva. Atención telefónica para PyMEs de química, agroalimentación y logística portuaria.",
+    "heroTag": "Atención telefónica en Huelva",
+    "heroTitle": "Atención telefónica para empresas en Huelva.",
+    "heroSubtitle": "Huelva es polo químico y agroalimentario del sur de España con puerto estratégico en el Atlántico. Nuestro servicio atiende industrias químicas, productores de frutas y empresas de logística.",
+    "localContext": "Huelva concentra 2.800 PyMEs en química industrial, agroalimentación (frutos rojos), logística portuaria y comercio. Es líder europeo en exportación de frutos rojos. Las empresas químicas y agroexportadoras requieren respuestas rápidas a compradores europeos. El 38% de las llamadas comerciales quedan sin atender.",
+    "keySectors": [
+      "Química Industrial",
+      "Agroalimentación (Frutos Rojos)",
+      "Logística Portuaria",
+      "Comercio Internacional"
+    ],
+    "testimonial": {
+      "quote": "Nuestras fresas van a toda Europa y nuestras plantas químicas operan 24 horas. Minute call es nuestra base telefónica confiable.",
+      "author": "María Elena Ribera Ruiz",
+      "role": "Directora de Logística en Huelva"
+    },
+    "stats": {
+      "pymes": "2.800+",
+      "callsLost": "38% de pedidos de importadores sin respuesta inmediata"
+    }
+  },
+  {
+    "slug": "lleida",
+    "city": "Lleida",
+    "region": "Cataluña",
+    "metaTitle": "Atención telefónica para empresas en Lleida | minute call",
+    "metaDescription": "Servicio de receptora virtual en Lleida. Atención telefónica para PyMEs de agroalimentación, maquinaria agrícola y comercio.",
+    "heroTag": "Atención telefónica en Lleida",
+    "heroTitle": "Atención telefónica para empresas en Lleida.",
+    "heroSubtitle": "Lleida es polo agroalimentario de Cataluña con tradición en producción de frutas y hortalizas. Nuestro servicio es ideal para productores agrícolas, distribuidores y fabricantes de maquinaria.",
+    "localContext": "Lleida alberga 3.400 PyMEs en agroalimentación, maquinaria agrícola, logística agroexportadora y comercio. Es capital de la agricultura catalana. Las empresas lleidatanas exportan frutas a mercados europeos y requieren manejo ágil de pedidos. El 34% de las llamadas de compradores extranjeros quedan sin respuesta.",
+    "keySectors": [
+      "Agroalimentación y Frutas",
+      "Maquinaria Agrícola",
+      "Logística Agroexportadora",
+      "Comercio Mayorista"
+    ],
+    "testimonial": {
+      "quote": "Nuestras frutas se venden en Francia, Alemania e Italia. Minute call nos permite responder pedidos sin retrasos sin contratar más gente.",
+      "author": "Josep M. Pallarès Costa",
+      "role": "Responsable Comercial en Lleida"
+    },
+    "stats": {
+      "pymes": "3.400+",
+      "callsLost": "34% de pedidos de mercados europeos sin procesamiento"
+    }
+  },
+  {
+    "slug": "girona",
+    "city": "Girona",
+    "region": "Cataluña",
+    "metaTitle": "Atención telefónica para empresas en Girona | minute call",
+    "metaDescription": "Receptora virtual en Girona. Atención telefónica para PyMEs de turismo, hostelería y servicios costeros catalanes.",
+    "heroTag": "Atención telefónica en Girona",
+    "heroTitle": "Atención telefónica para empresas en Girona.",
+    "heroSubtitle": "Girona es puerta a Costa Brava con turismo de playa e histórico. Nuestro servicio es especializado en atención a empresas de turismo, hoteles y restaurantes.",
+    "localContext": "Girona concentra 4.100 PyMEs en turismo costero, hostelería, restauración, comercio y servicios. Recibe 2.3 millones de turistas anuales atraídos por playas de Costa Brava. Las empresas turísticas requieren respuestas en múltiples idiomas. El 40% de las reservas hoteleras se pierden por falta de cobertura telefónica.",
+    "keySectors": [
+      "Turismo Costero",
+      "Hostelería de Playa",
+      "Restauración Gourmet",
+      "Comercio Turístico"
+    ],
+    "testimonial": {
+      "quote": "En verano, nuestros hoteles en Costa Brava reciben reservas en 12 idiomas. Minute call nos permite no perder ninguna reserva de valor.",
+      "author": "Albert Francés Puig",
+      "role": "Gerente de Hoteles en Girona"
+    },
+    "stats": {
+      "pymes": "4.100+",
+      "callsLost": "40% de reservas internacionales sin procesar"
+    }
+  },
+  {
+    "slug": "almeria",
+    "city": "Almería",
+    "region": "Andalucía",
+    "metaTitle": "Atención telefónica para empresas en Almería | minute call",
+    "metaDescription": "Servicio de atención telefónica en Almería. Receptora virtual para PyMEs de agricultura intensiva, pesca y turismo.",
+    "heroTag": "Atención telefónica en Almería",
+    "heroTitle": "Atención telefónica para empresas en Almería.",
+    "heroSubtitle": "Almería es capital mundial del invernadero con producción agrícola intensiva. Nuestro servicio atiende productores de frutas y verduras que exportan a toda Europa.",
+    "localContext": "Almería alberga 3.900 PyMEs en agricultura intensiva de invernadero, pesca, logística exportadora y turismo. Cultiva 50.000 hectáreas de invernaderos. Produce 3 millones de toneladas de frutas y verduras anuales para exportación europea. El 39% de las llamadas de compradores internacionales quedan sin respuesta profesional.",
+    "keySectors": [
+      "Agricultura Intensiva (Invernaderos)",
+      "Pesca Industrial",
+      "Logística Agroexportadora",
+      "Turismo de Playa"
+    ],
+    "testimonial": {
+      "quote": "Nuestros tomates y pimientos alimentan Europa. Recibimos 200 llamadas de compradores holandeses, franceses e italianos cada semana. Minute call es imprescindible.",
+      "author": "Francisco Riquelme Montoya",
+      "role": "Director de Exportación en Almería"
+    },
+    "stats": {
+      "pymes": "3.900+",
+      "callsLost": "39% de pedidos europeos sin respuesta inmediata"
+    }
+  },
+  {
+    "slug": "terrassa",
+    "city": "Terrassa",
+    "region": "Cataluña",
+    "metaTitle": "Atención telefónica para empresas en Terrassa | minute call",
+    "metaDescription": "Receptora virtual en Terrassa. Atención telefónica para PyMEs de textil industrial, maquinaria y metalurgia.",
+    "heroTag": "Atención telefónica en Terrassa",
+    "heroTitle": "Atención telefónica para empresas en Terrassa.",
+    "heroSubtitle": "Terrassa es polo industrial textil y mecánico de Cataluña. Nuestro servicio es ideal para fabricantes y distribuidoras que requieren atención profesional B2B.",
+    "localContext": "Terrassa concentra 3.600 PyMEs en textil industrial, maquinaria textil, metalurgia, componentes mecánicos y servicios industriales. Es centro de innovación en tecnología textil. Las empresas terrassa requieren manejo ágil de consultas técnicas de clientes. El 36% de las llamadas comerciales quedan sin respuesta.",
+    "keySectors": [
+      "Textil Industrial",
+      "Maquinaria Textil",
+      "Metalurgia",
+      "Componentes Mecánicos"
+    ],
+    "testimonial": {
+      "quote": "Nuestras máquinas textiles se venden en Italia, Turquía e India. Minute call nos permite responder consultas técnicas sin costosos ingenieros en recepción.",
+      "author": "Sergi Blanc Espinosa",
+      "role": "Responsable Técnico-Comercial en Terrassa"
+    },
+    "stats": {
+      "pymes": "3.600+",
+      "callsLost": "36% de consultas técnicas internacionales sin respuesta"
+    }
+  },
+  {
+    "slug": "sabadell",
+    "city": "Sabadell",
+    "region": "Cataluña",
+    "metaTitle": "Atención telefónica para empresas en Sabadell | minute call",
+    "metaDescription": "Servicio de receptora virtual en Sabadell. Atención telefónica para PyMEs de textil, confección y comercio.",
+    "heroTag": "Atención telefónica en Sabadell",
+    "heroTitle": "Atención telefónica para empresas en Sabadell.",
+    "heroSubtitle": "Sabadell es polo textil de confección con miles de pequeños fabricantes y distribuidoras. Nuestro servicio es especializado en atención a comerciantes de moda e indumentaria.",
+    "localContext": "Sabadell alberga 4.000 PyMEs en confección textil, comercio de ropa, diseño de moda, logística y distribución. Es cuna de la moda catalana. Las empresas sabadelenses exportan prendas a Francia, Italia y mercados europeos. El 37% de los pedidos de moda quedan sin procesamiento por saturación telefónica.",
+    "keySectors": [
+      "Confección Textil",
+      "Diseño de Moda",
+      "Comercio de Indumentaria",
+      "Logística de Moda"
+    ],
+    "testimonial": {
+      "quote": "Nuestras colecciones de ropa se venden en tiendas de París y Milán. Minute call nos permite responder pedidos de compradores sin demoras administrativas.",
+      "author": "Laura Garrido Mercado",
+      "role": "Directora Comercial en Sabadell"
+    },
+    "stats": {
+      "pymes": "4.000+",
+      "callsLost": "37% de pedidos de moda sin respuesta inmediata"
+    }
+  },
+  {
+    "slug": "getafe",
+    "city": "Getafe",
+    "region": "Madrid",
+    "metaTitle": "Atención telefónica para empresas en Getafe | minute call",
+    "metaDescription": "Receptora virtual en Getafe. Atención telefónica para PyMEs de aeronáutica, automoción e industria madrileña.",
+    "heroTag": "Atención telefónica en Getafe",
+    "heroTitle": "Atención telefónica para empresas en Getafe.",
+    "heroSubtitle": "Getafe es polo de industria aeronáutica y automoción en el área metropolitana de Madrid. Nuestro servicio atiende fabricantes de alta tecnología y componentes.",
+    "localContext": "Getafe concentra 2.800 PyMEs en industria aeronáutica, automoción, componentes electrónicos, ingeniería y servicios técnicos. Alberga planta de Airbus y proveedoras de aviónica. Las empresas getafenses requieren manejo profesional de consultas técnicas complejas. El 34% de las llamadas comerciales quedan sin respuesta.",
+    "keySectors": [
+      "Industria Aeronáutica",
+      "Automoción y Componentes",
+      "Electrónica Industrial",
+      "Ingeniería Avanzada"
+    ],
+    "testimonial": {
+      "quote": "Nuestros componentes aeronáuticos se venden a Airbus, Rolls-Royce y Boeing. Minute call nos permite mantener profesionalismo en cada contacto internacional.",
+      "author": "Gonzalo Martín Sánchez",
+      "role": "Gerente de Ventas Aeronáuticas en Getafe"
+    },
+    "stats": {
+      "pymes": "2.800+",
+      "callsLost": "34% de consultas técnicas de grandes clientes sin respuesta"
+    }
+  },
+  {
+    "slug": "hospitalet-de-llobregat",
+    "city": "Hospitalet de Llobregat",
+    "region": "Cataluña",
+    "metaTitle": "Atención telefónica para empresas en Hospitalet | minute call",
+    "metaDescription": "Servicio de receptora virtual en Hospitalet. Atención telefónica para PyMEs de logística, comercio y servicios.",
+    "heroTag": "Atención telefónica en Hospitalet",
+    "heroTitle": "Atención telefónica para empresas en Hospitalet.",
+    "heroSubtitle": "Hospitalet es hub logístico de Barcelona con concentración de almacenes y distribuidoras. Nuestro servicio es ideal para empresas de logística que requieren cobertura 24/7.",
+    "localContext": "Hospitalet alberga 4.500 PyMEs en logística, distribución, comercio mayorista, transporte y servicios. Es puerta de entrada a Barcelona desde aeropuerto y puerto. Las empresas de logística requieren respuestas inmediatas a consultas de carga y seguimiento. El 39% de las llamadas operativas quedan sin atender.",
+    "keySectors": [
+      "Logística y Distribución",
+      "Comercio Mayorista",
+      "Transporte y Mensajería",
+      "Servicios Logísticos"
+    ],
+    "testimonial": {
+      "quote": "Nuestro almacén distribuye a toda Cataluña. Recibimos 300 llamadas diarias de clientes sobre envíos. Minute call nos da la capacidad de responder todas.",
+      "author": "David Castellanos Romeu",
+      "role": "Gerente de Logística en Hospitalet"
+    },
+    "stats": {
+      "pymes": "4.500+",
+      "callsLost": "39% de consultas de seguimiento sin respuesta inmediata"
+    }
+  },
+  {
+    "slug": "torrejon-de-ardoz",
+    "city": "Torrejón de Ardoz",
+    "region": "Madrid",
+    "metaTitle": "Atención telefónica para empresas en Torrejón de Ardoz | minute call",
+    "metaDescription": "Receptora virtual en Torrejón. Atención telefónica para PyMEs de logística, distribución y comercio madrileño.",
+    "heroTag": "Atención telefónica en Torrejón",
+    "heroTitle": "Atención telefónica para empresas en Torrejón de Ardoz.",
+    "heroSubtitle": "Torrejón de Ardoz es hub logístico del área metropolitana de Madrid con numerosas distribuidoras y centros de acopio. Nuestro servicio atiende empresas de logística y comercio.",
+    "localContext": "Torrejón de Ardoz concentra 3.100 PyMEs en logística, distribución, comercio mayorista, transporte y almacenaje. Está estratégicamente situado entre Madrid y el aeropuerto de Barajas. Las empresas requieren manejo ágil de seguimiento de envíos y consultas de carga. El 36% de las llamadas operativas quedan sin respuesta.",
+    "keySectors": [
+      "Logística Metropolitana",
+      "Distribución y Almacenaje",
+      "Comercio Mayorista",
+      "Transporte Regional"
+    ],
+    "testimonial": {
+      "quote": "Nuestro centro de distribución atiende 500 clientes en el área de Madrid. Minute call nos permite dar servicio sin ampliar nuestro equipo administrativo.",
+      "author": "Pilar Rodríguez Gómez",
+      "role": "Supervisora de Operaciones en Torrejón"
+    },
+    "stats": {
+      "pymes": "3.100+",
+      "callsLost": "36% de consultas de clientes sin respuesta en horario punta"
+    }
+  },
+  {
+    "slug": "merida",
+    "city": "Mérida",
+    "region": "Extremadura",
+    "metaTitle": "Atención telefónica para empresas en Mérida | minute call",
+    "metaDescription": "Servicio de atención telefónica en Mérida. Receptora virtual para PyMEs de turismo histórico y servicios.",
+    "heroTag": "Atención telefónica en Mérida",
+    "heroTitle": "Atención telefónica para empresas en Mérida.",
+    "heroSubtitle": "Mérida es patrimonio histórico de la humanidad con turismo de arqueología y cultura romana. Nuestro servicio atiende agencias turísticas, museos y empresas de hostelería.",
+    "localContext": "Mérida alberga 1.800 PyMEs en turismo arqueológico, museos, hostelería, guías turísticos y comercio local. Su patrimonio romano atrae 400.000 visitantes anuales. Las agencias turísticas requieren respuestas rápidas a consultas de tours y reservas. El 31% de las llamadas de turistas quedan sin respuesta profesional.",
+    "keySectors": [
+      "Turismo Arqueológico",
+      "Museos y Patrimonio",
+      "Hostelería Cultural",
+      "Guía Turístico"
+    ],
+    "testimonial": {
+      "quote": "Nuestras visitas guiadas a ruinas romanas atraen turistas de todo el mundo. Minute call nos permite responder en español e inglés sin costosos traductores.",
+      "author": "Carmen Sáenz López",
+      "role": "Directora de Agencia Turística en Mérida"
+    },
+    "stats": {
+      "pymes": "1.800+",
+      "callsLost": "31% de consultas de turistas internacionales sin atender"
+    }
+  },
+  {
+    "slug": "huesca",
+    "city": "Huesca",
+    "region": "Aragón",
+    "metaTitle": "Atención telefónica para empresas en Huesca | minute call",
+    "metaDescription": "Receptora virtual en Huesca. Atención telefónica para PyMEs de agricultura, turismo de montaña y servicios.",
+    "heroTag": "Atención telefónica en Huesca",
+    "heroTitle": "Atención telefónica para empresas en Huesca.",
+    "heroSubtitle": "Huesca es puerta a los Pirineos con turismo de montaña, esquí y actividades de naturaleza. Nuestro servicio atiende operadores turísticos, hoteles de montaña y empresas de deporte.",
+    "localContext": "Huesca concentra 2.100 PyMEs en turismo de montaña, estaciones de esquí, deportes de aventura, agricultura y hostelería. Recibe 800.000 visitantes anuales atraídos por estaciones de esquí de Jaca y Formigal. Las empresas turísticas requieren respuestas en múltiples idiomas para turismo europeo. El 33% de las reservas quedan sin procesamiento.",
+    "keySectors": [
+      "Turismo de Montaña",
+      "Esquí y Deportes Invernales",
+      "Deportes de Aventura",
+      "Hostelería de Montaña"
+    ],
+    "testimonial": {
+      "quote": "Nuestro lodge en los Pirineos recibe reservas de británicos, franceses y alemanes. Minute call nos permite responder sin tener personal bilingüe costoso.",
+      "author": "Andrés Casals Ibáñez",
+      "role": "Propietario de Alojamiento Turístico en Huesca"
+    },
+    "stats": {
+      "pymes": "2.100+",
+      "callsLost": "33% de reservas internacionales sin respuesta"
+    }
+  },
+  {
+    "slug": "toledo",
+    "city": "Toledo",
+    "region": "Castilla-La Mancha",
+    "metaTitle": "Atención telefónica para empresas en Toledo | minute call",
+    "metaDescription": "Servicio de receptora virtual en Toledo. Atención telefónica para PyMEs de turismo, artesanía y comercio.",
+    "heroTag": "Atención telefónica en Toledo",
+    "heroTitle": "Atención telefónica para empresas en Toledo.",
+    "heroSubtitle": "Toledo es patrimonio de la humanidad con turismo cultural excepcional. Nuestro servicio atiende agencias turísticas, tiendas de artesanía y empresas de restauración.",
+    "localContext": "Toledo alberga 2.400 PyMEs en turismo cultural, artesanía tradicional (damasceno, cerámica), restauración y comercio. Recibe 2.8 millones de visitantes anuales. Las empresas turísticas requieren respuestas en múltiples idiomas. El 40% de los visitantes llaman antes de llegar para información. El 35% de estas llamadas quedan sin respuesta.",
+    "keySectors": [
+      "Turismo Cultural",
+      "Artesanía Tradicional",
+      "Restauración Gastronómica",
+      "Comercio de Souvenirs"
+    ],
+    "testimonial": {
+      "quote": "Toledo recibe turistas de todo el mundo que llaman buscando información. Minute call nos permite captar más reservas hoteleras respondiendo todas las llamadas.",
+      "author": "Vicente Moreno Alcázar",
+      "role": "Propietario de Hostal en Toledo"
+    },
+    "stats": {
+      "pymes": "2.400+",
+      "callsLost": "35% de consultas pre-visita sin respuesta"
+    }
+  },
+  {
+    "slug": "ciudad-real",
+    "city": "Ciudad Real",
+    "region": "Castilla-La Mancha",
+    "metaTitle": "Atención telefónica para empresas en Ciudad Real | minute call",
+    "metaDescription": "Receptora virtual en Ciudad Real. Atención telefónica para PyMEs de logística, construcción y servicios.",
+    "heroTag": "Atención telefónica en Ciudad Real",
+    "heroTitle": "Atención telefónica para empresas en Ciudad Real.",
+    "heroSubtitle": "Ciudad Real es hub logístico de Castilla-La Mancha con importante movimiento comercial. Nuestro servicio atiende empresas de logística, distribución y construcción.",
+    "localContext": "Ciudad Real concentra 2.300 PyMEs en logística, distribución, construcción, comercio y servicios. Es centro logístico de conexión entre Madrid y Andalucía. Las empresas requieren respuestas ágiles a consultas de seguimiento y presupuestos. El 34% de las llamadas operativas quedan sin atender.",
+    "keySectors": [
+      "Logística y Distribución",
+      "Construcción Regional",
+      "Comercio Mayorista",
+      "Servicios de Transporte"
+    ],
+    "testimonial": {
+      "quote": "Nuestro centro logístico distribuye productos a toda Castilla-La Mancha. Minute call nos permite responder a clientes sin dilaciones.",
+      "author": "Alfredo Molina Gutiérrez",
+      "role": "Supervisor de Almacén en Ciudad Real"
+    },
+    "stats": {
+      "pymes": "2.300+",
+      "callsLost": "34% de consultas de clientes sin respuesta en picos"
+    }
+  },
+  {
+    "slug": "caceres",
+    "city": "Cáceres",
+    "region": "Extremadura",
+    "metaTitle": "Atención telefónica para empresas en Cáceres | minute call",
+    "metaDescription": "Servicio de atención telefónica en Cáceres. Receptora virtual para PyMEs de turismo, construcción y servicios.",
+    "heroTag": "Atención telefónica en Cáceres",
+    "heroTitle": "Atención telefónica para empresas en Cáceres.",
+    "heroSubtitle": "Cáceres es patrimonio de la humanidad con casco histórico medieval excepcional. Nuestro servicio atiende empresas turísticas, de construcción y servicios de la región.",
+    "localContext": "Cáceres alberga 2.200 PyMEs en turismo cultural, construcción, agroalimentación, comercio y servicios. Su casco antiguo atrae 500.000 visitantes anuales. Las empresas turísticas requieren respuestas rápidas a consultas de tours y reservas hoteleras. El 32% de las llamadas de turistas quedan sin respuesta profesional.",
+    "keySectors": [
+      "Turismo Medieval",
+      "Construcción Regional",
+      "Agroalimentación",
+      "Comercio Local"
+    ],
+    "testimonial": {
+      "quote": "Nuestro hotel en el casco antiguo de Cáceres recibe llamadas de turistas en francés, inglés y alemán. Minute call nos permite no perder reservas.",
+      "author": "Bárbara Romo Sánchez",
+      "role": "Gerenta de Hotel Histórico en Cáceres"
+    },
+    "stats": {
+      "pymes": "2.200+",
+      "callsLost": "32% de reservas internacionales sin procesamiento"
     }
   }
 ]
