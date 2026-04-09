@@ -43,7 +43,7 @@ export default async function LandingPage({
 
   return (
     <>
-      <FAQPageSchema faqs={sector.faq.map(f => ({ question: f.question, answer: f.answer }))} />
+      <FAQPageSchema faqs={sector.faq.map(f => ({ question: f.question, answer: f.answer ?? "" }))} />
       <BreadcrumbSchema items={[
         { name: "Inicio", url: "https://www.minute-call.com" },
         { name: sector.title, url: `https://www.minute-call.com/lp/${sector.slug}` }
