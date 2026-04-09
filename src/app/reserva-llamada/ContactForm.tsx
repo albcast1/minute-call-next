@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 const FORM_BG = "#F5F1EB";
@@ -16,10 +17,12 @@ export default function ContactForm() {
     const form = e.currentTarget;
     const data: Record<string, string> = {};
     const fd = new FormData(form);
-    fd.forEach((v, k) => { data[k] = String(v); });
+    fd.forEach((v, k) => {
+      data[k] = String(v);
+    });
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("https://formspree.io/f/xpwzgqjk", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(data),
@@ -97,14 +100,34 @@ export default function ContactForm() {
           <label style={labelStyle} htmlFor="nombre">Nombre</label>
           <input id="nombre" name="nombre" type="text" required placeholder="Tu nombre" style={inputStyle} />
         </div>
+
         <div>
           <label style={labelStyle} htmlFor="email">Email</label>
           <input id="email" name="email" type="email" required placeholder="tu@email.com" style={inputStyle} />
         </div>
+
         <div>
           <label style={labelStyle} htmlFor="telefono">Teléfono</label>
           <input id="telefono" name="telefono" type="tel" required placeholder="+34 600 000 000" style={inputStyle} />
         </div>
+
+        <div>
+          <label style={labelStyle} htmlFor="volumen">Volumen estimado de llamadas por semana</label>
+          <select
+            id="volumen"
+            name="volumen"
+            required
+            style={{ ...inputStyle, cursor: "pointer", appearance: "none" as const }}
+          >
+            <option value="">Selecciona un rango</option>
+            <option value="Menos de 50">Menos de 50</option>
+            <option value="50-100">50–100</option>
+            <option value="100-250">100–250</option>
+            <option value="250-500">250–500</option>
+            <option value="Más de 500">Más de 500</option>
+          </select>
+        </div>
+
         <div>
           <label style={labelStyle} htmlFor="contexto">¿En qué contexto usarías Minute Call?</label>
           <textarea
