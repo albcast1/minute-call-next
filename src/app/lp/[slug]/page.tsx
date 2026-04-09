@@ -90,7 +90,7 @@ export default async function LandingPage({
           <p style={{ marginBottom: 40 }}>{sector.socialProof}</p>
 
           <Link href="/reserva-llamada" className="btn-cta">
-            Solicitar demo gratis
+            Reserva una llamada
           </Link>
         </div>
 
@@ -268,7 +268,7 @@ export default async function LandingPage({
           semana.
         </p>
         <Link href="/reserva-llamada" className="btn-cta">
-          Solicitar demo gratis
+          Reserva una llamada
         </Link>
       </section>
     </>
