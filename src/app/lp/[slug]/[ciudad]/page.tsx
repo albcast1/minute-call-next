@@ -45,8 +45,8 @@ type CityType = {
     role: string;
   };
   stats: {
-    pymes: number;
-    callsLost: number;
+    pymes: string;
+    callsLost: string;
   };
 };
 
@@ -345,10 +345,12 @@ export default async function SectorCityPage({
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
-        name={`Recepcionista de IA para ${sector.sector}`}
-        description={`Servicio de recepcionista de IA especializado en ${sector.sector} en ${city.city}`}
+        services={[{
+          name: `Recepcionista de IA para ${sector.sector}`,
+          description: `Servicio de recepcionista de IA especializado en ${sector.sector} en ${city.city}`
+        }]}
       />
-      <FAQPageSchema items={faqItems} />
+      <FAQPageSchema faqs={faqItems} />
 
       {/* Breadcrumb */}
       <div style={{ ...containerStyle, ...breadcrumbStyle, paddingTop: '20px' }}>
