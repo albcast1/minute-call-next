@@ -50,6 +50,19 @@ export default function Nav() {
             Nosotros
           </Link>
           <Link
+            href="/empleo"
+            style={{
+              fontFamily: "Inter, sans-serif",
+              fontSize: 14,
+              fontWeight: 500,
+              letterSpacing: "-0.56px",
+              color: "black",
+            }}
+            className="hover:opacity-80 transition-opacity"
+          >
+            Empleo
+          </Link>
+          <Link
             href="/reserva-llamada"
             style={{
               fontFamily: "Inter, sans-serif",
@@ -83,6 +96,9 @@ export default function Nav() {
         <div style={{ backgroundColor: "#EFEBE5", padding: "16px 64px", display: "flex", flexDirection: "column", gap: 16 }} className="md:hidden">
           <Link href="/sobre-nosotros" style={{ fontSize: 14, fontWeight: 500, color: "black" }} onClick={() => setMobileMenuOpen(false)}>
             Nosotros
+          </Link>
+          <Link href="/empleo" style={{ fontSize: 14, fontWeight: 500, color: "black" }} onClick={() => setMobileMenuOpen(false)}>
+            Empleo
           </Link>
           <Link
             href="/reserva-llamada"
