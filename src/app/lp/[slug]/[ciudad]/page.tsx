@@ -559,7 +559,7 @@ export default async function SectorCityPage({
                   href={`/lp/${relatedSector.slug}/${city.slug}`}
                   style={{ color: '#0066cc', textDecoration: 'none' }}
                 >
-                  → Recepcionista Virtual para {relatedSector.name}
+                  → Recepcionista Virtual para {relatedSector.sector}
                 </Link>
               </div>
             ))}
