@@ -345,7 +345,7 @@ export default async function SectorCityPage({
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema services={[{ name: `Recepcionista Virtual para ${sector.sector}`, description: `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA` }]} />
-      <FAQPageSchema items={faqItems} />
+      <FAQPageSchema faqs={faqItems} />
 
       {/* Breadcrumb */}
       <div style={{ ...containerStyle, ...breadcrumbStyle, paddingTop: '20px' }}>
