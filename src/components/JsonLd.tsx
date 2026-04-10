@@ -228,6 +228,46 @@ export const ArticleSchema: React.FC<ArticleSchemaProps> = ({
 };
 
 /**
+ * ReviewSchema Component
+ * Outputs Review schema for testimonials - improves rich snippet eligibility
+ */
+interface ReviewSchemaProps {
+  authorName: string;
+  authorRole: string;
+  reviewBody: string;
+  ratingValue?: number;
+}
+
+export const ReviewSchema: React.FC<ReviewSchemaProps> = ({ authorName, authorRole, reviewBody, ratingValue = 5 }) => {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    itemReviewed: {
+      '@type': 'LocalBusiness',
+      name: 'minute call',
+    },
+    author: {
+      '@type': 'Person',
+      name: authorName,
+      jobTitle: authorRole,
+    },
+    reviewBody,
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue,
+      bestRating: 5,
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+};
+
+/**
  * BreadcrumbSchema Component
  * Accepts an array of breadcrumb items and outputs BreadcrumbList schema
  */
