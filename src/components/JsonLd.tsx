@@ -12,7 +12,7 @@ export const OrganizationSchema: React.FC = () => {
     url: 'https://www.minute-call.com',
     logo: 'https://www.minute-call.com/og-image.png',
     description:
-      'Servicio de atención telefónica 24/7 para PYMES con agentes nativos y asistentes de IA',
+      'Servicio de atenciÃ³n telefÃ³nica 24/7 para PYMES con agentes nativos y asistentes de IA',
     sameAs: ['https://www.linkedin.com/company/minute-call/'],
     contactPoint: {
       '@type': 'ContactPoint',
@@ -42,15 +42,15 @@ export const LocalBusinessSchema: React.FC = () => {
     logo: 'https://www.minute-call.com/og-image.png',
     image: 'https://www.minute-call.com/og-image.png',
     description:
-      'Servicio de atención telefónica 24/7 para PYMES. Recepcionistas nativos y asistentes de IA. Sin permanencia.',
+      'Servicio de atenciÃ³n telefÃ³nica 24/7 para PYMES. Recepcionistas nativos y asistentes de IA. Sin permanencia.',
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'ES',
     },
     areaServed: [
-      { '@type': 'Country', name: 'España' },
+      { '@type': 'Country', name: 'EspaÃ±a' },
     ],
-    priceRange: '€€',
+    priceRange: 'â¬â¬',
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
@@ -75,7 +75,7 @@ export const LocalBusinessSchema: React.FC = () => {
 
 /**
  * HowToSchema Component
- * Outputs HowTo schema for the "Cómo funciona" section
+ * Outputs HowTo schema for the "CÃ³mo funciona" section
  */
 interface HowToStep {
   name: string;
@@ -90,9 +90,9 @@ export const HowToSchema: React.FC<HowToSchemaProps> = ({ steps }) => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: 'Cómo funciona el servicio de recepcionista virtual de Minute Call',
+    name: 'CÃ³mo funciona el servicio de recepcionista virtual de Minute Call',
     description:
-      'Activa tu recepcionista virtual en 3 sencillos pasos: define el flujo, recibe llamadas y gestiona citas automáticamente.',
+      'Activa tu recepcionista virtual en 3 sencillos pasos: define el flujo, recibe llamadas y gestiona citas automÃ¡ticamente.',
     step: steps.map((s, i) => ({
       '@type': 'HowToStep',
       position: i + 1,
@@ -133,10 +133,10 @@ export const ServiceSchema: React.FC<ServiceSchemaProps> = ({ services }) => {
       name: 'minute call',
       url: 'https://www.minute-call.com',
     },
-    areaServed: { '@type': 'Country', name: 'España' },
+    areaServed: { '@type': 'Country', name: 'EspaÃ±a' },
     availableChannel: {
       '@type': 'ServiceChannel',
-      serviceType: 'Atención telefónica',
+      serviceType: 'AtenciÃ³n telefÃ³nica',
     },
   }));
 
@@ -288,7 +288,7 @@ export const BreadcrumbSchema: React.FC<BreadcrumbSchemaProps> = ({ items }) => 
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: item.url,
+      item: item.url.startsWith('http') ? item.url : `https://www.minute-call.com${item.url}`,
     })),
   };
 
