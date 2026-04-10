@@ -593,7 +593,8 @@ export default async function SectorCityPage({
                   → Recepcionista Virtual para {relatedSector.sector}
                 </Link>
               </div>
-
+            ))}
+          </div>
           {/* Other cities for this sector - internal linking */}
           <div style={{ marginTop: '40px' }}>
             <h3 style={{ fontSize: '20px', fontWeight: '600', marginBottom: '16px', color: '#1a1a1a' }}>
@@ -623,8 +624,6 @@ export default async function SectorCityPage({
             <Link href="/reserva-llamada" style={{ display: 'inline-block', padding: '14px 32px', backgroundColor: '#fff', color: '#0066cc', textDecoration: 'none', borderRadius: '6px', fontSize: '16px', fontWeight: '600' }}>
               Reservar llamada gratuita
             </Link>
-          </div>
-            ))}
           </div>
         </div>
       </section>
