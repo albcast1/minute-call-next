@@ -46,7 +46,7 @@ type CityType = {
   };
   stats: {
     pymes: string;
-    sectores: string;
+    callsLost: string;
   };
 };
 
