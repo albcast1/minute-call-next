@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import sectors from '@/data/sectors.json';
 import cities from '@/data/cities.json';
-import { FAQPageSchema, BreadcrumbSchema, ServiceSchema } from '@/components/JsonLd';
+import { FAQPageSchema, BreadcrumbSchema, ServiceSchema, LocalBusinessSchema, HowToSchema } from '@/components/JsonLd';
 
 type SectorType = {
   slug: string;
@@ -82,17 +82,32 @@ export async function generateMetadata({
     };
   }
 
-  const title = `Recepcionista Virtual para ${sector.sector} en ${city.city} | minute call`;
-  const description = `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA — tú eliges. Sin permanencia.`;
+  const title = sector.metaTitle
+    ? sector.metaTitle.replace('{ciudad}', city.city)
+    : `Recepcionista Virtual para ${sector.sector} en ${city.city} | minute call`;
+  const description = sector.metaDescription
+    ? sector.metaDescription.replace('{ciudad}', city.city)
+    : `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA — tú eliges. Sin permanencia.`;
 
   return {
     title,
     description,
+    alternates: {
+      canonical: `/lp/${slug}/${ciudad}`,
+    },
     openGraph: {
       title,
       description,
       type: 'website',
       locale: 'es_ES',
+      url: `https://www.minute-call.com/lp/${slug}/${ciudad}`,
+      images: [{ url: '/og-image.png', width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/og-image.png'],
     },
     robots: {
       index: true,
@@ -130,6 +145,19 @@ export default async function SectorCityPage({
   const relatedSectors = (sectors as SectorType[])
     .filter((s) => s.slug !== slug)
     .slice(0, 3);
+
+    // Related cities for this sector (for internal linking)
+    const relatedCities = (cities as CityType[])
+      .filter((c) => c.slug !== ciudad)
+      .slice(0, 5);
+
+
+    // HowTo steps for schema
+    const howToSteps = [
+      { name: 'Elige tu plan', text: 'Selecciona el plan que mejor se adapte a tu negocio de {sector.sector} en {city.city}.' },
+      { name: 'Configura tu flujo', text: 'Define cómo quieres que atendamos tus llamadas: horarios, mensajes y derivaciones.' },
+      { name: 'Activa tu recepcionista', text: 'En menos de 24h tu recepcionista virtual estará operativa atendiendo llamadas.' },
+    ];
 
   const breadcrumbItems = [
     { name: 'Inicio', url: '/' },
@@ -346,6 +374,8 @@ export default async function SectorCityPage({
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema services={[{ name: `Recepcionista Virtual para ${sector.sector}`, description: `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA` }]} />
       <FAQPageSchema faqs={faqItems} />
+      <LocalBusinessSchema />
+      <HowToSchema steps={howToSteps} />
 
       {/* Breadcrumb */}
       <div style={{ ...containerStyle, ...breadcrumbStyle, paddingTop: '20px' }}>
@@ -562,6 +592,37 @@ export default async function SectorCityPage({
                   → Recepcionista Virtual para {relatedSector.sector}
                 </Link>
               </div>
+
+          {/* Other cities for this sector - internal linking */}
+          <div style={{ marginTop: '40px' }}>
+            <h3 style={{ fontSize: '20px', fontWeight: '600', marginBottom: '16px', color: '#1a1a1a' }}>
+              {sector.sector} en otras ciudades
+            </h3>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+              {relatedCities.map((c) => (
+                <Link
+                  key={c.slug}
+                  href={`/lp/${sector.slug}/${c.slug}`}
+                  style={{ display: 'inline-block', padding: '6px 14px', backgroundColor: '#f0f0f0', borderRadius: '20px', fontSize: '14px', color: '#0066cc', textDecoration: 'none' }}
+                >
+                  {sector.sector} en {c.city}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Mid-page CTA */}
+          <div style={{ marginTop: '40px', padding: '30px', backgroundColor: '#0066cc', borderRadius: '8px', textAlign: 'center', color: '#fff' }}>
+            <p style={{ fontSize: '20px', fontWeight: '600', marginBottom: '12px' }}>
+              Prueba Minute Call gratis para tu negocio en {city.city}
+            </p>
+            <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.9 }}>
+              Sin permanencia. Activa tu recepcionista virtual en menos de 24 horas.
+            </p>
+            <Link href="/reserva-llamada" style={{ display: 'inline-block', padding: '14px 32px', backgroundColor: '#fff', color: '#0066cc', textDecoration: 'none', borderRadius: '6px', fontSize: '16px', fontWeight: '600' }}>
+              Reservar llamada gratuita
+            </Link>
+          </div>
             ))}
           </div>
         </div>
