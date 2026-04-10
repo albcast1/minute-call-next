@@ -22,13 +22,6 @@ export default function ReservaLlamada() {
           <p style={{ marginTop: 24, maxWidth: 400 }}>
             Nos pondremos en contacto contigo menos de 24h.
           </p>
-          <p style={{ marginTop: 16 }}>
-            Si buscas empleo,{" "}
-            <a href="/empleo" style={{ color: "black", fontWeight: 500, textDecoration: "underline" }}>
-              haz click aquí
-            </a>
-            .
-          </p>
         </div>
 
         {/* Right Side - Form */}
