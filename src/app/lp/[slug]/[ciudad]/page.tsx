@@ -176,7 +176,7 @@ export default async function SectorCityPage({
     },
     {
       question: `¿Cuánto cuesta el servicio de recepcionista para ${sector.sector}?`,
-      answer: `Los planes de Minute Call empiezan desde 250€/mes. El precio varía según el volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia ni costes ocultos. Solicita una demo gratuita para un presupuesto personalizado.`,
+      answer: `Los planes de Minute Call empiezan desde 250€/mes. El precio varía según el volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia ni costes ocultos. Contacta con nosotros para un presupuesto personalizado.`,
     },
     {
       question: `¿Cómo funciona el servicio en ${city.city}?`,
@@ -616,13 +616,13 @@ export default async function SectorCityPage({
           {/* Mid-page CTA */}
           <div style={{ marginTop: '40px', padding: '30px', backgroundColor: '#0066cc', borderRadius: '8px', textAlign: 'center', color: '#fff' }}>
             <p style={{ fontSize: '20px', fontWeight: '600', marginBottom: '12px' }}>
-              Prueba Minute Call gratis para tu negocio en {city.city}
+              Prueba Minute Call para tu negocio en {city.city}
             </p>
             <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.9 }}>
               Sin permanencia. Activa tu recepcionista virtual en menos de 24 horas.
             </p>
             <Link href="/reserva-llamada" style={{ display: 'inline-block', padding: '14px 32px', backgroundColor: '#fff', color: '#0066cc', textDecoration: 'none', borderRadius: '6px', fontSize: '16px', fontWeight: '600' }}>
-              Reservar llamada gratuita
+              Reservar llamada
             </Link>
           </div>
         </div>
@@ -639,7 +639,7 @@ export default async function SectorCityPage({
         }}
       >
         <div style={containerStyle}>
-          <h2 style={h2Style}>Comienza con una demo gratuita</h2>
+          <h2 style={h2Style}>Habla con nuestro equipo</h2>
           <p style={{ fontSize: '18px', color: '#666', marginBottom: '30px', lineHeight: '1.6' }}>
             Descubre cómo Minute Call puede transformar la atención
             telefónica de tu {sector.sector} en {city.city}.
