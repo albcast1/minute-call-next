@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import sectors from '@/data/sectors.json';
 import cities from '@/data/cities.json';
-import { FAQPageSchema, BreadcrumbSchema, ServiceSchema, LocalBusinessSchema, HowToSchema } from '@/components/JsonLd';
+import { FAQPageSchema, BreadcrumbSchema, ServiceSchema, LocalBusinessSchema, HowToSchema, ReviewSchema } from '@/components/JsonLd';
 
 type SectorType = {
   slug: string;
@@ -376,6 +376,7 @@ export default async function SectorCityPage({
       <FAQPageSchema faqs={faqItems} />
       <LocalBusinessSchema />
       <HowToSchema steps={howToSteps} />
+      <ReviewSchema authorName={sector.testimonial.author} authorRole={sector.testimonial.role} reviewBody={sector.testimonial.quote} />
 
       {/* Breadcrumb */}
       <div style={{ ...containerStyle, ...breadcrumbStyle, paddingTop: '20px' }}>
