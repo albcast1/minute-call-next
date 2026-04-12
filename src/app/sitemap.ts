@@ -5,33 +5,64 @@ import cities from '@/data/cities.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.minute-call.com'
+  const now = new Date()
 
   const staticPages = [
-    { url: baseUrl, lastModified: new Date('2026-04-09'), changeFrequency: 'weekly' as const, priority: 1 },
-    { url: `${baseUrl}/sobre-nosotros`, lastModified: new Date('2026-04-09'), changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/reserva-llamada`, lastModified: new Date('2026-04-09'), changeFrequency: 'monthly' as const, priority: 0.9 },
-    { url: `${baseUrl}/articulos`, lastModified: new Date('2026-04-09'), changeFrequency: 'weekly' as const, priority: 0.8 },
-    { url: `${baseUrl}/politica-privacidad`, lastModified: new Date('2026-04-09'), changeFrequency: 'yearly' as const, priority: 0.3 },
-    { url: `${baseUrl}/politica-cookies`, lastModified: new Date('2026-04-09'), changeFrequency: 'yearly' as const, priority: 0.3 },
+    {
+      url: baseUrl,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 1,
+    },
+    {
+      url: `${baseUrl}/sobre-nosotros`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/reserva-llamada`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/articulos`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/politica-privacidad`,
+      lastModified: now,
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/politica-cookies`,
+      lastModified: now,
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
+    },
   ]
 
   const sectorPages = sectors.map((sector) => ({
     url: `${baseUrl}/lp/${sector.slug}`,
-    lastModified: new Date('2026-04-09'),
+    lastModified: now,
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }))
 
   const articlePages = articles.map((article) => ({
     url: `${baseUrl}/articulos/${article.slug}`,
-    lastModified: new Date('2026-04-09'),
+    lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.6,
   }))
 
   const cityPages = cities.map((city) => ({
     url: `${baseUrl}/atencion-telefonica/${city.slug}`,
-    lastModified: new Date('2026-04-09'),
+    lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))
@@ -40,13 +71,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const sectorCityPages = sectors.flatMap((sector) =>
     cities.map((city) => ({
       url: `${baseUrl}/lp/${sector.slug}/${city.slug}`,
-      lastModified: new Date('2026-04-09'),
+      lastModified: now,
       changeFrequency: 'monthly' as const,
       priority: 0.6,
     }))
   )
 
-  // Job seeker pages
-return [...staticPages, ...sectorPages, ...articlePages, ...cityPages, ...sectorCityPages,
-]
+  return [
+    ...staticPages,
+    ...sectorPages,
+    ...articlePages,
+    ...cityPages,
+    ...sectorCityPages,
+  ]
 }
