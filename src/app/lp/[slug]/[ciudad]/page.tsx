@@ -128,36 +128,31 @@ export default async function SectorCityPage({
 
   if (!sector || !city) {
     return (
-      <div style={{ textAlign: 'center', padding: '60px 20px' }}>
-        <h1>Página no encontrada</h1>
-        <p>Lo sentimos, la página que buscas no existe.</p>
-        <Link href="/lp/recepcionista-ia-clinicas" style={{ color: '#0066cc' }}>
-          Volver al inicio
-        </Link>
+      <div style={{ textAlign: 'center', padding: '60px 20px', backgroundColor: '#EFEBE5', minHeight: '60vh' }}>
+        <h1 style={{ fontFamily: "'Source Serif 4', 'Source Serif Pro', Georgia, serif", fontWeight: 600, fontStyle: 'italic' }}>
+          Página no encontrada
+        </h1>
+        <p style={{ color: '#333' }}>Lo sentimos, la página que buscas no existe.</p>
+        <Link href="/" style={{ color: '#000' }}>Volver al inicio</Link>
       </div>
     );
   }
 
-  // Get 3 feature cards
   const featureCards = sector.features.slice(0, 3);
 
-  // Related sectors (2-3 more for internal linking)
   const relatedSectors = (sectors as SectorType[])
     .filter((s) => s.slug !== slug)
     .slice(0, 3);
 
-    // Related cities for this sector (for internal linking)
-    const relatedCities = (cities as CityType[])
-      .filter((c) => c.slug !== ciudad)
-      .slice(0, 5);
+  const relatedCities = (cities as CityType[])
+    .filter((c) => c.slug !== ciudad)
+    .slice(0, 5);
 
-
-    // HowTo steps for schema
-    const howToSteps = [
-      { name: 'Elige tu plan', text: 'Selecciona el plan que mejor se adapte a tu negocio de {sector.sector} en {city.city}.' },
-      { name: 'Configura tu flujo', text: 'Define cómo quieres que atendamos tus llamadas: horarios, mensajes y derivaciones.' },
-      { name: 'Activa tu recepcionista', text: 'En menos de 24h tu recepcionista virtual estará operativa atendiendo llamadas.' },
-    ];
+  const howToSteps = [
+    { name: 'Elige tu plan', text: `Selecciona el plan que mejor se adapte a tu negocio de ${sector.sector} en ${city.city}.` },
+    { name: 'Configura tu flujo', text: 'Define cómo quieres que atendamos tus llamadas: horarios, mensajes y derivaciones.' },
+    { name: 'Activa tu recepcionista', text: 'En menos de 24h tu recepcionista virtual estará operativa atendiendo llamadas.' },
+  ];
 
   const breadcrumbItems = [
     { name: 'Inicio', url: '/' },
@@ -184,315 +179,399 @@ export default async function SectorCityPage({
     },
   ];
 
-  const containerStyle: React.CSSProperties = {
+  /* ─────────────────────────────────────────────
+     BRAND TOKENS — minute call brandbook
+     ───────────────────────────────────────────── */
+  const brand = {
+    beige: '#EFEBE5',
+    black: '#000000',
+    darkText: '#1a1a1a',
+    bodyText: '#333333',
+    mutedText: '#666666',
+    green: '#5AFF15',
+    greenLight: '#A9FF7B',
+    white: '#FFFFFF',
+    serif: "'Source Serif 4', 'Source Serif Pro', Georgia, serif",
+    sans: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+  };
+
+  /* ─────────────────────────────────────────────
+     STYLE SYSTEM — following home page design
+     ───────────────────────────────────────────── */
+
+  const container: React.CSSProperties = {
     maxWidth: '1200px',
     margin: '0 auto',
-    padding: '0 20px',
+    padding: '0 24px',
   };
 
-  const sectionStyle: React.CSSProperties = {
-    padding: '60px 0',
-    borderBottom: '1px solid #f0f0f0',
+  const sectionBeige: React.CSSProperties = {
+    padding: '80px 0',
+    backgroundColor: brand.beige,
   };
 
-  const heroStyle: React.CSSProperties = {
-    textAlign: 'center',
-    padding: '80px 20px',
-    background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
+  const sectionDark: React.CSSProperties = {
+    padding: '80px 0',
+    backgroundColor: brand.black,
+    color: brand.white,
   };
 
-  const h1Style: React.CSSProperties = {
-    fontSize: '48px',
-    fontWeight: '700',
-    margin: '20px 0',
-    lineHeight: '1.2',
-    color: '#1a1a1a',
+  const hero: React.CSSProperties = {
+    padding: '100px 24px 80px',
+    backgroundColor: brand.beige,
   };
 
-  const subtitleStyle: React.CSSProperties = {
-    fontSize: '20px',
-    color: '#666',
-    marginBottom: '30px',
+  const h1: React.CSSProperties = {
+    fontSize: '52px',
+    fontWeight: 600,
+    fontStyle: 'italic',
+    margin: '24px 0',
+    lineHeight: 1.1,
+    color: brand.darkText,
+    fontFamily: brand.serif,
     maxWidth: '700px',
-    margin: '20px auto 30px',
-    lineHeight: '1.6',
   };
 
-  const buttonStyle: React.CSSProperties = {
+  const subtitle: React.CSSProperties = {
+    fontSize: '18px',
+    color: brand.mutedText,
+    marginBottom: '36px',
+    maxWidth: '600px',
+    lineHeight: 1.6,
+    fontFamily: brand.sans,
+  };
+
+  const cta: React.CSSProperties = {
     display: 'inline-block',
-    padding: '14px 32px',
-    backgroundColor: '#0066cc',
-    color: '#fff',
+    padding: '16px 36px',
+    backgroundColor: brand.green,
+    color: brand.black,
     textDecoration: 'none',
-    borderRadius: '6px',
+    borderRadius: '999px',
     fontSize: '16px',
-    fontWeight: '600',
-    cursor: 'pointer',
-    border: 'none',
+    fontWeight: 600,
+    fontFamily: brand.sans,
+    border: `2px solid ${brand.black}`,
   };
 
-  const cardContainerStyle: React.CSSProperties = {
+  const ctaDark: React.CSSProperties = {
+    ...cta,
+    border: `2px solid ${brand.green}`,
+  };
+
+  const cards: React.CSSProperties = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '30px',
+    gap: '24px',
     marginTop: '40px',
   };
 
-  const cardStyle: React.CSSProperties = {
-    padding: '30px',
-    border: '1px solid #e0e0e0',
-    borderRadius: '8px',
-    backgroundColor: '#fff',
+  const card: React.CSSProperties = {
+    padding: '32px',
+    borderRadius: '16px',
+    backgroundColor: brand.white,
+    boxShadow: '0 1px 3px rgba(0,0,0,0.04)',
   };
 
-  const h2Style: React.CSSProperties = {
-    fontSize: '32px',
-    fontWeight: '700',
-    marginBottom: '20px',
-    color: '#1a1a1a',
+  const cardDark: React.CSSProperties = {
+    padding: '32px',
+    borderRadius: '16px',
+    backgroundColor: 'rgba(255,255,255,0.06)',
+    border: '1px solid rgba(255,255,255,0.1)',
   };
 
-  const h3Style: React.CSSProperties = {
-    fontSize: '20px',
-    fontWeight: '600',
-    marginBottom: '12px',
-    color: '#1a1a1a',
-  };
-
-  const pillStyle: React.CSSProperties = {
-    display: 'inline-block',
-    padding: '8px 16px',
-    backgroundColor: '#f0f0f0',
-    borderRadius: '20px',
-    fontSize: '14px',
-    fontWeight: '600',
-    color: '#0066cc',
-    marginBottom: '20px',
-  };
-
-  const testimonialStyle: React.CSSProperties = {
-    padding: '40px',
-    backgroundColor: '#f9f9f9',
-    borderLeft: '4px solid #0066cc',
-    borderRadius: '4px',
-    marginTop: '40px',
-  };
-
-  const testimonialTextStyle: React.CSSProperties = {
-    fontSize: '18px',
+  const h2: React.CSSProperties = {
+    fontSize: '36px',
+    fontWeight: 600,
     fontStyle: 'italic',
-    marginBottom: '20px',
-    color: '#333',
-    lineHeight: '1.6',
-  };
-
-  const authorStyle: React.CSSProperties = {
-    fontSize: '16px',
-    fontWeight: '600',
-    color: '#1a1a1a',
-  };
-
-  const roleStyle: React.CSSProperties = {
-    fontSize: '14px',
-    color: '#666',
-    marginTop: '4px',
-  };
-
-  const stepsContainerStyle: React.CSSProperties = {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-    gap: '40px',
-    marginTop: '40px',
-  };
-
-  const stepStyle: React.CSSProperties = {
-    textAlign: 'center',
-  };
-
-  const stepNumberStyle: React.CSSProperties = {
-    display: 'inline-block',
-    width: '50px',
-    height: '50px',
-    lineHeight: '50px',
-    backgroundColor: '#0066cc',
-    color: '#fff',
-    borderRadius: '50%',
-    fontSize: '24px',
-    fontWeight: '700',
     marginBottom: '16px',
+    color: brand.darkText,
+    fontFamily: brand.serif,
   };
 
-  const faqContainerStyle: React.CSSProperties = {
-    marginTop: '40px',
+  const h2Light: React.CSSProperties = {
+    ...h2,
+    color: brand.white,
   };
 
-  const faqItemStyle: React.CSSProperties = {
-    marginBottom: '24px',
-    paddingBottom: '24px',
-    borderBottom: '1px solid #e0e0e0',
-  };
-
-  const faqQuestionStyle: React.CSSProperties = {
-    fontSize: '18px',
-    fontWeight: '600',
-    color: '#1a1a1a',
+  const h3: React.CSSProperties = {
+    fontSize: '20px',
+    fontWeight: 600,
     marginBottom: '12px',
+    color: brand.darkText,
+    fontFamily: brand.sans,
   };
 
-  const faqAnswerStyle: React.CSSProperties = {
-    fontSize: '16px',
-    color: '#666',
-    lineHeight: '1.6',
+  const h3Light: React.CSSProperties = {
+    ...h3,
+    color: brand.white,
   };
 
-  const linksStyle: React.CSSProperties = {
-    marginTop: '20px',
-    paddingTop: '20px',
-    borderTop: '1px solid #e0e0e0',
-  };
-
-  const linkItemStyle: React.CSSProperties = {
+  const pill: React.CSSProperties = {
     display: 'inline-block',
-    marginRight: '20px',
-    marginBottom: '12px',
-  };
-
-  const breadcrumbStyle: React.CSSProperties = {
+    padding: '8px 20px',
+    backgroundColor: 'transparent',
+    borderRadius: '999px',
     fontSize: '14px',
-    color: '#666',
-    marginBottom: '30px',
+    fontWeight: 500,
+    color: brand.bodyText,
+    border: `1px solid ${brand.bodyText}`,
+    fontFamily: brand.sans,
   };
 
-  const breadcrumbLinkStyle: React.CSSProperties = {
-    color: '#0066cc',
+  const body: React.CSSProperties = {
+    fontSize: '16px',
+    color: brand.mutedText,
+    lineHeight: 1.6,
+    fontFamily: brand.sans,
+  };
+
+  const bodyLight: React.CSSProperties = {
+    ...body,
+    color: 'rgba(255,255,255,0.7)',
+  };
+
+  const stepNum: React.CSSProperties = {
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '48px',
+    height: '48px',
+    backgroundColor: brand.green,
+    color: brand.black,
+    borderRadius: '50%',
+    fontSize: '20px',
+    fontWeight: 700,
+    marginBottom: '16px',
+    fontFamily: brand.sans,
+  };
+
+  const link: React.CSSProperties = {
+    color: brand.darkText,
     textDecoration: 'none',
-    marginRight: '8px',
+    fontWeight: 500,
+    fontFamily: brand.sans,
+    borderBottom: `1px solid ${brand.bodyText}`,
+    paddingBottom: '2px',
+  };
+
+  const linkLight: React.CSSProperties = {
+    ...link,
+    color: brand.white,
+    borderBottomColor: 'rgba(255,255,255,0.3)',
+  };
+
+  const breadcrumb: React.CSSProperties = {
+    fontSize: '14px',
+    color: brand.mutedText,
+    fontFamily: brand.sans,
   };
 
   return (
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ServiceSchema services={[{ name: `Recepcionista Virtual para ${sector.sector}`, description: `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA` }]} />
+      <ServiceSchema
+        services={[{
+          name: `Recepcionista Virtual para ${sector.sector}`,
+          description: `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA`,
+        }]}
+      />
       <FAQPageSchema faqs={faqItems} />
       <LocalBusinessSchema />
       <HowToSchema steps={howToSteps} />
-      <ReviewSchema authorName={sector.testimonial.author} authorRole={sector.testimonial.role} reviewBody={sector.testimonial.quote} />
+      <ReviewSchema
+        authorName={sector.testimonial.author}
+        authorRole={sector.testimonial.role}
+        reviewBody={sector.testimonial.quote}
+      />
 
-      {/* Breadcrumb */}
-      <div style={{ ...containerStyle, ...breadcrumbStyle, paddingTop: '20px' }}>
-        {breadcrumbItems.map((item, idx) => (
-          <span key={idx}>
-            {idx > 0 && ' / '}
-            {idx < breadcrumbItems.length - 1 ? (
-              <Link href={item.url} style={breadcrumbLinkStyle}>
-                {item.name}
+      {/* ── HERO ── */}
+      <section style={hero}>
+        <div style={container}>
+          {/* Breadcrumb */}
+          <nav style={breadcrumb}>
+            {breadcrumbItems.map((item, idx) => (
+              <span key={idx}>
+                {idx > 0 && <span style={{ margin: '0 8px', color: brand.mutedText }}>/</span>}
+                {idx < breadcrumbItems.length - 1 ? (
+                  <Link href={item.url} style={{ color: brand.bodyText, textDecoration: 'none' }}>
+                    {item.name}
+                  </Link>
+                ) : (
+                  <span style={{ color: brand.darkText }}>{item.name}</span>
+                )}
+              </span>
+            ))}
+          </nav>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '64px', alignItems: 'center', marginTop: '40px' }}>
+            {/* Left: copy */}
+            <div>
+              <div style={pill}>
+                Recepcionista Virtual para {sector.sector}
+              </div>
+              <h1 style={h1}>
+                Atención telefónica para {sector.sector} en {city.city}.
+              </h1>
+              <p style={subtitle}>
+                {sector.heroSubtitle} en {city.city}. Automatiza tu atención telefónica con
+                agentes nativos basados en España o asistentes de IA — tú eliges.
+              </p>
+              <Link href="/reserva-llamada" style={cta}>
+                Reserva una llamada
               </Link>
-            ) : (
-              <span style={{ color: '#1a1a1a' }}>{item.name}</span>
-            )}
-          </span>
-        ))}
-      </div>
+            </div>
 
-      {/* Hero Section */}
-      <section style={heroStyle}>
-        <div style={containerStyle}>
-          <div style={pillStyle} className="pill-label">
-            Recepcionista Virtual para {sector.sector}
+            {/* Right: visual card (mirrors home hero) */}
+            <div style={{
+              backgroundColor: brand.white,
+              borderRadius: '20px',
+              padding: '32px',
+              boxShadow: '0 4px 24px rgba(0,0,0,0.06)',
+            }}>
+              <div style={{
+                display: 'flex',
+                gap: 0,
+                marginBottom: '24px',
+                borderRadius: '12px',
+                overflow: 'hidden',
+                border: '1px solid rgba(0,0,0,0.08)',
+              }}>
+                <div style={{
+                  flex: 1,
+                  padding: '14px 24px',
+                  textAlign: 'center',
+                  backgroundColor: brand.white,
+                  fontWeight: 600,
+                  fontSize: '15px',
+                  fontFamily: brand.sans,
+                  color: brand.darkText,
+                  borderRight: '1px solid rgba(0,0,0,0.08)',
+                }}>
+                  Recepcionista
+                </div>
+                <div style={{
+                  flex: 1,
+                  padding: '14px 24px',
+                  textAlign: 'center',
+                  fontWeight: 500,
+                  fontSize: '15px',
+                  fontFamily: brand.sans,
+                  color: brand.mutedText,
+                }}>
+                  Recepcionista IA
+                </div>
+              </div>
+              <div style={{
+                backgroundColor: brand.beige,
+                borderRadius: '12px',
+                height: '240px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}>
+                <div style={{ textAlign: 'center', color: brand.mutedText, fontFamily: brand.sans, fontSize: '15px' }}>
+                  <div style={{ fontSize: '48px', marginBottom: '12px' }}>📞</div>
+                  <p>Atención telefónica profesional</p>
+                  <p style={{ fontSize: '13px', marginTop: '4px' }}>para {sector.sector}</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <h1 style={h1Style}>
-            Atención telefónica para {sector.sector} en {city.city}.
-          </h1>
-          <p style={subtitleStyle}>
-            {sector.heroSubtitle} en {city.city}. Automatiza tu atención telefónica con
-            agentes nativos basados en España o asistentes de IA — tú eliges.
-          </p>
-          <Link href="/reserva-llamada" style={buttonStyle} className="btn-cta">
-            Reserva una llamada
-          </Link>
         </div>
       </section>
 
-      {/* Local Context Section */}
-      <section style={sectionStyle}>
-        <div style={containerStyle}>
-          <h2 style={h2Style}>
+      {/* ── LOCAL CONTEXT ── */}
+      <section style={sectionBeige}>
+        <div style={container}>
+          <h2 style={h2}>
             Por qué necesitas atención telefónica profesional en {city.city}
           </h2>
-          <p style={{ fontSize: '16px', color: '#666', lineHeight: '1.6', marginBottom: '20px' }}>
+          <p style={{ ...body, marginBottom: '20px', maxWidth: '700px' }}>
             {city.localContext}
           </p>
-          <div style={cardContainerStyle}>
+          <div style={cards}>
             {sector.features.slice(0, 2).map((feature, idx) => (
-              <div key={idx} style={cardStyle} className="card">
-                <h3 style={h3Style}>{feature.title}</h3>
-                <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
-                  {feature.description}
-                </p>
+              <div key={idx} style={card}>
+                <h3 style={h3}>{feature.title}</h3>
+                <p style={body}>{feature.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 3 Feature Cards */}
-      <section style={sectionStyle}>
-        <div style={containerStyle}>
-          <h2 style={h2Style}>Características principales para {sector.sector}</h2>
-          <div style={cardContainerStyle}>
+      {/* ── FEATURES (dark section) ── */}
+      <section style={sectionDark}>
+        <div style={container}>
+          <h2 style={h2Light}>Características principales para {sector.sector}</h2>
+          <div style={cards}>
             {featureCards.map((feature, idx) => (
-              <div key={idx} style={cardStyle} className="card">
-                <h3 style={h3Style} className="service-card-title">
-                  {feature.title}
-                </h3>
-                <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }} className="service-card-body">
-                  {feature.description}
-                </p>
+              <div key={idx} style={cardDark}>
+                <h3 style={h3Light}>{feature.title}</h3>
+                <p style={bodyLight}>{feature.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Testimonial Section */}
-      <section style={sectionStyle}>
-        <div style={containerStyle}>
-          <h2 style={h2Style}>Lo que dicen nuestros clientes</h2>
-          <div style={testimonialStyle}>
-            <p style={testimonialTextStyle} className="serif-italic">
-              "{sector.testimonial.quote}"
+      {/* ── TESTIMONIAL ── */}
+      <section style={sectionBeige}>
+        <div style={container}>
+          <h2 style={h2}>Lo que dicen nuestros clientes</h2>
+          <div style={{
+            padding: '48px',
+            backgroundColor: brand.white,
+            borderRadius: '16px',
+            marginTop: '40px',
+            boxShadow: '0 1px 3px rgba(0,0,0,0.04)',
+          }}>
+            <p style={{
+              fontSize: '20px',
+              fontStyle: 'italic',
+              marginBottom: '24px',
+              color: brand.bodyText,
+              lineHeight: 1.6,
+              fontFamily: brand.serif,
+            }}>
+              &ldquo;{sector.testimonial.quote}&rdquo;
             </p>
-            <p style={authorStyle}>{sector.testimonial.author}</p>
-            <p style={roleStyle}>{sector.testimonial.role}</p>
+            <p style={{ fontSize: '16px', fontWeight: 600, color: brand.darkText, fontFamily: brand.sans }}>
+              {sector.testimonial.author}
+            </p>
+            <p style={{ fontSize: '14px', color: brand.mutedText, marginTop: '4px', fontFamily: brand.sans }}>
+              {sector.testimonial.role}
+            </p>
           </div>
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <section style={sectionStyle}>
-        <div style={containerStyle}>
-          <h2 style={h2Style}>Cómo funciona</h2>
-          <div style={stepsContainerStyle}>
-            <div style={stepStyle}>
-              <div style={stepNumberStyle}>1</div>
-              <h3 style={h3Style}>Configuración</h3>
-              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
+      {/* ── HOW IT WORKS ── */}
+      <section style={sectionBeige}>
+        <div style={container}>
+          <h2 style={h2}>Cómo funciona</h2>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '32px', marginTop: '48px' }}>
+            <div style={{ textAlign: 'center' }}>
+              <div style={stepNum}>1</div>
+              <h3 style={h3}>Configuración</h3>
+              <p style={body}>
                 Personalizamos el guión de llamada y acciones del agente con los detalles de tu
                 negocio y sector.
               </p>
             </div>
-            <div style={stepStyle}>
-              <div style={stepNumberStyle}>2</div>
-              <h3 style={h3Style}>Integración</h3>
-              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
+            <div style={{ textAlign: 'center' }}>
+              <div style={stepNum}>2</div>
+              <h3 style={h3}>Integración</h3>
+              <p style={body}>
                 Integramos el sistema con tu telefonía actual sin necesidad de cambios en
                 tu infraestructura.
               </p>
             </div>
-            <div style={stepStyle}>
-              <div style={stepNumberStyle}>3</div>
-              <h3 style={h3Style}>Gestión</h3>
-              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
+            <div style={{ textAlign: 'center' }}>
+              <div style={stepNum}>3</div>
+              <h3 style={h3}>Gestión</h3>
+              <p style={body}>
                 Tu recepcionista virtual gestiona las llamadas y consultas
                 de forma inteligente.
               </p>
@@ -501,47 +580,93 @@ export default async function SectorCityPage({
         </div>
       </section>
 
-      {/* IA vs Human Agent Section */}
-      <section style={sectionStyle}>
-        <div style={containerStyle}>
-          <h2 style={h2Style}>¿IA o agente humano? Tú decides</h2>
-          <p style={{ fontSize: '16px', color: '#666', lineHeight: '1.6', marginBottom: '30px' }}>
+      {/* ── IA vs HUMAN (dark) ── */}
+      <section style={sectionDark}>
+        <div style={container}>
+          <h2 style={h2Light}>¿IA o agente humano? Tú decides</h2>
+          <p style={{ ...bodyLight, marginBottom: '30px', maxWidth: '700px' }}>
             En Minute Call puedes elegir entre asistentes de IA y recepcionistas nativos basados en España, o combinar ambos según tus necesidades.
           </p>
-          <div style={cardContainerStyle}>
-            <div style={cardStyle} className="card">
-              <h3 style={h3Style}>Agente de IA</h3>
-              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
-                Ideal para consultas frecuentes, confirmaciones de cita, horarios y disponibilidad. Responde al instante, 24/7, sin esperas. Perfecto para volumen alto y horario nocturno o fines de semana.
+          <div style={cards}>
+            <div style={cardDark}>
+              <div style={{
+                display: 'inline-block',
+                padding: '6px 14px',
+                borderRadius: '999px',
+                backgroundColor: brand.green,
+                color: brand.black,
+                fontSize: '13px',
+                fontWeight: 600,
+                marginBottom: '16px',
+                fontFamily: brand.sans,
+              }}>IA</div>
+              <h3 style={h3Light}>Agente de IA</h3>
+              <p style={bodyLight}>
+                Ideal para consultas frecuentes, confirmaciones de cita, horarios y disponibilidad.
+                Responde al instante, 24/7, sin esperas. Perfecto para volumen alto y horario nocturno o fines de semana.
               </p>
             </div>
-            <div style={cardStyle} className="card">
-              <h3 style={h3Style}>Agente Humano Nativo</h3>
-              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
-                Mejor para primeras consultas de alto valor, quejas, presupuestos personalizados y situaciones que requieren empatía. Recepcionistas nativos basados en España que atienden en español, inglés y francés.
+            <div style={cardDark}>
+              <div style={{
+                display: 'inline-block',
+                padding: '6px 14px',
+                borderRadius: '999px',
+                backgroundColor: 'rgba(255,255,255,0.15)',
+                color: brand.white,
+                fontSize: '13px',
+                fontWeight: 600,
+                marginBottom: '16px',
+                fontFamily: brand.sans,
+              }}>Humano</div>
+              <h3 style={h3Light}>Agente Humano Nativo</h3>
+              <p style={bodyLight}>
+                Mejor para primeras consultas de alto valor, quejas, presupuestos personalizados y
+                situaciones que requieren empatía. Recepcionistas nativos basados en España que atienden en español, inglés y francés.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Minute Call vs Call Centers Section */}
-      <section style={{ ...sectionStyle, background: '#f5f7fa' }}>
-        <div style={containerStyle}>
-          <h2 style={h2Style}>Minute Call vs Call Centers Tradicionales</h2>
-          <p style={{ fontSize: '16px', color: '#666', lineHeight: '1.6', marginBottom: '30px' }}>
-            Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para corporaciones. Minute Call está diseñado para PYMES como tu {sector.sector.toLowerCase()} en {city.city}.
+      {/* ── MC vs CALL CENTERS ── */}
+      <section style={sectionBeige}>
+        <div style={container}>
+          <h2 style={h2}>Minute Call vs Call Centers Tradicionales</h2>
+          <p style={{ ...body, marginBottom: '30px', maxWidth: '700px' }}>
+            Los grandes call centers están diseñados para corporaciones. Minute Call está diseñado para PYMES como tu {sector.sector.toLowerCase()} en {city.city}.
           </p>
-          <div style={cardContainerStyle}>
-            <div style={cardStyle} className="card">
-              <h3 style={h3Style}>Call Centers Tradicionales</h3>
-              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
+          <div style={cards}>
+            <div style={{ ...card, border: '1px solid rgba(0,0,0,0.08)' }}>
+              <div style={{
+                display: 'inline-block',
+                padding: '6px 14px',
+                borderRadius: '999px',
+                backgroundColor: 'rgba(0,0,0,0.06)',
+                color: brand.mutedText,
+                fontSize: '13px',
+                fontWeight: 600,
+                marginBottom: '16px',
+                fontFamily: brand.sans,
+              }}>Tradicional</div>
+              <h3 style={h3}>Call Centers Tradicionales</h3>
+              <p style={body}>
                 Agentes basados en LATAM · Contratos rígidos a largo plazo · Bajo nivel tecnológico · Errores frecuentes · Falta de personalización · Diseñados para grandes corporaciones
               </p>
             </div>
-            <div style={cardStyle} className="card">
-              <h3 style={h3Style}>Minute Call</h3>
-              <p style={{ fontSize: '15px', color: '#666', lineHeight: '1.6' }}>
+            <div style={{ ...card, border: `2px solid ${brand.green}` }}>
+              <div style={{
+                display: 'inline-block',
+                padding: '6px 14px',
+                borderRadius: '999px',
+                backgroundColor: brand.green,
+                color: brand.black,
+                fontSize: '13px',
+                fontWeight: 600,
+                marginBottom: '16px',
+                fontFamily: brand.sans,
+              }}>minute call</div>
+              <h3 style={h3}>Minute Call</h3>
+              <p style={body}>
                 Agentes nativos basados en España · Sin permanencia, mes a mes · Agentes humanos o IA, tú eliges · Control de calidad de cada conversación · Partners de Teleperformance (#1 BPO mundial) · Desde 250€/mes
               </p>
             </div>
@@ -549,55 +674,52 @@ export default async function SectorCityPage({
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section style={sectionStyle}>
-        <div style={containerStyle}>
-          <h2 style={h2Style}>Preguntas frecuentes</h2>
-          <div style={faqContainerStyle}>
+      {/* ── FAQ ── */}
+      <section style={sectionBeige}>
+        <div style={container}>
+          <h2 style={h2}>Preguntas frecuentes</h2>
+          <div style={{ marginTop: '40px', maxWidth: '800px' }}>
             {faqItems.map((item, idx) => (
-              <div key={idx} style={faqItemStyle}>
-                <p style={faqQuestionStyle}>{item.question}</p>
-                <p style={faqAnswerStyle}>{item.answer}</p>
+              <div key={idx} style={{ marginBottom: '24px', paddingBottom: '24px', borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
+                <p style={{ fontSize: '18px', fontWeight: 600, color: brand.darkText, marginBottom: '12px', fontFamily: brand.sans }}>
+                  {item.question}
+                </p>
+                <p style={{ fontSize: '16px', color: brand.mutedText, lineHeight: 1.6, fontFamily: brand.sans }}>
+                  {item.answer}
+                </p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Internal Links Section */}
-      <section style={sectionStyle}>
-        <div style={containerStyle}>
-          <h2 style={h2Style}>Más información</h2>
-          <div style={linksStyle}>
-            <div style={linkItemStyle}>
-              <Link href={`/lp/${sector.slug}`} style={{ color: '#0066cc', textDecoration: 'none' }}>
-                → Recepcionista Virtual para {sector.sector}
-              </Link>
-            </div>
-            <div style={linkItemStyle}>
-              <Link href={`/atencion-telefonica/${city.slug}`} style={{ color: '#0066cc', textDecoration: 'none' }}>
-                → Servicios de atención telefónica en {city.city}
-              </Link>
-            </div>
+      {/* ── INTERNAL LINKS ── */}
+      <section style={sectionBeige}>
+        <div style={container}>
+          <h2 style={h2}>Más información</h2>
+          <div style={{ marginTop: '24px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <Link href={`/lp/${sector.slug}`} style={link}>
+              Recepcionista Virtual para {sector.sector} →
+            </Link>
+            <Link href={`/atencion-telefonica/${city.slug}`} style={link}>
+              Servicios de atención telefónica en {city.city} →
+            </Link>
           </div>
-          <h3 style={{ ...h3Style, marginTop: '40px', marginBottom: '20px' }}>
+
+          <h3 style={{ ...h3, marginTop: '48px', marginBottom: '20px' }}>
             Sectores relacionados en {city.city}
           </h3>
-          <div style={linksStyle}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
             {relatedSectors.map((relatedSector, idx) => (
-              <div key={idx} style={linkItemStyle}>
-                <Link
-                  href={`/lp/${relatedSector.slug}/${city.slug}`}
-                  style={{ color: '#0066cc', textDecoration: 'none' }}
-                >
-                  → Recepcionista Virtual para {relatedSector.sector}
-                </Link>
-              </div>
+              <Link key={idx} href={`/lp/${relatedSector.slug}/${city.slug}`} style={link}>
+                Recepcionista Virtual para {relatedSector.sector} →
+              </Link>
             ))}
           </div>
-          {/* Other cities for this sector - internal linking */}
-          <div style={{ marginTop: '40px' }}>
-            <h3 style={{ fontSize: '20px', fontWeight: '600', marginBottom: '16px', color: '#1a1a1a' }}>
+
+          {/* Other cities for this sector */}
+          <div style={{ marginTop: '48px' }}>
+            <h3 style={{ ...h3, marginBottom: '16px' }}>
               {sector.sector} en otras ciudades
             </h3>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
@@ -605,7 +727,17 @@ export default async function SectorCityPage({
                 <Link
                   key={c.slug}
                   href={`/lp/${sector.slug}/${c.slug}`}
-                  style={{ display: 'inline-block', padding: '6px 14px', backgroundColor: '#f0f0f0', borderRadius: '20px', fontSize: '14px', color: '#0066cc', textDecoration: 'none' }}
+                  style={{
+                    display: 'inline-block',
+                    padding: '8px 16px',
+                    backgroundColor: brand.white,
+                    borderRadius: '999px',
+                    fontSize: '14px',
+                    color: brand.darkText,
+                    textDecoration: 'none',
+                    fontFamily: brand.sans,
+                    border: '1px solid rgba(0,0,0,0.1)',
+                  }}
                 >
                   {sector.sector} en {c.city}
                 </Link>
@@ -614,37 +746,38 @@ export default async function SectorCityPage({
           </div>
 
           {/* Mid-page CTA */}
-          <div style={{ marginTop: '40px', padding: '30px', backgroundColor: '#0066cc', borderRadius: '8px', textAlign: 'center', color: '#fff' }}>
-            <p style={{ fontSize: '20px', fontWeight: '600', marginBottom: '12px' }}>
+          <div style={{
+            marginTop: '48px',
+            padding: '40px',
+            backgroundColor: brand.black,
+            borderRadius: '16px',
+            textAlign: 'center',
+            color: brand.white,
+          }}>
+            <p style={{ fontSize: '22px', fontWeight: 600, marginBottom: '12px', fontFamily: brand.serif, fontStyle: 'italic' }}>
               Prueba Minute Call para tu negocio en {city.city}
             </p>
-            <p style={{ fontSize: '16px', marginBottom: '20px', opacity: 0.9 }}>
+            <p style={{ fontSize: '16px', marginBottom: '24px', opacity: 0.7, fontFamily: brand.sans }}>
               Sin permanencia. Activa tu recepcionista virtual en menos de 24 horas.
             </p>
-            <Link href="/reserva-llamada" style={{ display: 'inline-block', padding: '14px 32px', backgroundColor: '#fff', color: '#0066cc', textDecoration: 'none', borderRadius: '6px', fontSize: '16px', fontWeight: '600' }}>
+            <Link href="/reserva-llamada" style={ctaDark}>
               Reservar llamada
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Bottom CTA */}
-      <section
-        style={{
-          ...sectionStyle,
-          textAlign: 'center',
-          background: '#f5f7fa',
-          paddingTop: '80px',
-          paddingBottom: '80px',
-        }}
-      >
-        <div style={containerStyle}>
-          <h2 style={h2Style}>Habla con nuestro equipo</h2>
-          <p style={{ fontSize: '18px', color: '#666', marginBottom: '30px', lineHeight: '1.6' }}>
+      {/* ── BOTTOM CTA (dark) ── */}
+      <section style={{ ...sectionDark, textAlign: 'center', padding: '100px 0' }}>
+        <div style={container}>
+          <h2 style={{ ...h2Light, maxWidth: '600px', margin: '0 auto 16px' }}>
+            Habla con nuestro equipo
+          </h2>
+          <p style={{ ...bodyLight, marginBottom: '36px', maxWidth: '500px', marginLeft: 'auto', marginRight: 'auto' }}>
             Descubre cómo Minute Call puede transformar la atención
-            telefónica de tu {sector.sector} en {city.city}.
+            telefónica de tu {sector.sector.toLowerCase()} en {city.city}.
           </p>
-          <Link href="/reserva-llamada" style={buttonStyle} className="btn-cta">
+          <Link href="/reserva-llamada" style={ctaDark}>
             Reserva una llamada
           </Link>
         </div>
