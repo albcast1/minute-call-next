@@ -291,9 +291,9 @@ export default async function SectorCityPage({
               </Link>
             </div>
 
-            {/* Right: audio card + video — mirrors homepage hero exactly */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center' }}>
-              {/* Audio player card */}
+            {/* Right: audio card ONLY — homepage hero has NO video */}
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+              {/* Audio player card — matches homepage: 460x~381, border-radius 20px, shadow */}
               <div style={{
                 backgroundColor: brand.white,
                 borderRadius: '20px',
@@ -390,21 +390,124 @@ export default async function SectorCityPage({
                   </div>
                 </div>
               </div>
-              {/* Hero video — same as homepage */}
-              <video
-                autoPlay
-                loop
-                muted
-                playsInline
-                style={{
-                  width: '240px',
-                  height: 'auto',
-                  borderRadius: '24px',
-                }}
-              >
-                <source src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4" type="video/mp4" />
-              </video>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── VIDEO SECTION — matches homepage "Cada llamada perdida" section ── */}
+      <section style={{
+        padding: '80px 64px',
+        backgroundColor: brand.beige,
+      }}>
+        <div style={{
+          maxWidth: '1200px',
+          margin: '0 auto',
+          display: 'flex',
+          flexDirection: 'row',
+          gap: '64px',
+          alignItems: 'center',
+        }}>
+          {/* Left: text + stats */}
+          <div style={{ flex: 1 }}>
+            <p style={{
+              fontSize: '14px',
+              fontWeight: 500,
+              color: brand.textMuted,
+              fontFamily: brand.sans,
+              marginBottom: '20px',
+              textTransform: 'uppercase' as const,
+              letterSpacing: '0.5px',
+            }}>
+              Resultados de clientes
+            </p>
+            <h2 style={{
+              fontSize: '44px',
+              fontWeight: 500,
+              fontFamily: brand.sans,
+              color: brand.black,
+              letterSpacing: '-2.64px',
+              lineHeight: 1.1,
+              marginBottom: '20px',
+            }}>
+              Cada llamada perdida es una oportunidad{' '}
+              <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>perdida.</span>
+            </h2>
+            <p style={{
+              fontSize: '18px',
+              color: brand.textBody,
+              lineHeight: '27px',
+              fontFamily: brand.sans,
+              marginBottom: '40px',
+              maxWidth: '500px',
+            }}>
+              El 78% de los leads contratan al negocio que responde primero. Para las empresas de {sector.sector.toLowerCase()} en {city.city}, el teléfono es el canal más importante.
+            </p>
+            <div style={{ display: 'flex', gap: '48px' }}>
+              <div>
+                <h3 style={{
+                  fontSize: '18px',
+                  fontWeight: 500,
+                  fontFamily: brand.sans,
+                  color: brand.black,
+                  marginBottom: '4px',
+                }}>
+                  Tiempo de respuesta
+                </h3>
+                <p style={{
+                  fontSize: '36px',
+                  fontWeight: 500,
+                  fontFamily: brand.sans,
+                  color: brand.black,
+                  letterSpacing: '-1.5px',
+                }}>
+                  {'<'} 3 seg
+                </p>
+              </div>
+              <div>
+                <h3 style={{
+                  fontSize: '18px',
+                  fontWeight: 500,
+                  fontFamily: brand.sans,
+                  color: brand.black,
+                  marginBottom: '4px',
+                }}>
+                  Tasa de respuesta
+                </h3>
+                <p style={{
+                  fontSize: '36px',
+                  fontWeight: 500,
+                  fontFamily: brand.sans,
+                  color: brand.black,
+                  letterSpacing: '-1.5px',
+                }}>
+                  99.7%
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* Right: phone video mockup — homepage: 410x734, bg #f5f5f5, border-radius 16px */}
+          <div style={{
+            flex: '0 0 auto',
+            width: '300px',
+            height: '536px',
+            backgroundColor: brand.lightGray,
+            borderRadius: '16px',
+            overflow: 'hidden',
+          }}>
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+              }}
+            >
+              <source src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </section>
@@ -607,14 +710,14 @@ export default async function SectorCityPage({
           }}>
             {[
               { num: '1', title: 'Configuración', desc: 'Personalizamos el guión de llamada y acciones del agente con los detalles de tu negocio y sector.' },
-              { num: '2', title: 'Integración', desc: 'Integramos el sistema con tu telefonía actual sin necesidad de cambios en tu infraestructura.' },
+              { num: '2', title: 'Integración', desc: 'Integramos el sistema con tu telefonía actual sin ecesidad de cambios en tu infraestructura.' },
               { num: '3', title: 'Gestión', desc: 'Tu recepcionista virtual gestiona las llamadas y consultas de forma inteligente.' },
             ].map((step, idx) => (
               <div key={idx} style={{ textAlign: 'center' }}>
                 <div style={{
                   display: 'inline-flex',
                   alignItems: 'center',
-                  justifyContent: 'center',
+                   justifyContent: 'center',
                   width: '56px',
                   height: '56px',
                   backgroundColor: brand.green,
@@ -828,7 +931,7 @@ export default async function SectorCityPage({
                 lineHeight: '24px',
                 fontFamily: brand.sans,
               }}>
-                Agentes basados en LATAM · Contratos rígidos a largo plazo · Bajo nivel tecnológico · Errores frecuentes · Falta de personalización · Diseñados para grandes corporaciones
+                Agentes basados en LATAM · Contrators ígidos a largo plazo · Bajo nivel tecnológico · Errores frecuentes · Falta de personalización · Diseñados para grandes corporaciones
               </p>
             </div>
             <div style={{
@@ -1015,7 +1118,7 @@ export default async function SectorCityPage({
                   key={c.slug}
                   href={`/lp/${sector.slug}/${c.slug}`}
                   style={{
-                    display: 'inline-block',
+                    display: 'inline-block",
                     padding: '10px 20px',
                     backgroundColor: brand.white,
                     borderRadius: '50px',
