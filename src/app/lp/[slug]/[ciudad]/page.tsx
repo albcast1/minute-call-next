@@ -710,14 +710,14 @@ export default async function SectorCityPage({
           }}>
             {[
               { num: '1', title: 'Configuración', desc: 'Personalizamos el guión de llamada y acciones del agente con los detalles de tu negocio y sector.' },
-              { num: '2', title: 'Integración', desc: 'Integramos el sistema con tu telefonía actual sin ecesidad de cambios en tu infraestructura.' },
+              { num: '2', title: 'Integración', desc: 'Integramos el sistema con tu telefonía actual sin necesidad de cambios en tu infraestructura.' },
               { num: '3', title: 'Gestión', desc: 'Tu recepcionista virtual gestiona las llamadas y consultas de forma inteligente.' },
             ].map((step, idx) => (
               <div key={idx} style={{ textAlign: 'center' }}>
                 <div style={{
                   display: 'inline-flex',
                   alignItems: 'center',
-                   justifyContent: 'center',
+                  justifyContent: 'center',
                   width: '56px',
                   height: '56px',
                   backgroundColor: brand.green,
@@ -931,7 +931,7 @@ export default async function SectorCityPage({
                 lineHeight: '24px',
                 fontFamily: brand.sans,
               }}>
-                Agentes basados en LATAM · Contrators ígidos a largo plazo · Bajo nivel tecnológico · Errores frecuentes · Falta de personalización · Diseñados para grandes corporaciones
+                Agentes basados en LATAM · Contratos rígidos a largo plazo · Bajo nivel tecnológico · Errores frecuentes · Falta de personalización · Diseñados para grandes corporaciones
               </p>
             </div>
             <div style={{
@@ -1118,7 +1118,7 @@ export default async function SectorCityPage({
                   key={c.slug}
                   href={`/lp/${sector.slug}/${c.slug}`}
                   style={{
-                    display: 'inline-block",
+                    display: 'inline-block',
                     padding: '10px 20px',
                     backgroundColor: brand.white,
                     borderRadius: '50px',
