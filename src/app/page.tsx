@@ -135,24 +135,25 @@ export default function Home() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            gap: 40,
+            flexWrap: "wrap",
+            gap: "clamp(16px, 4vw, 40px)",
             opacity: 0.6,
           }}
         >
           <img
             src="https://framerusercontent.com/assets/vVcZO7NVGGx5NLbyvAVMug0g1ko.png"
             alt="Teleperformance"
-            style={{ height: 34, width: "auto" }}
+            style={{ height: "clamp(22px, 5vw, 34px)", width: "auto", maxWidth: "100%" }}
           />
           <img
             src="https://framerusercontent.com/images/pZqRL99lnwLqdJMbZFfqwh1XGBk.png"
             alt="Intelcia"
-            style={{ height: 30, width: "auto" }}
+            style={{ height: "clamp(20px, 4.5vw, 30px)", width: "auto", maxWidth: "100%" }}
           />
           <img
             src="https://framerusercontent.com/images/B3NliQmX4vcGor4wPgTZ3oHU.png"
             alt="Zendesk"
-            style={{ height: 19, width: "auto" }}
+            style={{ height: "clamp(14px, 3vw, 19px)", width: "auto", maxWidth: "100%" }}
           />
         </div>
       </section>
