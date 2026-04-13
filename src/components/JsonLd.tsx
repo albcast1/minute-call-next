@@ -219,6 +219,7 @@ interface ArticleSchemaProps {
   description: string;
   slug: string;
   datePublished?: string;
+  dateModified?: string;
 }
 
 export const ArticleSchema: React.FC<ArticleSchemaProps> = ({
@@ -226,19 +227,35 @@ export const ArticleSchema: React.FC<ArticleSchemaProps> = ({
   description,
   slug,
   datePublished,
+  dateModified,
 }) => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: title,
     description: description,
-    url: `https://www.minute-call.com/${slug}`,
+    url: `https://www.minute-call.com/articulos/${slug}`,
     datePublished: datePublished,
+    ...(dateModified && { dateModified }),
     author: {
       '@type': 'Organization',
       name: 'minute call',
       url: 'https://www.minute-call.com',
     },
+    publisher: {
+      '@type': 'Organization',
+      name: 'minute call',
+      url: 'https://www.minute-call.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.minute-call.com/og-image.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.minute-call.com/articulos/${slug}`,
+    },
+    inLanguage: 'es',
   };
 
   return (
