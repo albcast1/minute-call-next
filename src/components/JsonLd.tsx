@@ -13,7 +13,10 @@ export const OrganizationSchema: React.FC = () => {
     logo: 'https://www.minute-call.com/og-image.png',
     description:
       'Servicio de atenciÃ³n telefÃ³nica 24/7 para PYMES con agentes nativos y asistentes de IA',
-    sameAs: ['https://www.linkedin.com/company/minute-call/'],
+    sameAs: [
+      'https://www.linkedin.com/company/minute-call/',
+      'https://es.trustpilot.com/review/minute-call.com',
+    ],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
@@ -71,13 +74,15 @@ export const LocalBusinessSchema: React.FC = () => {
       contactType: 'customer service',
       availableLanguage: ['Spanish', 'English', 'French'],
     },
-    sameAs: ['https://www.linkedin.com/company/minute-call/'],
+    sameAs: [
+      'https://www.linkedin.com/company/minute-call/',
+      'https://es.trustpilot.com/review/minute-call.com',
+    ],
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '127',
+      ratingValue: '5.0',
+      reviewCount: '13',
       bestRating: '5',
-      worstRating: '1',
     },
   };
 
@@ -154,13 +159,6 @@ export const ServiceSchema: React.FC<ServiceSchemaProps> = ({ services }) => {
     availableChannel: {
       '@type': 'ServiceChannel',
       serviceType: 'AtenciÃ³n telefÃ³nica',
-    },
-    offers: {
-      '@type': 'AggregateOffer',
-      priceCurrency: 'EUR',
-      lowPrice: '99',
-      highPrice: '499',
-      offerCount: '3',
     },
   }));
 
