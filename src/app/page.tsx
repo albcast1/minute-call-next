@@ -213,7 +213,7 @@ export default function Home() {
       >
         <div style={{ display: "flex", gap: 48, alignItems: "flex-start", flexWrap: "wrap" }}>
           {/* Left column */}
-          <div style={{ flex: "3 1 0", minWidth: 0 }}>
+          <div style={{ flex: "3 1 340px", minWidth: 0 }}>
             <span
               className="pill-label"
               style={{ marginBottom: 24, display: "inline-block" }}
@@ -275,7 +275,7 @@ export default function Home() {
             </div>
           </div>
           {/* Right column: video */}
-          <div style={{ flex: "2 1 0", minWidth: 0, alignSelf: "center" }}>
+          <div style={{ flex: "2 1 300px", minWidth: 0, alignSelf: "center", width: "100%" }}>
             <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5" }}>
               <video
                 src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
@@ -472,7 +472,7 @@ export default function Home() {
           Fundado por quienes escalaron <span className="serif-italic">startups.</span>
         </h2>
         <div style={{ display: "flex", gap: 24, marginTop: 48, flexWrap: "wrap" }}>
-          <div style={{ flex: "1 1 0", minWidth: 0, textAlign: "left" }}>
+          <div style={{ flex: "1 1 280px", minWidth: 0, textAlign: "left" }}>
             <div
               style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}
             >
@@ -488,7 +488,7 @@ export default function Home() {
               fintech de 0 a 45M€ con +30 agentes.
             </p>
           </div>
-          <div style={{ flex: "1 1 0", minWidth: 0, textAlign: "left" }}>
+          <div style={{ flex: "1 1 280px", minWidth: 0, textAlign: "left" }}>
             <div
               style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}
             >

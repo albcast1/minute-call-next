@@ -212,7 +212,7 @@ export default async function ArticlePage({
           <h2 style={{ fontSize: 22, letterSpacing: "-0.8px", lineHeight: "28px", marginBottom: 24 }}>
             Otros artículos
           </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24 }}>
             {relatedArticles.map((related) => (
               <Link key={related.slug} href={`/articulos/${related.slug}`}>
                 <div className="card" style={{ padding: 24, height: "100%" }}>

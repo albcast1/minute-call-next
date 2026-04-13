@@ -266,16 +266,16 @@ export default async function SectorCityPage({
             Recepcionista Virtual para {sector.sector}
           </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '64px', alignItems: 'start' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'clamp(32px, 5vw, 64px)', alignItems: 'start' }}>
             {/* Left: copy */}
             <div>
               <h1 style={{
-                fontSize: '60px',
+                fontSize: 'clamp(36px, 7vw, 60px)',
                 fontWeight: 500,
                 fontFamily: brand.sans,
                 color: brand.black,
                 lineHeight: 1.05,
-                letterSpacing: '-3.6px',
+                letterSpacing: '-0.06em',
                 margin: '0 0 24px 0',
               }}>
                 Atención telefónica para {sector.sector} en{' '}
@@ -718,7 +718,7 @@ export default async function SectorCityPage({
           </h2>
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(3, 1fr)',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
             gap: '32px',
           }}>
             {[

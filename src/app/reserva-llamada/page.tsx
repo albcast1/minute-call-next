@@ -16,7 +16,7 @@ export default function ReservaLlamada() {
           <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
             Hablemos
           </span>
-          <h1 style={{ marginTop: 16, fontSize: 55, letterSpacing: -3.3, lineHeight: "55px" }}>
+          <h1 style={{ marginTop: 16, fontSize: "clamp(36px, 7vw, 55px)", letterSpacing: "-0.06em", lineHeight: 1.05 }}>
             Manos a la <span className="serif-italic">obra</span>
           </h1>
           <p style={{ marginTop: 24, maxWidth: 400 }}>
