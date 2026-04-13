@@ -77,8 +77,8 @@ export async function generateMetadata({
 
   if (!sector || !city) {
     return {
-      title: 'PÃ¡gina no encontrada | minute call',
-      description: 'La pÃ¡gina que buscas no existe.',
+      title: 'Página no encontrada | minute call',
+      description: 'La página que buscas no existe.',
     };
   }
 
@@ -87,7 +87,7 @@ export async function generateMetadata({
     : `Recepcionista Virtual para ${sector.sector} en ${city.city} | minute call`;
   const description = sector.metaDescription
     ? sector.metaDescription.replace('{ciudad}', city.city)
-    : `AtenciÃ³n telefÃ³nica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA â tÃº eliges. Sin permanencia.`;
+    : `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA — tú eliges. Sin permanencia.`;
 
   return {
     title,
@@ -130,9 +130,9 @@ export default async function SectorCityPage({
     return (
       <div style={{ textAlign: 'center', padding: '60px 20px', backgroundColor: '#EFEBE5', minHeight: '60vh' }}>
         <h1 style={{ fontFamily: "Inter, sans-serif", fontWeight: 500, fontSize: '40px', letterSpacing: '-2.4px' }}>
-          PÃ¡gina no encontrada
+          Página no encontrada
         </h1>
-        <p style={{ color: 'rgba(0,0,0,0.56)', fontFamily: 'Inter, sans-serif' }}>Lo sentimos, la pÃ¡gina que buscas no existe.</p>
+        <p style={{ color: 'rgba(0,0,0,0.56)', fontFamily: 'Inter, sans-serif' }}>Lo sentimos, la página que buscas no existe.</p>
         <Link href="/" style={{ color: '#000' }}>Volver al inicio</Link>
       </div>
     );
@@ -140,18 +140,35 @@ export default async function SectorCityPage({
 
   const featureCards = sector.features.slice(0, 3);
 
-  const relatedSectors = (sectors as SectorType[])
-    .filter((s) => s.slug !== slug)
-    .slice(0, 3);
+  // Deterministic hash for varied but reproducible related content per page
+  const hashCode = (str: string) => {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      hash = ((hash << 5) - hash) + str.charCodeAt(i);
+      hash |= 0;
+    }
+    return Math.abs(hash);
+  };
+  const pageHash = hashCode(`${slug}-${ciudad}`);
 
-  const relatedCities = (cities as CityType[])
-    .filter((c) => c.slug !== ciudad)
-    .slice(0, 5);
+  const otherSectors = (sectors as SectorType[]).filter((s) => s.slug !== slug);
+  const sectorOffset = pageHash % otherSectors.length;
+  const relatedSectors = [
+    ...otherSectors.slice(sectorOffset),
+    ...otherSectors.slice(0, sectorOffset),
+  ].slice(0, 6);
+
+  const otherCities = (cities as CityType[]).filter((c) => c.slug !== ciudad);
+  const cityOffset = (pageHash >> 4) % otherCities.length;
+  const relatedCities = [
+    ...otherCities.slice(cityOffset),
+    ...otherCities.slice(0, cityOffset),
+  ].slice(0, 8);
 
   const howToSteps = [
     { name: 'Elige tu plan', text: `Selecciona el plan que mejor se adapte a tu negocio de ${sector.sector} en ${city.city}.` },
-    { name: 'Configura tu flujo', text: 'Define cÃ³mo quieres que atendamos tus llamadas: horarios, mensajes y derivaciones.' },
-    { name: 'Activa tu recepcionista', text: 'En menos de 24h tu recepcionista virtual estarÃ¡ operativa atendiendo llamadas.' },
+    { name: 'Configura tu flujo', text: 'Define cómo quieres que atendamos tus llamadas: horarios, mensajes y derivaciones.' },
+    { name: 'Activa tu recepcionista', text: 'En menos de 24h tu recepcionista virtual estará operativa atendiendo llamadas.' },
   ];
 
   const breadcrumbItems = [
@@ -162,26 +179,26 @@ export default async function SectorCityPage({
 
   const faqItems = [
     {
-      question: `Â¿Minute Call ofrece recepcionista para ${sector.sector} en ${city.city}?`,
-      answer: `SÃ­, Minute Call ofrece atenciÃ³n telefÃ³nica especializada para ${sector.sector} en ${city.city} con agentes nativos basados en EspaÃ±a o asistentes de IA â tÃº eliges. Nuestro servicio estÃ¡ diseÃ±ado para las necesidades especÃ­ficas de este sector.`,
+      question: `¿Minute Call ofrece recepcionista para ${sector.sector} en ${city.city}?`,
+      answer: `Sí, Minute Call ofrece atención telefónica especializada para ${sector.sector} en ${city.city} con agentes nativos basados en España o asistentes de IA — tú eliges. Nuestro servicio está diseñado para las necesidades específicas de este sector.`,
     },
     {
-      question: `Â¿QuÃ© sectores atiende Minute Call en ${city.city}?`,
-      answer: `En ${city.city}, Minute Call atiende a varios sectores clave: ${city.keySectors.join(', ')}. Cada uno cuenta con una soluciÃ³n personalizada de recepcionista virtual con agentes nativos o IA.`,
+      question: `¿Qué sectores atiende Minute Call en ${city.city}?`,
+      answer: `En ${city.city}, Minute Call atiende a varios sectores clave: ${city.keySectors.join(', ')}. Cada uno cuenta con una solución personalizada de recepcionista virtual con agentes nativos o IA.`,
     },
     {
-      question: `Â¿CuÃ¡nto cuesta el servicio de recepcionista para ${sector.sector}?`,
-      answer: `Los planes de Minute Call empiezan desde 250â¬/mes. El precio varÃ­a segÃºn el volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia ni costes ocultos. Contacta con nosotros para un presupuesto personalizado.`,
+      question: `¿Cuánto cuesta el servicio de recepcionista para ${sector.sector}?`,
+      answer: `Los planes de Minute Call empiezan desde 250€/mes. El precio varía según el volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia ni costes ocultos. Contacta con nosotros para un presupuesto personalizado.`,
     },
     {
-      question: `Â¿CÃ³mo funciona el servicio en ${city.city}?`,
-      answer: `Nuestro servicio funciona en 3 pasos: primero, personalizamos el guiÃ³n de llamada y acciones del agente; segundo, respondemos en nombre de tu empresa siguiendo tu procedimiento; tercero, agendamos la cita o enviamos el mensaje al instante a tu email.`,
+      question: `¿Cómo funciona el servicio en ${city.city}?`,
+      answer: `Nuestro servicio funciona en 3 pasos: primero, personalizamos el guión de llamada y acciones del agente; segundo, respondemos en nombre de tu empresa siguiendo tu procedimiento; tercero, agendamos la cita o enviamos el mensaje al instante a tu email.`,
     },
   ];
 
-  /* âââââââââââââââââââââââââââââââââââââââââââââ
-     BRAND TOKENS â exact match with minute-call.com homepage
-     âââââââââââââââââââââââââââââââââââââââââââââ */
+  /* ─────────────────────────────────────────────
+     BRAND TOKENS — exact match with minute-call.com homepage
+     ───────────────────────────────────────────── */
   const brand = {
     beige: '#EFEBE5',
     black: '#000000',
@@ -191,7 +208,7 @@ export default async function SectorCityPage({
     lightGray: '#f5f5f5',
     textMuted: 'rgba(0,0,0,0.56)',
     textBody: 'rgba(0,0,0,0.56)',
-    /* Typography â homepage uses Inter for ALL text, Source Serif 4 italic ONLY for accent spans */
+    /* Typography — homepage uses Inter for ALL text, Source Serif 4 italic ONLY for accent spans */
     sans: "Inter, sans-serif",
     serif: "'Source Serif 4', serif",
   };
@@ -202,7 +219,7 @@ export default async function SectorCityPage({
       <ServiceSchema
         services={[{
           name: `Recepcionista Virtual para ${sector.sector}`,
-          description: `AtenciÃ³n telefÃ³nica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA`,
+          description: `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA`,
         }]}
       />
       <FAQPageSchema faqs={faqItems} />
@@ -214,7 +231,7 @@ export default async function SectorCityPage({
         reviewBody={sector.testimonial.quote}
       />
 
-      {/* ââ HERO ââ */}
+      {/* ── HERO ── */}
       <section style={{
         padding: '80px 64px 60px',
         backgroundColor: brand.beige,
@@ -236,7 +253,7 @@ export default async function SectorCityPage({
             ))}
           </nav>
 
-          {/* Tag above title â matches homepage "RecepciÃ³n de llamadas para PYMES" */}
+          {/* Tag above title — matches homepage "Recepción de llamadas para PYMES" */}
           <p style={{
             fontSize: '14px',
             fontWeight: 500,
@@ -261,7 +278,7 @@ export default async function SectorCityPage({
                 letterSpacing: '-3.6px',
                 margin: '0 0 24px 0',
               }}>
-                AtenciÃ³n telefÃ³nica para {sector.sector} en{' '}
+                Atención telefónica para {sector.sector} en{' '}
                 <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>{city.city}.</span>
               </h1>
               <p style={{
@@ -274,7 +291,7 @@ export default async function SectorCityPage({
                 maxWidth: '480px',
               }}>
                 {sector.heroSubtitle} en {city.city}. Atendemos las llamadas de tu empresa con
-                agentes nativos o asistentes de IA â tÃº eliges. Sin permanencia.
+                agentes nativos o asistentes de IA — tú eliges. Sin permanencia.
               </p>
               <Link href="/reserva-llamada" style={{
                 display: 'inline-block',
@@ -291,9 +308,9 @@ export default async function SectorCityPage({
               </Link>
             </div>
 
-            {/* Right: audio card ONLY â homepage hero has NO video */}
+            {/* Right: audio card ONLY — homepage hero has NO video */}
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-              {/* Audio player card â matches homepage: 460x~381, border-radius 20px, shadow */}
+              {/* Audio player card — matches homepage: 460x~381, border-radius 20px, shadow */}
               <div style={{
                 backgroundColor: brand.white,
                 borderRadius: '20px',
@@ -395,7 +412,7 @@ export default async function SectorCityPage({
         </div>
       </section>
 
-      {/* ââ VIDEO SECTION â matches homepage "Cada llamada perdida" section ââ */}
+      {/* ── VIDEO SECTION — matches homepage "Cada llamada perdida" section ── */}
       <section style={{
         padding: '80px 64px',
         backgroundColor: brand.beige,
@@ -441,7 +458,7 @@ export default async function SectorCityPage({
               marginBottom: '40px',
               maxWidth: '500px',
             }}>
-              El 78% de los leads contratan al negocio que responde primero. Para las empresas de {sector.sector.toLowerCase()} en {city.city}, el telÃ©fono es el canal mÃ¡s importante.
+              El 78% de los leads contratan al negocio que responde primero. Para las empresas de {sector.sector.toLowerCase()} en {city.city}, el teléfono es el canal más importante.
             </p>
             <div style={{ display: 'flex', gap: '48px' }}>
               <div>
@@ -486,7 +503,7 @@ export default async function SectorCityPage({
               </div>
             </div>
           </div>
-          {/* Right: phone video mockup â homepage: 410x734, bg #f5f5f5, border-radius 16px */}
+          {/* Right: phone video mockup — homepage: 410x734, bg #f5f5f5, border-radius 16px */}
           <div style={{
             flex: '0 0 auto',
             width: '300px',
@@ -512,7 +529,7 @@ export default async function SectorCityPage({
         </div>
       </section>
 
-      {/* ââ SOCIAL PROOF / LOCAL CONTEXT ââ */}
+      {/* ── SOCIAL PROOF / LOCAL CONTEXT ── */}
       <section style={{
         padding: '80px 64px',
         backgroundColor: brand.beige,
@@ -527,7 +544,7 @@ export default async function SectorCityPage({
             lineHeight: 1.1,
             marginBottom: '20px',
           }}>
-            Por quÃ© necesitas atenciÃ³n telefÃ³nica profesional en{' '}
+            Por qué necesitas atención telefónica profesional en{' '}
             <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>{city.city}.</span>
           </h2>
           <p style={{
@@ -575,7 +592,7 @@ export default async function SectorCityPage({
         </div>
       </section>
 
-      {/* ââ FEATURES â dark section like homepage "QuÃ© hacemos por ti" ââ */}
+      {/* ── FEATURES — dark section like homepage "Qué hacemos por ti" ── */}
       <section style={{
         padding: '80px 64px',
         backgroundColor: brand.black,
@@ -590,7 +607,7 @@ export default async function SectorCityPage({
             lineHeight: 1.1,
             marginBottom: '40px',
           }}>
-            CaracterÃ­sticas principales para{' '}
+            Características principales para{' '}
             <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>{sector.sector}.</span>
           </h2>
           <div style={{
@@ -629,7 +646,7 @@ export default async function SectorCityPage({
         </div>
       </section>
 
-      {/* ââ TESTIMONIAL ââ */}
+      {/* ── TESTIMONIAL ── */}
       <section style={{
         padding: '80px 64px',
         backgroundColor: brand.beige,
@@ -681,7 +698,7 @@ export default async function SectorCityPage({
         </div>
       </section>
 
-      {/* ââ HOW IT WORKS ââ */}
+      {/* ── HOW IT WORKS ── */}
       <section style={{
         padding: '80px 64px',
         backgroundColor: brand.beige,
@@ -696,7 +713,7 @@ export default async function SectorCityPage({
             lineHeight: 1.1,
             marginBottom: '48px',
           }}>
-            CÃ³mo{' '}
+            Cómo{' '}
             <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>funciona.</span>
           </h2>
           <div style={{
@@ -705,9 +722,9 @@ export default async function SectorCityPage({
             gap: '32px',
           }}>
             {[
-              { num: '1', title: 'ConfiguraciÃ³n', desc: 'Personalizamos el guiÃ³n de llamada y acciones del agente con los detalles de tu negocio y sector.' },
-              { num: '2', title: 'IntegraciÃ³n', desc: 'Integramos el sistema con tu telefonÃ­a actual sin necesidad de cambios en tu infraestructura.' },
-              { num: '3', title: 'GestiÃ³n', desc: 'Tu recepcionista virtual gestiona las llamadas y consultas de forma inteligente.' },
+              { num: '1', title: 'Configuración', desc: 'Personalizamos el guión de llamada y acciones del agente con los detalles de tu negocio y sector.' },
+              { num: '2', title: 'Integración', desc: 'Integramos el sistema con tu telefonía actual sin necesidad de cambios en tu infraestructura.' },
+              { num: '3', title: 'Gestión', desc: 'Tu recepcionista virtual gestiona las llamadas y consultas de forma inteligente.' },
             ].map((step, idx) => (
               <div key={idx} style={{ textAlign: 'center' }}>
                 <p style={{
@@ -745,7 +762,7 @@ export default async function SectorCityPage({
         </div>
       </section>
 
-      {/* ââ IA vs HUMAN â dark section ââ */}
+      {/* ── IA vs HUMAN — dark section ── */}
       <section style={{
         padding: '80px 64px',
         backgroundColor: brand.black,
@@ -760,7 +777,7 @@ export default async function SectorCityPage({
             lineHeight: 1.1,
             marginBottom: '20px',
           }}>
-            Â¿IA o agente humano? TÃº{' '}
+            ¿IA o agente humano? Tú{' '}
             <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>eliges.</span>
           </h2>
           <p style={{
@@ -771,7 +788,7 @@ export default async function SectorCityPage({
             marginBottom: '40px',
             maxWidth: '700px',
           }}>
-            En Minute Call puedes elegir entre asistentes de IA y recepcionistas nativos basados en EspaÃ±a, o combinar ambos segÃºn tus necesidades.
+            En Minute Call puedes elegir entre asistentes de IA y recepcionistas nativos basados en España, o combinar ambos según tus necesidades.
           </p>
           <div style={{
             display: 'grid',
@@ -849,14 +866,14 @@ export default async function SectorCityPage({
                 fontFamily: brand.sans,
               }}>
                 Mejor para primeras consultas de alto valor, quejas, presupuestos personalizados y
-                situaciones que requieren empatÃ­a. Recepcionistas nativos basados en EspaÃ±a.
+                situaciones que requieren empatía. Recepcionistas nativos basados en España.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ââ MC vs CALL CENTERS ââ */}
+      {/* ── MC vs CALL CENTERS ── */}
       <section style={{
         padding: '80px 64px',
         backgroundColor: brand.beige,
@@ -882,7 +899,7 @@ export default async function SectorCityPage({
             marginBottom: '40px',
             maxWidth: '700px',
           }}>
-            Los grandes call centers estÃ¡n diseÃ±ados para corporaciones. Minute Call estÃ¡ diseÃ±ado para PYMES como tu {sector.sector.toLowerCase()} en {city.city}.
+            Los grandes call centers están diseñados para corporaciones. Minute Call está diseñado para PYMES como tu {sector.sector.toLowerCase()} en {city.city}.
           </p>
           <div style={{
             display: 'grid',
@@ -921,7 +938,7 @@ export default async function SectorCityPage({
                 lineHeight: '24px',
                 fontFamily: brand.sans,
               }}>
-                Agentes basados en LATAM Â· Contratos rÃ­gidos a largo plazo Â· Bajo nivel tecnolÃ³gico Â· Errores frecuentes Â· Falta de personalizaciÃ³n Â· DiseÃ±ados para grandes corporaciones
+                Agentes basados en LATAM · Contratos rígidos a largo plazo · Bajo nivel tecnológico · Errores frecuentes · Falta de personalización · Diseñados para grandes corporaciones
               </p>
             </div>
             <div style={{
@@ -956,14 +973,14 @@ export default async function SectorCityPage({
                 lineHeight: '24px',
                 fontFamily: brand.sans,
               }}>
-                Agentes nativos basados en EspaÃ±a Â· Sin permanencia, mes a mes Â· Agentes humanos o IA, tÃº eliges Â· Control de calidad Â· Partners de Teleperformance (#1 BPO mundial) Â· Desde 250â¬/mes
+                Agentes nativos basados en España · Sin permanencia, mes a mes · Agentes humanos o IA, tú eliges · Control de calidad · Partners de Teleperformance (#1 BPO mundial) · Desde 250€/mes
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ââ FAQ ââ */}
+      {/* ── FAQ ── */}
       <section style={{
         padding: '80px 64px',
         backgroundColor: brand.beige,
@@ -1012,7 +1029,7 @@ export default async function SectorCityPage({
         </div>
       </section>
 
-      {/* ââ INTERNAL LINKS ââ */}
+      {/* ── INTERNAL LINKS ── */}
       <section style={{
         padding: '80px 64px',
         backgroundColor: brand.beige,
@@ -1027,8 +1044,8 @@ export default async function SectorCityPage({
             lineHeight: 1.1,
             marginBottom: '24px',
           }}>
-            MÃ¡s{' '}
-            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>informaciÃ³n.</span>
+            Más{' '}
+            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>información.</span>
           </h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
             <Link href={`/lp/${sector.slug}`} style={{
@@ -1042,7 +1059,7 @@ export default async function SectorCityPage({
               display: 'inline-block',
               width: 'fit-content',
             }}>
-              Recepcionista Virtual para {sector.sector} â
+              Recepcionista Virtual para {sector.sector} →
             </Link>
             <Link href={`/atencion-telefonica/${city.slug}`} style={{
               color: brand.black,
@@ -1055,7 +1072,7 @@ export default async function SectorCityPage({
               display: 'inline-block',
               width: 'fit-content',
             }}>
-              Servicios de atenciÃ³n telefÃ³nica en {city.city} â
+              Servicios de atención telefónica en {city.city} →
             </Link>
           </div>
 
@@ -1070,20 +1087,22 @@ export default async function SectorCityPage({
           }}>
             Sectores relacionados en {city.city}
           </h3>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '12px' }}>
             {relatedSectors.map((relatedSector, idx) => (
               <Link key={idx} href={`/lp/${relatedSector.slug}/${city.slug}`} style={{
+                display: 'block',
+                padding: '16px 20px',
+                backgroundColor: brand.white,
+                borderRadius: '12px',
                 color: brand.black,
                 textDecoration: 'none',
                 fontWeight: 500,
                 fontFamily: brand.sans,
-                fontSize: '16px',
-                borderBottom: '1px solid rgba(0,0,0,0.2)',
-                paddingBottom: '2px',
-                display: 'inline-block',
-                width: 'fit-content',
+                fontSize: '15px',
+                boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
+                transition: 'box-shadow 0.2s',
               }}>
-                Recepcionista Virtual para {relatedSector.sector} â
+                {relatedSector.sector} en {city.city} →
               </Link>
             ))}
           </div>
@@ -1118,7 +1137,43 @@ export default async function SectorCityPage({
                     boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
                   }}
                 >
-                  {sector.sector} en {c.city}
+                  {c.city}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Cross-link to comparisons */}
+          <div style={{ marginTop: '48px' }}>
+            <h3 style={{
+              fontSize: '24px',
+              fontWeight: 500,
+              fontFamily: brand.sans,
+              color: brand.black,
+              letterSpacing: '-1.68px',
+              marginBottom: '16px',
+            }}>
+              ¿Por qué Minute Call?
+            </h3>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+              {['teleperformance', 'intelcia', 'ringover', 'heydiga'].map((comp) => (
+                <Link
+                  key={comp}
+                  href={`/comparar/${comp}`}
+                  style={{
+                    display: 'inline-block',
+                    padding: '10px 20px',
+                    backgroundColor: brand.white,
+                    borderRadius: '50px',
+                    fontSize: '14px',
+                    fontWeight: 500,
+                    color: brand.black,
+                    textDecoration: 'none',
+                    fontFamily: brand.sans,
+                    boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
+                  }}
+                >
+                  vs {comp.charAt(0).toUpperCase() + comp.slice(1)}
                 </Link>
               ))}
             </div>
@@ -1126,7 +1181,7 @@ export default async function SectorCityPage({
         </div>
       </section>
 
-      {/* ââ BOTTOM CTA â dark, matches homepage final CTA ââ */}
+      {/* ── BOTTOM CTA — dark, matches homepage final CTA ── */}
       <section style={{
         padding: '100px 64px',
         backgroundColor: brand.black,
@@ -1152,8 +1207,8 @@ export default async function SectorCityPage({
             fontFamily: brand.sans,
             marginBottom: '36px',
           }}>
-            Descubre cÃ³mo Minute Call puede transformar la atenciÃ³n
-            telefÃ³nica de tu {sector.sector.toLowerCase()} en {city.city}.
+            Descubre cómo Minute Call puede transformar la atención
+            telefónica de tu {sector.sector.toLowerCase()} en {city.city}.
           </p>
           <Link href="/reserva-llamada" style={{
             display: 'inline-block',
