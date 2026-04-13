@@ -345,7 +345,11 @@ export default function Home() {
                   padding: "28px 24px",
                   display: "flex",
                   alignItems: "center",
+                  justifyContent: "flex-start",
+                  textAlign: "left",
                   cursor: sector.href ? "pointer" : "default",
+                  height: "100%",
+                  minHeight: 84,
                 }}
               >
                 <span
@@ -362,7 +366,11 @@ export default function Home() {
             );
             if (sector.href) {
               return (
-                <Link key={sector.name} href={sector.href} style={{ textDecoration: "none" }}>
+                <Link
+                  key={sector.name}
+                  href={sector.href}
+                  style={{ textDecoration: "none", display: "block", height: "100%" }}
+                >
                   {content}
                 </Link>
               );

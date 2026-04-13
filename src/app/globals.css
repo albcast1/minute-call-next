@@ -29,12 +29,12 @@
   --text-hero-h1: 75px;
   --text-hero-h1-weight: 500;
   --text-hero-h1-letter-spacing: -4.5px;
-  --text-hero-h1-line-height: 75px;
+  --text-hero-h1-line-height: 1.05;
 
   --text-section-h2: 55px;
   --text-section-h2-weight: 500;
   --text-section-h2-letter-spacing: -3.3px;
-  --text-section-h2-line-height: 55px;
+  --text-section-h2-line-height: 1.05;
 
   --text-h3-stat: 28px;
   --text-h3-stat-weight: 500;
