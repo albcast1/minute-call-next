@@ -194,7 +194,7 @@ export default function Home() {
             },
           ].map((service) => (
             <div key={service.title} className="card" style={{ textAlign: "left", padding: 32 }}>
-              <h3 className="service-card-title" style={{ fontSize: 24 }}>
+              <h3 className="service-card-title" style={{ fontSize: 18, letterSpacing: "-0.5px" }}>
                 {service.title}
               </h3>
               <p className="service-card-body">{service.desc}</p>
@@ -342,22 +342,22 @@ export default function Home() {
                 key={sector.name}
                 className="card"
                 style={{
-                  padding: "28px 24px",
+                  padding: "24px 20px",
                   display: "flex",
                   alignItems: "center",
-                  justifyContent: "flex-start",
-                  textAlign: "left",
+                  justifyContent: "center",
+                  textAlign: "center",
                   cursor: sector.href ? "pointer" : "default",
                   height: "100%",
-                  minHeight: 84,
+                  minHeight: 76,
                 }}
               >
                 <span
                   style={{
-                    fontSize: 18,
+                    fontSize: 14,
                     fontWeight: 500,
                     color: "black",
-                    letterSpacing: "-0.72px",
+                    letterSpacing: "-0.3px",
                   }}
                 >
                   {sector.name}

@@ -33,7 +33,7 @@ export default function FAQ({ items }: FAQProps) {
                 : "bg-[#F7F5F2] text-black hover:bg-[#f0ebe4]"
             }`}
           >
-            <span className="pr-4">{item.question}</span>
+            <span className="pr-4 text-sm">{item.question}</span>
             <svg
               className={`w-5 h-5 flex-shrink-0 transition-transform ${
                 expandedIndex === index ? "rotate-180" : ""
