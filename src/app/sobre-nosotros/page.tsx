@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PersonSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Quiénes somos | minute call",
@@ -9,6 +10,31 @@ export const metadata: Metadata = {
 export default function SobreNosotros() {
   return (
     <div style={{ maxWidth: 900, margin: "0 auto", padding: "60px 24px 80px" }}>
+      <PersonSchema
+        id="https://www.minute-call.com/#alberto-castiel"
+        name="Alberto Castiel"
+        jobTitle="Co-fundador de minute call"
+        description="Co-fundador de minute call, servicio de atención telefónica 24/7 para PYMES. Experto en operaciones de call center, externalización de atención al cliente y asistentes de IA para recepción."
+        knowsAbout={[
+          "Atención telefónica 24/7",
+          "Call center para PYMES",
+          "Recepcionistas virtuales",
+          "IA conversacional",
+          "Cualificación de leads",
+        ]}
+        sameAs={["https://www.linkedin.com/in/alberto-castiel/"]}
+      />
+      <PersonSchema
+        id="https://www.minute-call.com/#beatriz-hernandez"
+        name="Beatriz Hernández"
+        jobTitle="Co-fundadora de minute call"
+        description="Co-fundadora de minute call. Especialista en operaciones de atención telefónica y gestión de equipos multilingües."
+        knowsAbout={[
+          "Operaciones de atención telefónica",
+          "Gestión de equipos multilingües",
+          "Procesos de cualificación",
+        ]}
+      />
       {/* Badge */}
       <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
         Sobre nosotros

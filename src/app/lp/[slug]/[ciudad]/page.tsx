@@ -82,12 +82,18 @@ export async function generateMetadata({
     };
   }
 
-  const title = sector.metaTitle
+  // Siempre inyectamos ciudad para evitar títulos duplicados entre 50 ciudades del mismo sector.
+  // Si sector.metaTitle tiene placeholder {ciudad} lo usamos; si no, anteponemos "{ciudad} — …".
+  const title = sector.metaTitle && sector.metaTitle.includes('{ciudad}')
     ? sector.metaTitle.replace('{ciudad}', city.city)
-    : `Recepcionista Virtual para ${sector.sector} en ${city.city} | minute call`;
-  const description = sector.metaDescription
+    : sector.metaTitle
+      ? `${sector.metaTitle.replace(/\s*\|\s*minute call\s*$/i, '')} en ${city.city} | minute call`
+      : `Recepcionista Virtual para ${sector.sector} en ${city.city} | minute call`;
+  const description = sector.metaDescription && sector.metaDescription.includes('{ciudad}')
     ? sector.metaDescription.replace('{ciudad}', city.city)
-    : `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA — tú eliges. Sin permanencia.`;
+    : sector.metaDescription
+      ? `${sector.metaDescription} Servicio disponible en ${city.city}.`
+      : `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA — tú eliges. Sin permanencia.`;
 
   return {
     title,
@@ -109,8 +115,10 @@ export async function generateMetadata({
       description,
       images: ['/og-image.png'],
     },
+    // Noindex: 45×50=2.250 páginas con contenido cuasi-idéntico serían penalizadas
+    // por Google (doorway pages). Las mantenemos accesibles para SEM pero fuera del índice.
     robots: {
-      index: true,
+      index: false,
       follow: true,
     },
   };
@@ -517,6 +525,7 @@ export default async function SectorCityPage({
               loop
               muted
               playsInline
+              preload="metadata"
               style={{
                 width: '100%',
                 height: '100%',

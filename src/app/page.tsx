@@ -239,7 +239,7 @@ export default function Home() {
             <p style={{ maxWidth: 520 }}>
               Minute Call es un servicio de atención telefónica 24/7 para empresas y PYMES que
               no pueden permitirse perder llamadas. Basados en España, somos partners de
-              Teleperformance (nº1 mundial BPO), muestra de nuestras altos estándares e calidad.
+              Teleperformance (nº1 mundial BPO), muestra de nuestros altos estándares y calidad.
             </p>
             <div style={{ display: "flex", gap: 20, marginTop: 40, flexWrap: "wrap" }}>
               <div className="card" style={{ padding: 24, flex: "1 1 180px" }}>
@@ -283,7 +283,7 @@ export default function Home() {
                 muted
                 loop
                 autoPlay
-                preload="auto"
+                preload="metadata"
                 style={{ width: "100%", height: "auto", display: "block" }}
               />
             </div>

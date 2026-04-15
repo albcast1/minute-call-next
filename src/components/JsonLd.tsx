@@ -2,17 +2,51 @@ import React from 'react';
 
 /**
  * OrganizationSchema Component
- * Outputs Organization schema for minute call
+ * Outputs Organization schema for minute call.
+ * Incluye founders (Person) + knowsAbout para reforzar E-E-A-T y AEO.
  */
 export const OrganizationSchema: React.FC = () => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': 'https://www.minute-call.com/#organization',
     name: 'minute call',
+    alternateName: 'Minute Call',
     url: 'https://www.minute-call.com',
-    logo: 'https://www.minute-call.com/og-image.png',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.minute-call.com/og-image.png',
+      width: 1200,
+      height: 630,
+    },
     description:
-      'Servicio de atenciÃ³n telefÃ³nica 24/7 para PYMES con agentes nativos y asistentes de IA',
+      'Servicio de atención telefónica 24/7 para PYMES con agentes nativos y asistentes de IA. Toma de mensajes, cualificación de leads y reserva de citas sin permanencia.',
+    founder: [
+      {
+        '@type': 'Person',
+        '@id': 'https://www.minute-call.com/#alberto-castiel',
+        name: 'Alberto Castiel',
+        jobTitle: 'Co-fundador',
+        worksFor: { '@id': 'https://www.minute-call.com/#organization' },
+        sameAs: ['https://www.linkedin.com/in/alberto-castiel/'],
+      },
+      {
+        '@type': 'Person',
+        '@id': 'https://www.minute-call.com/#beatriz-hernandez',
+        name: 'Beatriz Hernández',
+        jobTitle: 'Co-fundadora',
+        worksFor: { '@id': 'https://www.minute-call.com/#organization' },
+      },
+    ],
+    knowsAbout: [
+      'Atención telefónica 24/7',
+      'Recepcionista virtual',
+      'Call center para PYMES',
+      'Cualificación de leads',
+      'Reserva de citas',
+      'IA conversacional',
+    ],
+    areaServed: { '@type': 'Country', name: 'España' },
     sameAs: [
       'https://www.linkedin.com/company/minute-call/',
       'https://es.trustpilot.com/review/minute-call.com',
@@ -21,7 +55,55 @@ export const OrganizationSchema: React.FC = () => {
       '@type': 'ContactPoint',
       contactType: 'customer service',
       availableLanguage: ['Spanish', 'English', 'French'],
+      areaServed: 'ES',
     },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+};
+
+/**
+ * PersonSchema Component
+ * Schema Person para páginas "Sobre nosotros" o autoría de artículos.
+ * Refuerza E-E-A-T (Expertise/Authoritativeness/Trust) — señal clave en Google y LLMs.
+ */
+interface PersonSchemaProps {
+  name: string;
+  jobTitle: string;
+  sameAs?: string[];
+  id?: string;
+  description?: string;
+  knowsAbout?: string[];
+}
+
+export const PersonSchema: React.FC<PersonSchemaProps> = ({
+  name,
+  jobTitle,
+  sameAs = [],
+  id,
+  description,
+  knowsAbout = [],
+}) => {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    ...(id ? { '@id': id } : {}),
+    name,
+    jobTitle,
+    ...(description ? { description } : {}),
+    worksFor: {
+      '@type': 'Organization',
+      '@id': 'https://www.minute-call.com/#organization',
+      name: 'minute call',
+      url: 'https://www.minute-call.com',
+    },
+    ...(knowsAbout.length ? { knowsAbout } : {}),
+    ...(sameAs.length ? { sameAs } : {}),
   };
 
   return (
@@ -41,20 +123,21 @@ export const LocalBusinessSchema: React.FC = () => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
+    '@id': 'https://www.minute-call.com/#localbusiness',
     name: 'minute call',
     url: 'https://www.minute-call.com',
     logo: 'https://www.minute-call.com/og-image.png',
     image: 'https://www.minute-call.com/og-image.png',
     description:
-      'Servicio de atenciÃ³n telefÃ³nica 24/7 para PYMES. Recepcionistas nativos y asistentes de IA. Sin permanencia.',
+      'Servicio de atención telefónica 24/7 para PYMES. Recepcionistas nativos y asistentes de IA. Sin permanencia.',
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'ES',
     },
     areaServed: [
-      { '@type': 'Country', name: 'EspaÃ±a' },
+      { '@type': 'Country', name: 'España' },
     ],
-    priceRange: 'â¬â¬',
+    priceRange: '€€',
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: [
@@ -96,7 +179,7 @@ export const LocalBusinessSchema: React.FC = () => {
 
 /**
  * HowToSchema Component
- * Outputs HowTo schema for the "CÃ³mo funciona" section
+ * Outputs HowTo schema for the "Cómo funciona" section
  */
 interface HowToStep {
   name: string;
@@ -111,9 +194,9 @@ export const HowToSchema: React.FC<HowToSchemaProps> = ({ steps }) => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: 'CÃ³mo funciona el servicio de recepcionista virtual de Minute Call',
+    name: 'Cómo funciona el servicio de recepcionista virtual de Minute Call',
     description:
-      'Activa tu recepcionista virtual en 3 sencillos pasos: define el flujo, recibe llamadas y gestiona citas automÃ¡ticamente.',
+      'Activa tu recepcionista virtual en 3 sencillos pasos: define el flujo, recibe llamadas y gestiona citas automáticamente.',
     step: steps.map((s, i) => ({
       '@type': 'HowToStep',
       position: i + 1,
@@ -155,10 +238,10 @@ export const ServiceSchema: React.FC<ServiceSchemaProps> = ({ services }) => {
       name: 'minute call',
       url: 'https://www.minute-call.com',
     },
-    areaServed: { '@type': 'Country', name: 'EspaÃ±a' },
+    areaServed: { '@type': 'Country', name: 'España' },
     availableChannel: {
       '@type': 'ServiceChannel',
-      serviceType: 'AtenciÃ³n telefÃ³nica',
+      serviceType: 'Atención telefónica',
     },
   }));
 
