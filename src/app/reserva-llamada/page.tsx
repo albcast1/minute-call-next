@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Reserva una llamada | minute call",
   description:
     "Reserva una llamada con nuestro equipo para discutir cómo podemos ayudarte",
+  alternates: {
+    canonical: "/reserva-llamada",
+  },
 };
 
 export default function ReservaLlamada() {

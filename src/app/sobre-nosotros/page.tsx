@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Quiénes somos | minute call",
   description:
     "Minute Call es un servicio premium de secretaría virtual y atención telefónica 24/7 con agentes humanos profesionales",
+  alternates: {
+    canonical: "/sobre-nosotros",
+  },
 };
 
 export default function SobreNosotros() {

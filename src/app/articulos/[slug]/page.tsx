@@ -24,10 +24,22 @@ export async function generateMetadata({
   return {
     title: article.metaTitle,
     description: article.metaDescription,
+    alternates: {
+      canonical: `/articulos/${slug}`,
+    },
     openGraph: {
       title: article.metaTitle,
       description: article.metaDescription,
       type: "article",
+      locale: "es_ES",
+      url: `https://www.minute-call.com/articulos/${slug}`,
+      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: article.metaTitle }],
+    },
+    twitter: {
+      card: "summary_large_image" as const,
+      title: article.metaTitle,
+      description: article.metaDescription,
+      images: ["/og-image.png"],
     },
   };
 }

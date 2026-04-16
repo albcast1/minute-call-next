@@ -25,10 +25,22 @@ export async function generateMetadata({
   return {
     title: city.metaTitle,
     description: city.metaDescription,
+    alternates: {
+      canonical: `/atencion-telefonica/${ciudad}`,
+    },
     openGraph: {
       title: city.metaTitle,
       description: city.metaDescription,
       type: "website",
+      locale: "es_ES",
+      url: `https://www.minute-call.com/atencion-telefonica/${ciudad}`,
+      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: city.metaTitle }],
+    },
+    twitter: {
+      card: "summary_large_image" as const,
+      title: city.metaTitle,
+      description: city.metaDescription,
+      images: ["/og-image.png"],
     },
   };
 }

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Artículos | minute call",
   description:
     "Descubre artículos y guías sobre secretaría virtual, recepcionistas de IA y atención telefónica para PYMES.",
+  alternates: {
+    canonical: "/articulos",
+  },
 };
 
 export default function ArticlesPage() {
