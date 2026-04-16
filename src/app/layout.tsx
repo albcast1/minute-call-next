@@ -43,6 +43,9 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-touch-icon.png" }],
     other: [{ rel: "manifest", url: "/site.webmanifest" }],
   },
+  verification: {
+    google: "D74asjvd2UZXLC_Id_bfCiQd-uWP0n0rr547fquxZTo",
+  },
 };
 
 export default function RootLayout({
