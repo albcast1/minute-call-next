@@ -295,7 +295,7 @@ export const FAQPageSchema: React.FC<FAQPageSchemaProps> = ({ faqs }) => {
 
 /**
  * ArticleSchema Component
- * Accepts article metadata and outputs Article schema with Organization as author
+ * Accepts article metadata and outputs Article schema with Person as author (E-E-A-T)
  */
 interface ArticleSchemaProps {
   title: string;
@@ -321,9 +321,17 @@ export const ArticleSchema: React.FC<ArticleSchemaProps> = ({
     datePublished: datePublished,
     ...(dateModified && { dateModified }),
     author: {
-      '@type': 'Organization',
-      name: 'minute call',
-      url: 'https://www.minute-call.com',
+      '@type': 'Person',
+      '@id': 'https://www.minute-call.com/#alberto-castiel',
+      name: 'Alberto Castiel',
+      jobTitle: 'Co-fundador de minute call',
+      url: 'https://www.minute-call.com/sobre-nosotros',
+      sameAs: ['https://www.linkedin.com/in/alberto-castiel/'],
+      worksFor: {
+        '@type': 'Organization',
+        '@id': 'https://www.minute-call.com/#organization',
+        name: 'minute call',
+      },
     },
     publisher: {
       '@type': 'Organization',
