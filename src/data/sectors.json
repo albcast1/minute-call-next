@@ -54,23 +54,23 @@
       },
       {
         "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para clínicas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "answer": "Para citas rutinarias y consultas de horario, la IA es ideal. Para primeras visitas o situaciones de urgencia, un agente humano nativo transmite la confianza que el sector salud exige. Lo habitual es IA fuera de horario y humanos para las llamadas que generan ingresos."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call de otros proveedores?",
+        "answer": "La mayoría de call centers trabajan con scripts rígidos y agentes que no entienden terminología médica. Nuestros agentes están formados en atención sanitaria: distinguen urgencias de consultas rutinarias y siguen protocolos de triaje. Operan desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad en un entorno clínico?",
+        "answer": "Revisamos cada conversación para verificar que se siguen tus protocolos. Formación en comunicación sanitaria: tono empático, manejo de información sensible y confidencialidad. Partners de Teleperformance."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Planes desde 250 €/mes. Para una clínica con 30-50 llamadas diarias, inferior a una recepcionista a jornada parcial. Sin permanencia: mes a mes."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar entre IA y agente humano?",
+        "answer": "Sí. IA para noches, festivos y confirmaciones; humanos nativos para horario de consulta y primeras visitas. Cambias la configuración en cualquier momento sin coste adicional."
       }
     ]
   },
@@ -129,23 +129,23 @@
       },
       {
         "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para inmobiliarias?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "answer": "La IA funciona para consultas sobre disponibilidad, precios orientativos y horarios de visita. Cuando un comprador potencial quiere agendar una visita o tiene dudas sobre financiación, un agente humano cualifica al lead en tiempo real."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "En inmobiliaria, cada llamada perdida puede ser una venta de miles de euros. Nuestros agentes cualifican preguntando por presupuesto, zona, plazo y tipo de inmueble. Desde España, sin contratos largos."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Cada llamada se revisa para verificar correcta cualificación del lead y seguimiento del guión comercial. Partners de Teleperformance."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. El coste es una fracción de lo que genera una sola venta captada por teléfono. Sin permanencia: mes a mes."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA fuera de horario laboral y para filtrar consultas básicas; humanos nativos para visitas, negociaciones y seguimiento."
       }
     ]
   },
@@ -203,24 +203,24 @@
         "answer": "Sí. Agentes humanos o IA, tú eliges según tu volumen y necesidades."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para restaurantes?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano en hostelería?",
+        "answer": "Para reservas de mesa, confirmaciones y consultas sobre menú o alérgenos, la IA no pierde una llamada en hora punta. Para eventos privados, grupos grandes o quejas, un agente humano gestiona mejor."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "En hostelería, el pico de llamadas coincide con el máximo trabajo en sala. Nuestros agentes completan reservas sin fricciones, preguntando por alérgenos y accesibilidad. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos que las reservas se completen con todos los datos necesarios. Agentes formados en atención hostelera."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Inferior a una persona dedicada al teléfono. Sin permanencia: perfecto para restaurantes estacionales."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para reservas estándar 24/7 y agente humano para eventos, grupos y atención premium."
       }
     ]
   },
@@ -278,24 +278,24 @@
         "answer": "Sí. Nuestros agentes pueden actuar como recepcionistas humanos o combinar con IA para filtrado inicial, clasificación y derivación automática según el tipo de caso."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para despachos de abogados?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para despachos?",
+        "answer": "IA para filtrar consultas iniciales, confirmar citas e informar de documentación. Cuando un cliente llama con un problema legal urgente, necesita profesionalidad y confidencialidad humana."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Un cliente que llama a un abogado espera discreción y seriedad. Nuestros agentes preguntan por el tipo de caso sin dar asesoramiento legal y mantienen confidencialidad estricta. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "La confidencialidad es innegociable. Acuerdos de confidencialidad firmados, protocolos estrictos. Cada conversación se revisa. Partners de Teleperformance."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Basta con captar un solo caso que antes se hubiera perdido. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para noches y fines de semana; humanos nativos para horario comercial y primeras llamadas."
       }
     ]
   },
@@ -353,24 +353,24 @@
         "answer": "Sí. Ofrecemos agentes humanos para atención premium o IA para flujo de citas, cancelaciones y recordatorios automáticos."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para clínicas dentales?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para clínicas dentales?",
+        "answer": "Citas de revisión, limpiezas y consultas de precios son perfectas para IA. Para urgencias dentales o primeras visitas de implantes, un agente humano marca la diferencia."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Un paciente con dolor no espera: si no contestas, llama al siguiente dentista. Nuestros agentes priorizan según criterio clínico básico. Desde España, sin contratos largos."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos priorización de urgencias, recogida de datos y confirmación de seguro. Partners de Teleperformance."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Captando 2-3 pacientes al mes que antes perdías, se recupera la inversión. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para noche y fines de semana; humanos en horario de clínica para primeras consultas de alto valor."
       }
     ]
   },
@@ -428,24 +428,24 @@
         "answer": "Sí. Agentes humanos para consultoría premium, o IA para información de expedientes, filtrado de llamadas y captura de potenciales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para asesorías y gestorías?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para asesorías?",
+        "answer": "IA para estado de trámites, plazos y documentación. Cuando un autónomo llama preocupado por una notificación de Hacienda, la empatía humana es insustituible."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Las asesorías pierden clientes cuando no atienden en momentos clave. Nuestros agentes están familiarizados con lenguaje fiscal y contable básico. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Cada conversación se revisa verificando clasificación correcta de urgencia. Nuestros agentes entienden la estacionalidad del sector. Partners de Teleperformance."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Retener un solo cliente que iba a marcharse cubre la inversión. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA todo el año para consultas rutinarias y refuerzo humano en períodos de campaña fiscal."
       }
     ]
   },
@@ -503,24 +503,24 @@
         "answer": "Sí. Agentes humanos para consultoría, o IA para triaje, gestión de citas y información de vacunaciones."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para veterinarias?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para veterinarias?",
+        "answer": "Citas de vacunación y consultas de horario son ideales para IA. Cuando un dueño llama por una emergencia, necesita una voz humana que transmita calma y evalúe la urgencia."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Los dueños de mascotas son emocionalmente sensibles. Nuestros agentes preguntan síntomas clave y priorizan urgencias con empatía real. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos triaje de urgencia, derivación correcta y tono empático. Partners de Teleperformance."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Para una veterinaria que pierde 3-5 llamadas de urgencia al mes, la inversión se recupera rápido. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para citas de rutina; humanos para urgencias nocturnas y fines de semana."
       }
     ]
   },
@@ -578,24 +578,24 @@
         "answer": "Sí. Agentes humanos para consultoría sobre tratamientos complejos, o IA para gestión de agenda, información de precios y recordatorios."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para centros de estética?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para estética?",
+        "answer": "Reservas de tratamientos y consultas de precio son perfectas para IA. Para asesoramiento personalizado, un agente humano convierte en venta de alto valor."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "En estética, la imagen lo es todo. Nuestros agentes nativos representan tu centro con el tono de exclusividad que necesita tu marca. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos que la experiencia telefónica refleje la calidad de tu centro. Nuestros agentes conocen tu carta de tratamientos y promociones."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Captar 2-3 clientas que habrías perdido cubre el coste. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para citas 24/7; humano para asesoramiento y ventas de bonos."
       }
     ]
   },
@@ -653,24 +653,24 @@
         "answer": "Sí. Agentes humanos para valoración de lesiones complejas, o IA para gestión de citas, listas de espera y información terapéutica."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para fisioterapia?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para fisioterapia?",
+        "answer": "Citas de seguimiento y consultas sobre seguro son perfectas para IA. Cuando un paciente llama con dolor agudo tras una lesión, necesita sentir que alguien entiende su situación."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Un paciente con dolor que no obtiene respuesta busca otro fisioterapeuta inmediatamente. Nuestros agentes preguntan por tipo de lesión y urgencia. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos recogida de datos relevantes y clasificación correcta de urgencia. Partners de Teleperformance."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Captar un solo paciente al mes justifica la inversión. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para gestión de agenda; humanos para pacientes nuevos con lesiones agudas."
       }
     ]
   },
@@ -728,24 +728,24 @@
         "answer": "Sí. Agentes humanos para negociación de pólizas, o IA para recepción de siniestros, cualificación de leads y información de coberturas."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para seguros y corredurías?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para seguros?",
+        "answer": "IA para consultas sobre coberturas, vencimientos y estado de pólizas. Cuando un asegurado llama tras un accidente, el apoyo humano es clave para retención."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "La llamada post-siniestro define si el cliente renueva o se va. Nuestros agentes entienden la gestión de siniestros y derivan correctamente. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos recogida correcta de datos del siniestro y experiencia profesional. Control de calidad sistemático."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Retener un solo cliente que iba a cancelar devuelve la inversión. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para estado de póliza; humanos para atención post-siniestro y renovaciones."
       }
     ]
   },
@@ -803,24 +803,24 @@
         "answer": "Sí. Agentes humanos para consultoría en destinos y personalización de itinerarios, o IA para gestión de reservas, información y soporte multilingüe."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para turismo y agencias de viajes?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para turismo?",
+        "answer": "IA para disponibilidad, precios y horarios. Cuando un viajero quiere un viaje a medida, el agente humano cierra la venta."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Nuestros agentes nativos atienden en español, inglés y francés con fluidez real. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos información correcta, reservas bien procesadas y tono acorde a tu marca."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una reserva puede valer 500-3.000 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para temporada baja; humanos reforzados en temporada alta."
       }
     ]
   },
@@ -878,24 +878,24 @@
         "answer": "Sí. Agentes humanos para asesoría compleja sobre licencias, o IA para gestión de horarios, información DGT y captura de alumnos nuevos."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para autoescuelas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para autoescuelas?",
+        "answer": "IA para precios, horarios y disponibilidad. Humanos para cerrar matrículas y resolver dudas sobre permisos."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Los alumnos comparan rápido. Nuestros agentes se forman en tu oferta y contestan como tu recepción. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos información correcta sobre precios, horarios y proceso de matriculación."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una matrícula de carnet B vale 600-1.200 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA 24/7; humanos para cerrar matrículas en horario comercial."
       }
     ]
   },
@@ -953,24 +953,24 @@
         "answer": "Sí. Agentes humanos completamente personalizados para tu marca, o IA avanzada para filtrado de leads y respuestas de servicios que mantiene tono premium."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para consultoría y formación?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para consultoras?",
+        "answer": "IA para filtrado, confirmación de reuniones e información general. Humanos para cualificar oportunidades con decisores."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "En consultoría, la primera impresión define si consigues la reunión. Nuestros agentes entienden lenguaje B2B y cualifican por tamaño de empresa. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos tono profesional, cualificación correcta y derivación adecuada. Partners de Teleperformance."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un solo proyecto puede facturar 5.000-50.000 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para filtrado; humanos para atención a decisores."
       }
     ]
   },
@@ -1028,24 +1028,24 @@
         "answer": "Nuestro equipo informa al cliente sobre alternativas y horarios disponibles, e incluye información sobre listas de espera si así lo configuraste."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para gimnasios y centros deportivos?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para gimnasios?",
+        "answer": "IA para horarios, precios y consultas sobre instalaciones. Humanos para cerrar altas y gestionar bajas."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Si no contestas, el cliente se apunta al de al lado. Nuestros agentes conocen tus clases y tarifas. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos información correcta y analizamos oportunidades de conversión perdidas."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una cuota anual por socio supone 480-960 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para horarios 24/7; humanos para cerrar altas. Más cobertura humana en enero y septiembre."
       }
     ]
   },
@@ -1103,24 +1103,24 @@
         "answer": "Nuestros agentes pueden informar sobre productos y servicios, pero la venta principal ocurre en la cita. Podemos mencionar ofertas especiales para maximizar ticket promedio."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para peluquerías y salones de belleza?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para peluquerías?",
+        "answer": "IA para reservas estándar y confirmaciones. Humanos para asesoramiento de look y coordinación de novias."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Las llamadas llegan mientras tienes las manos ocupadas. Nuestros agentes gestionan reservas por estilista. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos citas correctas: duración adecuada, estilista correcto, datos completos."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un servicio medio (60-120 €) se pierde cada vez que no contestas. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para reservas y fuera de horario; humanos para asesoramiento y servicios premium."
       }
     ]
   },
@@ -1178,24 +1178,24 @@
         "answer": "Sí, integramos con Farmagestion, TienesFarmacia y otros sistemas. También ofrecemos integración manual para farmacias pequeñas."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para farmacias?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para farmacias?",
+        "answer": "IA para disponibilidad de medicamentos, horarios y entregas. Humano para derivar consultas al farmacéutico."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Las farmacias reciben llamadas mientras atienden mostrador. Nuestros agentes saben cuándo derivar. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos respuestas correctas y derivación adecuada. Nuestros agentes nunca dan consejo farmacéutico."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Cada llamada perdida es una venta que se va. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para disponibilidad 24/7; humanos para derivación a farmacéutico."
       }
     ]
   },
@@ -1253,24 +1253,24 @@
         "answer": "Escala inmediatamente a tu equipo cualquier urgencia. Documenta el problema para que tu óptico priorice en la cita."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para ópticas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para ópticas?",
+        "answer": "IA para citas de revisión y consultas sobre graduación. Humanos para asesoramiento sobre lentes progresivas."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Las ópticas compiten por fidelizar clientes que renuevan gafas cada 1-2 años. Nuestros agentes se forman en tu catálogo. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos citas correctas y derivación inmediata de urgencias."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una venta media oscila entre 200-600 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para citas y horarios; humanos para asesoramiento sobre productos."
       }
     ]
   },
@@ -1328,24 +1328,24 @@
         "answer": "Sí, integramos con softwares como Psicol, Docplanner y sistemas ERP sanitarios. También funcionamos con agendas manuales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para psicólogos y terapeutas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para psicología?",
+        "answer": "IA para gestión de agenda. La primera llamada de un paciente que busca ayuda es extremadamente sensible: necesita acogida humana desde el primer segundo."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Nuestros agentes están formados en atención sensible: escucha activa, tono calmado, sin juicios. Desde España, con confidencialidad estricta."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "La confidencialidad y sensibilidad son máximas. Acuerdos de confidencialidad firmados."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un paciente nuevo suele comprometerse a varias sesiones. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para agenda; humanos para primeras llamadas. La mayoría prefieren humano al 100% para primeros contactos."
       }
     ]
   },
@@ -1403,24 +1403,24 @@
         "answer": "Sí, integramos con Moodle, Canvas, Classroom y softwares de academias. También funcionamos con agendas manuales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para academias de idiomas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para academias?",
+        "answer": "IA para cursos, niveles y precios. Humanos para asesoramiento personalizado y cierre de matrículas."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "La competencia es alta. Nuestros agentes se forman en tu oferta y cierran matrículas. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos información correcta y gestión de oportunidades de matrícula."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una matrícula trimestral vale 300-900 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA 24/7; humanos para asesoramiento. Más cobertura en septiembre y enero."
       }
     ]
   },
@@ -1478,24 +1478,24 @@
         "answer": "Sí, integramos con Mechanic.io, Autocrm y sistemas similares. También funcionamos con agendas manuales de talleres pequeños."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para talleres mecánicos?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para talleres?",
+        "answer": "IA para citas de revisión, ITV y horarios. Humanos para averías urgentes y presupuestos complejos."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Los talleres pierden clientes cuando no contestan. Nuestros agentes recogen datos del vehículo. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos recogida correcta de datos y escalado de urgencias."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una reparación media factura 200-800 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para citas programadas; humanos para averías urgentes."
       }
     ]
   },
@@ -1553,24 +1553,24 @@
         "answer": "Sí, integramos con Cleanify, Limpieza.pro y softwares similares. También funcionamos con agendas manuales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para empresas de limpieza?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para limpieza?",
+        "answer": "IA para servicios, precios y zonas. Humanos para presupuestos personalizados y cierre de contratos."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Las empresas de limpieza compiten en rapidez. Nuestros agentes cualifican correctamente. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos datos completos: tipo de espacio, metros, frecuencia, servicios especiales."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un contrato puede valer 500-2.000 €/mes durante años. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para consultas y fuera de horario; humanos para presupuestos y cierre."
       }
     ]
   },
@@ -1628,24 +1628,24 @@
         "answer": "Sí, integramos con Asana, Monday.com y softwares de obra. También funcionamos con documentación manual de proyectos."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para empresas de reformas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para reformas?",
+        "answer": "IA para filtrar consultas iniciales. Una reforma requiere un agente humano que transmita confianza y agende la visita."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "El cliente contrata a la que mejor impresión da. Nuestros agentes recogen datos clave y agendan visitas. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos cualificación correcta: tipo de obra, ubicación, presupuesto orientativo."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una reforma integral factura 20.000-80.000 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para filtrado; humanos para cualificación y visitas."
       }
     ]
   },
@@ -1703,24 +1703,24 @@
         "answer": "Sí, nos integramos con Revit, Autocad y sistemas de gestión. También funcionamos con flujos manuales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para arquitectos e ingenieros?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para arquitectura?",
+        "answer": "IA para agenda y filtrado. Humanos para cualificar proyectos de promotores."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Un estudio proyecta imagen en cada contacto. Nuestros agentes cualifican por tipo y envergadura. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos cualificación correcta de oportunidades."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Los honorarios empiezan en miles de euros. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para agenda; humanos para cualificación de proyectos."
       }
     ]
   },
@@ -1778,24 +1778,24 @@
         "answer": "Sí, nos integramos con softwares notariales estándar. También funcionamos con agendas manuales manteniendo confidencialidad."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para notarías?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para notarías?",
+        "answer": "IA para citas de firma y documentación. Humanos para consultas sobre escrituras o herencias."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Las notarías manejan asuntos sensibles. Nuestros agentes mantienen confidencialidad y rigor. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos citas correctas y confidencialidad estricta."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para agenda de firmas; humanos para primeras consultas."
       }
     ]
   },
@@ -1853,24 +1853,24 @@
         "answer": "Identifica urgencias (infecciones, lesiones). Escala inmediatamente a tu podólogo o aconseja visita a urgencias si necesario."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para clínicas de podología?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para podología?",
+        "answer": "IA para citas de quiropodia y revisiones. Humanos para pacientes con urgencias y primeras visitas con dolor."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Equipo reducido: el podólogo no puede coger el teléfono. Nuestros agentes clasifican por urgencia. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos citas correctas y escalado de urgencias."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Los pacientes vuelven regularmente. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para agenda; humanos para primeras consultas y necesidades especiales."
       }
     ]
   },
@@ -1928,24 +1928,24 @@
         "answer": "Sí, integramos con Movemi, Déménage y sistemas similares. También funcionamos con agendas manuales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para empresas de mudanzas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para mudanzas?",
+        "answer": "IA para recogida de datos (origen, destino, fecha, volumen). Humanos para presupuestos y negociación."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "El cliente pide 3-4 presupuestos y elige rápido. Nuestros agentes recogen todo para que llames preparado. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos datos completos: dirección, planta, ascensor, volumen, fecha."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una mudanza local factura 400-1.500 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA 24/7 para datos; humanos para negociación y cierre."
       }
     ]
   },
@@ -2003,24 +2003,24 @@
         "answer": "Nuestros agentes informan sobre tarifa de emergencia/sobrecargo nocturno. Confirman aceptación del cliente antes de despachar."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para cerrajerías?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para cerrajerías?",
+        "answer": "IA para clasificar urgencia y recoger ubicación en segundos. Humanos para robos y negociación de tarifa nocturna."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Una llamada perdida a las 2 AM es un servicio de 80-200 € que se va a la competencia. Nuestros agentes despachan al equipo en minutos. Operando 24/7 de verdad."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Cada urgencia se revisa: identificación de emergencia, ubicación exacta, tarifa nocturna, tiempo de despacho."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un servicio urgente nocturno factura 100-250 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA 24/7 para triaje rápido; escalado a humano para urgencias complejas."
       }
     ]
   },
@@ -2078,24 +2078,24 @@
         "answer": "Sí, integramos con HubRise, Toast y softwares de gestión de eventos. También funcionamos con agendas manuales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para empresas de catering?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para catering?",
+        "answer": "IA para menús, precios y disponibilidad. Humanos para venta consultiva de eventos personalizados."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Cada evento factura miles de euros. Nuestros agentes manejan venta consultiva. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos datos completos del evento: fecha, personas, menú, alergias, ubicación."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un catering de boda factura 5.000-20.000 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA 24/7; humanos para venta de eventos."
       }
     ]
   },
@@ -2153,24 +2153,24 @@
         "answer": "Sí, integramos con Cobot, Essensys y softwares similares. También funcionamos con agendas manuales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para coworkings y espacios de trabajo?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para coworkings?",
+        "answer": "IA para precios, disponibilidad y horarios. Humanos para visitas comerciales y negociación de planes."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Los coworkings venden experiencia. Nuestros agentes venden la experiencia, no solo el precio. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos conocimiento de tu oferta y agendamiento correcto de visitas."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un puesto factura 150-400 €/mes. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA 24/7; humanos para visitas comerciales."
       }
     ]
   },
@@ -2228,24 +2228,24 @@
         "answer": "Sí, integramos con Kindly, Famly y softwares educativos. También funcionamos con registro manual."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para guarderías y escuelas infantiles?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para guarderías?",
+        "answer": "IA para plazas, horarios y precios. Los padres necesitan confianza humana para dejar a su hijo."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Los padres eligen la guardería que mejor impresión da. Nuestros agentes atienden con sensibilidad. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos calidez, información correcta y agendamiento de visitas."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una cuota oscila entre 300-800 €/mes. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para consultas; humanos para primeras llamadas de padres."
       }
     ]
   },
@@ -2303,24 +2303,24 @@
         "answer": "Sí, integramos con Gesresi, Orpys y softwares similares. También funcionamos con agendas y sistemas manuales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para residencias de mayores?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para residencias?",
+        "answer": "IA para información general. Las familias necesitan escucha y empatía humana en un momento difícil."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Buscar residencia es una de las decisiones más difíciles. Nuestros agentes atienden con sensibilidad. Desde España."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos empatía, información correcta y facilitación del proceso a la familia."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una plaza cuesta 1.500-3.500 €/mes. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para información básica; humanos para todas las primeras consultas de familias."
       }
     ]
   },
@@ -2378,24 +2378,24 @@
         "answer": "Sí, integramos con Mindbody, Zen y softwares similares. También funcionamos con agendas manuales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para centros de yoga y pilates?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para yoga y pilates?",
+        "answer": "IA para horarios, bonos y reservas. Humanos para asesoramiento sobre disciplinas y lesiones previas."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Los centros de yoga transmiten bienestar. Nuestros agentes representan tu centro con tono cercano. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos reservas correctas y derivación de consultas sobre lesiones."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un bono mensual cuesta 60-120 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para reservas 24/7; humanos para asesoramiento y ventas de bonos."
       }
     ]
   },
@@ -2453,24 +2453,24 @@
         "answer": "Sí, integramos con Smug Mug, ShootProof y softwares similares. También funcionamos con agendas manuales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para estudios de fotografía?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para fotografía?",
+        "answer": "IA para precio y disponibilidad. Humanos para venta emocional de reportajes, especialmente bodas."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Un estudio vende arte y emoción. Nuestros agentes transmiten tu propuesta. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos conocimiento de tu oferta y escalado rápido de leads de alto valor."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un reportaje de boda factura 1.500-5.000 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para disponibilidad; humanos para venta de reportajes premium."
       }
     ]
   },
@@ -2528,24 +2528,24 @@
         "answer": "Sí, integramos con sistemas de alarma y CCTV. También coordinamos con softwares de despacho de personal."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para empresas de seguridad privada?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para seguridad?",
+        "answer": "IA para información y estado de servicios. Humanos para alarmas e incidencias que requieren evaluación."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "En seguridad, las emergencias no esperan. Nuestros agentes siguen protocolos específicos y escalan según gravedad. Desde España, 24/7."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Cada incidencia se revisa: protocolo seguido, escalado correcto, tiempo de respuesta."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un contrato de vigilancia vale 1.000-10.000 €/mes. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para consultas; humanos para alarmas e incidencias."
       }
     ]
   },
@@ -2603,24 +2603,24 @@
         "answer": "Sí, integramos con softwares médicos especializados. Respetamos privacidad bajo regulaciones sanitarias internacionales."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para clínicas de reproducción asistida?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para reproducción asistida?",
+        "answer": "IA para citas de seguimiento y precios. La primera llamada de una pareja es extraordinariamente sensible: un agente humano empático es imprescindible."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Nuestros agentes atienden con empatía profunda y respetan la privacidad. Desde España, con confidencialidad absoluta."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos máximo cuidado emocional, confidencialidad absoluta y derivación correcta al equipo médico."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un tratamiento de FIV cuesta 4.000-8.000 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para agenda; humanos para primeras consultas de pacientes nuevos."
       }
     ]
   },
@@ -2678,24 +2678,24 @@
         "answer": "Sí, integramos con Moodle, Canvas y plataformas de e-learning. También funcionamos con registro manual."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para centros de formación profesional?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para FP?",
+        "answer": "IA para cursos, requisitos y plazas. Humanos para asesoramiento y cierre de matrículas."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Los alumnos comparan centros rápidamente. Nuestros agentes se forman en tu oferta. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Revisamos información correcta y gestión eficaz de matrículas."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Una matrícula puede valer 1.000-5.000 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA 24/7; humanos para orientación y cierre."
       }
     ]
   },
@@ -2753,24 +2753,24 @@
         "answer": "Sí, integramos con TMS, sistemas de logística y GPS. También funcionamos con despacho manual."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para empresas de transporte?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para transporte?",
+        "answer": "IA para estado de envíos, horarios y tarifas. Humanos para incidencias con mercancía y negociación."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Una incidencia mal gestionada puede costar un cliente que factura miles al mes. Nuestros agentes entienden transporte. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos información actualizada e incidencias registradas correctamente."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Retener un solo cliente recurrente justifica años de servicio. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para tracking 24/7; humanos para incidencias."
       }
     ]
   },
@@ -2828,24 +2828,24 @@
         "answer": "Sí, integramos con softwares de gestión funeraria. También funcionamos con registro manual de casos."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para funerarias y tanatorios?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para funerarias?",
+        "answer": "Prácticamente todas las llamadas tienen carga emocional intensa. IA solo para información general; cualquier primera llamada de una familia necesita agente humano."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Las funerarias atienden a personas en el peor momento. Nuestros agentes están formados en atención al duelo. Desde España, 24/7."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Cada interacción se revisa: tono, facilitación del proceso, sensibilidad. Formación continua en duelo."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un servicio funerario cuesta 3.000-8.000 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Recomendamos humano para la gran mayoría. IA solo para información básica."
       }
     ]
   },
@@ -2903,24 +2903,24 @@
         "answer": "Sí, integramos con softwares de gestión de comunidades. También funcionamos con registro manual de incidencias."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para administradores de fincas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para administradores de fincas?",
+        "answer": "IA para cuotas, derramas y estado de incidencias. Humanos para urgencias como fugas o averías de ascensor."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "Los administradores reciben llamadas a todas horas. Nuestros agentes clasifican incidencias por urgencia. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos clasificación correcta de urgencias y escalado inmediato."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Retener una comunidad (200-500 €/mes) es más valioso que perderla. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para consultas; humanos para urgencias comunitarias 24/7."
       }
     ]
   },
@@ -2978,24 +2978,24 @@
         "answer": "Sí, integramos con softwares médicos especializados. Respetamos máxima confidencialidad de datos estéticos."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para clínicas de cirugía estética?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo usar IA y cuándo agente humano para cirugía estética?",
+        "answer": "IA para precio, disponibilidad e información. Operarse es una decisión personal: el paciente necesita confianza humana desde la primera llamada."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia Minute Call?",
+        "answer": "La primera impresión determina si el paciente viene. Nuestros agentes representan la imagen premium de tu clínica. Desde España, sin permanencia."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo garantizáis la calidad?",
+        "answer": "Supervisamos tono profesional, información correcta, confidencialidad absoluta."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta y hay permanencia?",
+        "answer": "Desde 250 €/mes. Un procedimiento factura 3.000-15.000 €. Sin permanencia."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo alternar IA y agente humano?",
+        "answer": "Sí. IA para seguimiento y precios; humanos para primeras consultas."
       }
     ]
   },
@@ -3053,24 +3053,24 @@
         "answer": "Es muy simple: Reserva una llamada con nuestro equipo, define tus necesidades específicas, y en 48 horas tus agentes ya están disponibles atendiendo llamadas en tu nombre."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para call center para empresas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Cuándo conviene IA y cuándo agentes humanos?",
+        "answer": "IA para volumen de llamadas repetitivas y cobertura fuera de horario. Humanos para criterio, empatía o negociación."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿Qué diferencia a Minute Call?",
+        "answer": "Call centers tradicionales: LATAM, contratos rígidos, scripts genéricos. Minute Call: agentes nativos en España, mes a mes, tecnología propia. Partners de Teleperformance."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo se garantiza la calidad?",
+        "answer": "Supervisamos cada conversación. Formación específica para cada cliente."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta externalizar?",
+        "answer": "Desde 250 €/mes. Más económico que personal dedicado, con cobertura 24/7."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Se puede escalar?",
+        "answer": "Sí. Aumentas o reduces cobertura sin penalización. Mes a mes."
       }
     ]
   },
@@ -3128,24 +3128,24 @@
         "answer": "Sí, garantizamos total confidencialidad y cumplimiento RGPD. Nuestros agentes firman acuerdos de no divulgación y todos los datos se manejan bajo máximas medidas de seguridad."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para bpo y externalización de procesos?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Qué procesos se pueden externalizar?",
+        "answer": "Atención telefónica, filtrado de leads, gestión de citas, toma de mensajes, soporte de primer nivel y cobertura fuera de horario."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia el BPO de Minute Call?",
+        "answer": "Los grandes BPO son para corporaciones. Minute Call para PYMES: personalización real, arranque en 48h, sin permanencia. Partners de Teleperformance."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Cómo se asegura la calidad?",
+        "answer": "Guión y protocolo personalizados. Control de calidad en cada conversación."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta?",
+        "answer": "Desde 250 €/mes. Sin costes de activación. 40-70% más económico que equipo interno."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Cuánto tarda en activarse?",
+        "answer": "Menos de 48 horas."
       }
     ]
   },
@@ -3203,24 +3203,24 @@
         "answer": "Sí, nuestra capacidad es escalable. Si tienes un pico de volumen, aumentamos recursos automáticamente. Luego ajustamos según tus necesidades reales sin costo de penalización."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para call center 24 horas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Realmente atendéis 24 horas?",
+        "answer": "Sí, 24/7/365 incluidos festivos y noches. Configuras humano o IA según franja."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿Cómo funcionan las llamadas fuera de horario?",
+        "answer": "Siguen tu protocolo: toma de mensaje, filtrado, derivación si es emergencia o agenda de cita."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Hay sobrecoste nocturno?",
+        "answer": "No. Cobertura 24/7 sin sobrecargos. Mismo precio siempre."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta?",
+        "answer": "Desde 250 €/mes. Sin recargo por nocturnidad."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo activar solo cuando la necesite?",
+        "answer": "Sí. Permanente o solo en períodos específicos. Mes a mes."
       }
     ]
   },
@@ -3278,24 +3278,24 @@
         "answer": "Sí, tienes acceso a reportes detallados, grabaciones de llamadas seleccionadas, métricas de satisfacción y KPIs en tiempo real. Transparencia total en nuestro servicio."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para outsourcing de atención al cliente?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Qué incluye el servicio?",
+        "answer": "Recepción de llamadas en tu nombre, filtrado de leads, gestión de citas, toma de mensajes y cobertura fuera de horario."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿Cómo se mantiene la identidad de marca?",
+        "answer": "Nuestros agentes usan tu nombre comercial, siguen tu guión y conocen tu oferta. Los clientes no perciben que la atención es externa."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Qué control tengo?",
+        "answer": "Total. Cada conversación se registra. Informes y ajuste de guión en cualquier momento."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta?",
+        "answer": "Desde 250 €/mes. Sin permanencia. 40-60% de ahorro frente a personal propio."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Se puede combinar con equipo interno?",
+        "answer": "Sí. Tu equipo para las especializadas; Minute Call para desbordamiento y fuera de horario."
       }
     ]
   },
@@ -3353,24 +3353,24 @@
         "answer": "Es muy simple. Proporcionamos instrucciones para redirigir tus llamadas hacia nuestro servicio. Funciona con cualquier proveedor telefónico: Vodafone, Movistar, Orange, VOIP, etc."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para centralita virtual para empresas?",
-        "answer": "Depende del tipo de llamada. Para consultas frecuentes (horarios, disponibilidad, confirmaciones de cita), un agente de IA es ideal: responde al instante, 24/7, sin esperas. Para situaciones que requieren empatía, negociación o explicaciones complejas — como quejas, presupuestos personalizados o primeras consultas de alto valor — un agente humano nativo marca la diferencia. En Minute Call puedes combinar ambos: IA para el volumen y fuera de horario, humanos nativos para lo que importa. Tú decides la configuración."
+        "question": "¿Qué es una centralita virtual con Minute Call?",
+        "answer": "Gestiona llamadas sin hardware físico. Además tienes agentes reales o IA que atienden de verdad."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de call centers como Concentrix, Konecta o Teleperformance?",
-        "answer": "Los grandes call centers (Concentrix, Konecta, etc.) están diseñados para volúmenes masivos con agentes en LATAM, rigidez contractual y baja personalización. Minute Call es lo contrario: agentes nativos basados en España, sin permanencia (mes a mes), tecnología propia y control de calidad en cada conversación. Además, somos partners oficiales de Teleperformance (#1 mundial en BPO) en España, lo que avala nuestros estándares de calidad sin la rigidez de una multinacional. Diseñado para PYMES, no para corporaciones."
+        "question": "¿En qué se diferencia de una convencional?",
+        "answer": "Las convencionales solo desvían llamadas. Minute Call: agentes nativos o IA que atienden, cualifican leads y gestionan citas. No es un IVR."
       },
       {
-        "question": "¿Cómo garantiza Minute Call la calidad del servicio?",
-        "answer": "Cada conversación pasa por control de calidad. Somos partners de Teleperformance, el #1 mundial en BPO, lo que avala nuestros procesos y estándares. A diferencia de call centers con agentes en LATAM, nuestros recepcionistas son nativos basados en España que atienden en español, inglés y francés. Además, personalizamos el guión y protocolo para cada empresa — no usamos scripts genéricos."
+        "question": "¿Se integra con mi sistema actual?",
+        "answer": "Sí. Desvío desde tu número actual. No cambias de número. En menos de 48 horas."
       },
       {
-        "question": "¿Cuánto cuesta el servicio y hay permanencia?",
-        "answer": "Los planes empiezan desde 250€/mes para pequeñas PYMES. El precio varía según volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia: funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación. Puedes activar o desactivar cuando lo necesites."
+        "question": "¿Cuánto cuesta?",
+        "answer": "Desde 250 €/mes. Más económico que una recepcionista y más profesional que un contestador."
       },
       {
-        "question": "¿Puedo cambiar entre agente humano e IA según la situación?",
-        "answer": "Sí, esa es una de nuestras mayores ventajas frente a call centers tradicionales. Puedes configurar IA para horario nocturno y fines de semana, y agentes nativos para horario comercial. O IA para consultas simples y humanos para primeras llamadas de alto valor. La configuración se adapta a ti y puedes cambiarla en cualquier momento sin coste adicional."
+        "question": "¿Puedo configurar reglas por horario?",
+        "answer": "Sí. Humano de 9 a 19h, IA de noche, desvío a tu móvil en horario VIP. Sin coste extra."
       }
     ]
   }
