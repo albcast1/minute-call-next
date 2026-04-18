@@ -19,6 +19,22 @@ export default function SobreNosotros() {
 
   return (
     <div style={{ maxWidth: 900, margin: "0 auto", padding: "60px 24px 80px" }}>
+      {/* Trustpilot Badge */}
+      <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 24px 32px', textAlign: 'center' }}>
+        <div
+          className="trustpilot-widget"
+          data-locale="es-ES"
+          data-template-id="5419b6a8b0d04a076446a9ad"
+          data-businessunit-id="6787b0c65bf6d2f1e91ee1a2"
+          data-style-height="28px"
+          data-style-width="100%"
+          data-theme="light"
+        >
+          <a href="https://es.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: 15, color: '#00b67a', fontWeight: 700 }}>
+            ⭐ 5.0 sobre 5 en Trustpilot &mdash; Valorado como Excelente
+          </a>
+        </div>
+      </div>
       <PersonSchema
         id="https://www.minute-call.com/#alberto-castiel"
         name="Alberto Castiel"
