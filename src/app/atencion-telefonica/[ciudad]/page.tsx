@@ -204,6 +204,11 @@ export default async function CityPage({
         <p style={{ maxWidth: 700, marginBottom: 40, lineHeight: "1.6" }}>
           {city.localContext}
         </p>
+          {(city as { sectorContext?: string }).sectorContext && (
+            <p style={{ color: '#555', lineHeight: 1.7, fontSize: 16, marginTop: 20 }}>
+              {(city as { sectorContext?: string }).sectorContext}
+            </p>
+          )}
 
         {/* Stats cards */}
         <div
