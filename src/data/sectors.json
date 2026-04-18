@@ -3446,5 +3446,65 @@
         "answer": "Un call center gestiona volumen masivo con scripts estandar para muchas empresas. La recepcion de llamadas personalizada de Minute Call actua como tu propia recepcionista: con tu nombre, tu protocolo y conocimiento real de tu negocio."
       }
     ]
+  },
+  {
+    "slug": "secretaria-virtual",
+    "sector": "Secretaria virtual",
+    "title": "Secretaria virtual para empresas y autonomos.",
+    "metaTitle": "Secretaria virtual para empresas | Agentes nativos en Espana | minute call",
+    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Atiende llamadas, gestiona citas y cualifica leads en nombre de tu empresa. Desde 250 euros/mes. Sin permanencia. Activa en 48h.",
+    "heroTag": "Secretaria virtual para PYMES y autonomos",
+    "heroTitle": "Tu secretaria virtual. Sin los costes de contratar.",
+    "heroSubtitle": "Agentes nativos basados en Espana atienden tus llamadas como si fueran de tu propia empresa. Gestiona citas, filtra llamadas y capta leads — todo sin contratar personal ni pagar cuotas de Seguridad Social.",
+    "socialProof": "Una recepcionista interna cuesta entre 1.500-2.200 euros/mes mas costes sociales. Una secretaria virtual de Minute Call, desde 250 euros/mes. La diferencia es liquida: sin vacaciones, sin bajas, sin horarios que negociar.",
+    "testimonial": {
+      "quote": "Mis clientes no saben que es un servicio externo. La secretaria de Minute Call conoce mi empresa mejor que algunas personas que he contratado.",
+      "author": "Roque L.",
+      "role": "Asesor fiscal autonomo, Valencia"
+    },
+    "features": [
+      {
+        "title": "Como tener tu propia secretaria",
+        "description": "Los agentes usan tu nombre comercial, conocen tus productos y servicios y siguen exactamente el protocolo que defines. El cliente no nota la diferencia."
+      },
+      {
+        "title": "Sin costes de personal",
+        "description": "Sin Seguridad Social, sin vacaciones, sin bajas por enfermedad. Pagas un precio fijo mensual y el servicio nunca falla."
+      },
+      {
+        "title": "Disponible cuando tu no puedes",
+        "description": "En reuniones, con clientes, fuera de horario o de vacaciones — tus llamadas siempre se atienden."
+      },
+      {
+        "title": "Activa en 48 horas",
+        "description": "Sin obras, sin instalaciones, sin cambiar tu numero de telefono. En 48 horas tu secretaria virtual esta operativa."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Que es una secretaria virtual y como funciona?",
+        "answer": "Una secretaria virtual es un agente profesional que atiende las llamadas de tu empresa en tu nombre, como si fuera tu propia recepcionista. El cliente llama a tu numero habitual, el agente responde con el nombre de tu empresa y gestiona la llamada segun tu protocolo."
+      },
+      {
+        "question": "Es mejor una secretaria virtual humana o con IA?",
+        "answer": "Depende del tipo de llamadas. Para consultas simples, confirmacion de citas y cobertura fuera de horario, la IA es mas eficiente y economica. Para primeras visitas, situaciones complejas o clientes exigentes, un agente humano nativo da mejor resultado. Minute Call ofrece los dos modelos y tambien la combinacion."
+      },
+      {
+        "question": "Cuanto cuesta una secretaria virtual en Espana?",
+        "answer": "Con Minute Call, desde 250 euros/mes para hasta 200 llamadas en horario comercial. El Plan Business (490 euros/mes) incluye cobertura 24/7 y hasta 600 llamadas. Sin costes de activacion, sin permanencia."
+      },
+      {
+        "question": "En que se diferencia Minute Call de Secretaria.es?",
+        "answer": "Minute Call tiene agentes nativos basados en Espana, precios transparentes publicados en la web, especializacion por sector y activacion en 48 horas. Secretaria.es es la marca espanola de ebuero, empresa alemana, sin precios publicados y orientada al mercado europeo en general."
+      },
+      {
+        "question": "Puedo usar la secretaria virtual solo en vacaciones o picos de trabajo?",
+        "answer": "Si. El servicio es mes a mes sin permanencia. Puedes activarlo cuando lo necesites y cancelarlo cuando no. Muchos profesionales lo usan de forma estacional o durante periodos de alta demanda."
+      },
+      {
+        "question": "Los clientes saben que no es mi propia secretaria?",
+        "answer": "No si no quieres. Nuestros agentes usan el nombre de tu empresa, tu tono y tu protocolo. El 80% de los clientes de nuestros usuarios no perciben que es un servicio externo."
+      }
+    ]
   }
 ]
