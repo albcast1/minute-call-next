@@ -12,7 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/sobre-nosotros`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/reserva-llamada`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/articulos`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
-    { url: `${baseUrl}/precios`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/politica-privacidad`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.3 },
     { url: `${baseUrl}/politica-cookies`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.3 },
   ]
