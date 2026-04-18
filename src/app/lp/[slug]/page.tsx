@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Metadata } from "next";
 import sectors from "@/data/sectors.json";
-import { FAQPageSchema, BreadcrumbSchema } from "@/components/JsonLd";
+import { FAQPageSchema, BreadcrumbSchema , ServiceSchema, ReviewSchema } from "@/components/JsonLd";
 import VideoCard from "@/components/VideoCard";
 
 export async function generateStaticParams() {
@@ -56,6 +56,17 @@ export default async function LandingPage({
   return (
     <>
       <FAQPageSchema faqs={sector.faq.map(f => ({ question: f.question, answer: f.answer ?? "" }))} />
+      <ServiceSchema
+        name={sector.title}
+        description={sector.heroSubtitle}
+        sector={sector.sector}
+      />
+      <ReviewSchema
+        author={sector.testimonial.author}
+        reviewBody={sector.testimonial.quote}
+        ratingValue={5}
+        itemReviewed={sector.title}
+      />
       <BreadcrumbSchema items={[
         { name: "Inicio", url: "https://www.minute-call.com" },
         { name: sector.title, url: `https://www.minute-call.com/lp/${sector.slug}` }
