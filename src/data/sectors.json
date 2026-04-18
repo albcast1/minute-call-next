@@ -228,11 +228,11 @@
     "slug": "recepcionista-ia-abogados",
     "sector": "despachos de abogados",
     "title": "Recepcionista Virtual para despachos de abogados.",
-    "metaTitle": "Secretaria virtual para despachos de abogados | minute call",
-    "metaDescription": "Secretaria virtual especializada para despachos de abogados en Espana. Discrecion, confidencialidad y protocolo juridico. Agentes nativos. Desde 250 euros/mes. Sin permanencia.",
-    "heroTag": "Secretaria virtual para abogados y despachos juridicos",
-    "heroSubtitle": "Agentes formados en terminologia juridica atienden tus llamadas con discrecion. Cualifican nuevos asuntos, gestionan tu agenda y representan tu despacho con la seriedad que el sector exige.",
-    "socialProof": "Los despachos de abogados que usan Minute Call captan entre un 20-40% mas de consultas de nuevos clientes al atender todas las llamadas durante juicios, reuniones y fuera de horario.",
+    "metaTitle": "Recepcionista Virtual para abogados | Atención telefónica segura 24/7 - minute call",
+    "metaDescription": "Recepcionista virtual para despachos de abogados con máxima confidencialidad. Gestiona urgencias, filtra por prioridad y protege datos RGPD. Agentes nativos o IA — tú eliges.",
+    "heroTag": "Atención telefónica para despachos de abogados · Agentes nativos o IA",
+    "heroSubtitle": "Atendemos llamadas urgentes con total confidencialidad garantizada. Filtrado por prioridad, derivación inteligente y protección RGPD. No pierdas leads de alto valor por no estar disponible. Agentes nativos o IA — tú eliges.",
+    "socialProof": "Más de 45 despachos de abogados confían en nuestra atención telefónica · Partners de Teleperformance",
     "testimonial": {
       "quote": "La IA de Minute Call nos permite atender urgencias legales sin que se pierda una sola llamada. La confidencialidad está completamente garantizada y los clientes perciben una imagen mucho más profesional.",
       "author": "Laura Fernández",
@@ -297,8 +297,7 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para noches y fines de semana; humanos nativos para horario comercial y primeras llamadas."
       }
-    ],
-    "heroTitle": "Secretaria virtual para tu despacho."
+    ]
   },
   {
     "slug": "recepcionista-ia-clinicas-dentales",
@@ -379,11 +378,11 @@
     "slug": "recepcionista-ia-asesorias",
     "sector": "asesorías y gestorías",
     "title": "Recepcionista Virtual para asesorías y gestorías.",
-    "metaTitle": "Secretaria virtual para empresas en Espana | Sin permanencia | minute call",
-    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Atiende tus llamadas, gestiona citas y cualifica leads. Desde 250 euros/mes. Sin permanencia. Activa en 48h.",
+    "metaTitle": "Secretaria virtual para empresas y autonomos | minute call",
+    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Para PYMES, autonomos y profesionales independientes. Desde 250 euros/mes. Sin permanencia. Activa en 48h.",
     "heroTag": "Secretaria virtual para empresas y autonomos",
-    "heroSubtitle": "Agentes nativos en Espana atienden tus llamadas como si fueran de tu empresa. Sin contratar personal, sin permanencia. Desde 250 euros/mes.",
-    "socialProof": "Las empresas que contratan una secretaria virtual con Minute Call recuperan de media un 35% de las llamadas que antes perdian fuera de horario. Sin los costes de contratar personal.",
+    "heroSubtitle": "Abril, junio y diciembre sobrecargan tu equipo. La IA cubre los picos: informa estado de trámites, captura nuevos clientes, filtra consultas repetitivas. Agentes nativos o IA — tú eliges.",
+    "socialProof": "Más de 85 asesorías confían en nuestra atención telefónica · Partners de Teleperformance",
     "testimonial": {
       "quote": "En picos fiscales recibimos 5 veces más llamadas. Con Minute Call no perdemos un solo cliente potencial y nuestro equipo puede enfocarse en el trabajo técnico sin estar saturado de teléfono.",
       "author": "Patricia Gómez",
@@ -448,8 +447,7 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA todo el año para consultas rutinarias y refuerzo humano en períodos de campaña fiscal."
       }
-    ],
-    "heroTitle": "Secretaria virtual para tu empresa."
+    ]
   },
   {
     "slug": "recepcionista-ia-veterinarias",
@@ -3374,6 +3372,78 @@
       {
         "question": "¿Puedo configurar reglas por horario?",
         "answer": "Sí. Humano de 9 a 19h, IA de noche, desvío a tu móvil en horario VIP. Sin coste extra."
+      }
+    ]
+  },
+  {
+    "slug": "recepcion-de-llamadas",
+    "sector": "Recepcion de llamadas",
+    "title": "Servicio de recepcion de llamadas para empresas.",
+    "metaTitle": "Servicio de recepcion de llamadas para empresas | minute call",
+    "metaDescription": "Recepcion de llamadas profesional para empresas en Espana. Agentes nativos o IA atienden en nombre de tu empresa. Sin permanencia, desde 250 euros/mes. Activa en 48h.",
+    "heroTag": "Recepcion de llamadas para empresas y PYMES",
+    "heroTitle": "Recepcion de llamadas para tu empresa.",
+    "heroSubtitle": "Agentes nativos en Espana atienden todas las llamadas de tu empresa como si fueran de tu propio equipo. Filtrado, mensajes, citas y cualificacion de leads. Sin contratar personal.",
+    "socialProof": "El 78% de los clientes contratan con el primer proveedor que les responde. Con Minute Call, ninguna llamada queda sin respuesta — ni en hora punta, ni fuera de horario, ni en vacaciones.",
+    "testimonial": {
+      "quote": "Pasamos de perder el 40% de las llamadas a responder el 98%. El ROI se vio en el primer mes.",
+      "author": "Miguel A.",
+      "role": "Director de operaciones, empresa de servicios en Madrid"
+    },
+    "features": [
+      {
+        "title": "Disponible 24/7",
+        "description": "Tus clientes llaman cuando ellos pueden, no solo cuando estas disponible. Captura leads en cualquier momento."
+      },
+      {
+        "title": "Agentes nativos en Espana",
+        "description": "A diferencia de call centers con agentes en LATAM, nuestros agentes estan basados en Espana y conocen el contexto local."
+      },
+      {
+        "title": "Protocolo personalizado",
+        "description": "Los agentes se forman en tu empresa: nombre comercial, productos, preguntas frecuentes y protocolo de derivacion."
+      },
+      {
+        "title": "Sin permanencia",
+        "description": "Mes a mes, cancela cuando quieras. Sin contratos de 12 meses ni penalizaciones por salida anticipada."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Que es un servicio de recepcion de llamadas?",
+        "answer": "Es un servicio externo donde agentes profesionales atienden las llamadas de tu empresa en tu nombre, siguiendo tu protocolo. El cliente llama a tu numero habitual y los agentes responden como si fueran de tu empresa."
+      },
+      {
+        "question": "En que se diferencia de un contestador automatico?",
+        "answer": "Un contestador automatico genera rechazo en el 70% de los llamantes — la mayoria cuelgan sin dejar mensaje. Un agente humano o IA bien configurado retiene al cliente, recoge la informacion necesaria y convierte la llamada en una oportunidad."
+      },
+      {
+        "question": "Cuanto cuesta un servicio de recepcion de llamadas en Espana?",
+        "answer": "Con Minute Call, desde 250 euros/mes para hasta 200 llamadas mensuales en horario comercial. Para cobertura 24/7, el Plan Business cuesta 490 euros/mes. Sin costes de activacion ni permanencia."
+      },
+      {
+        "question": "Cuanto tarda en activarse?",
+        "answer": "Menos de 48 horas desde que firmas. Definimos el protocolo contigo, configuramos el desvio de llamadas a tu numero existente y el servicio esta operativo. Sin cambiar tu numero publico."
+      },
+      {
+        "question": "Puede el servicio atender en varios idiomas?",
+        "answer": "Si. Minute Call atiende en espanol, ingles y frances con agentes nativos. Para empresas con clientes internacionales, configuramos la atencion segun el idioma del llamante."
+      },
+      {
+        "question": "Que pasa con las llamadas fuera de horario?",
+        "answer": "Configuras exactamente que hacer: agente humano 24/7, IA fuera de horario, toma de mensajes o desvio a urgencias. Cada franja horaria puede tener un protocolo distinto segun las necesidades de tu negocio."
+      },
+      {
+        "question": "Los clientes saben que es un servicio externo?",
+        "answer": "No si no quieres. El 80% de los clientes de nuestros usuarios no saben que es un servicio externo. Los agentes usan el nombre de tu empresa, tu protocolo y tu tono de voz."
+      },
+      {
+        "question": "Es compatible con mi sistema de CRM o agenda?",
+        "answer": "Si. Nos integramos con Google Calendar, Outlook, Salesforce, HubSpot y la mayoria de CRMs con acceso web. Los agentes registran cada llamada directamente en tu sistema."
+      },
+      {
+        "question": "Que diferencia hay entre recepcion de llamadas y call center?",
+        "answer": "Un call center gestiona volumen masivo con scripts estandar para muchas empresas. La recepcion de llamadas personalizada de Minute Call actua como tu propia recepcionista: con tu nombre, tu protocolo y conocimiento real de tu negocio."
       }
     ]
   }
