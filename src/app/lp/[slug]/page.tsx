@@ -68,6 +68,22 @@ export default async function LandingPage({
         reviewBody={sector.testimonial.quote}
         ratingValue={5}
       />
+      {/* Trustpilot Badge */}
+      <div style={{ textAlign: 'center', padding: '8px 0 24px' }}>
+        <div
+          className="trustpilot-widget"
+          data-locale="es-ES"
+          data-template-id="5419b6a8b0d04a076446a9ad"
+          data-businessunit-id="6787b0c65bf6d2f1e91ee1a2"
+          data-style-height="24px"
+          data-style-width="100%"
+          data-theme="light"
+        >
+          <a href="https://es.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, color: '#00b67a', fontWeight: 600 }}>
+            ⭐ 5.0 en Trustpilot
+          </a>
+        </div>
+      </div>
       <BreadcrumbSchema items={[
         { name: "Inicio", url: "https://www.minute-call.com" },
         { name: sector.title, url: `https://www.minute-call.com/lp/${sector.slug}` }
