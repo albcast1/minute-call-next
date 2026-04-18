@@ -60,9 +60,6 @@ export default async function LandingPage({
         services={[{
           name: sector.title,
           description: sector.heroSubtitle,
-          provider: 'minute call',
-          areaServed: 'España',
-          url: `https://www.minute-call.com/lp/${sector.slug}`,
         }]}
       />
       <ReviewSchema
