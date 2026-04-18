@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import articles from "@/data/articles.json";
-import { ArticleSchema, BreadcrumbSchema } from "@/components/JsonLd";
+import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/JsonLd";
 
 export async function generateStaticParams() {
   return articles.map((article) => ({
@@ -174,6 +174,9 @@ export default async function ArticlePage({
         description={article.metaDescription}
         slug={`articulos/${article.slug}`}
       />
+      {article.faq && article.faq.length > 0 && (
+        <FAQPageSchema faqs={article.faq.map((f: {question: string; answer: string}) => ({ question: f.question, answer: f.answer }))} />
+      )}
       <BreadcrumbSchema
         items={[
           { name: "Inicio", url: "https://www.minute-call.com" },
