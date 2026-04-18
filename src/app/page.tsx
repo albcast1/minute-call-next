@@ -49,6 +49,19 @@ export default function Home() {
   return (
     <>
       <FAQPageSchema faqs={faqs.map(f => ({ question: f.q, answer: f.a }))} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        name: 'Cómo funciona Minute Call — Recepcionista virtual para PYMES',
+        description: 'En este vídeo te explicamos cómo Minute Call atiende las llamadas de tu empresa con agentes nativos o IA, gestionando citas y leads en nombre de tu negocio.',
+        thumbnailUrl: 'https://www.minute-call.com/og-image.png',
+        uploadDate: '2024-01-01',
+        publisher: {
+          '@type': 'Organization',
+          '@id': 'https://www.minute-call.com/#organization',
+          name: 'minute call',
+        },
+      }) }} />
       <LocalBusinessSchema />
       <HowToSchema steps={[
         { name: "Definici\u00f3n del flujo", text: "Personalizamos contigo el gui\u00f3n de llamada y acciones del agente." },
