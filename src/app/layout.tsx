@@ -55,7 +55,7 @@ const websiteSchema = {
   '@id': 'https://www.minute-call.com/#website',
   name: 'minute call',
   url: 'https://www.minute-call.com',
-  description: 'Servicio de recepcionista virtual y atención telefónica 24/7 para PYMES en España. Agentes nativos o IA. Sin permanencia. Desde 250 €/mes.',
+  description: 'Servicio de atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA. Sin permanencia.',
   inLanguage: 'es',
   publisher: {
     '@type': 'Organization',
