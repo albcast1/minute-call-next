@@ -378,9 +378,9 @@
     "slug": "recepcionista-ia-asesorias",
     "sector": "asesorías y gestorías",
     "title": "Recepcionista Virtual para asesorías y gestorías.",
-    "metaTitle": "Secretaria virtual para empresas | Sin permanencia | minute call",
-    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Atencion de llamadas, agenda y gestion de citas para PYMES. Desde 250 euros/mes. Sin permanencia. Activa en 48h.",
-    "heroTag": "Secretaria virtual para PYMES",
+    "metaTitle": "Secretaria virtual para empresas y autonomos | minute call",
+    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Para PYMES, autonomos y profesionales independientes. Desde 250 euros/mes. Sin permanencia. Activa en 48h.",
+    "heroTag": "Secretaria virtual para empresas y autonomos",
     "heroSubtitle": "Abril, junio y diciembre sobrecargan tu equipo. La IA cubre los picos: informa estado de trámites, captura nuevos clientes, filtra consultas repetitivas. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 85 asesorías confían en nuestra atención telefónica · Partners de Teleperformance",
     "testimonial": {
@@ -3003,10 +3003,10 @@
     "slug": "call-center-para-empresas",
     "sector": "Call Center para Empresas",
     "title": "Soluciones de Call Center Profesional para tu Empresa.",
-    "metaTitle": "Call Center para Empresas | Recepción Telefónica Profesional | Minute Call",
-    "metaDescription": "Call center profesional para empresas con agentes bilingües disponibles 24/7. Gestiona tus llamadas sin inversión. Desde 250€/mes sin permanencia. Agentes nativos o IA — tú eliges.",
-    "heroTag": "CALL CENTER ESCALABLE · Agentes nativos o IA",
-    "heroSubtitle": "Gestiona el volumen de llamadas de tu empresa sin infraestructura propia. Nuestros agentes profesionales atienden a tus clientes como si fueran parte de tu equipo, con scripts personalizados y disponibilidad 24/7. Agentes nativos o IA — tú eliges.",
+    "metaTitle": "Call center para PYMES en Espana: la alternativa flexible | minute call",
+    "metaDescription": "Call center para PYMES sin los contratos de Teleperformance o Konecta. Agentes nativos, sin permanencia, desde 250 euros/mes. La alternativa ligera y flexible para empresas espanolas.",
+    "heroTag": "Call center para PYMES: la alternativa a los grandes",
+    "heroSubtitle": "Todo lo que necesita una PYME en atencion telefonica — sin los contratos de los grandes call centers. Agentes nativos en Espana, sin permanencia, activa en 48 horas.",
     "socialProof": "Más de 500 empresas españolas confían en Minute Call para gestionar sus llamadas entrantes y mejorar la experiencia de cliente · Partners de Teleperformance",
     "testimonial": {
       "quote": "Desde que usamos Minute Call, hemos reducido el tiempo de respuesta a nuestros clientes un 75%. Sin costo de inversión inicial.",
@@ -3153,10 +3153,10 @@
     "slug": "call-center-24-horas",
     "sector": "Call Center 24 Horas",
     "title": "Servicio de Call Center 24 Horas sin Pausas.",
-    "metaTitle": "Call Center 24 Horas | Atención Telefónica 24/7 | Minute Call",
-    "metaDescription": "Atención telefónica profesional 24 horas, 7 días a la semana. Recepción continua con agentes en múltiples zonas horarias. Desde 250€/mes. Agentes nativos o IA — tú eliges.",
-    "heroTag": "DISPONIBILIDAD 24/7 · Agentes nativos o IA",
-    "heroSubtitle": "Tus clientes nunca encontrarán un buzón de voz sin respuesta. Disponemos de agentes distribuidos en diferentes zonas horarias para garantizar respuesta inmediata a cualquier hora del día o noche. Agentes nativos o IA — tú eliges.",
+    "metaTitle": "Atencion telefonica 24 horas para PYMES | Servicio 24/7 | minute call",
+    "metaDescription": "Servicio de atencion telefonica 24 horas para PYMES en Espana. Nunca pierdas una llamada fuera de horario. Agentes nativos o IA. Desde 490 euros/mes. Sin permanencia.",
+    "heroTag": "Atencion telefonica 24 horas para empresas",
+    "heroSubtitle": "Servicio de atencion telefonica 24/7 para PYMES. Tus clientes siempre encontraran respuesta, incluso a las 3 de la madrugada. Agentes nativos o IA — tu eliges.",
     "socialProof": "Más de 400 empresas confían en nuestro servicio 24/7 para no perder ni una sola llamada, mejorando satisfacción de cliente hasta 85% · Partners de Teleperformance",
     "testimonial": {
       "quote": "Con nuestros clientes en distintas zonas horarias, necesitábamos atención 24 horas. Minute Call fue la solución perfecta sin costo de infraestructura.",
@@ -3222,7 +3222,8 @@
         "question": "¿Puedo activar solo cuando la necesite?",
         "answer": "Sí. Permanente o solo en períodos específicos. Mes a mes."
       }
-    ]
+    ],
+    "heroTitle": "Call center 24 horas para tu empresa."
   },
   {
     "slug": "outsourcing-atencion-cliente",
