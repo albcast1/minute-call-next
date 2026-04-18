@@ -37,6 +37,15 @@ export const OrganizationSchema: React.FC = () => {
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 };
 
+interface PersonSchemaProps {
+  name: string;
+  jobTitle: string;
+  id?: string;
+  description?: string;
+  sameAs?: string[];
+  knowsAbout?: string[];
+}
+
 export const PersonSchema: React.FC<PersonSchemaProps> = ({
   name,
   jobTitle,
