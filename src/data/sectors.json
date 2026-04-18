@@ -228,11 +228,11 @@
     "slug": "recepcionista-ia-abogados",
     "sector": "despachos de abogados",
     "title": "Recepcionista Virtual para despachos de abogados.",
-    "metaTitle": "Recepcionista Virtual para abogados | Atención telefónica segura 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para despachos de abogados con máxima confidencialidad. Gestiona urgencias, filtra por prioridad y protege datos RGPD. Agentes nativos o IA — tú eliges.",
-    "heroTag": "Atención telefónica para despachos de abogados · Agentes nativos o IA",
-    "heroSubtitle": "Atendemos llamadas urgentes con total confidencialidad garantizada. Filtrado por prioridad, derivación inteligente y protección RGPD. No pierdas leads de alto valor por no estar disponible. Agentes nativos o IA — tú eliges.",
-    "socialProof": "Más de 45 despachos de abogados confían en nuestra atención telefónica · Partners de Teleperformance",
+    "metaTitle": "Secretaria virtual para despachos de abogados | minute call",
+    "metaDescription": "Secretaria virtual especializada para despachos de abogados en Espana. Discrecion, confidencialidad y protocolo juridico. Agentes nativos. Desde 250 euros/mes. Sin permanencia.",
+    "heroTag": "Secretaria virtual para abogados y despachos juridicos",
+    "heroSubtitle": "Agentes formados en terminologia juridica atienden tus llamadas con discrecion. Cualifican nuevos asuntos, gestionan tu agenda y representan tu despacho con la seriedad que el sector exige.",
+    "socialProof": "Los despachos de abogados que usan Minute Call captan entre un 20-40% mas de consultas de nuevos clientes al atender todas las llamadas durante juicios, reuniones y fuera de horario.",
     "testimonial": {
       "quote": "La IA de Minute Call nos permite atender urgencias legales sin que se pierda una sola llamada. La confidencialidad está completamente garantizada y los clientes perciben una imagen mucho más profesional.",
       "author": "Laura Fernández",
@@ -297,7 +297,8 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para noches y fines de semana; humanos nativos para horario comercial y primeras llamadas."
       }
-    ]
+    ],
+    "heroTitle": "Secretaria virtual para tu despacho."
   },
   {
     "slug": "recepcionista-ia-clinicas-dentales",
@@ -378,11 +379,11 @@
     "slug": "recepcionista-ia-asesorias",
     "sector": "asesorías y gestorías",
     "title": "Recepcionista Virtual para asesorías y gestorías.",
-    "metaTitle": "Secretaria virtual para empresas y autonomos | minute call",
-    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Para PYMES, autonomos y profesionales independientes. Desde 250 euros/mes. Sin permanencia. Activa en 48h.",
+    "metaTitle": "Secretaria virtual para empresas en Espana | Sin permanencia | minute call",
+    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Atiende tus llamadas, gestiona citas y cualifica leads. Desde 250 euros/mes. Sin permanencia. Activa en 48h.",
     "heroTag": "Secretaria virtual para empresas y autonomos",
-    "heroSubtitle": "Abril, junio y diciembre sobrecargan tu equipo. La IA cubre los picos: informa estado de trámites, captura nuevos clientes, filtra consultas repetitivas. Agentes nativos o IA — tú eliges.",
-    "socialProof": "Más de 85 asesorías confían en nuestra atención telefónica · Partners de Teleperformance",
+    "heroSubtitle": "Agentes nativos en Espana atienden tus llamadas como si fueran de tu empresa. Sin contratar personal, sin permanencia. Desde 250 euros/mes.",
+    "socialProof": "Las empresas que contratan una secretaria virtual con Minute Call recuperan de media un 35% de las llamadas que antes perdian fuera de horario. Sin los costes de contratar personal.",
     "testimonial": {
       "quote": "En picos fiscales recibimos 5 veces más llamadas. Con Minute Call no perdemos un solo cliente potencial y nuestro equipo puede enfocarse en el trabajo técnico sin estar saturado de teléfono.",
       "author": "Patricia Gómez",
@@ -447,7 +448,8 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA todo el año para consultas rutinarias y refuerzo humano en períodos de campaña fiscal."
       }
-    ]
+    ],
+    "heroTitle": "Secretaria virtual para tu empresa."
   },
   {
     "slug": "recepcionista-ia-veterinarias",
