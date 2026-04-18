@@ -25,7 +25,7 @@ export default function SobreNosotros() {
         jobTitle="Co-fundador de minute call"
         description={albertoDesc}
         sameAs={["https://www.linkedin.com/in/alberto-castiel/"]}
-        knowsAbout={["Atencion telefonica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO y externalizacion","Cualificacion de leads","Operaciones de startup
+        knowsAbout={["Atencion telefonica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO","Cualificacion de leads","Operaciones de startups"]}
       <ReviewSchema
         authorName="Maria Monsalve"
         authorRole="Directora de Clinica"
