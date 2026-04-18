@@ -55,7 +55,7 @@ export default async function LandingPage({
 
   return (
     <>
-      <FAQPageSchema faqs={sector.faq.map(f => ({ question: f.question, answer: f.answer ?? "" }))} />
+      <FAQPageSchema faqs={sector.faq.slice(4).map(f => ({ question: f.question, answer: f.answer ?? "" }))} />
       <ServiceSchema
         services={[{
           name: sector.title,
@@ -251,7 +251,7 @@ export default async function LandingPage({
             textAlign: "left",
           }}
         >
-          {sector.faq.map((faq, index) => (
+          {sector.faq.slice(4).map((faq, index) => (
             <details
               key={index}
               style={{ padding: "24px 0", borderBottom: "1px solid rgba(0,0,0,0.08)" }}
