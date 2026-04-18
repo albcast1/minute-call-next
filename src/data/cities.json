@@ -44,7 +44,9 @@
         "slug": "recepcionista-ia-seguros",
         "title": "Recepcionista Virtual para seguros y corredurías."
       }
-    ]
+    ],
+    "sectorContext": "Madrid concentra el 15% de las PYMES espanolas y tiene la mayor densidad de clinicas privadas, despachos de abogados y consultoras del pais. La competencia por captar clientes es maxima y cada llamada perdida se convierte en una oportunidad para la competencia.",
+    "uniqueStat": "420.000+ PYMES"
   },
   {
     "slug": "barcelona",
@@ -91,7 +93,9 @@
         "slug": "recepcionista-ia-restaurantes",
         "title": "Recepcionista Virtual para restaurantes."
       }
-    ]
+    ],
+    "sectorContext": "Barcelona lidera en empresas tecnologicas, diseno y turismo internacional. Las empresas barcelonesas reciben llamadas en catalan, castellano e ingles, y la primera impresion telefonica es determinante para captar clientes de alto valor.",
+    "uniqueStat": "280.000+ empresas"
   },
   {
     "slug": "valencia",
@@ -138,7 +142,9 @@
         "slug": "recepcionista-ia-talleres-mecanicos",
         "title": "Recepcionista Virtual para Talleres Mecánicos."
       }
-    ]
+    ],
+    "sectorContext": "Valencia destaca en empresas de importacion-exportacion, sector inmobiliario costero y turismo. El mercado valenciano es muy competitivo en los sectores de salud y servicios profesionales, donde la rapidez de respuesta define quien se lleva el cliente.",
+    "uniqueStat": "190.000+ empresas"
   },
   {
     "slug": "sevilla",
@@ -185,7 +191,9 @@
         "slug": "recepcionista-ia-abogados",
         "title": "Recepcionista Virtual para despachos de abogados."
       }
-    ]
+    ],
+    "sectorContext": "Sevilla es el hub economico del sur de Espana, con fuerte presencia de despachos de abogados, asesorias y empresas de turismo. La cultura empresarial sevillana valora especialmente la atencion personalizada y el trato cercano.",
+    "uniqueStat": "120.000+ empresas"
   },
   {
     "slug": "malaga",
@@ -232,7 +240,9 @@
         "slug": "recepcionista-ia-centros-estetica",
         "title": "Recepcionista Virtual para centros de estética."
       }
-    ]
+    ],
+    "sectorContext": "Malaga ha experimentado el mayor crecimiento economico de Espana en los ultimos anos, impulsado por el sector tech (Silicon Coast), el turismo internacional y el mercado inmobiliario de lujo. Los negocios atienden clientes de mas de 50 nacionalidades.",
+    "uniqueStat": "95.000+ empresas"
   },
   {
     "slug": "bilbao",
@@ -275,7 +285,9 @@
         "slug": "recepcionista-ia-seguros",
         "title": "Recepcionista Virtual para seguros y corredurías."
       }
-    ]
+    ],
+    "sectorContext": "Bilbao y el Pais Vasco tienen el PIB per capita mas alto de Espana. Las empresas vascas priorizan la calidad sobre el precio y tienen alta exigencia en la atencion al cliente. Sectores industriales, juridicos y financieros dominan el tejido empresarial.",
+    "uniqueStat": "85.000+ empresas"
   },
   {
     "slug": "zaragoza",
@@ -322,7 +334,9 @@
         "slug": "recepcionista-ia-restaurantes",
         "title": "Recepcionista Virtual para restaurantes."
       }
-    ]
+    ],
+    "sectorContext": "Zaragoza es hub logistico de Espana por su posicion central entre Madrid, Barcelona y el norte. El sector del transporte, la logistica y la industria automovilistica son los principales demandantes de atencion telefonica profesional.",
+    "uniqueStat": "75.000+ empresas"
   },
   {
     "slug": "murcia",
@@ -369,7 +383,9 @@
         "slug": "recepcionista-ia-veterinarias",
         "title": "Recepcionista Virtual para veterinarias."
       }
-    ]
+    ],
+    "sectorContext": "Murcia destaca en el sector agroalimentario, construccion y servicios sanitarios. La region tiene una de las tasas de crecimiento empresarial mas altas del pais, con muchas PYMES familiares que necesitan profesionalizar su atencion telefonica.",
+    "uniqueStat": "70.000+ empresas"
   },
   {
     "slug": "palma-de-mallorca",
@@ -416,7 +432,9 @@
         "slug": "recepcionista-ia-centros-estetica",
         "title": "Recepcionista Virtual para centros de estética."
       }
-    ]
+    ],
+    "sectorContext": "Palma y las Islas Baleares tienen la economia mas dependiente del turismo de Espana, pero tambien un sector inmobiliario de lujo muy activo. Los negocios atienden a clientes alemanes, britanicos y escandinavos y necesitan atencion multilingue.",
+    "uniqueStat": "60.000+ empresas"
   },
   {
     "slug": "las-palmas",
@@ -463,7 +481,9 @@
         "slug": "recepcionista-ia-empresas-limpieza",
         "title": "Recepcionista Virtual para Empresas de Limpieza."
       }
-    ]
+    ],
+    "sectorContext": "Las Palmas de Gran Canaria es el principal hub economico de Canarias, con un sector turistico internacional muy potente y un regimen fiscal especial (ZEC) que atrae empresas internacionales. La atencion en ingles y aleman es fundamental.",
+    "uniqueStat": "55.000+ empresas"
   },
   {
     "slug": "alicante",
