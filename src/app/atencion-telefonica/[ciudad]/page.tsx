@@ -373,6 +373,22 @@ export default async function CityPage({
         <Link href="/reserva-llamada" className="btn-cta">
           Reserva una llamada
         </Link>
+      
+
+      {/* Top sectores en esta ciudad */}
+      {city.topSectors && city.topSectors.length > 0 && (
+        <section style={{ maxWidth: 900, margin: '0 auto', padding: '48px 24px 0' }}>
+          <h2 style={{ fontSize: 22, fontWeight: 600, marginBottom: 8 }}>Sectores que más nos llaman desde {city.city}</h2>
+          <p style={{ color: '#666', marginBottom: 24, fontSize: 15 }}>Si tienes un negocio en {city.city}, estos son los sectores que más se benefician de nuestro servicio de atención telefónica.</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 12 }}>
+            {city.topSectors.map((sector: {slug: string; title: string}) => (
+              <a key={sector.slug} href={`/lp/${sector.slug}`} style={{ display: 'block', padding: '16px 20px', border: '1px solid #e5e5e5', borderRadius: 12, textDecoration: 'none', color: '#000', fontSize: 14, fontWeight: 500, transition: 'border-color 0.2s' }}>
+                {sector.title} →
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
       </section>
     </>
   );
