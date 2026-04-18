@@ -39,7 +39,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
   const sec = sectors.find(s => s.slug === sector)
   if (!city || !sec) return <div>Pagina no encontrada</div>
 
-  const faqs = sec.faq?.slice(0, 4) || []
+  const faqs = sec.faq?.slice(4, 9) || []
   const breadcrumbs = [
     { name: 'Inicio', url: 'https://www.minute-call.com' },
     { name: `Atencion telefonica en ${city.city}`, url: `https://www.minute-call.com/atencion-telefonica/${ciudad}` },
@@ -99,18 +99,17 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
           </p>
         </div>
 
-        {/* Features */}
-        {sec.features && (
+        {/* Social proof + testimonial - unique per sector */}
+        {sec.testimonial && (
           <div style={{ background: '#f9f9f9', padding: '64px 24px' }}>
             <div style={{ maxWidth: 900, margin: '0 auto' }}>
-              <h2 style={{ fontSize: 24, fontWeight: 700, marginBottom: 40 }}>Como funciona para {sec.sector} en {city.city}</h2>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 24 }}>
-                {(sec.features as { title: string; description: string }[]).map((feat, i) => (
-                  <div key={i} style={{ background: '#fff', borderRadius: 16, padding: 24, border: '1px solid #e5e5e5' }}>
-                    <h3 style={{ fontSize: 16, fontWeight: 700, marginBottom: 8 }}>{feat.title}</h3>
-                    <p style={{ fontSize: 14, color: '#666', lineHeight: 1.6 }}>{feat.description}</p>
-                  </div>
-                ))}
+              <h2 style={{ fontSize: 24, fontWeight: 700, marginBottom: 32 }}>Lo que dicen los {sec.sector} que nos usan</h2>
+              {sec.socialProof && <p style={{ fontSize: 16, color: '#555', marginBottom: 32, lineHeight: 1.7 }}>{sec.socialProof}</p>}
+              <div style={{ background: '#fff', borderRadius: 16, padding: 32, border: '1px solid #e5e5e5', maxWidth: 600 }}>
+                <div style={{ fontSize: 24, marginBottom: 12 }}>&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p style={{ fontSize: 16, fontStyle: 'italic', color: '#333', lineHeight: 1.7, marginBottom: 20 }}>"{(sec.testimonial as { quote: string; author: string; role: string }).quote}"</p>
+                <p style={{ fontWeight: 700, fontSize: 14 }}>{(sec.testimonial as { quote: string; author: string; role: string }).author}</p>
+                <p style={{ fontSize: 13, color: '#888' }}>{(sec.testimonial as { quote: string; author: string; role: string }).role}</p>
               </div>
             </div>
           </div>
