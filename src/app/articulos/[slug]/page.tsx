@@ -241,6 +241,19 @@ export default async function ArticlePage({
       )}
 
       {/* No CTA section - "No pierdas" text is only in the footer */}
-    </div>
+    
+      {article.relatedLinks && article.relatedLinks.length > 0 && (
+        <div style={{ marginTop: 48, padding: '32px', background: '#f9f9f9', borderRadius: 12 }}>
+          <p style={{ fontSize: 13, fontWeight: 600, color: '#666', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 16 }}>Servicios relacionados</p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
+            {article.relatedLinks.map((link: {href: string; label: string}) => (
+              <a key={link.href} href={link.href} style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid #000', borderRadius: 999, fontSize: 14, color: '#000', textDecoration: 'none', fontWeight: 500 }}>
+                {link.label} →
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+</div>
   );
 }
