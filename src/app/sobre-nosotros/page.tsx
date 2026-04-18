@@ -25,22 +25,22 @@ export default function SobreNosotros() {
         jobTitle="Co-fundador de minute call"
         description={albertoDesc}
         sameAs={["https://www.linkedin.com/in/alberto-castiel/"]}
-        knowsAbout={["Atención telefónica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO y externalización","Cualificación de leads","Operaciones de startup
+        knowsAbout={["Atencion telefonica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO y externalizacion","Cualificacion de leads","Operaciones de startup
       <ReviewSchema
-        authorName="María Monsalve"
-        authorRole="Directora de Clínica"
+        authorName="Maria Monsalve"
+        authorRole="Directora de Clinica"
         reviewBody={rev1Body}
         ratingValue={5}
       />
       <ReviewSchema
-        authorName="Carlos Fernández"
+        authorName="Carlos Fernandez"
         authorRole="Responsable de Inmobiliaria"
         reviewBody={rev2Body}
         ratingValue={5}
       />
       <ReviewSchema
-        authorName="Laura Martínez"
-        authorRole="Gerente de Asesoría"
+        authorName="Laura Martinez"
+        authorRole="Gerente de Asesoria"
         reviewBody={rev3Body}
         ratingValue={5}
       />
