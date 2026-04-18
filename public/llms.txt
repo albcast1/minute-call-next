@@ -23,7 +23,6 @@ Clínicas, despachos de abogados, inmobiliarias, clínicas dentales, asesorías,
 
 ## Páginas principales
 - Home: https://www.minute-call.com
-- Precios: https://www.minute-call.com/precios
 - Reserva una llamada: https://www.minute-call.com/reserva-llamada
 - Quiénes somos: https://www.minute-call.com/sobre-nosotros
 - Blog/Artículos: https://www.minute-call.com/articulos
