@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { PersonSchema } from "@/components/JsonLd";
+import { PersonSchema, ReviewSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Quiénes somos | minute call",
@@ -19,7 +19,24 @@ export default function SobreNosotros() {
         jobTitle="Co-fundador de minute call"
         description="Co-fundador de minute call, servicio de atención telefónica 24/7 para PYMES. Ex General Manager en Leocare (130M€ Series B). Experto en operaciones de call center, externalización y IA conversacional."
         sameAs={["https://www.linkedin.com/in/alberto-castiel/"]}
-        knowsAbout={["Atención telefónica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO y externalización","Cualificación de leads","Operaciones de startups"]}
+        knowsAbout={["Atención telefónica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO y externalización","Cualificación de leads","Operaciones de startup
+      <ReviewSchema
+        authorName="María Monsalve"
+        authorRole="Directora de Clínica"
+        reviewBody="Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdíamos fuera de horario y fines de semana."
+        ratingValue={5}
+      />
+      <ReviewSchema
+        authorName="Carlos Fernández"
+        authorRole="Responsable de Inmobiliaria"
+        reviewBody="La calidad de atención es indistinguible de tener una recepcionista propia. Nuestros clientes no saben que es un servicio externo."
+        ratingValue={5}
+      />
+      <ReviewSchema
+        authorName="Laura Martínez"
+        authorRole="Gerente de Asesoría"
+        reviewBody="En temporada de declaraciones, el volumen de llamadas se disparaba y perdíamos clientes. Ahora cada llamada se atiende, incluso a las 8 de la tarde."
+        ratingValue={5}
       />
       <PersonSchema
         id="https://www.minute-call.com/#beatriz-hernandez"
