@@ -19,6 +19,20 @@
         "question": "¿Puede una IA reemplazar completamente a un agente humano?",
         "answer": "Hoy no al 100%. La IA gestiona bien tareas repetitivas y cobertura fuera de horario, pero situaciones complejas, negociaciones o llamadas emocionales siguen requiriendo criterio humano."
       }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/recepcionista-ia-clinicas",
+        "label": "Recepcionista IA para clínicas"
+      },
+      {
+        "href": "/lp/recepcionista-ia-abogados",
+        "label": "Recepcionista IA para despachos"
+      },
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      }
     ]
   },
   {
@@ -40,6 +54,20 @@
       {
         "question": "¿Es complicado implementar un recepcionista virtual con IA?",
         "answer": "No. Con Minute Call, la activación se hace en menos de 48 horas. Solo necesitas redirigir tu número existente y definir el protocolo de atención. Sin cambios de infraestructura."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/recepcionista-ia-clinicas-dentales",
+        "label": "IA para clínicas dentales"
+      },
+      {
+        "href": "/lp/recepcionista-ia-inmobiliarias",
+        "label": "IA para inmobiliarias"
+      },
+      {
+        "href": "/precios",
+        "label": "Ver precios"
       }
     ]
   },
@@ -63,6 +91,20 @@
         "question": "¿Qué pasa cuando la IA no sabe responder una pregunta?",
         "answer": "Deriva la llamada a un agente humano o recoge un mensaje. Siempre según el protocolo que defines tú. Ninguna llamada se pierde."
       }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/recepcionista-ia-restaurantes",
+        "label": "IA para restaurantes"
+      },
+      {
+        "href": "/lp/recepcionista-ia-veterinarias",
+        "label": "IA para veterinarias"
+      },
+      {
+        "href": "/lp/centralita-virtual-empresas",
+        "label": "Centralita virtual"
+      }
     ]
   },
   {
@@ -84,6 +126,20 @@
       {
         "question": "¿Qué opción es más rápida de implementar?",
         "answer": "Ambas se activan en 48 horas con Minute Call. La IA no requiere formación de personal; el agente humano sí necesita un briefing inicial sobre tu empresa y protocolo."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
+        "href": "/lp/outsourcing-atencion-cliente",
+        "label": "Outsourcing atención al cliente"
+      },
+      {
+        "href": "/precios",
+        "label": "Ver precios y planes"
       }
     ]
   },
@@ -107,6 +163,20 @@
         "question": "¿Hay riesgos de tener atención 24/7 externalizada?",
         "answer": "El principal riesgo es una mala configuración del protocolo. Si no defines bien los casos de urgencia, el agente puede escalar innecesariamente. Por eso en Minute Call definimos el protocolo contigo antes de activar."
       }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/call-center-24-horas",
+        "label": "Call center 24 horas"
+      },
+      {
+        "href": "/lp/recepcionista-ia-cerrajerias",
+        "label": "Atención 24h para cerrajerías"
+      },
+      {
+        "href": "/lp/recepcionista-ia-veterinarias",
+        "label": "Urgencias para veterinarias"
+      }
     ]
   },
   {
@@ -128,6 +198,20 @@
       {
         "question": "¿Cuánto cuesta externalizar la atención telefónica en España?",
         "answer": "Con Minute Call, desde 250 €/mes. Los grandes call centers pueden cobrar más, pero trabajan con contratos largos y agentes en LATAM. Minute Call ofrece agentes nativos en España, sin permanencia."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/bpo-externalizacion",
+        "label": "BPO y externalización"
+      },
+      {
+        "href": "/lp/outsourcing-atencion-cliente",
+        "label": "Outsourcing atención al cliente"
+      },
+      {
+        "href": "/precios",
+        "label": "Comparar precios"
       }
     ]
   },
@@ -151,6 +235,20 @@
         "question": "¿El modelo híbrido es más caro que externalizar todo?",
         "answer": "Suele ser más económico que externalizar todo el volumen. Pagas por las llamadas que realmente gestionamos nosotros, no por las que atiende tu equipo."
       }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
+        "href": "/lp/centralita-virtual-empresas",
+        "label": "Centralita virtual"
+      },
+      {
+        "href": "/lp/outsourcing-atencion-cliente",
+        "label": "Outsourcing atención al cliente"
+      }
     ]
   },
   {
@@ -172,6 +270,20 @@
       {
         "question": "¿Qué pasa si no estoy satisfecho con el servicio?",
         "answer": "Con Minute Call puedes cancelar mes a mes sin penalización. No hay contratos largos. Si en el primer mes no ves resultados, te vas sin coste."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/recepcionista-ia-consultoria",
+        "label": "Para consultoras"
+      },
+      {
+        "href": "/lp/recepcionista-ia-abogados",
+        "label": "Para despachos de abogados"
+      },
+      {
+        "href": "/precios",
+        "label": "Ver planes y precios"
       }
     ]
   },
@@ -195,6 +307,16 @@
         "question": "¿Qué empresas necesitan atención telefónica multilingüe?",
         "answer": "Agencias de turismo, hoteles, inmobiliarias con clientes extranjeros, empresas de exportación, clínicas privadas y cualquier negocio que reciba llamadas internacionales con regularidad."
       }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/recepcionista-ia-turismo",
+        "label": "Para empresas de turismo"
+      },
+      {
+        "href": "/lp/recepcionista-ia-restaurantes",
+        "label": "Para restaurantes"
+      }
     ]
   },
   {
@@ -216,6 +338,20 @@
       {
         "question": "¿En inmobiliarias, vale la pena externalizar la atención telefónica?",
         "answer": "Absolutamente. Una llamada perdida puede ser una venta de 5.000-50.000 € de comisión. Nuestros agentes cualifican al comprador preguntando por presupuesto, zona y urgencia, para que tu comercial llame preparado."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/recepcionista-ia-clinicas",
+        "label": "Recepcionista para clínicas"
+      },
+      {
+        "href": "/lp/recepcionista-ia-abogados",
+        "label": "Recepcionista para despachos"
+      },
+      {
+        "href": "/lp/recepcionista-ia-inmobiliarias",
+        "label": "Recepcionista para inmobiliarias"
       }
     ]
   },
@@ -239,6 +375,20 @@
         "question": "¿Cómo afectan las interrupciones telefónicas a la productividad del equipo?",
         "answer": "Cada interrupción telefónica cuesta de media 20-23 minutos de pérdida de concentración. Con un equipo de 5 personas recibiendo 30 llamadas diarias, el impacto puede ser de 2-3 horas de productividad perdidas al día."
       }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
+        "href": "/lp/recepcionista-ia-clinicas",
+        "label": "Para clínicas"
+      },
+      {
+        "href": "/precios",
+        "label": "Ver precios"
+      }
     ]
   },
   {
@@ -260,6 +410,20 @@
       {
         "question": "¿Hay costes ocultos en los servicios de secretaria virtual?",
         "answer": "Algunos cobran por minuto, por llamada adicional, por activación o por soporte. En Minute Call el precio es fijo mensual sin costes ocultos. Sin permanencia ni penalización por cancelación."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/precios",
+        "label": "Ver todos los precios"
+      },
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
+        "href": "/lp/bpo-externalizacion",
+        "label": "BPO y externalización"
       }
     ]
   },
@@ -283,6 +447,20 @@
         "question": "¿Qué tipos de empresas más necesitan un call center 24/7?",
         "answer": "Cerrajerías, clínicas de urgencias, veterinarias, empresas de seguridad, turismo, transportes y cualquier negocio donde las emergencias o urgencias no esperan al horario comercial."
       }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/call-center-24-horas",
+        "label": "Call center 24 horas"
+      },
+      {
+        "href": "/lp/recepcionista-ia-cerrajerias",
+        "label": "Para cerrajerías"
+      },
+      {
+        "href": "/lp/recepcionista-ia-veterinarias",
+        "label": "Para veterinarias"
+      }
     ]
   },
   {
@@ -304,6 +482,20 @@
       {
         "question": "¿Cuánto cuesta un call center para una pyme en España?",
         "answer": "Desde 250 €/mes con Minute Call. Mucho más asequible que los call centers tradicionales, que cobran por minuto o exigen contratos anuales. Sin permanencia y con agentes nativos en España."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
+        "href": "/lp/bpo-externalizacion",
+        "label": "BPO y externalización"
+      },
+      {
+        "href": "/lp/centralita-virtual-empresas",
+        "label": "Centralita virtual"
       }
     ]
   },
@@ -327,6 +519,20 @@
         "question": "¿Cómo calculo si me sale rentable externalizar?",
         "answer": "Compara el coste del servicio con el valor de las llamadas que actualmente pierdes. Si cada lead vale 500 € y estás perdiendo 5 al mes, recuperar 1 sola llamada al mes cubre la inversión."
       }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/precios",
+        "label": "Ver precios detallados"
+      },
+      {
+        "href": "/lp/outsourcing-atencion-cliente",
+        "label": "Outsourcing atención cliente"
+      },
+      {
+        "href": "/lp/bpo-externalizacion",
+        "label": "BPO y externalización"
+      }
     ]
   },
   {
@@ -349,6 +555,20 @@
         "question": "¿Se puede combinar secretaría virtual y call center?",
         "answer": "Sí. Minute Call actúa como secretaría virtual en horario normal y como call center de desbordamiento en picos de llamadas. Un solo proveedor para ambas necesidades."
       }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
+        "href": "/lp/outsourcing-atencion-cliente",
+        "label": "Outsourcing atención cliente"
+      },
+      {
+        "href": "/precios",
+        "label": "Comparar precios"
+      }
     ]
   },
   {
@@ -370,6 +590,20 @@
       {
         "question": "¿Para qué tipo de pymes es útil una secretaría virtual?",
         "answer": "Para cualquier pyme de servicios que reciba más de 10-15 llamadas diarias: clínicas, despachos, inmobiliarias, consultorías, talleres, academias, etc. Si cada llamada perdida es un cliente perdido, necesitas una secretaría virtual."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/recepcionista-ia-clinicas",
+        "label": "Para clínicas"
+      },
+      {
+        "href": "/lp/recepcionista-ia-abogados",
+        "label": "Para despachos"
+      },
+      {
+        "href": "/precios",
+        "label": "Ver precios"
       }
     ]
   }
