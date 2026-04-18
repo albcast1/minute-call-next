@@ -22,7 +22,29 @@
     "stats": {
       "pymes": "420.000+",
       "callsLost": "25% de llamadas no atendidas"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-consultoria",
+        "title": "Recepcionista Virtual para consultoría y formación."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-seguros",
+        "title": "Recepcionista Virtual para seguros y corredurías."
+      }
+    ]
   },
   {
     "slug": "barcelona",
@@ -47,7 +69,29 @@
     "stats": {
       "pymes": "85.000+",
       "callsLost": "30% de oportunidades sin recepción profesional"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-consultoria",
+        "title": "Recepcionista Virtual para consultoría y formación."
+      },
+      {
+        "slug": "recepcionista-ia-turismo",
+        "title": "Recepcionista Virtual para agencias de viajes."
+      },
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      }
+    ]
   },
   {
     "slug": "valencia",
@@ -72,7 +116,29 @@
     "stats": {
       "pymes": "125.000+",
       "callsLost": "28% de llamadas en horarios pico"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-turismo",
+        "title": "Recepcionista Virtual para agencias de viajes."
+      },
+      {
+        "slug": "recepcionista-ia-talleres-mecanicos",
+        "title": "Recepcionista Virtual para Talleres Mecánicos."
+      }
+    ]
   },
   {
     "slug": "sevilla",
@@ -97,7 +163,29 @@
     "stats": {
       "pymes": "95.000+",
       "callsLost": "22% en horarios de comida y tardes"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-turismo",
+        "title": "Recepcionista Virtual para agencias de viajes."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      }
+    ]
   },
   {
     "slug": "malaga",
@@ -122,7 +210,29 @@
     "stats": {
       "pymes": "45.000+",
       "callsLost": "35% de llamadas B2B sin atención profesional"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-turismo",
+        "title": "Recepcionista Virtual para agencias de viajes."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-centros-estetica",
+        "title": "Recepcionista Virtual para centros de estética."
+      }
+    ]
   },
   {
     "slug": "bilbao",
@@ -147,7 +257,25 @@
     "stats": {
       "pymes": "78.000+",
       "callsLost": "20% de llamadas en períodos de expansión"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-consultoria",
+        "title": "Recepcionista Virtual para consultoría y formación."
+      },
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-seguros",
+        "title": "Recepcionista Virtual para seguros y corredurías."
+      }
+    ]
   },
   {
     "slug": "zaragoza",
@@ -172,7 +300,29 @@
     "stats": {
       "pymes": "65.000+",
       "callsLost": "40% de llamadas fuera de horario comercial"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-talleres-mecanicos",
+        "title": "Recepcionista Virtual para Talleres Mecánicos."
+      },
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      }
+    ]
   },
   {
     "slug": "murcia",
@@ -197,7 +347,29 @@
     "stats": {
       "pymes": "52.000+",
       "callsLost": "32% de llamadas internacionales en horarios locales"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-veterinarias",
+        "title": "Recepcionista Virtual para veterinarias."
+      }
+    ]
   },
   {
     "slug": "palma-de-mallorca",
@@ -222,7 +394,29 @@
     "stats": {
       "pymes": "38.000+",
       "callsLost": "45% de oportunidades en picos estacionales"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-turismo",
+        "title": "Recepcionista Virtual para agencias de viajes."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-clinicas-dentales",
+        "title": "Recepcionista Virtual para clínicas dentales."
+      },
+      {
+        "slug": "recepcionista-ia-centros-estetica",
+        "title": "Recepcionista Virtual para centros de estética."
+      }
+    ]
   },
   {
     "slug": "las-palmas",
@@ -247,7 +441,29 @@
     "stats": {
       "pymes": "30.000+",
       "callsLost": "38% sin atención distribuida en múltiples zonas horarias"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-turismo",
+        "title": "Recepcionista Virtual para agencias de viajes."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-empresas-limpieza",
+        "title": "Recepcionista Virtual para Empresas de Limpieza."
+      }
+    ]
   },
   {
     "slug": "alicante",
@@ -272,7 +488,29 @@
     "stats": {
       "pymes": "43.000+",
       "callsLost": "29% de consultas de clientes internacionales"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "valladolid",
@@ -297,7 +535,29 @@
     "stats": {
       "pymes": "50.000+",
       "callsLost": "33% en períodos de máxima producción"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "a-coruna",
@@ -322,7 +582,29 @@
     "stats": {
       "pymes": "36.000+",
       "callsLost": "26% de llamadas en coordinación logística"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "san-sebastian",
@@ -347,7 +629,29 @@
     "stats": {
       "pymes": "19.000+",
       "callsLost": "18% de reservas y consultas de clientes VIP"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "granada",
@@ -372,7 +676,29 @@
     "stats": {
       "pymes": "33.000+",
       "callsLost": "31% de consultas de estudiantes e internacionales"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "vigo",
@@ -398,7 +724,29 @@
     "stats": {
       "pymes": "5.200+",
       "callsLost": "35% de llamadas perdidas por cobertura insuficiente"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "gijon",
@@ -424,7 +772,29 @@
     "stats": {
       "pymes": "4.800+",
       "callsLost": "40% de llamadas no atendidas en temporada alta"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "santander",
@@ -450,7 +820,29 @@
     "stats": {
       "pymes": "3.500+",
       "callsLost": "32% de consultas sin respuesta durante horarios pico"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "pamplona",
@@ -476,7 +868,29 @@
     "stats": {
       "pymes": "4.200+",
       "callsLost": "38% de llamadas internacionales sin atender"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "vitoria-gasteiz",
@@ -502,7 +916,29 @@
     "stats": {
       "pymes": "3.800+",
       "callsLost": "36% de llamadas de distribuidores sin atender"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "logrono",
@@ -528,7 +964,29 @@
     "stats": {
       "pymes": "2.200+",
       "callsLost": "34% de consultas de importadores sin respuesta"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "cordoba",
@@ -554,7 +1012,29 @@
     "stats": {
       "pymes": "5.100+",
       "callsLost": "38% de reservas no procesadas por falta de atención"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "cadiz",
@@ -580,7 +1060,29 @@
     "stats": {
       "pymes": "3.900+",
       "callsLost": "40% de consultas operativas sin respuesta inmediata"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "castellon-de-la-plana",
@@ -606,7 +1108,29 @@
     "stats": {
       "pymes": "4.300+",
       "callsLost": "42% de contactos de importadores sin procesar"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "oviedo",
@@ -632,7 +1156,29 @@
     "stats": {
       "pymes": "4.500+",
       "callsLost": "36% de consultas administrativas sin atender"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "santa-cruz-de-tenerife",
@@ -658,7 +1204,29 @@
     "stats": {
       "pymes": "5.800+",
       "callsLost": "44% de reservas internacionales sin procesar"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "elche",
@@ -684,7 +1252,29 @@
     "stats": {
       "pymes": "6.200+",
       "callsLost": "39% de pedidos internacionales sin procesar"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "jerez-de-la-frontera",
@@ -710,7 +1300,29 @@
     "stats": {
       "pymes": "3.600+",
       "callsLost": "37% de consultas de importadores sin atender"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "cartagena",
@@ -736,7 +1348,29 @@
     "stats": {
       "pymes": "4.200+",
       "callsLost": "41% de operativas portuarias sin respuesta inmediata"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "tarragona",
@@ -762,7 +1396,29 @@
     "stats": {
       "pymes": "4.700+",
       "callsLost": "38% de consultas técnicas sin procesamiento inmediato"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "marbella",
@@ -788,7 +1444,29 @@
     "stats": {
       "pymes": "3.400+",
       "callsLost": "35% de consultas de clientela premium sin respuesta inmediata"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "salamanca",
@@ -814,7 +1492,29 @@
     "stats": {
       "pymes": "2.900+",
       "callsLost": "33% de consultas de estudiantes internacionales sin respuesta"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "burgos",
@@ -840,7 +1540,29 @@
     "stats": {
       "pymes": "3.700+",
       "callsLost": "37% de consultas técnicas de clientes sin respuesta"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "albacete",
@@ -866,7 +1588,29 @@
     "stats": {
       "pymes": "2.600+",
       "callsLost": "32% de pedidos internacionales sin procesar"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "badajoz",
@@ -892,7 +1636,29 @@
     "stats": {
       "pymes": "3.200+",
       "callsLost": "35% de consultas de clientes fronterizos sin respuesta"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "leon",
@@ -918,7 +1684,29 @@
     "stats": {
       "pymes": "3.100+",
       "callsLost": "36% de pedidos internacionales sin procesar"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "huelva",
@@ -944,7 +1732,29 @@
     "stats": {
       "pymes": "2.800+",
       "callsLost": "38% de pedidos de importadores sin respuesta inmediata"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "lleida",
@@ -970,7 +1780,29 @@
     "stats": {
       "pymes": "3.400+",
       "callsLost": "34% de pedidos de mercados europeos sin procesamiento"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "girona",
@@ -996,7 +1828,29 @@
     "stats": {
       "pymes": "4.100+",
       "callsLost": "40% de reservas internacionales sin procesar"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "almeria",
@@ -1022,7 +1876,29 @@
     "stats": {
       "pymes": "3.900+",
       "callsLost": "39% de pedidos europeos sin respuesta inmediata"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "terrassa",
@@ -1048,7 +1924,29 @@
     "stats": {
       "pymes": "3.600+",
       "callsLost": "36% de consultas técnicas internacionales sin respuesta"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "sabadell",
@@ -1074,7 +1972,29 @@
     "stats": {
       "pymes": "4.000+",
       "callsLost": "37% de pedidos de moda sin respuesta inmediata"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "getafe",
@@ -1100,7 +2020,29 @@
     "stats": {
       "pymes": "2.800+",
       "callsLost": "34% de consultas técnicas de grandes clientes sin respuesta"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "hospitalet-de-llobregat",
@@ -1126,7 +2068,29 @@
     "stats": {
       "pymes": "4.500+",
       "callsLost": "39% de consultas de seguimiento sin respuesta inmediata"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "torrejon-de-ardoz",
@@ -1152,7 +2116,29 @@
     "stats": {
       "pymes": "3.100+",
       "callsLost": "36% de consultas de clientes sin respuesta en horario punta"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "merida",
@@ -1178,7 +2164,29 @@
     "stats": {
       "pymes": "1.800+",
       "callsLost": "31% de consultas de turistas internacionales sin atender"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "huesca",
@@ -1204,7 +2212,29 @@
     "stats": {
       "pymes": "2.100+",
       "callsLost": "33% de reservas internacionales sin respuesta"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "toledo",
@@ -1230,7 +2260,29 @@
     "stats": {
       "pymes": "2.400+",
       "callsLost": "35% de consultas pre-visita sin respuesta"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "ciudad-real",
@@ -1256,7 +2308,29 @@
     "stats": {
       "pymes": "2.300+",
       "callsLost": "34% de consultas de clientes sin respuesta en picos"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   },
   {
     "slug": "caceres",
@@ -1282,6 +2356,28 @@
     "stats": {
       "pymes": "2.200+",
       "callsLost": "32% de reservas internacionales sin procesamiento"
-    }
+    },
+    "topSectors": [
+      {
+        "slug": "recepcionista-ia-clinicas",
+        "title": "Recepcionista Virtual para clínicas."
+      },
+      {
+        "slug": "recepcionista-ia-inmobiliarias",
+        "title": "Recepcionista Virtual para inmobiliarias."
+      },
+      {
+        "slug": "recepcionista-ia-abogados",
+        "title": "Recepcionista Virtual para despachos de abogados."
+      },
+      {
+        "slug": "recepcionista-ia-restaurantes",
+        "title": "Recepcionista Virtual para restaurantes."
+      },
+      {
+        "slug": "recepcionista-ia-asesorias",
+        "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ]
   }
 ]
