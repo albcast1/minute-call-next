@@ -199,25 +199,25 @@
     "slug": "malaga",
     "city": "Málaga",
     "region": "Andalucía",
-    "metaTitle": "Atención telefónica para empresas en Málaga | minute call",
-    "metaDescription": "Servicio de recepcionista virtual para PYMES en Málaga. Ideal para empresas tech del Málaga TechPark. Atiende en español e inglés.",
+    "metaTitle": "Call center Malaga | Atencion telefonica para empresas | minute call",
+    "metaDescription": "Call center en Malaga con agentes nativos. Recepcionista virtual para PYMES malaguenas. Sin permanencia, activa en 48h. Partners de Teleperformance. Desde 250 euros/mes.",
     "heroTag": "Atención telefónica en Málaga",
-    "heroTitle": "Atención telefónica inteligente para empresas en Málaga.",
-    "heroSubtitle": "Málaga ha emergido como hub tecnológico con el Málaga TechPark atrayendo empresas internacionales de IA, software e innovación. Atiende a una base de clientes global con un servicio que crece a tu ritmo, sin infraestructura física.",
-    "localContext": "Málaga está transformándose de destino turístico a zona de innovación con más de 1.200 empresas tecnológicas registradas en los últimos 5 años. El Málaga TechPark alberga startups de IA, deep tech y software B2B con ambiciones globales. Simultáneamente, mantiene una fuerte economía de turismo y servicios hoteleros. Este contraste crea demanda por servicios que sean profesionales, escalables y con capacidad multiidioma.",
+    "heroTitle": "Call center en Malaga para tu empresa.",
+    "heroSubtitle": "Atencion telefonica profesional para empresas en Malaga. Agentes nativos o IA. 24/7. Sin permanencia.",
+    "localContext": "Malaga ha experimentado el mayor crecimiento economico de Espana en los ultimos cinco anos, impulsado por el Polo de Innovacion Tecnologica (Silicon Coast), el turismo internacional y el mercado inmobiliario de lujo. Mas de 1.200 empresas tecnologicas tienen sede en Malaga. Los negocios atienden clientes de mas de 50 nacionalidades y necesitan atencion telefonica 24/7 en castellano, ingles y otros idiomas.",
     "keySectors": [
-      "Tecnología e innovación",
-      "Turismo y hostelería",
-      "Comercio y retail"
+      "Tecnologia y startups",
+      "Turismo e inmobiliaria de lujo",
+      "Hosteleria y restauracion"
     ],
     "testimonial": {
-      "quote": "Como startup del TechPark, necesitábamos escalar sin incrementar costos fijos. minute call es nuestra recepción virtual perfecta para atender a inversores y clientes internacionales.",
-      "author": "David Pérez",
-      "role": "Founder de startup tech en Málaga"
+      "quote": "Tenemos clientes alemanes, britanicos y escandinavos. Minute Call atiende en su idioma y filtra las oportunidades reales.",
+      "author": "Carlos M.",
+      "role": "Director de Inmobiliaria en Malaga"
     },
     "stats": {
       "pymes": "45.000+",
-      "callsLost": "35% de llamadas B2B sin atención profesional"
+      "callsLost": "35% de llamadas no atendidas en hora punta"
     },
     "topSectors": [
       {
@@ -241,7 +241,7 @@
         "title": "Recepcionista Virtual para centros de estética."
       }
     ],
-    "sectorContext": "Malaga ha experimentado el mayor crecimiento economico de Espana en los ultimos anos, impulsado por el sector tech (Silicon Coast), el turismo internacional y el mercado inmobiliario de lujo. Los negocios atienden clientes de mas de 50 nacionalidades.",
+    "sectorContext": "Malaga es la ciudad espanola con mayor crecimiento empresarial: mas de 1.200 startups tech, un sector inmobiliario de lujo muy activo y un turismo internacional que exige atencion en varios idiomas. Los negocios malaguenos pierden entre un 30-40% de llamadas por falta de recursos. Minute Call opera con agentes nativos en Espana, no en LATAM.",
     "uniqueStat": "95.000+ empresas"
   },
   {
