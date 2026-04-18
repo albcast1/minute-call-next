@@ -57,15 +57,19 @@ export default async function LandingPage({
     <>
       <FAQPageSchema faqs={sector.faq.map(f => ({ question: f.question, answer: f.answer ?? "" }))} />
       <ServiceSchema
-        name={sector.title}
-        description={sector.heroSubtitle}
-        sector={sector.sector}
+        services={[{
+          name: sector.title,
+          description: sector.heroSubtitle,
+          provider: 'minute call',
+          areaServed: 'España',
+          url: `https://www.minute-call.com/lp/${sector.slug}`,
+        }]}
       />
       <ReviewSchema
-        author={sector.testimonial.author}
+        authorName={sector.testimonial.author}
+        authorRole={sector.testimonial.role}
         reviewBody={sector.testimonial.quote}
         ratingValue={5}
-        itemReviewed={sector.title}
       />
       <BreadcrumbSchema items={[
         { name: "Inicio", url: "https://www.minute-call.com" },
