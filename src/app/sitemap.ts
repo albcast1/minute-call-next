@@ -39,8 +39,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
+  const TOP_CITY_SLUGS = ['madrid','barcelona','valencia','sevilla','malaga','bilbao','zaragoza','murcia','palma-de-mallorca','las-palmas']
+  const TOP_SECTOR_SLUGS = ['recepcionista-ia-clinicas','recepcionista-ia-inmobiliarias','recepcionista-ia-restaurantes','recepcionista-ia-abogados','recepcionista-ia-clinicas-dentales','recepcionista-ia-asesorias','recepcionista-ia-veterinarias','recepcionista-ia-centros-estetica','recepcionista-ia-fisioterapia','recepcionista-ia-seguros']
+
+  const sectorCityPages = TOP_CITY_SLUGS.flatMap(ciudad =>
+    TOP_SECTOR_SLUGS.map(sector => ({
+      url: `${baseUrl}/atencion-telefonica/${ciudad}/${sector}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }))
+  )
+
   return [
     ...staticPages,
+    ...sectorCityPages,
     ...sectorPages,
     ...articlePages,
     ...cityPages,
