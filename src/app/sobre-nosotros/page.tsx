@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 };
 
 export default function SobreNosotros() {
-    const albertoDesc = "Co-fundador de minute call, servicio de atencion telefonica 24/7 para PYMES. Ex General Manager en Leocare (130M euros Series B). Experto en operaciones de call center, externalizacion e IA conversacional.";
-  const albertoKnows = ["Atencion telefonica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO y externalizacion","Cualificacion de leads","Operaciones de startups"];
-  const rev1Body = "Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdiamos fuera de horario y fines de semana.";
-  const rev2Body = "La calidad de atencion es indistinguible de tener una recepcionista propia. Nuestros clientes no saben que es un servicio externo.";
-  const rev3Body = "En temporada de declaraciones, el volumen de llamadas se disparaba y perdiamos clientes. Ahora cada llamada se atiende, incluso a las 8 de la tarde.";
+    const albertoDesc = "Co-fundador de minute call. Ex General Manager en Leocare. Experto en call center, BPO e IA.";
+  const albertoKnows = ["Atencion telefonica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO","Leads"];
+  const rev1Body = "Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdiamos fuera de horario.";
+  const rev2Body = "La calidad es indistinguible de tener una recepcionista propia. Nuestros clientes no saben que es externo.";
+  const rev3Body = "En temporada de declaraciones el volumen se disparaba y perdiamos clientes. Ahora cada llamada se atiende.";
 
   return (
     <div style={{ maxWidth: 900, margin: "0 auto", padding: "60px 24px 80px" }}>
