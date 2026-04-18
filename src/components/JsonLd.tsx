@@ -13,73 +13,29 @@ export const OrganizationSchema: React.FC = () => {
     name: 'minute call',
     alternateName: 'Minute Call',
     url: 'https://www.minute-call.com',
-    logo: {
-      '@type': 'ImageObject',
-      url: 'https://www.minute-call.com/og-image.png',
-      width: 1200,
-      height: 630,
-    },
-    description:
-      'Servicio de atención telefónica 24/7 para PYMES con agentes nativos y asistentes de IA. Toma de mensajes, cualificación de leads y reserva de citas sin permanencia.',
-    founder: [
-      {
-        '@type': 'Person',
-        '@id': 'https://www.minute-call.com/#alberto-castiel',
-        name: 'Alberto Castiel',
-        jobTitle: 'Co-fundador',
-        worksFor: { '@id': 'https://www.minute-call.com/#organization' },
-        sameAs: ['https://www.linkedin.com/in/alberto-castiel/'],
-      },
-      {
-        '@type': 'Person',
-        '@id': 'https://www.minute-call.com/#beatriz-hernandez',
-        name: 'Beatriz Hernández',
-        jobTitle: 'Co-fundadora',
-        worksFor: { '@id': 'https://www.minute-call.com/#organization' },
-      },
-    ],
-    knowsAbout: [
-      'Atención telefónica 24/7',
-      'Recepcionista virtual',
-      'Call center para PYMES',
-      'Cualificación de leads',
-      'Reserva de citas',
-      'IA conversacional',
-    ],
+    logo: 'https://www.minute-call.com/og-image.png',
+    image: 'https://www.minute-call.com/og-image.png',
+    description: 'Servicio de recepcionista virtual y atención telefónica 24/7 para PYMES en España. Agentes nativos o IA. Sin permanencia. Desde 250 €/mes.',
+    foundingDate: '2024',
+    numberOfEmployees: { '@type': 'QuantitativeValue', minValue: 10, maxValue: 50 },
+    address: { '@type': 'PostalAddress', addressCountry: 'ES', addressLocality: 'Madrid' },
     areaServed: { '@type': 'Country', name: 'España' },
-    sameAs: [
-      'https://www.linkedin.com/company/minute-call/',
-      'https://es.trustpilot.com/review/minute-call.com',
-    ],
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'customer service',
-      availableLanguage: ['Spanish', 'English', 'French'],
-      areaServed: 'ES',
+    contactPoint: { '@type': 'ContactPoint', contactType: 'customer service', url: 'https://www.minute-call.com/reserva-llamada', availableLanguage: ['Spanish', 'English', 'French'] },
+    sameAs: ['https://www.linkedin.com/company/minute-call/', 'https://es.trustpilot.com/review/minute-call.com'],
+    aggregateRating: { '@type': 'AggregateRating', ratingValue: '5.0', reviewCount: '13', bestRating: '5' },
+    knowsAbout: ['Atención telefónica 24/7', 'Recepcionista virtual', 'Call center para PYMES', 'IA conversacional', 'BPO y externalización', 'Cualificación de leads'],
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Planes de recepcionista virtual',
+      itemListElement: [
+        { '@type': 'Offer', name: 'Plan Starter', price: '250', priceCurrency: 'EUR' },
+        { '@type': 'Offer', name: 'Plan Business', price: '490', priceCurrency: 'EUR' },
+        { '@type': 'Offer', name: 'Plan Enterprise', price: '890', priceCurrency: 'EUR' },
+      ],
     },
   };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 };
-
-/**
- * PersonSchema Component
- * Schema Person para páginas "Sobre nosotros" o autoría de artículos.
- * Refuerza E-E-A-T (Expertise/Authoritativeness/Trust) — señal clave en Google y LLMs.
- */
-interface PersonSchemaProps {
-  name: string;
-  jobTitle: string;
-  sameAs?: string[];
-  id?: string;
-  description?: string;
-  knowsAbout?: string[];
-}
 
 export const PersonSchema: React.FC<PersonSchemaProps> = ({
   name,
