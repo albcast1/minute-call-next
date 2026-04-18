@@ -65,6 +65,24 @@ export default function SobreNosotros() {
       <h1 style={{ marginTop: 16 }}>
         Quienes <span className="serif-italic">somos</span>
       </h1>
+          {/* Trustpilot social proof */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 16, margin: '24px 0', flexWrap: 'wrap' }}>
+            <a
+              href="https://www.trustpilot.com/review/minute-call.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: 8, textDecoration: 'none', background: '#fff', border: '1px solid #e5e5e5', borderRadius: 8, padding: '10px 16px' }}
+            >
+              <span style={{ color: '#00b67a', fontSize: 20, letterSpacing: -1 }}>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <div>
+                <div style={{ fontSize: 14, fontWeight: 700, color: '#333' }}>4.4 de 5 en Trustpilot</div>
+                <div style={{ fontSize: 12, color: '#888' }}>12 opiniones verificadas</div>
+              </div>
+            </a>
+            <div style={{ fontSize: 13, color: '#666' }}>
+              Partners de <strong>Teleperformance</strong> &middot; Fundada en 2023 &middot; Madrid, Espana
+            </div>
+          </div>
 
       {/* Content */}
       <div style={{ display: "flex", flexDirection: "column", gap: 24, marginTop: 32 }}>
