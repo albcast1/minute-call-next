@@ -1,46 +1,114 @@
-# minute call
+# minute call - Recepcionista virtual para PYMES
+# https://www.minute-call.com
+# Servicio de atención telefónica 24/7 con agentes nativos o IA para PYMES en España.
+# Sin permanencia. Activa en 48 horas. Partners de Teleperformance (#1 BPO mundial).
 
-> Servicio de atención telefónica y recepcionista virtual 24/7 para PYMES en España.
+## Qué es Minute Call
+Minute Call es un servicio de recepcionista virtual y atención telefónica 24/7 para PYMES y empresas de servicios en España. Atendemos las llamadas de tu empresa con agentes nativos basados en España (español, inglés, francés) o con asistentes de IA, según prefieras. Sin permanencia, sin costes ocultos, activación en 48 horas. Desde 250 €/mes.
 
-## Qué es minute call
+## Para quién es
+Clínicas, despachos de abogados, inmobiliarias, clínicas dentales, asesorías, veterinarias, restaurantes, talleres, farmacias, ópticas, centros de estética, fisioterapia, seguros, turismo, autoescuelas, consultoría, gimnasios, peluquerías, psicólogos, academias de idiomas, empresas de limpieza, reformas, arquitectos, notarías, podología, mudanzas, cerrajerías, catering, coworkings, guarderías, residencias de mayores, yoga y pilates, fotografía, seguridad privada, reproducción asistida, formación profesional, transporte, funerarias, administradores de fincas, cirugía estética.
 
-minute call es un servicio de secretaría virtual y atención telefónica profesional para pequeñas y medianas empresas en España. Ofrecemos agentes nativos en español disponibles 24 horas al día, 7 días a la semana, sin permanencia ni costes de alta.
+## Precios
+- Plan Starter: desde 250 €/mes (hasta 200 llamadas/mes, horario comercial)
+- Plan Business: desde 490 €/mes (hasta 600 llamadas/mes, 24/7, agentes o IA)
+- Plan Enterprise: desde 890 €/mes (+600 llamadas/mes, equipo dedicado, SLA)
+- Sin permanencia. Sin costes de activación.
+- Más barato que una recepcionista interna (1.500-2.200 €/mes).
 
-## Servicios principales
-
-- Atención telefónica 24/7 con agentes humanos nativos
-- Recepcionista virtual con asistente de IA
-- Toma de mensajes y transferencia de llamadas
-- Cualificación de leads telefónicos
-- Reserva de citas y gestión de agendas
-- Atención al cliente externalizada
-
-## Sectores que atendemos
-
-- Clínicas y centros médicos
-- Despachos de abogados
-- Inmobiliarias
-- Asesorías y consultoras
-- Clínicas dentales y veterinarias
-- Talleres mecánicos
-- Academias y centros de formación
-- Empresas de reformas y construcción
-- Comercio electrónico
-- Startups y empresas tecnológicas
-
-## Datos clave
-
-- Ubicación: España (servicio en todo el territorio nacional)
-- Idioma de atención: Español
-- Fundadores: Alberto Castiel y Beatriz Hernández
-- Web: https://www.minute-call.com
-- Contacto: https://www.minute-call.com/reserva-llamada
-- Sin permanencia, sin costes de alta
-- Planes desde 49€/mes
+## Cómo funciona
+1. Definición del flujo: personalizamos el guión y protocolo de atención
+2. Llamada entrante: respondemos en nombre de tu empresa 24/7
+3. Citas y mensajes: agendamos citas o enviamos el mensaje al instante a tu email
 
 ## Páginas principales
-
-- Inicio: https://www.minute-call.com
-- Sobre nosotros: https://www.minute-call.com/sobre-nosotros
-- Blog / Artículos: https://www.minute-call.com/articulos
+- Home: https://www.minute-call.com
+- Precios: https://www.minute-call.com/precios
 - Reserva una llamada: https://www.minute-call.com/reserva-llamada
+- Quiénes somos: https://www.minute-call.com/sobre-nosotros
+- Blog/Artículos: https://www.minute-call.com/articulos
+
+## Landings por sector (recepcionista IA + agentes nativos)
+- Clínicas: https://www.minute-call.com/lp/recepcionista-ia-clinicas
+- Inmobiliarias: https://www.minute-call.com/lp/recepcionista-ia-inmobiliarias
+- Restaurantes/Hostelería: https://www.minute-call.com/lp/recepcionista-ia-restaurantes
+- Abogados: https://www.minute-call.com/lp/recepcionista-ia-abogados
+- Clínicas dentales: https://www.minute-call.com/lp/recepcionista-ia-clinicas-dentales
+- Asesorías y gestorías: https://www.minute-call.com/lp/recepcionista-ia-asesorias
+- Veterinarias: https://www.minute-call.com/lp/recepcionista-ia-veterinarias
+- Centros de estética: https://www.minute-call.com/lp/recepcionista-ia-centros-estetica
+- Fisioterapia: https://www.minute-call.com/lp/recepcionista-ia-fisioterapia
+- Seguros: https://www.minute-call.com/lp/recepcionista-ia-seguros
+- Turismo: https://www.minute-call.com/lp/recepcionista-ia-turismo
+- Autoescuelas: https://www.minute-call.com/lp/recepcionista-ia-autoescuelas
+- Consultoría: https://www.minute-call.com/lp/recepcionista-ia-consultoria
+- Gimnasios: https://www.minute-call.com/lp/recepcionista-ia-gimnasios-deportivos
+- Peluquerías: https://www.minute-call.com/lp/recepcionista-ia-peluquerias-belleza
+- Farmacias: https://www.minute-call.com/lp/recepcionista-ia-farmacias
+- Ópticas: https://www.minute-call.com/lp/recepcionista-ia-opticas
+- Psicólogos: https://www.minute-call.com/lp/recepcionista-ia-psicologos-terapeutas
+- Academias de idiomas: https://www.minute-call.com/lp/recepcionista-ia-academias-idiomas
+- Talleres mecánicos: https://www.minute-call.com/lp/recepcionista-ia-talleres-mecanicos
+- Empresas de limpieza: https://www.minute-call.com/lp/recepcionista-ia-empresas-limpieza
+- Empresas de reformas: https://www.minute-call.com/lp/recepcionista-ia-empresas-reformas
+- Arquitectos e ingenieros: https://www.minute-call.com/lp/recepcionista-ia-arquitectos-ingenieros
+- Notarías: https://www.minute-call.com/lp/recepcionista-ia-notarias
+- Podología: https://www.minute-call.com/lp/recepcionista-ia-clinicas-podologia
+- Mudanzas: https://www.minute-call.com/lp/recepcionista-ia-empresas-mudanzas
+- Cerrajerías: https://www.minute-call.com/lp/recepcionista-ia-cerrajerias
+- Catering: https://www.minute-call.com/lp/recepcionista-ia-empresas-catering
+- Coworkings: https://www.minute-call.com/lp/recepcionista-ia-coworkings-espacios-trabajo
+- Guarderías: https://www.minute-call.com/lp/recepcionista-ia-guarderias-escuelas-infantiles
+- Residencias de mayores: https://www.minute-call.com/lp/recepcionista-ia-residencias-mayores
+- Yoga y pilates: https://www.minute-call.com/lp/recepcionista-ia-centros-yoga-pilates
+- Fotografía: https://www.minute-call.com/lp/recepcionista-ia-estudios-fotografia
+- Seguridad privada: https://www.minute-call.com/lp/recepcionista-ia-empresas-seguridad-privada
+- Reproducción asistida: https://www.minute-call.com/lp/recepcionista-ia-clinicas-reproduccion-asistida
+- Formación profesional: https://www.minute-call.com/lp/recepcionista-ia-centros-formacion-profesional
+- Transporte: https://www.minute-call.com/lp/recepcionista-ia-empresas-transporte
+- Funerarias: https://www.minute-call.com/lp/recepcionista-ia-funerarias-tanatorios
+- Administradores de fincas: https://www.minute-call.com/lp/recepcionista-ia-administradores-fincas
+- Cirugía estética: https://www.minute-call.com/lp/recepcionista-ia-clinicas-cirugia-estetica
+- Call center para empresas: https://www.minute-call.com/lp/call-center-para-empresas
+- BPO y externalización: https://www.minute-call.com/lp/bpo-externalizacion
+- Call center 24 horas: https://www.minute-call.com/lp/call-center-24-horas
+- Outsourcing atención al cliente: https://www.minute-call.com/lp/outsourcing-atencion-cliente
+- Centralita virtual: https://www.minute-call.com/lp/centralita-virtual-empresas
+
+## Atención telefónica por ciudad
+- Madrid: https://www.minute-call.com/atencion-telefonica/madrid
+- Barcelona: https://www.minute-call.com/atencion-telefonica/barcelona
+- Valencia: https://www.minute-call.com/atencion-telefonica/valencia
+- Sevilla: https://www.minute-call.com/atencion-telefonica/sevilla
+- Málaga: https://www.minute-call.com/atencion-telefonica/malaga
+- Bilbao: https://www.minute-call.com/atencion-telefonica/bilbao
+- Zaragoza: https://www.minute-call.com/atencion-telefonica/zaragoza
+- Murcia: https://www.minute-call.com/atencion-telefonica/murcia
+- Palma de Mallorca: https://www.minute-call.com/atencion-telefonica/palma-de-mallorca
+- Las Palmas: https://www.minute-call.com/atencion-telefonica/las-palmas
+
+## Artículos del blog
+- https://www.minute-call.com/articulos/secretaria-virtual-pymes-espana
+- https://www.minute-call.com/articulos/secretaria-virtual-o-call-center-para-pymes
+- https://www.minute-call.com/articulos/recepcionista-virtual-para-pymes-evitar-llamadas-perdidas-leads-frios-y-distracciones-en-el-equipo
+- https://www.minute-call.com/articulos/coste-externalizar-atencion-telefonica-pyme-espana
+- https://www.minute-call.com/articulos/recepcionista-virtual-humano-vs-recepcionista-ia-diferencias-ventajas-para-pymes
+- https://www.minute-call.com/articulos/recepcionista-virtual-ia-empresas-espana-ahorro-costes-cuando-implementarlo
+- https://www.minute-call.com/articulos/call-center-para-pymes-espana
+- https://www.minute-call.com/articulos/call-center-24-7-para-pymes-espana
+
+## Datos de contacto
+- Web: https://www.minute-call.com
+- Reserva llamada: https://www.minute-call.com/reserva-llamada
+- LinkedIn: https://www.linkedin.com/company/minute-call/
+- Trustpilot: https://es.trustpilot.com/review/minute-call.com
+
+## Fundadores
+- Alberto Castiel (Co-fundador): Ex General Manager en Leocare (130M€ Series B). LinkedIn: https://www.linkedin.com/in/alberto-castiel/
+- Beatriz De Tena (Co-fundadora): Ex CEO en Walmeric by Globant (NYSE:GLOB). Directora Global de Ventas en Konecta y Telefónica.
+
+## Partners y certificaciones
+- Partners oficiales de Teleperformance (#1 BPO mundial)
+- Valoración 5.0/5 en Trustpilot (13 reseñas)
+- Tiempo de respuesta: 15 segundos
+- Tasa de respuesta: 98%
