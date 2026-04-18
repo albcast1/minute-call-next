@@ -11,31 +11,37 @@ export const metadata: Metadata = {
 };
 
 export default function SobreNosotros() {
+    const albertoDesc = "Co-fundador de minute call, servicio de atencion telefonica 24/7 para PYMES. Ex General Manager en Leocare (130M euros Series B). Experto en operaciones de call center, externalizacion e IA conversacional.";
+  const albertoKnows = ["Atencion telefonica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO y externalizacion","Cualificacion de leads","Operaciones de startups"];
+  const rev1Body = "Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdiamos fuera de horario y fines de semana.";
+  const rev2Body = "La calidad de atencion es indistinguible de tener una recepcionista propia. Nuestros clientes no saben que es un servicio externo.";
+  const rev3Body = "En temporada de declaraciones, el volumen de llamadas se disparaba y perdiamos clientes. Ahora cada llamada se atiende, incluso a las 8 de la tarde.";
+
   return (
     <div style={{ maxWidth: 900, margin: "0 auto", padding: "60px 24px 80px" }}>
       <PersonSchema
         id="https://www.minute-call.com/#alberto-castiel"
         name="Alberto Castiel"
         jobTitle="Co-fundador de minute call"
-        description="Co-fundador de minute call, servicio de atención telefónica 24/7 para PYMES. Ex General Manager en Leocare (130M€ Series B). Experto en operaciones de call center, externalización y IA conversacional."
+        description={albertoDesc}
         sameAs={["https://www.linkedin.com/in/alberto-castiel/"]}
         knowsAbout={["Atención telefónica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO y externalización","Cualificación de leads","Operaciones de startup
       <ReviewSchema
         authorName="María Monsalve"
         authorRole="Directora de Clínica"
-        reviewBody="Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdíamos fuera de horario y fines de semana."
+        reviewBody={rev1Body}
         ratingValue={5}
       />
       <ReviewSchema
         authorName="Carlos Fernández"
         authorRole="Responsable de Inmobiliaria"
-        reviewBody="La calidad de atención es indistinguible de tener una recepcionista propia. Nuestros clientes no saben que es un servicio externo."
+        reviewBody={rev2Body}
         ratingValue={5}
       />
       <ReviewSchema
         authorName="Laura Martínez"
         authorRole="Gerente de Asesoría"
-        reviewBody="En temporada de declaraciones, el volumen de llamadas se disparaba y perdíamos clientes. Ahora cada llamada se atiende, incluso a las 8 de la tarde."
+        reviewBody={rev3Body}
         ratingValue={5}
       />
       <PersonSchema
