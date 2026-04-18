@@ -52,8 +52,8 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'VideoObject',
-        name: 'Cómo funciona Minute Call — Recepcionista virtual para PYMES',
-        description: 'En este vídeo te explicamos cómo Minute Call atiende las llamadas de tu empresa con agentes nativos o IA, gestionando citas y leads en nombre de tu negocio.',
+        name: 'Como funciona Minute Call - Recepcionista virtual para PYMES',
+        description: 'Minute Call atiende las llamadas de tu empresa con agentes nativos o IA, gestionando citas y leads.',
         thumbnailUrl: 'https://www.minute-call.com/og-image.png',
         uploadDate: '2024-01-01',
         publisher: {
