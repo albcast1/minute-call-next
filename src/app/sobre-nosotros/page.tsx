@@ -17,15 +17,9 @@ export default function SobreNosotros() {
         id="https://www.minute-call.com/#alberto-castiel"
         name="Alberto Castiel"
         jobTitle="Co-fundador de minute call"
-        description="Co-fundador de minute call, servicio de atención telefónica 24/7 para PYMES. Experto en operaciones de call center, externalización de atención al cliente y asistentes de IA para recepción."
-        knowsAbout={[
-          "Atención telefónica 24/7",
-          "Call center para PYMES",
-          "Recepcionistas virtuales",
-          "IA conversacional",
-          "Cualificación de leads",
-        ]}
+        description="Co-fundador de minute call, servicio de atención telefónica 24/7 para PYMES. Ex General Manager en Leocare (130M€ Series B). Experto en operaciones de call center, externalización y IA conversacional."
         sameAs={["https://www.linkedin.com/in/alberto-castiel/"]}
+        knowsAbout={["Atención telefónica 24/7","Call center para PYMES","Recepcionistas virtuales","IA conversacional","BPO y externalización","Cualificación de leads","Operaciones de startups"]}
       />
       <PersonSchema
         id="https://www.minute-call.com/#beatriz-hernandez"
