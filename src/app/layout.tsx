@@ -48,6 +48,30 @@ export const metadata: Metadata = {
   },
 };
 
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': 'https://www.minute-call.com/#website',
+  name: 'minute call',
+  url: 'https://www.minute-call.com',
+  description: 'Servicio de recepcionista virtual y atención telefónica 24/7 para PYMES en España. Agentes nativos o IA. Sin permanencia. Desde 250 €/mes.',
+  inLanguage: 'es',
+  publisher: {
+    '@type': 'Organization',
+    '@id': 'https://www.minute-call.com/#organization',
+    name: 'minute call',
+  },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://www.minute-call.com/lp/{search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -71,6 +95,7 @@ export default function RootLayout({
             `,
           }}
         />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <OrganizationSchema />
       </head>
       <body className="min-h-full flex flex-col bg-[#EFEBE5]">
