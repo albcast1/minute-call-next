@@ -3,6 +3,7 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import { OrganizationSchema } from "@/components/JsonLd";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Recepcionista virtual para PYMES | Minute Call",
