@@ -153,10 +153,10 @@
     "slug": "recepcionista-ia-restaurantes",
     "sector": "restaurantes",
     "title": "Recepcionista Virtual para restaurantes.",
-    "metaTitle": "Recepcionista Virtual para restaurantes | Atención telefónica 24/7 - minute call",
-    "metaDescription": "Servicio de recepcionista virtual con agentes nativos o IA para hostelería. Gestiona reservas, atiende llamadas y filtra consultas 24/7.",
-    "heroTag": "Atención telefónica para hostelería · Agentes nativos o IA",
-    "heroSubtitle": "Atendemos tus llamadas por ti. Gestión de reservas, toma de mensajes y filtrado de consultas 24/7. Deja de perder clientes por no estar disponible. Agentes nativos o IA — tú eliges.",
+    "metaTitle": "Call center para restaurantes | Reservas y atencion 24/7 | minute call",
+    "metaDescription": "Call center especializado en restaurantes y hosteleria en Espana. Gestion de reservas, atencion a clientes y filtrado de llamadas. Sin permanencia. Desde 250 euros/mes.",
+    "heroTag": "Call center para restaurantes y hosteleria",
+    "heroSubtitle": "Gestionamos las reservas y llamadas de tu restaurante 24/7. Nunca pierdas una mesa por no coger el telefono. Agentes nativos o IA — tu eliges.",
     "socialProof": "Más de 50 restaurantes confían en nuestra atención telefónica · Partners de Teleperformance",
     "testimonial": {
       "quote": "Ya no perdemos reservas porque no podemos coger el teléfono durante el servicio. Minute Call se encarga de todo.",
@@ -222,7 +222,8 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para reservas estándar 24/7 y agente humano para eventos, grupos y atención premium."
       }
-    ]
+    ],
+    "heroTitle": "Call center para restaurantes."
   },
   {
     "slug": "recepcionista-ia-abogados",
