@@ -3,8 +3,8 @@
     "slug": "recepcionista-ia-clinicas",
     "sector": "clínicas",
     "title": "Recepcionista Virtual para clínicas.",
-    "metaTitle": "Recepcionista Virtual para clínicas | Atención telefónica 24/7 - minute call",
-    "metaDescription": "Servicio de recepcionista virtual con agentes nativos o IA para clínicas. Atendemos tus llamadas, filtramos leads y agendamos citas 24/7.",
+    "metaTitle": "Recepcionista IA para clinicas | Agente de IA 24/7 | minute call",
+    "metaDescription": "Recepcionista con inteligencia artificial para clinicas en Espana. Atiende llamadas, gestiona citas y filtra urgencias 24/7. Agentes IA o humanos. Desde 250 euros/mes.",
     "heroTag": "Atención telefónica para clínicas · Agentes nativos o IA",
     "heroSubtitle": "Atendemos tus llamadas por ti. Filtrado de leads, toma mensajes y agenda de citas 24/7. Deja de perder clientes por no estar disponible. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 80 clínicas confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -153,10 +153,10 @@
     "slug": "recepcionista-ia-restaurantes",
     "sector": "restaurantes",
     "title": "Recepcionista Virtual para restaurantes.",
-    "metaTitle": "Call center para restaurantes | Reservas y atencion 24/7 | minute call",
-    "metaDescription": "Call center especializado en restaurantes y hosteleria en Espana. Gestion de reservas, atencion a clientes y filtrado de llamadas. Sin permanencia. Desde 250 euros/mes.",
-    "heroTag": "Call center para restaurantes y hosteleria",
-    "heroSubtitle": "Gestionamos las reservas y llamadas de tu restaurante 24/7. Nunca pierdas una mesa por no coger el telefono. Agentes nativos o IA — tu eliges.",
+    "metaTitle": "Recepcionista Virtual para restaurantes | Atención telefónica 24/7 - minute call",
+    "metaDescription": "Servicio de recepcionista virtual con agentes nativos o IA para hostelería. Gestiona reservas, atiende llamadas y filtra consultas 24/7.",
+    "heroTag": "Atención telefónica para hostelería · Agentes nativos o IA",
+    "heroSubtitle": "Atendemos tus llamadas por ti. Gestión de reservas, toma de mensajes y filtrado de consultas 24/7. Deja de perder clientes por no estar disponible. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 50 restaurantes confían en nuestra atención telefónica · Partners de Teleperformance",
     "testimonial": {
       "quote": "Ya no perdemos reservas porque no podemos coger el teléfono durante el servicio. Minute Call se encarga de todo.",
@@ -222,8 +222,7 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para reservas estándar 24/7 y agente humano para eventos, grupos y atención premium."
       }
-    ],
-    "heroTitle": "Call center para restaurantes."
+    ]
   },
   {
     "slug": "recepcionista-ia-abogados",
@@ -379,9 +378,9 @@
     "slug": "recepcionista-ia-asesorias",
     "sector": "asesorías y gestorías",
     "title": "Recepcionista Virtual para asesorías y gestorías.",
-    "metaTitle": "Recepcionista Virtual para gestorías | Cobertura en picos fiscales 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para asesorías. Gestiona picos fiscales, informa sobre expedientes y captura nuevos clientes. Agentes nativos o IA — tú eliges.",
-    "heroTag": "Atención telefónica para asesorías y gestorías · Agentes nativos o IA",
+    "metaTitle": "Secretaria virtual para empresas | Sin permanencia | minute call",
+    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Atencion de llamadas, agenda y gestion de citas para PYMES. Desde 250 euros/mes. Sin permanencia. Activa en 48h.",
+    "heroTag": "Secretaria virtual para PYMES",
     "heroSubtitle": "Abril, junio y diciembre sobrecargan tu equipo. La IA cubre los picos: informa estado de trámites, captura nuevos clientes, filtra consultas repetitivas. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 85 asesorías confían en nuestra atención telefónica · Partners de Teleperformance",
     "testimonial": {
