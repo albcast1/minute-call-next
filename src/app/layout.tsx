@@ -104,16 +104,21 @@ export default function RootLayout({
         url: 'https://www.minute-call.com',
         aggregateRating: {
           '@type': 'AggregateRating',
-          ratingValue: '4.4',
+          ratingValue: '5.0',
           bestRating: '5',
           worstRating: '1',
-          ratingCount: '12',
-          reviewCount: '12',
+          ratingCount: '13',
+          reviewCount: '13',
         },
         sameAs: ['https://www.trustpilot.com/review/minute-call.com'],
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <OrganizationSchema />
+        <Script
+          id="trustpilot-widget"
+          src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+          strategy="lazyOnload"
+        />
       </head>
       <body className="min-h-full flex flex-col bg-[#EFEBE5]">
         <Nav />
