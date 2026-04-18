@@ -95,7 +95,24 @@ export default function RootLayout({
             `,
           }}
         />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+        
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        '@id': 'https://www.minute-call.com/#organization',
+        name: 'minute call',
+        url: 'https://www.minute-call.com',
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: '4.4',
+          bestRating: '5',
+          worstRating: '1',
+          ratingCount: '12',
+          reviewCount: '12',
+        },
+        sameAs: ['https://www.trustpilot.com/review/minute-call.com'],
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <OrganizationSchema />
       </head>
       <body className="min-h-full flex flex-col bg-[#EFEBE5]">
