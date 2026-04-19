@@ -216,6 +216,15 @@ export default async function ArticlePage({
       <h1 style={{ marginBottom: 16, fontSize: 32, letterSpacing: "-1.5px", lineHeight: "38px" }}>{article.title}</h1>
       <p style={{ fontSize: 16, marginBottom: 48, lineHeight: "24px" }}>{article.excerpt}</p>
 
+      {/* Direct Answer — featured snippet optimised */}
+      {article.directAnswer && (
+        <div style={{ background: '#f8f9fa', borderLeft: '4px solid #000', padding: '20px 24px', marginBottom: 32, borderRadius: '0 8px 8px 0' }}>
+          <p style={{ fontSize: 16, lineHeight: 1.7, margin: 0, color: '#222', fontWeight: 500 }}>
+            {article.directAnswer}
+          </p>
+        </div>
+      )}
+
       {/* Article Content */}
       <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
         {article.content.split("\n\n").map((block, index) => renderContentBlock(block, index))}
