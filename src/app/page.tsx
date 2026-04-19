@@ -49,76 +49,7 @@ export default function Home() {
 
   return (
     <>
-        {/* Trustpilot Badge */}
-        <div style={{ textAlign: 'center', padding: '24px 0 0' }}>
-          <div
-            className="trustpilot-widget"
-            data-locale="es-ES"
-            data-template-id="5419b6a8b0d04a076446a9ad"
-            data-businessunit-id="6787b0c65bf6d2f1e91ee1a2"
-   
-        </div>
-      <FAQPageSchema faqs={faqs.map(f => ({ question: f.q, answer: f.a }))} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'VideoObject',
-        name: 'Como funciona Minute Call - Recepcionista virtual para PYMES',
-        description: 'Minute Call atiende las llamadas de tu empresa con agentes nativos o IA, gestionando citas y leads.',
-        thumbnailUrl: 'https://www.minute-call.com/og-image.png',
-        embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-        contentUrl: 'https://www.minute-call.com/og-image.png',
-        uploadDate: '2024-01-01T00:00:00+01:00',
-        publisher: {
-          '@type': 'Organization',
-          '@id': 'https://www.minute-call.com/#organization',
-          name: 'minute call',
-        },
-      }) }} />
-      <LocalBusinessSchema />
-      <HowToSchema steps={[
-        { name: "Definici\u00f3n del flujo", text: "Personalizamos contigo el gui\u00f3n de llamada y acciones del agente." },
-        { name: "Llamada entrante", text: "Respondemos en nombre de tu empresa siguiendo tu procedimiento." },
-        { name: "Citas y mensajes", text: "Agendamos la cita o enviamos el mensaje al instante a tu email." },
-      ]} />
-      <ServiceSchema services={[
-        { name: "Toma de mensajes", description: "Recepci\u00f3n de llamadas con protocolo personalizado para cada empresa." },
-        { name: "Cualificaci\u00f3n de leads", description: "Cualificamos y recopilamos datos clave para que tu equipo se centre en leads relevantes." },
-        { name: "Reserva de citas", description: "Integraci\u00f3n con CRM y agenda para programar citas en nombre de tu empresa." },
-      ]} />
 
-      {/* ===== HERO SECTION ===== */}
-      <section
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "clamp(40px, 8vw, 80px) clamp(20px, 5vw, 64px) clamp(30px, 6vw, 60px)",
-          display: "flex",
-          alignItems: "flex-start",
-          justifyContent: "space-between",
-          gap: 60,
-          flexWrap: "wrap",
-        }}
-      >
-        {/* Left column */}
-        <div style={{ flex: "1 1 480px", maxWidth: 560 }}>
-          {/* Trustpilot badge */}
-          <a
-            href="https://www.trustpilot.com/review/minute-call.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: "inline-block", marginBottom: 20, marginLeft: 16 }}
-          >
-            <img
-              src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
-              alt="Trustpilot reviews"
-              style={{ height: 36 }}
-            />
-          </a>
-
-          {/* Pill label */}
-          <div style={{ marginBottom: 24 }}>
-            <span className="pill-label">Recepción de llamadas para PYMES</span>
-          </div>
 
           {/* Main heading */}
           <h1 style={{ marginTop: 24 }}>
