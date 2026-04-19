@@ -170,11 +170,7 @@ export default function RootLayout({
           })
         }}
       />
-        <Script
-          id="trustpilot-widget"
-          src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
-          strategy="lazyOnload"
-        />
+        
       </head>
       <body className="min-h-full flex flex-col bg-[#EFEBE5]">
         <Nav />
