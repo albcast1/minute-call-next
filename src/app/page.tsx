@@ -50,6 +50,10 @@ export default function Home() {
   return (
     <>
 
+      {/* ===== HERO ===== */}
+      <section className="hero-section" style={{ maxWidth: 1200, margin: '0 auto', padding: '80px 24px 60px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 40, alignItems: 'center' }}>
+        {/* Left column */}
+        <div>
 
           {/* Main heading */}
           <h1 style={{ marginTop: 24 }}>
