@@ -102,7 +102,7 @@ export default function RootLayout({
         '@type': 'LocalBusiness',
         '@id': 'https://www.minute-call.com/#localbusiness-rating',
         name: 'minute call',
-        description: 'Servicio de recepcionista virtual y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA desde 250 euros/mes.',
+        description: 'Servicio de recepcionista virtual y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA.',
         url: 'https://www.minute-call.com',
         areaServed: { '@type': 'Country', name: 'Espana', sameAs: 'https://www.wikidata.org/wiki/Q29' },
         priceRange: '€€',
@@ -159,7 +159,7 @@ export default function RootLayout({
                 "@id": "https://www.minute-call.com/#service",
                 "name": "Recepcionista virtual para PYMES",
                 "provider": { "@id": "https://www.minute-call.com/#organization" },
-                "description": "Servicio de recepcionista virtual y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA desde 250 euros/mes. Sin permanencia.",
+                "description": "Servicio de recepcionista virtual y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA. Sin permanencia.",
                 "areaServed": { "@type": "Country", "name": "Espana", "identifier": "ES" },
                 "speakable": {
                   "@type": "SpeakableSpecification",
