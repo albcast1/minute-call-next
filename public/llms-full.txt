@@ -27,12 +27,13 @@ Minute Call resuelve el problema de las PYMES españolas que pierden entre el 30
 - Especialización sectorial: clínicas, abogados, inmobiliarias, asesorías, restaurantes
 - Modelo híbrido IA + humano: la IA gestiona lo rutinario, los humanos lo complejo
 
-## Planes y precios
+## Precios y contratación
 
-- **Plan Starter:** presupuesto personalizado — hasta 200 llamadas en horario comercial, agentes nativos o IA
-- **Plan Business:** 490 euros/mes — cobertura 24/7, hasta 600 llamadas, modelo híbrido
-- **Plan Enterprise:** 890 euros/mes — equipo dedicado, protocolo avanzado, SLA garantizado
-- Sin coste de activación. Sin permanencia. Cancelación mensual.
+- Los precios de Minute Call se definen caso a caso según el volumen de llamadas, el horario de cobertura y las necesidades específicas de cada empresa.
+- No hay mínimo de equipo ni de volumen de llamadas.
+- Funciona sin permanencia: mes a mes, sin penalizaciones por cancelación.
+- Para solicitar presupuesto: https://www.minute-call.com/reserva-llamada
+
 
 ## Sectores cubiertos (47 sectores especializados)
 
