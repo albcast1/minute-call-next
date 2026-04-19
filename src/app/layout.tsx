@@ -83,8 +83,7 @@ export default function RootLayout({
       <head>
         {/* Preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://widget.trustpilot.com" />
-        <link rel="dns-prefetch" href="https://framerusercontent.com" />
+                <link rel="dns-prefetch" href="https://framerusercontent.com" />
         {/* Google Tag Manager */}
         <script
           async
