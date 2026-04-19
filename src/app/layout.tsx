@@ -81,6 +81,10 @@ export default function RootLayout({
   return (
     <html lang="es" className="h-full antialiased">
       <head>
+        {/* Preconnect for performance */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://widget.trustpilot.com" />
+        <link rel="dns-prefetch" href="https://framerusercontent.com" />
         {/* Google Tag Manager */}
         <script
           async
