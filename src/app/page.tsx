@@ -56,14 +56,7 @@ export default function Home() {
             data-locale="es-ES"
             data-template-id="5419b6a8b0d04a076446a9ad"
             data-businessunit-id="6787b0c65bf6d2f1e91ee1a2"
-            data-style-height="24px"
-            data-style-width="100%"
-            data-theme="light"
-          >
-            <a href="https://es.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: 14, color: '#00b67a', fontWeight: 600 }}>
-              ⭐ 5.0 en Trustpilot — Valorado excelente por nuestros clientes
-            </a>
-          </div>
+   
         </div>
       <FAQPageSchema faqs={faqs.map(f => ({ question: f.q, answer: f.a }))} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
