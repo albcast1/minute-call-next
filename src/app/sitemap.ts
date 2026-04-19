@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/sobre-nosotros`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/reserva-llamada`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/comparar`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/calculadora-roi`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/articulos`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
   ]
 
