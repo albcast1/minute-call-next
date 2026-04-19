@@ -5,7 +5,7 @@ import { useState } from 'react'
 const faqItems = [
   { q: '¿Cuánto me cuesta cada llamada perdida?', a: 'Depende de tu ticket medio y tasa de conversión. Para una empresa con ticket de 500€ y conversión del 20%, cada lead perdido supone 100€ de facturación no ingresada.' },
   { q: '¿Qué porcentaje de llamadas pierde una PYME española de media?', a: 'Entre el 27% y el 58% según el sector. Las inmobiliarias pierden el 48%. Las clínicas pierden más del 22% fuera de horario. La media en PYMES de servicios es del 35%.' },
-  { q: '¿Cómo puedo reducir las llamadas perdidas?', a: 'La forma más efectiva es un servicio de recepcionista virtual. Minute Call cubre todas las llamadas desde 250€/mes, sin permanencia.' },
+  { q: '¿Cómo puedo reducir las llamadas perdidas?', a: 'La forma más efectiva es un servicio de recepcionista virtual. Minute Call cubre todas las llamadas desde presupuesto personalizado/mes, sin permanencia.' },
 ]
 
 export default function CalculadoraROIPage() {
@@ -104,7 +104,7 @@ export default function CalculadoraROIPage() {
             <div style={{background:'#000',color:'#fff',borderRadius:14,padding:24,display:'flex',justifyContent:'space-between',alignItems:'center',flexWrap:'wrap',gap:16}}>
               <div>
                 <div style={{fontSize:14,color:'#aaa',marginBottom:4}}>Coste de Minute Call para cubrirlo:</div>
-                <div style={{fontSize:22,fontWeight:700}}>desde 250€/mes — sin permanencia</div>
+                <div style={{fontSize:22,fontWeight:700}}>Precio adaptado a tu volumen — sin permanencia</div>
               </div>
               <a href="/reserva-llamada" style={{background:'#fff',color:'#000',padding:'12px 28px',borderRadius:999,fontWeight:700,textDecoration:'none',fontSize:14,whiteSpace:'nowrap'}}>
                 Empezar ahora →
