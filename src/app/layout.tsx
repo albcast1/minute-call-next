@@ -100,9 +100,12 @@ export default function RootLayout({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
-        '@id': 'https://www.minute-call.com/#organization',
+        '@id': 'https://www.minute-call.com/#localbusiness-rating',
         name: 'minute call',
+        description: 'Servicio de recepcionista virtual y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA desde 250 euros/mes.',
         url: 'https://www.minute-call.com',
+        areaServed: { '@type': 'Country', name: 'Espana', sameAs: 'https://www.wikidata.org/wiki/Q29' },
+        priceRange: '€€',
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: '5.0',
@@ -111,7 +114,10 @@ export default function RootLayout({
           ratingCount: '13',
           reviewCount: '13',
         },
-        sameAs: ['https://www.trustpilot.com/review/minute-call.com'],
+        sameAs: [
+          'https://www.trustpilot.com/review/minute-call.com',
+          'https://es.linkedin.com/company/minute-call',
+        ],
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <OrganizationSchema />
