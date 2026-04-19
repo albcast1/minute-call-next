@@ -3,8 +3,6 @@
     "slug": "recepcionista-ia-clinicas",
     "sector": "clínicas",
     "title": "Recepcionista Virtual para clínicas.",
-    "metaTitle": "Recepcionista IA para clinicas | Agente de IA 24/7 | minute call",
-    "metaDescription": "Recepcionista con inteligencia artificial para clinicas en Espana. Atiende llamadas, gestiona citas y filtra urgencias 24/7. Agentes IA o humanos. Desde 250 euros/mes.",
     "heroTag": "Atención telefónica para clínicas · Agentes nativos o IA",
     "heroSubtitle": "Atendemos tus llamadas por ti. Filtrado de leads, toma mensajes y agenda de citas 24/7. Deja de perder clientes por no estar disponible. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 80 clínicas confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -72,14 +70,14 @@
         "question": "¿Puedo alternar entre IA y agente humano?",
         "answer": "Sí. IA para noches, festivos y confirmaciones; humanos nativos para horario de consulta y primeras visitas. Cambias la configuración en cualquier momento sin coste adicional."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista IA para clinicas...",
+    "metaDescription": "Recepcionista con inteligencia artificial para clinicas en Espana. Atiende llamadas, gestiona citas y filtra urgencias 24/7. Agentes IA o humanos. Desde 250 ..."
   },
   {
     "slug": "recepcionista-ia-inmobiliarias",
     "sector": "inmobiliarias",
     "title": "Recepcionista Virtual para inmobiliarias.",
-    "metaTitle": "Recepcionista Virtual para inmobiliarias | Atención telefónica 24/7 - minute call",
-    "metaDescription": "Servicio de recepcionista virtual con agentes nativos o IA para agencias inmobiliarias. Atendemos llamadas, filtramos leads y agendamos visitas 24/7.",
     "heroTag": "Atención telefónica para inmobiliarias · Agentes nativos o IA",
     "heroSubtitle": "Atendemos tus llamadas por ti. Filtrado de leads, toma mensajes y agenda de visitas 24/7. Deja de perder clientes por no estar disponible. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 70 inmobiliarias confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -147,14 +145,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA fuera de horario laboral y para filtrar consultas básicas; humanos nativos para visitas, negociaciones y seguimiento."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para inmobiliarias...",
+    "metaDescription": "Servicio de recepcionista virtual con agentes nativos o IA para agencias inmobiliarias. Atendemos llamadas, filtramos leads y agendamos visitas 24/7."
   },
   {
     "slug": "recepcionista-ia-restaurantes",
     "sector": "restaurantes",
     "title": "Recepcionista Virtual para restaurantes.",
-    "metaTitle": "Recepcionista Virtual para restaurantes | Atención telefónica 24/7 - minute call",
-    "metaDescription": "Servicio de recepcionista virtual con agentes nativos o IA para hostelería. Gestiona reservas, atiende llamadas y filtra consultas 24/7.",
     "heroTag": "Atención telefónica para hostelería · Agentes nativos o IA",
     "heroSubtitle": "Atendemos tus llamadas por ti. Gestión de reservas, toma de mensajes y filtrado de consultas 24/7. Deja de perder clientes por no estar disponible. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 50 restaurantes confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -222,14 +220,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para reservas estándar 24/7 y agente humano para eventos, grupos y atención premium."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para restaurantes...",
+    "metaDescription": "Servicio de recepcionista virtual con agentes nativos o IA para hostelería. Gestiona reservas, atiende llamadas y filtra consultas 24/7."
   },
   {
     "slug": "recepcionista-ia-abogados",
     "sector": "despachos de abogados",
     "title": "Recepcionista Virtual para despachos de abogados.",
-    "metaTitle": "Recepcionista Virtual para abogados | Atención telefónica segura 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para despachos de abogados con máxima confidencialidad. Gestiona urgencias, filtra por prioridad y protege datos RGPD. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para despachos de abogados · Agentes nativos o IA",
     "heroSubtitle": "Atendemos llamadas urgentes con total confidencialidad garantizada. Filtrado por prioridad, derivación inteligente y protección RGPD. No pierdas leads de alto valor por no estar disponible. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 45 despachos de abogados confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -297,14 +295,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para noches y fines de semana; humanos nativos para horario comercial y primeras llamadas."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para abogados...",
+    "metaDescription": "Recepcionista virtual para despachos de abogados con máxima confidencialidad. Gestiona urgencias, filtra por prioridad y protege datos RGPD. Agentes nativos ..."
   },
   {
     "slug": "recepcionista-ia-clinicas-dentales",
     "sector": "clínicas dentales",
     "title": "Recepcionista Virtual para clínicas dentales.",
-    "metaTitle": "Recepcionista Virtual para clínicas dentales | Gestión de citas 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para odontología. Gestión de citas, cancelaciones, recordatorios y captura de urgencias dentales. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para clínicas dentales · Agentes nativos o IA",
     "heroSubtitle": "Tu dentista está en consulta. La IA atiende: gestiona citas, cancelaciones y recibe urgencias. Nunca pierdas un paciente por no coger el teléfono. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 65 clínicas dentales confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -372,14 +370,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para noche y fines de semana; humanos en horario de clínica para primeras consultas de alto valor."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para clínicas dentales...",
+    "metaDescription": "Recepcionista virtual para odontología. Gestión de citas, cancelaciones, recordatorios y captura de urgencias dentales. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-asesorias",
     "sector": "asesorías y gestorías",
     "title": "Recepcionista Virtual para asesorías y gestorías.",
-    "metaTitle": "Secretaria virtual para empresas y autonomos | minute call",
-    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Para PYMES, autonomos y profesionales independientes. Desde 250 euros/mes. Sin permanencia. Activa en 48h.",
     "heroTag": "Secretaria virtual para empresas y autonomos",
     "heroSubtitle": "Abril, junio y diciembre sobrecargan tu equipo. La IA cubre los picos: informa estado de trámites, captura nuevos clientes, filtra consultas repetitivas. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 85 asesorías confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -447,14 +445,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA todo el año para consultas rutinarias y refuerzo humano en períodos de campaña fiscal."
       }
-    ]
+    ],
+    "metaTitle": "Secretaria virtual para empresas y autonomos | minute call",
+    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Para PYMES, autonomos y profesionales independientes. Desde 250 euros/mes. Sin permanencia. Activa en 48h."
   },
   {
     "slug": "recepcionista-ia-veterinarias",
     "sector": "veterinarias",
     "title": "Recepcionista Virtual para veterinarias.",
-    "metaTitle": "Recepcionista Virtual para veterinarias | Triaje de urgencias 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para clínicas veterinarias. Triaje de urgencias, gestión de citas y información sobre vacunaciones. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para veterinarias · Agentes nativos o IA",
     "heroSubtitle": "Tu veterinario está en quirófano. Un dueño llama con la mascota enferma. La IA evalúa urgencia, atiende 24/7 y jamás pierde una emergencia. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 55 clínicas veterinarias confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -522,14 +520,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para citas de rutina; humanos para urgencias nocturnas y fines de semana."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para veterinarias...",
+    "metaDescription": "Recepcionista virtual para clínicas veterinarias. Triaje de urgencias, gestión de citas y información sobre vacunaciones. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-centros-estetica",
     "sector": "centros de estética",
     "title": "Recepcionista Virtual para centros de estética.",
-    "metaTitle": "Recepcionista Virtual para estética | Gestión de agenda 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para centros de belleza. Gestión de citas, recordatorios y captura de nuevos clientes. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para centros de estética · Agentes nativos o IA",
     "heroSubtitle": "Tu agenda es tu negocio. La IA atiende 24/7: confirma citas, maneja cancelaciones, informa de tratamientos y captura cada cliente potencial. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 90 centros de estética confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -597,14 +595,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para citas 24/7; humano para asesoramiento y ventas de bonos."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para estética...",
+    "metaDescription": "Recepcionista virtual para centros de belleza. Gestión de citas, recordatorios y captura de nuevos clientes. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-fisioterapia",
     "sector": "fisioterapia",
     "title": "Recepcionista Virtual para centros de fisioterapia.",
-    "metaTitle": "Recepcionista Virtual para fisioterapeutas | Gestión de citas recurrentes 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para fisioterapia. Gestión de citas recurrentes, listas de espera y soporte 24/7. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para centros de fisioterapia · Agentes nativos o IA",
     "heroSubtitle": "Tu fisioterapeuta atiende un paciente en camilla. Alguien llama para cambiar cita. La IA gestiona citas recurrentes, bajas y listas de espera instantáneamente. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 72 centros de fisioterapia confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -672,14 +670,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para gestión de agenda; humanos para pacientes nuevos con lesiones agudas."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para fisioterapeutas...",
+    "metaDescription": "Recepcionista virtual para fisioterapia. Gestión de citas recurrentes, listas de espera y soporte 24/7. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-seguros",
     "sector": "seguros y corredurías",
     "title": "Recepcionista Virtual para seguros y corredurías.",
-    "metaTitle": "Recepcionista Virtual para seguros | Recepción de siniestros 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para corredurías. Recepción de siniestros, cualificación de leads y gestión de pólizas 24/7. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para seguros · Agentes nativos o IA",
     "heroSubtitle": "Un accidente a las 3 de la mañana. Llamadas de siniestros sin horario. La IA atiende 24/7: recibe siniestros, cualifica leads y jamás pierde una venta. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 78 corredurías de seguros confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -747,14 +745,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para estado de póliza; humanos para atención post-siniestro y renovaciones."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para seguros...",
+    "metaDescription": "Recepcionista virtual para corredurías. Recepción de siniestros, cualificación de leads y gestión de pólizas 24/7. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-turismo",
     "sector": "turismo y agencias de viajes",
     "title": "Recepcionista Virtual para agencias de viajes.",
-    "metaTitle": "Recepcionista Virtual para agencias de viajes | Atención multilingüe 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para turismo. Atención multilingüe, gestión de reservas y soporte durante viajes. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para agencias de viajes · Agentes nativos o IA",
     "heroSubtitle": "Tu cliente está en Marrakech y necesita ayuda. Alguien llama en francés. Tú estás comiendo. La IA atiende multilingüe 24/7 y gestiona emergencias de viaje. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 62 agencias de viajes confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -822,14 +820,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para temporada baja; humanos reforzados en temporada alta."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para agencias de viajes...",
+    "metaDescription": "Recepcionista virtual para turismo. Atención multilingüe, gestión de reservas y soporte durante viajes. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-autoescuelas",
     "sector": "autoescuelas",
     "title": "Recepcionista Virtual para autoescuelas.",
-    "metaTitle": "Recepcionista Virtual para autoescuelas | Gestión de horarios 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para academias de conducción. Gestión de cambios de horario, información DGT y captura de alumnos. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para autoescuelas · Agentes nativos o IA",
     "heroSubtitle": "Tu profesor está en ruta con alumno. 5 llamadas de cambios de horario. Un alumno pregunta sobre cita de examen DGT. La IA lo maneja todo sin interrupciones. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 58 autoescuelas confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -897,14 +895,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA 24/7; humanos para cerrar matrículas en horario comercial."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para autoescuelas...",
+    "metaDescription": "Recepcionista virtual para academias de conducción. Gestión de cambios de horario, información DGT y captura de alumnos. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-consultoria",
     "sector": "consultoría y formación",
     "title": "Recepcionista Virtual para consultoría y formación.",
-    "metaTitle": "Recepcionista Virtual para consultores | Imagen corporativa premium 24/7 - minute call",
-    "metaDescription": "Recepcionista virtual para consultores. Filtrado inteligente de llamadas, agenda de reuniones y gestión de leads de alto valor. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para consultoría · Agentes nativos o IA",
     "heroSubtitle": "Estás en reunión con cliente clave. Suena el teléfono: es un lead de 100k€. Con Minute Call, esa llamada la atiende profesional perfecto sin interrupciones, con imagen premium garantizada. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 68 consultorias confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -972,14 +970,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para filtrado; humanos para atención a decisores."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para consultores...",
+    "metaDescription": "Recepcionista virtual para consultores. Filtrado inteligente de llamadas, agenda de reuniones y gestión de leads de alto valor. Agentes nativos o IA — tú eli..."
   },
   {
     "slug": "recepcionista-ia-gimnasios-deportivos",
     "sector": "Gimnasios y Centros Deportivos",
     "title": "Recepcionista Virtual para Gimnasios y Centros Deportivos.",
-    "metaTitle": "Recepcionista Virtual para Gimnasios | Gestión de Inscripciones - minute call",
-    "metaDescription": "Recepcionista de IA 24/7 para gimnasios. Gestiona reservas de clases, inscripciones y consultas de miembros automáticamente.",
     "heroTag": "Atención telefónica para gimnasios · Agentes nativos o IA",
     "heroSubtitle": "Gestiona reservas de clases, nuevos miembros y consultas sobre tarifas sin parar. Tu equipo se enfoca en entrenar mientras tu recepcionista IA atiende todos los horarios. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 150 gimnasios y centros deportivos confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1047,14 +1045,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para horarios 24/7; humanos para cerrar altas. Más cobertura humana en enero y septiembre."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Gimnasios...",
+    "metaDescription": "Recepcionista de IA 24/7 para gimnasios. Gestiona reservas de clases, inscripciones y consultas de miembros automáticamente."
   },
   {
     "slug": "recepcionista-ia-peluquerias-belleza",
     "sector": "Peluquerías y Salones de Belleza",
     "title": "Recepcionista Virtual para Peluquerías y Salones de Belleza.",
-    "metaTitle": "Recepcionista Virtual para Peluquerías | Gestión de Citas - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para peluquerías. Agenda citas de corte, tratamientos y estética. Reduce cancelaciones y maximiza ocupación de sillas. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para salones de belleza · Agentes nativos o IA",
     "heroSubtitle": "Agenda citas, gestiona cambios y recordatorios sin sobrecargar tu equipo. Mantén tu libro de horarios lleno mientras tus peluqueros se enfocan en el cliente. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 200 peluquerías y salones confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1122,14 +1120,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para reservas y fuera de horario; humanos para asesoramiento y servicios premium."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Peluquerías...",
+    "metaDescription": "Servicio de recepción 24/7 para peluquerías. Agenda citas de corte, tratamientos y estética. Reduce cancelaciones y maximiza ocupación de sillas. Agentes nat..."
   },
   {
     "slug": "recepcionista-ia-farmacias",
     "sector": "Farmacias",
     "title": "Recepcionista Virtual para Farmacias.",
-    "metaTitle": "Recepcionista Virtual para Farmacias | Consultas 24/7 - minute call",
-    "metaDescription": "Recepcionista 24/7 para farmacias. Responde dudas sobre medicamentos, horarios, entregas a domicilio y consultas farmacéuticas. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para farmacias · Agentes nativos o IA",
     "heroSubtitle": "Atiendan consultas sobre medicamentos, disponibilidad y entregas a cualquier hora. Tus farmacéuticos se dedican a recetas y consejos, mientras tu recepcionista maneja el volumen. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 180 farmacias en España confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1197,14 +1195,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para disponibilidad 24/7; humanos para derivación a farmacéutico."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Farmacias...",
+    "metaDescription": "Recepcionista 24/7 para farmacias. Responde dudas sobre medicamentos, horarios, entregas a domicilio y consultas farmacéuticas. Agentes nativos o IA — tú eli..."
   },
   {
     "slug": "recepcionista-ia-opticas",
     "sector": "Ópticas",
     "title": "Recepcionista Virtual para Ópticas.",
-    "metaTitle": "Recepcionista Virtual para Ópticas | Gestión de Citas - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para ópticas. Agenda revisiones visuales, consultas de gafas y lentes de contacto de forma automática. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para ópticas · Agentes nativos o IA",
     "heroSubtitle": "Agenda revisiones de vista, consultas de gafas graduadas y lentes de contacto. Mantén ocupado tu agenda óptica sin intervención manual. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 120 ópticas confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1272,14 +1270,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para citas y horarios; humanos para asesoramiento sobre productos."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Ópticas...",
+    "metaDescription": "Servicio de recepción 24/7 para ópticas. Agenda revisiones visuales, consultas de gafas y lentes de contacto de forma automática. Agentes nativos o IA — tú e..."
   },
   {
     "slug": "recepcionista-ia-psicologos-terapeutas",
     "sector": "Psicólogos y Terapeutas",
     "title": "Recepcionista Virtual para Psicólogos y Terapeutas.",
-    "metaTitle": "Recepcionista Virtual para Terapeutas | Confidencialidad Garantizada - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para psicólogos y terapeutas. Agenda citas, maneja llamadas emocionales y protege confidencialidad del paciente. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para psicólogos · Agentes nativos o IA",
     "heroSubtitle": "Atiende llamadas con sensibilidad, agenda citas y maneja crisis emocionales con profesionalismo. Tu recepcionista IA respeta confidencialidad total. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 140 psicólogos y centros de terapia confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1347,14 +1345,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para agenda; humanos para primeras llamadas. La mayoría prefieren humano al 100% para primeros contactos."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Terapeutas...",
+    "metaDescription": "Servicio de recepción 24/7 para psicólogos y terapeutas. Agenda citas, maneja llamadas emocionales y protege confidencialidad del paciente. Agentes nativos o..."
   },
   {
     "slug": "recepcionista-ia-academias-idiomas",
     "sector": "Academias de Idiomas",
     "title": "Recepcionista Virtual para Academias de Idiomas.",
-    "metaTitle": "Recepcionista Virtual para Academias | Inscripción de Cursos - minute call",
-    "metaDescription": "Recepcionista 24/7 para academias de idiomas. Gestiona inscripciones, consultas de cursos y evaluaciones de nivel de forma automática. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para academias de idiomas · Agentes nativos o IA",
     "heroSubtitle": "Inscribe estudiantes en cursos de inglés, francés, alemán y más. Tu recepcionista IA evalúa niveles y disponibilidad sin cerrar nunca. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 95 academias de idiomas confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1422,14 +1420,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA 24/7; humanos para asesoramiento. Más cobertura en septiembre y enero."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Academias...",
+    "metaDescription": "Recepcionista 24/7 para academias de idiomas. Gestiona inscripciones, consultas de cursos y evaluaciones de nivel de forma automática. Agentes nativos o IA —..."
   },
   {
     "slug": "recepcionista-ia-talleres-mecanicos",
     "sector": "Talleres Mecánicos",
     "title": "Recepcionista Virtual para Talleres Mecánicos.",
-    "metaTitle": "Recepcionista Virtual para Talleres | Agendar Reparaciones - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para talleres. Agenda reparaciones, cotizaciones y diagnósticos. Maximiza ocupación de mecánicos. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para talleres mecánicos · Agentes nativos o IA",
     "heroSubtitle": "Los clientes llaman para reparaciones urgentes a cualquier hora. Tu recepcionista IA agenda, cotiza y coordina sin perder negocio. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 160 talleres mecánicos confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1497,14 +1495,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para citas programadas; humanos para averías urgentes."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Talleres...",
+    "metaDescription": "Servicio de recepción 24/7 para talleres. Agenda reparaciones, cotizaciones y diagnósticos. Maximiza ocupación de mecánicos. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-empresas-limpieza",
     "sector": "Empresas de Limpieza",
     "title": "Recepcionista Virtual para Empresas de Limpieza.",
-    "metaTitle": "Recepcionista Virtual para Limpieza | Gestión de Servicios 24/7 - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de limpieza. Captura nuevos clientes, agenda servicios y gestiona disponibilidad de equipos. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para empresas de limpieza · Agentes nativos o IA",
     "heroSubtitle": "Los clientes llaman a cualquier hora para servicios de limpieza. Tu recepcionista IA cotiza, agenda y confirma sin parar. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 110 empresas de limpieza confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1572,14 +1570,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para consultas y fuera de horario; humanos para presupuestos y cierre."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Limpieza...",
+    "metaDescription": "Servicio de recepción 24/7 para empresas de limpieza. Captura nuevos clientes, agenda servicios y gestiona disponibilidad de equipos. Agentes nativos o IA — ..."
   },
   {
     "slug": "recepcionista-ia-empresas-reformas",
     "sector": "Empresas de Reformas",
     "title": "Recepcionista Virtual para Empresas de Reformas.",
-    "metaTitle": "Recepcionista Virtual para Reformas | Presupuestos Automáticos - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de reformas. Captura consultas, solicita presupuestos y agenda visitas de forma automática. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para empresas de reformas · Agentes nativos o IA",
     "heroSubtitle": "Los clientes buscan reformistas urgentemente. Tu recepcionista IA atiende consultas, toma datos y genera leads calificados. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 85 empresas de reformas confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1647,14 +1645,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para filtrado; humanos para cualificación y visitas."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Reformas...",
+    "metaDescription": "Servicio de recepción 24/7 para empresas de reformas. Captura consultas, solicita presupuestos y agenda visitas de forma automática. Agentes nativos o IA — t..."
   },
   {
     "slug": "recepcionista-ia-arquitectos-ingenieros",
     "sector": "Arquitectos e Ingenieros",
     "title": "Recepcionista Virtual para Arquitectos e Ingenieros.",
-    "metaTitle": "Recepcionista Virtual para Arquitectos | Gestión de Proyectos - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para despachos de arquitectura e ingeniería. Coordina consultas, visitas de sitio y presupuestos de proyectos. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para despachos de proyectos · Agentes nativos o IA",
     "heroSubtitle": "Tus arquitectos se dedican al diseño. Tu recepcionista IA gestiona llamadas, agenda reuniones y captura datos de nuevos proyectos. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 75 despachos de arquitectura e ingeniería confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1722,14 +1720,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para agenda; humanos para cualificación de proyectos."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Arquitectos...",
+    "metaDescription": "Servicio de recepción 24/7 para despachos de arquitectura e ingeniería. Coordina consultas, visitas de sitio y presupuestos de proyectos. Agentes nativos o I..."
   },
   {
     "slug": "recepcionista-ia-notarias",
     "sector": "Notarías",
     "title": "Recepcionista Virtual para Notarías.",
-    "metaTitle": "Recepcionista Virtual para Notarías | Citas Automáticas - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para notarías. Agenda citas, consultas legales y gestiona documentación de forma segura y confidencial. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para notarías · Agentes nativos o IA",
     "heroSubtitle": "Tus notarios se dedican a actas y documentos. Tu recepcionista IA maneja consultas legales básicas y agenda citas con total confidencialidad. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 60 notarías confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1797,14 +1795,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para agenda de firmas; humanos para primeras consultas."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Notarías...",
+    "metaDescription": "Servicio de recepción 24/7 para notarías. Agenda citas, consultas legales y gestiona documentación de forma segura y confidencial. Agentes nativos o IA — tú ..."
   },
   {
     "slug": "recepcionista-ia-clinicas-podologia",
     "sector": "Clínicas de Podología",
     "title": "Recepcionista Virtual para Clínicas de Podología.",
-    "metaTitle": "Recepcionista Virtual para Podología | Gestión de Citas - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para clínicas de podología. Agenda tratamientos, consultas y cirugías podológicas automáticamente. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para clínicas de podología · Agentes nativos o IA",
     "heroSubtitle": "Los pacientes llaman con problemas en pies y uñas. Tu recepcionista IA agenda sin interrumpir consultas de tu podólogo. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 70 clínicas de podología confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1872,14 +1870,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para agenda; humanos para primeras consultas y necesidades especiales."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Podología...",
+    "metaDescription": "Servicio de recepción 24/7 para clínicas de podología. Agenda tratamientos, consultas y cirugías podológicas automáticamente. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-empresas-mudanzas",
     "sector": "Empresas de Mudanzas",
     "title": "Recepcionista Virtual para Empresas de Mudanzas.",
-    "metaTitle": "Recepcionista Virtual para Mudanzas | Cotizaciones 24/7 - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de mudanzas. Captura solicitudes, cotiza servicios y agenda fechas de forma automática. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para empresas de mudanzas · Agentes nativos o IA",
     "heroSubtitle": "Las personas necesitan mudarse a cualquier hora. Tu recepcionista IA cotiza, agenda y confirma sin dejar oportunidades. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 90 empresas de mudanzas confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -1947,14 +1945,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA 24/7 para datos; humanos para negociación y cierre."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Mudanzas...",
+    "metaDescription": "Servicio de recepción 24/7 para empresas de mudanzas. Captura solicitudes, cotiza servicios y agenda fechas de forma automática. Agentes nativos o IA — tú el..."
   },
   {
     "slug": "recepcionista-ia-cerrajerias",
     "sector": "Cerrajerías",
     "title": "Recepcionista Virtual para Cerrajerías.",
-    "metaTitle": "Recepcionista Virtual para Cerrajerías | Servicio 24/7 - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para cerrajerías. Atiende urgencias de cerrajería, emergencias y solicitudes de servicios automáticamente. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para cerrajerías · Agentes nativos o IA",
     "heroSubtitle": "Las urgencias de cerrajería ocurren a cualquier hora. Tu recepcionista IA atiende, identifica emergencia y despacha equipo rápidamente. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 130 cerrajerías confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2022,14 +2020,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA 24/7 para triaje rápido; escalado a humano para urgencias complejas."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Cerrajerías...",
+    "metaDescription": "Servicio de recepción 24/7 para cerrajerías. Atiende urgencias de cerrajería, emergencias y solicitudes de servicios automáticamente. Agentes nativos o IA — ..."
   },
   {
     "slug": "recepcionista-ia-empresas-catering",
     "sector": "Empresas de Catering",
     "title": "Recepcionista Virtual para Empresas de Catering.",
-    "metaTitle": "Recepcionista Virtual para Catering | Pedidos Automáticos - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de catering. Captura pedidos, cotiza menús y gestiona fechas de eventos. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para empresas de catering · Agentes nativos o IA",
     "heroSubtitle": "Clientes llaman para eventos, bodas y comidas corporativas. Tu recepcionista IA cotiza menús, toma pedidos y agenda sin parar. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 65 empresas de catering confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2097,14 +2095,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA 24/7; humanos para venta de eventos."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Catering...",
+    "metaDescription": "Servicio de recepción 24/7 para empresas de catering. Captura pedidos, cotiza menús y gestiona fechas de eventos. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-coworkings-espacios-trabajo",
     "sector": "Coworkings y Espacios de Trabajo",
     "title": "Recepcionista Virtual para Coworkings y Espacios de Trabajo.",
-    "metaTitle": "Recepcionista Virtual para Coworking | Inscripción de Miembros - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para coworkings. Gestiona membresías, salas de reuniones y consultas de emprendedores. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para coworkings · Agentes nativos o IA",
     "heroSubtitle": "Emprendedores necesitan espacio flexible. Tu recepcionista IA vende membresías, agenda salas de reuniones y atiende 24/7. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 45 coworkings y espacios confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2172,14 +2170,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA 24/7; humanos para visitas comerciales."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Coworking...",
+    "metaDescription": "Servicio de recepción 24/7 para coworkings. Gestiona membresías, salas de reuniones y consultas de emprendedores. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-guarderias-escuelas-infantiles",
     "sector": "Guarderías y Escuelas Infantiles",
     "title": "Recepcionista Virtual para Guarderías y Escuelas Infantiles.",
-    "metaTitle": "Recepcionista Virtual para Guarderías | Inscripciones Seguras - minute call",
-    "metaDescription": "Servicio de recepción para guarderías y escuelas infantiles. Gestiona inscripciones, horarios y comunicación con padres de forma segura. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para guarderías · Agentes nativos o IA",
     "heroSubtitle": "Padres llaman para inquietudes de sus hijos. Tu recepcionista IA responde consultas, agenda visitas y comunica cambios importantes. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 80 guarderías y escuelas infantiles confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2247,14 +2245,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para consultas; humanos para primeras llamadas de padres."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Guarderías...",
+    "metaDescription": "Servicio de recepción para guarderías y escuelas infantiles. Gestiona inscripciones, horarios y comunicación con padres de forma segura. Agentes nativos o IA..."
   },
   {
     "slug": "recepcionista-ia-residencias-mayores",
     "sector": "Residencias de Mayores",
     "title": "Recepcionista Virtual para Residencias de Mayores.",
-    "metaTitle": "Recepcionista Virtual para Residencias | Atención Familias - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para residencias de mayores. Atiende consultas de familiares, gestiona visitas y comunica estado de residentes. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para residencias · Agentes nativos o IA",
     "heroSubtitle": "Familias preocupadas llaman sobre sus mayores. Tu recepcionista IA responde, coordina visitas y comunica cambios de salud. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 55 residencias de mayores confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2322,14 +2320,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para información básica; humanos para todas las primeras consultas de familias."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Residencias...",
+    "metaDescription": "Servicio de recepción 24/7 para residencias de mayores. Atiende consultas de familiares, gestiona visitas y comunica estado de residentes. Agentes nativos o ..."
   },
   {
     "slug": "recepcionista-ia-centros-yoga-pilates",
     "sector": "Centros de Yoga y Pilates",
     "title": "Recepcionista Virtual para Centros de Yoga y Pilates.",
-    "metaTitle": "Recepcionista Virtual para Yoga | Gestión de Clases - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para centros de yoga y pilates. Agenda clases, canaliza nuevos alumnos y gestiona membresías. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para centros de yoga · Agentes nativos o IA",
     "heroSubtitle": "Las personas buscan paz y bienestar. Tu recepcionista IA agenda clases de yoga y pilates sin interrupciones constantes. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 65 centros de yoga y pilates confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2397,14 +2395,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para reservas 24/7; humanos para asesoramiento y ventas de bonos."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Yoga...",
+    "metaDescription": "Servicio de recepción 24/7 para centros de yoga y pilates. Agenda clases, canaliza nuevos alumnos y gestiona membresías. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-estudios-fotografia",
     "sector": "Estudios de Fotografía",
     "title": "Recepcionista Virtual para Estudios de Fotografía.",
-    "metaTitle": "Recepcionista Virtual para Fotografía | Reserva de Sesiones - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para estudios de fotografía. Agenda sesiones de fotos, consulta de paquetes y gestión de eventos. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para estudios fotográficos · Agentes nativos o IA",
     "heroSubtitle": "Parejas necesitan sesiones de fotos de boda. Empresas buscan fotos profesionales. Tu recepcionista IA agenda sin parar. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 50 estudios de fotografía confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2472,14 +2470,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para disponibilidad; humanos para venta de reportajes premium."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Fotografía...",
+    "metaDescription": "Servicio de recepción 24/7 para estudios de fotografía. Agenda sesiones de fotos, consulta de paquetes y gestión de eventos. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-empresas-seguridad-privada",
     "sector": "Empresas de Seguridad Privada",
     "title": "Recepcionista Virtual para Empresas de Seguridad Privada.",
-    "metaTitle": "Recepcionista Virtual para Seguridad | Coordinación 24/7 - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de seguridad privada. Coordina servicios, identifica emergencias y despacha personal. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para empresas de seguridad · Agentes nativos o IA",
     "heroSubtitle": "Empresas necesitan seguridad confiable. Tu recepcionista IA atiende llamadas de emergencia, coordina personal de guardia. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 40 empresas de seguridad privada confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2547,14 +2545,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para consultas; humanos para alarmas e incidencias."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Seguridad...",
+    "metaDescription": "Servicio de recepción 24/7 para empresas de seguridad privada. Coordina servicios, identifica emergencias y despacha personal. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-clinicas-reproduccion-asistida",
     "sector": "Clínicas de Reproducción Asistida",
     "title": "Recepcionista Virtual para Clínicas de Reproducción Asistida.",
-    "metaTitle": "Recepcionista Virtual para Reproducción | Citas Confidenciales - minute call",
-    "metaDescription": "Servicio de recepción para clínicas de reproducción asistida. Atiende consultas delicadas, agenda citas y gestiona confidencialidad. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para clínicas de fertilidad · Agentes nativos o IA",
     "heroSubtitle": "Parejas buscan soluciones de fertilidad con privacidad. Tu recepcionista IA atiende con empatía y confidencialidad total. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 35 clínicas de reproducción asistida confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2622,14 +2620,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para agenda; humanos para primeras consultas de pacientes nuevos."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Reproducción...",
+    "metaDescription": "Servicio de recepción para clínicas de reproducción asistida. Atiende consultas delicadas, agenda citas y gestiona confidencialidad. Agentes nativos o IA — t..."
   },
   {
     "slug": "recepcionista-ia-centros-formacion-profesional",
     "sector": "Centros de Formación Profesional",
     "title": "Recepcionista Virtual para Centros de Formación Profesional.",
-    "metaTitle": "Recepcionista Virtual para Formación | Inscripción de Cursos - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para centros de formación. Gestiona inscripciones, horarios y consultas de alumnos. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para centros de formación · Agentes nativos o IA",
     "heroSubtitle": "Personas buscan capacitación profesional. Tu recepcionista IA inscribe, responde dudas y agenda clases sin cerrar. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 55 centros de formación profesional confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2697,14 +2695,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA 24/7; humanos para orientación y cierre."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Formación...",
+    "metaDescription": "Servicio de recepción 24/7 para centros de formación. Gestiona inscripciones, horarios y consultas de alumnos. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-empresas-transporte",
     "sector": "Empresas de Transporte",
     "title": "Recepcionista Virtual para Empresas de Transporte.",
-    "metaTitle": "Recepcionista Virtual para Transporte | Coordinación de Rutas - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de transporte. Coordina envíos, rastreo y consultas de clientes. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para empresas de transporte · Agentes nativos o IA",
     "heroSubtitle": "Clientes necesitan saber dónde está su carga. Tu recepcionista IA atiende consultas, coordina rutas y despacha. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 70 empresas de transporte confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2772,14 +2770,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para tracking 24/7; humanos para incidencias."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Transporte...",
+    "metaDescription": "Servicio de recepción 24/7 para empresas de transporte. Coordina envíos, rastreo y consultas de clientes. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-funerarias-tanatorios",
     "sector": "Funerarias y Tanatorios",
     "title": "Recepcionista Virtual para Funerarias y Tanatorios.",
-    "metaTitle": "Recepcionista Virtual para Funerarias | Atención Sensible 24/7 - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para funerarias. Atiende con empatía, gestiona servicios y coordina trámites fúnebres. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para funerarias · Agentes nativos o IA",
     "heroSubtitle": "Familias en duelo necesitan apoyo. Tu recepcionista IA atiende con empatía, explica servicios y coordina sin interrupciones. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 45 funerarias y tanatorios confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2847,14 +2845,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Recomendamos humano para la gran mayoría. IA solo para información básica."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Funerarias...",
+    "metaDescription": "Servicio de recepción 24/7 para funerarias. Atiende con empatía, gestiona servicios y coordina trámites fúnebres. Agentes nativos o IA — tú eliges."
   },
   {
     "slug": "recepcionista-ia-administradores-fincas",
     "sector": "Administradores de Fincas",
     "title": "Recepcionista Virtual para Administradores de Fincas.",
-    "metaTitle": "Recepcionista Virtual para Fincas | Consultas de Vecinos - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para administradores de fincas. Atiende consultas de vecinos, coordina reparaciones y reporta incidencias. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para administradores · Agentes nativos o IA",
     "heroSubtitle": "Vecinos necesitan reportar daños, pedir servicios. Tu recepcionista IA atiende 24/7, documenta y coordina reparaciones. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 80 administradores de fincas confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2922,14 +2920,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para consultas; humanos para urgencias comunitarias 24/7."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Fincas...",
+    "metaDescription": "Servicio de recepción 24/7 para administradores de fincas. Atiende consultas de vecinos, coordina reparaciones y reporta incidencias. Agentes nativos o IA — ..."
   },
   {
     "slug": "recepcionista-ia-clinicas-cirugia-estetica",
     "sector": "Clínicas de Cirugía Estética",
     "title": "Recepcionista Virtual para Clínicas de Cirugía Estética.",
-    "metaTitle": "Recepcionista Virtual para Cirugía Estética | Consultas 24/7 - minute call",
-    "metaDescription": "Servicio de recepción 24/7 para clínicas de cirugía estética. Agenda consultas, proporciona información y gestiona citas post-operatorias. Agentes nativos o IA — tú eliges.",
     "heroTag": "Atención telefónica para clínicas estéticas · Agentes nativos o IA",
     "heroSubtitle": "Personas buscan transformarse con confianza. Tu recepcionista IA atiende consultas delicadas con profesionalismo y privacidad. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 60 clínicas de cirugía estética confían en nuestra atención telefónica · Partners de Teleperformance",
@@ -2997,14 +2995,14 @@
         "question": "¿Puedo alternar IA y agente humano?",
         "answer": "Sí. IA para seguimiento y precios; humanos para primeras consultas."
       }
-    ]
+    ],
+    "metaTitle": "Recepcionista Virtual para Cirugía Estética...",
+    "metaDescription": "Servicio de recepción 24/7 para clínicas de cirugía estética. Agenda consultas, proporciona información y gestiona citas post-operatorias. Agentes nativos o ..."
   },
   {
     "slug": "call-center-para-empresas",
     "sector": "Call Center para Empresas",
     "title": "Soluciones de Call Center Profesional para tu Empresa.",
-    "metaTitle": "Call center para PYMES en Espana: la alternativa flexible | minute call",
-    "metaDescription": "Call center para PYMES sin los contratos de Teleperformance o Konecta. Agentes nativos, sin permanencia, desde 250 euros/mes. La alternativa ligera y flexible para empresas espanolas.",
     "heroTag": "Call center para PYMES: la alternativa a los grandes",
     "heroSubtitle": "Todo lo que necesita una PYME en atencion telefonica — sin los contratos de los grandes call centers. Agentes nativos en Espana, sin permanencia, activa en 48 horas.",
     "socialProof": "Más de 500 empresas españolas confían en Minute Call para gestionar sus llamadas entrantes y mejorar la experiencia de cliente · Partners de Teleperformance",
@@ -3072,14 +3070,14 @@
         "question": "¿Se puede escalar?",
         "answer": "Sí. Aumentas o reduces cobertura sin penalización. Mes a mes."
       }
-    ]
+    ],
+    "metaTitle": "Call center para PYMES en Espana: la alternativa flexible...",
+    "metaDescription": "Call center para PYMES sin los contratos de Teleperformance o Konecta. Agentes nativos, sin permanencia, desde 250 euros/mes. La alternativa ligera y flexibl..."
   },
   {
     "slug": "bpo-externalizacion",
     "sector": "BPO y Externalización de Procesos",
     "title": "Servicios de BPO y Externalización de Procesos Telefónicos.",
-    "metaTitle": "BPO y Externalización de Procesos | Business Process Outsourcing | Minute Call",
-    "metaDescription": "Soluciones BPO profesionales para externalizar tu atención telefónica. Reducción de costos operativos hasta 65%. Especialistas en business process outsourcing para empresas. Agentes nativos o IA — tú eliges.",
     "heroTag": "BPO FLEXIBLE · Agentes nativos o IA",
     "heroSubtitle": "Externaliza tu atención al cliente y procesamiento de llamadas con un socio especializado. Nos encargamos de toda la gestión, permitiéndote concentrarte en tu core business mientras mejoras la calidad de servicio. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 300 empresas han optimizado sus procesos delegando con Minute Call, mejorando eficiencia operativa y reduciendo costos hasta el 65% · Partners de Teleperformance",
@@ -3147,14 +3145,14 @@
         "question": "¿Cuánto tarda en activarse?",
         "answer": "Menos de 48 horas."
       }
-    ]
+    ],
+    "metaTitle": "BPO y Externalización de Procesos...",
+    "metaDescription": "Soluciones BPO profesionales para externalizar tu atención telefónica. Reducción de costos operativos hasta 65%. Especialistas en business process outsourcin..."
   },
   {
     "slug": "call-center-24-horas",
     "sector": "Call Center 24 Horas",
     "title": "Servicio de Call Center 24 Horas sin Pausas.",
-    "metaTitle": "Atencion telefonica 24 horas para PYMES | Servicio 24/7 | minute call",
-    "metaDescription": "Servicio de atencion telefonica 24 horas para PYMES en Espana. Nunca pierdas una llamada fuera de horario. Agentes nativos o IA. Desde 490 euros/mes. Sin permanencia.",
     "heroTag": "Atencion telefonica 24 horas para empresas",
     "heroSubtitle": "Servicio de atencion telefonica 24/7 para PYMES. Tus clientes siempre encontraran respuesta, incluso a las 3 de la madrugada. Agentes nativos o IA — tu eliges.",
     "socialProof": "Más de 400 empresas confían en nuestro servicio 24/7 para no perder ni una sola llamada, mejorando satisfacción de cliente hasta 85% · Partners de Teleperformance",
@@ -3223,14 +3221,14 @@
         "answer": "Sí. Permanente o solo en períodos específicos. Mes a mes."
       }
     ],
-    "heroTitle": "Call center 24 horas para tu empresa."
+    "heroTitle": "Call center 24 horas para tu empresa.",
+    "metaTitle": "Atencion telefonica 24 horas para PYMES...",
+    "metaDescription": "Servicio de atencion telefonica 24 horas para PYMES en Espana. Nunca pierdas una llamada fuera de horario. Agentes nativos o IA. Desde 490 euros/mes. Sin per..."
   },
   {
     "slug": "outsourcing-atencion-cliente",
     "sector": "Outsourcing de Atención al Cliente",
     "title": "Outsourcing Profesional de Atención Telefónica al Cliente.",
-    "metaTitle": "Outsourcing de Atención al Cliente | Servicio Telefónico | Minute Call",
-    "metaDescription": "Externaliza tu atención al cliente con agentes profesionales bilingües. Mejora satisfacción, reduce costos. Servicio desde 250€/mes sin permanencia. Agentes nativos o IA — tú eliges.",
     "heroTag": "OUTSOURCING INTELIGENTE · Agentes nativos o IA",
     "heroSubtitle": "Delega la atención al cliente a especialistas mientras tú te enfocas en crecer. Nuestro equipo de agentes profesionales atiende con la calidad que tus clientes merecen, mejorando satisfacción y lealtad. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 350 empresas han mejorado su satisfacción de cliente delegando con Minute Call, reduciendo al mismo tiempo sus costos operativos entre 60-70% · Partners de Teleperformance",
@@ -3298,14 +3296,14 @@
         "question": "¿Se puede combinar con equipo interno?",
         "answer": "Sí. Tu equipo para las especializadas; Minute Call para desbordamiento y fuera de horario."
       }
-    ]
+    ],
+    "metaTitle": "Outsourcing de Atención al Cliente...",
+    "metaDescription": "Externaliza tu atención al cliente con agentes profesionales bilingües. Mejora satisfacción, reduce costos. Servicio desde 250€/mes sin permanencia. Agentes ..."
   },
   {
     "slug": "centralita-virtual-empresas",
     "sector": "Centralita Virtual para Empresas",
     "title": "Centralita Virtual Telefónica Profesional para tu Empresa.",
-    "metaTitle": "Centralita Virtual para Empresas | Recepción Telefónica | Minute Call",
-    "metaDescription": "Centralita telefónica virtual sin infraestructura. Recepción profesional con derivación de llamadas inteligente. Desde 250€/mes sin permanencia. Agentes nativos o IA — tú eliges.",
     "heroTag": "CENTRALITA 100% VIRTUAL · Agentes nativos o IA",
     "heroSubtitle": "Una centralita telefónica profesional sin inversión en equipamiento. Nuestros agentes funcionan como tu centralita humana, distribuyendo llamadas, tomando mensajes y derivando de forma inteligente. Agentes nativos o IA — tú eliges.",
     "socialProof": "Más de 450 empresas han reemplazado sus centralitas antiguas con Minute Call, mejorando flexibilidad y reduciendo inversión tecnológica en 100% · Partners de Teleperformance",
@@ -3373,14 +3371,14 @@
         "question": "¿Puedo configurar reglas por horario?",
         "answer": "Sí. Humano de 9 a 19h, IA de noche, desvío a tu móvil en horario VIP. Sin coste extra."
       }
-    ]
+    ],
+    "metaTitle": "Centralita Virtual para Empresas...",
+    "metaDescription": "Centralita telefónica virtual sin infraestructura. Recepción profesional con derivación de llamadas inteligente. Desde 250€/mes sin permanencia. Agentes nati..."
   },
   {
     "slug": "recepcion-de-llamadas",
     "sector": "Recepcion de llamadas",
     "title": "Servicio de recepcion de llamadas para empresas.",
-    "metaTitle": "Servicio de recepcion de llamadas para empresas | minute call",
-    "metaDescription": "Recepcion de llamadas profesional para empresas en Espana. Agentes nativos o IA atienden en nombre de tu empresa. Sin permanencia, desde 250 euros/mes. Activa en 48h.",
     "heroTag": "Recepcion de llamadas para empresas y PYMES",
     "heroTitle": "Recepcion de llamadas para tu empresa.",
     "heroSubtitle": "Agentes nativos en Espana atienden todas las llamadas de tu empresa como si fueran de tu propio equipo. Filtrado, mensajes, citas y cualificacion de leads. Sin contratar personal.",
@@ -3445,14 +3443,14 @@
         "question": "Que diferencia hay entre recepcion de llamadas y call center?",
         "answer": "Un call center gestiona volumen masivo con scripts estandar para muchas empresas. La recepcion de llamadas personalizada de Minute Call actua como tu propia recepcionista: con tu nombre, tu protocolo y conocimiento real de tu negocio."
       }
-    ]
+    ],
+    "metaTitle": "Servicio de recepcion de llamadas para empresas...",
+    "metaDescription": "Recepcion de llamadas profesional para empresas en Espana. Agentes nativos o IA atienden en nombre de tu empresa. Sin permanencia, desde 250 euros/mes. Activ..."
   },
   {
     "slug": "secretaria-virtual",
     "sector": "Secretaria virtual",
     "title": "Secretaria virtual para empresas y autonomos.",
-    "metaTitle": "Secretaria virtual para empresas | Agentes nativos en Espana | minute call",
-    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Atiende llamadas, gestiona citas y cualifica leads en nombre de tu empresa. Desde 250 euros/mes. Sin permanencia. Activa en 48h.",
     "heroTag": "Secretaria virtual para PYMES y autonomos",
     "heroTitle": "Tu secretaria virtual. Sin los costes de contratar.",
     "heroSubtitle": "Agentes nativos basados en Espana atienden tus llamadas como si fueran de tu propia empresa. Gestiona citas, filtra llamadas y capta leads — todo sin contratar personal ni pagar cuotas de Seguridad Social.",
@@ -3505,6 +3503,8 @@
         "question": "Los clientes saben que no es mi propia secretaria?",
         "answer": "No si no quieres. Nuestros agentes usan el nombre de tu empresa, tu tono y tu protocolo. El 80% de los clientes de nuestros usuarios no perciben que es un servicio externo."
       }
-    ]
+    ],
+    "metaTitle": "Secretaria virtual para empresas...",
+    "metaDescription": "Secretaria virtual con agentes nativos en Espana. Atiende llamadas, gestiona citas y cualifica leads en nombre de tu empresa. Desde 250 euros/mes. Sin perman..."
   }
 ]
