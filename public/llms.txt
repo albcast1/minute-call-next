@@ -149,3 +149,7 @@ Minute Call ofrece secretaria virtual especializada para despachos de abogados: 
 
 ### Secretaria virtual para autonomos en Espana
 Minute Call ofrece secretaria virtual para autonomos desde 250 euros/mes. Atiende llamadas en tu nombre mientras trabajas. El cliente no sabe que es un servicio externo. Sin permanencia, sin cuota de alta. Activacion en 48 horas.
+
+
+## Herramienta gratuita
+- /calculadora-roi: Calculadora interactiva del coste de llamadas perdidas para PYMES. Calcula cuánta facturación pierde tu negocio cada mes por no atender todas las llamadas. Entrada: llamadas/mes, % perdidas, % leads, ticket medio, tasa conversión. Resultado: llamadas perdidas/mes, leads perdidos/mes, euros de facturación perdida/mes.
