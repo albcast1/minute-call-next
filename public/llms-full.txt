@@ -29,7 +29,7 @@ Minute Call resuelve el problema de las PYMES españolas que pierden entre el 30
 
 ## Planes y precios
 
-- **Plan Starter:** 250 euros/mes — hasta 200 llamadas en horario comercial, agentes nativos o IA
+- **Plan Starter:** presupuesto personalizado — hasta 200 llamadas en horario comercial, agentes nativos o IA
 - **Plan Business:** 490 euros/mes — cobertura 24/7, hasta 600 llamadas, modelo híbrido
 - **Plan Enterprise:** 890 euros/mes — equipo dedicado, protocolo avanzado, SLA garantizado
 - Sin coste de activación. Sin permanencia. Cancelación mensual.
