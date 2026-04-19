@@ -15,7 +15,7 @@ export const OrganizationSchema: React.FC = () => {
     url: 'https://www.minute-call.com',
     logo: 'https://www.minute-call.com/og-image.png',
     image: 'https://www.minute-call.com/og-image.png',
-    description: 'Servicio de recepcionista virtual y atención telefónica 24/7 para PYMES en España. Agentes nativos o IA. Sin permanencia. Desde 250 €/mes.',
+    description: 'Servicio de recepcionista virtual y atención telefónica 24/7 para PYMES en España. Agentes nativos o IA. Sin permanencia. Sin permanencia.',
     foundingDate: '2024',
     numberOfEmployees: { '@type': 'QuantitativeValue', minValue: 10, maxValue: 50 },
     address: { '@type': 'PostalAddress', addressCountry: 'ES', addressLocality: 'Madrid' },
