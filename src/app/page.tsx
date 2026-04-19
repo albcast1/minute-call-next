@@ -249,7 +249,7 @@ export default function Home() {
           {/* Right column: video */}
           <div style={{ flex: "2 1 300px", minWidth: 0, alignSelf: "center", width: "100%" }}>
             <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5" }}>
-              <video
+              <video preload="none"
                 src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
                 playsInline
                 muted
