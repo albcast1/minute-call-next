@@ -104,17 +104,17 @@ export default function Home() {
             src="/assets/partners/teleperformance.png"
             alt="Teleperformance"
             style={{ height: "clamp(22px, 5vw, 34px)", width: "auto", maxWidth: "100%" }}
-          / loading="eager" fetchPriority="high">
+          loading="eager" fetchPriority="high" />
           <img
             src="/assets/partners/intelcia.png"
             alt="Intelcia"
             style={{ height: "clamp(20px, 4.5vw, 30px)", width: "auto", maxWidth: "100%" }}
-          / loading="lazy">
+          loading="lazy" />
           <img
             src="/assets/partners/zendesk.png"
             alt="Zendesk"
             style={{ height: "clamp(14px, 3vw, 19px)", width: "auto", maxWidth: "100%" }}
-          / loading="lazy">
+          loading="lazy" />
         </div>
         {/* Trustpilot badge */}
         <a
@@ -249,13 +249,13 @@ export default function Home() {
           {/* Right column: video */}
           <div style={{ flex: "2 1 300px", minWidth: 0, alignSelf: "center", width: "100%" }}>
             <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5" }}>
-              <video preload="none"
+              <video
                 src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
                 playsInline
                 muted
                 loop
                 autoPlay
-                preload="metadata"
+                preload="none"
                 style={{ width: "100%", height: "auto", display: "block" }}
               />
             </div>
@@ -460,7 +460,7 @@ export default function Home() {
                 src="/assets/team/alberto.jpg"
                 alt="Alberto Castiel"
                 style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-              / loading="lazy">
+              loading="lazy" />
             </div>
             <h3 style={{ fontSize: 22 }}>Alberto Castiel</h3>
             <p className="service-card-body">
@@ -476,7 +476,7 @@ export default function Home() {
                 src="/assets/team/beatriz.jpg"
                 alt="Beatriz De Tena"
                 style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-              / loading="lazy">
+              loading="lazy" />
             </div>
             <h3 style={{ fontSize: 22 }}>Beatriz De Tena</h3>
             <p className="service-card-body">
