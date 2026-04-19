@@ -101,20 +101,20 @@ export default function Home() {
           }}
         >
           <img
-            src="https://framerusercontent.com/assets/vVcZO7NVGGx5NLbyvAVMug0g1ko.png"
+            src="/assets/partners/teleperformance.png"
             alt="Teleperformance"
             style={{ height: "clamp(22px, 5vw, 34px)", width: "auto", maxWidth: "100%" }}
-          />
+          / loading="eager" fetchPriority="high">
           <img
-            src="https://framerusercontent.com/images/pZqRL99lnwLqdJMbZFfqwh1XGBk.png"
+            src="/assets/partners/intelcia.png"
             alt="Intelcia"
             style={{ height: "clamp(20px, 4.5vw, 30px)", width: "auto", maxWidth: "100%" }}
-          />
+          / loading="lazy">
           <img
-            src="https://framerusercontent.com/images/B3NliQmX4vcGor4wPgTZ3oHU.png"
+            src="/assets/partners/zendesk.png"
             alt="Zendesk"
             style={{ height: "clamp(14px, 3vw, 19px)", width: "auto", maxWidth: "100%" }}
-          />
+          / loading="lazy">
         </div>
         {/* Trustpilot badge */}
         <a
@@ -457,10 +457,10 @@ export default function Home() {
               style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}
             >
               <img
-                src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
+                src="/assets/team/alberto.jpg"
                 alt="Alberto Castiel"
                 style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-              />
+              / loading="lazy">
             </div>
             <h3 style={{ fontSize: 22 }}>Alberto Castiel</h3>
             <p className="service-card-body">
@@ -473,10 +473,10 @@ export default function Home() {
               style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}
             >
               <img
-                src="https://framerusercontent.com/images/6QCXvNGkCPpl1XOgOz1Op6nosP0.jpeg"
+                src="/assets/team/beatriz.jpg"
                 alt="Beatriz De Tena"
                 style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-              />
+              / loading="lazy">
             </div>
             <h3 style={{ fontSize: 22 }}>Beatriz De Tena</h3>
             <p className="service-card-body">
