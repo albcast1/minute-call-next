@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ ciudad: s
   const city = cities.find(c => c.slug === ciudad)
   const sec = sectors.find(s => s.slug === sector)
   if (!city || !sec) return {}
-  const title = `${sec.title} en ${city.city} | minute call`
+  const title = `${sec.title.replace(/\.$/,"")} en ${city.city} | minute call`
   const description = `Servicio de recepcionista virtual para ${sec.sector} en ${city.city}. Agentes nativos o IA. Sin permanencia. Activa en 48h. Desde 250 euros/mes.`
   return {
     title,
