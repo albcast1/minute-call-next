@@ -630,6 +630,18 @@
       {
         "href": "/precios",
         "label": "Ver precios"
+      },
+      {
+        "href": "/articulos/externalizar-atencion-telefonica-clinica-dental",
+        "label": "Para clínicas dentales"
+      },
+      {
+        "href": "/articulos/atencion-telefonica-externalizada-sector-salud",
+        "label": "Para el sector salud"
+      },
+      {
+        "href": "/articulos/secretaria-virtual-clinicas-precio-espana",
+        "label": "Precios para clínicas"
       }
     ],
     "faq": [
@@ -645,7 +657,8 @@
         "question": "El servicio es compatible con el sistema de citas de mi clinica?",
         "answer": "Si. Minute Call se integra con los principales sistemas de gestion de citas: Doctoralia, Cliniccloud, y cualquier agenda compartida. Configuramos la integracion antes de la activacion."
       }
-    ]
+    ],
+    "directAnswer": "Un recepcionista virtual para clínicas atiende las llamadas en nombre del centro médico, gestiona citas en el sistema de la clínica (Doctoralia, Cliniccloud, Gesden), filtra urgencias y da información de servicios. Permite que el personal sanitario se dedique a los pacientes sin interrupciones por llamadas."
   },
   {
     "slug": "precio-recepcionista-virtual-espana-2025",
@@ -757,7 +770,8 @@
         "question": "Hay costes ocultos en los servicios de secretaria virtual?",
         "answer": "Algunos proveedores cobran cuota de alta (50-200 euros), por llamadas adicionales fuera del bono, por cambios de protocolo o por soporte. Minute Call no cobra activacion, no tiene costes ocultos y el precio es fijo mensual independientemente del volumen dentro del plan."
       }
-    ]
+    ],
+    "directAnswer": "Una secretaria virtual en España no tiene un precio fijo — depende del volumen de llamadas, el horario de cobertura y si el agente es humano o IA. La mejor forma de obtener un precio ajustado a tu empresa es contactar directamente con el proveedor y describir tu volumen real de llamadas."
   },
   {
     "slug": "secretaria-virtual-clinicas-precio-espana",
@@ -885,7 +899,8 @@
         "question": "Puedo cambiar de Secretaria.es a Minute Call sin cortar el servicio?",
         "answer": "Si. La transicion se hace solapando ambos servicios durante 48 horas. Redirigimos el numero a Minute Call, definimos el protocolo con tu informacion y cuando esta todo configurado, cancelamos el servicio anterior. Sin interrupciones para tus clientes."
       }
-    ]
+    ],
+    "directAnswer": "Minute Call y Secretaria.es son servicios de recepcionista virtual para empresas en España. La diferencia principal está en los agentes: Minute Call utiliza agentes 100% nativos del país donde opera la empresa (españoles para España, ingleses nativos para UK), mientras que Secretaria.es centraliza la atención desde Europa Central."
   },
   {
     "slug": "secretaria-virtual-autonomos-espana",
@@ -1130,6 +1145,14 @@
       {
         "href": "/lp/secretaria-virtual",
         "label": "Secretaria virtual para empresas"
+      },
+      {
+        "href": "/articulos/cuanto-cuesta-secretaria-virtual-espana-2025",
+        "label": "Cuánto cuesta una secretaria virtual en España"
+      },
+      {
+        "href": "/articulos/alternativa-secretaria-es-minute-call-comparativa",
+        "label": "Alternativa a Secretaria.es"
       }
     ],
     "faq": [
@@ -1145,7 +1168,8 @@
         "question": "En que sectores de Madrid es mas util una secretaria virtual?",
         "answer": "En Madrid los sectores que mas usan secretaria virtual son: despachos de abogados (eje Castellana-Azca), clinicas privadas (Salamanca, Chamberi), asesorias fiscales (Nuevos Ministerios), inmobiliarias de lujo (Barrio de Salamanca, La Moraleja) y consultoras independientes."
       }
-    ]
+    ],
+    "directAnswer": "Una secretaria virtual en Madrid atiende las llamadas de tu empresa con agentes nativos, gestiona citas y cualifica leads — sin los costes de contratar una recepcionista interna. El servicio se activa en 48 horas y funciona mes a mes, sin contrato de permanencia."
   },
   {
     "slug": "recepcionista-virtual-barcelona",
@@ -1170,6 +1194,14 @@
       {
         "href": "/lp/recepcion-de-llamadas",
         "label": "Servicio de recepcion de llamadas"
+      },
+      {
+        "href": "/articulos/cuanto-cuesta-secretaria-virtual-espana-2025",
+        "label": "Cuánto cuesta una secretaria virtual"
+      },
+      {
+        "href": "/articulos/secretaria-virtual-madrid",
+        "label": "Secretaria virtual en Madrid"
       }
     ],
     "faq": [
@@ -1185,7 +1217,8 @@
         "question": "Es util para startups del 22@ en Barcelona?",
         "answer": "Muy util. Las startups del 22@ suelen recibir llamadas en espanol e ingles de clientes, inversores y partners. Una recepcionista virtual garantiza que ninguna llamada importante se pierde mientras el equipo esta en modo producto."
       }
-    ]
+    ],
+    "directAnswer": "Un recepcionista virtual en Barcelona atiende llamadas en español, catalán e inglés con agentes nativos, gestiona la agenda del negocio y cualifica a los clientes potenciales. Es la alternativa a contratar personal de recepción fijo, con la misma calidad profesional y sin los costes laborales."
   },
   {
     "slug": "secretaria-virtual-malaga",
@@ -1293,7 +1326,8 @@
         "question": "Cuanto cuesta un call center para una PYME en Espana?",
         "answer": "Con los grandes BPO (Teleperformance, Konecta), el minimo suele ser de 5.000 euros/mes con contratos anuales. Con Minute Call ofrece presupuesto personalizado segun el volumen y necesidades de cada empresa."
       }
-    ]
+    ],
+    "directAnswer": "La diferencia entre un call center para grandes empresas como Teleperformance y un servicio para PYMES está en el modelo: los grandes BPO exigen equipos dedicados de 10 o más agentes con contratos anuales. Los servicios para PYMES como Minute Call usan agentes compartidos, sin mínimos de volumen ni tamaño."
   },
   {
     "slug": "externalizar-atencion-telefonica-clinica-dental",
@@ -1314,6 +1348,14 @@
       {
         "href": "/articulos/secretaria-virtual-clinicas-precio-espana",
         "label": "Secretaria virtual para clinicas: precios"
+      },
+      {
+        "href": "/articulos/recepcionista-virtual-clinicas-espana",
+        "label": "Recepcionista virtual para clínicas"
+      },
+      {
+        "href": "/articulos/atencion-telefonica-externalizada-sector-salud",
+        "label": "Atención telefónica para el sector salud"
       }
     ],
     "faq": [
@@ -1329,7 +1371,8 @@
         "question": "Cuanto cuesta para una clinica dental?",
         "answer": "El El precio se ajusta al volumen de llamadas y nivel de cobertura necesario. Para clinicas con mayor volumen o que necesitan cobertura de fin de semana, el El precio se ajusta al volumen de llamadas y nivel de cobertura necesario."
       }
-    ]
+    ],
+    "directAnswer": "Externalizar la atención telefónica de una clínica dental significa que un agente formado en el protocolo del centro atiende todas las llamadas, gestiona citas en el sistema de la clínica y activa el protocolo de urgencias cuando es necesario. El personal de la clínica se centra en los pacientes sin interrupciones."
   },
   {
     "slug": "secretaria-virtual-para-consultores-autonomos",
@@ -1477,6 +1520,7 @@
         "question": "Puede el agente agendar visitas en el calendario del agente inmobiliario?",
         "answer": "Si. Con acceso al Google Calendar o al CRM inmobiliario (Inmovilla, Witei, Inmofactory), el agente agenda las visitas directamente con el comprador segun la disponibilidad real del agente. Sin dobles reservas, sin llamadas perdidas."
       }
-    ]
+    ],
+    "directAnswer": "Un recepcionista virtual para inmobiliarias en Madrid y Barcelona cualifica al comprador en la primera llamada (presupuesto, zona, tipo de inmueble, disponibilidad para visitas) y notifica al agente con todos los datos. El agente llama preparado, no a ciegas, y no pierde ningún lead mientras está en una visita."
   }
 ]
