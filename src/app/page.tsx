@@ -72,7 +72,9 @@ export default function Home() {
         name: 'Como funciona Minute Call - Recepcionista virtual para PYMES',
         description: 'Minute Call atiende las llamadas de tu empresa con agentes nativos o IA, gestionando citas y leads.',
         thumbnailUrl: 'https://www.minute-call.com/og-image.png',
-        uploadDate: '2024-01-01',
+        embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        contentUrl: 'https://www.minute-call.com/og-image.png',
+        uploadDate: '2024-01-01T00:00:00+01:00',
         publisher: {
           '@type': 'Organization',
           '@id': 'https://www.minute-call.com/#organization',
