@@ -1,3 +1,7 @@
+# Minute Call — llms.txt
+
+> Full content: https://www.minute-call.com/llms-full.txt
+
 # minute call - Recepcionista virtual para PYMES
 # https://www.minute-call.com
 # Servicio de atención telefónica 24/7 con agentes nativos o IA para PYMES en España.
