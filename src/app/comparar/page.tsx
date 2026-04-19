@@ -31,7 +31,7 @@ const comparisons = [
     type: 'Secretaria virtual europea',
     minContract: 'Variable',
     minVolume: 'Sin minimo',
-    price: 'No publicado (estimado 200-500 euros/mes)',
+    price: 'No publicado (no publicado)',
     agents: 'Agentes en Europa Central',
     activation: '3-5 dias',
     personalization: 'Media',
