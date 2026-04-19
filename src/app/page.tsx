@@ -116,18 +116,7 @@ export default function Home() {
             style={{ height: "clamp(14px, 3vw, 19px)", width: "auto", maxWidth: "100%" }}
           loading="lazy" />
         </div>
-        {/* Trustpilot badge */}
-        <a
-          href="https://www.trustpilot.com/review/minute-call.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ display: 'inline-flex', alignItems: 'center', gap: 8, textDecoration: 'none', background: '#fff', border: '1px solid #e5e5e5', borderRadius: 8, padding: '8px 14px' }}
-        >
-          <span style={{ color: '#00b67a', fontSize: 18, letterSpacing: -1 }}>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-          <span style={{ fontSize: 13, color: '#333' }}>
-            <strong>4.4</strong>/5 &middot; <span style={{ color: '#00b67a', fontWeight: 600 }}>Trustpilot</span>
-          </span>
-        </a>
+        
       </section>
 
       {/* ===== QUÉ HACEMOS POR TI ===== */}
@@ -255,7 +244,7 @@ export default function Home() {
                 muted
                 loop
                 autoPlay
-                preload="none"
+                preload="metadata"
                 style={{ width: "100%", height: "auto", display: "block" }}
               />
             </div>
