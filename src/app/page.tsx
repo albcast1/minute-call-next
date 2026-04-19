@@ -27,7 +27,7 @@ export default function Home() {
     },
     {
       q: "\u00bfCu\u00e1nto cuesta el servicio de recepcionista virtual?",
-      a: "Los planes de Minute Call empiezan desde 250\u20ac/mes para peque\u00f1as PYMES. El precio var\u00eda seg\u00fan el volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia ni costes ocultos.",
+      a: "El precio de Minute Call se define según el volumen de llamadas, el horario de cobertura y las necesidades de cada empresa. Sin mínimo de tamaño ni permanencia.",
     },
     {
       q: "\u00bfHay permanencia o compromiso de duraci\u00f3n?",
