@@ -109,7 +109,7 @@ export default function VideoCard() {
           alt={activeTab === "human" ? "Recepcionista" : "Recepcionista IA"}
           style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
         />
-        <audio
+        <audio preload="none"
           ref={audioRef}
           src={audioSrc}
           onTimeUpdate={() => setCurrentTime(audioRef.current?.currentTime ?? 0)}
