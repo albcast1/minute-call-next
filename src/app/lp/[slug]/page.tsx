@@ -121,8 +121,11 @@ export default async function LandingPage({
           </div>
 
           <h1>
-            Recepcionista de IA para{" "}
-            <span className="serif-italic">{sector.sector}.</span>
+            {sector.heroTitle ? (
+              <span className="serif-italic">{sector.heroTitle}</span>
+            ) : (
+              <>Recepcionista de IA para{" "}<span className="serif-italic">{sector.sector}.</span></>
+            )}
           </h1>
 
           <p style={{ maxWidth: 500, marginBottom: 16 }}>{sector.heroSubtitle}</p>
