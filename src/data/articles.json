@@ -13,7 +13,7 @@
       },
       {
         "question": "¿Cuánto cuesta un recepcionista virtual humano comparado con IA?",
-        "answer": "Un recepcionista virtual humano cuesta desde 250-490 €/mes según volumen. La IA suele ser algo más económica para altos volúmenes. Ambas opciones son más baratas que un empleado interno (1.500-2.200 €/mes)."
+        "answer": "Un recepcionista virtual humano cuesta con precio ajustado al volumen"
       },
       {
         "question": "¿Puede una IA reemplazar completamente a un agente humano?",
@@ -45,7 +45,7 @@
     "faq": [
       {
         "question": "¿Cuánto ahorra una empresa al implementar un recepcionista virtual con IA?",
-        "answer": "Una empresa típica ahorra entre el 60-80% respecto a una recepcionista interna. Frente a los 1.500-2.200 €/mes de un empleado, la IA puede cubrir el teléfono desde 250 €/mes sin vacaciones ni bajas."
+        "answer": "Una empresa típica ahorra entre el 60-80% respecto a una recepcionista interna. Frente a los 1.500-2.200 €/mes de un empleado, la IA puede cubrir el teléfono con precio ajustado al volumen"
       },
       {
         "question": "¿Cuándo tiene sentido implementar IA para atención telefónica?",
@@ -157,7 +157,7 @@
       },
       {
         "question": "¿Cuánto cuesta la cobertura telefónica 24/7?",
-        "answer": "Con Minute Call, desde 490 €/mes para cobertura 24/7 con agentes nativos o IA. Sin recargo por nocturnidad ni festivos. Mucho más barato que turnos de noche internos."
+        "answer": "Con Minute Call, con precio segun cobertura"
       },
       {
         "question": "¿Hay riesgos de tener atención 24/7 externalizada?",
@@ -197,7 +197,7 @@
       },
       {
         "question": "¿Cuánto cuesta externalizar la atención telefónica en España?",
-        "answer": "Con Minute Call, desde 250 €/mes. Los grandes call centers pueden cobrar más, pero trabajan con contratos largos y agentes en LATAM. Minute Call ofrece agentes nativos en España, sin permanencia."
+        "answer": "Con Minute Call, con precio ajustado al volumen"
       }
     ],
     "relatedLinks": [
@@ -401,7 +401,7 @@
     "faq": [
       {
         "question": "¿Cuánto cuesta una secretaria virtual en España?",
-        "answer": "Los precios van desde 50 €/mes para servicios básicos de contestador hasta 490 €/mes para cobertura 24/7 con agentes nativos. Minute Call ofrece planes desde 250 €/mes con agentes en España y sin permanencia."
+        "answer": "Los precios van desde 50 €/mes para servicios básicos de contestador hasta 490 €/mes para cobertura 24/7 con agentes nativos. Minute Call ofrece planes con precio ajustado al volumen"
       },
       {
         "question": "¿Qué diferencia hay entre una secretaria virtual barata y una de calidad?",
@@ -437,7 +437,7 @@
     "faq": [
       {
         "question": "¿Cuánto cuesta un call center 24/7 para una pyme?",
-        "answer": "Con Minute Call, desde 490 €/mes para cobertura 24/7 real. Los call centers tradicionales cobran más y exigen contratos largos. La diferencia es que nosotros ofrecemos agentes nativos en España sin permanencia."
+        "answer": "Con Minute Call, con precio segun cobertura"
       },
       {
         "question": "¿Un call center 24/7 realmente atiende en mitad de la noche?",
@@ -509,7 +509,7 @@
     "faq": [
       {
         "question": "¿Cuánto cuesta externalizar la atención telefónica para una pyme?",
-        "answer": "Depende del volumen y horario. Con Minute Call, desde 250 €/mes para horario comercial hasta 890 €/mes para cobertura 24/7 con equipo dedicado. Siempre más barato que contratar personal (1.500-2.200 €/mes por empleado)."
+        "answer": "Depende del volumen y horario. Con Minute Call, con precio ajustado al volumen"
       },
       {
         "question": "¿Qué está incluido en el precio de externalización?",
@@ -585,7 +585,7 @@
       },
       {
         "question": "¿En qué se diferencia Minute Call de otras secretarías virtuales?",
-        "answer": "Agentes nativos en España (no LATAM), sin permanencia, activación en 48 horas, control de calidad en cada llamada y partners de Teleperformance. Precios desde 250 €/mes."
+        "answer": "Agentes nativos en España (no LATAM), sin permanencia, activación en 48 horas, control de calidad en cada llamada y partners de Teleperformance. Precios con precio ajustado al volumen"
       },
       {
         "question": "¿Para qué tipo de pymes es útil una secretaría virtual?",
