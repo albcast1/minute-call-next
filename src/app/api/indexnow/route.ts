@@ -1,4 +1,4 @@
-import { NextResponse } from 'next'
+import { NextResponse } from 'next/server'
 
 // IndexNow API endpoint — llamar tras cada deploy para notificar Bing/Yandex/DuckDuckGo
 export async function GET() {
