@@ -90,7 +90,7 @@ export default function CalculadoraROIPage() {
                 style={{ width:'300px', padding:'12px 16px', border:'1.5px solid #ddd', borderRadius:10, fontSize:16 }} />
             </div>
 
-            <button onclick="calcularROI()"
+            <button onClick={() => { (window as Window & typeof globalThis & {calcularROI: ()=>void}).calcularROI?.() }}
               style={{ background:'#000', color:'#fff', border:'none', padding:'16px 40px', borderRadius:999, fontSize:16, fontWeight:700, cursor:'pointer' }}>
               Calcular mi coste de llamadas perdidas →
             </button>
