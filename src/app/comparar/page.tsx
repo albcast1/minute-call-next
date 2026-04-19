@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Alternativa a Teleperformance, Konecta y Atento para PYMES | minute call',
-  description: 'Busca una alternativa a los grandes call centers para tu PYME? Minute Call es la opcion ligera y flexible: agentes nativos, sin permanencia, desde 250 euros/mes. Activa en 48h.',
+  description: 'Busca una alternativa a los grandes call centers para tu PYME? Minute Call es la opcion ligera y flexible: agentes nativos, sin permanencia, Presupuesto personalizado. Activa en 48h.',
   alternates: { canonical: 'https://www.minute-call.com/comparar' },
   openGraph: {
     title: 'Alternativa a call centers para PYMES | minute call',
@@ -53,7 +53,7 @@ const comparisons = [
     type: 'Secretaria virtual premium para PYMES',
     minContract: 'Sin permanencia (mes a mes)',
     minVolume: 'Sin minimo',
-    price: 'Desde 250 euros/mes (publicado)',
+    price: 'Presupuesto personalizado (publicado)',
     agents: 'Agentes nativos en Espana o IA',
     activation: '48 horas',
     personalization: 'Alta — protocolo por sector',
@@ -64,7 +64,7 @@ const comparisons = [
 const useCases = [
   { icon: '🏥', title: 'Clinicas y centros medicos', description: 'Protocolo sanitario, gestion de urgencias y citas con Doctoralia o Cliniccloud. Lo que Teleperformance no puede hacer a tu escala.' },
   { icon: '⚖️', title: 'Despachos de abogados', description: 'Confidencialidad, terminologia juridica y cualificacion de nuevos asuntos. Sin los contratos anuales de los grandes BPO.' },
-  { icon: '🏠', title: 'Inmobiliarias', description: 'Cualificacion de compradores (presupuesto, zona, urgencia) para que tu comercial llame preparado. Desde 250 euros/mes.' },
+  { icon: '🏠', title: 'Inmobiliarias', description: 'Cualificacion de compradores (presupuesto, zona, urgencia) para que tu comercial llame preparado. Presupuesto personalizado.' },
   { icon: '📊', title: 'Asesorias y consultoras', description: 'Primera impresion profesional sin tener que contratar recepcionista. Activa en 48 horas, cancela cuando quieras.' },
   { icon: '🍽️', title: 'Restaurantes y hosteleria', description: 'Gestion de reservas 24/7 cuando el equipo esta en servicio. Sin perder una mesa por no poder coger el telefono.' },
   { icon: '🔧', title: 'Servicios tecnicos y urgencias', description: 'Cobertura nocturna y de fin de semana para captacion de emergencias. La alternativa asequible a contratar turnos de noche.' },
@@ -74,7 +74,7 @@ const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    { '@type': 'Question', name: 'Es Minute Call una alternativa a Teleperformance para PYMES?', acceptedAnswer: { '@type': 'Answer', text: 'Si. Teleperformance, Konecta y Atento estan disenados para grandes empresas con cientos de llamadas diarias y contratos anuales. Minute Call es la alternativa para PYMES: sin permanencia, desde 250 euros/mes, agentes nativos en Espana y activacion en 48 horas.' } },
+    { '@type': 'Question', name: 'Es Minute Call una alternativa a Teleperformance para PYMES?', acceptedAnswer: { '@type': 'Answer', text: 'Si. Teleperformance, Konecta y Atento estan disenados para grandes empresas con cientos de llamadas diarias y contratos anuales. Minute Call es la alternativa para PYMES: sin permanencia, Presupuesto personalizado, agentes nativos en Espana y activacion en 48 horas.' } },
     { '@type': 'Question', name: 'En que se diferencia Minute Call de Secretaria.es?', acceptedAnswer: { '@type': 'Answer', text: 'Minute Call tiene agentes nativos en Espana (no en Europa Central), precios transparentes publicados en la web, especializacion por sector y activacion en 48 horas. Secretaria.es (Audelia/ebuero) es una empresa alemana sin precios publicados y con estructura orientada al mercado europeo en general.' } },
     { '@type': 'Question', name: 'Por que no usar Secrelan o Digalia si son mas baratos?', acceptedAnswer: { '@type': 'Answer', text: 'Para autonomos con muy bajo volumen, pueden ser suficientes. Para una PYME de servicios donde la primera impresion importa (clinica, despacho, inmobiliaria), los agentes en LATAM y el protocolo generico de estos servicios pueden perjudicar la imagen de marca. Minute Call invierte en que los clientes no sepan que es un servicio externo.' } },
   ],
@@ -94,7 +94,7 @@ export default function CompararPage() {
             Todo lo que necesitas de un call center.<br />Sin los contratos que no puedes pagar.
           </h1>
           <p style={{ fontSize: 18, color: '#555', marginBottom: 32, lineHeight: 1.6 }}>
-            Teleperformance, Konecta y Atento son para grandes corporaciones. Secretaria.es es alemana. Minute Call es la alternativa espanola para PYMES: agentes nativos, sin permanencia, desde 250 euros/mes.
+            Teleperformance, Konecta y Atento son para grandes corporaciones. Secretaria.es es alemana. Minute Call es la alternativa espanola para PYMES: agentes nativos, sin permanencia, Presupuesto personalizado.
           </p>
           <a href="/reserva-llamada" style={{ display: 'inline-block', background: '#000', color: '#fff', padding: '14px 32px', borderRadius: 999, fontSize: 15, fontWeight: 600, textDecoration: 'none' }}>
             Reserva una llamada gratuita &rarr;
@@ -116,7 +116,7 @@ export default function CompararPage() {
               {[
                 ['Para quien','Grandes empresas','Empresas europeas','Autonomos','PYMES espanolas'],
                 ['Agentes','LATAM / Marruecos','Europa Central','LATAM','Nativos en Espana'],
-                ['Precio','5.000+ euros/mes','No publicado','49-150 euros/mes','Desde 250 euros/mes'],
+                ['Precio','5.000+ euros/mes','No publicado','49-150 euros/mes','Presupuesto personalizado'],
                 ['Permanencia','12 meses minimo','Variable','Sin permanencia','Sin permanencia'],
                 ['Activacion','1-3 meses','3-5 dias','24-48h','48 horas'],
                 ['Protocolo por sector','No','Limitado','No','Si'],
