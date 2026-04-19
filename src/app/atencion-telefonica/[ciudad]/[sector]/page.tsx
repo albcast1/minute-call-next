@@ -65,7 +65,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
             {sec.heroTag} en {city.city}
           </p>
           <h1 style={{ fontSize: 'clamp(28px,4vw,48px)', fontWeight: 700, marginBottom: 20, lineHeight: 1.15 }}>
-            {sec.title} en {city.city}
+            {sec.title.replace(/\.$/,'')} en {city.city}
           </h1>
           <p style={{ fontSize: 18, color: '#555', marginBottom: 36, lineHeight: 1.6, maxWidth: 700 }}>
             {sec.heroSubtitle} Servicio disponible en {city.city} ({city.region}) con agentes nativos en espanol. Sin permanencia.
