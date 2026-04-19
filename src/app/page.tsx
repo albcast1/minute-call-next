@@ -51,7 +51,7 @@ export default function Home() {
     <>
 
       {/* ===== HERO ===== */}
-      <section className="hero-section" style={{ maxWidth: 1200, margin: '0 auto', padding: '80px 24px 60px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 40, alignItems: 'center' }}>
+      <section className="hero-section" style={{ maxWidth: 1200, margin: '0 auto', padding: '80px 24px 60px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(340px, 100%), 1fr))', gap: 40, alignItems: 'center' }}>
         {/* Left column */}
         <div>
 
