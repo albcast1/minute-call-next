@@ -496,6 +496,18 @@
       {
         "href": "/lp/centralita-virtual-empresas",
         "label": "Centralita virtual"
+      },
+      {
+        "href": "/articulos/call-center-pymes-espana-alternativa-teleperformance",
+        "label": "Call center para PYMES en Espana"
+      },
+      {
+        "href": "/articulos/recepcion-llamadas-empresas-espana-guia",
+        "label": "Recepcion de llamadas para empresas en Espana"
+      },
+      {
+        "href": "/articulos/atencion-telefonica-externalizada-sector-salud",
+        "label": "Atencion telefonica externalizada para el sector s"
       }
     ]
   },
@@ -638,10 +650,6 @@
       {
         "href": "/articulos/atencion-telefonica-externalizada-sector-salud",
         "label": "Para el sector salud"
-      },
-      {
-        "href": "/articulos/secretaria-virtual-clinicas-precio-espana",
-        "label": "Precios para clínicas"
       }
     ],
     "faq": [
@@ -715,6 +723,18 @@
       {
         "href": "/precios",
         "label": "Ver precios"
+      },
+      {
+        "href": "/articulos/cuanto-cuesta-secretaria-virtual-espana-2025",
+        "label": "Cuanto cuesta una secretaria virtual en Espana en "
+      },
+      {
+        "href": "/articulos/secretaria-virtual-autonomos-espana",
+        "label": "Secretaria virtual para autonomos en Espana"
+      },
+      {
+        "href": "/articulos/secretaria-virtual-madrid",
+        "label": "Secretaria virtual en Madrid"
       }
     ],
     "faq": [
@@ -751,6 +771,18 @@
       {
         "href": "/articulos/alternativas-recepcionista-interna-pymes",
         "label": "Alternativas a la recepcionista interna"
+      },
+      {
+        "href": "/articulos/secretaria-virtual-autonomos-espana",
+        "label": "Secretaria virtual para autonomos en Espana"
+      },
+      {
+        "href": "/articulos/secretaria-virtual-madrid",
+        "label": "Secretaria virtual en Madrid"
+      },
+      {
+        "href": "/articulos/recepcionista-virtual-barcelona",
+        "label": "Recepcionista virtual en Barcelona"
       }
     ],
     "faq": [
@@ -800,6 +832,10 @@
       {
         "href": "/precios",
         "label": "Ver precios"
+      },
+      {
+        "href": "/articulos/recepcionista-virtual-clinicas-espana",
+        "label": "Recepcionista virtual para clinicas en Espana"
       }
     ],
     "faq": [
@@ -844,6 +880,14 @@
       {
         "href": "/precios",
         "label": "Ver precios"
+      },
+      {
+        "href": "/articulos/recepcionista-virtual-clinicas-espana",
+        "label": "Recepcionista virtual para clinicas en Espana"
+      },
+      {
+        "href": "/articulos/recepcionista-virtual-inmobiliarias-espana",
+        "label": "Recepcionista virtual para inmobiliarias en Espana"
       }
     ],
     "faq": [
@@ -884,6 +928,14 @@
       {
         "href": "/articulos/alternativas-recepcionista-interna-pymes",
         "label": "Alternativas a recepcionista interna"
+      },
+      {
+        "href": "/articulos/centralita-virtual-vs-recepcionista-virtual-diferencias",
+        "label": "Centralita virtual vs recepcionista virtual"
+      },
+      {
+        "href": "/articulos/call-center-pymes-espana-alternativa-teleperformance",
+        "label": "Call center para PYMES en Espana"
       }
     ],
     "faq": [
@@ -925,6 +977,14 @@
       {
         "href": "/articulos/cuanto-cuesta-secretaria-virtual-espana-2025",
         "label": "Cuanto cuesta una secretaria virtual"
+      },
+      {
+        "href": "/articulos/alternativas-recepcionista-interna-pymes",
+        "label": "Alternativas a la recepcionista interna para PYMES"
+      },
+      {
+        "href": "/articulos/secretaria-virtual-madrid",
+        "label": "Secretaria virtual en Madrid"
       }
     ],
     "faq": [
@@ -965,6 +1025,14 @@
       {
         "href": "/articulos/externalizar-vs-contratar-atencion-telefonica-pymes-espana",
         "label": "Externalizar vs contratar"
+      },
+      {
+        "href": "/articulos/call-center-para-pymes-espana",
+        "label": "Call center para pymes en España"
+      },
+      {
+        "href": "/articulos/call-center-pymes-espana-alternativa-teleperformance",
+        "label": "Call center para PYMES en Espana"
       }
     ],
     "faq": [
@@ -1009,6 +1077,10 @@
       {
         "href": "/comparar",
         "label": "Comparar con otros servicios"
+      },
+      {
+        "href": "/articulos/recepcionista-virtual-clinicas-espana",
+        "label": "Recepcionista virtual para clinicas en Espana"
       }
     ],
     "faq": [
@@ -1057,6 +1129,10 @@
       {
         "href": "/articulos/recepcion-llamadas-empresas-espana-guia",
         "label": "Guia de recepcion de llamadas"
+      },
+      {
+        "href": "/articulos/alternativa-secretaria-es-minute-call-comparativa",
+        "label": "Alternativa a Secretaria.es para PYMES en Espana"
       }
     ],
     "faq": [
@@ -1101,6 +1177,10 @@
       {
         "href": "/comparar",
         "label": "Comparar alternativas"
+      },
+      {
+        "href": "/articulos/secretaria-virtual-autonomos-espana",
+        "label": "Secretaria virtual para autonomos en Espana"
       }
     ],
     "faq": [
@@ -1243,6 +1323,14 @@
       {
         "href": "/articulos/recepcionista-virtual-inmobiliarias-espana",
         "label": "Recepcionista virtual para inmobiliarias"
+      },
+      {
+        "href": "/articulos/cuanto-cuesta-secretaria-virtual-espana-2025",
+        "label": "Cuanto cuesta una secretaria virtual en Espana en "
+      },
+      {
+        "href": "/articulos/secretaria-virtual-autonomos-espana",
+        "label": "Secretaria virtual para autonomos en Espana"
       }
     ],
     "faq": [
@@ -1275,6 +1363,18 @@
       {
         "href": "/lp/secretaria-virtual",
         "label": "Secretaria virtual para empresas"
+      },
+      {
+        "href": "/articulos/cuanto-cuesta-secretaria-virtual-espana-2025",
+        "label": "Cuanto cuesta una secretaria virtual en Espana en "
+      },
+      {
+        "href": "/articulos/secretaria-virtual-autonomos-espana",
+        "label": "Secretaria virtual para autonomos en Espana"
+      },
+      {
+        "href": "/articulos/alternativas-recepcionista-interna-pymes",
+        "label": "Alternativas a la recepcionista interna para PYMES"
       }
     ],
     "faq": [
@@ -1311,6 +1411,14 @@
       {
         "href": "/articulos/cuanto-cuesta-secretaria-virtual-espana-2025",
         "label": "Cuanto cuesta una secretaria virtual"
+      },
+      {
+        "href": "/articulos/call-center-para-pymes-espana",
+        "label": "Call center para pymes en España"
+      },
+      {
+        "href": "/articulos/recepcion-llamadas-empresas-espana-guia",
+        "label": "Recepcion de llamadas para empresas en Espana"
       }
     ],
     "faq": [
@@ -1356,6 +1464,10 @@
       {
         "href": "/articulos/atencion-telefonica-externalizada-sector-salud",
         "label": "Atención telefónica para el sector salud"
+      },
+      {
+        "href": "/articulos/recepcionista-virtual-inmobiliarias-espana",
+        "label": "Recepcionista virtual para inmobiliarias en Espana"
       }
     ],
     "faq": [
@@ -1393,6 +1505,18 @@
       {
         "href": "/lp/secretaria-virtual",
         "label": "Secretaria virtual general"
+      },
+      {
+        "href": "/articulos/cuanto-cuesta-secretaria-virtual-espana-2025",
+        "label": "Cuanto cuesta una secretaria virtual en Espana en "
+      },
+      {
+        "href": "/articulos/alternativas-recepcionista-interna-pymes",
+        "label": "Alternativas a la recepcionista interna para PYMES"
+      },
+      {
+        "href": "/articulos/secretaria-virtual-madrid",
+        "label": "Secretaria virtual en Madrid"
       }
     ],
     "faq": [
@@ -1429,6 +1553,18 @@
       {
         "href": "/articulos/secretaria-virtual-autonomos-espana",
         "label": "Para autonomos en Sevilla"
+      },
+      {
+        "href": "/articulos/cuanto-cuesta-secretaria-virtual-espana-2025",
+        "label": "Cuanto cuesta una secretaria virtual en Espana en "
+      },
+      {
+        "href": "/articulos/alternativas-recepcionista-interna-pymes",
+        "label": "Alternativas a la recepcionista interna para PYMES"
+      },
+      {
+        "href": "/articulos/secretaria-virtual-madrid",
+        "label": "Secretaria virtual en Madrid"
       }
     ],
     "faq": [
@@ -1469,6 +1605,10 @@
       {
         "href": "/articulos/secretaria-virtual-clinicas-precio-espana",
         "label": "Precios para el sector salud"
+      },
+      {
+        "href": "/articulos/call-center-para-pymes-espana",
+        "label": "Call center para pymes en España"
       }
     ],
     "faq": [
