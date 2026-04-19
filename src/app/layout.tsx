@@ -121,6 +121,62 @@ export default function RootLayout({
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <OrganizationSchema />
+        
+      {/* @graph unificado — mejora comprensión de entidad por Google y LLMs */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": "https://www.minute-call.com/#organization",
+                "name": "minute call",
+                "url": "https://www.minute-call.com",
+                "logo": { "@type": "ImageObject", "url": "https://www.minute-call.com/logo.png" },
+                "sameAs": [
+                  "https://es.trustpilot.com/review/minute-call.com",
+                  "https://www.llamadaperdida.es",
+                  "https://es.linkedin.com/company/minute-call"
+                ],
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "5.0",
+                  "bestRating": "5",
+                  "worstRating": "1",
+                  "ratingCount": "13",
+                  "reviewCount": "13"
+                }
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://www.minute-call.com/#website",
+                "url": "https://www.minute-call.com",
+                "name": "minute call",
+                "publisher": { "@id": "https://www.minute-call.com/#organization" },
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": { "@type": "EntryPoint", "urlTemplate": "https://www.minute-call.com/articulos?search={search_term_string}" },
+                  "query-input": "required name=search_term_string"
+                }
+              },
+              {
+                "@type": "Service",
+                "@id": "https://www.minute-call.com/#service",
+                "name": "Recepcionista virtual para PYMES",
+                "provider": { "@id": "https://www.minute-call.com/#organization" },
+                "description": "Servicio de recepcionista virtual y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA desde 250 euros/mes. Sin permanencia.",
+                "areaServed": { "@type": "Country", "name": "Espana", "identifier": "ES" },
+                "speakable": {
+                  "@type": "SpeakableSpecification",
+                  "cssSelector": ["h1", "h2", ".hero-subtitle", "[data-speakable]"]
+                }
+              }
+            ]
+          })
+        }}
+      />
         <Script
           id="trustpilot-widget"
           src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
