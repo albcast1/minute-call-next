@@ -140,14 +140,7 @@ export default function RootLayout({
                   "https://www.llamadaperdida.es",
                   "https://es.linkedin.com/company/minute-call"
                 ],
-                "aggregateRating": {
-                  "@type": "AggregateRating",
-                  "ratingValue": "5.0",
-                  "bestRating": "5",
-                  "worstRating": "1",
-                  "ratingCount": "13",
-                  "reviewCount": "13"
-                }
+                
               },
               {
                 "@type": "WebSite",
