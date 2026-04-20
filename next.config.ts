@@ -5,6 +5,15 @@ const nextConfig: NextConfig = {
     return [
       // 301 redirects para URLs antiguas indexadas en Google que devuelven 404
       { source: '/precios', destination: '/comparar', permanent: true },
+      // URLs antiguas rastreadas por Google que devuelven 404 — fix indexación
+      { source: '/secretaria-virtual-pymes', destination: '/lp/secretaria-virtual', permanent: true },
+      { source: '/recepcionista-ia-vs-humana', destination: '/articulos/secretaria-virtual-pymes-espana', permanent: true },
+      { source: '/empleo/empleo-call-center-desde-casa', destination: '/', permanent: true },
+      { source: '/empleo/:slug*', destination: '/', permanent: true },
+      { source: '/recepcion-telefonica-servicios-tecnicos', destination: '/lp/recepcion-de-llamadas', permanent: true },
+      { source: '/recepcionista-ia-empresas', destination: '/lp/secretaria-virtual', permanent: true },
+      { source: '/alberto-castiel-atencion-cliente', destination: '/', permanent: true },
+      { source: '/recepcion-telefonica-inmobiliarias', destination: '/atencion-telefonica/madrid/recepcionista-ia-inmobiliarias', permanent: true },
 
       // Old EN pages Google has cached — 301 to Spanish equivalents
       { source: '/overview', destination: '/', permanent: true },
