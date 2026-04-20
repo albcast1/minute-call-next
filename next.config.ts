@@ -30,6 +30,37 @@ const nextConfig: NextConfig = {
       { source: '/es', destination: '/', permanent: true },
       { source: '/en/home', destination: '/', permanent: true },
       { source: '/en', destination: '/', permanent: true },
+      // EN legacy pages — wildcard catches all /en/* routes not already handled
+      { source: '/en/pricing', destination: '/comparar', permanent: true },
+      { source: '/en/contact', destination: '/reserva-llamada', permanent: true },
+      { source: '/en/services', destination: '/', permanent: true },
+      { source: '/en/about', destination: '/', permanent: true },
+      { source: '/en/call-center', destination: '/', permanent: true },
+      { source: '/en/virtual-receptionist', destination: '/lp/secretaria-virtual', permanent: true },
+      { source: '/en/:slug*', destination: '/', permanent: true },
+
+      // Old ES routes Google crawled
+      { source: '/planes', destination: '/comparar', permanent: true },
+      { source: '/como-funciona', destination: '/', permanent: true },
+      { source: '/quienes-somos', destination: '/', permanent: true },
+      { source: '/sobre-nosotros', destination: '/', permanent: true },
+      { source: '/atencion-al-cliente', destination: '/lp/recepcion-de-llamadas', permanent: true },
+      { source: '/externalizar-atencion-cliente', destination: '/lp/recepcion-de-llamadas', permanent: true },
+      { source: '/llamada-perdida', destination: '/', permanent: true },
+      { source: '/prueba-gratis', destination: '/reserva-llamada', permanent: true },
+      { source: '/demo', destination: '/reserva-llamada', permanent: true },
+      { source: '/login', destination: '/', permanent: true },
+
+      // Old city pages (flat structure) → new city pages
+      { source: '/recepcion-telefonica-barcelona', destination: '/atencion-telefonica/barcelona', permanent: true },
+      { source: '/recepcion-telefonica-sevilla', destination: '/atencion-telefonica/sevilla', permanent: true },
+      { source: '/recepcion-telefonica-madrid', destination: '/atencion-telefonica/madrid', permanent: true },
+      { source: '/recepcion-telefonica-valencia', destination: '/atencion-telefonica/valencia', permanent: true },
+      { source: '/recepcion-telefonica-bilbao', destination: '/atencion-telefonica/bilbao', permanent: true },
+      { source: '/secretaria-virtual-barcelona', destination: '/atencion-telefonica/barcelona', permanent: true },
+      { source: '/secretaria-virtual-sevilla', destination: '/atencion-telefonica/sevilla', permanent: true },
+      { source: '/secretaria-virtual-madrid', destination: '/atencion-telefonica/madrid', permanent: true },
+      { source: '/secretaria-virtual-valencia', destination: '/atencion-telefonica/valencia', permanent: true },
     ]
   },
 }
