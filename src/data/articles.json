@@ -26,16 +26,16 @@
     ],
     "relatedLinks": [
       {
-        "text": "Call center para pymes: qué incluye y cuánto cuesta",
-        "url": "/lp/call-center-para-pymes"
+        "href": "/lp/call-center-para-pymes",
+        "label": "Call center para pymes"
       },
       {
-        "text": "Secretaria virtual para empresas",
-        "url": "/lp/secretaria-virtual"
+        "href": "/lp/secretaria-virtual",
+        "label": "Secretaria virtual para empresas"
       },
       {
-        "text": "Externalizar vs contratar atención telefónica en pymes",
-        "url": "/articulos/externalizar-vs-contratar-atencion-telefonica-pymes-espana"
+        "href": "/articulos/externalizar-vs-contratar-atencion-telefonica-pymes-espana",
+        "label": "Externalizar vs contratar atención telefónica"
       }
     ]
   },
@@ -70,16 +70,16 @@
     ],
     "relatedLinks": [
       {
-        "text": "Secretaria virtual para empresas — precios y planes",
-        "url": "/lp/secretaria-virtual"
+        "href": "/lp/secretaria-virtual",
+        "label": "Secretaria virtual — precios y planes"
       },
       {
-        "text": "Cuánto cuesta contratar un call center en España",
-        "url": "/articulos/cuanto-cuesta-contratar-call-center-espana"
+        "href": "/articulos/cuanto-cuesta-contratar-call-center-espana",
+        "label": "Cuánto cuesta contratar un call center"
       },
       {
-        "text": "Call center para pymes",
-        "url": "/lp/call-center-para-pymes"
+        "href": "/lp/call-center-para-pymes",
+        "label": "Call center para pymes"
       }
     ]
   },
