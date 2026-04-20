@@ -3558,9 +3558,13 @@
       {
         "question": "¿Puedo contratar el servicio solo para ciertos horarios o días?",
         "answer": "Sí. Puedes activar la cobertura solo de lunes a viernes en horario comercial, añadir fines de semana, o solo para horas punta. El servicio se ajusta exactamente a lo que necesitas."
+      },
+      {
+        "question": "¿Qué diferencia hay entre Minute Call y un call center tradicional?",
+        "answer": "Los call centers tradicionales están diseñados para grandes empresas con cientos de llamadas diarias. Minute Call está pensado específicamente para pymes: precio ajustado al volumen real de llamadas, onboarding en 48 horas y agentes que aprenden tu negocio en profundidad, no ejecutan un guión genérico."
       }
     ],
-    "metaTitle": "Call Center para Pymes | Desde 139€/mes | Sin permanencia | Minute Call",
-    "metaDescription": "Call center externo para pymes en España. Agentes nativos atienden tus llamadas como si fueran de tu empresa. Desde 139€/mes, sin contrato de permanencia. Prueba gratis."
+    "metaTitle": "Call Center para Pymes en España | Desde 139€/mes | Minute Call",
+    "metaDescription": "Servicio de call center externo para pymes en España. Agentes nativos atienden en nombre de tu empresa. Sin nóminas, sin infraestructura, sin permanencia. Prueba gratis."
   }
 ]
