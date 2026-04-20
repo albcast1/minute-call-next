@@ -3506,5 +3506,61 @@
     ],
     "metaTitle": "Secretaria Virtual para Empresas | Desde 139€/mes | Minute Call",
     "metaDescription": "Secretaria virtual con agentes nativos en España. Atiende llamadas, gestiona citas y cualifica leads en nombre de tu empresa. Sin costes de contratación. Prueba gratis."
+  },
+  {
+    "slug": "call-center-para-pymes",
+    "sector": "Call center para pymes",
+    "title": "Call center para pymes y pequeñas empresas.",
+    "heroTag": "Call center externo para pymes en España",
+    "heroTitle": "El call center que cabe en el presupuesto de una pyme.",
+    "heroSubtitle": "Agentes nativos atienden las llamadas de tu empresa desde el primer día. Sin infraestructura, sin costes fijos, sin mínimos de volumen. Solo pagas por lo que usas.",
+    "socialProof": "Montar un call center interno cuesta entre 3.000 y 8.000€ al mes entre personal, tecnología y espacio. Minute Call lo gestiona todo desde 139€/mes. La diferencia financia otras cosas.",
+    "testimonial": {
+      "quote": "Llevaba dos años perdiendo llamadas cada vez que estaba en reunión. Con Minute Call no he perdido ni una desde que empecé. Y mis clientes no notan la diferencia.",
+      "author": "Marcos F.",
+      "role": "Propietario, empresa de reformas, Sevilla"
+    },
+    "features": [
+      {
+        "title": "Sin contrato de permanencia",
+        "description": "Activa el servicio hoy y cancela cuando quieras. Sin penalizaciones, sin letra pequeña. Diseñado para que las pymes tengan la misma flexibilidad que las grandes empresas."
+      },
+      {
+        "title": "Agentes que conocen tu empresa",
+        "description": "No es un contestador automático. Son personas reales que saben cómo se llama tu empresa, qué ofreces y cómo gestionar cada tipo de llamada según tus instrucciones."
+      },
+      {
+        "title": "Desde 139€/mes",
+        "description": "Un precio que entra en cualquier presupuesto de pyme. Sin costes de setup, sin hardware, sin formación interna. Empieza a recibir llamadas atendidas en 48 horas."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Qué diferencia hay entre un call center para pymes y uno para grandes empresas?",
+        "answer": "Los call centers para grandes empresas exigen volúmenes mínimos de cientos de llamadas al día, contratos largos y plataformas tecnológicas complejas. Un call center para pymes como Minute Call se adapta a volúmenes pequeños — desde 20 llamadas al mes — con precios proporcionales, sin permanencia y con configuración en 48 horas."
+      },
+      {
+        "question": "¿Cuánto cuesta contratar un call center externo para una pyme?",
+        "answer": "Depende del volumen. Minute Call empieza desde 139€/mes para pymes con volúmenes bajos. Los call centers tradicionales suelen exigir mínimos de 1.000-2.000€/mes. La diferencia está en que Minute Call cobra por uso real, no por capacidad reservada."
+      },
+      {
+        "question": "¿Pueden los agentes atender llamadas como si fueran de mi empresa?",
+        "answer": "Sí. Los agentes se presentan con el nombre de tu empresa, siguen tus instrucciones de atención y gestionan cada llamada según los protocolos que tú defines. El cliente no percibe que es un servicio externo."
+      },
+      {
+        "question": "¿Qué pasa con las llamadas fuera de horario?",
+        "answer": "Puedes activar cobertura 24/7 o limitarla a tu horario comercial. Fuera de ese horario, el sistema puede dejar un mensaje personalizado, registrar el dato de contacto o desviar a un número de urgencia. Tú decides."
+      },
+      {
+        "question": "¿En cuánto tiempo está operativo el servicio?",
+        "answer": "En 48 horas hábiles desde que defines el protocolo de atención. Te guiamos en el proceso — solo necesitas decirnos cómo quieres que se atienda cada tipo de llamada."
+      },
+      {
+        "question": "¿Puedo contratar el servicio solo para ciertos horarios o días?",
+        "answer": "Sí. Puedes activar la cobertura solo de lunes a viernes en horario comercial, añadir fines de semana, o solo para horas punta. El servicio se ajusta exactamente a lo que necesitas."
+      }
+    ],
+    "metaTitle": "Call Center para Pymes | Desde 139€/mes | Sin permanencia | Minute Call",
+    "metaDescription": "Call center externo para pymes en España. Agentes nativos atienden tus llamadas como si fueran de tu empresa. Desde 139€/mes, sin contrato de permanencia. Prueba gratis."
   }
 ]
