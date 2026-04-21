@@ -206,7 +206,7 @@ export default function Home() {
               <div className="card" style={{ padding: 24, flex: "1 1 180px" }}>
                 <p
                   style={{
-                    fontSize: 48,
+                    fontSize: "clamp(26px, 7vw, 48px)",
                     fontWeight: 500,
                     color: "black",
                     letterSpacing: -2,
@@ -221,7 +221,7 @@ export default function Home() {
               <div className="card" style={{ padding: 24, flex: "1 1 180px" }}>
                 <p
                   style={{
-                    fontSize: 48,
+                    fontSize: "clamp(26px, 7vw, 48px)",
                     fontWeight: 500,
                     color: "black",
                     letterSpacing: -2,
