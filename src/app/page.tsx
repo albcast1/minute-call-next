@@ -236,7 +236,7 @@ export default function Home() {
           </div>
           {/* Right column: video */}
           <div style={{ flex: "2 1 300px", minWidth: 0, alignSelf: "center", width: "100%" }}>
-            <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5" }}>
+            <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5", position: "relative" }}>
               <video
                 poster="/og-image.png"
                 src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
@@ -247,6 +247,21 @@ export default function Home() {
                 preload="metadata"
                 style={{ width: "100%", height: "auto", display: "block" }}
               />
+              {/* Brand overlay */}
+              <div style={{
+                position: "absolute",
+                bottom: 16,
+                left: 16,
+                background: "rgba(255,255,255,0.92)",
+                borderRadius: 10,
+                padding: "8px 14px",
+                display: "flex",
+                flexDirection: "column",
+                gap: 2,
+              }}>
+                <span style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: "0.08em", textTransform: "uppercase" }}>Cliente</span>
+                <span style={{ fontSize: 15, fontWeight: 700, color: "#111", letterSpacing: "-0.3px" }}>Glowhaus Studio</span>
+              </div>
             </div>
           </div>
         </div>
