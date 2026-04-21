@@ -252,15 +252,15 @@ export default function Home() {
                 position: "absolute",
                 bottom: 16,
                 left: 16,
-                background: "rgba(255,255,255,0.92)",
+                background: "rgba(0,0,0,0.45)",
                 borderRadius: 10,
                 padding: "8px 14px",
                 display: "flex",
                 flexDirection: "column",
                 gap: 2,
               }}>
-                <span style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: "0.08em", textTransform: "uppercase" }}>Cliente</span>
-                <span style={{ fontSize: 15, fontWeight: 700, color: "#111", letterSpacing: "-0.3px" }}>Glowhaus Studio</span>
+                <span style={{ fontSize: 11, fontWeight: 600, color: "rgba(255,255,255,0.7)", letterSpacing: "0.08em", textTransform: "uppercase" }}>Cliente</span>
+                <span style={{ fontSize: 15, fontWeight: 700, color: "#fff", letterSpacing: "-0.3px" }}>Glowhaus Studio</span>
               </div>
             </div>
           </div>
