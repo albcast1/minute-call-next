@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { InternalLinks } from '@/components/InternalLinks';
 import { FAQPageSchema, LocalBusinessSchema, HowToSchema, ServiceSchema } from "@/components/JsonLd";
 import VideoCard from "@/components/VideoCard";
 
@@ -594,6 +595,7 @@ export default function Home() {
           ))}
         </div>
       </section>
+    <InternalLinks />
     </>
   );
 }
