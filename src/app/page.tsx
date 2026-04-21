@@ -251,17 +251,10 @@ export default function Home() {
               {/* Brand overlay */}
               <div style={{
                 position: "absolute",
-                bottom: 16,
-                left: 16,
-                background: "rgba(0,0,0,0.18)",
-                borderRadius: 10,
-                padding: "8px 14px",
-                display: "flex",
-                flexDirection: "column",
-                gap: 2,
+                bottom: 14,
+                left: 14,
               }}>
-                <span style={{ fontSize: 11, fontWeight: 600, color: "rgba(255,255,255,0.7)", letterSpacing: "0.08em", textTransform: "uppercase" }}>Cliente</span>
-                <span style={{ fontSize: 15, fontWeight: 700, color: "#fff", letterSpacing: "-0.3px" }}>Glowhaus Studio</span>
+                <span style={{ fontSize: 13, fontWeight: 600, color: "rgba(255,255,255,0.85)", letterSpacing: "-0.2px", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>Glowhaus Studio</span>
               </div>
             </div>
           </div>
