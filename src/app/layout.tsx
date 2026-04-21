@@ -1,3 +1,4 @@
+import { InternalLinks } from '@/components/InternalLinks';
 import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "@/components/Nav";
