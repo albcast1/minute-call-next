@@ -353,15 +353,14 @@ a:hover {
   }
 }
 
-/* Glowhaus video — cap height on mobile only */
+/* Glowhaus video — limit size on mobile, scale proportionally */
 @media (max-width: 768px) {
   .video-glowhaus {
-    max-height: 240px;
-    overflow: hidden;
+    max-width: 480px;
+    margin: 0 auto;
   }
   .video-glowhaus video {
-    height: 240px;
     width: 100%;
-    object-fit: cover;
+    height: auto;
   }
 }
