@@ -179,6 +179,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-[#EFEBE5]">
         <Nav />
         <main className="flex-grow">{children}</main>
+        <InternalLinks />
         <Footer />
       </body>
     </html>
