@@ -253,7 +253,7 @@ export default function Home() {
                 position: "absolute",
                 bottom: 16,
                 left: 16,
-                background: "rgba(0,0,0,0.45)",
+                background: "rgba(0,0,0,0.18)",
                 borderRadius: 10,
                 padding: "8px 14px",
                 display: "flex",
