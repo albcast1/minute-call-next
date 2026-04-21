@@ -297,7 +297,6 @@ export default function Home() {
             { name: "Seguros", href: "/lp/recepcionista-ia-seguros" },
             { name: "Turismo", href: "/lp/recepcionista-ia-turismo" },
             { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas" },
-            { name: "Consultoría", href: "/lp/recepcionista-ia-consultoria" },
           ].map((sector) => {
             const content = (
               <div
@@ -576,7 +575,7 @@ export default function Home() {
                 {faq.q}
                 <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
               </summary>
-              <p style={{ marginTop: 16, maxWidth: 700 }}>{faq.a}</p>
+              <p style={{ marginTop: 16 }}>{faq.a}</p>
             </details>
           ))}
         </div>
