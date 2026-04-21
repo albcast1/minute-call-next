@@ -236,7 +236,7 @@ export default function Home() {
             </div>
           </div>
           {/* Right column: video */}
-          <div style={{ flex: "2 1 300px", minWidth: 0, alignSelf: "flex-start", width: "100%", maxHeight: 420, overflow: "hidden" }}>
+          <div style={{ flex: "2 1 300px", minWidth: 0, alignSelf: "stretch", width: "100%" }}>
             <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5", position: "relative", height: "100%" }}>
               <video
                 poster="/og-image.png"
@@ -246,7 +246,7 @@ export default function Home() {
                 loop
                 autoPlay
                 preload="metadata"
-                style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", maxHeight: 420 }}
+                style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
               />
               {/* Brand overlay */}
               <div style={{
