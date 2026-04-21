@@ -36,19 +36,7 @@ export default function Nav() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <Link
-            href="/sobre-nosotros"
-            style={{
-              fontFamily: "Inter, sans-serif",
-              fontSize: 14,
-              fontWeight: 500,
-              letterSpacing: "-0.56px",
-              color: "black",
-            }}
-            className="hover:opacity-80 transition-opacity"
-          >
-            Nosotros
-          </Link>
+          
           <Link
             href="/articulos"
             style={{
@@ -94,9 +82,7 @@ export default function Nav() {
 
       {mobileMenuOpen && (
         <div style={{ backgroundColor: "#EFEBE5", padding: "16px clamp(16px, 5vw, 64px)", display: "flex", flexDirection: "column", gap: 16 }} className="md:hidden">
-          <Link href="/sobre-nosotros" style={{ fontSize: 14, fontWeight: 500, color: "black" }} onClick={() => setMobileMenuOpen(false)}>
-            Nosotros
-          </Link>
+          
           <Link
             href="/reserva-llamada"
             style={{ fontSize: 14, fontWeight: 500, color: "white", backgroundColor: "black", padding: "10px 20px", borderRadius: 50, textAlign: "center" }}
