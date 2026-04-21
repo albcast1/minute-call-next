@@ -23,7 +23,7 @@ const TOP_SECTORS=[
 export function InternalLinks() {
   return (
     <section aria-label="Directorio de servicios por ciudad y sector" style={{
-      background:'#f4f4f4', padding:'40px 24px', borderTop:'1px solid #e5e5e5'
+      background:'#EFEBE5', padding:'40px 24px', borderTop:'1px solid #e5e5e5'
     }}>
       <div style={{maxWidth:1100,margin:'0 auto'}}>
         <p style={{fontSize:13,fontWeight:700,color:'#888',letterSpacing:'0.05em',textTransform:'uppercase',marginBottom:16}}>
