@@ -236,8 +236,8 @@ export default function Home() {
             </div>
           </div>
           {/* Right column: video */}
-          <div style={{ flex: "2 1 300px", minWidth: 0, alignSelf: "center", width: "100%" }}>
-            <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5", position: "relative" }}>
+          <div style={{ flex: "2 1 300px", minWidth: 0, alignSelf: "flex-start", width: "100%", maxHeight: 420, overflow: "hidden" }}>
+            <div style={{ borderRadius: 16, overflow: "hidden", background: "#F5F5F5", position: "relative", height: "100%" }}>
               <video
                 poster="/og-image.png"
                 src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4"
@@ -246,7 +246,7 @@ export default function Home() {
                 loop
                 autoPlay
                 preload="metadata"
-                style={{ width: "100%", height: "auto", display: "block" }}
+                style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", maxHeight: 420 }}
               />
               {/* Brand overlay */}
               <div style={{
