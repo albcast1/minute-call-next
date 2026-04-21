@@ -1,4 +1,3 @@
-import { InternalLinks } from '@/components/InternalLinks';
 import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "@/components/Nav";
@@ -179,7 +178,6 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-[#EFEBE5]">
         <Nav />
         <main className="flex-grow">{children}</main>
-        <InternalLinks />
         <Footer />
       </body>
     </html>
