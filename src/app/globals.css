@@ -356,13 +356,13 @@ a:hover {
 /* Glowhaus video — fixed height on mobile */
 @media (max-width: 768px) {
   .video-glowhaus {
-    height: 360px;
+    height: 600px;
     overflow: hidden;
     border-radius: 16px;
   }
   .video-glowhaus video {
     width: 100%;
-    height: 360px;
+    height: 600px;
     object-fit: cover;
     object-position: center 30%;
   }
