@@ -352,3 +352,16 @@ a:hover {
     padding: 14px 12px !important;
   }
 }
+
+/* Glowhaus video — cap height on mobile only */
+@media (max-width: 768px) {
+  .video-glowhaus {
+    max-height: 240px;
+    overflow: hidden;
+  }
+  .video-glowhaus video {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
