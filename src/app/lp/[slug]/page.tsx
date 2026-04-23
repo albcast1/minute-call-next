@@ -156,7 +156,7 @@ export default async function LandingPage({
         >
           <p
             style={{
-              fontSize: 22,
+              fontSize: "clamp(14px, 3.8vw, 22px)",
               fontStyle: "italic",
               color: "black",
               marginBottom: 24,
