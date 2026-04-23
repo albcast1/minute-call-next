@@ -218,6 +218,7 @@ export default async function LandingPage({
             marginTop: 48,
             textAlign: "left",
           }}
+          className="grid-3col"
         >
           {[
             {
