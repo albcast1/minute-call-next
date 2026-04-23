@@ -137,7 +137,7 @@ export default async function CityPage({
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "24px 64px",
+          padding: "24px clamp(16px,5vw,64px)",
           fontSize: 13,
           color: "rgba(0,0,0,0.4)",
         }}
@@ -157,10 +157,10 @@ export default async function CityPage({
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "80px 64px 60px",
+          padding: "80px clamp(16px,5vw,64px) 60px",
         }}
       >
-        <div style={{ flex: "1 1 480px", maxWidth: 700 }}>
+        <div style={{ flex: "1 1 280px", maxWidth: 700 }}>
           {/* Pill label */}
           <div style={{ marginBottom: 24 }}>
             <span className="pill-label">{city.heroTag}</span>
@@ -193,7 +193,7 @@ export default async function CityPage({
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "60px 64px",
+          padding: "60px clamp(16px,5vw,64px)",
         }}
       >
         <h2 style={{ marginBottom: 16 }}>
@@ -236,7 +236,7 @@ export default async function CityPage({
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "60px 64px",
+          padding: "60px clamp(16px,5vw,64px)",
           textAlign: "center",
         }}
       >
@@ -295,7 +295,7 @@ export default async function CityPage({
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "60px 64px",
+          padding: "60px clamp(16px,5vw,64px)",
         }}
       >
         <blockquote
@@ -324,7 +324,7 @@ export default async function CityPage({
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "60px 64px",
+          padding: "60px clamp(16px,5vw,64px)",
         }}
       >
         <h2 style={{ marginBottom: 40, textAlign: "center" }}>
@@ -366,7 +366,7 @@ export default async function CityPage({
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "60px 64px",
+          padding: "60px clamp(16px,5vw,64px)",
           textAlign: "center",
         }}
       >
