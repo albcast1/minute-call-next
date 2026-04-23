@@ -190,6 +190,7 @@ export default async function LandingPage({
             gap: 20,
             marginTop: 48,
           }}
+          className="grid-3col"
         >
           {sector.features.slice(0, 3).map((feature, index) => (
             <div key={index} className="card" style={{ textAlign: "left", padding: 32 }}>
