@@ -82,15 +82,15 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
 
         {/* Stats */}
         <div style={{ borderTop: '1px solid #f0f0f0', borderBottom: '1px solid #f0f0f0', padding: '24px', display: 'flex', justifyContent: 'center', gap: 48, flexWrap: 'wrap' }}>
-          <div style={{ textAlign: 'center' }}><div style={{ fontSize: 28, fontWeight: 700 }}>15s</div><div style={{ fontSize: 13, color: '#888' }}>Tiempo de respuesta</div></div>
-          <div style={{ textAlign: 'center' }}><div style={{ fontSize: 28, fontWeight: 700 }}>98%</div><div style={{ fontSize: 13, color: '#888' }}>Tasa de respuesta</div></div>
-          <div style={{ textAlign: 'center' }}><div style={{ fontSize: 28, fontWeight: 700 }}>48h</div><div style={{ fontSize: 13, color: '#888' }}>Activacion</div></div>
-          <div style={{ textAlign: 'center' }}><div style={{ fontSize: 28, fontWeight: 700 }}>5.0</div><div style={{ fontSize: 13, color: '#888' }}>Trustpilot</div></div>
+          <div style={{ textAlign: 'center' }}><div style={{ fontSize: "clamp(14px,3.8vw,28px)", fontWeight: 700 }}>15s</div><div style={{ fontSize: 13, color: '#888' }}>Tiempo de respuesta</div></div>
+          <div style={{ textAlign: 'center' }}><div style={{ fontSize: "clamp(14px,3.8vw,28px)", fontWeight: 700 }}>98%</div><div style={{ fontSize: 13, color: '#888' }}>Tasa de respuesta</div></div>
+          <div style={{ textAlign: 'center' }}><div style={{ fontSize: "clamp(14px,3.8vw,28px)", fontWeight: 700 }}>48h</div><div style={{ fontSize: 13, color: '#888' }}>Activacion</div></div>
+          <div style={{ textAlign: 'center' }}><div style={{ fontSize: "clamp(14px,3.8vw,28px)", fontWeight: 700 }}>5.0</div><div style={{ fontSize: 13, color: '#888' }}>Trustpilot</div></div>
         </div>
 
         {/* Local context */}
         <div style={{ maxWidth: 900, margin: '64px auto', padding: '0 24px' }}>
-          <h2 style={{ fontSize: 26, fontWeight: 700, marginBottom: 16 }}>Por que {sec.sector} en {city.city} necesitan atencion telefonica profesional</h2>
+          <h2 style={{ fontSize: "clamp(14px,3.8vw,26px)", fontWeight: 700, marginBottom: 16 }}>Por que {sec.sector} en {city.city} necesitan atencion telefonica profesional</h2>
           <p style={{ color: '#555', lineHeight: 1.7, fontSize: 16, marginBottom: 24 }}>
             {city.localContext}
           </p>
@@ -103,10 +103,10 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
         {sec.testimonial && (
           <div style={{ background: '#f9f9f9', padding: '64px 24px' }}>
             <div style={{ maxWidth: 900, margin: '0 auto' }}>
-              <h2 style={{ fontSize: 24, fontWeight: 700, marginBottom: 32 }}>Lo que dicen los {sec.sector} que nos usan</h2>
+              <h2 style={{ fontSize: "clamp(14px,3.8vw,24px)", fontWeight: 700, marginBottom: 32 }}>Lo que dicen los {sec.sector} que nos usan</h2>
               {sec.socialProof && <p style={{ fontSize: 16, color: '#555', marginBottom: 32, lineHeight: 1.7 }}>{sec.socialProof}</p>}
               <div style={{ background: '#fff', borderRadius: 16, padding: 32, border: '1px solid #e5e5e5', maxWidth: 600 }}>
-                <div style={{ fontSize: 24, marginBottom: 12 }}>&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <div style={{ fontSize: "clamp(14px,3.8vw,24px)", marginBottom: 12 }}>&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                 <p style={{ fontSize: 16, fontStyle: 'italic', color: '#333', lineHeight: 1.7, marginBottom: 20 }}>"{(sec.testimonial as { quote: string; author: string; role: string }).quote}"</p>
                 <p style={{ fontWeight: 700, fontSize: 14 }}>{(sec.testimonial as { quote: string; author: string; role: string }).author}</p>
                 <p style={{ fontSize: 13, color: '#888' }}>{(sec.testimonial as { quote: string; author: string; role: string }).role}</p>
@@ -118,7 +118,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
         {/* FAQ */}
         {faqs.length > 0 && (
           <div style={{ maxWidth: 800, margin: '64px auto', padding: '0 24px' }}>
-            <h2 style={{ fontSize: 24, fontWeight: 700, marginBottom: 32 }}>Preguntas frecuentes — {sec.sector} en {city.city}</h2>
+            <h2 style={{ fontSize: "clamp(14px,3.8vw,24px)", fontWeight: 700, marginBottom: 32 }}>Preguntas frecuentes — {sec.sector} en {city.city}</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
               {faqs.map((faq, i) => (
                 <div key={i} style={{ borderBottom: '1px solid #f0f0f0', paddingBottom: 20 }}>
@@ -132,7 +132,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
 
         {/* CTA */}
         <div style={{ background: '#000', color: '#fff', textAlign: 'center', padding: '64px 24px', marginTop: 64 }}>
-          <h2 style={{ fontSize: 28, fontWeight: 700, marginBottom: 12 }}>Activa tu recepcionista en {city.city}</h2>
+          <h2 style={{ fontSize: "clamp(14px,3.8vw,28px)", fontWeight: 700, marginBottom: 12 }}>Activa tu recepcionista en {city.city}</h2>
           <p style={{ color: '#aaa', marginBottom: 32 }}>Sin permanencia. Agentes nativos. Desde 250 euros/mes.</p>
           <a href="/reserva-llamada" style={{ background: '#fff', color: '#000', padding: '14px 32px', borderRadius: 999, fontSize: 15, fontWeight: 700, textDecoration: 'none' }}>
             Reserva una llamada gratuita &rarr;
