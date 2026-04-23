@@ -367,3 +367,18 @@ a:hover {
     object-position: center 30%;
   }
 }
+
+/* Grid 3 columns → 1 column on mobile */
+@media (max-width: 768px) {
+  .grid-3col {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Testimonial quotes — smaller on mobile */
+@media (max-width: 768px) {
+  .testimonial-quote {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+  }
+}
