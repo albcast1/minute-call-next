@@ -77,7 +77,7 @@ export default async function ArticlePage({
         <h2
           key={index}
           style={{
-            fontSize: 22,
+            fontSize: "clamp(14px,3.8vw,22px)",
             letterSpacing: "-0.8px",
             lineHeight: "28px",
             marginTop: 32,
@@ -213,7 +213,7 @@ export default async function ArticlePage({
       </nav>
 
       {/* Article Header */}
-      <h1 style={{ marginBottom: 16, fontSize: 32, letterSpacing: "-1.5px", lineHeight: "38px" }}>{article.title}</h1>
+      <h1 style={{ marginBottom: 16, fontSize: "clamp(22px,5vw,32px)", letterSpacing: "-1.5px", lineHeight: "38px" }}>{article.title}</h1>
       <p style={{ fontSize: 16, marginBottom: 48, lineHeight: "24px" }}>{article.excerpt}</p>
 
       {/* Direct Answer — featured snippet optimised */}
@@ -233,7 +233,7 @@ export default async function ArticlePage({
       {/* Related Articles */}
       {relatedArticles.length > 0 && (
         <section style={{ marginTop: 80 }}>
-          <h2 style={{ fontSize: 22, letterSpacing: "-0.8px", lineHeight: "28px", marginBottom: 24 }}>
+          <h2 style={{ fontSize: "clamp(14px,3.8vw,22px)", letterSpacing: "-0.8px", lineHeight: "28px", marginBottom: 24 }}>
             Otros artículos
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24 }}>
