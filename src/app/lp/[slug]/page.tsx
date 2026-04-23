@@ -94,15 +94,15 @@ export default async function LandingPage({
         style={{
           maxWidth: 1200,
           margin: "0 auto",
-          padding: "80px 64px 60px",
+          padding: "clamp(40px,8vw,80px) clamp(16px,5vw,64px) 60px",
           display: "flex",
           alignItems: "flex-start",
           justifyContent: "space-between",
-          gap: 60,
+          gap: "clamp(24px,4vw,60px)",
           flexWrap: "wrap",
         }}
       >
-        <div style={{ flex: "1 1 480px", maxWidth: 560 }}>
+        <div style={{ flex: "1 1 280px", maxWidth: 560 }}>
           <a
             href="https://www.trustpilot.com/review/minute-call.com"
             target="_blank"
