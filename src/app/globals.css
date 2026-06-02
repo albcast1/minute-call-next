@@ -382,3 +382,18 @@ a:hover {
     line-height: 1.5 !important;
   }
 }
+
+
+/* Mobile spacing fixes */
+@media (max-width: 768px) {
+    .hero-section {
+          padding-top: 40px !important;
+          padding-bottom: 40px !important;
+    }
+    .hero-section h1 {
+          margin-top: 12px !important;
+    }
+    .contact-grid {
+          gap: 32px !important;
+    }
+}
