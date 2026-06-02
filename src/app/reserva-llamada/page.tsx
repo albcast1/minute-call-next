@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function ReservaLlamada() {
   return (
-    <div style={{ maxWidth: 1100, margin: "0 auto", padding: "60px 24px 80px" }}>
+    <div style={{ maxWidth: 1100, margin: "0 auto", padding: "clamp(24px,6vw,60px) 24px 80px" }}>
       <div className="contact-grid" style={{ display: "grid", gap: 64, alignItems: "start" }}>
         {/* Left Side */}
         <div>
