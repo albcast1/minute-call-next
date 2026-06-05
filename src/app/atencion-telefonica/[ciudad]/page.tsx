@@ -170,7 +170,7 @@ export default async function CityPage({
       {/* ===== LOCAL CONTEXT SECTION ===== */}
       <section
         style={{
-          maxWidth: 900,
+          maxWidth: 1200,
           margin: "0 auto",
           padding: "60px clamp(16px,5vw,64px)",
           textAlign: "center",
@@ -212,6 +212,15 @@ export default async function CityPage({
             </p>
           </div>
         </div>
+
+        {/* Sector context callout */}
+        {(city as { sectorContext?: string }).sectorContext && (
+          <div className="card" style={{ padding: "28px 32px", marginTop: 32, textAlign: "left" }}>
+            <p style={{ color: 'rgba(0,0,0,0.56)', lineHeight: 1.7, fontSize: 15, margin: 0 }}>
+              {(city as { sectorContext?: string }).sectorContext}
+            </p>
+          </div>
+        )}
       </section>
 
       {/* ===== KEY SECTORS SECTION ===== */}
