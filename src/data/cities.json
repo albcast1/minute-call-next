@@ -46,7 +46,29 @@
       }
     ],
     "sectorContext": "Madrid concentra el 15% de las PYMES espanolas y tiene la mayor densidad de clinicas privadas, despachos de abogados y consultoras del pais. La competencia por captar clientes es maxima y cada llamada perdida se convierte en una oportunidad para la competencia.",
-    "uniqueStat": "420.000+ PYMES"
+    "uniqueStat": "420.000+ PYMES",
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Madrid?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Madrid (Comunidad de Madrid). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Tecnología y startups, Servicios profesionales y consultoría, Finanzas e inversión. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Madrid contratan Minute Call?",
+        "answer": "En Madrid, trabajamos principalmente con PYMES de Tecnología y startups, Servicios profesionales y consultoría, Finanzas e inversión. Con más de 420.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Madrid?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Madrid."
+      },
+      {
+        "question": "¿Cómo funciona Minute Call para una PYME en Madrid?",
+        "answer": "Es muy sencillo: personalizamos un guión de llamada con los detalles de tu negocio, integramos el servicio con tu telefonía actual sin cambios técnicos, y nuestros agentes atienden las llamadas en nombre de tu empresa. Agendan citas, derivan consultas y envían resúmenes a tu email al instante. Activo en menos de 24 horas."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Madrid?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Madrid. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
+    ]
   },
   {
     "slug": "barcelona",
@@ -95,7 +117,29 @@
       }
     ],
     "sectorContext": "Barcelona lidera en empresas tecnologicas, diseno y turismo internacional. Las empresas barcelonesas reciben llamadas en catalan, castellano e ingles, y la primera impresion telefonica es determinante para captar clientes de alto valor.",
-    "uniqueStat": "280.000+ empresas"
+    "uniqueStat": "280.000+ empresas",
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Barcelona?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Barcelona (Cataluña). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Startups y tecnología, Agencias digitales y diseño, Comercio electrónico. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Barcelona contratan Minute Call?",
+        "answer": "En Barcelona, trabajamos principalmente con PYMES de Startups y tecnología, Agencias digitales y diseño, Comercio electrónico. Con más de 85.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Barcelona?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Barcelona."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Barcelona?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Barcelona. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Barcelona?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Barcelona. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
+    ]
   },
   {
     "slug": "valencia",
@@ -144,7 +188,29 @@
       }
     ],
     "sectorContext": "Valencia destaca en empresas de importacion-exportacion, sector inmobiliario costero y turismo. El mercado valenciano es muy competitivo en los sectores de salud y servicios profesionales, donde la rapidez de respuesta define quien se lleva el cliente.",
-    "uniqueStat": "190.000+ empresas"
+    "uniqueStat": "190.000+ empresas",
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Valencia?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Valencia (Comunidad Valenciana). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Agricultura y agroexportación, Logística y puerto, Tecnología emergente. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Valencia contratan Minute Call?",
+        "answer": "En Valencia, trabajamos principalmente con PYMES de Agricultura y agroexportación, Logística y puerto, Tecnología emergente. Con más de 125.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Valencia?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Valencia."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Valencia?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Valencia. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Valencia?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Valencia. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
+    ]
   },
   {
     "slug": "sevilla",
@@ -193,7 +259,29 @@
       }
     ],
     "sectorContext": "Sevilla es el hub economico del sur de Espana, con fuerte presencia de despachos de abogados, asesorias y empresas de turismo. La cultura empresarial sevillana valora especialmente la atencion personalizada y el trato cercano.",
-    "uniqueStat": "120.000+ empresas"
+    "uniqueStat": "120.000+ empresas",
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Sevilla?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Sevilla (Andalucía). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Servicios profesionales y consultoría, Turismo de lujo, Patrimonio y eventos. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Sevilla contratan Minute Call?",
+        "answer": "En Sevilla, trabajamos principalmente con PYMES de Servicios profesionales y consultoría, Turismo de lujo, Patrimonio y eventos. Con más de 95.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Sevilla?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Sevilla."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Sevilla?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Sevilla. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Sevilla?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Sevilla. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
+    ]
   },
   {
     "slug": "malaga",
@@ -213,10 +301,10 @@
     "testimonial": {
       "quote": "Tenemos clientes alemanes, britanicos y escandinavos. Minute Call atiende en su idioma y filtra las oportunidades reales.",
       "author": "Carlos M.",
-      "role": "Director de Inmobiliaria en Malaga"
+      "role": "Gerenta de Inmobiliaria en Málaga"
     },
     "stats": {
-      "pymes": "45.000+",
+      "pymes": "19.000+",
       "callsLost": "35% de llamadas no atendidas en hora punta"
     },
     "topSectors": [
@@ -242,7 +330,29 @@
       }
     ],
     "sectorContext": "Malaga es la ciudad espanola con mayor crecimiento empresarial: mas de 1.200 startups tech, un sector inmobiliario de lujo muy activo y un turismo internacional que exige atencion en varios idiomas. Los negocios malaguenos pierden entre un 30-40% de llamadas por falta de recursos. Minute Call opera con agentes nativos en Espana, no en LATAM.",
-    "uniqueStat": "95.000+ empresas"
+    "uniqueStat": "95.000+ empresas",
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Málaga?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Málaga (Andalucía). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Tecnologia y startups, Turismo e inmobiliaria de lujo, Hosteleria y restauracion. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Málaga contratan Minute Call?",
+        "answer": "En Málaga, trabajamos principalmente con PYMES de Tecnologia y startups, Turismo e inmobiliaria de lujo, Hosteleria y restauracion. Con más de 45.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Málaga?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Málaga."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Málaga?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Málaga. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Málaga?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Málaga. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
+    ]
   },
   {
     "slug": "bilbao",
@@ -287,7 +397,29 @@
       }
     ],
     "sectorContext": "Bilbao y el Pais Vasco tienen el PIB per capita mas alto de Espana. Las empresas vascas priorizan la calidad sobre el precio y tienen alta exigencia en la atencion al cliente. Sectores industriales, juridicos y financieros dominan el tejido empresarial.",
-    "uniqueStat": "85.000+ empresas"
+    "uniqueStat": "85.000+ empresas",
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Bilbao?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Bilbao (País Vasco). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Manufactura e ingeniería, Servicios financieros, Construcción y obra civil. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Bilbao contratan Minute Call?",
+        "answer": "En Bilbao, trabajamos principalmente con PYMES de Manufactura e ingeniería, Servicios financieros, Construcción y obra civil. Con más de 78.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Bilbao?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Bilbao."
+      },
+      {
+        "question": "¿El servicio se adapta a empresas industriales y manufactureras en Bilbao?",
+        "answer": "Sí, personalizamos el servicio para empresas industriales en Bilbao. Nuestros agentes gestionan consultas técnicas, coordinación con proveedores, pedidos y cotizaciones siguiendo tu protocolo específico. Ideal para PyMEs que necesitan imagen profesional sin invertir en personal de recepción fijo."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Bilbao?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Bilbao. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
+    ]
   },
   {
     "slug": "zaragoza",
@@ -336,7 +468,29 @@
       }
     ],
     "sectorContext": "Zaragoza es hub logistico de Espana por su posicion central entre Madrid, Barcelona y el norte. El sector del transporte, la logistica y la industria automovilistica son los principales demandantes de atencion telefonica profesional.",
-    "uniqueStat": "75.000+ empresas"
+    "uniqueStat": "75.000+ empresas",
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Zaragoza?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Zaragoza (Aragón). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Logística y distribución, Transporte y almacenaje, Manufactura industrial. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Zaragoza contratan Minute Call?",
+        "answer": "En Zaragoza, trabajamos principalmente con PYMES de Logística y distribución, Transporte y almacenaje, Manufactura industrial. Con más de 65.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Zaragoza?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Zaragoza."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Zaragoza?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Zaragoza que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Zaragoza?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Zaragoza. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
+    ]
   },
   {
     "slug": "murcia",
@@ -385,7 +539,29 @@
       }
     ],
     "sectorContext": "Murcia destaca en el sector agroalimentario, construccion y servicios sanitarios. La region tiene una de las tasas de crecimiento empresarial mas altas del pais, con muchas PYMES familiares que necesitan profesionalizar su atencion telefonica.",
-    "uniqueStat": "70.000+ empresas"
+    "uniqueStat": "70.000+ empresas",
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Murcia?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Murcia (Región de Murcia). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Agroalimentación y producción agrícola, Comercio y distribución, Servicios de empaque y logística. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Murcia contratan Minute Call?",
+        "answer": "En Murcia, trabajamos principalmente con PYMES de Agroalimentación y producción agrícola, Comercio y distribución, Servicios de empaque y logística. Con más de 52.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Murcia?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Murcia."
+      },
+      {
+        "question": "¿Cómo funciona Minute Call para una PYME en Murcia?",
+        "answer": "Es muy sencillo: personalizamos un guión de llamada con los detalles de tu negocio, integramos el servicio con tu telefonía actual sin cambios técnicos, y nuestros agentes atienden las llamadas en nombre de tu empresa. Agendan citas, derivan consultas y envían resúmenes a tu email al instante. Activo en menos de 24 horas."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Murcia?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Murcia. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
+    ]
   },
   {
     "slug": "palma-de-mallorca",
@@ -434,7 +610,29 @@
       }
     ],
     "sectorContext": "Palma y las Islas Baleares tienen la economia mas dependiente del turismo de Espana, pero tambien un sector inmobiliario de lujo muy activo. Los negocios atienden a clientes alemanes, britanicos y escandinavos y necesitan atencion multilingue.",
-    "uniqueStat": "60.000+ empresas"
+    "uniqueStat": "60.000+ empresas",
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Palma de Mallorca?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Palma de Mallorca (Islas Baleares). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo y hostelería, Servicios gastronómicos y entretenimiento, Comercio minorista premium. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Palma de Mallorca contratan Minute Call?",
+        "answer": "En Palma de Mallorca, trabajamos principalmente con PYMES de Turismo y hostelería, Servicios gastronómicos y entretenimiento, Comercio minorista premium. Con más de 38.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Palma de Mallorca?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Palma de Mallorca."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Palma de Mallorca?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Palma de Mallorca. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Palma de Mallorca?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Palma de Mallorca. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
+    ]
   },
   {
     "slug": "las-palmas",
@@ -483,7 +681,29 @@
       }
     ],
     "sectorContext": "Las Palmas de Gran Canaria es el principal hub economico de Canarias, con un sector turistico internacional muy potente y un regimen fiscal especial (ZEC) que atrae empresas internacionales. La atencion en ingles y aleman es fundamental.",
-    "uniqueStat": "55.000+ empresas"
+    "uniqueStat": "55.000+ empresas",
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Las Palmas de Gran Canaria?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Las Palmas de Gran Canaria (Islas Canarias). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Tecnología y startups remota, Turismo y servicios, Logística y puerto. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Las Palmas de Gran Canaria contratan Minute Call?",
+        "answer": "En Las Palmas de Gran Canaria, trabajamos principalmente con PYMES de Tecnología y startups remota, Turismo y servicios, Logística y puerto. Con más de 30.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Las Palmas de Gran Canaria?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Las Palmas de Gran Canaria."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Las Palmas de Gran Canaria?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Las Palmas de Gran Canaria. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Las Palmas de Gran Canaria?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Las Palmas de Gran Canaria. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
+    ]
   },
   {
     "slug": "alicante",
@@ -529,6 +749,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Alicante?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Alicante (Comunidad Valenciana). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo y comercio minorista, Tecnología y comercio electrónico, Servicios logísticos y portuarios. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Alicante contratan Minute Call?",
+        "answer": "En Alicante, trabajamos principalmente con PYMES de Turismo y comercio minorista, Tecnología y comercio electrónico, Servicios logísticos y portuarios. Con más de 43.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Alicante?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Alicante."
+      },
+      {
+        "question": "¿Cómo funciona Minute Call para una PYME en Alicante?",
+        "answer": "Es muy sencillo: personalizamos un guión de llamada con los detalles de tu negocio, integramos el servicio con tu telefonía actual sin cambios técnicos, y nuestros agentes atienden las llamadas en nombre de tu empresa. Agendan citas, derivan consultas y envían resúmenes a tu email al instante. Activo en menos de 24 horas."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Alicante?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Alicante. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -577,6 +819,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Valladolid?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Valladolid (Castilla y León). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Automoción y manufactura, Logística y distribución industrial, Servicios de ingeniería. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Valladolid contratan Minute Call?",
+        "answer": "En Valladolid, trabajamos principalmente con PYMES de Automoción y manufactura, Logística y distribución industrial, Servicios de ingeniería. Con más de 50.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Valladolid?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Valladolid."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Valladolid?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Valladolid que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Valladolid?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Valladolid. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -623,6 +887,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en A Coruña?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en A Coruña (Galicia). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Textil, moda y confección, Logística y distribución, Comercio minorista. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en A Coruña contratan Minute Call?",
+        "answer": "En A Coruña, trabajamos principalmente con PYMES de Textil, moda y confección, Logística y distribución, Comercio minorista. Con más de 36.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en A Coruña?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en A Coruña."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en A Coruña?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en A Coruña que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en A Coruña?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de A Coruña. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -671,6 +957,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en San Sebastián?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en San Sebastián (País Vasco). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Gastronomía y restauración de lujo, Turismo experiencial y ocio premium, Servicios de hospedaje y entretenimiento. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en San Sebastián contratan Minute Call?",
+        "answer": "En San Sebastián, trabajamos principalmente con PYMES de Gastronomía y restauración de lujo, Turismo experiencial y ocio premium, Servicios de hospedaje y entretenimiento. Con más de 19.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en San Sebastián?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en San Sebastián."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en San Sebastián?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en San Sebastián. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en San Sebastián?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de San Sebastián. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -717,6 +1025,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Granada?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Granada (Andalucía). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo y patrimonio cultural, Educación y servicios académicos, Servicios profesionales y comercio. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Granada contratan Minute Call?",
+        "answer": "En Granada, trabajamos principalmente con PYMES de Turismo y patrimonio cultural, Educación y servicios académicos, Servicios profesionales y comercio. Con más de 33.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Granada?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Granada."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Granada?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Granada. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Granada?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Granada. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -766,6 +1096,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Vigo?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Vigo (Galicia). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Pesca y Acuicultura, Logística Portuaria, Conservas Alimentarias, Comercio Exterior. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Vigo contratan Minute Call?",
+        "answer": "En Vigo, trabajamos principalmente con PYMES de Pesca y Acuicultura, Logística Portuaria, Conservas Alimentarias, Comercio Exterior. Con más de 5.200+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Vigo?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Vigo."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Vigo?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Vigo que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Vigo?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Vigo. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -813,6 +1165,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Gijón?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Gijón (Asturias). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo y Hostelería, Patrimonio Industrial, Construcción, Comercio Minorista. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Gijón contratan Minute Call?",
+        "answer": "En Gijón, trabajamos principalmente con PYMES de Turismo y Hostelería, Patrimonio Industrial, Construcción, Comercio Minorista. Con más de 4.800+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Gijón?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Gijón."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Gijón?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Gijón. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Gijón?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Gijón. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -862,6 +1236,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Santander?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Santander (Cantabria). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Servicios Financieros, Turismo Marítimo, Transporte Marítimo, Comercio Regional. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Santander contratan Minute Call?",
+        "answer": "En Santander, trabajamos principalmente con PYMES de Servicios Financieros, Turismo Marítimo, Transporte Marítimo, Comercio Regional. Con más de 3.500+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Santander?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Santander."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Santander?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Santander. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Santander?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Santander. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -909,6 +1305,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Pamplona?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Pamplona (Navarra). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Automoción y Componentes, Electrónica Industrial, Tecnología, Turismo Cultural. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Pamplona contratan Minute Call?",
+        "answer": "En Pamplona, trabajamos principalmente con PYMES de Automoción y Componentes, Electrónica Industrial, Tecnología, Turismo Cultural. Con más de 4.200+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Pamplona?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Pamplona."
+      },
+      {
+        "question": "¿El servicio se adapta a empresas industriales y manufactureras en Pamplona?",
+        "answer": "Sí, personalizamos el servicio para empresas industriales en Pamplona. Nuestros agentes gestionan consultas técnicas, coordinación con proveedores, pedidos y cotizaciones siguiendo tu protocolo específico. Ideal para PyMEs que necesitan imagen profesional sin invertir en personal de recepción fijo."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Pamplona?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Pamplona. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -958,6 +1376,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Vitoria-Gasteiz?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Vitoria-Gasteiz (País Vasco). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Agroalimentación y Bebidas, Automoción, Logística y Distribución, Industria Manufacturera. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Vitoria-Gasteiz contratan Minute Call?",
+        "answer": "En Vitoria-Gasteiz, trabajamos principalmente con PYMES de Agroalimentación y Bebidas, Automoción, Logística y Distribución, Industria Manufacturera. Con más de 3.800+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Vitoria-Gasteiz?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Vitoria-Gasteiz."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Vitoria-Gasteiz?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Vitoria-Gasteiz que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Vitoria-Gasteiz?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Vitoria-Gasteiz. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1005,6 +1445,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Logroño?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Logroño (La Rioja). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Viticultura y Producción de Vino, Enología, Turismo Gastronómico, Comercio Especializado. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Logroño contratan Minute Call?",
+        "answer": "En Logroño, trabajamos principalmente con PYMES de Viticultura y Producción de Vino, Enología, Turismo Gastronómico, Comercio Especializado. Con más de 2.200+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Logroño?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Logroño."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Logroño?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Logroño. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Logroño?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Logroño. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -1054,6 +1516,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Córdoba?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Córdoba (Andalucía). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo Cultural, Construcción y Obra Civil, Industria Metalúrgica, Hostelería. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Córdoba contratan Minute Call?",
+        "answer": "En Córdoba, trabajamos principalmente con PYMES de Turismo Cultural, Construcción y Obra Civil, Industria Metalúrgica, Hostelería. Con más de 5.100+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Córdoba?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Córdoba."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Córdoba?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Córdoba. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Córdoba?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Córdoba. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1101,6 +1585,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Cádiz?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Cádiz (Andalucía). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Transporte Marítimo, Logística Portuaria, Turismo Náutico, Servicios Portuarios. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Cádiz contratan Minute Call?",
+        "answer": "En Cádiz, trabajamos principalmente con PYMES de Transporte Marítimo, Logística Portuaria, Turismo Náutico, Servicios Portuarios. Con más de 3.900+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Cádiz?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Cádiz."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Cádiz?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Cádiz. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Cádiz?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Cádiz. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -1150,6 +1656,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Castellón de la Plana?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Castellón de la Plana (Valencia). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Cerámica Industrial, Comercio Internacional, Agroalimentación, Logística Exportadora. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Castellón de la Plana contratan Minute Call?",
+        "answer": "En Castellón de la Plana, trabajamos principalmente con PYMES de Cerámica Industrial, Comercio Internacional, Agroalimentación, Logística Exportadora. Con más de 4.300+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Castellón de la Plana?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Castellón de la Plana."
+      },
+      {
+        "question": "¿El servicio se adapta a empresas industriales y manufactureras en Castellón de la Plana?",
+        "answer": "Sí, personalizamos el servicio para empresas industriales en Castellón de la Plana. Nuestros agentes gestionan consultas técnicas, coordinación con proveedores, pedidos y cotizaciones siguiendo tu protocolo específico. Ideal para PyMEs que necesitan imagen profesional sin invertir en personal de recepción fijo."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Castellón de la Plana?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Castellón de la Plana. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1197,6 +1725,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Oviedo?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Oviedo (Asturias). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Servicios Administrativos, Construcción, Educación Superior, Comercio Urbano. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Oviedo contratan Minute Call?",
+        "answer": "En Oviedo, trabajamos principalmente con PYMES de Servicios Administrativos, Construcción, Educación Superior, Comercio Urbano. Con más de 4.500+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Oviedo?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Oviedo."
+      },
+      {
+        "question": "¿Cómo funciona Minute Call para una PYME en Oviedo?",
+        "answer": "Es muy sencillo: personalizamos un guión de llamada con los detalles de tu negocio, integramos el servicio con tu telefonía actual sin cambios técnicos, y nuestros agentes atienden las llamadas en nombre de tu empresa. Agendan citas, derivan consultas y envían resúmenes a tu email al instante. Activo en menos de 24 horas."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Oviedo?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Oviedo. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -1246,6 +1796,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Santa Cruz de Tenerife?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Santa Cruz de Tenerife (Canarias). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo de Masas, Hostelería Completa, Transporte Marítimo Canario, Logística Insular. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Santa Cruz de Tenerife contratan Minute Call?",
+        "answer": "En Santa Cruz de Tenerife, trabajamos principalmente con PYMES de Turismo de Masas, Hostelería Completa, Transporte Marítimo Canario, Logística Insular. Con más de 5.800+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Santa Cruz de Tenerife?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Santa Cruz de Tenerife."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Santa Cruz de Tenerife?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Santa Cruz de Tenerife. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Santa Cruz de Tenerife?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Santa Cruz de Tenerife. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1293,6 +1865,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Elche?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Elche (Valencia). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Fabricación de Calzado, Moda y Textil, Juguetes y Juegos, Comercio Mayorista. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Elche contratan Minute Call?",
+        "answer": "En Elche, trabajamos principalmente con PYMES de Fabricación de Calzado, Moda y Textil, Juguetes y Juegos, Comercio Mayorista. Con más de 6.200+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Elche?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Elche."
+      },
+      {
+        "question": "¿Cómo funciona Minute Call para una PYME en Elche?",
+        "answer": "Es muy sencillo: personalizamos un guión de llamada con los detalles de tu negocio, integramos el servicio con tu telefonía actual sin cambios técnicos, y nuestros agentes atienden las llamadas en nombre de tu empresa. Agendan citas, derivan consultas y envían resúmenes a tu email al instante. Activo en menos de 24 horas."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Elche?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Elche. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -1342,6 +1936,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Jerez de la Frontera?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Jerez de la Frontera (Andalucía). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Viticultura y Sherry, Turismo Ecuestre, Gastronomía, Comercio de Bebidas. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Jerez de la Frontera contratan Minute Call?",
+        "answer": "En Jerez de la Frontera, trabajamos principalmente con PYMES de Viticultura y Sherry, Turismo Ecuestre, Gastronomía, Comercio de Bebidas. Con más de 3.600+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Jerez de la Frontera?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Jerez de la Frontera."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Jerez de la Frontera?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Jerez de la Frontera. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Jerez de la Frontera?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Jerez de la Frontera. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1389,6 +2005,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Cartagena?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Cartagena (Murcia). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Logística Portuaria, Turismo Histórico, Transporte Marítimo, Servicios Navales. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Cartagena contratan Minute Call?",
+        "answer": "En Cartagena, trabajamos principalmente con PYMES de Logística Portuaria, Turismo Histórico, Transporte Marítimo, Servicios Navales. Con más de 4.200+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Cartagena?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Cartagena."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Cartagena?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Cartagena. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Cartagena?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Cartagena. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -1438,6 +2076,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Tarragona?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Tarragona (Cataluña). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Industria Petroquímica, Química Industrial, Turismo de Playa, Logística Portuaria. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Tarragona contratan Minute Call?",
+        "answer": "En Tarragona, trabajamos principalmente con PYMES de Industria Petroquímica, Química Industrial, Turismo de Playa, Logística Portuaria. Con más de 4.700+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Tarragona?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Tarragona."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Tarragona?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Tarragona. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Tarragona?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Tarragona. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1485,6 +2145,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Marbella?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Marbella (Andalucía). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo de Lujo, Hostelería Premium, Real Estate de Lujo, Comercio Exclusivo. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Marbella contratan Minute Call?",
+        "answer": "En Marbella, trabajamos principalmente con PYMES de Turismo de Lujo, Hostelería Premium, Real Estate de Lujo, Comercio Exclusivo. Con más de 3.400+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Marbella?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Marbella."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Marbella?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Marbella. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Marbella?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Marbella. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -1534,6 +2216,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Salamanca?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Salamanca (Castilla y León). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Educación Superior, Academia de Idiomas, Turismo Cultural, Comercio Urbano. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Salamanca contratan Minute Call?",
+        "answer": "En Salamanca, trabajamos principalmente con PYMES de Educación Superior, Academia de Idiomas, Turismo Cultural, Comercio Urbano. Con más de 2.900+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Salamanca?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Salamanca."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Salamanca?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Salamanca. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Salamanca?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Salamanca. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1581,6 +2285,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Burgos?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Burgos (Castilla y León). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Automoción y Componentes, Textil Industrial, Construcción, Logística. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Burgos contratan Minute Call?",
+        "answer": "En Burgos, trabajamos principalmente con PYMES de Automoción y Componentes, Textil Industrial, Construcción, Logística. Con más de 3.700+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Burgos?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Burgos."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Burgos?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Burgos que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Burgos?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Burgos. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -1630,6 +2356,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Albacete?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Albacete (Castilla-La Mancha). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Cuchillería de Lujo, Cutlería Industrial, Comercio Mayorista, Logística Internacional. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Albacete contratan Minute Call?",
+        "answer": "En Albacete, trabajamos principalmente con PYMES de Cuchillería de Lujo, Cutlería Industrial, Comercio Mayorista, Logística Internacional. Con más de 2.600+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Albacete?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Albacete."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Albacete?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Albacete que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Albacete?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Albacete. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1677,6 +2425,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Badajoz?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Badajoz (Extremadura). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Agroalimentación, Ganadería y Jamón, Construcción, Comercio Fronterizo. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Badajoz contratan Minute Call?",
+        "answer": "En Badajoz, trabajamos principalmente con PYMES de Agroalimentación, Ganadería y Jamón, Construcción, Comercio Fronterizo. Con más de 3.200+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Badajoz?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Badajoz."
+      },
+      {
+        "question": "¿Cómo funciona Minute Call para una PYME en Badajoz?",
+        "answer": "Es muy sencillo: personalizamos un guión de llamada con los detalles de tu negocio, integramos el servicio con tu telefonía actual sin cambios técnicos, y nuestros agentes atienden las llamadas en nombre de tu empresa. Agendan citas, derivan consultas y envían resúmenes a tu email al instante. Activo en menos de 24 horas."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Badajoz?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Badajoz. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -1726,6 +2496,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en León?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en León (Castilla y León). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Industria Peletera, Textil y Confección, Calzado, Comercio de Lujo. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en León contratan Minute Call?",
+        "answer": "En León, trabajamos principalmente con PYMES de Industria Peletera, Textil y Confección, Calzado, Comercio de Lujo. Con más de 3.100+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en León?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en León."
+      },
+      {
+        "question": "¿El servicio se adapta a empresas industriales y manufactureras en León?",
+        "answer": "Sí, personalizamos el servicio para empresas industriales en León. Nuestros agentes gestionan consultas técnicas, coordinación con proveedores, pedidos y cotizaciones siguiendo tu protocolo específico. Ideal para PyMEs que necesitan imagen profesional sin invertir en personal de recepción fijo."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en León?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de León. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1773,6 +2565,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Huelva?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Huelva (Andalucía). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Química Industrial, Agroalimentación (Frutos Rojos), Logística Portuaria, Comercio Internacional. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Huelva contratan Minute Call?",
+        "answer": "En Huelva, trabajamos principalmente con PYMES de Química Industrial, Agroalimentación (Frutos Rojos), Logística Portuaria, Comercio Internacional. Con más de 2.800+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Huelva?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Huelva."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Huelva?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Huelva que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Huelva?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Huelva. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -1822,6 +2636,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Lleida?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Lleida (Cataluña). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Agroalimentación y Frutas, Maquinaria Agrícola, Logística Agroexportadora, Comercio Mayorista. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Lleida contratan Minute Call?",
+        "answer": "En Lleida, trabajamos principalmente con PYMES de Agroalimentación y Frutas, Maquinaria Agrícola, Logística Agroexportadora, Comercio Mayorista. Con más de 3.400+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Lleida?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Lleida."
+      },
+      {
+        "question": "¿El servicio se adapta a empresas industriales y manufactureras en Lleida?",
+        "answer": "Sí, personalizamos el servicio para empresas industriales en Lleida. Nuestros agentes gestionan consultas técnicas, coordinación con proveedores, pedidos y cotizaciones siguiendo tu protocolo específico. Ideal para PyMEs que necesitan imagen profesional sin invertir en personal de recepción fijo."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Lleida?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Lleida. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1869,6 +2705,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Girona?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Girona (Cataluña). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo Costero, Hostelería de Playa, Restauración Gourmet, Comercio Turístico. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Girona contratan Minute Call?",
+        "answer": "En Girona, trabajamos principalmente con PYMES de Turismo Costero, Hostelería de Playa, Restauración Gourmet, Comercio Turístico. Con más de 4.100+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Girona?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Girona."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Girona?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Girona. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Girona?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Girona. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -1918,6 +2776,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Almería?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Almería (Andalucía). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Agricultura Intensiva (Invernaderos), Pesca Industrial, Logística Agroexportadora, Turismo de Playa. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Almería contratan Minute Call?",
+        "answer": "En Almería, trabajamos principalmente con PYMES de Agricultura Intensiva (Invernaderos), Pesca Industrial, Logística Agroexportadora, Turismo de Playa. Con más de 3.900+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Almería?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Almería."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Almería?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Almería. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Almería?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Almería. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -1965,6 +2845,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Terrassa?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Terrassa (Cataluña). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Textil Industrial, Maquinaria Textil, Metalurgia, Componentes Mecánicos. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Terrassa contratan Minute Call?",
+        "answer": "En Terrassa, trabajamos principalmente con PYMES de Textil Industrial, Maquinaria Textil, Metalurgia, Componentes Mecánicos. Con más de 3.600+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Terrassa?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Terrassa."
+      },
+      {
+        "question": "¿El servicio se adapta a empresas industriales y manufactureras en Terrassa?",
+        "answer": "Sí, personalizamos el servicio para empresas industriales en Terrassa. Nuestros agentes gestionan consultas técnicas, coordinación con proveedores, pedidos y cotizaciones siguiendo tu protocolo específico. Ideal para PyMEs que necesitan imagen profesional sin invertir en personal de recepción fijo."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Terrassa?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Terrassa. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -2014,6 +2916,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Sabadell?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Sabadell (Cataluña). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Confección Textil, Diseño de Moda, Comercio de Indumentaria, Logística de Moda. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Sabadell contratan Minute Call?",
+        "answer": "En Sabadell, trabajamos principalmente con PYMES de Confección Textil, Diseño de Moda, Comercio de Indumentaria, Logística de Moda. Con más de 4.000+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Sabadell?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Sabadell."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Sabadell?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Sabadell que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Sabadell?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Sabadell. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -2061,6 +2985,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Getafe?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Getafe (Madrid). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Industria Aeronáutica, Automoción y Componentes, Electrónica Industrial, Ingeniería Avanzada. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Getafe contratan Minute Call?",
+        "answer": "En Getafe, trabajamos principalmente con PYMES de Industria Aeronáutica, Automoción y Componentes, Electrónica Industrial, Ingeniería Avanzada. Con más de 2.800+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Getafe?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Getafe."
+      },
+      {
+        "question": "¿El servicio se adapta a empresas industriales y manufactureras en Getafe?",
+        "answer": "Sí, personalizamos el servicio para empresas industriales en Getafe. Nuestros agentes gestionan consultas técnicas, coordinación con proveedores, pedidos y cotizaciones siguiendo tu protocolo específico. Ideal para PyMEs que necesitan imagen profesional sin invertir en personal de recepción fijo."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Getafe?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Getafe. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -2110,6 +3056,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Hospitalet de Llobregat?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Hospitalet de Llobregat (Cataluña). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Logística y Distribución, Comercio Mayorista, Transporte y Mensajería, Servicios Logísticos. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Hospitalet de Llobregat contratan Minute Call?",
+        "answer": "En Hospitalet de Llobregat, trabajamos principalmente con PYMES de Logística y Distribución, Comercio Mayorista, Transporte y Mensajería, Servicios Logísticos. Con más de 4.500+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Hospitalet de Llobregat?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Hospitalet de Llobregat."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Hospitalet de Llobregat?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Hospitalet de Llobregat que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Hospitalet de Llobregat?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Hospitalet de Llobregat. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -2157,6 +3125,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Torrejón de Ardoz?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Torrejón de Ardoz (Madrid). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Logística Metropolitana, Distribución y Almacenaje, Comercio Mayorista, Transporte Regional. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Torrejón de Ardoz contratan Minute Call?",
+        "answer": "En Torrejón de Ardoz, trabajamos principalmente con PYMES de Logística Metropolitana, Distribución y Almacenaje, Comercio Mayorista, Transporte Regional. Con más de 3.100+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Torrejón de Ardoz?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Torrejón de Ardoz."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Torrejón de Ardoz?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Torrejón de Ardoz que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Torrejón de Ardoz?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Torrejón de Ardoz. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -2206,6 +3196,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Mérida?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Mérida (Extremadura). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo Arqueológico, Museos y Patrimonio, Hostelería Cultural, Guía Turístico. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Mérida contratan Minute Call?",
+        "answer": "En Mérida, trabajamos principalmente con PYMES de Turismo Arqueológico, Museos y Patrimonio, Hostelería Cultural, Guía Turístico. Con más de 1.800+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Mérida?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Mérida."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Mérida?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Mérida. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Mérida?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Mérida. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -2253,6 +3265,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Huesca?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Huesca (Aragón). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo de Montaña, Esquí y Deportes Invernales, Deportes de Aventura, Hostelería de Montaña. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Huesca contratan Minute Call?",
+        "answer": "En Huesca, trabajamos principalmente con PYMES de Turismo de Montaña, Esquí y Deportes Invernales, Deportes de Aventura, Hostelería de Montaña. Con más de 2.100+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Huesca?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Huesca."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Huesca?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Huesca. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Huesca?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Huesca. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   },
@@ -2302,6 +3336,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Toledo?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Toledo (Castilla-La Mancha). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo Cultural, Artesanía Tradicional, Restauración Gastronómica, Comercio de Souvenirs. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Toledo contratan Minute Call?",
+        "answer": "En Toledo, trabajamos principalmente con PYMES de Turismo Cultural, Artesanía Tradicional, Restauración Gastronómica, Comercio de Souvenirs. Con más de 2.400+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Toledo?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Toledo."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Toledo?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Toledo. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Toledo?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Toledo. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -2350,6 +3406,28 @@
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
       }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Ciudad Real?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Ciudad Real (Castilla-La Mancha). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Logística y Distribución, Construcción Regional, Comercio Mayorista, Servicios de Transporte. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Ciudad Real contratan Minute Call?",
+        "answer": "En Ciudad Real, trabajamos principalmente con PYMES de Logística y Distribución, Construcción Regional, Comercio Mayorista, Servicios de Transporte. Con más de 2.300+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Ciudad Real?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Ciudad Real."
+      },
+      {
+        "question": "¿Podéis gestionar llamadas urgentes de logística y transporte en Ciudad Real?",
+        "answer": "Absolutamente. Nuestro servicio ofrece cobertura en horarios extendidos, ideal para empresas de logística y transporte en Ciudad Real que necesitan coordinación constante. Gestionamos llamadas de seguimiento de envíos, confirmaciones de entrega y urgencias operativas con protocolo personalizado."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Ciudad Real?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Ciudad Real. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
+      }
     ]
   },
   {
@@ -2397,6 +3475,28 @@
       {
         "slug": "recepcionista-ia-asesorias",
         "title": "Recepcionista Virtual para asesorías y gestorías."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Minute Call ofrece servicio de atención telefónica en Cáceres?",
+        "answer": "Sí, Minute Call ofrece servicio profesional de atención telefónica para empresas en Cáceres (Extremadura). Atendemos las llamadas de tu negocio con agentes nativos basados en España o asistentes de IA, adaptados a los sectores clave de la ciudad como Turismo Medieval, Construcción Regional, Agroalimentación, Comercio Local. Servicio remoto sin necesidad de presencia física."
+      },
+      {
+        "question": "¿Qué tipo de empresas en Cáceres contratan Minute Call?",
+        "answer": "En Cáceres, trabajamos principalmente con PYMES de Turismo Medieval, Construcción Regional, Agroalimentación, Comercio Local. Con más de 2.200+ pequeñas y medianas empresas en la zona, nuestro servicio se adapta a las necesidades específicas de cada sector: gestión de citas para clínicas, captación de leads para inmobiliarias, reservas para hostelería, y atención al cliente para comercio y servicios profesionales."
+      },
+      {
+        "question": "¿Cuánto cuesta la recepcionista virtual para mi empresa en Cáceres?",
+        "answer": "Los planes de Minute Call empiezan desde 250€/mes con una tarifa base fija más un coste variable por llamada atendida. Sin permanencia ni contratos a largo plazo. El precio final depende del volumen de llamadas y el horario de cobertura que necesites. Solicita un presupuesto personalizado para tu negocio en Cáceres."
+      },
+      {
+        "question": "¿Ofrecéis atención multilingüe para empresas turísticas en Cáceres?",
+        "answer": "Sí, nuestros agentes pueden atender llamadas en español, inglés y otros idiomas según las necesidades de tu negocio turístico en Cáceres. Gestionamos reservas, consultas de disponibilidad y atención al cliente internacional, fundamental para el sector turístico de la ciudad."
+      },
+      {
+        "question": "¿Por qué elegir Minute Call frente a un call center tradicional en Cáceres?",
+        "answer": "A diferencia de los call centers tradicionales con agentes en LATAM y contratos rígidos, Minute Call ofrece agentes nativos basados en España que entienden el contexto local de Cáceres. Sin permanencia, desde 250€/mes, con opción de IA o humano. Somos partners de Teleperformance, el #1 mundial en BPO, lo que garantiza calidad profesional a precio de PYME."
       }
     ]
   }
