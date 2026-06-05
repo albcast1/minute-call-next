@@ -170,7 +170,7 @@ export default async function CityPage({
       {/* ===== LOCAL CONTEXT SECTION ===== */}
       <section
         style={{
-          maxWidth: 1200,
+          maxWidth: 900,
           margin: "0 auto",
           padding: "60px clamp(16px,5vw,64px)",
           textAlign: "center",
@@ -184,12 +184,6 @@ export default async function CityPage({
         <p style={{ maxWidth: 700, margin: "0 auto 40px", lineHeight: "1.7" }}>
           {city.localContext}
         </p>
-
-        {(city as { sectorContext?: string }).sectorContext && (
-          <p style={{ color: '#555', lineHeight: 1.7, fontSize: 16, marginTop: 20, maxWidth: 700, margin: '20px auto 0' }}>
-            {(city as { sectorContext?: string }).sectorContext}
-          </p>
-        )}
 
         {/* Stats cards */}
         <div
@@ -235,8 +229,9 @@ export default async function CityPage({
         </h2>
         <div
           style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
             gap: 16,
             textAlign: "left",
           }}
@@ -253,6 +248,7 @@ export default async function CityPage({
                   alignItems: "center",
                   cursor: link ? "pointer" : "default",
                   minHeight: 80,
+                  flex: "0 1 280px",
                 }}
               >
                 <span
