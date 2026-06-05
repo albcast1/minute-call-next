@@ -446,3 +446,88 @@ export const WebPageSchema: React.FC<WebPageSchemaProps> = ({
     />
   );
 };
+
+
+/**
+ * CityLocalBusinessSchema Component
+ * City-specific LocalBusiness with serviceArea for local SEO + LLM consumption
+ */
+interface CityLocalBusinessSchemaProps {
+  cityName: string;
+  region: string;
+  slug: string;
+}
+
+export const CityLocalBusinessSchema: React.FC<CityLocalBusinessSchemaProps> = ({ cityName, region, slug }) => {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: `minute call — Atención telefónica en ${cityName}`,
+    url: `https://www.minute-call.com/atencion-telefonica/${slug}`,
+    description: `Servicio de recepcionista virtual y atención telefónica 24/7 para empresas en ${cityName}. Agentes nativos o IA, sin permanencia.`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: cityName,
+      addressRegion: region,
+      addressCountry: 'ES',
+    },
+    areaServed: {
+      '@type': 'City',
+      name: cityName,
+    },
+    parentOrganization: {
+      '@type': 'Organization',
+      '@id': 'https://www.minute-call.com/#organization',
+      name: 'minute call',
+    },
+    priceRange: '€€',
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      opens: '00:00',
+      closes: '23:59',
+    },
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+};
+
+/**
+ * CityServiceSchema Component
+ * City-specific Service schema — tells Google/LLMs exactly what service is offered where
+ */
+interface CityServiceSchemaProps {
+  cityName: string;
+  slug: string;
+}
+
+export const CityServiceSchema: React.FC<CityServiceSchemaProps> = ({ cityName, slug }) => {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `Atención telefónica en ${cityName}`,
+    description: `Servicio profesional de recepcionista virtual para empresas en ${cityName}. Atención 24/7, gestión de citas y cualificación de leads.`,
+    provider: {
+      '@type': 'Organization',
+      '@id': 'https://www.minute-call.com/#organization',
+      name: 'minute call',
+    },
+    areaServed: {
+      '@type': 'City',
+      name: cityName,
+    },
+    serviceType: 'Atención telefónica',
+    url: `https://www.minute-call.com/atencion-telefonica/${slug}`,
+    offers: {
+      '@type': 'Offer',
+      price: '250',
+      priceCurrency: 'EUR',
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: '250',
+        priceCurrency: 'EUR',
+        unitText: 'mes',
+      },
+    },
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+};
