@@ -129,13 +129,13 @@ export default async function CityPage({
       {/* ===== HERO SECTION ===== */}
       <section
         style={{
-          maxWidth: 1200,
+          maxWidth: 800,
           margin: "0 auto",
           padding: "80px clamp(16px,5vw,64px) 60px",
+          textAlign: "center",
         }}
       >
-        <div style={{ flex: "1 1 280px", maxWidth: 700 }}>
-          {/* Pill label */}
+        {/* Pill label */}
           <div style={{ marginBottom: 24 }}>
             <span className="pill-label">{city.heroTag}</span>
           </div>
@@ -154,8 +154,7 @@ export default async function CityPage({
           <p
             style={{
               maxWidth: 600,
-              marginTop: 24,
-              marginBottom: 32,
+              margin: "24px auto 32px",
               lineHeight: "1.6",
             }}
           >
@@ -166,7 +165,6 @@ export default async function CityPage({
           <Link href="/reserva-llamada" className="btn-cta">
             Reserva una llamada
           </Link>
-        </div>
       </section>
 
       {/* ===== LOCAL CONTEXT SECTION ===== */}
@@ -175,6 +173,7 @@ export default async function CityPage({
           maxWidth: 1200,
           margin: "0 auto",
           padding: "60px clamp(16px,5vw,64px)",
+          textAlign: "center",
         }}
       >
         <h2 style={{ marginBottom: 24 }}>
@@ -182,12 +181,12 @@ export default async function CityPage({
           <span className="serif-italic">{city.city}</span>
         </h2>
 
-        <p style={{ maxWidth: 700, marginBottom: 40, lineHeight: "1.7" }}>
+        <p style={{ maxWidth: 700, margin: "0 auto 40px", lineHeight: "1.7" }}>
           {city.localContext}
         </p>
 
         {(city as { sectorContext?: string }).sectorContext && (
-          <p style={{ color: '#555', lineHeight: 1.7, fontSize: 16, marginTop: 20, maxWidth: 700 }}>
+          <p style={{ color: '#555', lineHeight: 1.7, fontSize: 16, marginTop: 20, maxWidth: 700, margin: '20px auto 0' }}>
             {(city as { sectorContext?: string }).sectorContext}
           </p>
         )}
@@ -199,6 +198,7 @@ export default async function CityPage({
             gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
             gap: 24,
             marginTop: 40,
+            textAlign: "left",
           }}
         >
           <div className="card" style={{ padding: 32 }}>
@@ -226,6 +226,7 @@ export default async function CityPage({
           maxWidth: 1200,
           margin: "0 auto",
           padding: "60px clamp(16px,5vw,64px)",
+          textAlign: "center",
         }}
       >
         <h2 style={{ marginBottom: 40 }}>
@@ -237,6 +238,7 @@ export default async function CityPage({
             display: "grid",
             gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
             gap: 16,
+            textAlign: "left",
           }}
         >
           {city.keySectors.map((sector) => {
@@ -281,9 +283,10 @@ export default async function CityPage({
       {/* ===== TESTIMONIAL SECTION ===== */}
       <section
         style={{
-          maxWidth: 1200,
+          maxWidth: 800,
           margin: "0 auto",
           padding: "60px clamp(16px,5vw,64px)",
+          textAlign: "center",
         }}
       >
         <blockquote
@@ -292,9 +295,7 @@ export default async function CityPage({
             lineHeight: "1.6",
             fontStyle: "italic",
             maxWidth: 700,
-            marginBottom: 24,
-            borderLeft: "4px solid black",
-            paddingLeft: 24,
+            margin: "0 auto 24px",
           }}
         >
           &ldquo;{city.testimonial.quote}&rdquo;
@@ -313,13 +314,14 @@ export default async function CityPage({
           maxWidth: 1200,
           margin: "0 auto",
           padding: "60px clamp(16px,5vw,64px)",
+          textAlign: "center",
         }}
       >
         <h2 style={{ marginBottom: 40 }}>
           Preguntas frecuentes sobre atención telefónica en{" "}
           <span className="serif-italic">{city.city}</span>
         </h2>
-        <div style={{ display: "flex", flexDirection: "column", gap: 0, maxWidth: 800 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 0, maxWidth: 800, margin: "0 auto", textAlign: "left" }}>
           {faqs.map((faq) => (
             <details
               key={faq.question}
