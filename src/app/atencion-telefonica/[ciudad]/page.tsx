@@ -46,6 +46,19 @@ export async function generateMetadata({
 }
 
 /**
+ * Normalize region names for grouping
+ */
+function normalizeRegion(region: string): string {
+  const map: Record<string, string> = {
+    "Comunidad de Madrid": "Madrid",
+    "Región de Murcia": "Murcia",
+    "Islas Canarias": "Canarias",
+    "Valencia": "Comunidad Valenciana",
+  };
+  return map[region] || region;
+}
+
+/**
  * Helper function to match key sectors with actual sector slugs for linking
  */
 function getSectorLink(sectorName: string): string | null {
@@ -72,6 +85,41 @@ function getSectorLink(sectorName: string): string | null {
   return null;
 }
 
+/**
+ * Get nearby cities for interlinking — same region first, then fill from major cities
+ */
+function getNearbyCities(currentSlug: string, currentRegion: string, count: number = 5) {
+  const normalizedRegion = normalizeRegion(currentRegion);
+
+  // Cities in the same normalized region (excluding current)
+  const sameRegion = cities.filter(
+    (c) => normalizeRegion(c.region) === normalizedRegion && c.slug !== currentSlug
+  );
+
+  // Major cities to fill gaps when region is small
+  const majorCitySlugs = [
+    "madrid", "barcelona", "valencia", "sevilla", "bilbao",
+    "malaga", "zaragoza", "murcia", "palma-de-mallorca", "alicante",
+  ];
+
+  const majorCities = cities.filter(
+    (c) => majorCitySlugs.includes(c.slug) && c.slug !== currentSlug && normalizeRegion(c.region) !== normalizedRegion
+  );
+
+  // Combine: same-region cities first, then major cities to fill up to count
+  const result = [...sameRegion];
+  if (result.length < count) {
+    for (const mc of majorCities) {
+      if (result.length >= count) break;
+      if (!result.find((r) => r.slug === mc.slug)) {
+        result.push(mc);
+      }
+    }
+  }
+
+  return result.slice(0, count);
+}
+
 export default async function CityPage({
   params,
 }: {
@@ -94,6 +142,7 @@ export default async function CityPage({
   }
 
   const faqs = (city as { faq?: Array<{question: string; answer: string}> }).faq || [];
+  const nearbyCities = getNearbyCities(city.slug, city.region);
 
   const breadcrumbItems = [
     { name: "Inicio", url: "https://www.minute-call.com" },
@@ -136,35 +185,35 @@ export default async function CityPage({
         }}
       >
         {/* Pill label */}
-          <div style={{ marginBottom: 24 }}>
-            <span className="pill-label">{city.heroTag}</span>
-          </div>
+        <div style={{ marginBottom: 24 }}>
+          <span className="pill-label">{city.heroTag}</span>
+        </div>
 
-          {/* Main heading */}
-          <h1 style={{ marginTop: 24 }}>
-            {city.heroTitle.split(city.city).map((part, index) => (
-              <span key={index}>
-                {part}
-                {index === 0 && <span className="serif-italic">{city.city}</span>}
-              </span>
-            ))}
-          </h1>
+        {/* Main heading */}
+        <h1 style={{ marginTop: 24 }}>
+          {city.heroTitle.split(city.city).map((part, index) => (
+            <span key={index}>
+              {part}
+              {index === 0 && <span className="serif-italic">{city.city}</span>}
+            </span>
+          ))}
+        </h1>
 
-          {/* Subtext */}
-          <p
-            style={{
-              maxWidth: 700,
-              margin: "24px auto 32px",
-              lineHeight: "1.6",
-            }}
-          >
-            {city.heroSubtitle}
-          </p>
+        {/* Subtext */}
+        <p
+          style={{
+            maxWidth: 700,
+            margin: "24px auto 32px",
+            lineHeight: "1.6",
+          }}
+        >
+          {city.heroSubtitle}
+        </p>
 
-          {/* CTA Button */}
-          <Link href="/reserva-llamada" className="btn-cta">
-            Reserva una llamada
-          </Link>
+        {/* CTA Button */}
+        <Link href="/reserva-llamada" className="btn-cta">
+          Reserva una llamada
+        </Link>
       </section>
 
       {/* ===== LOCAL CONTEXT SECTION ===== */}
@@ -364,6 +413,63 @@ export default async function CityPage({
           ))}
         </div>
       </section>
+
+      {/* ===== NEARBY CITIES INTERLINKING ===== */}
+      {nearbyCities.length > 0 && (
+        <section
+          style={{
+            maxWidth: 1200,
+            margin: "0 auto",
+            padding: "60px clamp(16px,5vw,64px)",
+            textAlign: "center",
+          }}
+        >
+          <h2 style={{ marginBottom: 16 }}>
+            También atendemos en{" "}
+            <span className="serif-italic">otras ciudades</span>
+          </h2>
+          <p style={{ maxWidth: 600, margin: "0 auto 32px", lineHeight: "1.6" }}>
+            Nuestro servicio de atención telefónica está disponible en toda España.
+            Consulta la cobertura en estas ciudades cercanas.
+          </p>
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              gap: 12,
+            }}
+          >
+            {nearbyCities.map((nearby) => (
+              <Link
+                key={nearby.slug}
+                href={`/atencion-telefonica/${nearby.slug}`}
+                className="card"
+                style={{
+                  padding: "20px 24px",
+                  textDecoration: "none",
+                  color: "black",
+                  fontSize: 16,
+                  fontWeight: 500,
+                  letterSpacing: "-0.5px",
+                  flex: "0 1 220px",
+                  display: "block",
+                }}
+              >
+                {nearby.city} →
+              </Link>
+            ))}
+          </div>
+          <p style={{ marginTop: 24, fontSize: 14 }}>
+            <Link
+              href="/atencion-telefonica"
+              style={{ color: "rgba(0,0,0,0.56)", textDecoration: "underline" }}
+            >
+              Ver todas las ciudades →
+            </Link>
+          </p>
+        </section>
+      )}
 
       {/* ===== CTA SECTION ===== */}
       <section
