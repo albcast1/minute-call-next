@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import cities from "@/data/cities.json";
 import sectors from "@/data/sectors.json";
-import { FAQPageSchema, BreadcrumbSchema } from "@/components/JsonLd";
+import { FAQPageSchema, BreadcrumbSchema, CityLocalBusinessSchema, CityServiceSchema } from "@/components/JsonLd";
 
 export async function generateStaticParams() {
   return cities.map((city) => ({
@@ -154,6 +154,8 @@ export default async function CityPage({
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
       <FAQPageSchema faqs={faqs.map((f) => ({ question: f.question, answer: f.answer }))} />
+      <CityLocalBusinessSchema cityName={city.city} region={city.region} slug={city.slug} />
+      <CityServiceSchema cityName={city.city} slug={city.slug} />
 
       {/* ===== BREADCRUMB NAVIGATION ===== */}
       <div
