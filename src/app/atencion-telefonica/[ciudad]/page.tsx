@@ -46,36 +46,9 @@ export async function generateMetadata({
 }
 
 /**
- * Helper function to generate city-specific FAQs
- */
-function getCityFaqs(city: (typeof cities)[0]) {
-  const keySectorsText = city.keySectors.join(", ");
-
-  return [
-    {
-      question: `¿Minute Call opera en ${city.city}?`,
-      answer: `Sí, Minute Call opera en ${city.city} y en toda España. Atendemos empresas y PYMES de forma remota con agentes nativos basados en España. Sin importar dónde estés, tu empresa siempre estará conectada con tus clientes.`,
-    },
-    {
-      question: `¿Qué sectores atendemos en ${city.city}?`,
-      answer: `En ${city.city}, atendemos especialmente a: ${keySectorsText}. Nuestro servicio se adapta a cualquier sector, desde servicios médicos hasta consultoría empresarial. Cada industria tiene necesidades diferentes, y nosotros personalizamos nuestro servicio para encajar perfectamente en tu negocio.`,
-    },
-    {
-      question: "¿Cuánto cuesta el servicio?",
-      answer: "Minute Call funciona con un modelo de suscripción mensual flexible, sin compromiso a largo plazo. Combinamos una tarifa base fija con un coste variable por llamada, adaptándose a tu volumen actual. Sin contratos vinculantes ni sorpresas: paga solo por lo que usas.",
-    },
-    {
-      question: "¿Los agentes son nativos?",
-      answer: "Sí, contamos con agentes humanos nativos en español basados en España. Son profesionales cualificados que entienden el contexto local y ofrecen una atención de calidad. También disponemos de asistentes de IA para ampliar tu cobertura 24/7.",
-    },
-  ];
-}
-
-/**
  * Helper function to match key sectors with actual sector slugs for linking
  */
 function getSectorLink(sectorName: string): string | null {
-  // Map common sector names to their slugs
   const sectorMap: Record<string, string> = {
     "Clínicas & Salud": "recepcionista-ia-clinicas",
     "Agencias inmobiliarias": "recepcionista-ia-inmobiliarias",
@@ -120,7 +93,8 @@ export default async function CityPage({
     );
   }
 
-  const faqs = getCityFaqs(city);
+  const faqs = (city as { faq?: Array<{question: string; answer: string}> }).faq || [];
+
   const breadcrumbItems = [
     { name: "Inicio", url: "https://www.minute-call.com" },
     { name: "Atención telefónica", url: "https://www.minute-call.com/atencion-telefonica" },
@@ -177,7 +151,14 @@ export default async function CityPage({
           </h1>
 
           {/* Subtext */}
-          <p style={{ maxWidth: 600, marginBottom: 32, lineHeight: "1.6" }}>
+          <p
+            style={{
+              maxWidth: 600,
+              marginTop: 24,
+              marginBottom: 32,
+              lineHeight: "1.6",
+            }}
+          >
             {city.heroSubtitle}
           </p>
 
@@ -196,19 +177,20 @@ export default async function CityPage({
           padding: "60px clamp(16px,5vw,64px)",
         }}
       >
-        <h2 style={{ marginBottom: 16 }}>
+        <h2 style={{ marginBottom: 24 }}>
           Atención telefónica adaptada a{" "}
           <span className="serif-italic">{city.city}</span>
         </h2>
 
-        <p style={{ maxWidth: 700, marginBottom: 40, lineHeight: "1.6" }}>
+        <p style={{ maxWidth: 700, marginBottom: 40, lineHeight: "1.7" }}>
           {city.localContext}
         </p>
-          {(city as { sectorContext?: string }).sectorContext && (
-            <p style={{ color: '#555', lineHeight: 1.7, fontSize: 16, marginTop: 20 }}>
-              {(city as { sectorContext?: string }).sectorContext}
-            </p>
-          )}
+
+        {(city as { sectorContext?: string }).sectorContext && (
+          <p style={{ color: '#555', lineHeight: 1.7, fontSize: 16, marginTop: 20, maxWidth: 700 }}>
+            {(city as { sectorContext?: string }).sectorContext}
+          </p>
+        )}
 
         {/* Stats cards */}
         <div
@@ -216,15 +198,22 @@ export default async function CityPage({
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
             gap: 24,
+            marginTop: 40,
           }}
         >
           <div className="card" style={{ padding: 32 }}>
-            <p style={{ fontSize: 16, fontWeight: 500, marginBottom: 8 }}>
+            <p style={{ fontSize: 13, fontWeight: 500, color: "rgba(0,0,0,0.4)", marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.5px" }}>
+              PYMES en {city.city}
+            </p>
+            <p style={{ fontSize: 28, fontWeight: 500, letterSpacing: "-1.5px", marginBottom: 0 }}>
               {city.stats.pymes}
             </p>
           </div>
           <div className="card" style={{ padding: 32 }}>
-            <p style={{ fontSize: 16, fontWeight: 500, marginBottom: 8 }}>
+            <p style={{ fontSize: 13, fontWeight: 500, color: "rgba(0,0,0,0.4)", marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.5px" }}>
+              Problema actual
+            </p>
+            <p style={{ fontSize: 16, fontWeight: 500, lineHeight: "1.5", marginBottom: 0 }}>
               {city.stats.callsLost}
             </p>
           </div>
@@ -237,13 +226,12 @@ export default async function CityPage({
           maxWidth: 1200,
           margin: "0 auto",
           padding: "60px clamp(16px,5vw,64px)",
-          textAlign: "center",
         }}
       >
         <h2 style={{ marginBottom: 40 }}>
-          Sectores que atendemos en {city.city}
+          Sectores que atendemos en{" "}
+          <span className="serif-italic">{city.city}</span>
         </h2>
-
         <div
           style={{
             display: "grid",
@@ -309,7 +297,7 @@ export default async function CityPage({
             paddingLeft: 24,
           }}
         >
-          "{city.testimonial.quote}"
+          &ldquo;{city.testimonial.quote}&rdquo;
         </blockquote>
         <p style={{ fontSize: 16, fontWeight: 500, margin: "0 0 4px 0" }}>
           {city.testimonial.author}
@@ -327,11 +315,11 @@ export default async function CityPage({
           padding: "60px clamp(16px,5vw,64px)",
         }}
       >
-        <h2 style={{ marginBottom: 40, textAlign: "center" }}>
-          Preguntas frecuentes
+        <h2 style={{ marginBottom: 40 }}>
+          Preguntas frecuentes sobre atención telefónica en{" "}
+          <span className="serif-italic">{city.city}</span>
         </h2>
-
-        <div style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 0, textAlign: "left", maxWidth: 800, margin: "0 auto" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 0, maxWidth: 800 }}>
           {faqs.map((faq) => (
             <details
               key={faq.question}
@@ -355,7 +343,7 @@ export default async function CityPage({
                 {faq.question}
                 <span style={{ fontSize: "clamp(14px,3.8vw,24px)", fontWeight: 300 }}>+</span>
               </summary>
-              <p style={{ marginTop: 16 }}>{faq.answer}</p>
+              <p style={{ marginTop: 16, lineHeight: "1.6", color: "rgba(0,0,0,0.56)" }}>{faq.answer}</p>
             </details>
           ))}
         </div>
@@ -370,30 +358,39 @@ export default async function CityPage({
           textAlign: "center",
         }}
       >
-        <h2 style={{ marginBottom: 16 }}>Empieza hoy</h2>
+        <h2 style={{ marginBottom: 16 }}>
+          Empieza{" "}
+          <span className="serif-italic">hoy</span>
+        </h2>
         <p style={{ marginBottom: 32, maxWidth: 600, margin: "0 auto 32px" }}>
-          No pierdas más llamadas en {city.city}. Prueba Minute Call sin
-          compromiso.
+          No pierdas más llamadas en {city.city}. Prueba Minute Call sin compromiso.
         </p>
         <Link href="/reserva-llamada" className="btn-cta">
           Reserva una llamada
         </Link>
-      
 
-      {/* Top sectores en esta ciudad */}
-      {city.topSectors && city.topSectors.length > 0 && (
-        <section style={{ maxWidth: 900, margin: '0 auto', padding: '48px 24px 0' }}>
-          <h2 style={{ fontSize: "clamp(14px,3.8vw,22px)", fontWeight: 600, marginBottom: 8 }}>Sectores que más nos llaman desde {city.city}</h2>
-          <p style={{ color: '#666', marginBottom: 24, fontSize: 15 }}>Si tienes un negocio en {city.city}, estos son los sectores que más se benefician de nuestro servicio de atención telefónica.</p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 12 }}>
-            {city.topSectors.map((sector: {slug: string; title: string}) => (
-              <a key={sector.slug} href={`/lp/${sector.slug}`} style={{ display: 'block', padding: '16px 20px', border: '1px solid #e5e5e5', borderRadius: 12, textDecoration: 'none', color: '#000', fontSize: 14, fontWeight: 500, transition: 'border-color 0.2s' }}>
-                {sector.title} →
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
+        {/* Top sectores en esta ciudad */}
+        {city.topSectors && city.topSectors.length > 0 && (
+          <section style={{ maxWidth: 900, margin: '0 auto', padding: '48px 24px 0' }}>
+            <h2 style={{ fontSize: "clamp(14px,3.8vw,22px)", fontWeight: 600, marginBottom: 8 }}>
+              Sectores que más nos llaman desde{" "}
+              <span className="serif-italic">{city.city}</span>
+            </h2>
+            <p style={{ color: '#666', marginBottom: 24, fontSize: 15 }}>
+              Si tienes un negocio en {city.city}, estos son los sectores que más se benefician de nuestro servicio de atención telefónica.
+            </p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 12 }}>
+              {city.topSectors.map((sector: {slug: string; title: string}) => (
+                <a key={sector.slug} href={`/lp/${sector.slug}`} style={{
+                  display: 'block', padding: '16px 20px', border: '1px solid #e5e5e5', borderRadius: 12,
+                  textDecoration: 'none', color: '#000', fontSize: 14, fontWeight: 500, transition: 'border-color 0.2s'
+                }}>
+                  {sector.title} →
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
       </section>
     </>
   );
