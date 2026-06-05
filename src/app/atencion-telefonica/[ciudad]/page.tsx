@@ -129,7 +129,7 @@ export default async function CityPage({
       {/* ===== HERO SECTION ===== */}
       <section
         style={{
-          maxWidth: 800,
+          maxWidth: 1000,
           margin: "0 auto",
           padding: "80px clamp(16px,5vw,64px) 60px",
           textAlign: "center",
@@ -153,7 +153,7 @@ export default async function CityPage({
           {/* Subtext */}
           <p
             style={{
-              maxWidth: 600,
+              maxWidth: 700,
               margin: "24px auto 32px",
               lineHeight: "1.6",
             }}
@@ -181,9 +181,18 @@ export default async function CityPage({
           <span className="serif-italic">{city.city}</span>
         </h2>
 
-        <p style={{ maxWidth: 700, margin: "0 auto 40px", lineHeight: "1.7" }}>
-          {city.localContext}
-        </p>
+        {(() => {
+          const sentences = city.localContext.split('. ');
+          const mid = Math.ceil(sentences.length / 2);
+          const p1 = sentences.slice(0, mid).join('. ') + (sentences.length > 1 ? '.' : '');
+          const p2 = sentences.slice(mid).join('. ');
+          return (
+            <>
+              <p style={{ maxWidth: 700, margin: "0 auto 24px", lineHeight: "1.7" }}>{p1}</p>
+              {p2 && <p style={{ maxWidth: 700, margin: "0 auto 40px", lineHeight: "1.7" }}>{p2}</p>}
+            </>
+          );
+        })()}
 
         {/* Stats cards */}
         <div
