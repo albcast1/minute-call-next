@@ -21,7 +21,11 @@ type SectorType = {
     quote: string;
     author: string;
     role: string;
-  };
+    faq: Array<{
+    question: string;
+    answer: string;
+  }>;
+};
   faq: Array<{
     question: string;
     answer: string;
@@ -185,24 +189,18 @@ export default async function SectorCityPage({
     { name: city.city, url: `/lp/${sector.slug}/${city.slug}` },
   ];
 
-  const faqItems = [
-    {
-      question: `¿Minute Call ofrece recepcionista para ${sector.sector} en ${city.city}?`,
-      answer: `Sí, Minute Call ofrece atención telefónica especializada para ${sector.sector} en ${city.city} con agentes nativos basados en España o asistentes de IA — tú eliges. Nuestro servicio está diseñado para las necesidades específicas de este sector.`,
-    },
-    {
-      question: `¿Qué sectores atiende Minute Call en ${city.city}?`,
-      answer: `En ${city.city}, Minute Call atiende a varios sectores clave: ${city.keySectors.join(', ')}. Cada uno cuenta con una solución personalizada de recepcionista virtual con agentes nativos o IA.`,
-    },
-    {
-      question: `¿Cuánto cuesta el servicio de recepcionista para ${sector.sector}?`,
-      answer: `Los planes de Minute Call empiezan desde 250€/mes. El precio varía según el volumen de llamadas, horario y tipo de agente (humano o IA). Sin permanencia ni costes ocultos. Contacta con nosotros para un presupuesto personalizado.`,
-    },
-    {
-      question: `¿Cómo funciona el servicio en ${city.city}?`,
-      answer: `Nuestro servicio funciona en 3 pasos: primero, personalizamos el guión de llamada y acciones del agente; segundo, respondemos en nombre de tu empresa siguiendo tu procedimiento; tercero, agendamos la cita o enviamos el mensaje al instante a tu email.`,
-    },
-  ];
+  // Use sector-specific FAQs from data + city-specific question
+  const sectorFaqs = sector.faq.slice(0, 3).map(f => ({
+    question: f.question.replace('{ciudad}', city.city),
+    answer: f.answer.replace('{ciudad}', city.city),
+  }));
+  
+  const cityFaq = {
+    question: `¿Minute Call ofrece servicio para ${sector.sector} en ${city.city}?`,
+    answer: `Sí, Minute Call ofrece atención telefónica especializada para ${sector.sector} en ${city.city} con agentes nativos basados en España o asistentes de IA — tú eliges. Nuestro servicio está diseñado para las necesidades específicas de este sector en tu ciudad. Sin permanencia, desde 250€/mes.`,
+  };
+
+  const faqItems = [cityFaq, ...sectorFaqs];
 
   /* ─────────────────────────────────────────────
      BRAND TOKENS — exact match with minute-call.com homepage
