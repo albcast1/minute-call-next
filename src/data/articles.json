@@ -2594,16 +2594,16 @@
     ],
     "relatedLinks": [
       {
-        "text": "Cuánto cuesta contratar un call center en España",
-        "url": "/articulos/cuanto-cuesta-contratar-call-center-espana"
+        "href": "/articulos/cuanto-cuesta-contratar-call-center-espana",
+        "label": "Cuánto cuesta contratar un call center en España"
       },
       {
-        "text": "Alternativa a Secretaria.es",
-        "url": "/articulos/alternativa-secretaria-es-minute-call-comparativa"
+        "href": "/articulos/alternativa-secretaria-es-minute-call-comparativa",
+        "label": "Alternativa a Secretaria.es"
       },
       {
-        "text": "Cómo elegir un servicio de atención telefónica",
-        "url": "/articulos/como-elegir-servicio-atencion-telefonica"
+        "href": "/articulos/como-elegir-servicio-atencion-telefonica",
+        "label": "Cómo elegir un servicio de atención telefónica"
       }
     ]
   },
@@ -2634,16 +2634,16 @@
     ],
     "relatedLinks": [
       {
-        "text": "Mejores empresas de recepcionista virtual en España",
-        "url": "/articulos/mejores-empresas-recepcionista-virtual-espana"
+        "href": "/articulos/mejores-empresas-recepcionista-virtual-espana",
+        "label": "Mejores empresas de recepcionista virtual en España"
       },
       {
-        "text": "Alternativa a Secretaria.es",
-        "url": "/articulos/alternativa-secretaria-es-minute-call-comparativa"
+        "href": "/articulos/alternativa-secretaria-es-minute-call-comparativa",
+        "label": "Alternativa a Secretaria.es"
       },
       {
-        "text": "Cuánto cuesta contratar un call center en España",
-        "url": "/articulos/cuanto-cuesta-contratar-call-center-espana"
+        "href": "/articulos/cuanto-cuesta-contratar-call-center-espana",
+        "label": "Cuánto cuesta contratar un call center en España"
       }
     ]
   },
@@ -2674,16 +2674,16 @@
     ],
     "relatedLinks": [
       {
-        "text": "Mejores empresas de recepcionista virtual en España",
-        "url": "/articulos/mejores-empresas-recepcionista-virtual-espana"
+        "href": "/articulos/mejores-empresas-recepcionista-virtual-espana",
+        "label": "Mejores empresas de recepcionista virtual en España"
       },
       {
-        "text": "Recepcionista virtual humano vs IA",
-        "url": "/articulos/recepcionista-virtual-humano-vs-recepcionista-ia-diferencias-ventajas-para-pymes"
+        "href": "/articulos/recepcionista-virtual-humano-vs-recepcionista-ia-diferencias-ventajas-para-pymes",
+        "label": "Recepcionista virtual humano vs IA"
       },
       {
-        "text": "Cuánto cuesta externalizar la atención telefónica",
-        "url": "/articulos/coste-externalizar-atencion-telefonica-pyme-espana"
+        "href": "/articulos/coste-externalizar-atencion-telefonica-pyme-espana",
+        "label": "Cuánto cuesta externalizar la atención telefónica"
       }
     ]
   }
