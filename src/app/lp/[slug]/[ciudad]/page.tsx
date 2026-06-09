@@ -166,15 +166,15 @@ export default async function SectorCityPage({
   const otherSectors = (sectors as SectorType[]).filter((s) => s.slug !== slug);
   const sectorOffset = pageHash % otherSectors.length;
   const relatedSectors = [
-    ..otherSectors.slice(sectorOffset),
-    ..otherSectors.slice(0, sectorOffset),
+    ...otherSectors.slice(sectorOffset),
+    ...otherSectors.slice(0, sectorOffset),
   ].slice(0, 6);
 
   const otherCities = (cities as CityType[]).filter((c) => c.slug !== ciudad);
   const cityOffset = (pageHash >> 4) % otherCities.length;
   const relatedCities = [
-    ..otherCities.slice(cityOffset),
-    ..otherCities.slice(0, cityOffset),
+    ...otherCities.slice(cityOffset),
+    ...otherCities.slice(0, cityOffset),
   ].slice(0, 8);
 
   const howToSteps = [
@@ -200,7 +200,7 @@ export default async function SectorCityPage({
     answer: `Sí, Minute Call ofrece atención telefónica especializada para ${sector.sector} en ${city.city} con agentes nativos basados en España o asistentes de IA — tú eliges. Nuestro servicio está diseñado para las necesidades específicas de este sector en tu ciudad. Sin permanencia.`,
   };
 
-  const faqItems = [cityFaq, ..sectorFaqs];
+  const faqItems = [cityFaq, ...sectorFaqs];
 
   /* ─────────────────────────────────────────────
      BRAND TOKENS — exact match with minute-call.com homepage
