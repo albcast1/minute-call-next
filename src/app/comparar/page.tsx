@@ -2,14 +2,14 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Alternativa a Teleperformance, Konecta y Atento para PYMES | minute call',
-  description: 'Busca una alternativa a los grandes call centers para tu PYME? Minute Call es la opción ligera y flexible: agentes nativos, sin permanencia, Presupuesto personalizado. Activa en 48h.',
+  description: '¿Buscas una alternativa a los grandes call centers para tu PYME? Minute Call es la opción ligera y flexible: agentes nativos, sin permanencia, presupuesto personalizado. Activa en 48h.',
   alternates: { canonical: 'https://www.minute-call.com/comparar' },
   openGraph: {
     title: 'Alternativa a call centers para PYMES | minute call',
-    description: 'La altenativa flexible a Teleprformance, Konecta y Atento para PYMES españolas.',
+    description: 'La alternativa flexible a Teleperformance, Konecta y Atento para PYMES españolas.',
     url: 'https://www.minute-call.com/comparar',
     siteName: 'minute call',
-    locale: 'es_ES'
+    locale: 'es_ES',
     type: 'website',
   },
 }
@@ -19,7 +19,7 @@ const comparisons = [
     competitor: 'Teleperformance / Konecta / Atento',
     type: 'Grandes call centers BPO',
     minContract: '12 meses',
-    minVolume: '+500 llamadas/dia',
+    minVolume: '+500 llamadas/día',
     price: '5.000+ euros/mes',
     agents: 'Agentes en LATAM o Marruecos',
     activation: '1-3 meses',
@@ -28,20 +28,20 @@ const comparisons = [
   },
   {
     competitor: 'Secretaria.es (Audelia/ebuero)',
-    type: 'Secretaria virtual europea',
+    type: 'Secretaría virtual europea',
     minContract: 'Variable',
-    minVolume: 'Sin minimo',
+    minVolume: 'Sin mínimo',
     price: 'No publicado (no publicado)',
     agents: 'Agentes en Europa Central',
-    activation: '3-5 dias',
+    activation: '3-5 días',
     personalization: 'Media',
     forWho: 'Empresas con presencia europea',
   },
   {
     competitor: 'Secrelan / Digalia',
-    type: 'Secretaria virtual economica',
+    type: 'Secretaría virtual económica',
     minContract: 'Sin permanencia',
-    minVolume: 'Sin minimo',
+    minVolume: 'Sin mínimo',
     price: '49-150 euros/mes',
     agents: 'Agentes en LATAM',
     activation: '24-48h',
@@ -50,9 +50,9 @@ const comparisons = [
   },
   {
     competitor: 'Minute Call',
-    type: 'Secretaria virtual premium para PYMES',
+    type: 'Secretaría virtual premium para PYMES',
     minContract: 'Sin permanencia (mes a mes)',
-    minVolume: 'Sin minimo',
+    minVolume: 'Sin mínimo',
     price: 'Presupuesto personalizado (publicado)',
     agents: 'Agentes nativos en España o IA',
     activation: '48 horas',
@@ -63,10 +63,10 @@ const comparisons = [
 
 const useCases = [
   { icon: '🏥', title: 'Clinicas y centros medicos', description: 'Protocolo sanitario, gestión de urgencias y citas con Doctoralia o Cliniccloud. Lo que Teleperformance no puede hacer a tu escala.' },
-  { icon: '⚖️', title: 'Despachos de abogados', description: 'Confidencialidad, terminología jurídica y cualificación de nuevos asuntos. Sin los contratos anuales de los grandes BPO.' },
-  { icon: '🏠', title: 'Inmobiliarias', description: 'cualificación de compradores (presupuesto, zona, urgencia) para que tu comercial llame preparado. Presupuesto personalizado.' },
+  { icon: '⚦️', title: 'Despachos de abogados', description: 'Confidencialidad, terminología jurídica y cualificación de nuevos asuntos. Sin los contratos anuales de los grandes BPO.' },
+  { icon: '🏠', title: 'Inmobiliarias', description: 'Cualificación de compradores (presupuesto, zona, urgencia) para que tu comercial llame preparado. Presupuesto personalizado.' },
   { icon: '📊', title: 'Asesorias y consultoras', description: 'Primera impresión profesional sin tener que contratar recepcionista. Activa en 48 horas, cancela cuando quieras.' },
-  { icon: '🍽️', title: 'Restaurantes y hosteleria', description: 'gestión de reservas 24/7 cuando el equipo está en servicio. Sin perder una mesa por no poder coger el teléfono.' },
+  { icon: '🍽️', title: 'Restaurantes y hosteleria', description: 'Gestión de reservas 24/7 cuando el equipo está en servicio. Sin perder una mesa por no poder coger el teléfono.' },
   { icon: '🔧', title: 'Servicios tecnicos y urgencias', description: 'Cobertura nocturna y de fin de semana para captación de emergencias. La alternativa asequible a contratar turnos de noche.' },
 ]
 
@@ -74,9 +74,9 @@ const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    { '@type': 'Question', name: 'Es Minute Call una alternativa a Teleperformance para PYMES?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. Teleperformance, Konecta y Atento estan diseñados para grandes empresas con cientos de llamadas diarias y contratos anuales. Minute Call es la alternativa para PYMES: sin permanencia, Presupuesto personalizado, agentes nativos en España y activación en 48 horas.' } },
-    { '@type': 'Question', name: 'En que se diferencia Minute Call de Secretaria.es?', acceptedAnswer: { '@type': 'Answer', text: 'Minute Call tiene agentes nativos en España (no en Europa Central), precios transparentes publicados en la web, especialización por sector y activación en 48 horas. Secretaria.es (Audelia/ebuero) es una empresa alemana sin precios publicados y con estructura orientada al mercado europeo en general.' } },
-    { '@type': 'Question', name: 'Por que no usar Secrelan o Digalia si son mas baratos?', acceptedAnswer: { '@type': 'Answer', text: 'Para Autónomos con muy bajo volumen, pueden ser suficientes. Para una PYME de servicios donde la primera impresión importa (clínica, despacho, inmobiliaria), los agentes en LATAM y el protocolo genérico de estos servicios pueden perjudicar la imagen de marca. Minute Call invierte en que los clientes no sepan que es un servicio externo.' } },
+    { '@type': 'Question', name: '¿Es Minute Call una alternativa a Teleperformance para PYMES?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. Teleperformance, Konecta y Atento están diseñados para grandes empresas con cientos de llamadas diarias y contratos anuales. Minute Call es la alternativa para PYMES: sin permanencia, presupuesto personalizado, agentes nativos en España y activación en 48 horas.' } },
+    { '@type': 'Question', name: '¿En qué se diferencia Minute Call de Secretaria.es?', acceptedAnswer: { '@type': 'Answer', text: 'Minute Call tiene agentes nativos en España (no en Europa Central), precios transparentes publicados en la web, especialización por sector y activación en 48 horas. Secretaria.es (Audelia/ebuero) es una empresa alemana sin precios publicados y con estructura orientada al mercado europeo en general.' } },
+    { '@type': 'Question', name: '¿Por qué no usar Secrelan o Digalia si son más baratos?', acceptedAnswer: { '@type': 'Answer', text: 'Para autónomos con muy bajo volumen, pueden ser suficientes. Para una PYME de servicios donde la primera impresión importa (clínica, despacho, inmobiliaria), los agentes en LATAM y el protocolo genérico de estos servicios pueden perjudicar la imagen de marca. Minute Call invierte en que los clientes no sepan que es un servicio externo.' } },
   ],
 }
 
@@ -94,7 +94,7 @@ export default function CompararPage() {
             Todo lo que necesitas de un call center.<br />Sin los contratos que no puedes pagar.
           </h1>
           <p style={{ fontSize: 18, color: '#555', marginBottom: 32, lineHeight: 1.6 }}>
-            Teleperformance, Konecta y Atento son para grandes corporaciones. Secretaria.es es alemana. Minute Call es la alternativa española para PYMES: agentes nativos, sin permanencia, Presupuesto personalizado.
+            Teleperformance, Konecta y Atento son para grandes corporaciones. Secretaria.es es alemana. Minute Call es la alternativa española para PYMES: agentes nativos, sin permanencia, presupuesto personalizado.
           </p>
           <a href="/reserva-llamada" style={{ display: 'inline-block', background: '#000', color: '#fff', padding: '14px 32px', borderRadius: 999, fontSize: 15, fontWeight: 600, textDecoration: 'none' }}>
             Reserva una llamada gratuita &rarr;
@@ -114,13 +114,13 @@ export default function CompararPage() {
             </thead>
             <tbody>
               {[
-                ['Para quien','Grandes empresas','Empresas europeas','Autónomos','PYMES españolas'],
+                ['Para quién','Grandes empresas','Empresas europeas','Autónomos','PYMES españolas'],
                 ['Agentes','LATAM / Marruecos','Europa Central','LATAM','Nativos en España'],
                 ['Precio','5.000+ euros/mes','No publicado','49-150 euros/mes','Presupuesto personalizado'],
-                ['Permanencia','12 meses minimo','Variable','Sin permanencia','Sin permanencia'],
-                ['Activación','1-3 meses','3-5 dias','24-48h','48 horas'],
-                ['Protocolo por sector','No','Limitado','No','Si'],
-                ['IA + humano','No','Si (Audelia)','No','Si'],
+                ['Permanencia','12 meses mínimo','Variable','Sin permanencia','Sin permanencia'],
+                ['Activación','1-3 meses','3-5 días','24-48h','48 horas'],
+                ['Protocolo por sector','No','Limitado','No','Sí'],
+                ['IA + humano','No','Sí (Audelia)','No','Sí'],
               ].map(([label,...vals])=>(
                 <tr key={label} style={{ borderBottom: '1px solid #f0f0f0' }}>
                   <td style={{ padding: '12px 16px', color: '#666', fontWeight: 600 }}>{label}</td>
