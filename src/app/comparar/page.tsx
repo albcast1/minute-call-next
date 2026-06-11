@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.minute-call.com/comparar' },
   openGraph: {
     title: 'Alternativa a call centers para PYMES | minute call',
-    description: 'La alternativa flexible a Teleperformance, Konecta y Atento para PYMES españolas.',
+    description: 'La altenativa flexible a Teleprformance, Konecta y Atento para PYMES españolas.',
     url: 'https://www.minute-call.com/comparar',
     siteName: 'minute call',
-    locale: 'es_ES',
+    locale: 'es_ES'
     type: 'website',
   },
 }
@@ -103,7 +103,7 @@ export default function CompararPage() {
 
         {/* Comparison table */}
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 24px 64px', overflowX: 'auto' }}>
-          <h2 style={{ fontSize: 26, fontWeight: 700, marginBottom: 32, textAlign: 'center' }}>Comparativa de opciónes</h2>
+          <h2 style={{ fontSize: 26, fontWeight: 700, marginBottom: 32, textAlign: 'center' }}>Comparativa de opciones</h2>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14, minWidth: 800 }}>
             <thead>
               <tr style={{ borderBottom: '2px solid #e5e5e5', background: '#f9f9f9' }}>
