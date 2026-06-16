@@ -2,7 +2,14 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import sectors from '@/data/sectors.json';
 import cities from '@/data/cities.json';
-import { FAQPageSchema, BreadcrumbSchema, ServiceSchema, LocalBusinessSchema, HowToSchema, ReviewSchema } from '@/components/JsonLd';
+import {
+  FAQPageSchema,
+  BreadcrumbSchema,
+  ServiceSchema,
+  LocalBusinessSchema,
+  HowToSchema,
+  ReviewSchema,
+} from '@/components/JsonLd';
 
 type SectorType = {
   slug: string;
@@ -13,23 +20,9 @@ type SectorType = {
   heroTag: string;
   heroSubtitle: string;
   socialProof: string;
-  features: Array<{
-    title: string;
-    description: string;
-  }>;
-  testimonial: {
-    quote: string;
-    author: string;
-    role: string;
-    faq: Array<{
-    question: string;
-    answer: string;
-  }>;
-};
-  faq: Array<{
-    question: string;
-    answer: string;
-  }>;
+  features: Array<{ title: string; description: string }>;
+  testimonial: { quote: string; author: string; role: string; faq: Array<{ question: string; answer: string }> };
+  faq: Array<{ question: string; answer: string }>;
 };
 
 type CityType = {
@@ -43,29 +36,17 @@ type CityType = {
   heroSubtitle: string;
   localContext: string;
   keySectors: string[];
-  testimonial: {
-    quote: string;
-    author: string;
-    role: string;
-  };
-  stats: {
-    pymes: string;
-    callsLost: string;
-  };
+  testimonial: { quote: string; author: string; role: string };
+  stats: { pymes: string; callsLost: string };
 };
 
 export async function generateStaticParams() {
   const params: Array<{ slug: string; ciudad: string }> = [];
-
   for (const sector of sectors as SectorType[]) {
     for (const city of cities as CityType[]) {
-      params.push({
-        slug: sector.slug,
-        ciudad: city.slug,
-      });
+      params.push({ slug: sector.slug, ciudad: city.slug });
     }
   }
-
   return params;
 }
 
@@ -75,36 +56,29 @@ export async function generateMetadata({
   params: Promise<{ slug: string; ciudad: string }>;
 }): Promise<Metadata> {
   const { slug, ciudad } = await params;
-
   const sector = (sectors as SectorType[]).find((s) => s.slug === slug);
   const city = (cities as CityType[]).find((c) => c.slug === ciudad);
 
   if (!sector || !city) {
-    return {
-      title: 'Página no encontrada | minute call',
-      description: 'La página que buscas no existe.',
-    };
+    return { title: 'PÃ¡gina no encontrada | minute call', description: 'La pÃ¡gina que buscas no existe.' };
   }
 
-  // Siempre inyectamos ciudad para evitar títulos duplicados entre 50 ciudades del mismo sector.
-  // Si sector.metaTitle tiene placeholder {ciudad} lo usamos; si no, anteponemos "{ciudad} — …".
   const title = sector.metaTitle && sector.metaTitle.includes('{ciudad}')
     ? sector.metaTitle.replace('{ciudad}', city.city)
     : sector.metaTitle
       ? `${sector.metaTitle.replace(/\s*\|\s*minute call\s*$/i, '')} en ${city.city} | minute call`
       : `Recepcionista Virtual para ${sector.sector} en ${city.city} | minute call`;
+
   const description = sector.metaDescription && sector.metaDescription.includes('{ciudad}')
     ? sector.metaDescription.replace('{ciudad}', city.city)
     : sector.metaDescription
       ? `${sector.metaDescription} Servicio disponible en ${city.city}.`
-      : `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA — tú eliges. Sin permanencia.`;
+      : `AtenciÃ³n telefÃ³nica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA â tÃº eliges. Sin permanencia.`;
 
   return {
     title,
     description,
-    alternates: {
-      canonical: `/lp/${slug}/${ciudad}`,
-    },
+    alternates: { canonical: `/lp/${slug}/${ciudad}` },
     openGraph: {
       title,
       description,
@@ -113,18 +87,8 @@ export async function generateMetadata({
       url: `https://www.minute-call.com/lp/${slug}/${ciudad}`,
       images: [{ url: '/og-image.png', width: 1200, height: 630, alt: title }],
     },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: ['/og-image.png'],
-    },
-    // Noindex: 45×50=2.250 páginas con contenido cuasi-idéntico serían penalizadas
-    // por Google (doorway pages). Las mantenemos accesibles para SEM pero fuera del índice.
-    robots: {
-      index: false,
-      follow: true,
-    },
+    twitter: { card: 'summary_large_image', title, description, images: ['/og-image.png'] },
+    robots: { index: false, follow: true },
   };
 }
 
@@ -134,17 +98,14 @@ export default async function SectorCityPage({
   params: Promise<{ slug: string; ciudad: string }>;
 }) {
   const { slug, ciudad } = await params;
-
   const sector = (sectors as SectorType[]).find((s) => s.slug === slug);
   const city = (cities as CityType[]).find((c) => c.slug === ciudad);
 
   if (!sector || !city) {
     return (
-      <div style={{ textAlign: 'center', padding: '60px 20px', backgroundColor: '#EFEBE5', minHeight: '60vh' }}>
-        <h1 style={{ fontFamily: "Inter, sans-serif", fontWeight: 500, fontSize: '40px', letterSpacing: '-2.4px' }}>
-          Página no encontrada
-        </h1>
-        <p style={{ color: 'rgba(0,0,0,0.56)', fontFamily: 'Inter, sans-serif' }}>Lo sentimos, la página que buscas no existe.</p>
+      <div style={{ textAlign: 'center', padding: '60px 20px', minHeight: '60vh' }}>
+        <h1>Pagina no encontrada</h1>
+        <p>Lo sentimos, la pÃ¡gina que buscas no existe.</p>
         <Link href="/" style={{ color: '#000' }}>Volver al inicio</Link>
       </div>
     );
@@ -152,7 +113,6 @@ export default async function SectorCityPage({
 
   const featureCards = sector.features.slice(0, 3);
 
-  // Deterministic hash for varied but reproducible related content per page
   const hashCode = (str: string) => {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
@@ -161,1076 +121,279 @@ export default async function SectorCityPage({
     }
     return Math.abs(hash);
   };
-  const pageHash = hashCode(`${slug}-${ciudad}`);
 
+  const pageHash = hashCode(`${slug}-${ciudad}`);
   const otherSectors = (sectors as SectorType[]).filter((s) => s.slug !== slug);
   const sectorOffset = pageHash % otherSectors.length;
-  const relatedSectors = [
-    ...otherSectors.slice(sectorOffset),
-    ...otherSectors.slice(0, sectorOffset),
-  ].slice(0, 6);
-
+  const relatedSectors = [...otherSectors.slice(sectorOffset), ...otherSectors.slice(0, sectorOffset)].slice(0, 6);
   const otherCities = (cities as CityType[]).filter((c) => c.slug !== ciudad);
   const cityOffset = (pageHash >> 4) % otherCities.length;
-  const relatedCities = [
-    ...otherCities.slice(cityOffset),
-    ...otherCities.slice(0, cityOffset),
-  ].slice(0, 8);
+  const relatedCities = [...otherCities.slice(cityOffset), ...otherCities.slice(0, cityOffset)].slice(0, 8);
 
   const howToSteps = [
-    { name: 'Elige tu plan', text: `Selecciona el plan que mejor se adapte a tu negocio de ${sector.sector} en ${city.city}.` },
-    { name: 'Configura tu flujo', text: 'Define cómo quieres que atendamos tus llamadas: horarios, mensajes y derivaciones.' },
-    { name: 'Activa tu recepcionista', text: 'En menos de 24h tu recepcionista virtual estará operativa atendiendo llamadas.' },
-  ];
+    { name: 'EligeH[Ë^Ù[XØÚ[ÛH[[]YHYZÜÙHY\HHHYÛØÚ[ÈH	ÜÙXÝÜÙXÝÜH[	ØÚ]KÚ]_KKÈ[YN	ÐÛÛYÝ\HHZÉË^	ÑY[HðìÛ[È]ZY\\È]YH][[[ÜÈ\È[XY\ÎÜ\[ÜËY[ØZ\ÈH\]XÚ[Û\ËÈKÈ[YN	ÐXÝ]HHXÙ\Ú[Û\ÝIË^	Ñ[Y[ÜÈHHXÙ\Ú[Û\ÝH\X[\Ý\°èHÜ\]]H][Y[È[XY\ËÈKNÂÛÛÝXYÜ[X][\ÈHÂÈ[YN	Ò[XÚ[ÉË\	ËÉÈKÈ[YNÙXÝÜÙXÝÜ\ÛÉÜÙXÝÜÛYßXKÈ[YNÚ]KÚ]K\ÛÉÜÙXÝÜÛYßKÉØÚ]KÛYßXKNÂÛÛÝÙXÝÜ\\ÈHÙXÝÜ\KÛXÙJÊKX\
+O
+Â]Y\Ý[Û]Y\Ý[Û\XÙJ	ÞØÚ]YYIËÚ]KÚ]JK[ÝÙ\[ÝÙ\\XÙJ	ÞØÚ]YYIËÚ]KÚ]JKJJNÂÛÛÝÚ]Q\HHÂ]Y\Ý[Û0¯ÓZ[]HØ[ÙXÙHÙ\XÚ[È\H	ÜÙXÝÜÙXÝÜH[	ØÚ]KÚ]_OØ[ÝÙ\ðëKZ[]HØ[ÙXÙH][ÚpìÛ[Y°ìÛXØH\ÜXÚX[^YH\H	ÜÙXÝÜÙXÝÜH[	ØÚ]KÚ]_HÛÛYÙ[\È]]ÜÈ\ØYÜÈ[\ÜpìXHÈ\Ú\Ý[\ÈHPH8 %0î[YÙ\ËY\ÝÈÙ\XÚ[È\Ý0èH\ÙpìXYÈ\H\ÈXÙ\ÚYY\È\ÜXðëYXØ\ÈH\ÝHÙXÝÜ[HÚ]YYÚ[\X[[ÚXKNÂÛÛÝ\R][\ÈHØÚ]Q\KÙXÝÜ\\×NÂ]\
+XYÜ[XØÚ[XH][\Ï^ØXYÜ[X][\ßHÏÙ\XÙTØÚ[XHÙ\XÙ\Ï^ÖÞÈ[YNXÙ\Ú[Û\ÝH\X[\H	ÜÙXÝÜÙXÝÜX\ØÜ\[Û][ÚpìÛ[Y°ìÛXØHÍÈ\H	ÜÙXÝÜÙXÝÜH[	ØÚ]KÚ]_HÛÛYÙ[\È]]ÜÈÈPXW_HÏTTYÙTØÚ[XH\\Ï^Ù\R][\ßHÏØØ[\Ú[\ÜÔØÚ[XHÏÝÕÔØÚ[XHÝ\Ï^ÚÝÕÔÝ\ßHÏ]Y]ÔØÚ[XH]]Ü[YO^ÜÙXÝÜ\Ý[[ÛX[]]ÜH]]ÜÛO^ÜÙXÝÜ\Ý[[ÛX[Û_H]Y]ÐÙO^ÜÙXÝÜ\Ý[[ÛX[][Ý_HÏËÊXYÜ[X
+ßB]Ý[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉËY[Î	ÌÛ[\
+M
+]Ë
+
+IËÛÚ^NLËÛÛÜ	ÜØJ
+IÈ_OØXYÜ[X][\ËX\
 
-  const breadcrumbItems = [
-    { name: 'Inicio', url: '/' },
-    { name: sector.sector, url: `/lp/${sector.slug}` },
-    { name: city.city, url: `/lp/${sector.slug}/${city.slug}` },
-  ];
+][KY
+HO
+Ü[Ù^O^ÚYOÚY	Ü[Ý[O^ÞÈX\Ú[	Ì
+	È_OÏÜÜ[BÚYXYÜ[X][\Ë[ÝHHÈ
+[ÈY^Ú][K\HÝ[O^ÞÈÛÛÜ	ÜØJ
+IË^XÛÜ][Û	ÛÛIÈ_OÚ][K[Y_OÓ[Ï
+H
+Ü[Ý[O^ÞÈÛÛÜ	ØXÚÉÈ_OÚ][K[Y_OÜÜ[
+_BÜÜ[
+J_BÙ]ËÊ\È
+ßBÙXÝ[ÛÝ[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉËY[Î	ØÛ[\
 
-  // Use sector-specific FAQs from data + city-specific question
-  const sectorFaqs = sector.faq.slice(0, 3).map(f => ({
-    question: f.question.replace('{ciudad}', city.city),
-    answer: f.answer.replace('{ciudad}', city.city),
-  }));
-  
-  const cityFaq = {
-    question: `¿Minute Call ofrece servicio para ${sector.sector} en ${city.city}?`,
-    answer: `Sí, Minute Call ofrece atención telefónica especializada para ${sector.sector} en ${city.city} con agentes nativos basados en España o asistentes de IA — tú eliges. Nuestro servicio está diseñado para las necesidades específicas de este sector en tu ciudad. Sin permanencia.`,
-  };
+Ë
+HÛ[\
+M
+]Ë
+
+HÛ[\
 
-  const faqItems = [cityFaq, ...sectorFaqs];
+
+Ë
+
+IÈ_OÜ[Û\ÜÓ[YOH[[X[Ý[O^ÞÈX\Ú[ÝÛNM\Ü^N	Ú[[KXØÚÉÈ_OXÙ\Ú[Û\ÝH\X[\HÜÙXÝÜÙXÝÜBÜÜ[]Ý[O^ÞÈ\Ü^N	ÙÜY	ËÜY[\]PÛÛ[[Î	Ü\X]
+]]ËY]Z[X^
+ÌYJIËØ\	ØÛ[\
+Ì
+]Ë
+
+IË[YÛ][\Î	ÜÝ\	È_O]O][Ú[Û[YÛXØH\HÜÙXÝÜÙXÝÜH[ÉÈ	ßBÜ[Û\ÜÓ[YOHÙ\YZ][XÈØÚ]KÚ]_KÜÜ[ÚOÝ[O^ÞÈX^ÚY
+X\Ú[ÝÛNÍ_OÜÙXÝÜ\ÔÝX]_H[ØÚ]KÚ]_K][[[ÜÈ\È[XY\ÈHH[\\ØHÛÛYÙ[\È]]ÜÈÈ\Ú\Ý[\ÈHPH8 %0î[YÙ\ËÚ[\X[[ÚXKÜ[ÈYHÜ\Ù\K[[XYHÛ\ÜÓ[YOHXÝH\Ù\H[H[XYBÓ[ÏÙ]ËÊ]Y[ÈØ\
+ßB]Ý[O^ÞÈ\Ü^N	Ù^	Ë^\XÝ[Û	ØÛÛ[[Ë[YÛ][\Î	ØÙ[\Ë\ÝYPÛÛ[	ØÙ[\È_O]Û\ÜÓ[YOHØ\Ý[O^ÞÈÚY	ÌL	IËX^ÚY
 
-  /* ─────────────────────────────────────────────
-     BRAND TOKENS — exact match with minute-call.com homepage
-     ───────────────────────────────────────────── */
-  const brand = {
-    beige: '#EFEBE5',
-    black: '#000000',
-    dark: '#111111',
-    green: '#5AFF15',
-    white: '#FFFFFF',
-    lightGray: '#f5f5f5',
-    textMuted: 'rgba(0,0,0,0.56)',
-    textBody: 'rgba(0,0,0,0.56)',
-    /* Typography — homepage uses Inter for ALL text, Source Serif 4 italic ONLY for accent spans */
-    sans: "Inter, sans-serif",
-    serif: "'Source Serif 4', serif",
-  };
+Ý\ÝÎ	ÚY[ËY[Î_O]Ý[O^ÞÈ\Ü^N	Ù^	ËXÚÙÜÝ[	ÜØJÊIËÜ\Y]\Î	ÌMM	È_O]Ý[O^ÞÈ^KY[ÎM^[YÛ	ØÙ[\ËÛÚ^NMKÛÙZYÚ
+XÚÙÜÝ[	ÝÚ]IËÜ\Y]\Î	ÌM	È_OXÙ\Ú[Û\ÝBÙ]]Ý[O^ÞÈ^KY[ÎM^[YÛ	ØÙ[\ËÛÚ^NMKÛÙZYÚ
+LÛÛÜ	ÜØJ
+IÈ_OXÙ\Ú[Û\ÝHPBÙ]Ù]]Ý[O^ÞÈY[Î\Ü^N	Ù^	Ë^\XÝ[Û	ØÛÛ[[ËØ\M_O]Ý[O^ÞÈZYÚXÚÙÜÝ[	ÜØJÊIËÜ\Y]\ÎL\Ü^N	Ù^	Ë[YÛ][\Î	ØÙ[\Ë\ÝYPÛÛ[	ØÙ[\ËØ\ËY[Î	Ì	È_OÐ\^KÛJÈ[Ý
+JKX\
 
-  return (
-    <>
-      <BreadcrumbSchema items={breadcrumbItems} />
-      <ServiceSchema
-        services={[{
-          name: `Recepcionista Virtual para ${sector.sector}`,
-          description: `Atención telefónica 24/7 para ${sector.sector} en ${city.city} con agentes nativos o IA`,
-        }]}
-      />
-      <FAQPageSchema faqs={faqItems} />
-      <LocalBusinessSchema />
-      <HowToSchema steps={howToSteps} />
-      <ReviewSchema
-        authorName={sector.testimonial.author}
-        authorRole={sector.testimonial.role}
-        reviewBody={sector.testimonial.quote}
-      />
+ËJHO
+]Ù^O^Ú_HÝ[O^ÞÈÚYËZYÚ	ÌL
+ÈX]Ú[H
+JH
+
+ÈX][ÛJ
+H
+M_\XÚÙÜÝ[	ØXÚÉËÜ\Y]\ÎÜXÚ]NÈ_HÏ
+J_BÙ]]Ý[O^ÞÈ\Ü^N	Ù^	Ë[YÛ][\Î	ØÙ[\ËØ\L_O]Ý[O^ÞÈÚYÍZYÚÍÜ\Y]\Î	ÍL	IËXÚÙÜÝ[	ØXÚÉË\Ü^N	Ù^	Ë[YÛ][\Î	ØÙ[\Ë\ÝYPÛÛ[	ØÙ[\È_O]Ý[O^ÞÈÚYZYÚÜ\Ü	ÍÛÛY[Ü\[	ËÜ\ÝÛN	ÍÛÛY[Ü\[	ËÜ\Y	ÌLÛÛYÚ]IËX\Ú[Y_HÏÙ]Ü[Ý[O^ÞÈÛÚ^NLËÛÛÜ	ÜØJMIÈ_OÜÜ[]Ý[O^ÞÈ^KZYÚ
+XÚÙÜÝ[	ÈÙMYMYMIËÜ\Y]\Î_O]Ý[O^ÞÈÚY	Ì	IËZYÚ	ÌL	IËXÚÙÜÝ[	ØXÚÉËÜ\Y]\Î_HÏÙ]Ü[Ý[O^ÞÈÛÚ^NLËÛÛÜ	ÜØJMIÈ_O
+ÜÜ[Ù]Ù]Ù]Ù]Ù]ÜÙXÝ[ÛËÊÝ]È
+ßBÙXÝ[ÛÝ[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉËY[Î	ÌÛ[\
+M
+]Ë
+
+HÛ[\
 
-      {/* ── HERO ── */}
-      <section style={{
-        padding: '80px 64px 60px',
-        backgroundColor: brand.beige,
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          {/* Breadcrumb */}
-          <nav style={{ fontSize: '14px', color: brand.textMuted, fontFamily: brand.sans, marginBottom: '40px' }}>
-            {breadcrumbItems.map((item, idx) => (
-              <span key={idx}>
-                {idx > 0 && <span style={{ margin: '0 6px' }}>/</span>}
-                {idx < breadcrumbItems.length - 1 ? (
-                  <Link href={item.url} style={{ color: brand.textMuted, textDecoration: 'none' }}>
-                    {item.name}
-                  </Link>
-                ) : (
-                  <span style={{ color: brand.black }}>{item.name}</span>
-                )}
-              </span>
-            ))}
-          </nav>
+
+Ë
+
+IË\Ü^N	ÙÜY	ËÜY[\]PÛÛ[[Î	Ü\X]
 
-          {/* Tag above title — matches homepage "Recepción de llamadas para PYMES" */}
-          <p style={{
-            fontSize: '14px',
-            fontWeight: 500,
-            color: brand.textMuted,
-            fontFamily: brand.sans,
-            marginBottom: '20px',
-            textTransform: 'uppercase' as const,
-            letterSpacing: '0.5px',
-          }}>
-            Recepcionista Virtual para {sector.sector}
-          </p>
+YIËØ\M_OÖÂÈ[YN	ÏÜÉËX[	ÕY[\ÈH\ÜY\ÝIÈKÈ[YN	ÎNKÉIËX[	Õ\ØHH\ÜY\ÝIÈKÈ[YN	Í	ËX[	ÐXÝ]XÚ[ÛÈKÈ[YN	ÍK	ËX[	Õ\Ý[Ý	ÈKKX\
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'clamp(32px, 5vw, 64px)', alignItems: 'start' }}>
-            {/* Left: copy */}
-            <div>
-              <h1 style={{
-                fontSize: 'clamp(36px, 7vw, 60px)',
-                fontWeight: 500,
-                fontFamily: brand.sans,
-                color: brand.black,
-                lineHeight: 1.05,
-                letterSpacing: '-0.06em',
-                margin: '0 0 24px 0',
-              }}>
-                Atención telefónica para {sector.sector} en{' '}
-                <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>{city.city}.</span>
-              </h1>
-              <p style={{
-                fontSize: '18px',
-                fontWeight: 400,
-                color: brand.textBody,
-                lineHeight: '27px',
-                fontFamily: brand.sans,
-                marginBottom: '36px',
-                maxWidth: '480px',
-              }}>
-                {sector.heroSubtitle} en {city.city}. Atendemos las llamadas de tu empresa con
-                agentes nativos o asistentes de IA — tú eliges. Sin permanencia.
-              </p>
-              <Link href="/reserva-llamada" style={{
-                display: 'inline-block',
-                padding: '16px 32px',
-                backgroundColor: brand.green,
-                color: brand.black,
-                textDecoration: 'none',
-                borderRadius: '50px',
-                fontSize: '16px',
-                fontWeight: 500,
-                fontFamily: brand.sans,
-              }}>
-                Reserva una llamada
-              </Link>
-            </div>
+ËJHO
+]Ù^O^Ú_HÛ\ÜÓ[YOHØ\Ý[O^ÞÈ^[YÛ	ØÙ[\ËY[Î_OÝ[O^ÞÈÛÚ^N	ØÛ[\
+
+]Ë
+IËÛÙZYÚ
+LÛÛÜ	ØXÚÉË]\ÜXÚ[ÎLKKX\Ú[ÝÛN
+_OÜË[Y_BÜÛ\ÜÓ[YOHÙ\XÙKXØ\XÙHÝ[O^ÞÈX\Ú[ÝÛN_OÜËX[OÜÙ]
+J_BÜÙXÝ[ÛËÊØØ[ÛÛ^
+ßBÙXÝ[ÛÝ[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉËY[Î	ØÛ[\
 
-            {/* Right: audio card ONLY — homepage hero has NO video */}
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-              {/* Audio player card — matches homepage: 460x~381, border-radius 20px, shadow */}
-              <div style={{
-                backgroundColor: brand.white,
-                borderRadius: '20px',
-                overflow: 'hidden',
-                boxShadow: '0 4px 32px rgba(0,0,0,0.1)',
-                width: '100%',
-                maxWidth: '460px',
-              }}>
-                {/* Tab bar */}
-                <div style={{
-                  display: 'flex',
-                  backgroundColor: brand.lightGray,
-                  borderRadius: '14px 14px 0 0',
-                }}>
-                  <div style={{
-                    flex: 1,
-                    padding: '16px',
-                    textAlign: 'center',
-                    fontSize: '15px',
-                    fontWeight: 600,
-                    fontFamily: brand.sans,
-                    color: brand.dark,
-                    backgroundColor: brand.white,
-                    borderRadius: '14px 0 0 0',
-                  }}>
-                    Recepcionista
-                  </div>
-                  <div style={{
-                    flex: 1,
-                    padding: '16px',
-                    textAlign: 'center',
-                    fontSize: '15px',
-                    fontWeight: 500,
-                    fontFamily: brand.sans,
-                    color: 'rgba(0,0,0,0.4)',
-                  }}>
-                    Recepcionista IA
-                  </div>
-                </div>
-                {/* Audio waveform area */}
-                <div style={{
-                  padding: '24px',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  gap: '16px',
-                }}>
-                  {/* Waveform placeholder */}
-                  <div style={{
-                    height: '80px',
-                    backgroundColor: brand.lightGray,
-                    borderRadius: '12px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '3px',
-                    padding: '0 20px',
-                  }}>
-                    {Array.from({ length: 40 }).map((_, i) => (
-                      <div key={i} style={{
-                        width: '3px',
-                        height: `${12 + Math.sin(i * 0.5) * 20 + Math.random() * 15}px`,
-                        backgroundColor: brand.dark,
-                        borderRadius: '2px',
-                        opacity: 0.3,
-                      }} />
-                    ))}
-                  </div>
-                  {/* Progress bar */}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    {/* Play button */}
-                    <div style={{
-                      width: '36px',
-                      height: '36px',
-                      borderRadius: '50%',
-                      backgroundColor: brand.dark,
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                    }}>
-                      <div style={{
-                        width: 0,
-                        height: 0,
-                        borderTop: '6px solid transparent',
-                        borderBottom: '6px solid transparent',
-                        borderLeft: '10px solid white',
-                        marginLeft: '2px',
-                      }} />
-                    </div>
-                    <span style={{ fontSize: '13px', fontFamily: brand.sans, color: brand.textMuted }}>0:00</span>
-                    <div style={{ flex: 1, height: '4px', backgroundColor: '#e5e5e5', borderRadius: '2px' }}>
-                      <div style={{ width: '0%', height: '100%', backgroundColor: brand.dark, borderRadius: '2px' }} />
-                    </div>
-                    <span style={{ fontSize: '13px', fontFamily: brand.sans, color: brand.textMuted }}>0:44</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+Ë
+HÛ[\
+M
+]Ë
+
+IË^[YÛ	ØÙ[\È_OÜ]YHXÙ\Ú]\È][Ú[Û[YÛXØHÙ\Ú[Û[[ÉÈ	ßBÜ[Û\ÜÓ[YOHÙ\YZ][XÈØÚ]KÚ]_KÜÜ[ÚÝ[O^ÞÈX^ÚY
+ÌX\Ú[	Ì]]ÉË[RZYÚKÈ_OØÚ]KØØ[ÛÛ^BÜ]Ý[O^ÞÈ\Ü^N	ÙÜY	ËÜY[\]PÛÛ[[Î	Ü\X]
+]]ËY]Z[X^
+ÌYJIËØ\X\Ú[ÜÌ^[YÛ	ÛY	È_OÜÙXÝÜX]\\ËÛXÙJKX\
 
-      {/* ── VIDEO SECTION — matches homepage "Cada llamada perdida" section ── */}
-      <section style={{
-        padding: '80px 64px',
-        backgroundColor: brand.beige,
-      }}>
-        <div style={{
-          maxWidth: '1200px',
-          margin: '0 auto',
-          display: 'flex',
-          flexDirection: 'row',
-          gap: '64px',
-          alignItems: 'center',
-        }}>
-          {/* Left: text + stats */}
-          <div style={{ flex: 1 }}>
-            <p style={{
-              fontSize: '14px',
-              fontWeight: 500,
-              color: brand.textMuted,
-              fontFamily: brand.sans,
-              marginBottom: '20px',
-              textTransform: 'uppercase' as const,
-              letterSpacing: '0.5px',
-            }}>
-              Resultados de clientes
-            </p>
-            <h2 style={{
-              fontSize: '44px',
-              fontWeight: 500,
-              fontFamily: brand.sans,
-              color: brand.black,
-              letterSpacing: '-2.64px',
-              lineHeight: 1.1,
-              marginBottom: '20px',
-            }}>
-              Cada llamada perdida es una oportunidad{' '}
-              <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>perdida.</span>
-            </h2>
-            <p style={{
-              fontSize: '18px',
-              color: brand.textBody,
-              lineHeight: '27px',
-              fontFamily: brand.sans,
-              marginBottom: '40px',
-              maxWidth: '500px',
-            }}>
-              El 78% de los leads contratan al negocio que responde primero. Para las empresas de {sector.sector.toLowerCase()} en {city.city}, el teléfono es el canal más importante.
-            </p>
-            <div style={{ display: 'flex', gap: '48px' }}>
-              <div>
-                <h3 style={{
-                  fontSize: '18px',
-                  fontWeight: 500,
-                  fontFamily: brand.sans,
-                  color: brand.black,
-                  marginBottom: '4px',
-                }}>
-                  Tiempo de respuesta
-                </h3>
-                <p style={{
-                  fontSize: '36px',
-                  fontWeight: 500,
-                  fontFamily: brand.sans,
-                  color: brand.black,
-                  letterSpacing: '-1.5px',
-                }}>
-                  {'<'} 3 seg
-                </p>
-              </div>
-              <div>
-                <h3 style={{
-                  fontSize: '18px',
-                  fontWeight: 500,
-                  fontFamily: brand.sans,
-                  color: brand.black,
-                  marginBottom: '4px',
-                }}>
-                  Tasa de respuesta
-                </h3>
-                <p style={{
-                  fontSize: '36px',
-                  fontWeight: 500,
-                  fontFamily: brand.sans,
-                  color: brand.black,
-                  letterSpacing: '-1.5px',
-                }}>
-                  99.7%
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* Right: phone video mockup — homepage: 410x734, bg #f5f5f5, border-radius 16px */}
-          <div style={{
-            flex: '0 0 auto',
-            width: '300px',
-            height: '536px',
-            backgroundColor: brand.lightGray,
-            borderRadius: '16px',
-            overflow: 'hidden',
-          }}>
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              preload="metadata"
-              style={{
-                width: '100%',
-                height: '100%',
-                objectFit: 'cover',
-              }}
-            >
-              <source src="https://framerusercontent.com/assets/FaxcwHWdhZxkAcLltQoQxhlJciw.mp4" type="video/mp4" />
-            </video>
-          </div>
-        </div>
-      </section>
+X]\KY
+HO
+]Ù^O^ÚYHÛ\ÜÓ[YOHØ\Ý[O^ÞÈY[ÎÌ_OÈÝ[O^ÞÈÛÚ^NX\Ú[ÝÛNL_OÙX]\K]_OÚÏÛ\ÜÓ[YOHÙ\XÙKXØ\XÙHÙX]\K\ØÜ\[ÛOÜÙ]
+J_BÙ]ÜÙXÝ[ÛËÊX]\\È8 %\ÈÙXÝ[Û
+ßBÙXÝ[ÛÝ[O^ÞÈXÚÙÜÝ[	ØXÚÉËY[Î	ØÛ[\
 
-      {/* ── SOCIAL PROOF / LOCAL CONTEXT ── */}
-      <section style={{
-        padding: '80px 64px',
-        backgroundColor: brand.beige,
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{
-            fontSize: '44px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-            color: brand.black,
-            letterSpacing: '-2.64px',
-            lineHeight: 1.1,
-            marginBottom: '20px',
-          }}>
-            Por qué necesitas atención telefónica profesional en{' '}
-            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>{city.city}.</span>
-          </h2>
-          <p style={{
-            fontSize: '18px',
-            color: brand.textBody,
-            lineHeight: '27px',
-            fontFamily: brand.sans,
-            marginBottom: '40px',
-            maxWidth: '700px',
-          }}>
-            {city.localContext}
-          </p>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-            gap: '24px',
-          }}>
-            {sector.features.slice(0, 2).map((feature, idx) => (
-              <div key={idx} style={{
-                padding: '32px',
-                borderRadius: '20px',
-                border: '1px solid rgba(0,0,0,0.08)',
-              }}>
-                <h3 style={{
-                  fontSize: '24px',
-                  fontWeight: 500,
-                  fontFamily: brand.sans,
-                  color: brand.black,
-                  letterSpacing: '-1.68px',
-                  marginBottom: '12px',
-                }}>
-                  {feature.title}
-                </h3>
-                <p style={{
-                  fontSize: '16px',
-                  color: brand.textBody,
-                  lineHeight: '24px',
-                  fontFamily: brand.sans,
-                }}>
-                  {feature.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+Ë
+HÛ[\
+M
+]Ë
+
+IÈ_O]Ý[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉÈ_OÝ[O^ÞÈÛÛÜ	ÝÚ]IËX\Ú[ÝÛN
+_OØ\XÝ\\ÝXØ\È[Ú\[\È\^ÉÈ	ßBÜ[Û\ÜÓ[YOHÙ\YZ][XÈÜÙXÝÜÙXÝÜKÜÜ[Ú]Ý[O^ÞÈ\Ü^N	ÙÜY	ËÜY[\]PÛÛ[[Î	Ü\X]
+]]ËY]Z[X^
+ÌYJIËØ\_OÙX]\PØ\ËX\
 
-      {/* ── FEATURES — dark section like homepage "Qué hacemos por ti" ── */}
-      <section style={{
-        padding: '80px 64px',
-        backgroundColor: brand.black,
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{
-            fontSize: '44px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-            color: brand.white,
-            letterSpacing: '-2.64px',
-            lineHeight: 1.1,
-            marginBottom: '40px',
-          }}>
-            Características principales para{' '}
-            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>{sector.sector}.</span>
-          </h2>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-            gap: '24px',
-          }}>
-            {featureCards.map((feature, idx) => (
-              <div key={idx} style={{
-                padding: '32px',
-                borderRadius: '20px',
-                backgroundColor: 'rgba(255,255,255,0.06)',
-                border: '1px solid rgba(255,255,255,0.1)',
-              }}>
-                <h3 style={{
-                  fontSize: '24px',
-                  fontWeight: 500,
-                  fontFamily: brand.sans,
-                  color: brand.white,
-                  letterSpacing: '-1.68px',
-                  marginBottom: '12px',
-                }}>
-                  {feature.title}
-                </h3>
-                <p style={{
-                  fontSize: '16px',
-                  color: 'rgba(255,255,255,0.56)',
-                  lineHeight: '24px',
-                  fontFamily: brand.sans,
-                }}>
-                  {feature.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+X]\KY
+HO
+]Ù^O^ÚYHÝ[O^ÞÈY[ÎÌÜ\Y]\ÎXÚÙÜÝ[	ÜØJMKMKMK
+IËÜ\	Ì\ÛÛYØJMKMKMKJIÈ_OÈÝ[O^ÞÈÛÚ^NÛÛÜ	ÝÚ]IËX\Ú[ÝÛNL_OÙX]\K]_OÚÏÝ[O^ÞÈÛÛÜ	ÜØJMKMKMKMIË[RZYÚKËX\Ú[ÝÛN_OÙX]\K\ØÜ\[ÛOÜÙ]
+J_BÙ]Ù]ÜÙXÝ[ÛËÊ\Ý[[ÛX[
+ßBÙXÝ[ÛÝ[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉËY[Î	ØÛ[\
 
-      {/* ── TESTIMONIAL ── */}
-      <section style={{
-        padding: '80px 64px',
-        backgroundColor: brand.beige,
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{
-            fontSize: '44px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-            color: brand.black,
-            letterSpacing: '-2.64px',
-            lineHeight: 1.1,
-            marginBottom: '40px',
-          }}>
-            Lo que dicen nuestros{' '}
-            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>clientes.</span>
-          </h2>
-          <div style={{
-            padding: '48px 0',
-          }}>
-            <p style={{
-              fontSize: '28px',
-              fontFamily: brand.serif,
-              fontStyle: 'italic',
-              fontWeight: 400,
-              color: brand.black,
-              lineHeight: 1.5,
-              marginBottom: '24px',
-            }}>
-              &ldquo;{sector.testimonial.quote}&rdquo;
-            </p>
-            <p style={{
-              fontSize: '16px',
-              fontWeight: 500,
-              color: brand.black,
-              fontFamily: brand.sans,
-            }}>
-              {sector.testimonial.author}
-            </p>
-            <p style={{
-              fontSize: '14px',
-              color: brand.textMuted,
-              marginTop: '4px',
-              fontFamily: brand.sans,
-            }}>
-              {sector.testimonial.role}
-            </p>
-          </div>
-        </div>
-      </section>
+Ë
+HÛ[\
+M
+]Ë
+
+IË^[YÛ	ØÙ[\È_OÜ[Û\ÜÓ[YOH[[X[Ý[O^ÞÈX\Ú[ÝÛNM\Ü^N	Ú[[KXØÚÉÈ_OÛY[\ÏÜÜ[Ý[O^ÞÈX\Ú[ÜM_OÈ]YHXÙ[Y\ÝÜÈÜ[Û\ÜÓ[YOHÙ\YZ][XÈÛY[\ËÜÜ[Ú]Û\ÜÓ[YOHØ\Ý[O^ÞÈX^ÚY
+X\Ú[	ÌÌ]]È	ËY[ÎÌ^[YÛ	ØÙ[\È_OÝ[O^ÞÈÛÚ^N	ØÛ[\
+MËË
+IËX\Ú[ÝÛNL_O¸¦!x¦!x¦!x¦!x¦!OÜÝ[O^ÞÈÛÚ^NMÛÝ[N	Ú][XÉËÛÛÜ	ØXÚÉË[RZYÚKËX\Ú[ÝÛN_O	][ÎÞÜÙXÝÜ\Ý[[ÛX[][Ý_I][ÎÂÜÝ[O^ÞÈÛÙZYÚ
+X\Ú[ÝÛN
+_OÜÙXÝÜ\Ý[[ÛX[]]ÜOÜÝ[O^ÞÈÛÛÜ	ÜØJMIËX\Ú[ÝÛN_OÜÙXÝÜ\Ý[[ÛX[Û_OÜÙ]ÜÙXÝ[ÛËÊÝÈ]ÛÜÜÈ
+ßBÙXÝ[ÛÝ[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉËY[Î	ØÛ[\
 
-      {/* ── HOW IT WORKS ── */}
-      <section style={{
-        padding: '80px 64px',
-        backgroundColor: brand.beige,
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{
-            fontSize: '44px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-            color: brand.black,
-            letterSpacing: '-2.64px',
-            lineHeight: 1.1,
-            marginBottom: '48px',
-          }}>
-            Cómo{' '}
-            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>funciona.</span>
-          </h2>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
-            gap: '32px',
-          }}>
-            {[
-              { num: '1', title: 'Configuración', desc: 'Personalizamos el guión de llamada y acciones del agente con los detalles de tu negocio y sector.' },
-              { num: '2', title: 'Integración', desc: 'Integramos el sistema con tu telefonía actual sin necesidad de cambios en tu infraestructura.' },
-              { num: '3', title: 'Gestión', desc: 'Tu recepcionista virtual gestiona las llamadas y consultas de forma inteligente.' },
-            ].map((step, idx) => (
-              <div key={idx} style={{ textAlign: 'center' }}>
-                <p style={{
-                  fontSize: '14px',
-                  fontWeight: 500,
-                  color: brand.textMuted,
-                  marginBottom: '16px',
-                  fontFamily: brand.sans,
-                  letterSpacing: '1px',
-                  textTransform: 'uppercase',
-                }}>
-                  Paso {step.num}
-                </p>
-                <h3 style={{
-                  fontSize: '24px',
-                  fontWeight: 500,
-                  fontFamily: brand.sans,
-                  color: brand.black,
-                  letterSpacing: '-1.68px',
-                  marginBottom: '12px',
-                }}>
-                  {step.title}
-                </h3>
-                <p style={{
-                  fontSize: '16px',
-                  color: brand.textBody,
-                  lineHeight: '24px',
-                  fontFamily: brand.sans,
-                }}>
-                  {step.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+Ë
+HÛ[\
+M
+]Ë
+
+IË^[YÛ	ØÙ[\È_OÜ[Û\ÜÓ[YOH[[X[Ý[O^ÞÈX\Ú[ÝÛNM\Ü^N	Ú[[KXØÚÉÈ_OÛÛ[È[Ú[ÛOÜÜ[Ý[O^ÞÈX\Ú[ÜM_OÛÛ[ÈÜ[Û\ÜÓ[YOHÙ\YZ][XÈ[Ú[ÛKÜÜ[Ú]Ý[O^ÞÈ\Ü^N	ÙÜY	ËÜY[\]PÛÛ[[Î	Ü\X]
+]]ËY]Z[X^
+YJIËØ\X\Ú[Ü
+^[YÛ	ÛY	È_OÖÂÈÝ\	ÌIË]N	ÐÛÛYÝ\XÚ[ÛË\ØÎ	Ô\ÛÛ[^[[ÜÈ[ÝZpìÛH[XYHHXØÚ[Û\È[YÙ[HÛÛÜÈ][\ÈHHYÛØÚ[ÈHÙXÝÜÈKÈÝ\	ÌË]N	Ò[YÜXÚ[ÛË\ØÎ	Ò[YÜ[[ÜÈ[Ú\Ý[XHÛÛH[YÛ°ëXHXÝX[Ú[XÙ\ÚYYHØ[X[ÜÈ[H[Y\ÝXÝ\KÈKÈÝ\	ÌÉË]N	ÑÙ\Ý[ÛË\ØÎ	ÕHXÙ\Ú[Û\ÝH\X[Ù\Ý[ÛH\È[XY\ÈHÛÛÝ[\ÈHÜXH[[YÙ[KÈKKX\
 
-      {/* ── IA vs HUMAN — dark section ── */}
-      <section style={{
-        padding: '80px 64px',
-        backgroundColor: brand.black,
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{
-            fontSize: '44px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-            color: brand.white,
-            letterSpacing: '-2.64px',
-            lineHeight: 1.1,
-            marginBottom: '20px',
-          }}>
-            ¿IA o agente humano? Tú{' '}
-            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>eliges.</span>
-          </h2>
-          <p style={{
-            fontSize: '18px',
-            color: 'rgba(255,255,255,0.56)',
-            lineHeight: '27px',
-            fontFamily: brand.sans,
-            marginBottom: '40px',
-            maxWidth: '700px',
-          }}>
-            En Minute Call puedes elegir entre asistentes de IA y recepcionistas nativos basados en España, o combinar ambos según tus necesidades.
-          </p>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-            gap: '24px',
-          }}>
-            <div style={{
-              padding: '32px',
-              borderRadius: '20px',
-              backgroundColor: 'rgba(255,255,255,0.06)',
-              border: '1px solid rgba(255,255,255,0.1)',
-            }}>
-              <div style={{
-                display: 'inline-block',
-                padding: '6px 16px',
-                borderRadius: '50px',
-                backgroundColor: brand.green,
-                color: brand.black,
-                fontSize: '13px',
-                fontWeight: 600,
-                marginBottom: '20px',
-                fontFamily: brand.sans,
-              }}>IA</div>
-              <h3 style={{
-                fontSize: '24px',
-                fontWeight: 500,
-                fontFamily: brand.sans,
-                color: brand.white,
-                letterSpacing: '-1.68px',
-                marginBottom: '12px',
-              }}>
-                Agente de IA
-              </h3>
-              <p style={{
-                fontSize: '16px',
-                color: 'rgba(255,255,255,0.56)',
-                lineHeight: '24px',
-                fontFamily: brand.sans,
-              }}>
-                Ideal para consultas frecuentes, confirmaciones de cita, horarios y disponibilidad.
-                Responde al instante, 24/7, sin esperas. Perfecto para volumen alto y horario nocturno o fines de semana.
-              </p>
-            </div>
-            <div style={{
-              padding: '32px',
-              borderRadius: '20px',
-              backgroundColor: 'rgba(255,255,255,0.06)',
-              border: '1px solid rgba(255,255,255,0.1)',
-            }}>
-              <div style={{
-                display: 'inline-block',
-                padding: '6px 16px',
-                borderRadius: '50px',
-                backgroundColor: 'rgba(255,255,255,0.15)',
-                color: brand.white,
-                fontSize: '13px',
-                fontWeight: 600,
-                marginBottom: '20px',
-                fontFamily: brand.sans,
-              }}>Humano</div>
-              <h3 style={{
-                fontSize: '24px',
-                fontWeight: 500,
-                fontFamily: brand.sans,
-                color: brand.white,
-                letterSpacing: '-1.68px',
-                marginBottom: '12px',
-              }}>
-                Agente Humano Nativo
-              </h3>
-              <p style={{
-                fontSize: '16px',
-                color: 'rgba(255,255,255,0.56)',
-                lineHeight: '24px',
-                fontFamily: brand.sans,
-              }}>
-                Mejor para primeras consultas de alto valor, quejas, presupuestos personalizados y
-                situaciones que requieren empatía. Recepcionistas nativos basados en España.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+][JHO
+]Ù^O^Ú][KÝ\HÛ\ÜÓ[YOHØ\Ý[O^ÞÈY[ÎÌ_OÝ[O^ÞÈÛÚ^N
+ÛÙZYÚ
+LÛÛÜ	ÜØJJIËX\Ú[ÝÛNM]\ÜXÚ[ÎL_OÚ][KÝ\BÜÈÝ[O^ÞÈÛÚ^N_OÚ][K]_OÚÏÛ\ÜÓ[YOHÙ\XÙKXØ\XÙHÚ][K\ØßOÜÙ]
+J_BÙ]ÜÙXÝ[ÛËÊPHÈ[X[
+ßBÙXÝ[ÛÝ[O^ÞÈXÚÙÜÝ[	ØXÚÉËY[Î	ØÛ[\
 
-      {/* ── MC vs CALL CENTERS ── */}
-      <section style={{
-        padding: '80px 64px',
-        backgroundColor: brand.beige,
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{
-            fontSize: '44px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-            color: brand.black,
-            letterSpacing: '-2.64px',
-            lineHeight: 1.1,
-            marginBottom: '20px',
-          }}>
-            Minute Call vs Call Centers{' '}
-            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>Tradicionales.</span>
-          </h2>
-          <p style={{
-            fontSize: '18px',
-            color: brand.textBody,
-            lineHeight: '27px',
-            fontFamily: brand.sans,
-            marginBottom: '40px',
-            maxWidth: '700px',
-          }}>
-            Los grandes call centers están diseñados para corporaciones. Minute Call está diseñado para PYMES como tu {sector.sector.toLowerCase()} en {city.city}.
-          </p>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-            gap: '24px',
-          }}>
-            <div style={{
-              padding: '32px',
-              borderRadius: '20px',
-              border: '1px solid rgba(0,0,0,0.08)',
-            }}>
-              <div style={{
-                display: 'inline-block',
-                padding: '6px 16px',
-                borderRadius: '50px',
-                backgroundColor: 'rgba(0,0,0,0.04)',
-                color: brand.textMuted,
-                fontSize: '13px',
-                fontWeight: 600,
-                marginBottom: '20px',
-                fontFamily: brand.sans,
-              }}>Tradicional</div>
-              <h3 style={{
-                fontSize: '24px',
-                fontWeight: 500,
-                fontFamily: brand.sans,
-                color: brand.black,
-                letterSpacing: '-1.68px',
-                marginBottom: '12px',
-              }}>
-                Call Centers Tradicionales
-              </h3>
-              <p style={{
-                fontSize: '16px',
-                color: brand.textBody,
-                lineHeight: '24px',
-                fontFamily: brand.sans,
-              }}>
-                Agentes basados en LATAM · Contratos rígidos a largo plazo · Bajo nivel tecnológico · Errores frecuentes · Falta de personalización · Diseñados para grandes corporaciones
-              </p>
-            </div>
-            <div style={{
-              padding: '32px',
-              borderRadius: '20px',
-              border: `2px solid ${brand.green}`,
-            }}>
-              <div style={{
-                display: 'inline-block',
-                padding: '6px 16px',
-                borderRadius: '50px',
-                backgroundColor: brand.green,
-                color: brand.black,
-                fontSize: '13px',
-                fontWeight: 600,
-                marginBottom: '20px',
-                fontFamily: brand.sans,
-              }}>minute call</div>
-              <h3 style={{
-                fontSize: '24px',
-                fontWeight: 500,
-                fontFamily: brand.sans,
-                color: brand.black,
-                letterSpacing: '-1.68px',
-                marginBottom: '12px',
-              }}>
-                Minute Call
-              </h3>
-              <p style={{
-                fontSize: '16px',
-                color: brand.textBody,
-                lineHeight: '24px',
-                fontFamily: brand.sans,
-              }}>
-                Agentes nativos basados en España · Sin permanencia, mes a mes · Agentes humanos o IA, tú eliges · Control de calidad · Partners de Teleperformance (#1 BPO mundial) · Presupuesto personalizado
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+Ë
+HÛ[\
+M
+]Ë
+
+IÈ_O]Ý[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉÈ_OÝ[O^ÞÈÛÛÜ	ÝÚ]IËX\Ú[ÝÛN_OPHÈYÙ[H[X[ÏÈHÜ[Û\ÜÓ[YOHÙ\YZ][XÈ[YÙ\ËÜÜ[ÚÝ[O^ÞÈÛÛÜ	ÜØJMKMKMKMIË[RZYÚKËX\Ú[ÝÛN
+X^ÚY
+Ì_O[Z[]HØ[YY\È[YÚ\[H\Ú\Ý[\ÈHPHHXÙ\Ú[Û\Ý\È]]ÜÈ\ØYÜÈ[\ÜpìXKÈÛÛX[\[XÜÈÙYðî\ÈXÙ\ÚYY\ËÜ]Ý[O^ÞÈ\Ü^N	ÙÜY	ËÜY[\]PÛÛ[[Î	Ü\X]
+]]ËY]Z[X^
+ÌYJIËØ\_O]Ý[O^ÞÈY[ÎÌÜ\Y]\ÎXÚÙÜÝ[	ÜØJMKMKMK
+IËÜ\	Ì\ÛÛYØJMKMKMKJIÈ_OÜ[Ý[O^ÞÈ\Ü^N	Ú[[KXØÚÉËY[Î	ÍM	ËÜ\Y]\Î
+LXÚÙÜÝ[	ÈÍPQMIËÛÛÜ	ØXÚÉËÛÚ^NLËÛÙZYÚ
+X\Ú[ÝÛN_OPOÜÜ[ÈÝ[O^ÞÈÛÚ^NÛÛÜ	ÝÚ]IËX\Ú[ÝÛNL_OYÙ[HHPOÚÏÝ[O^ÞÈÛÛÜ	ÜØJMKMKMKMIË[RZYÚKËX\Ú[ÝÛN_OYX[\HÛÛÝ[\ÈXÝY[\ËÛÛ\XXÚ[Û\ÈHÚ]KÜ\[ÜÈH\ÜÛX[YY\ÜÛH[[Ý[KÍËÚ[\Ü\\Ë\XÝÈ\HÛ[Y[[ÈHÜ\[ÈØÝ\ÈÈ[\ÈHÙ[X[KÜÙ]]Ý[O^ÞÈY[ÎÌÜ\Y]\ÎXÚÙÜÝ[	ÜØJMKMKMK
+IËÜ\	Ì\ÛÛYØJMKMKMKJIÈ_OÜ[Ý[O^ÞÈ\Ü^N	Ú[[KXØÚÉËY[Î	ÍM	ËÜ\Y]\Î
+LXÚÙÜÝ[	ÜØJMKMKMKMJIËÛÛÜ	ÝÚ]IËÛÚ^NLËÛÙZYÚ
+X\Ú[ÝÛN_O[X[ÏÜÜ[ÈÝ[O^ÞÈÛÚ^NÛÛÜ	ÝÚ]IËX\Ú[ÝÛNL_OYÙ[H[X[È]]ÏÚÏÝ[O^ÞÈÛÛÜ	ÜØJMKMKMKMIË[RZYÚKËX\Ú[ÝÛN_OYZÜ\H[Y\\ÈÛÛÝ[\ÈH[È[Ü]YZ\Ë\Ý\Y\ÝÜÈ\ÛÛ[^YÜÈHÚ]XXÚ[Û\È]YH\]ZY\[[\]0ëXKXÙ\Ú[Û\Ý\È]]ÜÈ\ØYÜÈ[\ÜpìXKÜÙ]Ù]Ù]ÜÙXÝ[ÛËÊÛÛ\\\ÛÛ8 %ÛYHÝ[H8§%Kø§$ÈØ\È
+ßBÙXÝ[ÛÝ[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉËY[Î	ØÛ[\
 
-      {/* ── FAQ ── */}
-      <section style={{
-        padding: '80px 64px',
-        backgroundColor: brand.beige,
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{
-            fontSize: '44px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-            color: brand.black,
-            letterSpacing: '-2.64px',
-            lineHeight: 1.1,
-            marginBottom: '40px',
-          }}>
-            Preguntas{' '}
-            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>frecuentes.</span>
-          </h2>
-          <div style={{ maxWidth: '1200px' }}>
-            {faqItems.map((item, idx) => (
-              <div key={idx} style={{
-                marginBottom: '24px',
-                paddingBottom: '24px',
-                borderBottom: '1px solid rgba(0,0,0,0.08)',
-              }}>
-                <p style={{
-                  fontSize: '18px',
-                  fontWeight: 500,
-                  color: brand.black,
-                  marginBottom: '12px',
-                  fontFamily: brand.sans,
-                  letterSpacing: '-0.5px',
-                }}>
-                  {item.question}
-                </p>
-                <p style={{
-                  fontSize: '16px',
-                  color: brand.textBody,
-                  lineHeight: '24px',
-                  fontFamily: brand.sans,
-                }}>
-                  {item.answer}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+Ë
+HÛ[\
+M
+]Ë
+
+IË^[YÛ	ØÙ[\È_OÜ[Û\ÜÓ[YOH[[X[Ý[O^ÞÈX\Ú[ÝÛNM\Ü^N	Ú[[KXØÚÉÈ_OHY\[ÚXOÜÜ[Ý[O^ÞÈX\Ú[ÜM_OZ[]HØ[ÈØ[Ù[\ÈÜ[Û\ÜÓ[YOHÙ\YZ][XÈYXÚ[Û[\ËÜÜ[ÚÝ[O^ÞÈX^ÚY
+ÌX\Ú[	Ì]]È
+	Ë[RZYÚKÈ_OÜÈÜ[\ÈØ[Ù[\È\Ý0è[\ÙpìXYÜÈ\HÛÜÜXÚ[Û\ËZ[]HØ[\Ý0èH\ÙpìXYÈ\HSQTÈÛÛ[ÈHÜÙXÝÜÙXÝÜÓÝÙ\Ø\ÙJ
+_H[ØÚ]KÚ]_KÜ]Ý[O^ÞÈ\Ü^N	ÙÜY	ËÜY[\]PÛÛ[[Î	Ü\X]
+]]ËY]Z[X^
+ÍLYJIËØ\^[YÛ	ÛY	È_O]Û\ÜÓ[YOHØ\Ý[O^ÞÈY[ÎÌ_OÈÝ[O^ÞÈÛÚ^NX\Ú[ÝÛN_OØ[Ù[\ÈYXÚ[Û[\ÏÚÏ[Ý[O^ÞÈ\ÝÝ[N	ÛÛIË\Ü^N	Ù^	Ë^\XÝ[Û	ØÛÛ[[ËØ\M_OÖÂ	ÐYÙ[\È\ØYÜÈ[USIË	ÐÛÛ]ÜÈYÚYÜÈH\ÛÈ^ÉË	ÐZÈ][XÛÛÙÚXÛÉË	Ñ\Ü\ÈXÝY[\ÉË	Ñ[HH\ÛÛ[^XÚ[ÛË	Ñ\ÙpìXYÜÈ\HÜ[\ÈÛÜÜXÚ[Û\ÉËKX\
 
-      {/* ── INTERNAL LINKS ── */}
-      <section style={{
-        padding: '80px 64px',
-        backgroundColor: brand.beige,
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{
-            fontSize: '44px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-            color: brand.black,
-            letterSpacing: '-2.64px',
-            lineHeight: 1.1,
-            marginBottom: '24px',
-          }}>
-            Más{' '}
-            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>información.</span>
-          </h2>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            <Link href={`/lp/${sector.slug}`} style={{
-              color: brand.black,
-              textDecoration: 'none',
-              fontWeight: 500,
-              fontFamily: brand.sans,
-              fontSize: '16px',
-              borderBottom: '1px solid rgba(0,0,0,0.2)',
-              paddingBottom: '2px',
-              display: 'inline-block',
-              width: 'fit-content',
-            }}>
-              Recepcionista Virtual para {sector.sector} →
-            </Link>
-            <Link href={`/atencion-telefonica/${city.slug}`} style={{
-              color: brand.black,
-              textDecoration: 'none',
-              fontWeight: 500,
-              fontFamily: brand.sans,
-              fontSize: '16px',
-              borderBottom: '1px solid rgba(0,0,0,0.2)',
-              paddingBottom: '2px',
-              display: 'inline-block',
-              width: 'fit-content',
-            }}>
-              Servicios de atención telefónica en {city.city} →
-            </Link>
-          </div>
+][JHO
+HÙ^O^Ú][_HÝ[O^ÞÈ\Ü^N	Ù^	Ë[YÛ][\Î	ØÙ[\ËØ\LÛÚ^NMKÛÛÜ	ÜØJMIÈ_OÜ[Ý[O^ÞÈÛÛÜ	ÈÙMLÙLÙIËÛÚ^NM_O¸§%OÜÜ[Ú][_BÛO
+J_BÝ[Ù]]Ý[O^ÞÈXÚÙÜÝ[	ØXÚÉËÜ\Y]\ÎY[ÎÌÛÛÜ	ÝÚ]IÈ_OÈÝ[O^ÞÈÛÚ^NX\Ú[ÝÛNÛÛÜ	ÝÚ]IÈ_OZ[]HØ[ÚÏ[Ý[O^ÞÈ\ÝÝ[N	ÛÛIË\Ü^N	Ù^	Ë^\XÝ[Û	ØÛÛ[[ËØ\M_OÖÂ	ÐYÙ[\È]]ÜÈ\ØYÜÈ[\ÜpìXIË	ÔÚ[\X[[ÚXKY\ÈHY\ÉË	ÐYÙ[\È[X[ÜÈÈPKH[YÙ\ÉË	ÐÛÛÛHØ[YY	Ë	Ô\\ÈH[\\ÜX[ÙH
+ÌHÈ][X[
+IË	Ô\Ý\Y\ÝÈ\ÛÛ[^YÉËKX\
 
-          <h3 style={{
-            fontSize: '24px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-            color: brand.black,
-            letterSpacing: '-1.68px',
-            marginTop: '48px',
-            marginBottom: '20px',
-          }}>
-            Sectores relacionados en {city.city}
-          </h3>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '12px' }}>
-            {relatedSectors.map((relatedSector, idx) => (
-              <Link key={idx} href={`/lp/${relatedSector.slug}/${city.slug}`} style={{
-                display: 'block',
-                padding: '16px 20px',
-                backgroundColor: brand.white,
-                borderRadius: '12px',
-                color: brand.black,
-                textDecoration: 'none',
-                fontWeight: 500,
-                fontFamily: brand.sans,
-                fontSize: '15px',
-                boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
-                transition: 'box-shadow 0.2s',
-              }}>
-                {relatedSector.sector} en {city.city} →
-              </Link>
-            ))}
-          </div>
+][JHO
+HÙ^O^Ú][_HÝ[O^ÞÈ\Ü^N	Ù^	Ë[YÛ][\Î	ØÙ[\ËØ\LÛÚ^NMKÛÛÜ	ÜØJMKMKMK
+IÈ_OÜ[Ý[O^ÞÈÛÛÜ	ÈÍPQMIËÛÚ^NM_O¸§$ÏÜÜ[Ú][_BÛO
+J_BÝ[Ù]Ù]ÜÙXÝ[ÛËÊTH
+ßBÙXÝ[ÛÝ[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉËY[Î	ØÛ[\
 
-          {/* Other cities */}
-          <div style={{ marginTop: '48px' }}>
-            <h3 style={{
-              fontSize: '24px',
-              fontWeight: 500,
-              fontFamily: brand.sans,
-              color: brand.black,
-              letterSpacing: '-1.68px',
-              marginBottom: '16px',
-            }}>
-              {sector.sector} en otras ciudades
-            </h3>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-              {relatedCities.map((c) => (
-                <Link
-                  key={c.slug}
-                  href={`/lp/${sector.slug}/${c.slug}`}
-                  style={{
-                    display: 'inline-block',
-                    padding: '10px 20px',
-                    backgroundColor: brand.white,
-                    borderRadius: '50px',
-                    fontSize: '14px',
-                    fontWeight: 500,
-                    color: brand.black,
-                    textDecoration: 'none',
-                    fontFamily: brand.sans,
-                    boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
-                  }}
-                >
-                  {c.city}
-                </Link>
-              ))}
-            </div>
-          </div>
+Ë
+HÛ[\
+M
+]Ë
+
+IË^[YÛ	ØÙ[\È_OÜ[Û\ÜÓ[YOH[[X[Ý[O^ÞÈX\Ú[ÝÛNM\Ü^N	Ú[[KXØÚÉÈ_OYÝ[\ÏÜÜ[Ý[O^ÞÈX\Ú[ÜM_OYÝ[\ÈÜ[Û\ÜÓ[YOHÙ\YZ][XÈXÝY[\ËÜÜ[Ú]Ý[O^ÞÈX\Ú[ÜÌ\Ü^N	Ù^	Ë^\XÝ[Û	ØÛÛ[[ËØ\X^ÚYX\Ú[	ÌÌ]]È	Ë^[YÛ	ÛY	È_OÙ\R][\ËX\
 
-          {/* Cross-link to comparisons */}
-          <div style={{ marginTop: '48px' }}>
-            <h3 style={{
-              fontSize: '24px',
-              fontWeight: 500,
-              fontFamily: brand.sans,
-              color: brand.black,
-              letterSpacing: '-1.68px',
-              marginBottom: '16px',
-            }}>
-              ¿Por qué Minute Call?
-            </h3>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-              {['teleperformance', 'intelcia', 'ringover', 'heydiga'].map((comp) => (
-                <Link
-                  key={comp}
-                  href={`/comparar/${comp}`}
-                  style={{
-                    display: 'inline-block',
-                    padding: '10px 20px',
-                    backgroundColor: brand.white,
-                    borderRadius: '50px',
-                    fontSize: '14px',
-                    fontWeight: 500,
-                    color: brand.black,
-                    textDecoration: 'none',
-                    fontFamily: brand.sans,
-                    boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
-                  }}
-                >
-                  vs {comp.charAt(0).toUpperCase() + comp.slice(1)}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+][KY
+HO
+]Z[ÈÙ^O^ÚYHÝ[O^ÞÈY[Î	Ì	ËÜ\ÝÛN	Ì\ÛÛYØJ
+IÈ_OÝ[[X\HÝ[O^ÞÈÛÚ^NNÛÙZYÚ
+LÝ\ÛÜ	ÜÚ[\Ë\ÝÝ[N	ÛÛIË\Ü^N	Ù^	Ë\ÝYPÛÛ[	ÜÜXÙKX]ÙY[Ë[YÛ][\Î	ØÙ[\ËÛÛÜ	ØXÚÉÈ_OÚ][K]Y\Ý[ÛBÜ[Ý[O^ÞÈÛÚ^NÛÙZYÚÌ_OÏÜÜ[ÜÝ[[X\OÝ[O^ÞÈX\Ú[ÜM_OÚ][K[ÝÙ\OÜÙ]Z[Ï
+J_BÙ]ÜÙXÝ[ÛËÊ[\[[ÜÈ
+ßBÙXÝ[ÛÝ[O^ÞÈX^ÚYLX\Ú[	Ì]]ÉËY[Î	ØÛ[\
 
-      {/* ── BOTTOM CTA — dark, matches homepage final CTA ── */}
-      <section style={{
-        padding: '100px 64px',
-        backgroundColor: brand.black,
-        textAlign: 'center',
-      }}>
-        <div style={{ maxWidth: '700px', margin: '0 auto' }}>
-          <h2 style={{
-            fontSize: '55px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-            color: brand.white,
-            letterSpacing: '-3.3px',
-            lineHeight: 1.1,
-            marginBottom: '20px',
-          }}>
-            Habla con nuestro{' '}
-            <span style={{ fontFamily: brand.serif, fontStyle: 'italic' }}>equipo.</span>
-          </h2>
-          <p style={{
-            fontSize: '18px',
-            color: 'rgba(255,255,255,0.56)',
-            lineHeight: '27px',
-            fontFamily: brand.sans,
-            marginBottom: '36px',
-          }}>
-            Descubre cómo Minute Call puede transformar la atención
-            telefónica de tu {sector.sector.toLowerCase()} en {city.city}.
-          </p>
-          <Link href="/reserva-llamada" style={{
-            display: 'inline-block',
-            padding: '16px 32px',
-            backgroundColor: brand.green,
-            color: brand.black,
-            textDecoration: 'none',
-            borderRadius: '50px',
-            fontSize: '16px',
-            fontWeight: 500,
-            fontFamily: brand.sans,
-          }}>
-            Reserva una llamada
+Ë
+HÛ[\
+M
+]Ë
+
+IÈ_OÝ[O^ÞÈX\Ú[ÝÛN_OX\ÈÜ[Û\ÜÓ[YOHÙ\YZ][XÈ[ÜXXÚ[ÛÜÜ[Ú]Ý[O^ÞÈ\Ü^N	Ù^	Ë^\XÝ[Û	ØÛÛ[[ËØ\M_O[ÈY^ØÛÉÜÙXÝÜÛYßXHÝ[O^ÞÈÛÛÜ	ØXÚÉË^XÛÜ][Û	ÛÛIËÛÙZYÚ
+LÛÚ^NMÜ\ÝÛN	Ì\ÛÛYØJIËY[ÐÝÛN\Ü^N	Ú[[KXØÚÉËÚY	Ù]XÛÛ[	È_OXÙ\Ú[Û\ÝH\X[\HÜÙXÝÜÙXÝÜH8¡¤Ó[Ï[ÈY^ØØ][Ú[Û][YÛXØKÉØÚ]KÛYßXHÝ[O^ÞÈÛÛÜ	ØXÚÉË^XÛÜ][Û	ÛÛIËÛÙZYÚ
+LÛÚ^NMÜ\ÝÛN	Ì\ÛÛYØJIËY[ÐÝÛN\Ü^N	Ú[[KXØÚÉËÚY	Ù]XÛÛ[	È_OÙ\XÚ[ÜÈH][ÚpìÛ[Y°ìÛXãa en {city.city} â
           </Link>
         </div>
+
+        <h3 style={{ fontSize: 20, marginTop: 48, marginBottom: 20 }}>
+          Sectores relacionados en {city.city}
+        </h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 12 }}>
+          {relatedSectors.map((relatedSector, idx) => (
+            <Link key={idx} href={`/lp/${relatedSector.slug}/${city.slug}`} className="card" style={{ display: 'block', padding: '16px 20px', color: 'black', textDecoration: 'none', fontWeight: 500, fontSize: 15 }}>
+              {relatedSector.sector} en {city.city} â
+            </Link>
+          ))}
+        </div>
+
+        <div style={{ marginTop: 48 }}>
+          <h3 style={{ fontSize: 20, marginBottom: 16 }}>
+            {sector.sector} en otras ciudades
+          </h3>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+            {relatedCities.map((c) => (
+              <Link key={c.slug} href={`/lp/${sector.slug}/${c.slug}`} className="card" style={{ display: 'inline-block', padding: '10px 20px', fontSize: 14, fontWeight: 500, color: 'black', textDecoration: 'none', borderRadius: 50 }}>
+                {c.city}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        <div style={{ marginTop: 48 }}>
+          <h3 style={{ fontSize: 20, marginBottom: 16 }}>
+            Por que Minute Call?
+          </h3>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+            {['teleperformance', 'intelcia', 'ringover', 'heydiga'].map((comp) => (
+              <Link key={comp} href={`/comparar/${comp}`} className="card" style={{ display: 'inline-block', padding: '10px 20px', fontSize: 14, fontWeight: 500, color: 'black', textDecoration: 'none', borderRadius: 50 }}>
+                vs {comp.charAt(0).toUpperCase() + comp.slice(1)}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom CTA */}
+      <section style={{ background: 'black', color: 'white', textAlign: 'center', padding: 'clamp(40px,8vw,80px) clamp(16px,5vw,64px)' }}>
+        <h2 style={{ color: 'white' }}>
+          Habla con nuestro <span className="serif-italic">equipo.</span>
+        </h2>
+        <p style={{ color: 'rgba(255,255,255,0.6)', maxWidth: 500, margin: '0 auto 32px' }}>
+          Descubre cÃ³mo Minute Call puede transformar la atenciÃ³n telefÃ³nica de tu {sector.sector.toLowerCase()} en {city.city}.
+        </p>
+        <a href="/reserva-llamada" style={{ display: 'inline-block', background: 'white', color: 'black', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
+          Reserva una llamada
+        </a>
       </section>
     </>
   );
