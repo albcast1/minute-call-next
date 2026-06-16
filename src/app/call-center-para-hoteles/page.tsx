@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 const painPoints = [
   {
     icon: '📞',
-    title: 'Llamadas perdidas durante el check-in',
-    description: 'El pico de llamadas coincide con el momento en que tu recepción está más ocupada. Cada llamada perdida es una reserva que se va a Booking o a la competencia.',
+    title: 'Llamadas perdidas en el check-in',
+    description: 'El pico de llamadas coincide con el momento en que tu recepción está más ocupada. Cada llamada perdida es una reserva que se va a Booking.',
   },
   {
     icon: '🌍',
@@ -32,35 +32,35 @@ const painPoints = [
   },
   {
     icon: '💸',
-    title: 'Comisiones de OTAs vs reserva directa',
-    description: 'Booking y Expedia cobran entre un 15% y un 25% de comisión. Cada reserva directa que captas por teléfono es margen puro para tu hotel.',
+    title: 'Comisiones de OTAs',
+    description: 'Booking y Expedia cobran entre un 15% y un 25% de comisión. Cada reserva directa que captas por teléfono es margen puro.',
   },
 ]
 
 const services = [
   {
     title: 'Gestion de reservas directas',
-    description: 'Recibimos llamadas de huéspedes potenciales, consultamos disponibilidad en tu PMS y cerramos la reserva directa — sin comisiones de OTA. Confirmación por email o SMS al instante.',
+    description: 'Consultamos disponibilidad en tu PMS y cerramos la reserva directa — sin comisiones de OTA.',
   },
   {
     title: 'Atencion multilingue',
-    description: 'Agentes nativos en español, inglés y francés. Atendemos a turistas internacionales con fluidez real, no con scripts traducidos. Ideal para hoteles en zonas turísticas.',
+    description: 'Agentes nativos en español, inglés y francés. Fluidez real, no scripts traducidos.',
   },
   {
     title: 'Upselling y cross-selling',
-    description: 'Ofrecemos upgrades de habitación, late check-out, packs de spa o cenas especiales durante la llamada de reserva. Incremento medio del ticket sin esfuerzo de tu equipo.',
+    description: 'Upgrades de habitación, late check-out, packs de spa durante la llamada de reserva.',
   },
   {
     title: 'Cobertura 24/7 todo el ano',
-    description: 'Noches, fines de semana, festivos y temporada alta cubiertos. No necesitas contratar turnos de noche ni refuerzos temporales.',
+    description: 'Noches, fines de semana, festivos y temporada alta. Sin contratar turnos de noche.',
   },
   {
-    title: 'Filtrado y gestion de incidencias',
-    description: 'Clasificamos llamadas: reservas nuevas, modificaciones, cancelaciones, quejas, proveedores. Solo te pasamos lo que requiere tu intervención directa.',
+    title: 'Filtrado de incidencias',
+    description: 'Clasificamos llamadas: reservas, modificaciones, cancelaciones, quejas. Solo te pasamos lo importante.',
   },
   {
     title: 'Integracion con tu PMS',
-    description: 'Trabajamos con los principales sistemas de gestión hotelera. Accedemos a disponibilidad y tarifas en tiempo real para dar información precisa al huésped.',
+    description: 'Accedemos a disponibilidad y tarifas en tiempo real para dar información precisa al huésped.',
   },
 ]
 
@@ -71,7 +71,7 @@ const stats = [
   { value: '0%', label: 'Comisión OTA' },
 ]
 
-const process = [
+const steps = [
   { step: '01', title: 'Nos cuentas tu hotel', description: 'Tipos de habitación, tarifas, políticas de cancelación, servicios extra. Creamos tu protocolo personalizado.' },
   { step: '02', title: 'Configuramos el desvio', description: 'Desvías las llamadas que no puedas atender a nuestro número. Tus huéspedes nunca notan la diferencia.' },
   { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos reservas, resolvemos dudas y ofrecemos upselling siguiendo tu protocolo. Recibes un resumen de cada llamada.' },
@@ -94,133 +94,160 @@ export default function CallCenterHotelesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <main>
-        {/* Hero */}
-        <div style={{ textAlign: 'center', padding: '80px 24px 48px', maxWidth: 860, margin: '0 auto' }}>
-          <div style={{ display: 'inline-block', background: '#fff3cd', color: '#856404', fontSize: 13, fontWeight: 600, padding: '4px 14px', borderRadius: 999, marginBottom: 20 }}>
-            Especialistas en atencion telefonica hotelera
-          </div>
-          <h1 style={{ fontSize: 'clamp(28px,4vw,48px)', fontWeight: 700, marginBottom: 16, lineHeight: 1.15 }}>
-            Call center para hoteles.<br />Mas reservas directas, menos comisiones.
-          </h1>
-          <p style={{ fontSize: 18, color: '#555', marginBottom: 32, lineHeight: 1.6 }}>
-            Atención telefónica especializada en hoteles: gestionamos reservas directas, atendemos en 3 idiomas y cubrimos las 24 horas — sin permanencia y sin comisiones de OTA.
-          </p>
-          <a href="/reserva-llamada" style={{ display: 'inline-block', background: '#000', color: '#fff', padding: '14px 32px', borderRadius: 999, fontSize: 15, fontWeight: 600, textDecoration: 'none' }}>
-            Solicita presupuesto gratuito &rarr;
-          </a>
-        </div>
 
-        {/* Stats bar */}
-        <div style={{ maxWidth: 800, margin: '0 auto 64px', display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16, padding: '0 24px' }}>
-          {stats.map((s, i) => (
-            <div key={i} style={{ textAlign: 'center', padding: '24px 8px', background: '#f9f9f9', borderRadius: 12 }}>
-              <div style={{ fontSize: 32, fontWeight: 800, marginBottom: 4 }}>{s.value}</div>
-              <div style={{ fontSize: 13, color: '#888', fontWeight: 500 }}>{s.label}</div>
+      {/* Hero */}
+      <section style={{ textAlign: 'center', maxWidth: 860, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(16px,5vw,64px) clamp(40px,6vw,60px)' }}>
+        <span className="pill-label" style={{ marginBottom: 20, display: 'inline-block' }}>
+          Especialistas en atencion telefonica hotelera
+        </span>
+        <h1>
+          Call center para hoteles.<br />Mas reservas directas, menos <span className="serif-italic">comisiones.</span>
+        </h1>
+        <p style={{ maxWidth: 600, margin: '0 auto 32px' }}>
+          Atención telefónica especializada en hoteles: gestionamos reservas directas, atendemos en 3 idiomas y cubrimos las 24 horas — sin permanencia y sin comisiones de OTA.
+        </p>
+        <a href="/reserva-llamada" className="btn-contact">
+          Solicita presupuesto gratuito
+        </a>
+      </section>
+
+      {/* Stats bar */}
+      <section style={{ maxWidth: 900, margin: '0 auto', padding: '0 clamp(16px,5vw,64px) clamp(40px,6vw,60px)', display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+        {stats.map((s, i) => (
+          <div key={i} className="card" style={{ textAlign: 'center', padding: 24 }}>
+            <p style={{ fontSize: 'clamp(26px,7vw,48px)', fontWeight: 500, color: 'black', letterSpacing: -2, marginBottom: 8 }}>
+              {s.value}
+            </p>
+            <p className="service-card-body" style={{ marginBottom: 0 }}>{s.label}</p>
+          </div>
+        ))}
+      </section>
+
+      {/* Pain points — 2x2 grid */}
+      <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
+        <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>El problema</span>
+        <h2 style={{ marginTop: 16 }}>
+          Por que los hoteles pierden reservas por <span className="serif-italic">telefono.</span>
+        </h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 20, marginTop: 48, textAlign: 'left' }}>
+          {painPoints.map((p, i) => (
+            <div key={i} className="card" style={{ padding: 32 }}>
+              <div style={{ fontSize: 32, marginBottom: 16 }}>{p.icon}</div>
+              <h3 style={{ fontSize: 18, letterSpacing: '-0.5px' }}>{p.title}</h3>
+              <p className="service-card-body">{p.description}</p>
             </div>
           ))}
         </div>
+      </section>
 
-        {/* Pain points */}
-        <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 24px 64px' }}>
-          <h2 style={{ fontSize: 26, fontWeight: 700, marginBottom: 12, textAlign: 'center' }}>Por que los hoteles pierden reservas por telefono</h2>
-          <p style={{ textAlign: 'center', color: '#888', marginBottom: 40, maxWidth: 600, margin: '0 auto 40px' }}>
-            El teléfono sigue siendo el canal con mayor tasa de conversión en hostelería. Pero la mayoría de hoteles no pueden atenderlo bien.
-          </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 24 }}>
-            {painPoints.map((p, i) => (
-              <div key={i} style={{ background: '#fff', borderRadius: 16, padding: 24, border: '1px solid #e5e5e5' }}>
-                <div style={{ fontSize: 32, marginBottom: 12 }}>{p.icon}</div>
-                <h3 style={{ fontSize: 16, fontWeight: 700, marginBottom: 8 }}>{p.title}</h3>
-                <p style={{ fontSize: 14, color: '#666', lineHeight: 1.6 }}>{p.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Services */}
-        <div style={{ background: '#f9f9f9', padding: '64px 24px' }}>
-          <div style={{ maxWidth: 1000, margin: '0 auto' }}>
-            <h2 style={{ fontSize: 26, fontWeight: 700, marginBottom: 12, textAlign: 'center' }}>Que incluye nuestro servicio para hoteles</h2>
-            <p style={{ textAlign: 'center', color: '#888', marginBottom: 40 }}>Todo lo que necesitas para no perder ni una reserva</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
-              {services.map((s, i) => (
-                <div key={i} style={{ background: '#fff', borderRadius: 16, padding: 24, border: '1px solid #e5e5e5' }}>
-                  <h3 style={{ fontSize: 16, fontWeight: 700, marginBottom: 8 }}>{s.title}</h3>
-                  <p style={{ fontSize: 14, color: '#666', lineHeight: 1.6 }}>{s.description}</p>
-                </div>
-              ))}
+      {/* Services — 3 col grid */}
+      <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
+        <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Servicios</span>
+        <h2 style={{ marginTop: 16 }}>
+          Que incluye nuestro servicio para <span className="serif-italic">hoteles.</span>
+        </h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 20, marginTop: 48, textAlign: 'left' }}>
+          {services.map((s, i) => (
+            <div key={i} className="card" style={{ padding: 32 }}>
+              <h3 className="service-card-title" style={{ fontSize: 18, letterSpacing: '-0.5px' }}>{s.title}</h3>
+              <p className="service-card-body">{s.description}</p>
             </div>
-          </div>
+          ))}
         </div>
+      </section>
 
-        {/* Process */}
-        <div style={{ maxWidth: 800, margin: '0 auto', padding: '64px 24px' }}>
-          <h2 style={{ fontSize: 26, fontWeight: 700, marginBottom: 40, textAlign: 'center' }}>Como funciona</h2>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
-            {process.map((p, i) => (
-              <div key={i} style={{ display: 'flex', gap: 20, alignItems: 'flex-start' }}>
-                <div style={{ fontSize: 32, fontWeight: 800, color: '#ddd', minWidth: 48 }}>{p.step}</div>
-                <div>
-                  <h3 style={{ fontSize: 18, fontWeight: 700, marginBottom: 6 }}>{p.title}</h3>
-                  <p style={{ fontSize: 15, color: '#666', lineHeight: 1.6 }}>{p.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+      {/* Process — same style as home */}
+      <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
+        <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Como funciona</span>
+        <h2 style={{ marginTop: 16 }}>
+          Cómo <span className="serif-italic">funciona.</span>
+        </h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
+          {steps.map((item) => (
+            <div key={item.step} className="card" style={{ padding: 32 }}>
+              <p style={{ fontSize: 48, fontWeight: 500, color: 'rgba(0,0,0,0.1)', marginBottom: 16, letterSpacing: -2 }}>
+                {item.step}
+              </p>
+              <h3 style={{ fontSize: 22 }}>{item.title}</h3>
+              <p className="service-card-body">{item.description}</p>
+            </div>
+          ))}
         </div>
+      </section>
 
-        {/* Comparison with OTAs */}
-        <div style={{ maxWidth: 800, margin: '0 auto', padding: '0 24px 64px' }}>
-          <h2 style={{ fontSize: 26, fontWeight: 700, marginBottom: 32, textAlign: 'center' }}>Reserva directa vs OTA</h2>
-          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
-            <thead>
-              <tr style={{ borderBottom: '2px solid #e5e5e5', background: '#f9f9f9' }}>
-                {['', 'Booking / Expedia', 'Minute Call'].map((h, i) => (
-                  <th key={i} style={{ padding: '14px 16px', textAlign: i === 0 ? 'left' : 'center', fontWeight: 700, color: i === 2 ? '#000' : '#555' }}>{h}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
+      {/* Comparison — home style cards */}
+      <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
+        <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>La diferencia</span>
+        <h2 style={{ marginTop: 16 }}>
+          Reserva directa vs <span className="serif-italic">OTA.</span>
+        </h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
+          <div className="card" style={{ padding: 32 }}>
+            <h3 style={{ fontSize: 20, marginBottom: 24 }}>Booking / Expedia</h3>
+            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
-                ['Comisión', '15-25%', '0%'],
-                ['Datos del huésped', 'Los retiene la OTA', 'Tuyos al 100%'],
-                ['Upselling', 'Limitado', 'En cada llamada'],
-                ['Fidelización', 'Difícil', 'Relación directa'],
-                ['Atención personalizada', 'Chat genérico', 'Agente con tu protocolo'],
-                ['Coste por reserva', 'Variable (comisión)', 'Presupuesto fijo mensual'],
-              ].map(([label, ...vals]) => (
-                <tr key={label} style={{ borderBottom: '1px solid #f0f0f0' }}>
-                  <td style={{ padding: '12px 16px', color: '#666', fontWeight: 600 }}>{label}</td>
-                  {vals.map((v, i) => (
-                    <td key={i} style={{ padding: '12px 16px', textAlign: 'center', fontWeight: i === 1 ? 700 : 400, color: i === 1 ? '#000' : '#555', background: i === 1 ? '#f9fff9' : '' }}>{v}</td>
-                  ))}
-                </tr>
+                'Comisiones del 15-25% por reserva',
+                'Los datos del huésped los retiene la OTA',
+                'Sin posibilidad de upselling real',
+                'Difícil fidelizar al huésped',
+                'Chat genérico, sin personalización',
+                'Coste variable e impredecible',
+              ].map((item) => (
+                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(0,0,0,0.56)' }}>
+                  <span style={{ color: '#e53e3e', fontSize: 16 }}>✕</span> {item}
+                </li>
               ))}
-            </tbody>
-          </table>
+            </ul>
+          </div>
+          <div style={{ background: 'black', borderRadius: 24, padding: 32, color: 'white' }}>
+            <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
+            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
+              {[
+                '0% comisiones — reserva directa pura',
+                'Datos del huésped tuyos al 100%',
+                'Upselling activo en cada llamada',
+                'Relación directa con tu huésped',
+                'Agente nativo con tu protocolo de hotel',
+                'Presupuesto fijo mensual, sin sorpresas',
+              ].map((item) => (
+                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(255,255,255,0.8)' }}>
+                  <span style={{ color: '#5AFF15', fontSize: 16 }}>✓</span> {item}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
+      </section>
 
-        {/* FAQ */}
-        <div style={{ maxWidth: 800, margin: '0 auto', padding: '0 24px 64px' }}>
-          <h2 style={{ fontSize: 26, fontWeight: 700, marginBottom: 32 }}>Preguntas frecuentes</h2>
-          {faqSchema.mainEntity.map((item, i) => (
-            <div key={i} style={{ borderBottom: '1px solid #f0f0f0', paddingBottom: 24, marginBottom: 24 }}>
-              <h3 style={{ fontWeight: 600, marginBottom: 8, fontSize: 16 }}>{item.name}</h3>
-              <p style={{ color: '#555', fontSize: 14, lineHeight: 1.7 }}>{item.acceptedAnswer.text}</p>
-            </div>
+      {/* FAQ — same style as home */}
+      <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
+        <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Preguntas</span>
+        <h2 style={{ marginTop: 16 }}>FAQ</h2>
+        <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 0, textAlign: 'left' }}>
+          {faqSchema.mainEntity.map((item) => (
+            <details key={item.name} style={{ padding: '24px 0', borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
+              <summary style={{ fontSize: 18, fontWeight: 500, cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'black' }}>
+                {item.name}
+                <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
+              </summary>
+              <p style={{ marginTop: 16 }}>{item.acceptedAnswer.text}</p>
+            </details>
           ))}
         </div>
+      </section>
 
-        {/* CTA */}
-        <div style={{ background: '#000', color: '#fff', textAlign: 'center', padding: '64px 24px' }}>
-          <h2 style={{ fontSize: 'clamp(22px,3vw,36px)', fontWeight: 700, marginBottom: 12 }}>Deja de perder reservas por telefono</h2>
-          <p style={{ color: '#aaa', marginBottom: 32 }}>Activa tu call center hotelero en 48 horas. Sin permanencia, sin comisiones.</p>
-          <a href="/reserva-llamada" style={{ background: '#fff', color: '#000', padding: '14px 32px', borderRadius: 999, fontSize: 15, fontWeight: 700, textDecoration: 'none' }}>
-            Solicita presupuesto gratuito &rarr;
-          </a>
-        </div>
-      </main>
+      {/* CTA */}
+      <section style={{ background: 'black', color: 'white', textAlign: 'center', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)' }}>
+        <h2 style={{ color: 'white' }}>
+          Deja de perder reservas por <span className="serif-italic">telefono.</span>
+        </h2>
+        <p style={{ color: 'rgba(255,255,255,0.6)', maxWidth: 500, margin: '0 auto 32px' }}>
+          Activa tu call center hotelero en 48 horas. Sin permanencia, sin comisiones.
+        </p>
+        <a href="/reserva-llamada" style={{ display: 'inline-block', background: 'white', color: 'black', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
+          Solicita presupuesto gratuito
+        </a>
+      </section>
     </>
   )
 }
