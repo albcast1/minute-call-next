@@ -163,4 +163,91 @@ export default function CallCenterAlemanPage() {
           Como <span className="serif-italic">funciona.</span>
         </h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
-          {steps.map((item) => (à¢·7FW2æÖFVÒÓâ¢ÆFb¶W×¶FVÒç7FWÒ6Æ74æÖSÒ&6&B"7GÆS×·²FFæs¢3"×Óà¢Ç7GÆS×·²föçE6¦S¢CÂföçEvVvC¢SÂ6öÆ÷#¢w&v&ÃÃÃãrÂÖ&vä&÷GFöÓ¢bÂÆWGFW%76æs¢Ó"×Óà¢¶FVÒç7FWÐ¢Â÷à¢Æ27GÆS×·²föçE6¦S¢#"×Óç¶FVÒçFFÆWÓÂö3à¢Ç6Æ74æÖSÒ'6W'f6RÖ6&BÖ&öG#ç¶FVÒæFW67&FöçÓÂ÷à¢ÂöFcà¢Ð¢ÂöFcà¢Â÷6V7Föãà ¢²ò¢6ö×&6öâ¢÷Ð¢Ç6V7Föâ7GÆS×·²ÖvGF¢#ÂÖ&vã¢sWFòrÂFFæs¢v6Æ×CÃgrÃ6Æ×#ÃWgrÃcGrÂFWDÆvã¢v6VçFW"r×Óà¢Ç7â6Æ74æÖSÒ'ÆÂÖÆ&VÂ"7GÆS×·²Ö&vä&÷GFöÓ¢bÂF7Æ¢væÆæRÖ&Æö6²r×ÓäÆFfW&Væ6Â÷7ãà¢Æ"7GÆS×·²Ö&våF÷¢b×Óà¢6öçG&F"VâæFfòg2WFW&æÆ¦"6öâÇ7â6Æ74æÖSÒ'6W&bÖFÆ2#äÖçWFR6ÆÂãÂ÷7ãà¢Âö#à¢ÆFb7GÆS×·²F7Æ¢vw&BrÂw&EFV×ÆFT6öÇVÖç3¢w&WVBWFòÖfBÂÖæÖ3SÂg"rÂv¢#BÂÖ&våF÷¢CÂFWDÆvã¢vÆVgBr×Óà¢ÆFb6Æ74æÖSÒ&6&B"7GÆS×·²FFæs¢3"×Óà¢Æ27GÆS×·²föçE6¦S¢#ÂÖ&vä&÷GFöÓ¢#B×Óä6öçG&F"V×ÆVFòæFfóÂö3à¢ÇVÂ7GÆS×·²Æ7E7GÆS¢væöæRrÂF7Æ¢vfÆWrÂfÆWF&V7Föã¢v6öÇVÖârÂv¢b×Óà¢µ°¢t6÷7FRf¦òVÆWfFò6Æ&ò²52rÀ¢u6öÆò7V'&R÷&&òÆ&÷&ÂrÀ¢u6VæfW&Öò6RfÂ6â6ö&W'GW&rÀ¢u&ö6W6òFR6VÆV66;6âÆ&vòrÀ¢uVâ6öÆòFöÖ÷"V×ÆVFòrÀ¢tFl:Ö6ÂW66Æ"VâFV×÷&FÇFrÀ¢ÒæÖFVÒÓâ¢ÆÆ¶W×¶FV×Ò7GÆS×·²F7Æ¢vfÆWrÂÆväFV×3¢v6VçFW"rÂv¢"ÂföçE6¦S¢RÂ6öÆ÷#¢w&v&ÃÃÃãSbr×Óà¢Ç7â7GÆS×·²6öÆ÷#¢r6SS6S6RrÂföçE6¦S¢b×Óî)ÉSÂ÷7ãâ¶FV×Ð¢ÂöÆà¢Ð¢Â÷VÃà¢ÂöFcà¢ÆFb7GÆS×·²&6¶w&÷VæC¢v&Æ6²rÂ&÷&FW%&FW3¢#BÂFFæs¢3"Â6öÆ÷#¢wvFRr×Óà¢Æ27GÆS×·²föçE6¦S¢#ÂÖ&vä&÷GFöÓ¢#BÂ6öÆ÷#¢wvFRr×ÓæÖçWFR6ÆÃÂö3à¢ÇVÂ7GÆS×·²Æ7E7GÆS¢væöæRrÂF7Æ¢vfÆWrÂfÆWF&V7Föã¢v6öÇVÖârÂv¢b×Óà¢µ°¢t6÷7FRf&&ÆR6V|;¦âföÇVÖVârÀ¢t6ö&W'GW&#BórFöFòVÂ;òrÀ¢tWVò6V×&RF7öæ&ÆRrÀ¢t7Ff6;6âVâC÷&2rÀ¢tÜ;¦ÇFÆW2FöÖ2F7öæ&ÆW2rÀ¢tW66ÆWFöÜ:F6Vâ6÷2rÀ¢ÒæÖFVÒÓâ¢ÆÆ¶W×¶FV×Ò7GÆS×·²F7Æ¢vfÆWrÂÆväFV×3¢v6VçFW"rÂv¢"ÂföçE6¦S¢RÂ6öÆ÷#¢w&v&#SRÃ#SRÃ#SRÃãr×Óà¢Ç7â7GÆS×·²6öÆ÷#¢r3TdcRrÂföçE6¦S¢b×Óî)É3Â÷7ãâ¶FV×Ð¢ÂöÆà¢Ð¢Â÷VÃà¢ÂöFcà¢ÂöFcà¢Â÷6V7Föãà ¢²ò¢d¢÷Ð¢Ç6V7Föâ7GÆS×·²ÖvGF¢#ÂÖ&vã¢sWFòrÂFFæs¢v6Æ×CÃgrÃ6Æ×#ÃWgrÃcGrÂFWDÆvã¢v6VçFW"r×Óà¢Ç7â6Æ74æÖSÒ'ÆÂÖÆ&VÂ"7GÆS×·²Ö&vä&÷GFöÓ¢bÂF7Æ¢væÆæRÖ&Æö6²r×Óå&VwVçF3Â÷7ãà¢Æ"7GÆS×·²Ö&våF÷¢b×ÓädÂö#à¢ÆFb7GÆS×·²Ö&våF÷¢3"ÂF7Æ¢vfÆWrÂfÆWF&V7Föã¢v6öÇVÖârÂv¢ÂFWDÆvã¢vÆVgBr×Óà¢¶f66VÖæÖäVçFGæÖFVÒÓâ¢ÆFWFÇ2¶W×¶FVÒææÖWÒ7GÆS×·²FFæs¢s#GrÂ&÷&FW$&÷GFöÓ¢s6öÆB&v&ÃÃÃãr×Óà¢Ç7VÖÖ'7GÆS×·²föçE6¦S¢ÂföçEvVvC¢SÂ7W'6÷#¢wöçFW"rÂÆ7E7GÆS¢væöæRrÂF7Æ¢vfÆWrÂ§W7Fg6öçFVçC¢w76RÖ&WGvVVârÂÆväFV×3¢v6VçFW"rÂ6öÆ÷#¢v&Æ6²r×Óà¢¶FVÒææÖWÐ¢Ç7â7GÆS×·²föçE6¦S¢#BÂföçEvVvC¢3×Óâ³Â÷7ãà¢Â÷7VÖÖ'à¢Ç7GÆS×·²Ö&våF÷¢b×Óç¶FVÒæ66WFVDç7vW"çFWGÓÂ÷à¢ÂöFWFÇ3à¢Ð¢ÂöFcà¢Â÷6V7Föãà ¢²ò¢5D¢÷Ð¢Ç6V7Föâ7GÆS×·²&6¶w&÷VæC¢v&Æ6²rÂ6öÆ÷#¢wvFRrÂFWDÆvã¢v6VçFW"rÂFFæs¢v6Æ×CÃgrÃ6Æ×#ÃWgrÃcGr×Óà¢Æ"7GÆS×·²6öÆ÷#¢wvFRr×Óà¢FVæFRGW26ÆVçFW2ÆVÖæW26öÖò6RÇ7â6Æ74æÖSÒ'6W&bÖFÆ2#æÖW&V6VâãÂ÷7ãà¢Âö#à¢Ç7GÆS×·²6öÆ÷#¢w&v&#SRÃ#SRÃ#SRÃãbrÂÖvGF¢SÂÖ&vã¢sWFò3'r×Óà¢7FfGR6ÆÂ6VçFW"VâÆVÜ:âVâC÷&2â6âW&ÖæVæ6ÂvVçFW2æFf÷2à¢Â÷à¢Æ&VcÒ"÷&W6W'fÖÆÆÖF"7GÆS×·²F7Æ¢væÆæRÖ&Æö6²rÂ&6¶w&÷VæC¢wvFRrÂ6öÆ÷#¢v&Æ6²rÂFFæs¢wf"ÒÖ'Fâ×FFærrÂ&÷&FW%&FW3¢wf"ÒÖ'FâÖ&÷&FW"×&FW2rÂföçE6¦S¢wf"ÒÖ'FâÖföçB×6¦RrÂföçEvVvC¢SÂFWDFV6÷&Föã¢væöæRr×Óà¢6öÆ6F&W7WVW7Fòw&GVFð¢Âö
+          {steps.map((item) => (
+            <div key={item.step} className="card" style={{ padding: 32 }}>
+              <p style={{ fontSize: 48, fontWeight: 500, color: 'rgba(0,0,0,0.1)', marginBottom: 16, letterSpacing: -2 }}>
+                {item.step}
+              </p>
+              <h3 style={{ fontSize: 22 }}>{item.title}</h3>
+              <p className="service-card-body">{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Comparison */}
+      <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
+        <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>La diferencia</span>
+        <h2 style={{ marginTop: 16 }}>
+          Contratar un nativo vs externalizar con <span className="serif-italic">Minute Call.</span>
+        </h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
+          <div className="card" style={{ padding: 32 }}>
+            <h3 style={{ fontSize: 20, marginBottom: 24 }}>Contratar empleado nativo</h3>
+            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
+              {[
+                'Coste fijo elevado (salario + SS)',
+                'Solo cubre horario laboral',
+                'Si enferma o se va, sin cobertura',
+                'Proceso de selecciÃ³n largo',
+                'Un solo idioma por empleado',
+                'DifÃ­cil escalar en temporada alta',
+              ].map((item) => (
+                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(0,0,0,0.56)' }}>
+                  <span style={{ color: '#e53e3e', fontSize: 16 }}>â</span> {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div style={{ background: 'black', borderRadius: 24, padding: 32, color: 'white' }}>
+            <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
+            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
+              {[
+                'Coste variable segÃºn volumen',
+                'Cobertura 24/7 todo el aÃ±o',
+                'Equipo siempre disponible',
+                'ActivaciÃ³n en 48 horas',
+                'MÃºltiples idiomas disponibles',
+                'Escala automÃ¡tica en picos',
+              ].map((item) => (
+                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(255,255,255,0.8)' }}>
+                  <span style={{ color: '#5AFF15', fontSize: 16 }}>â</span> {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
+        <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Preguntas</span>
+        <h2 style={{ marginTop: 16 }}>FAQ</h2>
+        <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 0, textAlign: 'left' }}>
+          {faqSchema.mainEntity.map((item) => (
+            <details key={item.name} style={{ padding: '24px 0', borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
+              <summary style={{ fontSize: 18, fontWeight: 500, cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'black' }}>
+                {item.name}
+                <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
+              </summary>
+              <p style={{ marginTop: 16 }}>{item.acceptedAnswer.text}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section style={{ background: 'black', color: 'white', textAlign: 'center', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)' }}>
+        <h2 style={{ color: 'white' }}>
+          Atiende a tus clientes alemanes como se <span className="serif-italic">merecen.</span>
+        </h2>
+        <p style={{ color: 'rgba(255,255,255,0.6)', maxWidth: 500, margin: '0 auto 32px' }}>
+          Activa tu call center en alemÃ¡n en 48 horas. Sin permanencia, agentes nativos.
+        </p>
+        <a href="/reserva-llamada" style={{ display: 'inline-block', background: 'white', color: 'black', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
+          Solicita presupuesto gratuito
+        </a>
+      </section>
+    </>
+  )
+}
