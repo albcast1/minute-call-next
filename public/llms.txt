@@ -14,11 +14,7 @@ Minute Call es un servicio de recepcionista virtual y atención telefónica 24/7
 Clínicas, despachos de abogados, inmobiliarias, clínicas dentales, asesorías, veterinarias, restaurantes, talleres, farmacias, ópticas, centros de estética, fisioterapia, seguros, turismo, autoescuelas, consultoría, gimnasios, peluquerías, psicólogos, academias de idiomas, empresas de limpieza, reformas, arquitectos, notarías, podología, mudanzas, cerrajerías, catering, coworkings, guarderías, residencias de mayores, yoga y pilates, fotografía, seguridad privada, reproducción asistida, formación profesional, transporte, funerarias, administradores de fincas, cirugía estética.
 
 ## Precios
-- Plan Starter: desde precio a consultar (hasta 200 llamadas/mes, horario comercial)
-- Plan Business: desde 490 €/mes (hasta 600 llamadas/mes, 24/7, agentes o IA)
-- Plan Enterprise: desde 890 €/mes (+600 llamadas/mes, equipo dedicado, SLA)
-- Sin permanencia. Sin costes de activación.
-- Más barato que una recepcionista interna (1.500-2.200 €/mes).
+Desde precio a consultar. Sin permanencia, sin costes ocultos. Contacta para presupuesto personalizado.
 
 ## Cómo funciona
 1. Definición del flujo: personalizamos el guión y protocolo de atención
