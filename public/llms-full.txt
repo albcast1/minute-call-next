@@ -28,11 +28,7 @@ Minute Call resuelve el problema de las PYMES españolas que pierden entre el 30
 - Modelo híbrido IA + humano: la IA gestiona lo rutinario, los humanos lo complejo
 
 ## Precios y contratación
-
-- Los precios de Minute Call se definen caso a caso según el volumen de llamadas, el horario de cobertura y las necesidades específicas de cada empresa.
-- No hay mínimo de equipo ni de volumen de llamadas.
-- Funciona sin permanencia: mes a mes, sin penalizaciones por cancelación.
-- Para solicitar presupuesto: https://www.minute-call.com/reserva-llamada
+Desde precio a consultar. Sin permanencia, sin costes ocultos. Contacta para presupuesto personalizado según el volumen de llamadas y necesidades de tu empresa.
 
 
 ## Sectores cubiertos (47 sectores especializados)
@@ -260,7 +256,7 @@ Minute Call resuelve el problema de las PYMES españolas que pierden entre el 30
 ### Centralita Virtual para Empresas
 - Slug: /lp/centralita-virtual-empresas
 - Descripción: Centralita telefónica virtual sin infraestructura. Recepción profesional con derivación de llamadas inteligente. Desde presupuesto personalizado sin permanencia. Agentes nati...
-- Testimonial: "Teníamos una centralita que costaba 15.000€ anuales en mantenimiento. Con Minute Call pagamos presupuesto personalizado y tenemos mejor servicio. La mejor decisión que hicimos." — José María Fernández, Administrador IT, Grupo de Distribución
+- Testimonial: "Teníamos una centralita que tenía costes elevados de mantenimiento. Con Minute Call tenemos mejor servicio y ahorramos. La mejor decisión que hicimos." — José María Fernández, Administrador IT, Grupo de Distribución
 
 ### Recepcion de llamadas
 - Slug: /lp/recepcion-de-llamadas
