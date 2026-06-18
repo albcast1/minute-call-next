@@ -462,7 +462,7 @@ export const CityLocalBusinessSchema: React.FC<CityLocalBusinessSchemaProps> = (
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: `minute call — Atención telefónica en ${cityName}`,
+    name: `minute call - Atención telefónica en ${cityName}`,
     url: `https://www.minute-call.com/atencion-telefonica/${slug}`,
     description: `Servicio de recepcionista virtual y atención telefónica 24/7 para empresas en ${cityName}. Agentes nativos o IA, sin permanencia.`,
     address: {
@@ -493,7 +493,7 @@ export const CityLocalBusinessSchema: React.FC<CityLocalBusinessSchemaProps> = (
 
 /**
  * CityServiceSchema Component
- * City-specific Service schema — tells Google/LLMs exactly what service is offered where
+ * City-specific Service schema - tells Google/LLMs exactly what service is offered where
  */
 interface CityServiceSchemaProps {
   cityName: string;
