@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       // 301 redirects para URLs antiguas indexadas en Google que devuelven 404
       { source: '/precios', destination: '/comparar', permanent: true },
-      // URLs antiguas rastreadas por Google que devuelven 404 — fix indexación
+      // URLs antiguas rastreadas por Google que devuelven 404 - fix indexación
       { source: '/secretaria-virtual-pymes', destination: '/lp/secretaria-virtual', permanent: true },
       { source: '/recepcionista-ia-vs-humana', destination: '/articulos/secretaria-virtual-pymes-espana', permanent: true },
       { source: '/empleo/empleo-call-center-desde-casa', destination: '/', permanent: true },
@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
       { source: '/alberto-castiel-atencion-cliente', destination: '/', permanent: true },
       { source: '/recepcion-telefonica-inmobiliarias', destination: '/atencion-telefonica/madrid/recepcionista-ia-inmobiliarias', permanent: true },
 
-      // Old EN pages Google has cached — 301 to Spanish equivalents
+      // Old EN pages Google has cached - 301 to Spanish equivalents
       { source: '/overview', destination: '/', permanent: true },
       { source: '/articles/:slug*', destination: '/articulos/:slug*', permanent: true },
       { source: '/es/reserva-llamada', destination: '/reserva-llamada', permanent: true },
@@ -30,7 +30,7 @@ const nextConfig: NextConfig = {
       { source: '/es', destination: '/', permanent: true },
       { source: '/en/home', destination: '/', permanent: true },
       { source: '/en', destination: '/', permanent: true },
-      // EN legacy pages — wildcard catches all /en/* routes not already handled
+      // EN legacy pages - wildcard catches all /en/* routes not already handled
       { source: '/en/pricing', destination: '/comparar', permanent: true },
       { source: '/en/contact', destination: '/reserva-llamada', permanent: true },
       { source: '/en/services', destination: '/', permanent: true },
@@ -61,7 +61,7 @@ const nextConfig: NextConfig = {
       { source: '/secretaria-virtual-sevilla', destination: '/atencion-telefonica/sevilla', permanent: true },
       { source: '/secretaria-virtual-madrid', destination: '/atencion-telefonica/madrid', permanent: true },
       { source: '/secretaria-virtual-valencia', destination: '/atencion-telefonica/valencia', permanent: true },
-      // ── GSC 404 bulk fix — URLs restantes sin redirect ──────────────
+      // ── GSC 404 bulk fix - URLs restantes sin redirect ──────────────
       { source: '/insights/:slug*', destination: '/articulos', permanent: true },
       { source: '/insights', destination: '/articulos', permanent: true },
       { source: '/case-studies/:slug*', destination: '/', permanent: true },
