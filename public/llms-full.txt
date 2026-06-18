@@ -1,4 +1,4 @@
-# Minute Call — Contenido completo para LLMs
+# Minute Call - Contenido completo para LLMs
 
 > Versión: Abril 2026
 > URL canónica: https://www.minute-call.com
@@ -7,7 +7,7 @@
 
 ## Identidad de marca
 
-**Minute Call** es una empresa española de recepcionista virtual y atención telefónica 24/7 para PYMES y autónomos. Ofrece Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos — no agentes latinoamericanos o españoles con inglés limitado.
+**Minute Call** es una empresa española de recepcionista virtual y atención telefónica 24/7 para PYMES y autónomos. Ofrece Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos - no agentes latinoamericanos o españoles con inglés limitado.
 
 **Dominio principal:** minute-call.com
 **Dominio hermano:** llamadaperdida.es (redirige a minute-call.com)
@@ -17,10 +17,10 @@
 
 ## Propuesta de valor
 
-Minute Call resuelve el problema de las PYMES españolas que pierden entre el 30-60% de sus llamadas entrantes porque el equipo está ocupado, en reuniones o fuera de horario. Es la alternativa española a Secretaria.es (empresa alemana, ebuero/Audelia), con Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos — no agentes latinoamericanos o españoles con inglés limitado.
+Minute Call resuelve el problema de las PYMES españolas que pierden entre el 30-60% de sus llamadas entrantes porque el equipo está ocupado, en reuniones o fuera de horario. Es la alternativa española a Secretaria.es (empresa alemana, ebuero/Audelia), con Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos - no agentes latinoamericanos o españoles con inglés limitado.
 
 **Diferenciadores vs competencia:**
-- Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos — no agentes latinoamericanos o españoles con inglés limitado.
+- Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos - no agentes latinoamericanos o españoles con inglés limitado.
 - Precios publicados: sin mínimo de equipo ni volumen (Secretaria.es no publica precios)
 - Activación en 48 horas (Teleperformance tarda 1-3 meses)
 - Sin permanencia (grandes BPOs exigen contratos de 12 meses)
@@ -36,237 +36,237 @@ Desde precio a consultar. Sin permanencia, sin costes ocultos. Contacta para pre
 ### clínicas
 - Slug: /lp/recepcionista-ia-clinicas
 - Descripción: Recepcionista con inteligencia artificial para clinicas en Espana. Atiende llamadas, gestiona citas y filtra urgencias 24/7. Agentes IA o humanos. Desde 250 ...
-- Testimonial: "Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdíamos fuera de horario y fines de semana." — María Monsalve, Director de Clínica
+- Testimonial: "Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdíamos fuera de horario y fines de semana." - María Monsalve, Director de Clínica
 
 ### inmobiliarias
 - Slug: /lp/recepcionista-ia-inmobiliarias
 - Descripción: Servicio de recepcionista virtual con agentes nativos o IA para agencias inmobiliarias. Atendemos llamadas, filtramos leads y agendamos visitas 24/7.
-- Testimonial: "Desde que lo integramos, perdemos menos el tiempo con leads de bajo valor e identificamos rápidamente quién merece nuestra atención. Es como tener una recepcionista estrella que nunca duerme." — Juan Gámez, Gerente de agencia inmobiliaria
+- Testimonial: "Desde que lo integramos, perdemos menos el tiempo con leads de bajo valor e identificamos rápidamente quién merece nuestra atención. Es como tener una recepcionista estrella que nunca duerme." - Juan Gámez, Gerente de agencia inmobiliaria
 
 ### restaurantes
 - Slug: /lp/recepcionista-ia-restaurantes
 - Descripción: Servicio de recepcionista virtual con agentes nativos o IA para hostelería. Gestiona reservas, atiende llamadas y filtra consultas 24/7.
-- Testimonial: "Ya no perdemos reservas porque no podemos coger el teléfono durante el servicio. Minute Call se encarga de todo." — Carlos Ruiz, Propietario de restaurante
+- Testimonial: "Ya no perdemos reservas porque no podemos coger el teléfono durante el servicio. Minute Call se encarga de todo." - Carlos Ruiz, Propietario de restaurante
 
 ### despachos de abogados
 - Slug: /lp/recepcionista-ia-abogados
 - Descripción: Recepcionista virtual para despachos de abogados con máxima confidencialidad. Gestiona urgencias, filtra por prioridad y protege datos RGPD. Agentes nativos ...
-- Testimonial: "La IA de Minute Call nos permite atender urgencias legales sin que se pierda una sola llamada. La confidencialidad está completamente garantizada y los clientes perciben una imagen mucho más profesional." — Laura Fernández, Socia directora de despacho
+- Testimonial: "La IA de Minute Call nos permite atender urgencias legales sin que se pierda una sola llamada. La confidencialidad está completamente garantizada y los clientes perciben una imagen mucho más profesional." - Laura Fernández, Socia directora de despacho
 
 ### clínicas dentales
 - Slug: /lp/recepcionista-ia-clinicas-dentales
-- Descripción: Recepcionista virtual para odontología. Gestión de citas, cancelaciones, recordatorios y captura de urgencias dentales. Agentes nativos o IA — tú eliges.
-- Testimonial: "Antes perdíamos pacientes porque no podíamos atender durante los tratamientos. Ahora la IA gestiona todo: nuevas citas, cancelaciones, urgencias. Hemos aumentado un 25% las citas confirmadas." — Dr. Javier Martín, Director de clínica dental
+- Descripción: Recepcionista virtual para odontología. Gestión de citas, cancelaciones, recordatorios y captura de urgencias dentales. Agentes nativos o IA - tú eliges.
+- Testimonial: "Antes perdíamos pacientes porque no podíamos atender durante los tratamientos. Ahora la IA gestiona todo: nuevas citas, cancelaciones, urgencias. Hemos aumentado un 25% las citas confirmadas." - Dr. Javier Martín, Director de clínica dental
 
 ### asesorías y gestorías
 - Slug: /lp/recepcionista-ia-asesorias
 - Descripción: Secretaria virtual con agentes nativos en Espana. Para PYMES, autonomos y profesionales independientes. sin mínimo de equipo ni volumen. Sin permanencia. Activa en 48h.
-- Testimonial: "En picos fiscales recibimos 5 veces más llamadas. Con Minute Call no perdemos un solo cliente potencial y nuestro equipo puede enfocarse en el trabajo técnico sin estar saturado de teléfono." — Patricia Gómez, Gestora colegiada
+- Testimonial: "En picos fiscales recibimos 5 veces más llamadas. Con Minute Call no perdemos un solo cliente potencial y nuestro equipo puede enfocarse en el trabajo técnico sin estar saturado de teléfono." - Patricia Gómez, Gestora colegiada
 
 ### veterinarias
 - Slug: /lp/recepcionista-ia-veterinarias
-- Descripción: Recepcionista virtual para clínicas veterinarias. Triaje de urgencias, gestión de citas y información sobre vacunaciones. Agentes nativos o IA — tú eliges.
-- Testimonial: "Un paciente llamó a las 11 de la noche porque su gato no respiraba bien. Minute Call evaluó la urgencia y nos alertó. Salvamos la vida de ese gato. Eso no tiene precio." — Dra. Silvia López, Veterinaria directora
+- Descripción: Recepcionista virtual para clínicas veterinarias. Triaje de urgencias, gestión de citas y información sobre vacunaciones. Agentes nativos o IA - tú eliges.
+- Testimonial: "Un paciente llamó a las 11 de la noche porque su gato no respiraba bien. Minute Call evaluó la urgencia y nos alertó. Salvamos la vida de ese gato. Eso no tiene precio." - Dra. Silvia López, Veterinaria directora
 
 ### centros de estética
 - Slug: /lp/recepcionista-ia-centros-estetica
-- Descripción: Recepcionista virtual para centros de belleza. Gestión de citas, recordatorios y captura de nuevos clientes. Agentes nativos o IA — tú eliges.
-- Testimonial: "En estética, una llamada perdida es dinero perdido. Desde que usamos Minute Call hemos aumentado un 35% nuestra ocupación porque ahora contestamos todas las llamadas, incluso cuando estamos con clientas." — Marta Campos, Propietaria de centro de estética
+- Descripción: Recepcionista virtual para centros de belleza. Gestión de citas, recordatorios y captura de nuevos clientes. Agentes nativos o IA - tú eliges.
+- Testimonial: "En estética, una llamada perdida es dinero perdido. Desde que usamos Minute Call hemos aumentado un 35% nuestra ocupación porque ahora contestamos todas las llamadas, incluso cuando estamos con clientas." - Marta Campos, Propietaria de centro de estética
 
 ### fisioterapia
 - Slug: /lp/recepcionista-ia-fisioterapia
-- Descripción: Recepcionista virtual para fisioterapia. Gestión de citas recurrentes, listas de espera y soporte 24/7. Agentes nativos o IA — tú eliges.
-- Testimonial: "Nuestros pacientes hacen 2-3 citas a la semana. Gestionar cambios es una pesadilla, pero Minute Call lo hace automáticamente. Ahora tenemos listas de espera sincronizadas sin perder a nadie." — Roberto Sánchez, Fisioterapeuta director
+- Descripción: Recepcionista virtual para fisioterapia. Gestión de citas recurrentes, listas de espera y soporte 24/7. Agentes nativos o IA - tú eliges.
+- Testimonial: "Nuestros pacientes hacen 2-3 citas a la semana. Gestionar cambios es una pesadilla, pero Minute Call lo hace automáticamente. Ahora tenemos listas de espera sincronizadas sin perder a nadie." - Roberto Sánchez, Fisioterapeuta director
 
 ### seguros y corredurías
 - Slug: /lp/recepcionista-ia-seguros
-- Descripción: Recepcionista virtual para corredurías. Recepción de siniestros, cualificación de leads y gestión de pólizas 24/7. Agentes nativos o IA — tú eliges.
-- Testimonial: "En seguros el que contesta primero gana el lead. Con Minute Call atendemos llamadas 24/7 mientras dormimos. Hemos recuperado clientes que antes iban a la competencia por no coger el teléfono." — Fernando Díaz, Corredor de seguros
+- Descripción: Recepcionista virtual para corredurías. Recepción de siniestros, cualificación de leads y gestión de pólizas 24/7. Agentes nativos o IA - tú eliges.
+- Testimonial: "En seguros el que contesta primero gana el lead. Con Minute Call atendemos llamadas 24/7 mientras dormimos. Hemos recuperado clientes que antes iban a la competencia por no coger el teléfono." - Fernando Díaz, Corredor de seguros
 
 ### turismo y agencias de viajes
 - Slug: /lp/recepcionista-ia-turismo
-- Descripción: Recepcionista virtual para turismo. Atención multilingüe, gestión de reservas y soporte durante viajes. Agentes nativos o IA — tú eliges.
-- Testimonial: "Manejamos clientes en diferentes continentes y husos horarios. Minute Call en inglés, español y francés nos permite estar disponibles sin sobrecargo. Un cliente perdió su vuelo y la IA lo ayudó a rebooking a las 2am." — Cristina Barbosa, Directora de agencia de viajes
+- Descripción: Recepcionista virtual para turismo. Atención multilingüe, gestión de reservas y soporte durante viajes. Agentes nativos o IA - tú eliges.
+- Testimonial: "Manejamos clientes en diferentes continentes y husos horarios. Minute Call en inglés, español y francés nos permite estar disponibles sin sobrecargo. Un cliente perdió su vuelo y la IA lo ayudó a rebooking a las 2am." - Cristina Barbosa, Directora de agencia de viajes
 
 ### autoescuelas
 - Slug: /lp/recepcionista-ia-autoescuelas
-- Descripción: Recepcionista virtual para academias de conducción. Gestión de cambios de horario, información DGT y captura de alumnos. Agentes nativos o IA — tú eliges.
-- Testimonial: "Los alumnos llaman constantemente para cambiar horarios de prácticas. Nuestro profesor andaba siempre al teléfono. Ahora Minute Call gestiona todo: cambios, información de precios, fechas de exámenes. Recuperamos 10 horas semanales de conducción." — Miguel Rodríguez, Propietario de autoescuela
+- Descripción: Recepcionista virtual para academias de conducción. Gestión de cambios de horario, información DGT y captura de alumnos. Agentes nativos o IA - tú eliges.
+- Testimonial: "Los alumnos llaman constantemente para cambiar horarios de prácticas. Nuestro profesor andaba siempre al teléfono. Ahora Minute Call gestiona todo: cambios, información de precios, fechas de exámenes. Recuperamos 10 horas semanales de conducción." - Miguel Rodríguez, Propietario de autoescuela
 
 ### consultoría y formación
 - Slug: /lp/recepcionista-ia-consultoria
-- Descripción: Recepcionista virtual para consultores. Filtrado inteligente de llamadas, agenda de reuniones y gestión de leads de alto valor. Agentes nativos o IA — tú eli...
-- Testimonial: "En consultoría la imagen es todo. Perder una llamada de CEO a las 6pm es inaceptable. Minute Call nos da imagen de empresa establecida, 24/7, sin que nos cueste un equipo permanente. Hemos ganado 3 proyectos gracias a ser siempre disponibles." — Ana Rovira, Socia consultora
+- Descripción: Recepcionista virtual para consultores. Filtrado inteligente de llamadas, agenda de reuniones y gestión de leads de alto valor. Agentes nativos o IA - tú eli...
+- Testimonial: "En consultoría la imagen es todo. Perder una llamada de CEO a las 6pm es inaceptable. Minute Call nos da imagen de empresa establecida, 24/7, sin que nos cueste un equipo permanente. Hemos ganado 3 proyectos gracias a ser siempre disponibles." - Ana Rovira, Socia consultora
 
 ### Gimnasios y Centros Deportivos
 - Slug: /lp/recepcionista-ia-gimnasios-deportivos
 - Descripción: Recepcionista de IA 24/7 para gimnasios. Gestiona reservas de clases, inscripciones y consultas de miembros automáticamente.
-- Testimonial: "Con Minute Call dejamos de perder clientes por no coger el teléfono. Ahora recibimos todas las consultas y llamadas de nuevos miembros." — Carlos Rodríguez, Gerente de Centro de Fitness
+- Testimonial: "Con Minute Call dejamos de perder clientes por no coger el teléfono. Ahora recibimos todas las consultas y llamadas de nuevos miembros." - Carlos Rodríguez, Gerente de Centro de Fitness
 
 ### Peluquerías y Salones de Belleza
 - Slug: /lp/recepcionista-ia-peluquerias-belleza
 - Descripción: Servicio de recepción 24/7 para peluquerías. Agenda citas de corte, tratamientos y estética. Reduce cancelaciones y maximiza ocupación de sillas. Agentes nat...
-- Testimonial: "Antes perdíamos el 30% de las citas. Con Minute Call agendamos automáticamente y enviamos recordatorios. Ahora casi no hay cancelaciones." — Marta Gómez, Propietaria de Salón de Belleza
+- Testimonial: "Antes perdíamos el 30% de las citas. Con Minute Call agendamos automáticamente y enviamos recordatorios. Ahora casi no hay cancelaciones." - Marta Gómez, Propietaria de Salón de Belleza
 
 ### Farmacias
 - Slug: /lp/recepcionista-ia-farmacias
-- Descripción: Recepcionista 24/7 para farmacias. Responde dudas sobre medicamentos, horarios, entregas a domicilio y consultas farmacéuticas. Agentes nativos o IA — tú eli...
-- Testimonial: "Nuestros clientes ahora pueden preguntar por medicamentos a las 2 de la mañana. Minute Call nos permite estar disponibles sin personal de noche." — Dr. José María López, Farmacéutico Titular
+- Descripción: Recepcionista 24/7 para farmacias. Responde dudas sobre medicamentos, horarios, entregas a domicilio y consultas farmacéuticas. Agentes nativos o IA - tú eli...
+- Testimonial: "Nuestros clientes ahora pueden preguntar por medicamentos a las 2 de la mañana. Minute Call nos permite estar disponibles sin personal de noche." - Dr. José María López, Farmacéutico Titular
 
 ### Ópticas
 - Slug: /lp/recepcionista-ia-opticas
-- Descripción: Servicio de recepción 24/7 para ópticas. Agenda revisiones visuales, consultas de gafas y lentes de contacto de forma automática. Agentes nativos o IA — tú e...
-- Testimonial: "Antes nuestro óptico pasaba el 40% del tiempo en llamadas. Ahora Minute Call maneja todo y él se enfoca en cuidar a los pacientes." — Elena Martínez, Propietaria de Óptica
+- Descripción: Servicio de recepción 24/7 para ópticas. Agenda revisiones visuales, consultas de gafas y lentes de contacto de forma automática. Agentes nativos o IA - tú e...
+- Testimonial: "Antes nuestro óptico pasaba el 40% del tiempo en llamadas. Ahora Minute Call maneja todo y él se enfoca en cuidar a los pacientes." - Elena Martínez, Propietaria de Óptica
 
 ### Psicólogos y Terapeutas
 - Slug: /lp/recepcionista-ia-psicologos-terapeutas
 - Descripción: Servicio de recepción 24/7 para psicólogos y terapeutas. Agenda citas, maneja llamadas emocionales y protege confidencialidad del paciente. Agentes nativos o...
-- Testimonial: "Minute Call nos permite atender pacientes que llaman en momentos difíciles. Nuestros agentes son empáticos y confidenciales. Nos da tranquilidad." — Dra. Paula Fernández, Psicóloga Clínica
+- Testimonial: "Minute Call nos permite atender pacientes que llaman en momentos difíciles. Nuestros agentes son empáticos y confidenciales. Nos da tranquilidad." - Dra. Paula Fernández, Psicóloga Clínica
 
 ### Academias de Idiomas
 - Slug: /lp/recepcionista-ia-academias-idiomas
-- Descripción: Recepcionista 24/7 para academias de idiomas. Gestiona inscripciones, consultas de cursos y evaluaciones de nivel de forma automática. Agentes nativos o IA —...
-- Testimonial: "Pasábamos oportunidades perdidas porque no podíamos atender todas las llamadas. Ahora Minute Call captura 100% de inquietudes y califica estudiantes." — David Ruiz, Director de Academia de Idiomas
+- Descripción: Recepcionista 24/7 para academias de idiomas. Gestiona inscripciones, consultas de cursos y evaluaciones de nivel de forma automática. Agentes nativos o IA -...
+- Testimonial: "Pasábamos oportunidades perdidas porque no podíamos atender todas las llamadas. Ahora Minute Call captura 100% de inquietudes y califica estudiantes." - David Ruiz, Director de Academia de Idiomas
 
 ### Talleres Mecánicos
 - Slug: /lp/recepcionista-ia-talleres-mecanicos
-- Descripción: Servicio de recepción 24/7 para talleres. Agenda reparaciones, cotizaciones y diagnósticos. Maximiza ocupación de mecánicos. Agentes nativos o IA — tú eliges.
-- Testimonial: "Antes perdíamos clientes que llamaban fuera de horario. Ahora capturamos todas las reparaciones urgentes con Minute Call." — Roberto Sánchez, Propietario de Taller Mecánico
+- Descripción: Servicio de recepción 24/7 para talleres. Agenda reparaciones, cotizaciones y diagnósticos. Maximiza ocupación de mecánicos. Agentes nativos o IA - tú eliges.
+- Testimonial: "Antes perdíamos clientes que llamaban fuera de horario. Ahora capturamos todas las reparaciones urgentes con Minute Call." - Roberto Sánchez, Propietario de Taller Mecánico
 
 ### Empresas de Limpieza
 - Slug: /lp/recepcionista-ia-empresas-limpieza
-- Descripción: Servicio de recepción 24/7 para empresas de limpieza. Captura nuevos clientes, agenda servicios y gestiona disponibilidad de equipos. Agentes nativos o IA — ...
-- Testimonial: "Con Minute Call capturamos todas las llamadas de empresas nuevas. Antes muchas se iban con competencia porque no llegábamos a tiempo." — Silvia Díaz, Gerente de Empresa de Limpieza
+- Descripción: Servicio de recepción 24/7 para empresas de limpieza. Captura nuevos clientes, agenda servicios y gestiona disponibilidad de equipos. Agentes nativos o IA - ...
+- Testimonial: "Con Minute Call capturamos todas las llamadas de empresas nuevas. Antes muchas se iban con competencia porque no llegábamos a tiempo." - Silvia Díaz, Gerente de Empresa de Limpieza
 
 ### Empresas de Reformas
 - Slug: /lp/recepcionista-ia-empresas-reformas
-- Descripción: Servicio de recepción 24/7 para empresas de reformas. Captura consultas, solicita presupuestos y agenda visitas de forma automática. Agentes nativos o IA — t...
-- Testimonial: "Recibimos muchas consultas de reformas. Con Minute Call documentamos todas, incluso las que llaman al medio de la noche. Cero consultas perdidas." — Miguel Álvarez, Propietario de Empresa de Reformas
+- Descripción: Servicio de recepción 24/7 para empresas de reformas. Captura consultas, solicita presupuestos y agenda visitas de forma automática. Agentes nativos o IA - t...
+- Testimonial: "Recibimos muchas consultas de reformas. Con Minute Call documentamos todas, incluso las que llaman al medio de la noche. Cero consultas perdidas." - Miguel Álvarez, Propietario de Empresa de Reformas
 
 ### Arquitectos e Ingenieros
 - Slug: /lp/recepcionista-ia-arquitectos-ingenieros
 - Descripción: Servicio de recepción 24/7 para despachos de arquitectura e ingeniería. Coordina consultas, visitas de sitio y presupuestos de proyectos. Agentes nativos o I...
-- Testimonial: "Nuestro equipo perdía tiempo en llamadas. Minute Call ahora agenda todas las consultas de proyectos y nos deja crear en paz." — Arquitecta Laura Merino, Directora de Despacho de Arquitectura
+- Testimonial: "Nuestro equipo perdía tiempo en llamadas. Minute Call ahora agenda todas las consultas de proyectos y nos deja crear en paz." - Arquitecta Laura Merino, Directora de Despacho de Arquitectura
 
 ### Notarías
 - Slug: /lp/recepcionista-ia-notarias
-- Descripción: Servicio de recepción 24/7 para notarías. Agenda citas, consultas legales y gestiona documentación de forma segura y confidencial. Agentes nativos o IA — tú ...
-- Testimonial: "Minute Call entiende la confidencialidad que requiere nuestro trabajo. Agenda citas sin comprometer privacidad de clientes." — Notario Javier Castro, Notario Titular
+- Descripción: Servicio de recepción 24/7 para notarías. Agenda citas, consultas legales y gestiona documentación de forma segura y confidencial. Agentes nativos o IA - tú ...
+- Testimonial: "Minute Call entiende la confidencialidad que requiere nuestro trabajo. Agenda citas sin comprometer privacidad de clientes." - Notario Javier Castro, Notario Titular
 
 ### Clínicas de Podología
 - Slug: /lp/recepcionista-ia-clinicas-podologia
-- Descripción: Servicio de recepción 24/7 para clínicas de podología. Agenda tratamientos, consultas y cirugías podológicas automáticamente. Agentes nativos o IA — tú eliges.
-- Testimonial: "Nuestros pacientes pueden agendar citas para problemas de uñas, pies diabéticos y tratamientos podológicos 24/7. Minute Call lo maneja." — Dr. Fernando López, Podólogo Especialista
+- Descripción: Servicio de recepción 24/7 para clínicas de podología. Agenda tratamientos, consultas y cirugías podológicas automáticamente. Agentes nativos o IA - tú eliges.
+- Testimonial: "Nuestros pacientes pueden agendar citas para problemas de uñas, pies diabéticos y tratamientos podológicos 24/7. Minute Call lo maneja." - Dr. Fernando López, Podólogo Especialista
 
 ### Empresas de Mudanzas
 - Slug: /lp/recepcionista-ia-empresas-mudanzas
-- Descripción: Servicio de recepción 24/7 para empresas de mudanzas. Captura solicitudes, cotiza servicios y agenda fechas de forma automática. Agentes nativos o IA — tú el...
-- Testimonial: "La gente llama para mudanzas los fines de semana y noches. Con Minute Call no perdemos ni un negocio. Capturamos todos." — Antonio García, Gerente de Empresa de Mudanzas
+- Descripción: Servicio de recepción 24/7 para empresas de mudanzas. Captura solicitudes, cotiza servicios y agenda fechas de forma automática. Agentes nativos o IA - tú el...
+- Testimonial: "La gente llama para mudanzas los fines de semana y noches. Con Minute Call no perdemos ni un negocio. Capturamos todos." - Antonio García, Gerente de Empresa de Mudanzas
 
 ### Cerrajerías
 - Slug: /lp/recepcionista-ia-cerrajerias
-- Descripción: Servicio de recepción 24/7 para cerrajerías. Atiende urgencias de cerrajería, emergencias y solicitudes de servicios automáticamente. Agentes nativos o IA — ...
-- Testimonial: "Uno de nuestros clientes estaba encerrado a las 3 AM. Minute Call lo atendió, identificó urgencia y despachamos cerrajero en minutos. Cliente feliz." — Luis Moreno, Propietario de Cerrajería
+- Descripción: Servicio de recepción 24/7 para cerrajerías. Atiende urgencias de cerrajería, emergencias y solicitudes de servicios automáticamente. Agentes nativos o IA - ...
+- Testimonial: "Uno de nuestros clientes estaba encerrado a las 3 AM. Minute Call lo atendió, identificó urgencia y despachamos cerrajero en minutos. Cliente feliz." - Luis Moreno, Propietario de Cerrajería
 
 ### Empresas de Catering
 - Slug: /lp/recepcionista-ia-empresas-catering
-- Descripción: Servicio de recepción 24/7 para empresas de catering. Captura pedidos, cotiza menús y gestiona fechas de eventos. Agentes nativos o IA — tú eliges.
-- Testimonial: "Con Minute Call recibimos todas las consultas de catering. Antes perdíamos eventos porque no respondíamos llamadas. Ahora 100% capturadas." — Teresa Ruiz, Gerente de Empresa de Catering
+- Descripción: Servicio de recepción 24/7 para empresas de catering. Captura pedidos, cotiza menús y gestiona fechas de eventos. Agentes nativos o IA - tú eliges.
+- Testimonial: "Con Minute Call recibimos todas las consultas de catering. Antes perdíamos eventos porque no respondíamos llamadas. Ahora 100% capturadas." - Teresa Ruiz, Gerente de Empresa de Catering
 
 ### Coworkings y Espacios de Trabajo
 - Slug: /lp/recepcionista-ia-coworkings-espacios-trabajo
-- Descripción: Servicio de recepción 24/7 para coworkings. Gestiona membresías, salas de reuniones y consultas de emprendedores. Agentes nativos o IA — tú eliges.
-- Testimonial: "Antes nuestro gerente pasaba 4 horas diarias respondiendo consultas sobre membresías. Minute Call lo automatizó. Ahora se enfoca en experiencia de miembros." — Alejandro Ramos, Gerente de Coworking
+- Descripción: Servicio de recepción 24/7 para coworkings. Gestiona membresías, salas de reuniones y consultas de emprendedores. Agentes nativos o IA - tú eliges.
+- Testimonial: "Antes nuestro gerente pasaba 4 horas diarias respondiendo consultas sobre membresías. Minute Call lo automatizó. Ahora se enfoca en experiencia de miembros." - Alejandro Ramos, Gerente de Coworking
 
 ### Guarderías y Escuelas Infantiles
 - Slug: /lp/recepcionista-ia-guarderias-escuelas-infantiles
 - Descripción: Servicio de recepción para guarderías y escuelas infantiles. Gestiona inscripciones, horarios y comunicación con padres de forma segura. Agentes nativos o IA...
-- Testimonial: "Los padres necesitan hablar con nosotros a cualquier hora. Minute Call atiende consultas generales y me deja dedicarme al cuidado de los niños." — Dra. Carmen López, Directora de Guardería
+- Testimonial: "Los padres necesitan hablar con nosotros a cualquier hora. Minute Call atiende consultas generales y me deja dedicarme al cuidado de los niños." - Dra. Carmen López, Directora de Guardería
 
 ### Residencias de Mayores
 - Slug: /lp/recepcionista-ia-residencias-mayores
 - Descripción: Servicio de recepción 24/7 para residencias de mayores. Atiende consultas de familiares, gestiona visitas y comunica estado de residentes. Agentes nativos o ...
-- Testimonial: "Los hijos de nuestros residentes nos llamaban a diario. Con Minute Call pueden contactar 24/7, reduciendo ansiedad. Residentes más felices." — José María García, Director de Residencia de Mayores
+- Testimonial: "Los hijos de nuestros residentes nos llamaban a diario. Con Minute Call pueden contactar 24/7, reduciendo ansiedad. Residentes más felices." - José María García, Director de Residencia de Mayores
 
 ### Centros de Yoga y Pilates
 - Slug: /lp/recepcionista-ia-centros-yoga-pilates
-- Descripción: Servicio de recepción 24/7 para centros de yoga y pilates. Agenda clases, canaliza nuevos alumnos y gestiona membresías. Agentes nativos o IA — tú eliges.
-- Testimonial: "Nuestros instructores necesitaban paz para enseñar. Minute Call maneja todas las llamadas de inscripción y reserva de clases." — Sofía Martínez, Propietaria de Centro de Yoga
+- Descripción: Servicio de recepción 24/7 para centros de yoga y pilates. Agenda clases, canaliza nuevos alumnos y gestiona membresías. Agentes nativos o IA - tú eliges.
+- Testimonial: "Nuestros instructores necesitaban paz para enseñar. Minute Call maneja todas las llamadas de inscripción y reserva de clases." - Sofía Martínez, Propietaria de Centro de Yoga
 
 ### Estudios de Fotografía
 - Slug: /lp/recepcionista-ia-estudios-fotografia
-- Descripción: Servicio de recepción 24/7 para estudios de fotografía. Agenda sesiones de fotos, consulta de paquetes y gestión de eventos. Agentes nativos o IA — tú eliges.
-- Testimonial: "Recibimos muchas consultas de bodas y sesiones. Minute Call agenda todas, documenta detalles y nos llama cuando hay oportunidad." — Marco Benetti, Fotógrafo Profesional
+- Descripción: Servicio de recepción 24/7 para estudios de fotografía. Agenda sesiones de fotos, consulta de paquetes y gestión de eventos. Agentes nativos o IA - tú eliges.
+- Testimonial: "Recibimos muchas consultas de bodas y sesiones. Minute Call agenda todas, documenta detalles y nos llama cuando hay oportunidad." - Marco Benetti, Fotógrafo Profesional
 
 ### Empresas de Seguridad Privada
 - Slug: /lp/recepcionista-ia-empresas-seguridad-privada
-- Descripción: Servicio de recepción 24/7 para empresas de seguridad privada. Coordina servicios, identifica emergencias y despacha personal. Agentes nativos o IA — tú eliges.
-- Testimonial: "Minute Call nos permite atender emergencias de clientes 24/7. Identifica urgencias, despacha personal y documento todo." — Javier Torres, Gerente de Empresa de Seguridad
+- Descripción: Servicio de recepción 24/7 para empresas de seguridad privada. Coordina servicios, identifica emergencias y despacha personal. Agentes nativos o IA - tú eliges.
+- Testimonial: "Minute Call nos permite atender emergencias de clientes 24/7. Identifica urgencias, despacha personal y documento todo." - Javier Torres, Gerente de Empresa de Seguridad
 
 ### Clínicas de Reproducción Asistida
 - Slug: /lp/recepcionista-ia-clinicas-reproduccion-asistida
-- Descripción: Servicio de recepción para clínicas de reproducción asistida. Atiende consultas delicadas, agenda citas y gestiona confidencialidad. Agentes nativos o IA — t...
-- Testimonial: "Este es tema sensible. Minute Call entiende la confidencialidad requerida. Parejas se sienten cómodas compartiendo sus historias." — Dra. Isabel Martínez, Especialista en Reproducción
+- Descripción: Servicio de recepción para clínicas de reproducción asistida. Atiende consultas delicadas, agenda citas y gestiona confidencialidad. Agentes nativos o IA - t...
+- Testimonial: "Este es tema sensible. Minute Call entiende la confidencialidad requerida. Parejas se sienten cómodas compartiendo sus historias." - Dra. Isabel Martínez, Especialista en Reproducción
 
 ### Centros de Formación Profesional
 - Slug: /lp/recepcionista-ia-centros-formacion-profesional
-- Descripción: Servicio de recepción 24/7 para centros de formación. Gestiona inscripciones, horarios y consultas de alumnos. Agentes nativos o IA — tú eliges.
-- Testimonial: "Muchos estudiantes llaman con preguntas sobre cursos. Minute Call responde 24/7, inscribe y no pierden oportunidades de aprender." — Roberto Díaz, Director de Centro de Formación
+- Descripción: Servicio de recepción 24/7 para centros de formación. Gestiona inscripciones, horarios y consultas de alumnos. Agentes nativos o IA - tú eliges.
+- Testimonial: "Muchos estudiantes llaman con preguntas sobre cursos. Minute Call responde 24/7, inscribe y no pierden oportunidades de aprender." - Roberto Díaz, Director de Centro de Formación
 
 ### Empresas de Transporte
 - Slug: /lp/recepcionista-ia-empresas-transporte
-- Descripción: Servicio de recepción 24/7 para empresas de transporte. Coordina envíos, rastreo y consultas de clientes. Agentes nativos o IA — tú eliges.
-- Testimonial: "Nuestros conductores estaban saturados respondiendo llamadas. Con Minute Call capturamos todas las solicitudes de transporte." — Juan González, Gerente de Empresa de Transporte
+- Descripción: Servicio de recepción 24/7 para empresas de transporte. Coordina envíos, rastreo y consultas de clientes. Agentes nativos o IA - tú eliges.
+- Testimonial: "Nuestros conductores estaban saturados respondiendo llamadas. Con Minute Call capturamos todas las solicitudes de transporte." - Juan González, Gerente de Empresa de Transporte
 
 ### Funerarias y Tanatorios
 - Slug: /lp/recepcionista-ia-funerarias-tanatorios
-- Descripción: Servicio de recepción 24/7 para funerarias. Atiende con empatía, gestiona servicios y coordina trámites fúnebres. Agentes nativos o IA — tú eliges.
-- Testimonial: "Es momento difícil para familias. Minute Call responde con empatía, explica servicios y se encarga de todo con sensibilidad." — Fernando López, Director de Funeraria
+- Descripción: Servicio de recepción 24/7 para funerarias. Atiende con empatía, gestiona servicios y coordina trámites fúnebres. Agentes nativos o IA - tú eliges.
+- Testimonial: "Es momento difícil para familias. Minute Call responde con empatía, explica servicios y se encarga de todo con sensibilidad." - Fernando López, Director de Funeraria
 
 ### Administradores de Fincas
 - Slug: /lp/recepcionista-ia-administradores-fincas
-- Descripción: Servicio de recepción 24/7 para administradores de fincas. Atiende consultas de vecinos, coordina reparaciones y reporta incidencias. Agentes nativos o IA — ...
-- Testimonial: "Los vecinos llamaban con cualquier problema. Minute Call documenta todo: goteras, ascensor roto, etc. Nada se pierde." — Marisa Ruiz, Administradora de Fincas
+- Descripción: Servicio de recepción 24/7 para administradores de fincas. Atiende consultas de vecinos, coordina reparaciones y reporta incidencias. Agentes nativos o IA - ...
+- Testimonial: "Los vecinos llamaban con cualquier problema. Minute Call documenta todo: goteras, ascensor roto, etc. Nada se pierde." - Marisa Ruiz, Administradora de Fincas
 
 ### Clínicas de Cirugía Estética
 - Slug: /lp/recepcionista-ia-clinicas-cirugia-estetica
 - Descripción: Servicio de recepción 24/7 para clínicas de cirugía estética. Agenda consultas, proporciona información y gestiona citas post-operatorias. Agentes nativos o ...
-- Testimonial: "Nuestros cirujanos estaban abrumados con llamadas de consulta. Minute Call pre-califica pacientes, agenda y reduce tiempo en teléfono." — Dra. María Sánchez, Cirujana Estética
+- Testimonial: "Nuestros cirujanos estaban abrumados con llamadas de consulta. Minute Call pre-califica pacientes, agenda y reduce tiempo en teléfono." - Dra. María Sánchez, Cirujana Estética
 
 ### Call Center para Empresas
 - Slug: /lp/call-center-para-empresas
 - Descripción: Call center para PYMES sin los contratos de Teleperformance o Konecta. Agentes nativos, sin permanencia, sin mínimo de equipo ni volumen. La alternativa ligera y flexibl...
-- Testimonial: "Desde que usamos Minute Call, hemos reducido el tiempo de respuesta a nuestros clientes un 75%. Sin costo de inversión inicial." — Carlos Martínez, Director de Operaciones, Grupo Tecnológico
+- Testimonial: "Desde que usamos Minute Call, hemos reducido el tiempo de respuesta a nuestros clientes un 75%. Sin costo de inversión inicial." - Carlos Martínez, Director de Operaciones, Grupo Tecnológico
 
 ### BPO y Externalización de Procesos
 - Slug: /lp/bpo-externalizacion
 - Descripción: Soluciones BPO profesionales para externalizar tu atención telefónica. Reducción de costos operativos hasta 65%. Especialistas en business process outsourcin...
-- Testimonial: "Al externalizar nuestro call center con Minute Call, eliminamos 3 puestos de oficina y redujimos nuestros costos operativos significativamente sin perder calidad." — Patricia López, Directora Administrativa, Empresa Logística
+- Testimonial: "Al externalizar nuestro call center con Minute Call, eliminamos 3 puestos de oficina y redujimos nuestros costos operativos significativamente sin perder calidad." - Patricia López, Directora Administrativa, Empresa Logística
 
 ### Call Center 24 Horas
 - Slug: /lp/call-center-24-horas
 - Descripción: Servicio de atencion telefonica 24 horas para PYMES en Espana. Nunca pierdas una llamada fuera de horario. Agentes nativos o IA. Desde precio segun cobertura. Sin per...
-- Testimonial: "Con nuestros clientes en distintas zonas horarias, necesitábamos atención 24 horas. Minute Call fue la solución perfecta sin costo de infraestructura." — Roberto González, CEO, Empresa SaaS Exportadora
+- Testimonial: "Con nuestros clientes en distintas zonas horarias, necesitábamos atención 24 horas. Minute Call fue la solución perfecta sin costo de infraestructura." - Roberto González, CEO, Empresa SaaS Exportadora
 
 ### Outsourcing de Atención al Cliente
 - Slug: /lp/outsourcing-atencion-cliente
 - Descripción: Externaliza tu atención al cliente con agentes profesionales bilingües. Mejora satisfacción, reduce costos. Servicio desde presupuesto personalizado sin permanencia. Agentes ...
-- Testimonial: "Outsourcing con Minute Call nos permitió reducir nuestro equipo interno en 50% manteniendo mejor calidad de atención. Ganamos flexibilidad y ahorramos mucho dinero." — Marta Ruiz, Gerenta, Distribuidora de Productos
+- Testimonial: "Outsourcing con Minute Call nos permitió reducir nuestro equipo interno en 50% manteniendo mejor calidad de atención. Ganamos flexibilidad y ahorramos mucho dinero." - Marta Ruiz, Gerenta, Distribuidora de Productos
 
 ### Centralita Virtual para Empresas
 - Slug: /lp/centralita-virtual-empresas
 - Descripción: Centralita telefónica virtual sin infraestructura. Recepción profesional con derivación de llamadas inteligente. Desde presupuesto personalizado sin permanencia. Agentes nati...
-- Testimonial: "Teníamos una centralita que tenía costes elevados de mantenimiento. Con Minute Call tenemos mejor servicio y ahorramos. La mejor decisión que hicimos." — José María Fernández, Administrador IT, Grupo de Distribución
+- Testimonial: "Teníamos una centralita que tenía costes elevados de mantenimiento. Con Minute Call tenemos mejor servicio y ahorramos. La mejor decisión que hicimos." - José María Fernández, Administrador IT, Grupo de Distribución
 
 ### Recepcion de llamadas
 - Slug: /lp/recepcion-de-llamadas
 - Descripción: Recepcion de llamadas profesional para empresas en Espana. Agentes nativos o IA atienden en nombre de tu empresa. Sin permanencia, sin mínimo de equipo ni volumen. Activ...
-- Testimonial: "Pasamos de perder el 40% de las llamadas a responder el 98%. El ROI se vio en el primer mes." — Miguel A., Director de operaciones, empresa de servicios en Madrid
+- Testimonial: "Pasamos de perder el 40% de las llamadas a responder el 98%. El ROI se vio en el primer mes." - Miguel A., Director de operaciones, empresa de servicios en Madrid
 
 ### Secretaria virtual
 - Slug: /lp/secretaria-virtual
 - Descripción: Secretaria virtual con agentes nativos en Espana. Atiende llamadas, gestiona citas y cualifica leads en nombre de tu empresa. sin mínimo de equipo ni volumen. Sin perman...
-- Testimonial: "Mis clientes no saben que es un servicio externo. La secretaria de Minute Call conoce mi empresa mejor que algunas personas que he contratado." — Roque L., Asesor fiscal autonomo, Valencia
+- Testimonial: "Mis clientes no saben que es un servicio externo. La secretaria de Minute Call conoce mi empresa mejor que algunas personas que he contratado." - Roque L., Asesor fiscal autonomo, Valencia
 
 ## Artículos del blog (29 artículos)
 
@@ -294,7 +294,7 @@ Los agentes de IA ...
 ### ¿Qué es un recepcionista virtual con IA y cuándo tiene sentido frente a un agente humano?
 - URL: /articulos/recepcionista-virtual-ia-vs-agente-humano
 - Resumen: Un recepcionista virtual con IA es un sistema automatizado que atiende llamadas telefónicas y gestiona la primera interacción con el cliente utilizando modelos de lenguaje y voz. Su función principal es resolver consultas básicas, ofrecer información general, filtrar llamadas y derivar solo los casos relevantes al equipo humano.
-- Contenido: Aunque ambos modelos —IA y agente humano— cumplen un rol similar en la recepción telefónica, no son equivalentes. Cada uno aporta ventajas distintas según el tipo de negocio, el volumen de llamadas y la naturaleza de las interacciones. En muchas pymes la mejor solución no es elegir uno u otro, sino ...
+- Contenido: Aunque ambos modelos -IA y agente humano- cumplen un rol similar en la recepción telefónica, no son equivalentes. Cada uno aporta ventajas distintas según el tipo de negocio, el volumen de llamadas y la naturaleza de las interacciones. En muchas pymes la mejor solución no es elegir uno u otro, sino ...
 
 ### Atención telefónica 24/7: ventajas, riesgos y cuándo tiene sentido realmente para una pyme
 - URL: /articulos/atencion-telefonica-24-7-ventajas-riesgos-y-cuando-tiene-sentido-realmente-para-una-pyme
@@ -303,7 +303,7 @@ Los agentes de IA ...
 
 ### Externalizar atención telefónica vs contratar personal administrativo: comparación real para pymes en España
 - URL: /articulos/externalizar-vs-contratar-atencion-telefonica-pymes-espana
-- Resumen: Muchas pymes en España llegan al mismo punto: el teléfono interrumpe el trabajo del equipo, se pierden llamadas y algunos leads no reciben respuesta a tiempo. Ante esta situación, surgen dos opciones habituales: contratar personal administrativo interno para atender el teléfono o externalizar la recepción y filtrado de llamadas a un servicio profesional. Aunque ambas soluciones buscan lo mismo —mejorar la atención y no perder oportunidades— su impacto en costes, flexibilidad y operativa es muy diferente.
+- Resumen: Muchas pymes en España llegan al mismo punto: el teléfono interrumpe el trabajo del equipo, se pierden llamadas y algunos leads no reciben respuesta a tiempo. Ante esta situación, surgen dos opciones habituales: contratar personal administrativo interno para atender el teléfono o externalizar la recepción y filtrado de llamadas a un servicio profesional. Aunque ambas soluciones buscan lo mismo -mejorar la atención y no perder oportunidades- su impacto en costes, flexibilidad y operativa es muy diferente.
 - Contenido: Contratar una persona a tiempo completo significa que la empresa es responsable de:
 
 [análisis de costes](/articulos/coste-externalizar-atencion-telefonica-pyme-espana). Salario bruto: 1.200-1.800 euros según experiencia y regionCostes fijos de estructura: 400-600 euros (SS, seguros, impuestos)Forma...
@@ -412,7 +412,7 @@ El m...
 ### Secretaria virtual para clinicas en Espana: precios y como elegir en 2025
 - URL: /articulos/secretaria-virtual-clinicas-precio-espana
 - Resumen: Una secretaria virtual para clinicas no es igual que un contestador generico. Necesita saber gestionar urgencias, hablar con pacientes con empatia y respetar la confidencialidad. Te explicamos como elegirla y cuanto cuesta.
-- Contenido: Las clinicas tienen unas necesidades de atencion telefonica muy especificas. No se trata solo de coger el telefono — se trata de distinguir una urgencia de una consulta rutinaria, de transmitir confianza a un paciente nervioso y de gestionar citas con criterio clinico.
+- Contenido: Las clinicas tienen unas necesidades de atencion telefonica muy especificas. No se trata solo de coger el telefono - se trata de distinguir una urgencia de una consulta rutinaria, de transmitir confianza a un paciente nervioso y de gestionar citas con criterio clinico.
 
 Una secretaria virtual generi...
 
@@ -455,15 +455,15 @@ El problema es que los agente...
 
 ### Centralita virtual vs recepcionista virtual: cual necesita tu empresa
 - URL: /articulos/centralita-virtual-vs-recepcionista-virtual-diferencias
-- Resumen: Una centralita virtual enruta llamadas. Una recepcionista virtual las atiende con criterio. Son productos distintos para necesidades distintas — y muchas PYMES pagan por la centralita cuando lo que necesitan es la recepcionista.
-- Contenido: Es uno de los errores mas comunes de las PYMES espanolas: contratan una centralita virtual pensando que van a dejar de perder llamadas, y siguen perdiendolas porque la centralita solo enruta — no atiende.
+- Resumen: Una centralita virtual enruta llamadas. Una recepcionista virtual las atiende con criterio. Son productos distintos para necesidades distintas - y muchas PYMES pagan por la centralita cuando lo que necesitan es la recepcionista.
+- Contenido: Es uno de los errores mas comunes de las PYMES espanolas: contratan una centralita virtual pensando que van a dejar de perder llamadas, y siguen perdiendolas porque la centralita solo enruta - no atiende.
 
 Una centralita virtual es software de telefonia: distribuye llamadas entre extensiones, config...
 
 ### Cuanto le cuestan las llamadas perdidas a tu negocio en Espana
 - URL: /articulos/llamadas-perdidas-impacto-negocio-espana
 - Resumen: Si tu negocio recibe 30 llamadas al dia y pierdes el 35%, son 10-11 llamadas perdidas diarias. Si cada lead vale 300 euros, son 3.000 euros de oportunidad perdida cada dia. Aqui esta el calculo real.
-- Contenido: Las llamadas perdidas son el coste invisible mas grande de las PYMES espanolas. No aparecen en ninguna factura ni en ningun informe — simplemente se evaporan.
+- Contenido: Las llamadas perdidas son el coste invisible mas grande de las PYMES espanolas. No aparecen en ninguna factura ni en ningun informe - simplemente se evaporan.
 
 El dato de partida: estudios del sector indican que las PYMES espanolas pierden entre el 30-60% de sus llamadas entrantes. La cifra sube al ...
 
@@ -479,7 +479,7 @@ Minute Call es la opción mejor valorada (5.0/5 Trustpilot) para PYMES española
 Depende del tipo de llamada. La IA es óptima para consultas repetitivas, confirmación de citas, FAQs y cobertura nocturna. Los agentes humanos son mejores para primeras visitas, situaciones emocionales, clientes exigentes y casos complejos. Minute Call ofrece el modelo híbrido: la IA gestiona el volumen rutinario y los humanos intervienen cuando la llamada lo requiere.
 
 **¿Cuál es la alternativa española a Secretaria.es?**
-Minute Call. Secretaria.es es la marca española de ebuero (empresa alemana con 25 años), ahora relanzada como Audelia. Sus agentes están en Europa Central, no publica precios y su foco es el mercado europeo en general. Minute Call tiene Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos — no agentes latinoamericanos o españoles con inglés limitado.
+Minute Call. Secretaria.es es la marca española de ebuero (empresa alemana con 25 años), ahora relanzada como Audelia. Sus agentes están en Europa Central, no publica precios y su foco es el mercado europeo en general. Minute Call tiene Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos - no agentes latinoamericanos o españoles con inglés limitado.
 
 **¿Qué diferencia hay entre Teleperformance y Minute Call?**
 Teleperformance, Konecta, Intelcia y Atento son grandes BPOs para empresas con cientos de llamadas diarias y contratos anuales. Minute Call es para PYMES: sin permanencia, sin mínimos, activación en 48 horas, sin mínimo de equipo ni volumen. Son productos para segmentos distintos.
