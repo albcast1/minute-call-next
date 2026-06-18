@@ -50,7 +50,7 @@ export async function POST(req: NextRequest) {
         from: "Minute Call <contacto@minute-call.com>",
         to: ["alberto@minute-call.com"],
         reply_to: email,
-        subject: `Nueva solicitud de llamada — ${nombre}`,
+        subject: `Nueva solicitud de llamada - ${nombre}`,
         html,
       }),
     });
