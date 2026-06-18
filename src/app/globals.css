@@ -353,7 +353,7 @@ a:hover {
   }
 }
 
-/* Glowhaus video — fixed height on mobile */
+/* Glowhaus video - fixed height on mobile */
 @media (max-width: 768px) {
   .video-glowhaus {
     height: 600px;
@@ -375,7 +375,7 @@ a:hover {
   }
 }
 
-/* Testimonial quotes — smaller on mobile */
+/* Testimonial quotes - smaller on mobile */
 @media (max-width: 768px) {
   .testimonial-quote {
     font-size: 15px !important;
