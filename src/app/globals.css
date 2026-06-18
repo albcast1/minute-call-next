@@ -397,3 +397,9 @@ a:hover {
           gap: 32px !important;
     }
 }
+
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
