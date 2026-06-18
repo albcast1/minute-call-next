@@ -40,7 +40,7 @@ const painPoints = [
 const services = [
   {
     title: 'Gestion de reservas directas',
-    description: 'Consultamos disponibilidad en tu PMS y cerramos la reserva directa — sin comisiones de OTA.',
+    description: 'Consultamos disponibilidad en tu PMS y cerramos la reserva directa - sin comisiones de OTA.',
   },
   {
     title: 'Atencion multilingue',
@@ -81,9 +81,9 @@ const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    { '@type': 'Question', name: '¿Qué es un call center para hoteles?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atención telefónica especializado en el sector hotelero. Gestiona reservas directas, consultas de huéspedes, modificaciones, cancelaciones y upselling — todo sin comisiones de OTA y con agentes que conocen la operativa hotelera.' } },
+    { '@type': 'Question', name: '¿Qué es un call center para hoteles?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atención telefónica especializado en el sector hotelero. Gestiona reservas directas, consultas de huéspedes, modificaciones, cancelaciones y upselling - todo sin comisiones de OTA y con agentes que conocen la operativa hotelera.' } },
     { '@type': 'Question', name: '¿Cómo gestionáis las reservas directas?', acceptedAnswer: { '@type': 'Answer', text: 'Accedemos a la disponibilidad de tu hotel en tiempo real a través de tu PMS. Cuando un huésped llama, consultamos fechas, ofrecemos la mejor tarifa disponible y cerramos la reserva directa. El huésped recibe confirmación por email o SMS al instante.' } },
-    { '@type': 'Question', name: '¿Qué idiomas hablan vuestros agentes?', acceptedAnswer: { '@type': 'Answer', text: 'Español, inglés y francés nativos. Nuestros agentes no usan scripts traducidos — atienden con fluidez real y entienden las referencias culturales de cada mercado emisor.' } },
+    { '@type': 'Question', name: '¿Qué idiomas hablan vuestros agentes?', acceptedAnswer: { '@type': 'Answer', text: 'Español, inglés y francés nativos. Nuestros agentes no usan scripts traducidos - atienden con fluidez real y entienden las referencias culturales de cada mercado emisor.' } },
     { '@type': 'Question', name: '¿Puedo usar el servicio solo en temporada alta?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. No hay permanencia ni compromiso de duración. Puedes activar el servicio para cubrir picos de temporada alta, puentes o eventos y desactivarlo cuando quieras.' } },
     { '@type': 'Question', name: '¿Cuánto cuesta el servicio?', acceptedAnswer: { '@type': 'Answer', text: 'El precio depende del volumen de llamadas y los servicios que necesites. Contacta con nosotros para un presupuesto personalizado sin compromiso.' } },
     { '@type': 'Question', name: '¿En qué se diferencia Minute Call de otros call centers?', acceptedAnswer: { '@type': 'Answer', text: 'Agentes nativos en España (no en LATAM), sin permanencia, protocolo personalizado por hotel, integración con tu PMS y posibilidad de combinar agentes humanos con IA. Somos partners de Teleperformance.' } },
@@ -104,7 +104,7 @@ export default function CallCenterHotelesPage() {
           Call center para hoteles.<br />Mas reservas directas, menos <span className="serif-italic">comisiones.</span>
         </h1>
         <p style={{ maxWidth: 600, margin: '0 auto 32px' }}>
-          Atención telefónica especializada en hoteles: gestionamos reservas directas, atendemos en 3 idiomas y cubrimos las 24 horas — sin permanencia y sin comisiones de OTA.
+          Atención telefónica especializada en hoteles: gestionamos reservas directas, atendemos en 3 idiomas y cubrimos las 24 horas - sin permanencia y sin comisiones de OTA.
         </p>
         <a href="/reserva-llamada" className="btn-contact">
           Solicita presupuesto gratuito
@@ -123,7 +123,7 @@ export default function CallCenterHotelesPage() {
         ))}
       </section>
 
-      {/* Pain points — 2x2 grid */}
+      {/* Pain points - 2x2 grid */}
       <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
         <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>El problema</span>
         <h2 style={{ marginTop: 16 }}>
@@ -140,7 +140,7 @@ export default function CallCenterHotelesPage() {
         </div>
       </section>
 
-      {/* Services — 3 col grid */}
+      {/* Services - 3 col grid */}
       <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
         <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Servicios</span>
         <h2 style={{ marginTop: 16 }}>
@@ -156,7 +156,7 @@ export default function CallCenterHotelesPage() {
         </div>
       </section>
 
-      {/* Process — same style as home */}
+      {/* Process - same style as home */}
       <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
         <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Como funciona</span>
         <h2 style={{ marginTop: 16 }}>
@@ -175,7 +175,7 @@ export default function CallCenterHotelesPage() {
         </div>
       </section>
 
-      {/* Comparison — home style cards */}
+      {/* Comparison - home style cards */}
       <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
         <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>La diferencia</span>
         <h2 style={{ marginTop: 16 }}>
@@ -203,7 +203,7 @@ export default function CallCenterHotelesPage() {
             <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
-                '0% comisiones — reserva directa pura',
+                '0% comisiones - reserva directa pura',
                 'Datos del huésped tuyos al 100%',
                 'Upselling activo en cada llamada',
                 'Relación directa con tu huésped',
@@ -219,7 +219,7 @@ export default function CallCenterHotelesPage() {
         </div>
       </section>
 
-      {/* FAQ — same style as home */}
+      {/* FAQ - same style as home */}
       <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
         <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Preguntas</span>
         <h2 style={{ marginTop: 16 }}>FAQ</h2>
