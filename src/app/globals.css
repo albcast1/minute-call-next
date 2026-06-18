@@ -402,4 +402,24 @@ a:hover {
   .hide-on-mobile {
     display: none;
   }
+  .contact-form-card {
+    padding: 24px 20px !important;
+    border-radius: 16px !important;
+  }
+  .contact-form {
+    gap: 14px !important;
+  }
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    padding: 10px 14px !important;
+    font-size: 14px !important;
+  }
+  .contact-form textarea {
+    rows: 2;
+  }
+  .contact-form label {
+    margin-bottom: 4px !important;
+    font-size: 12px !important;
+  }
 }
