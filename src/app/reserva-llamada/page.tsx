@@ -22,7 +22,7 @@ export default function ReservaLlamada() {
           <h1 style={{ marginTop: 16, fontSize: "clamp(36px, 7vw, 55px)", letterSpacing: "-0.06em", lineHeight: 1.05 }}>
             Manos a la <span className="serif-italic">obra</span>
           </h1>
-          <p style={{ marginTop: 24, maxWidth: 400 }}>
+          <p className="hide-on-mobile" style={{ marginTop: 24, maxWidth: 400 }}>
             Nos pondremos en contacto contigo menos de 24h.
           </p>
         </div>
