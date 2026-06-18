@@ -125,7 +125,7 @@ export default function RootLayout({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <OrganizationSchema />
         
-      {/* @graph unificado — mejora comprensión de entidad por Google y LLMs */}
+      {/* @graph unificado - mejora comprensión de entidad por Google y LLMs */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
