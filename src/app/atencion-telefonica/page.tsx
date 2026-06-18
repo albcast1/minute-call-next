@@ -101,7 +101,7 @@ export default function AtencionTelefonicaIndex() {
         </h1>
         <p style={{ maxWidth: 700, margin: "24px auto 32px", lineHeight: "1.6" }}>
           Ofrecemos servicio de recepcionista virtual en más de {totalCities} ciudades.
-          Agentes nativos o asistentes de IA — tú eliges. Sin permanencia. Presupuesto a medida.
+          Agentes nativos o asistentes de IA - tú eliges. Sin permanencia. Presupuesto a medida.
         </p>
         <Link href="/reserva-llamada" className="btn-cta">
           Reserva una llamada
