@@ -54,7 +54,7 @@ export default function CompararPage() {
         </a>
       </section>
 
-      {/* Comparison — home style cards instead of table */}
+      {/* Comparison - home style cards instead of table */}
       <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
         <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>La comparativa</span>
         <h2 style={{ marginTop: 16 }}>
@@ -82,7 +82,7 @@ export default function CompararPage() {
             <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
-                'Sin permanencia — mes a mes',
+                'Sin permanencia - mes a mes',
                 'Agentes nativos en España',
                 'Sin volumen mínimo de llamadas',
                 'Activación en 48 horas',
@@ -98,7 +98,7 @@ export default function CompararPage() {
         </div>
       </section>
 
-      {/* Use cases — 3x2 grid */}
+      {/* Use cases - 3x2 grid */}
       <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
         <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Sectores</span>
         <h2 style={{ marginTop: 16 }}>
