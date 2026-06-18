@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
-  // Top 10 ciudades × top 10 sectores — priority alta (contenido más trabajado)
+  // Top 10 ciudades × top 10 sectores - priority alta (contenido más trabajado)
   const topSectorCityPages = TOP_CITY_SLUGS.flatMap(ciudad =>
     TOP_SECTOR_SLUGS.map(sector => ({
       url: `${baseUrl}/atencion-telefonica/${ciudad}/${sector}`,
@@ -49,7 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   )
 
-  // Resto de combinaciones ciudad×sector — priority baja (descubrimiento por Google)
+  // Resto de combinaciones ciudad×sector - priority baja (descubrimiento por Google)
   const allTopCitySet = new Set(TOP_CITY_SLUGS)
   const allTopSectorSet = new Set(TOP_SECTOR_SLUGS)
   const remainingSectorCityPages = cities.flatMap(city =>
