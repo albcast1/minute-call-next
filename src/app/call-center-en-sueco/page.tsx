@@ -82,9 +82,9 @@ const faqSchema = {
   '@type': 'FAQPage',
   mainEntity: [
     { '@type': 'Question', name: '¿Qué es un call center en sueco?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atención telefónica con agentes nativos en sueco que atienden a tus clientes como parte de tu equipo. Siguen tu protocolo, usan tus herramientas y representan tu marca.' } },
-    { '@type': 'Question', name: '¿Vuestros agentes son suecos nativos?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. Nuestros agentes son hablantes nativos de sueco — no usan traducciones ni scripts. Entienden las referencias culturales y el registro que tus clientes esperan.' } },
+    { '@type': 'Question', name: '¿Vuestros agentes son suecos nativos?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. Nuestros agentes son hablantes nativos de sueco - no usan traducciones ni scripts. Entienden las referencias culturales y el registro que tus clientes esperan.' } },
     { '@type': 'Question', name: '¿Para qué sectores es útil un contact center en sueco?', acceptedAnswer: { '@type': 'Answer', text: 'Turismo y hostelería, inmobiliarias en costa, tecnología, diseño, logística y servicios premium dirigidos al mercado escandinavo.' } },
-    { '@type': 'Question', name: '¿Puedo activar el servicio solo cuando lo necesite?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. No hay permanencia ni compromiso de duración. Puedes activar la atención en sueco para temporadas altas, campañas puntuales o de forma continuada — tú decides.' } },
+    { '@type': 'Question', name: '¿Puedo activar el servicio solo cuando lo necesite?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. No hay permanencia ni compromiso de duración. Puedes activar la atención en sueco para temporadas altas, campañas puntuales o de forma continuada - tú decides.' } },
     { '@type': 'Question', name: '¿Cuánto cuesta un call center en sueco?', acceptedAnswer: { '@type': 'Answer', text: 'El precio depende del volumen de llamadas y la complejidad del servicio. Contacta con nosotros para un presupuesto personalizado sin compromiso.' } },
     { '@type': 'Question', name: '¿En qué se diferencia Minute Call de otros call centers?', acceptedAnswer: { '@type': 'Answer', text: 'Agentes nativos basados en España, sin permanencia, protocolo personalizado, integración con tu CRM/PMS y posibilidad de combinar agentes humanos con IA conversacional.' } },
   ],
@@ -104,7 +104,7 @@ export default function CallCenterSuecoPage() {
           Call center en sueco.<br />Atencion telefonica nativa para tus clientes <span className="serif-italic">suecos.</span>
         </h1>
         <p style={{ maxWidth: 600, margin: '0 auto 32px' }}>
-          Contact center en sueco con agentes nativos para empresas españolas. Atendemos a tus clientes de Suecia — sin permanencia y con activación en 48 horas.
+          Contact center en sueco con agentes nativos para empresas españolas. Atendemos a tus clientes de Suecia - sin permanencia y con activación en 48 horas.
         </p>
         <a href="/reserva-llamada" className="btn-contact">
           Solicita presupuesto gratuito
