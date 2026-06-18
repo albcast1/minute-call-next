@@ -88,6 +88,7 @@ export default function ContactForm() {
 
   return (
     <div
+      className="contact-form-card"
       style={{
         background: FORM_BG,
         borderRadius: 20,
@@ -95,7 +96,7 @@ export default function ContactForm() {
         border: "1px solid rgba(0,0,0,0.06)",
       }}
     >
-      <form onSubmit={handleSubmit} autoComplete="on" style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+      <form onSubmit={handleSubmit} autoComplete="on" className="contact-form" style={{ display: "flex", flexDirection: "column", gap: 20 }}>
         
 
         <div>
@@ -109,7 +110,7 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label style={labelStyle} htmlFor="volumen">Volumen estimado de llamadas por semana</label>
+          <label style={labelStyle} htmlFor="volumen">Volumen de llamadas por semana</label>
           <select
             id="volumen"
             name="volumen"
@@ -131,7 +132,7 @@ export default function ContactForm() {
             id="contexto"
             name="contexto"
             required
-            rows={4}
+            rows={3}
             placeholder="Cuéntanos brevemente..."
             style={{ ...inputStyle, resize: "vertical" }}
           />
