@@ -95,20 +95,17 @@ export default function ContactForm() {
         border: "1px solid rgba(0,0,0,0.06)",
       }}
     >
-      <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-        <div>
-          <label style={labelStyle} htmlFor="nombre">Nombre</label>
-          <input id="nombre" name="nombre" type="text" required placeholder="Tu nombre" style={inputStyle} />
-        </div>
+      <form onSubmit={handleSubmit} autoComplete="on" style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+        
 
         <div>
           <label style={labelStyle} htmlFor="email">Email</label>
-          <input id="email" name="email" type="email" required placeholder="tu@email.com" style={inputStyle} />
+          <input id="email" name="email" type="email" required autoComplete="email" placeholder="tu@email.com" style={inputStyle} />
         </div>
 
         <div>
           <label style={labelStyle} htmlFor="telefono">Teléfono</label>
-          <input id="telefono" name="telefono" type="tel" required placeholder="+34 600 000 000" style={inputStyle} />
+          <input id="telefono" name="telefono" type="tel" required autoComplete="tel" placeholder="+34 600 000 000" style={inputStyle} />
         </div>
 
         <div>
