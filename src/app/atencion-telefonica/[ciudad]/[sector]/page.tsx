@@ -142,7 +142,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
         <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(16px,5vw,64px)', textAlign: 'center' }}>
           <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Preguntas</span>
           <h2 style={{ marginTop: 16 }}>
-            FAQ — {sec.sector} en <span className="serif-italic">{city.city}.</span>
+            FAQ - {sec.sector} en <span className="serif-italic">{city.city}.</span>
           </h2>
           <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 0, maxWidth: 800, margin: '32px auto 0', textAlign: 'left' }}>
             {faqs.map((faq, i) => (
