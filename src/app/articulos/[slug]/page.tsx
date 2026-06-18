@@ -122,7 +122,42 @@ export default async function ArticlePage({
       );
     }
 
-    // Default: render as paragraph
+// Handle markdown tables
+    if (block.includes('|') && block.split('\n').length > 1) {
+      const lines = block.split('\n').filter((l: string) => l.trim().length > 0);
+      const isTable = lines.every((l: string) => l.includes('|'));
+      if (isTable) {
+        const dataLines = lines.filter((l: string) => !l.match(/^[\s|:-]+$/));
+        if (dataLines.length > 0) {
+          const headers = dataLines[0].split('|').map((c: string) => c.trim()).filter(Boolean);
+          const rows = dataLines.slice(1).map((l: string) => l.split('|').map((c: string) => c.trim()).filter(Boolean));
+          return (
+            <div key={index} style={{ overflowX: 'auto', margin: '24px 0' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 15 }}>
+                <thead>
+                  <tr>
+                    {headers.map((h: string, i: number) => (
+                      <th key={i} style={{ padding: '12px 16px', textAlign: 'left', borderBottom: '2px solid #000', fontWeight: 600, fontSize: 14 }}>{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {rows.map((row: string[], ri: number) => (
+                    <tr key={ri}>
+                      {row.map((cell: string, ci: number) => (
+                        <td key={ci} style={{ padding: '10px 16px', borderBottom: '1px solid rgba(0,0,0,0.1)', fontSize: 15, color: 'rgba(0,0,0,0.7)' }}>{cell}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          );
+        }
+      }
+    }
+
+        // Default: render as paragraph
     const rendered = parseLinksInText(block);
     return (
       <p key={index} style={{ margin: 0 }}>
@@ -164,7 +199,25 @@ export default async function ArticlePage({
       parts.push(text.slice(lastIndex));
     }
 
-    return parts.length > 0 ? parts : text;
+    // Parse bold (**text**) within string parts
+      const finalParts: (string | React.ReactElement)[] = [];
+      const allParts = parts.length > 0 ? parts : (typeof text === 'string' ? [text] : []);
+      for (const part of allParts) {
+        if (typeof part === 'string') {
+          const boldRegex = /\*\*([^*]+)\*\*/g;
+          let bLast = 0;
+          let bMatch;
+          while ((bMatch = boldRegex.exec(part)) !== null) {
+            if (bMatch.index > bLast) finalParts.push(part.slice(bLast, bMatch.index));
+            finalParts.push(<strong key={`b-${bMatch.index}`}>{bMatch[1]}</strong>);
+            bLast = bMatch.index + bMatch[0].length;
+          }
+          if (bLast < part.length) finalParts.push(part.slice(bLast));
+        } else {
+          finalParts.push(part);
+        }
+      }
+      return finalParts.length > 0 ? finalParts : text;
   };
 
   return (
