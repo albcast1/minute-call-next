@@ -9,7 +9,7 @@ export default function Nav() {
   return (
     <nav
       className="sticky top-0 w-full z-50"
-      style={{ backgroundColor: "#EFEBE5" }}
+      style={{ backgroundColor: "#EFEBE5", position: "sticky" as const, top: 0, zIndex: 50, boxShadow: "0 1px 8px rgba(0,0,0,0.06)" }}
     >
       <div
         style={{ maxWidth: 1200, height: 85, padding: "0 clamp(16px, 5vw, 64px)", margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" }}
