@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-// IndexNow API endpoint — llamar tras cada deploy para notificar Bing/Yandex/DuckDuckGo
+// IndexNow API endpoint - llamar tras cada deploy para notificar Bing/Yandex/DuckDuckGo
 export async function GET() {
   const key = 'mc-indexnow-2026-a7f3b9e2d1c4'
   const host = 'www.minute-call.com'
