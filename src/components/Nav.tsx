@@ -1,11 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 
 export default function Nav() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <nav
       className="sticky top-0 w-full z-50"
@@ -16,11 +13,7 @@ export default function Nav() {
       >
         {/* Logo: icon + text */}
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <img
-            src="/assets/logo.png"
-            alt=""
-            style={{ width: 25, height: 25 }}
-          />
+          <img src="/assets/logo.png" alt="" style={{ width: 25, height: 25 }} />
           <span
             style={{
               fontFamily: "Inter, sans-serif",
@@ -36,62 +29,31 @@ export default function Nav() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          
           <Link
             href="/articulos"
-            style={{
-              fontFamily: "Inter, sans-serif",
-              fontSize: 14,
-              fontWeight: 500,
-              letterSpacing: "-0.56px",
-              color: "black",
-            }}
+            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
             className="hover:opacity-80 transition-opacity"
           >
             Blog
           </Link>
           <Link
             href="/reserva-llamada"
-            style={{
-              fontFamily: "Inter, sans-serif",
-              fontSize: 14,
-              fontWeight: 500,
-              letterSpacing: "-0.56px",
-              color: "white",
-              backgroundColor: "black",
-              padding: "10px 20px",
-              borderRadius: 50,
-            }}
+            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "white", backgroundColor: "black", padding: "10px 20px", borderRadius: 50 }}
             className="hover:opacity-80 transition-opacity"
           >
             Contacto
           </Link>
         </div>
 
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden flex flex-col gap-1.5"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          aria-label="Toggle menu"
+        {/* Mobile CTA - replaces burger menu */}
+        <Link
+          href="/reserva-llamada"
+          className="md:hidden hover:opacity-80 transition-opacity"
+          style={{ fontFamily: "Inter, sans-serif", fontSize: 13, fontWeight: 500, color: "white", backgroundColor: "black", padding: "8px 16px", borderRadius: 50 }}
         >
-          <span className="w-6 h-0.5 bg-black transition-all" style={{ transform: mobileMenuOpen ? "rotate(45deg) translateY(8px)" : "" }} />
-          <span className="w-6 h-0.5 bg-black transition-all" style={{ opacity: mobileMenuOpen ? 0 : 1 }} />
-          <span className="w-6 h-0.5 bg-black transition-all" style={{ transform: mobileMenuOpen ? "rotate(-45deg) translateY(-8px)" : "" }} />
-        </button>
+          Contacto
+        </Link>
       </div>
-
-      {mobileMenuOpen && (
-        <div style={{ backgroundColor: "#EFEBE5", padding: "16px clamp(16px, 5vw, 64px)", display: "flex", flexDirection: "column", gap: 16 }} className="md:hidden">
-          
-          <Link
-            href="/reserva-llamada"
-            style={{ fontSize: 14, fontWeight: 500, color: "white", backgroundColor: "black", padding: "10px 20px", borderRadius: 50, textAlign: "center" }}
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Contacto
-          </Link>
-        </div>
-      )}
     </nav>
   );
 }
