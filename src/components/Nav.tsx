@@ -37,6 +37,13 @@ export default function Nav() {
             Blog
           </Link>
           <Link
+            href="/sobre-nosotros"
+            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
+            className="hover:opacity-80 transition-opacity"
+          >
+            Sobre nosotros
+          </Link>
+          <Link
             href="/reserva-llamada"
             style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "white", backgroundColor: "black", padding: "10px 20px", borderRadius: 50 }}
             className="hover:opacity-80 transition-opacity"
