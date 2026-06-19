@@ -27,7 +27,7 @@ export default function ReservaLlamada() {
           </p>
               <img
                 className="hide-on-mobile"
-                src="/contacto.jpg"
+                src="/images/contacto.jpg"
                 alt="Persona hablando por teléfono"
                 style={{ marginTop: 32, borderRadius: 16, maxWidth: 400, width: "100%" }}
               />
