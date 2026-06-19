@@ -25,6 +25,12 @@ export default function ReservaLlamada() {
           <p className="hide-on-mobile" style={{ marginTop: 24, maxWidth: 400 }}>
             Nos pondremos en contacto contigo menos de 24h.
           </p>
+              <img
+                className="hide-on-mobile"
+                src="/contacto.jpg"
+                alt="Persona hablando por teléfono"
+                style={{ marginTop: 32, borderRadius: 16, maxWidth: 400, width: "100%" }}
+              />
         </div>
 
         {/* Right Side - Form */}
