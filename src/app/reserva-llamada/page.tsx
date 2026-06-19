@@ -29,7 +29,7 @@ export default function ReservaLlamada() {
                 className="hide-on-mobile"
                 src="/images/contacto.jpg"
                 alt="Persona hablando por teléfono"
-                style={{ marginTop: 32, borderRadius: 16, maxWidth: 400, width: "100%" }}
+                style={{ marginTop: 32, borderRadius: 16, maxWidth: 520, width: "100%" }}
               />
         </div>
 
