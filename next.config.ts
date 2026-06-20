@@ -43,7 +43,6 @@ const nextConfig: NextConfig = {
       { source: '/planes', destination: '/comparar', permanent: true },
       { source: '/como-funciona', destination: '/', permanent: true },
       { source: '/quienes-somos', destination: '/', permanent: true },
-      { source: '/sobre-nosotros', destination: '/', permanent: true },
       { source: '/atencion-al-cliente', destination: '/lp/recepcion-de-llamadas', permanent: true },
       { source: '/externalizar-atencion-cliente', destination: '/lp/recepcion-de-llamadas', permanent: true },
       { source: '/llamada-perdida', destination: '/', permanent: true },
