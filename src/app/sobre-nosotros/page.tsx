@@ -87,8 +87,7 @@ export default function SobreNosotros() {
         id="https://www.minute-call.com/#alberto-castiel"
         name="Alberto Castiel"
         jobTitle="Co-fundador de minute call"
-        description="Co-fundador de Minute Call. Ex General Manager en Leocare (insurtech, 350M€ valoración). Escaló una fintech de 0 a 45M€ como Country Manager en Novum Bank. Ex consultor en Deloitte. Licenciado en ADE y Derecho por la UC3M."
-        sameAs={["https://www.linkedin.com/in/alberto-castiel/"]}
+        description="Co-fundador de Minute Call. Ex General Manager en Leocare (insurtech, 350M€ valoración). Escaló una fintech de 0 a 45M€ como Country Manager en Novum Bank. Ex consultor en Deloitte. Ex Head of Global Operations en Naboo (respaldada por Lightspeed, VC detrás de Anthropic y ElevenLabs)."        sameAs={["https://www.linkedin.com/in/alberto-castiel/"]}
         knowsAbout={[
           "Atención telefónica 24/7",
           "Call center para PYMES",
@@ -104,7 +103,7 @@ export default function SobreNosotros() {
         id="https://www.minute-call.com/#beatriz-de-tena"
         name="Beatriz De Tena"
         jobTitle="Co-fundadora de minute call"
-        description="Co-fundadora de Minute Call. Ex CEO de Walmeric by Globant (NYSE:GLOB). Ex Directora Global de Ventas en Konecta y Telefónica. Más de 15 años de experiencia en BPO y atención al cliente."
+        description="Co-fundadora de Minute Call. Ex CEO de Walmeric by Globant (NYSE:GLOB). Ex Directora Global de Ventas en Konecta y Telefónica. Business Director de Salesforce en Shaper by atmira. Más de 15 años impulsando transformación digital en banca, seguros, energía y telecomunicaciones."
         sameAs={["https://www.linkedin.com/in/beatrizdetena/"]}
         knowsAbout={[
           "Operaciones de atención telefónica",
@@ -127,7 +126,7 @@ export default function SobreNosotros() {
         Quienes <span className="serif-italic">somos</span>
       </h1>
 
-      {/* Capsule response — first 80 words with entity, type, value prop */}
+      {/* Capsule response */}
       <p style={{ fontSize: 18, lineHeight: 1.7, maxWidth: 700, marginBottom: 32 }}>
         <strong>Minute Call</strong> es un call center y contact center 24/7 para PYMES,
         fundado en noviembre de 2024 por{" "}
@@ -140,9 +139,7 @@ export default function SobreNosotros() {
         </a>.
         Ofrecemos agentes humanos nativos e inteligencia artificial para que ninguna llamada quede
         sin responder. Partners comerciales de Teleperformance y Zendesk.
-      </p>
-
-      {/* En cifras — stats block */}
+      </p>      {/* En cifras */}
       <section style={{ marginBottom: 64 }}>
         <h2 style={{ fontSize: 22, marginBottom: 24 }}>
           Minute Call en <span className="serif-italic">cifras</span>
@@ -252,16 +249,15 @@ export default function SobreNosotros() {
             <h3 style={{ fontSize: 22, marginBottom: 4 }}>Alberto Castiel</h3>
             <p style={{ fontSize: 14, color: 'rgba(0,0,0,0.5)', marginBottom: 12 }}>Co-fundador</p>
             <p style={{ fontSize: 15, lineHeight: 1.7, color: 'rgba(0,0,0,0.75)' }}>
-              Licenciado en ADE y Derecho por la UC3M (#1 en España para ADE). Ex General Manager
-              en Leocare (insurtech valorada en 350M€). Como Country Manager en Novum Bank, escaló
-              el mercado francés de 0 a 45M€ de facturación con crecimiento del 70% YoY y multiplicó
-              el EBITDA ×8. Ex consultor de Estrategia y Operaciones en Deloitte. También fue Head
-              of Global Operations en Naboo (respaldada por Lightspeed).
+              Ex General Manager en Leocare (insurtech valorada en 350M€). Como Country Manager
+              en Novum Bank, escaló el mercado francés de 0 a 45M€ de facturación con crecimiento
+              del 70% YoY y multiplicó el EBITDA ×8. Ex consultor de Estrategia y Operaciones en
+              Deloitte. También fue Head of Global Operations en Naboo, respaldada por Lightspeed
+              (el VC detrás de Anthropic y ElevenLabs).
             </p>
             <a
               href="https://www.linkedin.com/in/alberto-castiel/"
-              target="_blank"
-              rel="noopener noreferrer"
+              target="_blank"              rel="noopener noreferrer"
               style={{
                 display: 'inline-block',
                 marginTop: 12,
@@ -297,8 +293,12 @@ export default function SobreNosotros() {
             <p style={{ fontSize: 14, color: 'rgba(0,0,0,0.5)', marginBottom: 12 }}>Co-fundadora</p>
             <p style={{ fontSize: 15, lineHeight: 1.7, color: 'rgba(0,0,0,0.75)' }}>
               Ex CEO de Walmeric by Globant (NYSE:GLOB). Ex Directora Global de Ventas en Konecta
-              y Telefónica. Más de 15 años liderando operaciones de atención al cliente y BPO a
-              escala multinacional.
+              y Telefónica. Actualmente también es Business Director de la práctica de Salesforce en{" "}
+              <a href="https://www.atmira.com/beatriz-de-tena-se-incorpora-a-shaper-by-atmira-como-business-director-en-la-practica-de-salesforce/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
+                Shaper by atmira
+              </a>, donde lidera el desarrollo de negocio y la estrategia de la unidad.
+              Más de 15 años impulsando proyectos de transformación digital en banca, seguros,
+              energía, telecomunicaciones y retail, con foco en IA, big data y analítica predictiva.
             </p>
             <a
               href="https://www.linkedin.com/in/beatrizdetena/"
@@ -316,58 +316,6 @@ export default function SobreNosotros() {
               LinkedIn →
             </a>
           </div>
-        </div>
-      </section>
-
-      {/* Trayectoria de Alberto */}
-      <section style={{ marginBottom: 64 }}>
-        <h2 style={{ fontSize: 22, marginBottom: 24 }}>
-          Trayectoria del <span className="serif-italic">fundador</span>
-        </h2>
-        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-          {[
-            {
-              period: "02/2026 — Actualidad",
-              role: "Head of Global Operations",
-              company: "Naboo",
-              desc: "Plataforma B2B de procurement para eventos corporales, respaldada por más de 90M€ de VCs como Lightspeed (inversores de Anthropic, ElevenLabs).",
-            },
-            {
-              period: "11/2024 — Actualidad",
-              role: "Fundador",
-              company: "Minute Call",
-              desc: "Creó un call center con agentes humanos e IA 24/7 para PYMES. Cerró alianzas comerciales con Teleperformance y Zendesk.",
-            },
-            {
-              period: "03/2022 — 03/2024",
-              role: "General Manager España + Head of New Business",
-              company: "Leocare",
-              desc: "Insurtech B2C valorada en 350M€ en Series B. Lideró el GTM en España, cerró partnership con Generali. Redujo tiempo de respuesta de 7h a 18min con CXM basado en IA. Ascendido a Head of New Business: creció la red de brokers de 4 a 350.",
-            },
-            {
-              period: "01/2019 — 02/2022",
-              role: "Country Manager Francia",
-              company: "Novum Bank",
-              desc: "Fintech de créditos B2C. Escaló el mercado francés de 0 a 45M€/año (+70% YoY). Multiplicó EBITDA ×8, redujo impago un 50%. Gestionó +25 personas.",
-            },
-            {
-              period: "07/2016 — 12/2018",
-              role: "Consultor de Estrategia y Operaciones",
-              company: "Deloitte",
-              desc: "Calificación Above Expectations con excelencia en liderazgo.",
-            },
-          ].map((exp, i) => (
-            <div key={i} className="card" style={{ padding: 24 }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 8, marginBottom: 8 }}>
-                <div>
-                  <h3 style={{ fontSize: 18, marginBottom: 2 }}>{exp.role}</h3>
-                  <p style={{ fontSize: 15, fontWeight: 600, margin: 0 }}>{exp.company}</p>
-                </div>
-                <span style={{ fontSize: 13, color: 'rgba(0,0,0,0.4)', whiteSpace: 'nowrap' }}>{exp.period}</span>
-              </div>
-              <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(0,0,0,0.65)', margin: 0 }}>{exp.desc}</p>
-            </div>
-          ))}
         </div>
       </section>
 
