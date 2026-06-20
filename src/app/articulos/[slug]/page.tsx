@@ -75,7 +75,7 @@ export default async function ArticlePage({
       const text = block.slice(3).trim().replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1');
       const id = text
         .toLowerCase()
-        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .normalize("NFD").replace(/[̀-ͯ]/g, "")
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-|-$/g, "");
       return { text, id };
@@ -89,7 +89,7 @@ export default async function ArticlePage({
       const cleanText = text.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1');
       const id = cleanText
         .toLowerCase()
-        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .normalize("NFD").replace(/[̀-ͯ]/g, "")
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-|-$/g, "");
       const rendered = parseLinksInText(text);
@@ -438,7 +438,7 @@ export default async function ArticlePage({
         >
           <div
             style={{
-              backgroundColor: '#5AFF15',
+              border: '1px solid rgba(0,0,0,0.1)',
               borderRadius: 16,
               padding: 24,
             }}
@@ -465,8 +465,8 @@ export default async function ArticlePage({
               style={{
                 display: 'block',
                 textAlign: 'center',
-                background: '#000',
-                color: '#fff',
+                background: '#5AFF15',
+                color: '#000',
                 padding: '12px 20px',
                 borderRadius: 999,
                 fontSize: 14,
