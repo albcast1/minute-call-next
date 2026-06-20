@@ -438,7 +438,7 @@ export default async function ArticlePage({
         >
           <div
             style={{
-              border: '1px solid rgba(0,0,0,0.1)',
+              backgroundColor: '#5AFF15',
               borderRadius: 16,
               padding: 24,
             }}
@@ -476,7 +476,7 @@ export default async function ArticlePage({
             >
               Reserva una llamada
             </Link>
-            <p style={{ fontSize: 12, color: 'rgba(0,0,0,0.4)', textAlign: 'center', marginTop: 10 }}>
+            <p style={{ fontSize: 12, color: 'rgba(0,0,0,0.55)', textAlign: 'center', marginTop: 10 }}>
               Sin compromiso · Respuesta en 24h
             </p>
           </div>
