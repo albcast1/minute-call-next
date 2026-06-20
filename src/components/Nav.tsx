@@ -30,6 +30,13 @@ export default function Nav() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           <Link
+            href="/articulos"
+            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
+            className="hover:opacity-80 transition-opacity"
+          >
+            Blog
+          </Link>
+          <Link
             href="/lp"
             style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
             className="hover:opacity-80 transition-opacity"
@@ -42,13 +49,6 @@ export default function Nav() {
             className="hover:opacity-80 transition-opacity"
           >
             Ciudades
-          </Link>
-          <Link
-            href="/articulos"
-            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
-            className="hover:opacity-80 transition-opacity"
-          >
-            Blog
           </Link>
           <Link
             href="/sobre-nosotros"
