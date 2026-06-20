@@ -5,14 +5,14 @@ import { PersonSchema, ReviewSchema } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Sobre nosotros | minute call",
   description:
-    "Minute Call es un servicio de recepcionista virtual y atención telefónica 24/7 para PYMES, fundado en 2024 por Alberto Castiel. Partners de Teleperformance y Zendesk.",
+    "Minute Call es un call center y contact center 24/7 para PYMES en España, fundado en 2024 por Alberto Castiel. Partners de Teleperformance y Zendesk.",
   alternates: {
     canonical: "/sobre-nosotros",
   },
   openGraph: {
     title: "Sobre nosotros | minute call",
     description:
-      "Minute Call es un servicio de recepcionista virtual y atención telefónica 24/7 para PYMES, fundado en 2024 por Alberto Castiel.",
+      "Minute Call es un call center y contact center 24/7 para PYMES en España, fundado en 2024 por Alberto Castiel.",
     type: "website",
     locale: "es_ES",
     url: "https://www.minute-call.com/sobre-nosotros",
@@ -30,7 +30,7 @@ export default function SobreNosotros() {
     url: "https://www.minute-call.com",
     logo: "https://www.minute-call.com/og-image.png",
     description:
-      "Servicio de recepcionista virtual y atención telefónica 24/7 para PYMES en España. Agentes nativos o IA, sin permanencia.",
+      "Call center y contact center 24/7 para PYMES en España. Agentes nativos o IA, sin permanencia.",
     foundingDate: "2024-11",
     founder: [
       {
@@ -57,8 +57,8 @@ export default function SobreNosotros() {
     ],
     knowsAbout: [
       "Atención telefónica 24/7",
-      "Recepcionista virtual",
       "Call center para PYMES",
+      "Contact center externalizado",
       "IA conversacional",
       "BPO y externalización",
       "Cualificación de leads",
@@ -92,7 +92,7 @@ export default function SobreNosotros() {
         knowsAbout={[
           "Atención telefónica 24/7",
           "Call center para PYMES",
-          "Recepcionistas virtuales",
+          "Contact center externalizado",
           "IA conversacional",
           "BPO",
           "Cualificación de leads",
@@ -129,7 +129,7 @@ export default function SobreNosotros() {
 
       {/* Capsule response — first 80 words with entity, type, value prop */}
       <p style={{ fontSize: 18, lineHeight: 1.7, maxWidth: 700, marginBottom: 32 }}>
-        <strong>Minute Call</strong> es un servicio de recepcionista virtual y atención telefónica 24/7 para PYMES,
+        <strong>Minute Call</strong> es un call center y contact center 24/7 para PYMES,
         fundado en noviembre de 2024 por{" "}
         <a href="https://www.linkedin.com/in/alberto-castiel/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
           Alberto Castiel
@@ -336,7 +336,7 @@ export default function SobreNosotros() {
               period: "11/2024 — Actualidad",
               role: "Fundador",
               company: "Minute Call",
-              desc: "Creó un servicio de recepcionista virtual humana e IA 24/7 para PYMES. Cerró alianzas comerciales con Teleperformance y Zendesk.",
+              desc: "Creó un call center con agentes humanos e IA 24/7 para PYMES. Cerró alianzas comerciales con Teleperformance y Zendesk.",
             },
             {
               period: "03/2022 — 03/2024",
