@@ -4,20 +4,20 @@ import sectors from "@/data/sectors.json";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Recepcionista virtual por sector | minute call",
+  title: "Call center para cada sector | minute call",
   description:
-    "Servicio de recepcionista virtual especializado en más de 48 sectores. Clínicas, abogados, inmobiliarias, restaurantes y más. Atención 24/7, sin permanencia.",
+    "Servicio de call center especializado en más de 48 sectores. Clínicas, abogados, inmobiliarias, restaurantes y más. Atención 24/7, sin permanencia.",
   alternates: {
     canonical: "/lp",
   },
   openGraph: {
-    title: "Recepcionista virtual por sector | minute call",
+    title: "Call center para cada sector | minute call",
     description:
-      "Servicio de recepcionista virtual especializado en más de 48 sectores. Atención 24/7, sin permanencia.",
+      "Servicio de call center especializado en más de 48 sectores. Atención 24/7, sin permanencia.",
     type: "website",
     locale: "es_ES",
     url: "https://www.minute-call.com/lp",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Recepcionista virtual por sector" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Call center para cada sector" }],
   },
 };
 
@@ -142,7 +142,7 @@ export default function SectorIndexPage() {
           <span className="pill-label">{totalSectors} sectores</span>
         </div>
         <h1 style={{ marginTop: 24 }}>
-          Recepcionista virtual para{" "}
+          Call center para{" "}
           <span className="serif-italic">cada sector</span>.
         </h1>
         <p
