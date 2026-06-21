@@ -142,7 +142,7 @@ export default function SobreNosotros() {
       </p>      {/* En cifras */}
       <section style={{ marginBottom: 64 }}>
         <h2 style={{ fontSize: 22, marginBottom: 24 }}>
-          Minute Call en <span className="serif-italic">cifras</span>
+          Minute Call en cifras
         </h2>
         <div
           style={{
@@ -171,7 +171,7 @@ export default function SobreNosotros() {
       {/* Qué hacemos */}
       <section style={{ marginBottom: 64 }}>
         <h2 style={{ fontSize: 22, marginBottom: 16 }}>
-          Que <span className="serif-italic">hacemos</span>
+          Que hacemos
         </h2>
         <div style={{ display: "flex", flexDirection: "column", gap: 16, maxWidth: 700 }}>
           <p style={{ lineHeight: 1.8, color: 'rgba(0,0,0,0.75)' }}>
@@ -206,7 +206,7 @@ export default function SobreNosotros() {
       {/* Partners */}
       <section style={{ marginBottom: 64 }}>
         <h2 style={{ fontSize: 22, marginBottom: 16 }}>
-          Partners <span className="serif-italic">estrategicos</span>
+          Partners estrategicos
         </h2>
         <p style={{ lineHeight: 1.8, color: 'rgba(0,0,0,0.75)', maxWidth: 700 }}>
           Minute Call es partner comercial de <strong>Teleperformance</strong> (líder mundial en BPO con
@@ -219,7 +219,7 @@ export default function SobreNosotros() {
       {/* Equipo */}
       <section style={{ marginBottom: 64 }}>
         <h2 style={{ fontSize: 22, marginBottom: 32 }}>
-          Nuestro <span className="serif-italic">equipo</span>
+          Nuestro equipo
         </h2>
         <div
           style={{
@@ -322,7 +322,7 @@ export default function SobreNosotros() {
       {/* Trustpilot */}
       <section style={{ marginBottom: 48 }}>
         <h2 style={{ fontSize: 22, marginBottom: 16 }}>
-          Lo que dicen nuestros <span className="serif-italic">clientes</span>
+          Lo que dicen nuestros clientes
         </h2>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
           {[
