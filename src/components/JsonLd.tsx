@@ -24,15 +24,6 @@ export const OrganizationSchema: React.FC = () => {
     sameAs: ['https://www.linkedin.com/company/minute-call/', 'https://es.trustpilot.com/review/minute-call.com'],
     aggregateRating: { '@type': 'AggregateRating', ratingValue: '5.0', reviewCount: '13', bestRating: '5' },
     knowsAbout: ['Atención telefónica 24/7', 'Recepcionista virtual', 'Call center para PYMES', 'IA conversacional', 'BPO y externalización', 'Cualificación de leads'],
-    hasOfferCatalog: {
-      '@type': 'OfferCatalog',
-      name: 'Planes de recepcionista virtual',
-      itemListElement: [
-        { '@type': 'Offer', name: 'Plan Starter', price: '250', priceCurrency: 'EUR' },
-        { '@type': 'Offer', name: 'Plan Business', price: '490', priceCurrency: 'EUR' },
-        { '@type': 'Offer', name: 'Plan Enterprise', price: '890', priceCurrency: 'EUR' },
-      ],
-    },
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 };
@@ -181,7 +172,6 @@ export const HowToSchema: React.FC<HowToSchemaProps> = ({ steps }) => {
 /**
  * ServiceSchema Component
  * Outputs Service schema for each core offering
- * NOW INCLUDES: hasOfferCatalog with pricing tiers
  */
 interface ServiceItem {
   name: string;
@@ -517,17 +507,6 @@ export const CityServiceSchema: React.FC<CityServiceSchemaProps> = ({ cityName, 
     },
     serviceType: 'Atención telefónica',
     url: `https://www.minute-call.com/atencion-telefonica/${slug}`,
-    offers: {
-      '@type': 'Offer',
-      price: '250',
-      priceCurrency: 'EUR',
-      priceSpecification: {
-        '@type': 'UnitPriceSpecification',
-        price: '250',
-        priceCurrency: 'EUR',
-        unitText: 'mes',
-      },
-    },
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 };
