@@ -161,11 +161,7 @@ export default function RootLayout({
                 "name": "Recepcionista virtual para PYMES",
                 "provider": { "@id": "https://www.minute-call.com/#organization" },
                 "description": "Servicio de recepcionista virtual y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA. Sin permanencia.",
-                "areaServed": { "@type": "Country", "name": "Espana", "identifier": "ES" },
-                "speakable": {
-                  "@type": "SpeakableSpecification",
-                  "cssSelector": ["h1", "h2", ".hero-subtitle", "[data-speakable]"]
-                }
+                "areaServed": { "@type": "Country", "name": "Espana", "identifier": "ES" }
               }
             ]
           })
