@@ -6,7 +6,7 @@ import { OrganizationSchema } from "@/components/JsonLd";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Minute Call | Call Center y Atencion Telefonica para PYMES",
+  title: "Minute Call | Call Center para PYMES",
   description:
     "Servicio de call center para PYMES con agentes nativos. Recepción de llamadas, cualificación de leads y gestión de citas 24/7. Sin permanencia, activo en 48h.",
   metadataBase: new URL("https://www.minute-call.com"),
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Minute Call",
     locale: "es_ES",
     type: "website",
-    title: "Minute Call | Call Center y Atencion Telefonica para PYMES",
+    title: "Minute Call | Call Center para PYMES",
     description:
       "Servicio de call center para PYMES con agentes nativos. Recepción de llamadas, cualificación de leads y gestión de citas 24/7. Sin permanencia.",
     url: "https://www.minute-call.com",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Minute Call | Call Center y Atencion Telefonica para PYMES",
+    title: "Minute Call | Call Center para PYMES",
     description:
       "Call center para PYMES con agentes nativos. Recepción de llamadas, cualificación de leads y gestión de citas 24/7.",
     images: ["/og-image.png"],
