@@ -6,33 +6,33 @@ import { OrganizationSchema } from "@/components/JsonLd";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Recepcionista virtual para PYMES | Minute Call",
+  title: "Minute Call | Call Center y Atencion Telefonica para PYMES",
   description:
-    "Servicio de atención telefónica con agentes nativos y asistentes de IA. Recepción de llamadas, filtrado, conversión de leads y gestión de citas para PYMES.",
+    "Servicio de call center para PYMES con agentes nativos. Recepción de llamadas, cualificación de leads y gestión de citas 24/7. Sin permanencia, activo en 48h.",
   metadataBase: new URL("https://www.minute-call.com"),
   alternates: { canonical: "/" },
   openGraph: {
     siteName: "Minute Call",
     locale: "es_ES",
     type: "website",
-    title: "Recepcionista virtual para PYMES | Minute Call",
+    title: "Minute Call | Call Center y Atencion Telefonica para PYMES",
     description:
-      "Servicio de atención telefónica con agentes nativos y asistentes de IA para PYMES. Sin perder ni una llamada.",
+      "Servicio de call center para PYMES con agentes nativos. Recepción de llamadas, cualificación de leads y gestión de citas 24/7. Sin permanencia.",
     url: "https://www.minute-call.com",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Minute Call – Recepcionista virtual para PYMES",
+        alt: "Minute Call – Call center y atención telefónica para PYMES",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Recepcionista virtual para PYMES | Minute Call",
+    title: "Minute Call | Call Center y Atencion Telefonica para PYMES",
     description:
-      "Servicio de atención telefónica con agentes nativos y asistentes de IA. Sin perder ni una llamada.",
+      "Call center para PYMES con agentes nativos. Recepción de llamadas, cualificación de leads y gestión de citas 24/7.",
     images: ["/og-image.png"],
   },
   icons: {
@@ -103,7 +103,7 @@ export default function RootLayout({
         '@type': 'LocalBusiness',
         '@id': 'https://www.minute-call.com/#localbusiness-rating',
         name: 'minute call',
-        description: 'Servicio de recepcionista virtual y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA.',
+        description: 'Servicio de call center y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA.',
         url: 'https://www.minute-call.com',
         areaServed: { '@type': 'Country', name: 'Espana', sameAs: 'https://www.wikidata.org/wiki/Q29' },
         priceRange: '€€',
@@ -158,9 +158,9 @@ export default function RootLayout({
               {
                 "@type": "Service",
                 "@id": "https://www.minute-call.com/#service",
-                "name": "Recepcionista virtual para PYMES",
+                "name": "Call center y atencion telefonica para PYMES",
                 "provider": { "@id": "https://www.minute-call.com/#organization" },
-                "description": "Servicio de recepcionista virtual y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA. Sin permanencia.",
+                "description": "Servicio de call center y atencion telefonica 24/7 para PYMES en Espana. Agentes nativos o IA. Sin permanencia.",
                 "areaServed": { "@type": "Country", "name": "Espana", "identifier": "ES" }
               }
             ]
