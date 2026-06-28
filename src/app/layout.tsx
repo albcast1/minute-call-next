@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-// import WhatsAppButton from "@/components/WhatsAppButton"; // oculto temporalmente mientras WhatsApp revisa la cuenta
+import WhatsAppButton from "@/components/WhatsAppButton";
 import { OrganizationSchema } from "@/components/JsonLd";
 import Script from "next/script";
 
@@ -173,7 +173,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-[#EFEBE5]">
         <Nav />
         <main className="flex-grow">{children}</main>
-        {/* <WhatsAppButton /> */}  {/* oculto temporalmente mientras WhatsApp revisa la cuenta */}
+        <WhatsAppButton />
         <Footer />
       </body>
     </html>
