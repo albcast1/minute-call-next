@@ -446,24 +446,62 @@ export default function Home() {
           Nuestro equipo
         </span>
         <h2 style={{ marginTop: 16 }}>
-          Fundado por quien escaló <span className="serif-italic">startups.</span>
+          Fundado por quien ha escalado startups <span className="serif-italic">de 0 a millones.</span>
         </h2>
-        <div style={{ display: "flex", gap: 24, marginTop: 48, flexWrap: "wrap", justifyContent: "center" }}>
-          <div style={{ flex: "0 1 340px", minWidth: 0, maxWidth: 340, textAlign: "left" }}>
-            <div
-              style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}
-            >
+        <div
+          style={{
+            display: "flex",
+            gap: 40,
+            marginTop: 48,
+            flexWrap: "wrap",
+            alignItems: "center",
+            justifyContent: "center",
+            maxWidth: 900,
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "left",
+          }}
+        >
+          <div style={{ flex: "1 1 300px", minWidth: 260, maxWidth: 380 }}>
+            <div style={{ overflow: "hidden", borderRadius: 16, aspectRatio: "524/465" }}>
               <img
                 src="/assets/team/alberto.jpg"
-                alt="Alberto Castiel"
-                width={260} height={260} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                alt="Alberto Castiel, fundador de Minute Call"
+                width={380} height={337} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
               loading="lazy" />
             </div>
-            <h3 style={{ fontSize: 22 }}>Alberto Castiel</h3>
-            <p className="service-card-body">
-              Ex General Manager en Leocare (130M€ en Series B). Lideró el crecimiento de una
-              fintech de 0 a 45M€ con +30 agentes.
+          </div>
+          <div style={{ flex: "1 1 360px", minWidth: 280 }}>
+            <h3 style={{ fontSize: 24, marginBottom: 4 }}>Alberto Castiel</h3>
+            <p style={{ fontSize: 14, color: "rgba(0,0,0,0.5)", marginBottom: 16 }}>Fundador</p>
+            <p className="service-card-body" style={{ marginBottom: 16 }}>
+              Fundador de Minute Call y actualmente Head of Global Operations en Naboo, plataforma
+              B2B de gestión de eventos con IA respaldada por más de 90M€ de fondos como Lightspeed
+              (el VC detrás de Anthropic y ElevenLabs). Antes fue General Manager en España de
+              Leocare, insurtech valorada en 350M€, donde lideró el rediseño de operaciones con IA y
+              redujo el tiempo medio de respuesta de 7 horas a 18 minutos.
             </p>
+            <p className="service-card-body">
+              Como Country Manager en Francia de Novum Bank escaló el mercado francés desde cero
+              hasta +45M€ de facturación anual con un crecimiento del 70% interanual, multiplicó el
+              EBITDA ×8 y gestionó un equipo de +30 personas. Ex consultor de Estrategia y
+              Operaciones en Deloitte. Formado en Administración de Empresas y Derecho en la UC3M.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/albertocastiel/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginTop: 16,
+                fontSize: 14,
+                color: "#000",
+                textDecoration: "underline",
+                textUnderlineOffset: 3,
+              }}
+            >
+              LinkedIn →
+            </a>
           </div>
         </div>
       </section>
