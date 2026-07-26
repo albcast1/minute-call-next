@@ -37,15 +37,8 @@ export default function SobreNosotros() {
         "@type": "Person",
         "@id": "https://www.minute-call.com/#alberto-castiel",
         name: "Alberto Castiel",
-        jobTitle: "Co-fundador",
+        jobTitle: "Fundador",
         sameAs: ["https://www.linkedin.com/in/alberto-castiel/"],
-      },
-      {
-        "@type": "Person",
-        "@id": "https://www.minute-call.com/#beatriz-de-tena",
-        name: "Beatriz De Tena",
-        jobTitle: "Co-fundadora",
-        sameAs: ["https://www.linkedin.com/in/beatrizdetena/"],
       },
     ],
     numberOfEmployees: { "@type": "QuantitativeValue", minValue: 10, maxValue: 50 },
@@ -86,8 +79,8 @@ export default function SobreNosotros() {
       <PersonSchema
         id="https://www.minute-call.com/#alberto-castiel"
         name="Alberto Castiel"
-        jobTitle="Co-fundador de minute call"
-        description="Co-fundador de Minute Call. Ex General Manager en Leocare (insurtech, 350M€ valoración). Escaló una fintech de 0 a 45M€ como Country Manager en Novum Bank. Ex consultor en Deloitte. Ex Head of Global Operations en Naboo (respaldada por Lightspeed, VC detrás de Anthropic y ElevenLabs)."        sameAs={["https://www.linkedin.com/in/alberto-castiel/"]}
+        jobTitle="Fundador de minute call"
+        description="Fundador de Minute Call. Ex General Manager en Leocare (insurtech, 350M€ valoración). Escaló una fintech de 0 a 45M€ como Country Manager en Novum Bank. Ex consultor en Deloitte. Ex Head of Global Operations en Naboo (respaldada por Lightspeed, VC detrás de Anthropic y ElevenLabs)."        sameAs={["https://www.linkedin.com/in/alberto-castiel/"]}
         knowsAbout={[
           "Atención telefónica 24/7",
           "Call center para PYMES",
@@ -97,19 +90,6 @@ export default function SobreNosotros() {
           "Cualificación de leads",
           "Operaciones de startups",
           "Growth B2B",
-        ]}
-      />
-      <PersonSchema
-        id="https://www.minute-call.com/#beatriz-de-tena"
-        name="Beatriz De Tena"
-        jobTitle="Co-fundadora de minute call"
-        description="Co-fundadora de Minute Call. Ex CEO de Walmeric by Globant (NYSE:GLOB). Ex Directora Global de Ventas en Konecta y Telefónica. Business Director de Salesforce en Shaper by atmira. Más de 15 años impulsando transformación digital en banca, seguros, energía y telecomunicaciones."
-        sameAs={["https://www.linkedin.com/in/beatrizdetena/"]}
-        knowsAbout={[
-          "Operaciones de atención telefónica",
-          "Gestión de equipos multinacionales",
-          "BPO y externalización",
-          "Ventas B2B",
         ]}
       />
       <ReviewSchema authorName="María Monsalve" authorRole="Directora de Clínica" reviewBody={rev1Body} ratingValue={5} />
@@ -132,10 +112,6 @@ export default function SobreNosotros() {
         fundado en noviembre de 2024 por{" "}
         <a href="https://www.linkedin.com/in/alberto-castiel/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
           Alberto Castiel
-        </a>{" "}
-        y{" "}
-        <a href="https://www.linkedin.com/in/beatrizdetena/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
-          Beatriz De Tena
         </a>.
         Ofrecemos agentes humanos nativos e inteligencia artificial para que ninguna llamada quede
         sin responder. Partners comerciales de Teleperformance y Zendesk.
@@ -224,7 +200,7 @@ export default function SobreNosotros() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))",
+            gridTemplateColumns: "minmax(0, 420px)",
             gap: 24,
           }}
         >
@@ -242,12 +218,12 @@ export default function SobreNosotros() {
             >
               <img
                 src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
-                alt="Alberto Castiel, co-fundador de Minute Call"
+                alt="Alberto Castiel, fundador de Minute Call"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <h3 style={{ fontSize: 22, marginBottom: 4 }}>Alberto Castiel</h3>
-            <p style={{ fontSize: 14, color: 'rgba(0,0,0,0.5)', marginBottom: 12 }}>Co-fundador</p>
+            <p style={{ fontSize: 14, color: 'rgba(0,0,0,0.5)', marginBottom: 12 }}>Fundador</p>
             <p style={{ fontSize: 15, lineHeight: 1.7, color: 'rgba(0,0,0,0.75)' }}>
               Ex General Manager en Leocare (insurtech valorada en 350M€). Como Country Manager
               en Novum Bank, escaló el mercado francés de 0 a 45M€ de facturación con crecimiento
@@ -258,52 +234,6 @@ export default function SobreNosotros() {
             <a
               href="https://www.linkedin.com/in/alberto-castiel/"
               target="_blank"              rel="noopener noreferrer"
-              style={{
-                display: 'inline-block',
-                marginTop: 12,
-                fontSize: 14,
-                color: '#000',
-                textDecoration: 'underline',
-                textUnderlineOffset: 3,
-              }}
-            >
-              LinkedIn →
-            </a>
-          </div>
-
-          {/* Beatriz */}
-          <div className="card" style={{ padding: 32 }}>
-            <div
-              style={{
-                width: "100%",
-                aspectRatio: "1.13",
-                borderRadius: 16,
-                overflow: "hidden",
-                marginBottom: 24,
-                background: "rgba(0,0,0,0.04)",
-              }}
-            >
-              <img
-                src="https://framerusercontent.com/images/6QCXvNGkCPpl1XOgOz1Op6nosP0.jpeg"
-                alt="Beatriz De Tena, co-fundadora de Minute Call"
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
-              />
-            </div>
-            <h3 style={{ fontSize: 22, marginBottom: 4 }}>Beatriz De Tena</h3>
-            <p style={{ fontSize: 14, color: 'rgba(0,0,0,0.5)', marginBottom: 12 }}>Co-fundadora</p>
-            <p style={{ fontSize: 15, lineHeight: 1.7, color: 'rgba(0,0,0,0.75)' }}>
-              Ex CEO de Walmeric by Globant (NYSE:GLOB). Ex Directora Global de Ventas en Konecta
-              y Telefónica. Actualmente también es Business Director de la práctica de Salesforce en{" "}
-              <a href="https://www.atmira.com/beatriz-de-tena-se-incorpora-a-shaper-by-atmira-como-business-director-en-la-practica-de-salesforce/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
-                Shaper by atmira
-              </a>, donde lidera el desarrollo de negocio y la estrategia de la unidad.
-              Más de 15 años impulsando proyectos de transformación digital en banca, seguros,
-              energía, telecomunicaciones y retail, con foco en IA, big data y analítica predictiva.
-            </p>
-            <a
-              href="https://www.linkedin.com/in/beatrizdetena/"
-              target="_blank"
-              rel="noopener noreferrer"
               style={{
                 display: 'inline-block',
                 marginTop: 12,
