@@ -446,10 +446,10 @@ export default function Home() {
           Nuestro equipo
         </span>
         <h2 style={{ marginTop: 16 }}>
-          Fundado por quienes escalaron <span className="serif-italic">startups.</span>
+          Fundado por quien escaló <span className="serif-italic">startups.</span>
         </h2>
-        <div style={{ display: "flex", gap: 24, marginTop: 48, flexWrap: "wrap" }}>
-          <div style={{ flex: "1 1 280px", minWidth: 0, textAlign: "left" }}>
+        <div style={{ display: "flex", gap: 24, marginTop: 48, flexWrap: "wrap", justifyContent: "center" }}>
+          <div style={{ flex: "0 1 340px", minWidth: 0, maxWidth: 340, textAlign: "left" }}>
             <div
               style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}
             >
@@ -463,22 +463,6 @@ export default function Home() {
             <p className="service-card-body">
               Ex General Manager en Leocare (130M€ en Series B). Lideró el crecimiento de una
               fintech de 0 a 45M€ con +30 agentes.
-            </p>
-          </div>
-          <div style={{ flex: "1 1 280px", minWidth: 0, textAlign: "left" }}>
-            <div
-              style={{ overflow: "hidden", borderRadius: 16, marginBottom: 20, aspectRatio: "524/465" }}
-            >
-              <img
-                src="/assets/team/beatriz.jpg"
-                alt="Beatriz De Tena"
-                width={260} height={260} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-              loading="lazy" />
-            </div>
-            <h3 style={{ fontSize: 22 }}>Beatriz De Tena</h3>
-            <p className="service-card-body">
-              Ex CEO en Walmeric by Globant (NYSE:GLOB). También fue Directora Global de Ventas
-              en Konecta y Telefónica.
             </p>
           </div>
         </div>
