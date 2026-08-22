@@ -46,6 +46,7 @@ export default function Footer() {
               <Link href="/sobre-nosotros" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Nosotros</Link>
               <Link href="/politica-privacidad" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Politica de Privacidad</Link>
               <Link href="/politica-cookies" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Politica de Cookies</Link>
+              <Link href="/aviso-legal" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Aviso legal</Link>
               <Link href="/docs" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>API y documentacion</Link>
               <a href="/agent-instructions.md" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Instrucciones para agentes</a>
             </nav>

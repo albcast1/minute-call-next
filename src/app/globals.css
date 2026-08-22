@@ -423,3 +423,29 @@ a:hover {
     font-size: 12px !important;
   }
 }
+
+/* ── Reserva de llamada en movil ──────────────────────────────────
+   El encabezado ocupaba tanto alto que el boton de envio quedaba
+   fuera de pantalla. Se recorta el espacio muerto por encima y por
+   debajo del titular para que el formulario entre completo.        */
+@media (max-width: 768px) {
+  .booking-page {
+    padding-top: 12px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .booking-hero .pill-label {
+    margin-bottom: 10px !important;
+  }
+
+  .booking-hero h1 {
+    margin-top: 4px !important;
+    margin-bottom: 0 !important;
+    font-size: clamp(30px, 8.5vw, 40px) !important;
+    line-height: 1.05 !important;
+  }
+
+  .contact-grid {
+    gap: 20px !important;
+  }
+}

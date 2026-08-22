@@ -73,7 +73,7 @@ const nextConfig: NextConfig = {
       { source: '/en/pricing', destination: '/comparar', permanent: true },
       { source: '/en/contact', destination: '/reserva-llamada', permanent: true },
       { source: '/en/services', destination: '/', permanent: true },
-      { source: '/en/about', destination: '/', permanent: true },
+      { source: '/en/about', destination: '/sobre-nosotros', permanent: true },
       { source: '/en/call-center', destination: '/', permanent: true },
       { source: '/en/virtual-receptionist', destination: '/lp/secretaria-virtual', permanent: true },
       { source: '/en/:slug*', destination: '/', permanent: true },
@@ -81,7 +81,7 @@ const nextConfig: NextConfig = {
       // Old ES routes Google crawled
       { source: '/planes', destination: '/comparar', permanent: true },
       { source: '/como-funciona', destination: '/', permanent: true },
-      { source: '/quienes-somos', destination: '/', permanent: true },
+      { source: '/quienes-somos', destination: '/sobre-nosotros', permanent: true },
       { source: '/atencion-al-cliente', destination: '/lp/recepcion-de-llamadas', permanent: true },
       { source: '/externalizar-atencion-cliente', destination: '/lp/recepcion-de-llamadas', permanent: true },
       { source: '/llamada-perdida', destination: '/', permanent: true },
@@ -111,8 +111,8 @@ const nextConfig: NextConfig = {
       { source: '/es/lp/:slug*', destination: '/', permanent: true },
       { source: '/es/:slug*', destination: '/', permanent: true },
       { source: '/book-a-call', destination: '/reserva-llamada', permanent: true },
-      { source: '/about', destination: '/', permanent: true },
-      { source: '/about-minute-call', destination: '/', permanent: true },
+      { source: '/about', destination: '/sobre-nosotros', permanent: true },
+      { source: '/about-minute-call', destination: '/sobre-nosotros', permanent: true },
       { source: '/ai-automation-agency', destination: '/', permanent: true },
       { source: '/automation-marketing-agencies', destination: '/', permanent: true },
       { source: '/articles', destination: '/articulos', permanent: true },
@@ -123,7 +123,7 @@ const nextConfig: NextConfig = {
       { source: '/en/best-contact-center-for-startups', destination: '/', permanent: true },
       { source: '/en/automation-marketing-agencies', destination: '/', permanent: true },
       { source: '/en/articles/:slug*', destination: '/articulos', permanent: true },
-      { source: '/en/about-us', destination: '/', permanent: true },
+      { source: '/en/about-us', destination: '/sobre-nosotros', permanent: true },
       { source: '/en/book-a-call', destination: '/reserva-llamada', permanent: true },
       { source: '/articles/secretaria-virtual-pymes-espana', destination: '/articulos/secretaria-virtual-pymes-espana', permanent: true },
       { source: '/articles/secretaria-virtual-o-call-center-para-pymes', destination: '/articulos/secretaria-virtual-o-call-center-para-pymes', permanent: true },
@@ -139,6 +139,21 @@ const nextConfig: NextConfig = {
       { source: '/documentacion', destination: '/docs', permanent: true },
       { source: '/api-docs', destination: '/docs', permanent: true },
       { source: '/openapi.yaml', destination: '/api/openapi.yaml', permanent: true },
+
+      // ── Rutas que un agente sondea al verificar la empresa ──────────
+      // Antes /about y /quienes-somos caian en la home, asi que el agente
+      // recibia un 200 con la portada y ninguna informacion verificable.
+      { source: '/about-us', destination: '/sobre-nosotros', permanent: true },
+      { source: '/nosotros', destination: '/sobre-nosotros', permanent: true },
+      { source: '/team', destination: '/sobre-nosotros', permanent: true },
+      { source: '/equipo', destination: '/sobre-nosotros', permanent: true },
+      { source: '/company', destination: '/sobre-nosotros', permanent: true },
+      { source: '/pricing', destination: '/comparar', permanent: true },
+      { source: '/legal', destination: '/aviso-legal', permanent: true },
+      { source: '/legal-notice', destination: '/aviso-legal', permanent: true },
+      { source: '/terms', destination: '/aviso-legal', permanent: true },
+      { source: '/terminos', destination: '/aviso-legal', permanent: true },
+      { source: '/imprint', destination: '/aviso-legal', permanent: true },
     ]
   },
 }

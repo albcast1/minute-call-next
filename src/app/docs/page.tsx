@@ -212,6 +212,8 @@ curl -s ${SITE_URL}/lp/recepcionista-ia-clinicas.md`}</pre>
           <li><a href="/llms.txt">/llms.txt</a> — resumen del sitio para LLMs.</li>
           <li><a href="/llms-full.txt">/llms-full.txt</a> — contenido completo para LLMs.</li>
           <li><a href="/sitemap.xml">/sitemap.xml</a> — índice de páginas.</li>
+          <li><a href="/sobre-nosotros.md">/sobre-nosotros.md</a> — identidad de la empresa, fundador y partners en Markdown.</li>
+          <li><a href="/aviso-legal">/aviso-legal</a> — datos del titular conforme a la LSSI-CE.</li>
           <li><a href="/index.md">/index.md</a> — versión Markdown de la portada.</li>
         </ul>
       </section>

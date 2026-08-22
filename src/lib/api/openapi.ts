@@ -110,8 +110,8 @@ export function buildOpenApiDocument() {
         get: {
           operationId: 'getService',
           tags: ['service'],
-          summary: 'Get the service description and when-to-use guidance',
-          description: 'Returns what Minute Call does, the languages covered, activation time, contract terms, and explicit guidance on when an agent should and should not recommend it.',
+          summary: 'Get the service description, company identity and when-to-use guidance',
+          description: 'Returns what Minute Call does, the languages covered, activation time, contract terms, the registered company identity (legal name, tax id, address, founder, partners, third-party rating) that an agent needs to verify the business, and explicit guidance on when it should and should not be recommended.',
           responses: {
             200: {
               description: 'Service description.',
@@ -377,6 +377,42 @@ export function buildOpenApiDocument() {
                 published: { type: 'boolean' },
                 note: { type: 'string' },
                 quote_url: { type: 'string', format: 'uri' },
+              },
+            },
+            company: {
+              type: 'object',
+              description: 'Registered identity and third-party trust signals, for agents verifying the business.',
+              properties: {
+                legal_name: { type: 'string', description: 'Registered company name.' },
+                trading_name: { type: 'string' },
+                tax_id: { type: 'string', description: 'Spanish NIF of the company.' },
+                registered_address: { type: 'string' },
+                country: { type: 'string', description: 'ISO 3166-1 alpha-2 country code.' },
+                founded: { type: 'string', description: 'Month the company was incorporated (YYYY-MM).' },
+                founder: {
+                  type: 'object',
+                  properties: {
+                    name: { type: 'string' },
+                    role: { type: 'string' },
+                    linkedin: { type: 'string', format: 'uri' },
+                  },
+                },
+                partners: { type: 'array', items: { type: 'string' } },
+                rating: {
+                  type: 'object',
+                  description: 'Third-party review score, with the source that can be checked independently.',
+                  properties: {
+                    value: { type: 'number' },
+                    best: { type: 'number' },
+                    count: { type: 'integer' },
+                    source: { type: 'string', format: 'uri' },
+                  },
+                },
+                profiles: { type: 'array', items: { type: 'string', format: 'uri' } },
+                contact_email: { type: 'string', format: 'email' },
+                legal_notice_url: { type: 'string', format: 'uri' },
+                privacy_policy_url: { type: 'string', format: 'uri' },
+                about_url: { type: 'string', format: 'uri' },
               },
             },
             when_to_use: { type: 'array', items: { type: 'string' } },
