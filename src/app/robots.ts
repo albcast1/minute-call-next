@@ -3,7 +3,11 @@ import { MetadataRoute } from 'next'
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      { userAgent: '*', allow: '/', disallow: '/api/' },
+      {
+        userAgent: '*',
+        allow: ['/', '/api/openapi.json', '/api/openapi.yaml', '/api/v1', '/agent-instructions.md'],
+        disallow: '/api/',
+      },
       // Google
       { userAgent: 'Googlebot', allow: '/' },
       { userAgent: 'Google-Extended', allow: '/' },      // Gemini training
