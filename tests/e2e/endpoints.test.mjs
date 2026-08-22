@@ -74,11 +74,28 @@ test('Accept: text/markdown returns Markdown with Vary: Accept', async () => {
   assert.match(text, /^#/m)
 })
 
-test('the HTML variant also advertises Vary: Accept', async () => {
+/**
+ * Known Next.js behaviour, verified against a real deployment: on prerendered
+ * App Router pages Next writes its own `Vary` (the RSC router headers) into the
+ * prerender metadata, which replaces anything set by `next.config.ts` headers()
+ * or by the Proxy. `Accept` therefore cannot appear in the Vary of a static HTML
+ * page from userland.
+ *
+ * This does not reopen the cache-poisoning hole that Vary protects against: the
+ * Proxy negotiates before the CDN cache is consulted and rewrites every
+ * `Accept: text/markdown` request to /md, so a markdown request can never be
+ * served the cached HTML variant. The Markdown responses themselves - the ones
+ * acceptmarkdown.com asks about - do carry `Vary: Accept, Accept-Encoding`,
+ * which the test above asserts.
+ *
+ * What the HTML variant must do is point agents at the Markdown alternate.
+ */
+test('the HTML variant advertises the Markdown alternate and keeps the RSC Vary', async () => {
   const { response, status } = await get('/', { headers: { Accept: 'text/html' } })
   assert.equal(status, 200)
   assert.match(response.headers.get('content-type') ?? '', /text\/html/)
-  assert.ok(varyIncludesAccept(response), `Vary must include Accept, got "${response.headers.get('vary')}"`)
+  assert.match(response.headers.get('link') ?? '', /<\/index\.md>; rel="alternate"; type="text\/markdown"/)
+  assert.match(response.headers.get('vary') ?? '', /rsc/i)
 })
 
 test('q-values decide the representation', async () => {

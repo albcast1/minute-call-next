@@ -81,9 +81,12 @@ curl -s -H 'Accept: text/markdown' https://www.minute-call.com/lp/recepcionista-
 curl -s https://www.minute-call.com/lp/recepcionista-ia-clinicas.md
 ```
 
-Responses set `Content-Type: text/markdown; charset=utf-8` and
-`Vary: Accept, Accept-Encoding`. Paths that do not exist return HTTP 404 with a short
-Markdown body listing the sitemap, llms.txt and this file.
+Markdown responses set `Content-Type: text/markdown; charset=utf-8` and
+`Vary: Accept, Accept-Encoding`, honour q-values, and answer `406` when no offered
+representation is acceptable. Paths that do not exist return HTTP 404 with a short
+Markdown body listing the sitemap, llms.txt and this file. HTML responses carry a
+`Link: <path.md>; rel="alternate"; type="text/markdown"` header pointing at the
+Markdown twin.
 
 ## Rules for agents
 
