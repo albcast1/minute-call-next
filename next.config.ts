@@ -1,6 +1,45 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+
+  async headers() {
+    // `Accept` must be part of Vary so a CDN never serves the cached HTML variant
+    // to an agent asking for Markdown (acceptmarkdown.com), and vice versa.
+    const vary = {
+      key: 'Vary',
+      value:
+        'Accept, Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch',
+    }
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          vary,
+          {
+            key: 'Link',
+            value: [
+              '<https://www.minute-call.com/openapi.json>; rel="service-desc"; type="application/json"',
+              '<https://www.minute-call.com/agent-instructions.md>; rel="help"; type="text/markdown"',
+              '<https://www.minute-call.com/sitemap.xml>; rel="sitemap"; type="application/xml"',
+            ].join(', '),
+          },
+        ],
+      },
+      {
+        source: '/agent-instructions.md',
+        headers: [vary, { key: 'Content-Type', value: 'text/markdown; charset=utf-8' }],
+      },
+      {
+        source: '/llms.txt',
+        headers: [vary, { key: 'Content-Type', value: 'text/plain; charset=utf-8' }],
+      },
+      {
+        source: '/llms-full.txt',
+        headers: [vary, { key: 'Content-Type', value: 'text/plain; charset=utf-8' }],
+      },
+    ]
+  },
+
   async redirects() {
     return [
       // 301 redirects para URLs antiguas indexadas en Google que devuelven 404
@@ -88,6 +127,18 @@ const nextConfig: NextConfig = {
       { source: '/en/book-a-call', destination: '/reserva-llamada', permanent: true },
       { source: '/articles/secretaria-virtual-pymes-espana', destination: '/articulos/secretaria-virtual-pymes-espana', permanent: true },
       { source: '/articles/secretaria-virtual-o-call-center-para-pymes', destination: '/articulos/secretaria-virtual-o-call-center-para-pymes', permanent: true },
+
+      // ── Trust anchor + developer resource aliases (agent readiness) ──
+      { source: '/privacy', destination: '/politica-privacidad', permanent: true },
+      { source: '/privacy-policy', destination: '/politica-privacidad', permanent: true },
+      { source: '/politica-de-privacidad', destination: '/politica-privacidad', permanent: true },
+      { source: '/cookies', destination: '/politica-cookies', permanent: true },
+      { source: '/contact', destination: '/reserva-llamada', permanent: true },
+      { source: '/developers', destination: '/docs', permanent: true },
+      { source: '/desarrolladores', destination: '/docs', permanent: true },
+      { source: '/documentacion', destination: '/docs', permanent: true },
+      { source: '/api-docs', destination: '/docs', permanent: true },
+      { source: '/openapi.yaml', destination: '/api/openapi.yaml', permanent: true },
     ]
   },
 }
