@@ -172,6 +172,7 @@ test('robots.txt and sitemap.xml are still served', async () => {
   assert.equal(sitemap.status, 200)
   assert.ok(sitemap.text.includes('/docs'))
   assert.ok(sitemap.text.includes('/politica-privacidad'))
+  assert.ok(sitemap.text.includes('/aviso-legal'))
 })
 
 /* -------------------------------------------------------------- OpenAPI -- */
@@ -387,6 +388,60 @@ test('the trust anchor pages resolve', async () => {
     const { status } = await get(path)
     assert.equal(status, 200, `${path} should be 200`)
   }
+})
+
+test('/about and its aliases reach the real about page, not the homepage', async () => {
+  // Regression: these used to 301 to "/", so an agent probing /about got a 200
+  // with the homepage and no verifiable company information at all.
+  for (const path of ['/about', '/about-us', '/quienes-somos', '/nosotros', '/team', '/company']) {
+    const { response, status } = await get(path)
+    assert.equal(status, 308, `${path} should redirect`)
+    assert.equal(response.headers.get('location'), '/sobre-nosotros', `${path} should land on the about page`)
+  }
+})
+
+test('the legal notice is published with the registered company details', async () => {
+  const { text, status } = await get('/aviso-legal')
+  assert.equal(status, 200)
+  for (const needle of ['MINUTE CALL SLU', 'B22766828', 'Sierra de Grazalema', 'LSSI']) {
+    assert.ok(text.includes(needle), `the legal notice should state ${needle}`)
+  }
+})
+
+test('/legal and /terms reach the legal notice', async () => {
+  for (const path of ['/legal', '/terms', '/imprint']) {
+    const { response, status } = await get(path)
+    assert.equal(status, 308, `${path} should redirect`)
+    assert.equal(response.headers.get('location'), '/aviso-legal')
+  }
+})
+
+test('the about page in Markdown carries the facts an agent needs to verify the business', async () => {
+  const { response, text, status } = await get('/sobre-nosotros.md')
+  assert.equal(status, 200)
+  assert.match(response.headers.get('content-type') ?? '', /text\/markdown/)
+  for (const needle of [
+    'MINUTE CALL SLU',
+    'B22766828',
+    'Alberto Castiel',
+    'Teleperformance',
+    'Zendesk',
+    'trustpilot.com',
+    'linkedin.com',
+    '/aviso-legal',
+  ]) {
+    assert.ok(text.includes(needle), `the about Markdown should mention ${needle}`)
+  }
+})
+
+test('GET /api/v1/service exposes the registered company identity', async () => {
+  const body = JSON.parse((await get('/api/v1/service')).text)
+  assert.equal(body.company.legal_name, 'MINUTE CALL SLU')
+  assert.equal(body.company.tax_id, 'B22766828')
+  assert.equal(body.company.country, 'ES')
+  assert.ok(body.company.founder.name)
+  assert.ok(body.company.rating.source.startsWith('http'))
+  assert.ok(body.company.legal_notice_url.endsWith('/aviso-legal'))
 })
 
 test('/privacy and /contact redirect to the real pages', async () => {

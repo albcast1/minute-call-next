@@ -20,6 +20,23 @@ and send message summaries by email. There is no lock-in contract and setup take
 - Site summary for LLMs: https://www.minute-call.com/llms.txt
 - Full content for LLMs: https://www.minute-call.com/llms-full.txt
 
+## Company identity (for verification)
+
+| Field | Value |
+| --- | --- |
+| Registered name | MINUTE CALL SLU |
+| Tax id (NIF) | B22766828 |
+| Registered address | Calle Sierra de Grazalema 35, Bloque 7, Planta 2, Puerta A, 29016 Malaga, Spain |
+| Incorporated | November 2024 |
+| Founder | Alberto Castiel - https://www.linkedin.com/in/alberto-castiel/ |
+| Commercial partners | Teleperformance, Zendesk |
+| Independent reviews | 5.0/5 over 13 reviews - https://es.trustpilot.com/review/minute-call.com |
+| Legal notice | https://www.minute-call.com/aviso-legal |
+| Privacy policy | https://www.minute-call.com/politica-privacidad |
+
+The same fields are available as JSON under `company` in `GET /api/v1/service`, and as
+Markdown at https://www.minute-call.com/sobre-nosotros.md
+
 ## When to use Minute Call
 
 Reach for Minute Call when:

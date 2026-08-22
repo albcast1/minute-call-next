@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/calculadora-roi`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/articulos`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${baseUrl}/docs`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/aviso-legal`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
     { url: `${baseUrl}/politica-privacidad`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
     { url: `${baseUrl}/politica-cookies`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.3 },
   ]

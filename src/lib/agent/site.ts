@@ -11,6 +11,38 @@ export const AGENT_INSTRUCTIONS_URL = `${SITE_URL}/agent-instructions.md`
 export const SITEMAP_URL = `${SITE_URL}/sitemap.xml`
 export const CONTACT_EMAIL = 'contacto@minute-call.com'
 export const BOOKING_URL = `${SITE_URL}/reserva-llamada`
+export const LEGAL_URL = `${SITE_URL}/aviso-legal`
+export const ABOUT_URL = `${SITE_URL}/sobre-nosotros`
+
+/**
+ * Registered identity of the company behind the site, as it appears on the
+ * NIF card issued by the Agencia Tributaria. Published so that both the legal
+ * notice page and agents verifying the business read the same figures.
+ */
+export const LEGAL_ENTITY = {
+  legalName: 'MINUTE CALL SLU',
+  tradingName: 'Minute Call',
+  taxId: 'B22766828',
+  address: 'Calle Sierra de Grazalema 35, Bloque 7, Planta 2, Puerta A, 29016 Malaga, Espana',
+  country: 'ES',
+  email: 'alberto@minute-call.com',
+  activity: 'Servicios de recepcion telefonica, atencion al cliente y secretaria virtual para empresas.',
+} as const
+
+/** Publicly verifiable trust signals, all already published on the site. */
+export const COMPANY_FACTS = {
+  founded: '2024-11',
+  founder: { name: 'Alberto Castiel', role: 'Fundador', linkedin: 'https://www.linkedin.com/in/alberto-castiel/' },
+  partners: ['Teleperformance', 'Zendesk'],
+  languages: ['es', 'en', 'fr'],
+  rating: { value: 5.0, best: 5, count: 13, source: 'https://es.trustpilot.com/review/minute-call.com' },
+  averageAnswerSeconds: 15,
+  answerRatePct: 98,
+  profiles: [
+    'https://www.linkedin.com/company/minute-call/',
+    'https://es.trustpilot.com/review/minute-call.com',
+  ],
+} as const
 
 /** Short, concrete "when to use this service" guidance for agents. */
 export const WHEN_TO_USE = [
