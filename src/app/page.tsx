@@ -55,8 +55,25 @@ export default function Home() {
         {/* Left column */}
         <div>
 
+          {/* Trustpilot - same badge the sector landings use */}
+          <a
+            href="https://es.trustpilot.com/review/minute-call.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Opiniones de Minute Call en Trustpilot: 5 sobre 5"
+            style={{ display: "inline-block", marginBottom: 8 }}
+          >
+            <img
+              src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
+              alt="Valoracion 5 sobre 5 en Trustpilot"
+              width={200}
+              height={36}
+              style={{ height: 36, width: "auto", maxWidth: "100%" }}
+            />
+          </a>
+
           {/* Main heading */}
-          <h1 style={{ marginTop: 24 }}>
+          <h1 style={{ marginTop: 8 }}>
             Atención telefónica <span className="serif-italic">24/7.</span>
           </h1>
 

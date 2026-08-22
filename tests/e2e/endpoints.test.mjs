@@ -473,6 +473,11 @@ test('the privacy policy has enough substance to read as a trust anchor', async 
   assert.ok(visible.length > 500, `expected >500 characters of copy, got ${visible.length}`)
 })
 
+test('the homepage shows the Trustpilot trust signal', async () => {
+  const { text } = await get('/')
+  assert.ok(text.includes('trustpilot.com/review/minute-call.com'), 'homepage should link to the Trustpilot profile')
+})
+
 test('the homepage links to the developer documentation', async () => {
   const { text } = await get('/')
   assert.ok(text.includes('/docs'), 'homepage should link to /docs')
