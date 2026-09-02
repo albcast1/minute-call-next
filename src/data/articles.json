@@ -3031,6 +3031,10 @@
       {
         "href": "/reserva-llamada",
         "label": "Reserva una llamada"
+      },
+      {
+        "href": "/articulos/call-center-para-pequenas-empresas",
+        "label": "Call center para pequeñas empresas"
       }
     ]
   },
@@ -3067,6 +3071,46 @@
       {
         "href": "/reserva-llamada",
         "label": "Reserva una llamada"
+      },
+      {
+        "href": "/articulos/call-center-para-pequenas-empresas",
+        "label": "Call center para pequeñas empresas"
+      }
+    ]
+  },
+  {
+    "slug": "call-center-para-pequenas-empresas",
+    "title": "Call center para pequenas empresas",
+    "metaTitle": "Call center para pequenas empresas | minute call",
+    "metaDescription": "Call center para pequeñas empresas: atención telefónica profesional sin volumen mínimo ni equipo dedicado. Agentes nativos, activo en 48 horas y sin permanencia.",
+    "excerpt": "Una pequeña empresa no necesita (ni puede pagar) el equipo dedicado que exige un gran BPO. Un call center flexible, sin volumen mínimo y con agentes nativos cubre sus llamadas sin esa estructura.",
+    "content": "Un call center para pequeñas empresas es un servicio de atención telefónica que cubre las llamadas de un negocio pequeño con agentes profesionales, pero sin el volumen mínimo, el equipo dedicado ni los contratos que exige un gran BPO. Es la opción cuando recibes pocas llamadas al mes y aun así no quieres perder ninguna.\n\n## El problema de una pequeña empresa con los call centers tradicionales\n\nLos grandes call centers están construidos para volumen. Suelen pedir un equipo dedicado mínimo (a menudo varios agentes a jornada completa), un volumen mínimo de llamadas y contratos de meses o años. Una pequeña empresa que recibe entre 20 y 200 llamadas al mes no encaja en ese molde: pagaría por capacidad que no usa y se ataría a un compromiso que no necesita.\n\nEl resultado suele ser que la pequeña empresa se queda sin cubrir: contesta el dueño entre tareas, se pierden llamadas fuera de horario y cada llamada perdida puede ser un cliente que se va a la competencia.\n\n## Que necesita de verdad una pequeña empresa\n\nNo un equipo de cinco personas dedicadas en exclusiva. Necesita que, cuando entre una llamada, alguien profesional la atienda con el nombre del negocio, resuelva o tome el mensaje, y avise al instante. En la práctica, eso son unas pocas horas de atención repartidas a lo largo del dia, no un contrato de BPO.\n\nLas claves para una pequeña empresa son: sin volumen mínimo, sin permanencia, agentes nativos que suenen como parte del equipo, y activación rápida sin instalaciones.\n\n## Call center tradicional o servicio flexible\n\n### Gran call center o BPO\n\n- Exige equipo dedicado y volumen mínimo\n- Contratos de meses o años\n- Pensado para miles de llamadas\n- Activación lenta\n\n### Servicio flexible tipo Minute Call\n\n- Sin volumen mínimo, agentes compartidos\n- Mes a mes, sin permanencia\n- Pensado para decenas o pocos cientos de llamadas\n- Activación en 48 horas\n\n## Cuanto cuesta y como se paga\n\nUna recepcionista interna a jornada completa supone un coste fijo alto para una empresa pequeña. Un call center flexible se ajusta a tu volumen real, sin pagar por agentes en exclusiva. Para un negocio pequeño, esa diferencia entre coste fijo y coste ajustado es lo que hace viable externalizar la atención.\n\n## Por que Minute Call encaja en una pequeña empresa\n\nMinute Call funciona con agentes nativos en España y opción de IA, sin volumen mínimo y sin permanencia. Se integra con tu CRM y tu agenda, se activa en 48 horas y combina agentes humanos e IA según el tipo de llamada. Es el [call center para empresas](/articulos/call-center-para-empresas-espana) en su versión más ligera: pensado para quien tiene pocas llamadas y no quiere un equipo dedicado.",
+    "faq": [
+      {
+        "question": "¿Merece la pena un call center para una empresa pequeña?",
+        "answer": "Sí, si pierdes llamadas o te interrumpen constantemente. Un servicio flexible sin volumen mínimo cubre tus llamadas por menos de lo que cuesta una recepcionista a jornada completa."
+      },
+      {
+        "question": "¿Necesito un mínimo de llamadas para contratarlo?",
+        "answer": "No. A diferencia de los grandes BPO, Minute Call no exige volumen mínimo ni equipo dedicado, así que encaja aunque recibas pocas llamadas al mes."
+      },
+      {
+        "question": "¿Cuánto tarda en activarse?",
+        "answer": "48 horas laborables. Se define el protocolo, se configura el desvío y empieza a atender en nombre de tu empresa."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/articulos/call-center-para-empresas-espana",
+        "label": "Call center para empresas"
+      },
+      {
+        "href": "/articulos/call-center-externalizado-para-empresas",
+        "label": "Call center externalizado para empresas"
+      },
+      {
+        "href": "/comparar",
+        "label": "Alternativa a los grandes call centers"
       }
     ]
   }
