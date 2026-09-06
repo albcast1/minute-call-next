@@ -430,7 +430,7 @@ export default function Home() {
                 "Sin contratos a largo plazo. Mes a mes.",
                 "Agentes humanos o IA. Tú eliges.",
                 "Control de calidad de cada conversación.",
-                "Partners de Teleperformance (#1 BPO mundial).",
+                "Partner comercial de Teleperformance.",
               ].map((item) => (
                 <li
                   key={item}

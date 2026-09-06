@@ -211,7 +211,7 @@ const STATIC_DOCS: Record<string, { title: string; build: () => string }> = {
         '',
         '## Partners y credenciales verificables',
         '',
-        '- Partner comercial de **Teleperformance**, líder mundial en BPO con más de 410.000 empleados.',
+        '- Partner comercial de **Teleperformance**, uno de los mayores BPO del mundo con más de 410.000 empleados.',
         '- Partner comercial de **Zendesk**, plataforma de atención al cliente.',
         `- Valoración **${COMPANY_FACTS.rating.value}/${COMPANY_FACTS.rating.best}** en Trustpilot sobre ${COMPANY_FACTS.rating.count} reseñas: ${COMPANY_FACTS.rating.source}`,
         `- Perfil de empresa en LinkedIn: ${COMPANY_FACTS.profiles[0]}`,

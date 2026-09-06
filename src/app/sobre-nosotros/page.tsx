@@ -5,7 +5,7 @@ import { PersonSchema } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Sobre nosotros | minute call",
   description:
-    "Minute Call es un call center y contact center 24/7 para PYMES en España, fundado en 2024 por Alberto Castiel. Partners de Teleperformance y Zendesk.",
+    "Minute Call es un call center y contact center 24/7 para PYMES en España, fundado en 2024 por Alberto Castiel. Partner comercial de Teleperformance y Zendesk.",
   alternates: {
     canonical: "/sobre-nosotros" },
   openGraph: {
@@ -106,7 +106,7 @@ export default function SobreNosotros() {
           Alberto Castiel
         </a>.
         Ofrecemos agentes humanos nativos e inteligencia artificial para que ninguna llamada quede
-        sin responder. Partners comerciales de Teleperformance y Zendesk.
+        sin responder. Partner comercial de Teleperformance y Zendesk.
       </p>      {/* En cifras */}
       <section style={{ marginBottom: 64 }}>
         <h2 style={{ fontSize: 22, marginBottom: 24 }}>
@@ -176,7 +176,7 @@ export default function SobreNosotros() {
           Partners estrategicos
         </h2>
         <p style={{ lineHeight: 1.8, color: 'rgba(0,0,0,0.75)', maxWidth: 700 }}>
-          Minute Call es partner comercial de <strong>Teleperformance</strong> (líder mundial en BPO con
+          Minute Call es partner comercial de <strong>Teleperformance</strong> (uno de los mayores BPO del mundo con
           más de 410.000 empleados) y de <strong>Zendesk</strong> (plataforma líder de atención al cliente).
           Estas alianzas nos permiten ofrecer infraestructura y estándares de calidad de nivel enterprise
           a PYMES.
