@@ -1,23 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PersonSchema, ReviewSchema } from "@/components/JsonLd";
+import { PersonSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Sobre nosotros | minute call",
   description:
     "Minute Call es un call center y contact center 24/7 para PYMES en España, fundado en 2024 por Alberto Castiel. Partners de Teleperformance y Zendesk.",
   alternates: {
-    canonical: "/sobre-nosotros",
-  },
+    canonical: "/sobre-nosotros" },
   openGraph: {
     title: "Sobre nosotros | minute call",
     description:
       "Minute Call es un call center y contact center 24/7 para PYMES en España, fundado en 2024 por Alberto Castiel.",
     type: "website",
     locale: "es_ES",
-    url: "https://www.minute-call.com/sobre-nosotros",
-  },
-};
+    url: "https://www.minute-call.com/sobre-nosotros" } };
 
 export default function SobreNosotros() {
   // Organization + founder schema
@@ -38,8 +35,7 @@ export default function SobreNosotros() {
         "@id": "https://www.minute-call.com/#alberto-castiel",
         name: "Alberto Castiel",
         jobTitle: "Fundador",
-        sameAs: ["https://www.linkedin.com/in/alberto-castiel/"],
-      },
+        sameAs: ["https://www.linkedin.com/in/alberto-castiel/"] },
     ],
     numberOfEmployees: { "@type": "QuantitativeValue", minValue: 10, maxValue: 50 },
     address: { "@type": "PostalAddress", addressCountry: "ES" },
@@ -55,8 +51,7 @@ export default function SobreNosotros() {
       "IA conversacional",
       "BPO y externalización",
       "Cualificación de leads",
-    ],
-  };
+    ] };
 
   const stats = [
     { value: "24/7", label: "Cobertura horaria" },
@@ -92,9 +87,6 @@ export default function SobreNosotros() {
           "Growth B2B",
         ]}
       />
-      <ReviewSchema authorName="María Monsalve" authorRole="Directora de Clínica" reviewBody={rev1Body} ratingValue={5} />
-      <ReviewSchema authorName="Carlos Fernández" authorRole="Responsable de Inmobiliaria" reviewBody={rev2Body} ratingValue={5} />
-      <ReviewSchema authorName="Laura Martínez" authorRole="Gerente de Asesoría" reviewBody={rev3Body} ratingValue={5} />
 
       {/* Badge */}
       <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
@@ -124,8 +116,7 @@ export default function SobreNosotros() {
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-            gap: 16,
-          }}
+            gap: 16 }}
         >
           {stats.map((stat, i) => (
             <div
@@ -201,8 +192,7 @@ export default function SobreNosotros() {
           style={{
             display: "grid",
             gridTemplateColumns: "minmax(0, 420px)",
-            gap: 24,
-          }}
+            gap: 24 }}
         >
           {/* Alberto */}
           <div className="card" style={{ padding: 32 }}>
@@ -213,8 +203,7 @@ export default function SobreNosotros() {
                 borderRadius: 16,
                 overflow: "hidden",
                 marginBottom: 24,
-                background: "rgba(0,0,0,0.04)",
-              }}
+                background: "rgba(0,0,0,0.04)" }}
             >
               <img
                 src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
@@ -240,8 +229,7 @@ export default function SobreNosotros() {
                 fontSize: 14,
                 color: '#000',
                 textDecoration: 'underline',
-                textUnderlineOffset: 3,
-              }}
+                textUnderlineOffset: 3 }}
             >
               LinkedIn →
             </a>

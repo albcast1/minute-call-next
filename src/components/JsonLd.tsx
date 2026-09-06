@@ -15,14 +15,13 @@ export const OrganizationSchema: React.FC = () => {
     url: 'https://www.minute-call.com',
     logo: 'https://www.minute-call.com/og-image.png',
     image: 'https://www.minute-call.com/og-image.png',
-    description: 'Servicio de recepcionista virtual y atención telefónica 24/7 para PYMES en España. Agentes nativos o IA. Sin permanencia. Sin permanencia.',
+    description: 'Servicio de recepcionista virtual y atención telefónica 24/7 para PYMES en España. Agentes nativos o IA. Sin permanencia.',
     foundingDate: '2024',
     numberOfEmployees: { '@type': 'QuantitativeValue', minValue: 10, maxValue: 50 },
-    address: { '@type': 'PostalAddress', addressCountry: 'ES', addressLocality: 'Madrid' },
+    address: { '@type': 'PostalAddress', addressCountry: 'ES', addressLocality: 'Málaga' },
     areaServed: { '@type': 'Country', name: 'España' },
     contactPoint: { '@type': 'ContactPoint', contactType: 'customer service', url: 'https://www.minute-call.com/reserva-llamada', availableLanguage: ['Spanish', 'English', 'French'] },
     sameAs: ['https://www.linkedin.com/company/minute-call/', 'https://es.trustpilot.com/review/minute-call.com'],
-    aggregateRating: { '@type': 'AggregateRating', ratingValue: '5.0', reviewCount: '13', bestRating: '5' },
     knowsAbout: ['Atención telefónica 24/7', 'Recepcionista virtual', 'Call center para PYMES', 'IA conversacional', 'BPO y externalización', 'Cualificación de leads'],
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
@@ -117,12 +116,6 @@ export const LocalBusinessSchema: React.FC = () => {
       'https://www.linkedin.com/company/minute-call/',
       'https://es.trustpilot.com/review/minute-call.com',
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '5.0',
-      reviewCount: '13',
-      bestRating: '5',
-    },
   };
 
   return (

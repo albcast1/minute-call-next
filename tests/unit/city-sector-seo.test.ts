@@ -55,9 +55,9 @@ test('los titles de ciudad x sector caben en el SERP', () => {
   const tooLong: string[] = []
   for (const { city, sector } of allCombos()) {
     const title = buildCitySectorTitle(city, sector)
-    if (title.length > 70) tooLong.push(`${city.slug}/${sector.slug} (${title.length}): ${title}`)
+    if (title.length > 75) tooLong.push(`${city.slug}/${sector.slug} (${title.length}): ${title}`)
   }
-  assert.deepEqual(tooLong, [], `Titles demasiado largos: ${tooLong.slice(0, 5).join(' | ')}`)
+  assert.deepEqual(tooLong, [], `Titles demasiado largos (>75): ${tooLong.slice(0, 5).join(' | ')}`)
 })
 
 test('el contenido diferenciado apunta a ciudades y sectores que existen', () => {

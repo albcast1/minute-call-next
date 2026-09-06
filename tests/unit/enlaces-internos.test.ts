@@ -62,10 +62,19 @@ test('el hub comercial recibe enlaces internos', () => {
 test('ningun articulo vuelve a duplicar la intencion comercial de las landings', () => {
   // Slugs de articulo que serian indistinguibles de una landing de sector.
   const PROHIBIDOS = [
+    // duplicaban la intencion comercial de las landings
     'call-center-para-empresas-espana',
     'call-center-externalizado-para-empresas',
     'call-center-para-pequenas-empresas',
     'call-center-24-7-para-pymes-espana',
+    // duplicaban la pagina de ciudad: para "secretaria virtual madrid"
+    // competian el articulo (pos 7,0) y la pagina de ciudad (pos 5,5)
+    'secretaria-virtual-madrid',
+    'secretaria-virtual-malaga',
+    'recepcionista-virtual-barcelona',
+    'recepcionista-virtual-valencia',
+    'recepcionista-virtual-sevilla',
+    'recepcionista-virtual-para-inmobiliarias-madrid-barcelona',
   ]
   const revividos = articles.filter(a => PROHIBIDOS.includes(a.slug)).map(a => a.slug)
   assert.deepEqual(

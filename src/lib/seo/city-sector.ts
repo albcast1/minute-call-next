@@ -27,6 +27,12 @@ export type SectorLike = {
   slug: string
   sector: string
   title: string
+  /** Frase de servicio para title y H1: "Recepcionista virtual para clinicas". */
+  servicio?: string
+  /** Sintagma con articulo y genero para el cuerpo: "las clinicas". */
+  clientes?: string
+  /** Version corta para combinaciones con nombre de ciudad largo. */
+  servicioCorto?: string
 }
 
 export type CitySectorHighlight = {
@@ -69,9 +75,27 @@ export function trimTo(text: string, max: number): string {
   return cut.slice(0, lastSpace > 0 ? lastSpace : max).replace(/[\s,;:.-]+$/, '') + '.'
 }
 
-/** Quita el punto final de un titulo de sector para poder encadenarlo. */
+/**
+ * Frase de SERVICIO del sector.
+ *
+ * `sector.sector` guarda el CLIENTE ("clinicas") en 41 de los 48 sectores y el
+ * SERVICIO ("Call Center para Empresas") solo en 7. Usarlo tal cual generaba
+ * titles como "clinicas en Huesca | minute call", sin el servicio y empezando
+ * en minuscula. `servicio` resuelve eso de forma explicita.
+ */
 function sectorLabel(sector: SectorLike): string {
-  return sector.sector.replace(/\.$/, '').trim()
+  const s = (sector.servicio ?? sector.sector).replace(/\.$/, '').trim()
+  return s.charAt(0).toUpperCase() + s.slice(1)
+}
+
+/** Sintagma de clientes con articulo y genero: "las clinicas", "los restaurantes". */
+export function clientesDe(sector: SectorLike): string {
+  return (sector.clientes ?? 'las empresas').trim()
+}
+
+/** El mismo sintagma sin articulo: "clinicas", "restaurantes". */
+export function clientesSinArticulo(sector: SectorLike): string {
+  return clientesDe(sector).replace(/^(las|los)\s+/i, '')
 }
 
 /**
@@ -79,10 +103,16 @@ function sectorLabel(sector: SectorLike): string {
  * para que Google no lo recorte en el SERP.
  */
 export function buildCitySectorTitle(city: CityLike, sector: SectorLike): string {
-  const base = `${sectorLabel(sector)} en ${city.city}`
-  const withBrand = `${base} | minute call`
-  // Solo anadimos la marca si cabe; el termino de busqueda pesa mas que el branding.
-  return withBrand.length <= 60 ? withBrand : base
+  const largo = `${sectorLabel(sector)} en ${city.city}`
+  const corto = sector.servicioCorto ? `${sector.servicioCorto} en ${city.city}` : largo
+
+  // Escalera: marca solo si cabe; si el nombre del sector y el de la ciudad son
+  // los dos largos (p. ej. "estudios de arquitectura e ingenieria" + "Las Palmas
+  // de Gran Canaria"), se cae a la version corta. El termino de busqueda va
+  // delante siempre: Google recorta por el final, no por el principio.
+  if (`${largo} | minute call`.length <= 60) return `${largo} | minute call`
+  if (largo.length <= 65) return largo
+  return corto.length < largo.length ? corto : largo
 }
 
 /**
@@ -93,6 +123,7 @@ export function buildCitySectorTitle(city: CityLike, sector: SectorLike): string
 export function buildCitySectorDescription(city: CityLike, sector: SectorLike): string {
   const label = sectorLabel(sector)
   const lower = label.charAt(0).toLowerCase() + label.slice(1)
+  const clientes = clientesSinArticulo(sector)
   const region = city.region
   const pymes = city.stats?.pymes?.replace(/\+$/, '') ?? ''
   const callsLost = city.stats?.callsLost ?? ''
@@ -100,7 +131,7 @@ export function buildCitySectorDescription(city: CityLike, sector: SectorLike): 
 
   const variants: string[] = [
     `${label} en ${city.city}: agentes nativos atienden y agendan tus llamadas en ${region}. Sin permanencia, activo en 48 h.`,
-    `Servicio de ${lower} para empresas de ${city.city}. Cobertura ampliada en ${region} con agentes nativos en español.`,
+    `${label} en ${city.city}: cobertura ampliada en ${region} con agentes nativos en español y sin permanencia.`,
     pymes
       ? `${label} en ${city.city}, donde operan ${pymes} pymes. Atendemos, filtramos y agendamos cada llamada por ti.`
       : `${label} en ${city.city}. Atendemos, filtramos y agendamos cada llamada en nombre de tu empresa.`,
@@ -108,13 +139,20 @@ export function buildCitySectorDescription(city: CityLike, sector: SectorLike): 
       ? `En ${city.city} se pierde un ${callsLost.replace(/^(\d+)%.*/, '$1%')} de las llamadas. ${label}: las atendemos todas, sin permanencia.`
       : `${label} en ${city.city}: ninguna llamada sin atender, sin permanencia ni alta de personal.`,
     keySector
-      ? `${label} en ${city.city}, con experiencia en ${keySector.toLowerCase()}. Agentes nativos, activación en 48 horas.`
+      ? `${label} en ${city.city}. Trabajamos con ${clientes} de la ciudad con agentes nativos y activación en 48 horas.`
       : `${label} en ${city.city} con agentes nativos. Activación en 48 horas y sin permanencia.`,
-    `¿Necesitas ${lower} en ${city.city}? Atendemos tus llamadas 24/7 en ${region} y te pasamos solo lo importante.`,
+    `¿Buscas ${lower} en ${city.city}? Atendemos tus llamadas 24/7 en ${region} y te pasamos solo lo importante.`,
   ]
 
   const idx = stableHash(`${city.slug}:${sector.slug}`) % variants.length
-  return trimTo(variants[idx], 158)
+  const elegida = variants[idx]
+  // Si la frase larga no cabe, se reescribe con la etiqueta corta antes de
+  // recortar: mejor una frase entera que una cortada con un punto suelto.
+  if (elegida.length > 158 && sector.servicioCorto && sector.servicioCorto !== label) {
+    const corta = elegida.split(label).join(sector.servicioCorto)
+    if (corta.length <= 158) return corta
+  }
+  return trimTo(elegida, 158)
 }
 
 export function buildCitySectorMeta(city: CityLike, sector: SectorLike) {

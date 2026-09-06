@@ -4,7 +4,7 @@
     "sector": "clínicas",
     "title": "Call center para clínicas.",
     "heroTag": "Call center para clínicas",
-    "heroSubtitle": "Nuestro call center para clínicas atiende llamadas de pacientes, gestiona citas y cancelaciones, filtra urgencias y toma mensajes - 24/7, sin que tu equipo médico se interrumpa. Agentes nativos en España o IA especializada/mes sin permanencia.",
+    "heroSubtitle": "Nuestro call center para clínicas atiende llamadas de pacientes, gestiona citas y cancelaciones, filtra urgencias y toma mensajes - 24/7, sin que tu equipo médico se interrumpa. Agentes nativos en España o IA especializada, sin permanencia.",
     "socialProof": "Más de 80 clínicas confían en nuestra atención telefónica · Partners de Teleperformance",
     "testimonial": {
       "quote": "Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdíamos fuera de horario y fines de semana.",
@@ -30,7 +30,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -72,7 +72,11 @@
       }
     ],
     "metaTitle": "Call center para clínicas | 24/7 | minute call",
-    "metaDescription": "Recepcionista con IA para clínicas en España: atiende llamadas, gestiona citas y filtra urgencias 24/7. Agentes de IA o humanos."
+    "metaDescription": "Recepcionista con IA para clínicas en España: atiende llamadas, gestiona citas y filtra urgencias 24/7. Agentes de IA o humanos.",
+    "clientes": "las clínicas",
+    "servicio": "Recepcionista virtual para clínicas",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para clínicas"
   },
   {
     "slug": "recepcionista-ia-inmobiliarias",
@@ -105,7 +109,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -147,7 +151,11 @@
       }
     ],
     "metaTitle": "Call center para inmobiliarias | minute call",
-    "metaDescription": "Servicio de call center con agentes nativos o IA para agencias inmobiliarias. Atendemos llamadas, filtramos leads y agendamos visitas 24/7."
+    "metaDescription": "Servicio de call center con agentes nativos o IA para agencias inmobiliarias. Atendemos llamadas, filtramos leads y agendamos visitas 24/7.",
+    "clientes": "las inmobiliarias",
+    "servicio": "Recepcionista virtual para inmobiliarias",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para inmobiliarias"
   },
   {
     "slug": "recepcionista-ia-restaurantes",
@@ -180,7 +188,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -222,7 +230,11 @@
       }
     ],
     "metaTitle": "Call center para restaurantes | 24/7 | minute call",
-    "metaDescription": "Servicio de call center con agentes nativos o IA para hostelería. Gestiona reservas, atiende llamadas y filtra consultas 24/7."
+    "metaDescription": "Servicio de call center con agentes nativos o IA para hostelería. Gestiona reservas, atiende llamadas y filtra consultas 24/7.",
+    "clientes": "los restaurantes",
+    "servicio": "Recepcionista virtual para restaurantes",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para restaurantes"
   },
   {
     "slug": "recepcionista-ia-abogados",
@@ -255,7 +267,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -297,7 +309,11 @@
       }
     ],
     "metaTitle": "Call center despachos de abogados | minute call",
-    "metaDescription": "Call center para despachos de abogados: filtra urgencias por prioridad, protege datos RGPD y cuida la confidencialidad."
+    "metaDescription": "Call center para despachos de abogados: filtra urgencias por prioridad, protege datos RGPD y cuida la confidencialidad.",
+    "clientes": "los despachos de abogados",
+    "servicio": "Recepcionista virtual para despachos de abogados",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para abogados"
   },
   {
     "slug": "recepcionista-ia-clinicas-dentales",
@@ -330,7 +346,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -372,7 +388,11 @@
       }
     ],
     "metaTitle": "Call center para clínicas dentales | minute call",
-    "metaDescription": "Call center para odontología. Gestión de citas, cancelaciones, recordatorios y captura de urgencias dentales. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Call center para odontología. Gestión de citas, cancelaciones, recordatorios y captura de urgencias dentales. Agentes nativos o IA - tú eliges.",
+    "clientes": "las clínicas dentales",
+    "servicio": "Recepcionista virtual para clínicas dentales",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para dentistas"
   },
   {
     "slug": "recepcionista-ia-asesorias",
@@ -405,7 +425,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -447,7 +467,11 @@
       }
     ],
     "metaTitle": "Call center asesorías y gestorías | minute call",
-    "metaDescription": "Secretaria virtual con agentes nativos en España. Para PYMES, autónomos y profesionales independientes. Precios competitivos. Sin permanencia. Activa en 48h."
+    "metaDescription": "Secretaria virtual con agentes nativos en España. Para PYMES, autónomos y profesionales independientes. Precios competitivos. Sin permanencia. Activa en 48h.",
+    "clientes": "las asesorías y gestorías",
+    "servicio": "Recepcionista virtual para asesorías y gestorías",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para asesorías"
   },
   {
     "slug": "recepcionista-ia-veterinarias",
@@ -480,7 +504,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -522,7 +546,11 @@
       }
     ],
     "metaTitle": "Call center para veterinarias | 24/7 | minute call",
-    "metaDescription": "Call center para clínicas veterinarias. Triaje de urgencias, gestión de citas y información sobre vacunaciones. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Call center para clínicas veterinarias. Triaje de urgencias, gestión de citas y información sobre vacunaciones. Agentes nativos o IA - tú eliges.",
+    "clientes": "las clínicas veterinarias",
+    "servicio": "Recepcionista virtual para clínicas veterinarias",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para veterinarias"
   },
   {
     "slug": "recepcionista-ia-centros-estetica",
@@ -555,7 +583,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -597,7 +625,11 @@
       }
     ],
     "metaTitle": "Call center para centros de estética | minute call",
-    "metaDescription": "Call center para centros de belleza. Gestión de citas, recordatorios y captura de nuevos clientes. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Call center para centros de belleza. Gestión de citas, recordatorios y captura de nuevos clientes. Agentes nativos o IA - tú eliges.",
+    "clientes": "los centros de estética",
+    "servicio": "Recepcionista virtual para centros de estética",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para estética"
   },
   {
     "slug": "recepcionista-ia-fisioterapia",
@@ -630,7 +662,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -672,7 +704,11 @@
       }
     ],
     "metaTitle": "Call center centros de fisioterapia | minute call",
-    "metaDescription": "Call center para fisioterapia. Gestión de citas recurrentes, listas de espera y soporte 24/7. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Call center para fisioterapia. Gestión de citas recurrentes, listas de espera y soporte 24/7. Agentes nativos o IA - tú eliges.",
+    "clientes": "las clínicas de fisioterapia",
+    "servicio": "Recepcionista virtual para clínicas de fisioterapia",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para fisioterapia"
   },
   {
     "slug": "recepcionista-ia-seguros",
@@ -705,7 +741,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -747,7 +783,11 @@
       }
     ],
     "metaTitle": "Call center seguros y corredurias | minute call",
-    "metaDescription": "Call center para corredurías. Recepción de siniestros, cualificación de leads y gestión de pólizas 24/7. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Call center para corredurías. Recepción de siniestros, cualificación de leads y gestión de pólizas 24/7. Agentes nativos o IA - tú eliges.",
+    "clientes": "las corredurías de seguros",
+    "servicio": "Recepcionista virtual para corredurías de seguros",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para corredurías"
   },
   {
     "slug": "recepcionista-ia-turismo",
@@ -780,7 +820,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -822,7 +862,11 @@
       }
     ],
     "metaTitle": "Call center para agencias de viajes | minute call",
-    "metaDescription": "Call center para turismo. Atención multilingüe, gestión de reservas y soporte durante viajes. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Call center para turismo. Atención multilingüe, gestión de reservas y soporte durante viajes. Agentes nativos o IA - tú eliges.",
+    "clientes": "las agencias de viajes",
+    "servicio": "Recepcionista virtual para agencias de viajes",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para agencias de viajes"
   },
   {
     "slug": "recepcionista-ia-autoescuelas",
@@ -855,7 +899,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -897,7 +941,11 @@
       }
     ],
     "metaTitle": "Call center para autoescuelas | 24/7 | minute call",
-    "metaDescription": "Call center para academias de conducción. Gestión de cambios de horario, información DGT y captura de alumnos. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Call center para academias de conducción. Gestión de cambios de horario, información DGT y captura de alumnos. Agentes nativos o IA - tú eliges.",
+    "clientes": "las autoescuelas",
+    "servicio": "Recepcionista virtual para autoescuelas",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para autoescuelas"
   },
   {
     "slug": "recepcionista-ia-consultoria",
@@ -930,7 +978,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -972,7 +1020,11 @@
       }
     ],
     "metaTitle": "Call center consultoria y formación | minute call",
-    "metaDescription": "Call center para consultores: filtrado inteligente de llamadas, agenda de reuniones y gestión de leads de alto valor."
+    "metaDescription": "Call center para consultores: filtrado inteligente de llamadas, agenda de reuniones y gestión de leads de alto valor.",
+    "clientes": "las consultoras y centros de formación",
+    "servicio": "Recepcionista virtual para consultoras y centros de formación",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para consultoras"
   },
   {
     "slug": "recepcionista-ia-gimnasios-deportivos",
@@ -1005,7 +1057,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1047,7 +1099,11 @@
       }
     ],
     "metaTitle": "Call center Gimnasios y Centros Depo | minute call",
-    "metaDescription": "Recepcionista de IA 24/7 para gimnasios. Gestiona reservas de clases, inscripciones y consultas de miembros automáticamente."
+    "metaDescription": "Recepcionista de IA 24/7 para gimnasios. Gestiona reservas de clases, inscripciones y consultas de miembros automáticamente.",
+    "clientes": "los gimnasios y centros deportivos",
+    "servicio": "Recepcionista virtual para gimnasios y centros deportivos",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para gimnasios"
   },
   {
     "slug": "recepcionista-ia-peluquerias-belleza",
@@ -1080,7 +1136,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1122,7 +1178,11 @@
       }
     ],
     "metaTitle": "Call center Peluquerias y Salones de | minute call",
-    "metaDescription": "Recepción 24/7 para peluquerías: agenda cortes y tratamientos, reduce cancelaciones y maximiza la ocupación de sillas."
+    "metaDescription": "Recepción 24/7 para peluquerías: agenda cortes y tratamientos, reduce cancelaciones y maximiza la ocupación de sillas.",
+    "clientes": "las peluquerías y salones de belleza",
+    "servicio": "Recepcionista virtual para peluquerías y salones de belleza",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para peluquerías"
   },
   {
     "slug": "recepcionista-ia-farmacias",
@@ -1155,7 +1215,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1197,7 +1257,11 @@
       }
     ],
     "metaTitle": "Call center para Farmacias | 24/7 | minute call",
-    "metaDescription": "Recepcionista 24/7 para farmacias: resuelve dudas de horarios, entregas a domicilio y consultas farmacéuticas."
+    "metaDescription": "Recepcionista 24/7 para farmacias: resuelve dudas de horarios, entregas a domicilio y consultas farmacéuticas.",
+    "clientes": "las farmacias",
+    "servicio": "Recepcionista virtual para farmacias",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para farmacias"
   },
   {
     "slug": "recepcionista-ia-opticas",
@@ -1230,7 +1294,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1272,7 +1336,11 @@
       }
     ],
     "metaTitle": "Call center para Ópticas | 24/7 | minute call",
-    "metaDescription": "Recepción 24/7 para ópticas: agenda revisiones visuales y consultas de gafas y lentes de contacto de forma automática."
+    "metaDescription": "Recepción 24/7 para ópticas: agenda revisiones visuales y consultas de gafas y lentes de contacto de forma automática.",
+    "clientes": "las ópticas",
+    "servicio": "Recepcionista virtual para ópticas",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para ópticas"
   },
   {
     "slug": "recepcionista-ia-psicologos-terapeutas",
@@ -1305,7 +1373,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1347,7 +1415,11 @@
       }
     ],
     "metaTitle": "Call center Psicologos y Terapeutas | minute call",
-    "metaDescription": "Recepción 24/7 para psicólogos y terapeutas: agenda citas, maneja llamadas delicadas y protege la confidencialidad."
+    "metaDescription": "Recepción 24/7 para psicólogos y terapeutas: agenda citas, maneja llamadas delicadas y protege la confidencialidad.",
+    "clientes": "los psicólogos y terapeutas",
+    "servicio": "Recepcionista virtual para psicólogos y terapeutas",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para psicólogos"
   },
   {
     "slug": "recepcionista-ia-academias-idiomas",
@@ -1380,7 +1452,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1422,7 +1494,11 @@
       }
     ],
     "metaTitle": "Call center Academias de Idiomas | minute call",
-    "metaDescription": "Recepcionista 24/7 para academias de idiomas: gestiona inscripciones, consultas de cursos y pruebas de nivel."
+    "metaDescription": "Recepcionista 24/7 para academias de idiomas: gestiona inscripciones, consultas de cursos y pruebas de nivel.",
+    "clientes": "las academias de idiomas",
+    "servicio": "Recepcionista virtual para academias de idiomas",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para academias"
   },
   {
     "slug": "recepcionista-ia-talleres-mecanicos",
@@ -1455,7 +1531,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1497,7 +1573,11 @@
       }
     ],
     "metaTitle": "Call center para Talleres Mecanicos | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para talleres. Agenda reparaciones, cotizaciones y diagnósticos. Maximiza ocupación de mecánicos. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Servicio de recepción 24/7 para talleres. Agenda reparaciones, cotizaciones y diagnósticos. Maximiza ocupación de mecánicos. Agentes nativos o IA - tú eliges.",
+    "clientes": "los talleres mecánicos",
+    "servicio": "Recepcionista virtual para talleres mecánicos",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para talleres"
   },
   {
     "slug": "recepcionista-ia-empresas-limpieza",
@@ -1530,7 +1610,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1572,7 +1652,11 @@
       }
     ],
     "metaTitle": "Call center Empresas de Limpieza | minute call",
-    "metaDescription": "Recepción 24/7 para empresas de limpieza: capta nuevos clientes, agenda servicios y gestiona la disponibilidad de equipos."
+    "metaDescription": "Recepción 24/7 para empresas de limpieza: capta nuevos clientes, agenda servicios y gestiona la disponibilidad de equipos.",
+    "clientes": "las empresas de limpieza",
+    "servicio": "Recepcionista virtual para empresas de limpieza",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para limpieza"
   },
   {
     "slug": "recepcionista-ia-empresas-reformas",
@@ -1605,7 +1689,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1647,7 +1731,11 @@
       }
     ],
     "metaTitle": "Call center Empresas de Reformas | minute call",
-    "metaDescription": "Recepción 24/7 para empresas de reformas: capta consultas, recoge peticiones de presupuesto y agenda visitas."
+    "metaDescription": "Recepción 24/7 para empresas de reformas: capta consultas, recoge peticiones de presupuesto y agenda visitas.",
+    "clientes": "las empresas de reformas",
+    "servicio": "Recepcionista virtual para empresas de reformas",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para reformas"
   },
   {
     "slug": "recepcionista-ia-arquitectos-ingenieros",
@@ -1680,7 +1768,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1722,7 +1810,11 @@
       }
     ],
     "metaTitle": "Call center Arquitectos e Ingenieros | minute call",
-    "metaDescription": "Recepción 24/7 para arquitectura e ingeniería: coordina consultas, visitas a obra y presupuestos de proyecto."
+    "metaDescription": "Recepción 24/7 para arquitectura e ingeniería: coordina consultas, visitas a obra y presupuestos de proyecto.",
+    "clientes": "los estudios de arquitectura e ingeniería",
+    "servicio": "Recepcionista virtual para estudios de arquitectura e ingeniería",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para arquitectos"
   },
   {
     "slug": "recepcionista-ia-notarias",
@@ -1755,7 +1847,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1797,7 +1889,11 @@
       }
     ],
     "metaTitle": "Call center para Notarías | 24/7 | minute call",
-    "metaDescription": "Recepción 24/7 para notarías: agenda citas, atiende consultas y gestiona documentación de forma segura y confidencial."
+    "metaDescription": "Recepción 24/7 para notarías: agenda citas, atiende consultas y gestiona documentación de forma segura y confidencial.",
+    "clientes": "las notarías",
+    "servicio": "Recepcionista virtual para notarías",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para notarías"
   },
   {
     "slug": "recepcionista-ia-clinicas-podologia",
@@ -1830,7 +1926,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1872,7 +1968,11 @@
       }
     ],
     "metaTitle": "Call center Clínicas de Podología | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para clínicas de podología. Agenda tratamientos, consultas y cirugías podológicas automáticamente. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Servicio de recepción 24/7 para clínicas de podología. Agenda tratamientos, consultas y cirugías podológicas automáticamente. Agentes nativos o IA - tú eliges.",
+    "clientes": "las clínicas de podología",
+    "servicio": "Recepcionista virtual para clínicas de podología",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para podología"
   },
   {
     "slug": "recepcionista-ia-empresas-mudanzas",
@@ -1905,7 +2005,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -1947,7 +2047,11 @@
       }
     ],
     "metaTitle": "Call center Empresas de Mudanzas | minute call",
-    "metaDescription": "Recepción 24/7 para empresas de mudanzas: capta solicitudes, cotiza servicios y cierra fechas de forma automática."
+    "metaDescription": "Recepción 24/7 para empresas de mudanzas: capta solicitudes, cotiza servicios y cierra fechas de forma automática.",
+    "clientes": "las empresas de mudanzas",
+    "servicio": "Recepcionista virtual para empresas de mudanzas",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para mudanzas"
   },
   {
     "slug": "recepcionista-ia-cerrajerias",
@@ -1980,7 +2084,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2022,7 +2126,11 @@
       }
     ],
     "metaTitle": "Call center para Cerrajerías | 24/7 | minute call",
-    "metaDescription": "Recepción 24/7 para cerrajerías: atiende urgencias y emergencias a cualquier hora y despacha los avisos al instante."
+    "metaDescription": "Recepción 24/7 para cerrajerías: atiende urgencias y emergencias a cualquier hora y despacha los avisos al instante.",
+    "clientes": "las cerrajerías",
+    "servicio": "Recepcionista virtual para cerrajerías",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para cerrajerías"
   },
   {
     "slug": "recepcionista-ia-empresas-catering",
@@ -2055,7 +2163,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2097,7 +2205,11 @@
       }
     ],
     "metaTitle": "Call center Empresas de Catering | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de catering. Captura pedidos, cotiza menús y gestiona fechas de eventos. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Servicio de recepción 24/7 para empresas de catering. Captura pedidos, cotiza menús y gestiona fechas de eventos. Agentes nativos o IA - tú eliges.",
+    "clientes": "las empresas de catering",
+    "servicio": "Recepcionista virtual para empresas de catering",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para catering"
   },
   {
     "slug": "recepcionista-ia-coworkings-espacios-trabajo",
@@ -2130,7 +2242,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2172,7 +2284,11 @@
       }
     ],
     "metaTitle": "Call center Coworkings y Espacios de | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para coworkings. Gestiona membresías, salas de reuniones y consultas de emprendedores. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Servicio de recepción 24/7 para coworkings. Gestiona membresías, salas de reuniones y consultas de emprendedores. Agentes nativos o IA - tú eliges.",
+    "clientes": "los coworkings y espacios de trabajo",
+    "servicio": "Recepcionista virtual para coworkings y espacios de trabajo",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para coworkings"
   },
   {
     "slug": "recepcionista-ia-guarderias-escuelas-infantiles",
@@ -2205,7 +2321,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2247,7 +2363,11 @@
       }
     ],
     "metaTitle": "Call center Guarderias y Escuelas In | minute call",
-    "metaDescription": "Recepción para guarderías y escuelas infantiles: gestiona inscripciones, horarios y avisos a las familias."
+    "metaDescription": "Recepción para guarderías y escuelas infantiles: gestiona inscripciones, horarios y avisos a las familias.",
+    "clientes": "las guarderías y escuelas infantiles",
+    "servicio": "Recepcionista virtual para guarderías y escuelas infantiles",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para guarderías"
   },
   {
     "slug": "recepcionista-ia-residencias-mayores",
@@ -2280,7 +2400,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2322,7 +2442,11 @@
       }
     ],
     "metaTitle": "Call center Residencias de Mayores | minute call",
-    "metaDescription": "Recepción 24/7 para residencias de mayores: atiende a familiares, gestiona visitas e informa del estado del residente."
+    "metaDescription": "Recepción 24/7 para residencias de mayores: atiende a familiares, gestiona visitas e informa del estado del residente.",
+    "clientes": "las residencias de mayores",
+    "servicio": "Recepcionista virtual para residencias de mayores",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para residencias"
   },
   {
     "slug": "recepcionista-ia-centros-yoga-pilates",
@@ -2355,7 +2479,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2397,7 +2521,11 @@
       }
     ],
     "metaTitle": "Call center Centros de Yoga y Pilate | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para centros de yoga y pilates. Agenda clases, canaliza nuevos alumnos y gestiona membresías. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Servicio de recepción 24/7 para centros de yoga y pilates. Agenda clases, canaliza nuevos alumnos y gestiona membresías. Agentes nativos o IA - tú eliges.",
+    "clientes": "los centros de yoga y pilates",
+    "servicio": "Recepcionista virtual para centros de yoga y pilates",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para yoga y pilates"
   },
   {
     "slug": "recepcionista-ia-estudios-fotografia",
@@ -2430,7 +2558,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2472,7 +2600,11 @@
       }
     ],
     "metaTitle": "Call center Estudios de Fotografia | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para estudios de fotografía. Agenda sesiones de fotos, consulta de paquetes y gestión de eventos. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Servicio de recepción 24/7 para estudios de fotografía. Agenda sesiones de fotos, consulta de paquetes y gestión de eventos. Agentes nativos o IA - tú eliges.",
+    "clientes": "los estudios de fotografía",
+    "servicio": "Recepcionista virtual para estudios de fotografía",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para fotógrafos"
   },
   {
     "slug": "recepcionista-ia-empresas-seguridad-privada",
@@ -2505,7 +2637,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2547,7 +2679,11 @@
       }
     ],
     "metaTitle": "Call center Empresas de Seguridad Pr | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de seguridad privada. Coordina servicios, identifica emergencias y despacha personal. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Servicio de recepción 24/7 para empresas de seguridad privada. Coordina servicios, identifica emergencias y despacha personal. Agentes nativos o IA - tú eliges.",
+    "clientes": "las empresas de seguridad privada",
+    "servicio": "Recepcionista virtual para empresas de seguridad privada",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para seguridad privada"
   },
   {
     "slug": "recepcionista-ia-clinicas-reproduccion-asistida",
@@ -2580,7 +2716,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2622,7 +2758,11 @@
       }
     ],
     "metaTitle": "Call center Clínicas de Reproducción | minute call",
-    "metaDescription": "Recepción para clínicas de reproducción asistida: atiende consultas delicadas, agenda citas y cuida la confidencialidad."
+    "metaDescription": "Recepción para clínicas de reproducción asistida: atiende consultas delicadas, agenda citas y cuida la confidencialidad.",
+    "clientes": "las clínicas de reproducción asistida",
+    "servicio": "Recepcionista virtual para clínicas de reproducción asistida",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para reproducción asistida"
   },
   {
     "slug": "recepcionista-ia-centros-formacion-profesional",
@@ -2655,7 +2795,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2697,7 +2837,11 @@
       }
     ],
     "metaTitle": "Call center Centros de Formacion Pro | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para centros de formación. Gestiona inscripciones, horarios y consultas de alumnos. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Servicio de recepción 24/7 para centros de formación. Gestiona inscripciones, horarios y consultas de alumnos. Agentes nativos o IA - tú eliges.",
+    "clientes": "los centros de formación profesional",
+    "servicio": "Recepcionista virtual para centros de formación profesional",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para centros de FP"
   },
   {
     "slug": "recepcionista-ia-empresas-transporte",
@@ -2730,7 +2874,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2772,7 +2916,11 @@
       }
     ],
     "metaTitle": "Call center Empresas de Transporte | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de transporte. Coordina envíos, rastreo y consultas de clientes. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Servicio de recepción 24/7 para empresas de transporte. Coordina envíos, rastreo y consultas de clientes. Agentes nativos o IA - tú eliges.",
+    "clientes": "las empresas de transporte",
+    "servicio": "Recepcionista virtual para empresas de transporte",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para transporte"
   },
   {
     "slug": "recepcionista-ia-funerarias-tanatorios",
@@ -2805,7 +2953,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2847,7 +2995,11 @@
       }
     ],
     "metaTitle": "Call center Funerarias y Tanatorios | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para funerarias. Atiende con empatía, gestiona servicios y coordina trámites fúnebres. Agentes nativos o IA - tú eliges."
+    "metaDescription": "Servicio de recepción 24/7 para funerarias. Atiende con empatía, gestiona servicios y coordina trámites fúnebres. Agentes nativos o IA - tú eliges.",
+    "clientes": "las funerarias y tanatorios",
+    "servicio": "Recepcionista virtual para funerarias y tanatorios",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para funerarias"
   },
   {
     "slug": "recepcionista-ia-administradores-fincas",
@@ -2880,7 +3032,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2922,7 +3074,11 @@
       }
     ],
     "metaTitle": "Call center Administradores de Finca | minute call",
-    "metaDescription": "Recepción 24/7 para administradores de fincas: atiende a vecinos, coordina reparaciones y registra incidencias."
+    "metaDescription": "Recepción 24/7 para administradores de fincas: atiende a vecinos, coordina reparaciones y registra incidencias.",
+    "clientes": "los administradores de fincas",
+    "servicio": "Recepcionista virtual para administradores de fincas",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para administradores de fincas"
   },
   {
     "slug": "recepcionista-ia-clinicas-cirugia-estetica",
@@ -2955,7 +3111,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -2997,7 +3153,11 @@
       }
     ],
     "metaTitle": "Call center Clínicas de Cirugía Este | minute call",
-    "metaDescription": "Recepción 24/7 para clínicas de cirugía estética: agenda consultas, informa y gestiona el seguimiento postoperatorio."
+    "metaDescription": "Recepción 24/7 para clínicas de cirugía estética: agenda consultas, informa y gestiona el seguimiento postoperatorio.",
+    "clientes": "las clínicas de cirugía estética",
+    "servicio": "Recepcionista virtual para clínicas de cirugía estética",
+    "esServicio": false,
+    "servicioCorto": "Recepcionista para cirugía estética"
   },
   {
     "slug": "call-center-para-empresas",
@@ -3018,7 +3178,7 @@
       },
       {
         "title": "Ahorro de Hasta el 70% en Costos",
-        "description": "Elimina los costos de nómina, oficina y tecnología de un call center interno. Modelo de suscripción flexible desde precio personalizado/mes sin permanencia obligatoria."
+        "description": "Elimina los costos de nómina, oficina y tecnología de un call center interno. Modelo de suscripción flexible con presupuesto ajustado a tu volumen sin permanencia obligatoria."
       },
       {
         "title": "Escalabilidad Inmediata",
@@ -3030,7 +3190,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -3094,7 +3254,11 @@
         "heading": "Cómo funciona con Minute Call",
         "body": "Atendemos con agentes nativos en España, con IA para las tareas repetitivas o con una combinación de ambos, según lo que pida cada tipo de llamada. Definimos contigo el protocolo —cómo saludar, qué preguntar, qué resolver, qué escalar y a quién—, configuramos el desvío desde tu numeración actual y el servicio arranca en menos de 48 horas. No cambias de número ni instalas nada.\n\nNo hay permanencia ni coste de alta, y la cobertura fuera de horario no se factura como extra. El presupuesto se ajusta al volumen real de llamadas de cada empresa, así que se calcula caso por caso en lugar de encajarte en un plan cerrado."
       }
-    ]
+    ],
+    "servicio": "Call center para empresas",
+    "clientes": "las empresas",
+    "esServicio": true,
+    "servicioCorto": "Call center para empresas"
   },
   {
     "slug": "bpo-externalizacion",
@@ -3127,7 +3291,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -3169,7 +3333,11 @@
       }
     ],
     "metaTitle": "BPO y externalización de procesos | minute call",
-    "metaDescription": "Externaliza tu atención telefónica con especialistas en BPO: reduce costes operativos, sin contratos anuales y con agentes nativos."
+    "metaDescription": "Externaliza tu atención telefónica con especialistas en BPO: reduce costes operativos, sin contratos anuales y con agentes nativos.",
+    "servicio": "BPO y externalización de procesos",
+    "clientes": "las empresas",
+    "esServicio": true,
+    "servicioCorto": "BPO y externalización de procesos"
   },
   {
     "slug": "call-center-24-horas",
@@ -3202,7 +3370,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -3245,7 +3413,11 @@
     ],
     "heroTitle": "Call center 24 horas para tu empresa.",
     "metaTitle": "Call center 24 horas para empresas | minute call",
-    "metaDescription": "Atención telefónica 24 horas para pymes en España: no pierdas ninguna llamada fuera de horario. Agentes nativos o IA, sin permanencia."
+    "metaDescription": "Atención telefónica 24 horas para pymes en España: no pierdas ninguna llamada fuera de horario. Agentes nativos o IA, sin permanencia.",
+    "servicio": "Call center 24 horas",
+    "clientes": "las empresas",
+    "esServicio": true,
+    "servicioCorto": "Call center 24 horas"
   },
   {
     "slug": "outsourcing-atencion-cliente",
@@ -3278,7 +3450,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -3320,7 +3492,11 @@
       }
     ],
     "metaTitle": "Outsourcing de atención al cliente | minute call",
-    "metaDescription": "Externaliza tu atención al cliente con agentes bilingües: mejora la satisfacción, reduce costes, sin mínimo de volumen ni permanencia."
+    "metaDescription": "Externaliza tu atención al cliente con agentes bilingües: mejora la satisfacción, reduce costes, sin mínimo de volumen ni permanencia.",
+    "servicio": "Outsourcing de atención al cliente",
+    "clientes": "las empresas",
+    "esServicio": true,
+    "servicioCorto": "Outsourcing de atención al cliente"
   },
   {
     "slug": "centralita-virtual-empresas",
@@ -3353,7 +3529,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia, desde precio personalizado/mes. Partners de Teleperformance (#1 BPO mundial)."
+        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partners de Teleperformance (#1 BPO mundial)."
       }
     ],
     "faq": [
@@ -3395,7 +3571,11 @@
       }
     ],
     "metaTitle": "Centralita virtual para empresas | minute call",
-    "metaDescription": "Centralita virtual sin infraestructura: recepción profesional con derivación inteligente de llamadas, sin mínimo de volumen ni permanencia."
+    "metaDescription": "Centralita virtual sin infraestructura: recepción profesional con derivación inteligente de llamadas, sin mínimo de volumen ni permanencia.",
+    "servicio": "Centralita virtual para empresas",
+    "clientes": "las empresas",
+    "esServicio": true,
+    "servicioCorto": "Centralita virtual para empresas"
   },
   {
     "slug": "recepcion-de-llamadas",
@@ -3467,7 +3647,11 @@
       }
     ],
     "metaTitle": "Servicio de Recepción de Llamadas para Empresa | minute call",
-    "metaDescription": "Recepción de llamadas profesional para empresas en España. Agentes nativos o IA atienden en nombre de tu empresa las 24h. Sin personal fijo. Prueba gratis."
+    "metaDescription": "Recepción de llamadas profesional para empresas en España. Agentes nativos o IA atienden en nombre de tu empresa las 24h. Sin personal fijo. Prueba gratis.",
+    "servicio": "Recepción de llamadas",
+    "clientes": "las empresas",
+    "esServicio": true,
+    "servicioCorto": "Recepción de llamadas"
   },
   {
     "slug": "secretaria-virtual",
@@ -3547,7 +3731,11 @@
       }
     ],
     "metaTitle": "Secretaria virtual en España: cómo funciona y cuánto cuesta",
-    "metaDescription": "Qué es una secretaria virtual, cuánto cuesta en España y cómo elegirla. Agentes nativos que atienden, filtran y agendan por ti. Sin permanencia."
+    "metaDescription": "Qué es una secretaria virtual, cuánto cuesta en España y cómo elegirla. Agentes nativos que atienden, filtran y agendan por ti. Sin permanencia.",
+    "servicio": "Secretaria virtual",
+    "clientes": "las empresas",
+    "esServicio": true,
+    "servicioCorto": "Secretaria virtual"
   },
   {
     "slug": "call-center-para-pymes",
@@ -3607,6 +3795,10 @@
       }
     ],
     "metaTitle": "Call center para pymes en España | minute call",
-    "metaDescription": "Call center externo para pymes en España: agentes nativos atienden en nombre de tu empresa. Sin nóminas, infraestructura ni permanencia."
+    "metaDescription": "Call center externo para pymes en España: agentes nativos atienden en nombre de tu empresa. Sin nóminas, infraestructura ni permanencia.",
+    "servicio": "Call center para pymes",
+    "clientes": "las empresas",
+    "esServicio": true,
+    "servicioCorto": "Call center para pymes"
   }
 ]

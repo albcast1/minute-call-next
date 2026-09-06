@@ -1,18 +1,16 @@
 import Link from "next/link";
 import { Metadata } from "next";
 import sectors from "@/data/sectors.json";
-import { FAQPageSchema, BreadcrumbSchema , ServiceSchema, ReviewSchema } from "@/components/JsonLd";
+import { FAQPageSchema, BreadcrumbSchema , ServiceSchema } from "@/components/JsonLd";
 import VideoCard from "@/components/VideoCard";
 
 export async function generateStaticParams() {
   return sectors.map((sector) => ({
-    slug: sector.slug,
-  }));
+    slug: sector.slug }));
 }
 
 export async function generateMetadata({
-  params,
-}: {
+  params }: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
@@ -22,28 +20,23 @@ export async function generateMetadata({
     title: sector.metaTitle,
     description: sector.metaDescription,
     alternates: {
-      canonical: `/lp/${slug}`,
-    },
+      canonical: `/lp/${slug}` },
     openGraph: {
       title: sector.metaTitle,
       description: sector.metaDescription,
       type: "website",
       locale: "es_ES",
       url: `https://www.minute-call.com/lp/${slug}`,
-      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: sector.metaTitle }],
-    },
+      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: sector.metaTitle }] },
     twitter: {
       card: "summary_large_image" as const,
       title: sector.metaTitle,
       description: sector.metaDescription,
-      images: ["/og-image.png"],
-    },
-  };
+      images: ["/og-image.png"] } };
 }
 
 export default async function LandingPage({
-  params,
-}: {
+  params }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
@@ -59,14 +52,7 @@ export default async function LandingPage({
       <ServiceSchema
         services={[{
           name: sector.title,
-          description: sector.heroSubtitle,
-        }]}
-      />
-      <ReviewSchema
-        authorName={sector.testimonial.author}
-        authorRole={sector.testimonial.role}
-        reviewBody={sector.testimonial.quote}
-        ratingValue={5}
+          description: sector.heroSubtitle }]}
       />
 
       <BreadcrumbSchema items={[
@@ -84,8 +70,7 @@ export default async function LandingPage({
           alignItems: "flex-start",
           justifyContent: "space-between",
           gap: "clamp(24px,4vw,60px)",
-          flexWrap: "wrap",
-        }}
+          flexWrap: "wrap" }}
       >
         <div style={{ flex: "1 1 280px", maxWidth: 560 }}>
           <a
@@ -146,8 +131,7 @@ export default async function LandingPage({
               color: "black",
               marginBottom: 24,
               lineHeight: 1.5,
-              letterSpacing: "-0.5px",
-            }}
+              letterSpacing: "-0.5px" }}
           >
             &ldquo;{sector.testimonial.quote}&rdquo;
           </p>
@@ -173,8 +157,7 @@ export default async function LandingPage({
             display: "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
             gap: 20,
-            marginTop: 48,
-          }}
+            marginTop: 48 }}
           className="grid-3col"
         >
           {sector.features.slice(0, 3).map((feature, index) => (
@@ -202,26 +185,22 @@ export default async function LandingPage({
             gridTemplateColumns: "repeat(3, 1fr)",
             gap: 24,
             marginTop: 48,
-            textAlign: "left",
-          }}
+            textAlign: "left" }}
           className="grid-3col"
         >
           {[
             {
               step: "01",
               title: "Configuración",
-              description: "Te conocemos. Entrenamos a la IA con tus datos, políticas y FAQs.",
-            },
+              description: "Te conocemos. Entrenamos a la IA con tus datos, políticas y FAQs." },
             {
               step: "02",
               title: "Integración",
-              description: "Configuramos tu número. Los clientes siguen llamando al mismo número.",
-            },
+              description: "Configuramos tu número. Los clientes siguen llamando al mismo número." },
             {
               step: "03",
               title: "Gestión",
-              description: "La IA atiende, filtra leads y agenda citas. Tú solo enfocado en cerrar.",
-            },
+              description: "La IA atiende, filtra leads y agenda citas. Tú solo enfocado en cerrar." },
           ].map((item) => (
             <div key={item.step} className="card" style={{ padding: 32 }}>
               <p
@@ -230,8 +209,7 @@ export default async function LandingPage({
                   fontWeight: 500,
                   color: "rgba(0,0,0,0.1)",
                   marginBottom: 16,
-                  letterSpacing: -2,
-                }}
+                  letterSpacing: -2 }}
               >
                 {item.step}
               </p>
@@ -254,8 +232,7 @@ export default async function LandingPage({
             display: "flex",
             flexDirection: "column",
             gap: 0,
-            textAlign: "left",
-          }}
+            textAlign: "left" }}
         >
           {sector.faq.slice(4).map((faq, index) => (
             <details
@@ -271,8 +248,7 @@ export default async function LandingPage({
                   display: "flex",
                   justifyContent: "space-between",
                   alignItems: "center",
-                  color: "black",
-                }}
+                  color: "black" }}
               >
                 {faq.question}
                 <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
@@ -301,8 +277,7 @@ export default async function LandingPage({
                     __html: parrafo.replace(
                       /\*\*(.+?)\*\*/g,
                       '<strong>$1</strong>'
-                    ),
-                  }}
+                    ) }}
                 />
               ))}
             </div>

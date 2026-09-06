@@ -5,7 +5,7 @@ import sectors from '@/data/sectors.json'
 import cities from '@/data/cities.json'
 import { FAQPageSchema, BreadcrumbSchema, ServiceSchema } from '@/components/JsonLd'
 import highlights from '@/data/city-sector-highlights.json'
-import { buildCitySectorMeta, pickHighlight } from '@/lib/seo/city-sector'
+import { buildCitySectorMeta, pickHighlight, clientesDe, clientesSinArticulo } from '@/lib/seo/city-sector'
 
 const TOP_CITY_SLUGS = ['madrid','barcelona','valencia','sevilla','malaga','bilbao','zaragoza','murcia','palma-de-mallorca','las-palmas']
 const TOP_SECTOR_SLUGS = ['recepcionista-ia-clinicas','recepcionista-ia-inmobiliarias','recepcionista-ia-restaurantes','recepcionista-ia-abogados','recepcionista-ia-clinicas-dentales','recepcionista-ia-asesorias','recepcionista-ia-veterinarias','recepcionista-ia-centros-estetica','recepcionista-ia-fisioterapia','recepcionista-ia-seguros']
@@ -44,6 +44,11 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
 
   const faqs = sec.faq?.slice(4, 9) || []
   const highlight = pickHighlight(highlights as unknown as Record<string, unknown>, ciudad, sector)
+  // `sec.sector` es el CLIENTE en 41 de 48 sectores ("clinicas"), no el servicio.
+  // Estas dos formas dan la concordancia correcta en el cuerpo de la pagina.
+  const clientes = clientesDe(sec)
+  const clientesPlano = clientesSinArticulo(sec)
+  const servicio = sec.servicio ?? sec.sector
 
   const breadcrumbs = [
     { name: 'Inicio', url: 'https://www.minute-call.com' },
@@ -69,10 +74,10 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
       {/* Hero */}
       <section style={{ maxWidth: 900, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(16px,5vw,64px) clamp(40px,6vw,60px)' }}>
         <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>
-          {sec.heroTag} en {city.city}
+          {servicio} en {city.city}
         </span>
         <h1>
-          {sec.title.replace(/\.$/,'')} en <span className="serif-italic">{city.city}.</span>
+          {servicio} en <span className="serif-italic">{city.city}.</span>
         </h1>
         <p style={{ maxWidth: 700, marginBottom: 36 }}>
           {sec.heroSubtitle} Servicio disponible en {city.city} ({city.region}) con agentes nativos en español. Sin permanencia.
@@ -118,7 +123,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
         ) : (
           <>
             <h2>
-              Por qué {sec.sector.toLowerCase()} en {city.city} necesitan atención telefónica <span className="serif-italic">profesional.</span>
+              Por qué {clientes} de {city.city} necesitan atención telefónica <span className="serif-italic">profesional.</span>
             </h2>
             <p style={{ maxWidth: 700, margin: '24px auto', lineHeight: 1.7 }}>
               {city.localContext}
@@ -127,7 +132,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
               {city.stats?.callsLost
                 ? `En ${city.city} el patrón es conocido: ${city.stats.callsLost.toLowerCase()}. `
                 : ''}
-              Para los negocios del sector <strong>{sec.sector.toLowerCase()}</strong> en {city.city} ({city.region}), cada llamada perdida es un cliente que llama al siguiente de la lista. Atendemos todas las llamadas en nombre de tu empresa, con agentes formados específicamente en {sec.sector.toLowerCase()}.
+              Para <strong>{clientes}</strong> de {city.city} ({city.region}), cada llamada perdida es un cliente que llama al siguiente de la lista. Atendemos todas las llamadas en nombre de tu empresa, con agentes formados específicamente para {clientesPlano}.
             </p>
           </>
         )}
@@ -143,7 +148,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
         <section style={{ maxWidth: 900, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(16px,5vw,64px)', textAlign: 'center' }}>
           <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Clientes</span>
           <h2 style={{ marginTop: 16 }}>
-            Lo que dicen los {sec.sector.toLowerCase()} que nos <span className="serif-italic">usan.</span>
+            Lo que dicen {clientes} que nos <span className="serif-italic">usan.</span>
           </h2>
           {sec.socialProof && <p style={{ maxWidth: 700, margin: '24px auto 32px', lineHeight: 1.7 }}>{sec.socialProof}</p>}
           <div className="card" style={{ maxWidth: 600, margin: '0 auto', padding: 32, textAlign: 'center' }}>
@@ -166,7 +171,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
         <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(16px,5vw,64px)', textAlign: 'center' }}>
           <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Preguntas</span>
           <h2 style={{ marginTop: 16 }}>
-            Preguntas frecuentes sobre {sec.sector.toLowerCase()} en <span className="serif-italic">{city.city}.</span>
+            Preguntas frecuentes: {servicio.toLowerCase()} en <span className="serif-italic">{city.city}.</span>
           </h2>
           <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 0, maxWidth: 800, margin: '32px auto 0', textAlign: 'left' }}>
             {faqs.map((faq, i) => (

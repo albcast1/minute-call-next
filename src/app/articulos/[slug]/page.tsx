@@ -264,6 +264,8 @@ export default async function ArticlePage({
         title={article.title}
         description={article.metaDescription}
         slug={`articulos/${article.slug}`}
+        {...(article.datePublished ? { datePublished: article.datePublished } : {})}
+        {...(article.dateModified ? { dateModified: article.dateModified } : {})}
       />
       {article.faq && article.faq.length > 0 && (
         <FAQPageSchema
@@ -320,9 +322,26 @@ export default async function ArticlePage({
       >
         {article.title}
       </h1>
-      <p style={{ fontSize: 17, marginBottom: 32, lineHeight: 1.6, maxWidth: 700, color: 'rgba(0,0,0,0.6)' }}>
+      <p style={{ fontSize: 17, marginBottom: 16, lineHeight: 1.6, maxWidth: 700, color: 'rgba(0,0,0,0.6)' }}>
         {article.excerpt}
       </p>
+
+      {/* Fecha visible. Los motores generativos usan la frescura como senal y
+          antes no habia ninguna: ni <time> en el HTML ni fechas en el schema,
+          asi que Google se inventaba una. Mostramos la de revision, que es la
+          unica verificable; la de publicacion original solo la sabe el autor. */}
+      {article.dateModified && (
+        <p style={{ fontSize: 14, marginBottom: 32, color: 'rgba(0,0,0,0.45)' }}>
+          Actualizado el{' '}
+          <time dateTime={article.dateModified}>
+            {new Date(article.dateModified + 'T00:00:00').toLocaleDateString('es-ES', {
+              day: 'numeric',
+              month: 'long',
+              year: 'numeric',
+            })}
+          </time>
+        </p>
+      )}
 
       {/* Direct Answer — featured snippet optimised */}
       {article.directAnswer && (

@@ -42,6 +42,18 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
+      // Canibalizacion blog <-> ciudad (punto 2.4 de la auditoria). Verificado
+      // en Search Console: para "secretaria virtual madrid" competian
+      // /atencion-telefonica/madrid/secretaria-virtual (pos 5,5) y
+      // /articulos/secretaria-virtual-madrid (pos 7,0), repartiendose 17
+      // impresiones de la pagina 1. Cada intencion, una sola URL.
+      { source: '/articulos/secretaria-virtual-madrid', destination: '/atencion-telefonica/madrid/secretaria-virtual', permanent: true },
+      { source: '/articulos/secretaria-virtual-malaga', destination: '/atencion-telefonica/malaga/secretaria-virtual', permanent: true },
+      { source: '/articulos/recepcionista-virtual-barcelona', destination: '/atencion-telefonica/barcelona/recepcion-de-llamadas', permanent: true },
+      { source: '/articulos/recepcionista-virtual-valencia', destination: '/atencion-telefonica/valencia/recepcion-de-llamadas', permanent: true },
+      { source: '/articulos/recepcionista-virtual-sevilla', destination: '/atencion-telefonica/sevilla/recepcion-de-llamadas', permanent: true },
+      { source: '/articulos/recepcionista-virtual-para-inmobiliarias-madrid-barcelona', destination: '/atencion-telefonica/madrid/recepcionista-ia-inmobiliarias', permanent: true },
+
       // URLs internas rotas que Google llevaba tiempo rastreando y devolvian 404.
       // La de teleperformance acumulaba 296 impresiones en 90 dias apuntando a
       // una pagina que no existe.
