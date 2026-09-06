@@ -42,6 +42,16 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
+      // Ruta duplicada retirada: /lp/{sector}/{ciudad} generaba 2.400 paginas
+      // noindex que Google seguia rastreando sin beneficio (2.248 confirmadas en
+      // Search Console). Consolidamos toda la senal en la ruta canonica indexable.
+      // Debe ir ANTES de cualquier otra regla /lp/* para tener prioridad.
+      {
+        source: '/lp/:sector/:ciudad',
+        destination: '/atencion-telefonica/:ciudad/:sector',
+        permanent: true,
+      },
+
       // 301 redirects para URLs antiguas indexadas en Google que devuelven 404
       { source: '/precios', destination: '/comparar', permanent: true },
       // URLs antiguas rastreadas por Google que devuelven 404 - fix indexación

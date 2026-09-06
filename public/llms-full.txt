@@ -35,7 +35,7 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 
 ### clínicas
 - Slug: /lp/recepcionista-ia-clinicas
-- Descripción: Recepcionista con inteligencia artificial para clinicas en Espana. Atiende llamadas, gestiona citas y filtra urgencias 24/7. Agentes IA o humanos. Precios competitivos.
+- Descripción: Recepcionista con IA para clínicas en España: atiende llamadas, gestiona citas y filtra urgencias 24/7. Agentes de IA o humanos.
 - Testimonial: "Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdíamos fuera de horario y fines de semana." - María Monsalve, Director de Clínica
 
 ### inmobiliarias
@@ -60,7 +60,7 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 
 ### asesorías y gestorías
 - Slug: /lp/recepcionista-ia-asesorias
-- Descripción: Secretaria virtual con agentes nativos en Espana. Para PYMES, autonomos y profesionales independientes. Precios competitivos. Sin permanencia. Activa en 48h.
+- Descripción: Secretaria virtual con agentes nativos en España. Para PYMES, autónomos y profesionales independientes. Precios competitivos. Sin permanencia. Activa en 48h.
 - Testimonial: "En picos fiscales recibimos 5 veces más llamadas. Con Minute Call no perdemos un solo cliente potencial y nuestro equipo puede enfocarse en el trabajo técnico sin estar saturado de teléfono." - Patricia Gómez, Gestora colegiada
 
 ### veterinarias
@@ -245,7 +245,7 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 
 ### Call Center 24 Horas
 - Slug: /lp/call-center-24-horas
-- Descripción: Servicio de atencion telefonica 24 horas para PYMES en Espana. Nunca pierdas una llamada fuera de horario. Agentes nativos o IA. Presupuesto segun tu volumen de llamadas. Sin permanencia.
+- Descripción: Atención telefónica 24 horas para pymes en España: no pierdas ninguna llamada fuera de horario. Agentes nativos o IA, sin permanencia.
 - Testimonial: "Con nuestros clientes en distintas zonas horarias, necesitábamos atención 24 horas. Minute Call fue la solución perfecta sin costo de infraestructura." - Roberto González, CEO, Empresa SaaS Exportadora
 
 ### Outsourcing de Atención al Cliente
@@ -265,7 +265,7 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 
 ### Secretaria virtual
 - Slug: /lp/secretaria-virtual
-- Descripción: Secretaria virtual con agentes nativos en España. Atiende llamadas, gestiona citas y cualifica leads en nombre de tu empresa. Sin costes de contratación. Prueba gratis.
+- Descripción: Qué es una secretaria virtual, cuánto cuesta en España y cómo elegirla. Agentes nativos que atienden, filtran y agendan por ti. Sin permanencia.
 - Testimonial: "Mis clientes no saben que es un servicio externo. La secretaria de Minute Call conoce mi empresa mejor que algunas personas que he contratado." - Roque L., Asesor fiscal autonomo, Valencia
 
 ## Artículos del blog (29 artículos)
