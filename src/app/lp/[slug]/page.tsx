@@ -283,6 +283,33 @@ export default async function LandingPage({
         </div>
       </section>
 
+      {/* ===== CONTENIDO EN PROFUNDIDAD =====
+          Las landings comerciales tenian 380-480 palabras y competian con
+          articulos propios de 370-455 sobre exactamente la misma intencion.
+          Consolidado el cluster, este bloque es donde vive el contenido que
+          antes estaba repartido en cuatro URLs. */}
+      {Array.isArray((sector as { deepDive?: Array<{ heading: string; body: string }> }).deepDive) && (
+        <section style={{ maxWidth: 820, margin: "0 auto", padding: "40px 64px 0" }}>
+          {(sector as unknown as { deepDive: Array<{ heading: string; body: string }> }).deepDive.map((bloque, i) => (
+            <div key={i} style={{ marginBottom: 48 }}>
+              <h2 style={{ fontSize: "clamp(22px,4vw,30px)", marginBottom: 20 }}>{bloque.heading}</h2>
+              {bloque.body.split("\n\n").map((parrafo, j) => (
+                <p
+                  key={j}
+                  style={{ lineHeight: 1.75, marginBottom: 16 }}
+                  dangerouslySetInnerHTML={{
+                    __html: parrafo.replace(
+                      /\*\*(.+?)\*\*/g,
+                      '<strong>$1</strong>'
+                    ),
+                  }}
+                />
+              ))}
+            </div>
+          ))}
+        </section>
+      )}
+
       {/* ===== BOTTOM CTA ===== */}
       <section
         style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}

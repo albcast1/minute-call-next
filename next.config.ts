@@ -42,6 +42,25 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
+      // URLs internas rotas que Google llevaba tiempo rastreando y devolvian 404.
+      // La de teleperformance acumulaba 296 impresiones en 90 dias apuntando a
+      // una pagina que no existe.
+      { source: '/articulos/call-center-pymes-espana-alternativa-teleperformance', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-virtual-clinicas', destination: '/lp/recepcionista-ia-clinicas', permanent: true },
+      { source: '/lp/recepcionista-virtual-despachos-abogados', destination: '/lp/recepcionista-ia-abogados', permanent: true },
+      { source: '/lp/recepcionista-virtual-inmobiliarias', destination: '/lp/recepcionista-ia-inmobiliarias', permanent: true },
+      { source: '/lp/recepcionista-virtual-para-pymes', destination: '/lp/secretaria-virtual', permanent: true },
+
+      // Consolidacion del cluster comercial. Para la consulta "call center para
+      // empresas" competian SIETE URLs propias entre si (la landing en posicion
+      // 72,6 y la home en 16,9). Estos cuatro articulos de 370-455 palabras
+      // duplicaban la intencion comercial de las landings sin aportar nada
+      // distinto, asi que se fusionan en su hub canonico.
+      { source: '/articulos/call-center-para-empresas-espana', destination: '/lp/call-center-para-empresas', permanent: true },
+      { source: '/articulos/call-center-externalizado-para-empresas', destination: '/lp/call-center-para-empresas', permanent: true },
+      { source: '/articulos/call-center-para-pequenas-empresas', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/articulos/call-center-24-7-para-pymes-espana', destination: '/lp/call-center-24-horas', permanent: true },
+
       // Ruta duplicada retirada: /lp/{sector}/{ciudad} generaba 2.400 paginas
       // noindex que Google seguia rastreando sin beneficio (2.248 confirmadas en
       // Search Console). Consolidamos toda la senal en la ruta canonica indexable.

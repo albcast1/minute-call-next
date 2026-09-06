@@ -3071,8 +3071,30 @@
         "answer": "Sí. Aumentas o reduces cobertura sin penalización. Mes a mes."
       }
     ],
-    "metaTitle": "Call center para PYMES en España: la alternativa flexible...",
-    "metaDescription": "Call center para pymes sin los contratos rígidos de los grandes BPO: agentes nativos, sin permanencia y precio según tu volumen."
+    "metaTitle": "Call center para empresas en España | minute call",
+    "metaDescription": "Call center para pymes sin los contratos rígidos de los grandes BPO: agentes nativos, sin permanencia y precio según tu volumen.",
+    "deepDive": [
+      {
+        "heading": "Qué hace realmente un call center para empresas",
+        "body": "Un call center para empresas es un equipo externo que atiende las llamadas de tu compañía en tu nombre, siguiendo un protocolo que defines tú. El cliente marca tu número de siempre y al otro lado responde un agente que se presenta con el nombre de tu empresa, conoce tu catálogo de servicios y sabe qué hacer con cada tipo de llamada.\n\nEn la práctica cubre cuatro funciones: atender y filtrar la llamada entrante, resolver lo que se pueda resolver de primeras, agendar o modificar citas en tu calendario, y escalarte solo lo que de verdad requiere a alguien de tu equipo. La diferencia con un contestador o un menú de opciones es que hay una persona decidiendo, no un árbol de teclas."
+      },
+      {
+        "heading": "Cuándo compensa externalizar y cuándo no",
+        "body": "Compensa cuando el teléfono te interrumpe más de lo que te aporta: cuando el equipo abandona lo que está haciendo para coger llamadas que en su mayoría no son urgentes, cuando pierdes llamadas en horas concretas y previsibles, o cuando la demanda es tan estacional que dimensionar una plantilla fija no tiene sentido.\n\nNo compensa cuando el volumen es muy bajo y esporádico —ahí basta con un buzón bien configurado— ni cuando cada llamada requiere conocimiento técnico profundo que no se puede transferir a un protocolo. Y tampoco cuando lo que buscas es emisión de llamadas y campañas de telemarketing: eso es otro servicio distinto."
+      },
+      {
+        "heading": "Los tres modelos de contratación del mercado español",
+        "body": "**Por hora de agente.** El modelo clásico de los grandes BPO. Pagas la disponibilidad de una persona durante un horario, la use quien la use. Predecible en coste, caro si tu volumen es irregular, y normalmente con permanencia y mínimos.\n\n**Por llamada atendida.** Pagas solo lo que se gestiona, casi siempre con un mínimo mensual. Encaja bien cuando el volumen es estable y conocido; se descontrola si tienes picos.\n\n**Por paquete mensual.** Un número determinado de llamadas o minutos a precio cerrado. Es el modelo más habitual para pymes porque hace el gasto previsible sin obligarte a comprar una jornada completa.\n\nAntes de comparar presupuestos conviene calcular la alternativa interna completa: salario bruto, Seguridad Social a cargo de la empresa, vacaciones, bajas, formación y puesto de trabajo. La comparación honesta no es contra el sueldo, es contra el coste total."
+      },
+      {
+        "heading": "Qué preguntar antes de firmar",
+        "body": "**¿Dónde están los agentes y en qué idiomas atienden?** No es lo mismo un equipo nativo en España que un centro deslocalizado; se nota en la primera frase y tu cliente lo percibe.\n\n**¿Hay permanencia y coste de alta?** Un contrato de doce meses para un servicio que aún no sabes si funciona es una mala forma de empezar.\n\n**¿Se cobran aparte las noches, fines de semana y festivos?** Muchos presupuestos parecen competitivos hasta que aparecen los recargos.\n\n**¿Puedo escuchar llamadas reales y ver métricas?** Sin grabación ni panel no tienes forma de auditar la calidad de algo que habla en nombre de tu empresa.\n\n**¿Cuánto tarda en estar operativo y hay que cambiar de número?** Un despliegue que exige portabilidad o instalación es un proyecto; uno que se resuelve con un desvío es un trámite."
+      },
+      {
+        "heading": "Cómo funciona con Minute Call",
+        "body": "Atendemos con agentes nativos en España, con IA para las tareas repetitivas o con una combinación de ambos, según lo que pida cada tipo de llamada. Definimos contigo el protocolo —cómo saludar, qué preguntar, qué resolver, qué escalar y a quién—, configuramos el desvío desde tu numeración actual y el servicio arranca en menos de 48 horas. No cambias de número ni instalas nada.\n\nNo hay permanencia ni coste de alta, y la cobertura fuera de horario no se factura como extra. El presupuesto se ajusta al volumen real de llamadas de cada empresa, así que se calcula caso por caso en lugar de encajarte en un plan cerrado."
+      }
+    ]
   },
   {
     "slug": "bpo-externalizacion",
@@ -3146,7 +3168,7 @@
         "answer": "Menos de 48 horas."
       }
     ],
-    "metaTitle": "BPO y Externalización de Procesos...",
+    "metaTitle": "BPO y externalización de procesos | minute call",
     "metaDescription": "Externaliza tu atención telefónica con especialistas en BPO: reduce costes operativos, sin contratos anuales y con agentes nativos."
   },
   {
@@ -3222,7 +3244,7 @@
       }
     ],
     "heroTitle": "Call center 24 horas para tu empresa.",
-    "metaTitle": "Atención telefónica 24 horas para PYMES...",
+    "metaTitle": "Call center 24 horas para empresas | minute call",
     "metaDescription": "Atención telefónica 24 horas para pymes en España: no pierdas ninguna llamada fuera de horario. Agentes nativos o IA, sin permanencia."
   },
   {
@@ -3297,7 +3319,7 @@
         "answer": "Sí. Tu equipo para las especializadas; Minute Call para desbordamiento y fuera de horario."
       }
     ],
-    "metaTitle": "Outsourcing de Atención al Cliente...",
+    "metaTitle": "Outsourcing de atención al cliente | minute call",
     "metaDescription": "Externaliza tu atención al cliente con agentes bilingües: mejora la satisfacción, reduce costes, sin mínimo de volumen ni permanencia."
   },
   {
@@ -3372,7 +3394,7 @@
         "answer": "Sí. Humano de 9 a 19h, IA de noche, desvío a tu móvil en horario VIP. Sin coste extra."
       }
     ],
-    "metaTitle": "Centralita Virtual para Empresas...",
+    "metaTitle": "Centralita virtual para empresas | minute call",
     "metaDescription": "Centralita virtual sin infraestructura: recepción profesional con derivación inteligente de llamadas, sin mínimo de volumen ni permanencia."
   },
   {
@@ -3584,7 +3606,7 @@
         "answer": "Los call centers tradicionales están diseñados para grandes empresas con cientos de llamadas diarias. Minute Call está pensado específicamente para pymes: precio ajustado al volumen real de llamadas, onboarding en 48 horas y agentes que aprenden tu negocio en profundidad, no ejecutan un guión genérico."
       }
     ],
-    "metaTitle": "Call Center para Pymes en España | Minute Call",
+    "metaTitle": "Call center para pymes en España | minute call",
     "metaDescription": "Call center externo para pymes en España: agentes nativos atienden en nombre de tu empresa. Sin nóminas, infraestructura ni permanencia."
   }
 ]

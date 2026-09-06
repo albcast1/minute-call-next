@@ -26,6 +26,10 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/lp/call-center-para-pymes",
         "label": "Call center para pymes"
       },
@@ -291,6 +295,10 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/lp/bpo-externalizacion",
         "label": "BPO y externalización"
       },
@@ -524,49 +532,12 @@
     "directAnswer": "Un servicio de secretaría virtual en España cuesta entre 80 € y 400 €/mes para pymes con volumen de 30 a 300 llamadas/mes. Los precios varían según el volumen de llamadas, el horario de cobertura y el tipo de agente. Cómo referencia del mercado español en 2026: volumen bajo (hasta 50 llamadas/mes) 80-150 €/mes, pyme estándar (50-200 llamadas/mes) 150-400 €/mes, empresa activa (200-500 llamadas/mes) 350-800 €/mes. Un agente dedicado de BPO cuesta 25-30 €/hora, y una recepcionista interna 1.800-2.400 €/mes."
   },
   {
-    "slug": "call-center-24-7-para-pymes-espana",
-    "title": "Call center 24/7 para pymes en España: cuándo compensa ofrecer atención telefónica continua",
-    "metaTitle": "Call center 24/7 para pymes: cuándo compensa | minute call",
-    "metaDescription": "¿Tiene sentido un call center 24/7 para una pyme española? Cuándo compensa la cobertura permanente y cuándo basta un turno extendido.",
-    "excerpt": "Un call center 24/7 dedicado no es la opción más adecuada para la mayoría de pymes en España: su coste es prohibitivo para empresas con menos de 500 llamadas diarias.",
-    "content": "Un call center 24/7 dedicado no es la opción más adecuada para la mayoría de pymes en España: su coste (25-30 €/hora por agente, 4.000-5.000 €/mes a jornada completa) es prohibitivo para empresas con menos de 500 llamadas diarias. Las alternativas más rentables para cobertura 24/7 en pymes son: modelo híbrido con agentes humanos de día e IA de noche (150-600 €/mes), recepcionista con IA 24/7 (desde 49 €/mes), o secretaría virtual con horario ampliado.\n\nUn servicio 24/7 no consiste únicamente en \"estar disponible todo el día\", sino en garantizar una respuesta de calidad a cualquier hora. Consulta [call center para pymes](/articulos/call-center-para-pymes-espana) para más detalles. Esto puede significar:\n\nAgente humano atendiendo en vivo\nSistema de IA respondiendo consultas simples\nCaptura de información para contacto al día siguiente\nManejo de urgencias o casos especiales [ventajas de 24/7](/articulos/atencion-telefonica-24-7-ventajas-riesgos-y-cuando-tiene-sentido-realmente-para-una-pyme) explica esto en detalle.\n\nUn cliente que llama fuera de horario y consigue respuesta, aunque sea para dejar su información, tiene una percepción muy diferente al que entra en buzón de voz. Véase también [solución para despachos](/lp/recepcionista-ia-abogados).\n\nSi el 30-40% o más de tu oportunidad comercial viene fuera del horario comercial, un 24/7 es inversión justificada.\n\nSi es menos del 10%, probablemente no justifique el coste adicional.\n\nSi está en el medio (10-30%), depende de cuánto valor tiene capturar ese tráfico.\n\nPara una pyme española, un call center 24/7 cuesta típicamente:\n\nCompleto (agentes humanos todas las horas): 800-1.500 euros\nHíbrido (humanos en pico + IA en madrugada): 400-700 euros\nSolo IA 24/7: 200-400 euros\n\nUn modelo híbrido funciona bien para muchas pymes: agentes humanos de 8:00-22:00, sistema de IA 24/7 para captar información de urgencias nocturnas.\n\nPara decidir si un 24/7 tiene sentido:\n\n1. Analiza tu tráfico actual: ¿cuántas llamadas llegarían fuera de horario si estuviera disponible?\n2. Valora el impacto: ¿cuánto valor potencial hay en esas llamadas?\n3. Evalúa el coste: ¿el valor potencial supera el coste del servicio?\n4. Considera alternativas: ¿es necesario 24/7 completo o un horario ampliado es suficiente?\n\nLa realidad es que muchas pymes se beneficiarían de un 24/7 pero no lo implementan por creer que es muy costoso. Con opciones híbridas y sistemas de IA, hoy es económicamente viable incluso para negocios pequeños.\n\nEl [BOE](https://www.boe.es/) recoge la normativa vigente sobre protección de datos y telecomunicaciones que aplica a servicios de atención telefónica.",
-    "faq": [
-      {
-        "question": "¿Cuánto cuesta un call center 24/7 para una pyme?",
-        "answer": "Con Minute Call, con precio según cobertura"
-      },
-      {
-        "question": "¿Un call center 24/7 realmente atiende en mitad de la noche?",
-        "answer": "Sí, si está bien contratado. En Minute Call tenemos cobertura real 24/7/365 incluidos festivos y noches. Configuras si quieres agente humano o IA según la franja horaria."
-      },
-      {
-        "question": "¿Qué tipos de empresas más necesitan un call center 24/7?",
-        "answer": "Cerrajerías, clínicas de urgencias, veterinarias, empresas de seguridad, turismo, transportes y cualquier negocio donde las emergencias o urgencias no esperan al horario comercial."
-      }
-    ],
-    "relatedLinks": [
-      {
-        "href": "/lp/call-center-24-horas",
-        "label": "Call center 24 horas"
-      },
-      {
-        "href": "/lp/recepcionista-ia-cerrajerias",
-        "label": "Para cerrajerías"
-      },
-      {
-        "href": "/lp/recepcionista-ia-veterinarias",
-        "label": "Para veterinarias"
-      }
-    ],
-    "directAnswer": "Un call center 24/7 dedicado no es la opción más adecuada para la mayoría de pymes en España: su coste (25-30 €/hora por agente, 4.000-5.000 €/mes a jornada completa) es prohibitivo para empresas con menos de 500 llamadas diarias. Las alternativas más rentables para cobertura 24/7 en pymes son: modelo híbrido con agentes humanos de día e IA de noche (150-600 €/mes), recepcionista con IA 24/7 (desde 49 €/mes), o secretaría virtual con horario ampliado."
-  },
-  {
     "slug": "call-center-para-pymes-espana",
     "title": "Call center para pymes en España: cuándo tiene sentido externalizar la atención telefónica",
     "metaTitle": "Call center para pymes: cuándo externalizar y cuándo no",
     "metaDescription": "Cuándo externalizar la atención telefónica compensa en una pyme y cuándo no, con los modelos de contratación y cómo medir el resultado.",
     "excerpt": "Para la mayoría de pymes en España, un call center convencional no es la solución adecuada: está diseñado para grandes volúmenes y su coste no se justifica con el volumen típico de una pyme.",
-    "content": "Para la mayoría de pymes en España, un call center convencional no es la solución adecuada: está diseñado para grandes volúmenes (cientos o miles de llamadas diarias) y su coste (25-30 €/hora por agente) no se justifica con el volumen típico de una pyme (30-300 llamadas/mes). Las alternativas más eficientes son la secretaría virtual con agentes compartidos (80-400 €/mes), el recepcionista con IA (desde 49 €/mes) o el modelo híbrido (150-600 €/mes).\n\nUn call center no es solo para grandes empresas. Consulta [call center con disponibilidad 24/7](/articulos/call-center-24-7-para-pymes-espana) para más detalles. Un servicio de call center para pymes tiene las siguientes características:\n\nAgentes dedicados a atender llamadas en tu nombre\nSistemas de registro y seguimiento de cada contacto\nProtocolos personalizados según tu negocio\nAvailability según tus necesidades (horario completo, extendido o 24/7)\nIntegración con tus herramientas\nReportes de actividad y resultados [comparativa con secretaría](/articulos/secretaria-virtual-o-call-center-para-pymes) explica esto en detalle.\n\nUn call center para pymes tiene sentido cuando: Véase también [solución para inmobiliarias](/lp/recepcionista-ia-inmobiliarias).\n\nVolumen de llamadas: más de 20 al día\nNaturaleza mixta: consultas simples + casos complejos\nEquipo pequeño: no hay personal dedicado a atender teléfono\nCrecimiento: el volumen va aumentando\nCriticidad: las llamadas importan mucho (ventas, clientes, reputación)\n\nExternalizar a un call center tiene menos sentido cuando:\n\nMuy pocas llamadas (menos de 10 al día)\nCasi todas requieren especialista\nPresupuesto extremadamente limitado\nYa hay personal dedicado\n\nUn call center permite que tu equipo interno se dedique a:\n\nVentas: el director comercial vende, no filtra llamadas\nProducción: el técnico produce, no interrumpe para atender\nGerencia y estrategia: el director dirige, no resuelve consultas\n\nLa productividad típicamente aumenta 30-50% cuando se externaliza la recepción.\n\nUn call center captura más leads porque responde inmediatamente. Crea un efecto psicológico: \"si responden rápido, deben ser profesionales\".\n\nEn el balance:\n\n+ Mayor disponibilidad\n+ Mejor imagen profesional\n+ Más leads capturados\n+ Equipo más productivo\n+ Escalabilidad\n\n- Coste adicional (300-800 euros mensuales típicamente)\n- Menos control directo\n- Necesidad de alineación clara de procesos\n\nPara muchas pymes, externalizar a un call center transforma cómo funciona el negocio.\n\nLa [Comisión Nacional de los Mercados y la Competencia (CNMC)](https://www.cnmc.es/) supervisa el sector de telecomunicaciones en España.",
+    "content": "Para la mayoría de pymes en España, un call center convencional no es la solución adecuada: está diseñado para grandes volúmenes (cientos o miles de llamadas diarias) y su coste (25-30 €/hora por agente) no se justifica con el volumen típico de una pyme (30-300 llamadas/mes). Las alternativas más eficientes son la secretaría virtual con agentes compartidos (80-400 €/mes), el recepcionista con IA (desde 49 €/mes) o el modelo híbrido (150-600 €/mes).\n\nUn call center no es solo para grandes empresas. Consulta [call center con disponibilidad 24/7](/lp/call-center-24-horas) para más detalles. Un servicio de call center para pymes tiene las siguientes características:\n\nAgentes dedicados a atender llamadas en tu nombre\nSistemas de registro y seguimiento de cada contacto\nProtocolos personalizados según tu negocio\nAvailability según tus necesidades (horario completo, extendido o 24/7)\nIntegración con tus herramientas\nReportes de actividad y resultados [comparativa con secretaría](/articulos/secretaria-virtual-o-call-center-para-pymes) explica esto en detalle.\n\nUn call center para pymes tiene sentido cuando: Véase también [solución para inmobiliarias](/lp/recepcionista-ia-inmobiliarias).\n\nVolumen de llamadas: más de 20 al día\nNaturaleza mixta: consultas simples + casos complejos\nEquipo pequeño: no hay personal dedicado a atender teléfono\nCrecimiento: el volumen va aumentando\nCriticidad: las llamadas importan mucho (ventas, clientes, reputación)\n\nExternalizar a un call center tiene menos sentido cuando:\n\nMuy pocas llamadas (menos de 10 al día)\nCasi todas requieren especialista\nPresupuesto extremadamente limitado\nYa hay personal dedicado\n\nUn call center permite que tu equipo interno se dedique a:\n\nVentas: el director comercial vende, no filtra llamadas\nProducción: el técnico produce, no interrumpe para atender\nGerencia y estrategia: el director dirige, no resuelve consultas\n\nLa productividad típicamente aumenta 30-50% cuando se externaliza la recepción.\n\nUn call center captura más leads porque responde inmediatamente. Crea un efecto psicológico: \"si responden rápido, deben ser profesionales\".\n\nEn el balance:\n\n+ Mayor disponibilidad\n+ Mejor imagen profesional\n+ Más leads capturados\n+ Equipo más productivo\n+ Escalabilidad\n\n- Coste adicional (300-800 euros mensuales típicamente)\n- Menos control directo\n- Necesidad de alineación clara de procesos\n\nPara muchas pymes, externalizar a un call center transforma cómo funciona el negocio.\n\nLa [Comisión Nacional de los Mercados y la Competencia (CNMC)](https://www.cnmc.es/) supervisa el sector de telecomunicaciones en España.",
     "faq": [
       {
         "question": "¿Qué es un call center para pymes y en qué se diferencia del tradicional?",
@@ -595,7 +566,7 @@
         "label": "Centralita virtual"
       },
       {
-        "href": "/articulos/call-center-pymes-espana-alternativa-teleperformance",
+        "href": "/lp/call-center-para-pymes",
         "label": "Call center para PYMES en España"
       },
       {
@@ -631,6 +602,10 @@
       }
     ],
     "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
       {
         "href": "/precios",
         "label": "Ver precios detallados"
@@ -1035,7 +1010,7 @@
         "label": "Centralita virtual vs recepcionista virtual"
       },
       {
-        "href": "/articulos/call-center-pymes-espana-alternativa-teleperformance",
+        "href": "/lp/call-center-para-pymes",
         "label": "Call center para PYMES en España"
       }
     ],
@@ -1132,7 +1107,7 @@
         "label": "Call center para pymes en España"
       },
       {
-        "href": "/articulos/call-center-pymes-espana-alternativa-teleperformance",
+        "href": "/lp/call-center-para-pymes",
         "label": "Call center para PYMES en España"
       }
     ],
@@ -1751,11 +1726,15 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/articulos",
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-para-pymes",
+        "href": "/lp/secretaria-virtual",
         "label": "Recepcionista virtual para pymes"
       }
     ]
@@ -1792,7 +1771,7 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-clinicas",
+        "href": "/lp/recepcionista-ia-clinicas",
         "label": "Recepcionista virtual para clínicas"
       }
     ]
@@ -1829,7 +1808,7 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-despachos-abogados",
+        "href": "/lp/recepcionista-ia-abogados",
         "label": "Recepcionista virtual para despachos"
       }
     ]
@@ -1866,7 +1845,7 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-inmobiliarias",
+        "href": "/lp/recepcionista-ia-inmobiliarias",
         "label": "Recepcionista virtual para inmobiliarias"
       }
     ]
@@ -1936,7 +1915,7 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-para-pymes",
+        "href": "/lp/secretaria-virtual",
         "label": "Recepcionista virtual para asesorías"
       }
     ]
@@ -1973,7 +1952,7 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-para-pymes",
+        "href": "/lp/secretaria-virtual",
         "label": "Recepcionista virtual para hostelería"
       }
     ]
@@ -2005,6 +1984,10 @@
       }
     ],
     "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
       {
         "href": "/articulos",
         "label": "Todos los artículos"
@@ -2039,11 +2022,15 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/articulos",
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-para-pymes",
+        "href": "/lp/secretaria-virtual",
         "label": "Recepcionista virtual para pymes"
       }
     ]
@@ -2080,11 +2067,11 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-clinicas",
+        "href": "/lp/recepcionista-ia-clinicas",
         "label": "Recepcionista virtual para clínicas"
       },
       {
-        "href": "/lp/recepcionista-virtual-clinicas",
+        "href": "/lp/recepcionista-ia-clinicas",
         "label": "Recepcionista virtual para clínicas"
       }
     ]
@@ -2121,11 +2108,11 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-clinicas",
+        "href": "/lp/recepcionista-ia-clinicas",
         "label": "Recepcionista virtual para clínicas"
       },
       {
-        "href": "/lp/recepcionista-virtual-clinicas",
+        "href": "/lp/recepcionista-ia-clinicas",
         "label": "Recepcionista virtual para clínicas veterinarias"
       }
     ]
@@ -2158,7 +2145,7 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-para-pymes",
+        "href": "/lp/secretaria-virtual",
         "label": "Recepcionista virtual para seguros"
       }
     ]
@@ -2195,7 +2182,7 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-para-pymes",
+        "href": "/lp/secretaria-virtual",
         "label": "Recepcionista virtual para hostelería"
       }
     ]
@@ -2319,6 +2306,10 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/articulos",
         "label": "Todos los artículos"
       }
@@ -2352,11 +2343,15 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/articulos",
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-para-pymes",
+        "href": "/lp/secretaria-virtual",
         "label": "Recepcionista virtual para pymes"
       }
     ]
@@ -2389,11 +2384,15 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/articulos",
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-para-pymes",
+        "href": "/lp/secretaria-virtual",
         "label": "Recepcionista virtual para pymes"
       }
     ]
@@ -2426,7 +2425,7 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-clinicas",
+        "href": "/lp/recepcionista-ia-clinicas",
         "label": "Recepcionista virtual para centros de estética"
       }
     ]
@@ -2459,7 +2458,7 @@
         "label": "Todos los artículos"
       },
       {
-        "href": "/lp/recepcionista-virtual-para-pymes",
+        "href": "/lp/secretaria-virtual",
         "label": "Recepcionista virtual para autoescuelas"
       }
     ]
@@ -2661,6 +2660,10 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/comparar",
         "label": "Alternativa a los grandes call centers"
       },
@@ -2680,7 +2683,7 @@
     "metaTitle": "Alternativa a Atento para pymes en España | minute call",
     "metaDescription": "Atento es un BPO global orientado a grandes cuentas. Si tu empresa no llega a esos volúmenes, Minute Call es la alternativa flexible.",
     "excerpt": "Atento es un BPO global de origen español enfocado en grandes cuentas. Una empresa que no maneja esos volúmenes encaja mejor en un servicio sin permanencia y con agentes nativos.",
-    "content": "Atento es un BPO global de origen español enfocado en grandes cuentas de banca, telecomunicaciones y utilities, de modo que una empresa que no maneja esos volúmenes encaja mejor en un servicio sin permanencia y con [agentes nativos](/articulos/call-center-para-empresas-espana).\n\n## Que es Atento\n\nAtento nació como el área de atención telefónica de un gran grupo de telecomunicaciones y hoy es una compañía independiente de externalización presente en España y Latinoamérica. Su especialidad son los grandes contratos de atención al cliente para sectores como la banca, los seguros y las telecomunicaciones, con equipos de gran tamaño y operaciones a escala.\n\n## Por qué Atento no está pensado para empresas medianas\n\nEl modelo de Atento gira en torno a cuentas de gran volumen. Eso implica mínimos de facturación altos, contratos plurianuales y procesos de incorporación largos. Una empresa mediana o una pyme que solo quiere que no se le escapen llamadas, y que cada contacto se atienda con criterio, no necesita esa maquinaria: necesita agilidad, protocolo propio y capacidad de cambiar sin penalizaciones.\n\n## Atento o Minute Call: en que se diferencian\n\n### Atento\n\n- Cliente objetivo: grandes cuentas de banca y telco\n- Contratos plurianuales\n- Volumen mínimo elevado\n- Equipos a gran escala\n- Puesta en marcha en semanas o meses\n- Especialización en grandes sectores regulados\n\n### Minute Call\n\n- Cliente objetivo: pymes y empresas medianas\n- Sin permanencia\n- Sin volumen mínimo\n- Agentes nativos en España\n- Activación en 48 horas\n- Protocolo definido para cada empresa\n\n## Cuando tiene sentido cada opción\n\nSi tu empresa opera en banca, seguros o telecomunicaciones con volúmenes de miles de interacciones diarias, un proveedor como Atento aporta la escala y la especialización regulatoria que ese contexto exige.\n\nSi en cambio buscas atención telefónica profesional para una empresa mediana, con [integración en tu CRM](/articulos/call-center-para-empresas-espana) y sin atarte a un contrato de años, Minute Call es la alternativa más práctica. Cubres tus llamadas con agentes nativos y ajustas el servicio según tu actividad.",
+    "content": "Atento es un BPO global de origen español enfocado en grandes cuentas de banca, telecomunicaciones y utilities, de modo que una empresa que no maneja esos volúmenes encaja mejor en un servicio sin permanencia y con [agentes nativos](/lp/call-center-para-empresas).\n\n## Que es Atento\n\nAtento nació como el área de atención telefónica de un gran grupo de telecomunicaciones y hoy es una compañía independiente de externalización presente en España y Latinoamérica. Su especialidad son los grandes contratos de atención al cliente para sectores como la banca, los seguros y las telecomunicaciones, con equipos de gran tamaño y operaciones a escala.\n\n## Por qué Atento no está pensado para empresas medianas\n\nEl modelo de Atento gira en torno a cuentas de gran volumen. Eso implica mínimos de facturación altos, contratos plurianuales y procesos de incorporación largos. Una empresa mediana o una pyme que solo quiere que no se le escapen llamadas, y que cada contacto se atienda con criterio, no necesita esa maquinaria: necesita agilidad, protocolo propio y capacidad de cambiar sin penalizaciones.\n\n## Atento o Minute Call: en que se diferencian\n\n### Atento\n\n- Cliente objetivo: grandes cuentas de banca y telco\n- Contratos plurianuales\n- Volumen mínimo elevado\n- Equipos a gran escala\n- Puesta en marcha en semanas o meses\n- Especialización en grandes sectores regulados\n\n### Minute Call\n\n- Cliente objetivo: pymes y empresas medianas\n- Sin permanencia\n- Sin volumen mínimo\n- Agentes nativos en España\n- Activación en 48 horas\n- Protocolo definido para cada empresa\n\n## Cuando tiene sentido cada opción\n\nSi tu empresa opera en banca, seguros o telecomunicaciones con volúmenes de miles de interacciones diarias, un proveedor como Atento aporta la escala y la especialización regulatoria que ese contexto exige.\n\nSi en cambio buscas atención telefónica profesional para una empresa mediana, con [integración en tu CRM](/lp/call-center-para-empresas) y sin atarte a un contrato de años, Minute Call es la alternativa más práctica. Cubres tus llamadas con agentes nativos y ajustas el servicio según tu actividad.",
     "faq": [
       {
         "question": "¿Puedo cambiar de Atento a un servicio más flexible?",
@@ -2696,6 +2699,10 @@
       }
     ],
     "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
       {
         "href": "/comparar",
         "label": "Alternativa a los grandes call centers"
@@ -2716,7 +2723,7 @@
     "metaTitle": "Alternativa a Transcom para pymes en España | minute call",
     "metaDescription": "Transcom es un contact center internacional para grandes marcas. Minute Call es la alternativa práctica con agentes nativos en España.",
     "excerpt": "Transcom es un contact center internacional centrado en la atención al cliente de grandes marcas. Para una empresa española, lo práctico es un servicio de recepción sin contrato anual y con agentes en España.",
-    "content": "Transcom es un contact center internacional de origen nórdico centrado en la atención al cliente de grandes marcas, y para una empresa española lo práctico es un servicio de [recepción de llamadas](/articulos/call-center-para-empresas-espana) sin contrato anual y con agentes en España.\n\n## Que es Transcom\n\nTranscom es una compañía global de externalización de atención al cliente con operaciones en varios países. Trabaja con grandes marcas que necesitan gestionar altos volúmenes de interacciones a través de múltiples canales. Su fuerte son las campañas de experiencia de cliente a escala internacional.\n\n## Por qué una empresa mediana no encaja en Transcom\n\nEl modelo de una multinacional del contact center se construye alrededor del volumen y de contratos de cierta envergadura. Una empresa que recibe unas decenas o cientos de llamadas al mes rara vez alcanza el punto en el que ese tipo de proveedor resulta eficiente. Además, la cercanía cultural y el acento nativo pesan mucho cuando cada llamada puede ser un cliente nuevo.\n\n## Transcom o Minute Call: en que se diferencian\n\n### Transcom\n\n- Enfoque en experiencia de cliente internacional de grandes marcas\n- Volumen alto\n- Contratos de envergadura\n- Operación multipaís\n- Activación en semanas\n\n### Minute Call\n\n- Recepción para pymes y empresas medianas\n- Sin volumen mínimo\n- Mes a mes\n- Agentes nativos en España\n- Activación en 48 horas\n\n## Cuando tiene sentido cada opción\n\nTranscom es adecuado para marcas con presencia internacional y volúmenes elevados que necesitan una operación multipaís y multicanal. Para una empresa española que quiere agilidad, agentes nativos y un protocolo propio, [Minute Call](/comparar) cubre la necesidad sin la estructura de una multinacional.",
+    "content": "Transcom es un contact center internacional de origen nórdico centrado en la atención al cliente de grandes marcas, y para una empresa española lo práctico es un servicio de [recepción de llamadas](/lp/call-center-para-empresas) sin contrato anual y con agentes en España.\n\n## Que es Transcom\n\nTranscom es una compañía global de externalización de atención al cliente con operaciones en varios países. Trabaja con grandes marcas que necesitan gestionar altos volúmenes de interacciones a través de múltiples canales. Su fuerte son las campañas de experiencia de cliente a escala internacional.\n\n## Por qué una empresa mediana no encaja en Transcom\n\nEl modelo de una multinacional del contact center se construye alrededor del volumen y de contratos de cierta envergadura. Una empresa que recibe unas decenas o cientos de llamadas al mes rara vez alcanza el punto en el que ese tipo de proveedor resulta eficiente. Además, la cercanía cultural y el acento nativo pesan mucho cuando cada llamada puede ser un cliente nuevo.\n\n## Transcom o Minute Call: en que se diferencian\n\n### Transcom\n\n- Enfoque en experiencia de cliente internacional de grandes marcas\n- Volumen alto\n- Contratos de envergadura\n- Operación multipaís\n- Activación en semanas\n\n### Minute Call\n\n- Recepción para pymes y empresas medianas\n- Sin volumen mínimo\n- Mes a mes\n- Agentes nativos en España\n- Activación en 48 horas\n\n## Cuando tiene sentido cada opción\n\nTranscom es adecuado para marcas con presencia internacional y volúmenes elevados que necesitan una operación multipaís y multicanal. Para una empresa española que quiere agilidad, agentes nativos y un protocolo propio, [Minute Call](/comparar) cubre la necesidad sin la estructura de una multinacional.",
     "faq": [
       {
         "question": "¿Transcom trabaja con pymes?",
@@ -2733,7 +2740,7 @@
         "label": "Alternativa a los grandes call centers"
       },
       {
-        "href": "/articulos/call-center-para-empresas-espana",
+        "href": "/lp/call-center-para-empresas",
         "label": "Call center para empresas"
       },
       {
@@ -2748,7 +2755,7 @@
     "metaTitle": "Alternativa a Concentrix para pymes en España | minute call",
     "metaDescription": "Concentrix, que integró Webhelp, es un BPO global para grandes empresas. Minute Call es la alternativa sin esa complejidad contractual.",
     "excerpt": "Concentrix, que integró Webhelp, es un BPO tecnológico global orientado a grandes empresas. Una empresa que solo quiere no perder llamadas tiene una alternativa sin la complejidad de un gran BPO.",
-    "content": "Concentrix, que integró Webhelp, es un BPO tecnológico global orientado a grandes empresas, mientras que una empresa que solo quiere no perder llamadas tiene una alternativa sin la complejidad ni los contratos de un [gran BPO](/comparar).\n\n## Que es Concentrix\n\nConcentrix es una de las mayores compañías de experiencia de cliente del mundo. Tras la integración de Webhelp, su tamaño y su alcance geográfico se ampliaron todavía más. Ofrece soluciones tecnológicas de atención al cliente a grandes corporaciones, con un fuerte componente de automatización, analítica y operaciones a escala global.\n\n## Por qué una empresa mediana no encaja en Concentrix\n\nUn proveedor de este tamaño está diseñado para clientes que mueven volúmenes enormes y que necesitan integraciones tecnológicas complejas. Para una empresa mediana, esa capacidad se traduce en procesos largos, contratos de cierta duración y una relación en la que su cuenta es pequeña dentro de una operación gigante. La agilidad se resiente.\n\n## Concentrix o Minute Call: en que se diferencian\n\n### Concentrix\n\n- Cliente objetivo: grandes corporaciones\n- Integraciones tecnológicas complejas\n- Contratos de duración\n- Operación global\n- Activación en semanas o meses\n\n### Minute Call\n\n- Cliente objetivo: pymes y empresas medianas\n- Integración rápida con tu CRM habitual\n- Sin permanencia\n- Agentes nativos en España\n- Activación en 48 horas\n\n## Cuando tiene sentido cada opción\n\nConcentrix es la opción cuando hablamos de operaciones globales, grandes volúmenes y necesidades tecnológicas avanzadas. Minute Call es la alternativa cuando una empresa quiere una atención telefónica cercana, integrada con [sus herramientas](/articulos/call-center-externalizado-para-empresas) y sin la rigidez de un contrato con un gran BPO.",
+    "content": "Concentrix, que integró Webhelp, es un BPO tecnológico global orientado a grandes empresas, mientras que una empresa que solo quiere no perder llamadas tiene una alternativa sin la complejidad ni los contratos de un [gran BPO](/comparar).\n\n## Que es Concentrix\n\nConcentrix es una de las mayores compañías de experiencia de cliente del mundo. Tras la integración de Webhelp, su tamaño y su alcance geográfico se ampliaron todavía más. Ofrece soluciones tecnológicas de atención al cliente a grandes corporaciones, con un fuerte componente de automatización, analítica y operaciones a escala global.\n\n## Por qué una empresa mediana no encaja en Concentrix\n\nUn proveedor de este tamaño está diseñado para clientes que mueven volúmenes enormes y que necesitan integraciones tecnológicas complejas. Para una empresa mediana, esa capacidad se traduce en procesos largos, contratos de cierta duración y una relación en la que su cuenta es pequeña dentro de una operación gigante. La agilidad se resiente.\n\n## Concentrix o Minute Call: en que se diferencian\n\n### Concentrix\n\n- Cliente objetivo: grandes corporaciones\n- Integraciones tecnológicas complejas\n- Contratos de duración\n- Operación global\n- Activación en semanas o meses\n\n### Minute Call\n\n- Cliente objetivo: pymes y empresas medianas\n- Integración rápida con tu CRM habitual\n- Sin permanencia\n- Agentes nativos en España\n- Activación en 48 horas\n\n## Cuando tiene sentido cada opción\n\nConcentrix es la opción cuando hablamos de operaciones globales, grandes volúmenes y necesidades tecnológicas avanzadas. Minute Call es la alternativa cuando una empresa quiere una atención telefónica cercana, integrada con [sus herramientas](/lp/call-center-para-empresas) y sin la rigidez de un contrato con un gran BPO.",
     "faq": [
       {
         "question": "¿Concentrix es viable para una empresa mediana?",
@@ -2765,11 +2772,11 @@
         "label": "Alternativa a los grandes call centers"
       },
       {
-        "href": "/articulos/call-center-para-empresas-espana",
+        "href": "/lp/call-center-para-empresas",
         "label": "Call center para empresas"
       },
       {
-        "href": "/articulos/call-center-externalizado-para-empresas",
+        "href": "/lp/call-center-para-empresas",
         "label": "Call center externalizado para empresas"
       }
     ]
@@ -2780,7 +2787,7 @@
     "metaTitle": "Alternativa a Fonvirtual: centralita o recepcionista",
     "metaDescription": "Fonvirtual es sobre todo una centralita virtual. Si necesitas que alguien atienda y cualifique de verdad, Minute Call es la alternativa.",
     "excerpt": "Fonvirtual es sobre todo una centralita virtual con recepcionista como complemento. Si necesitas que alguien atienda y cualifique las llamadas de verdad, la alternativa es un servicio de recepción.",
-    "content": "Fonvirtual es sobre todo una centralita virtual con recepcionista como complemento, así que si lo que necesitas es que alguien atienda y cualifique las llamadas de verdad y no solo enrutarlas, la alternativa es un [servicio de recepción](/articulos/call-center-para-empresas-espana) como Minute Call.\n\n## Que es Fonvirtual\n\nFonvirtual es una empresa española especializada en telefonía en la nube. Su producto central es la centralita virtual: numeración, desvíos, menús de voz e integraciones telefónicas. El servicio de recepcionista existe, pero funciona como complemento de la infraestructura de telefonía, no como el núcleo de la propuesta.\n\n## Centralita y recepcionista no son lo mismo\n\nUna centralita enruta llamadas: decide a qué extensión o a qué menú va cada llamada. Una recepcionista las atiende: descuelga con el nombre de tu empresa, entiende qué necesita quien llama, cualifica el contacto y agenda o transfiere según tus reglas. Muchas empresas creen que necesitan una centralita cuando en realidad lo que pierden son llamadas que nadie coge. Ahí es donde una recepcionista aporta valor y una [centralita no llega](/articulos/centralita-virtual-vs-recepcionista-virtual-diferencias).\n\n## Fonvirtual o Minute Call: en que se diferencian\n\n### Fonvirtual\n\n- Producto central: centralita virtual\n- Atienden menús y desvíos, recepción opcional\n- Cualificación de leads limitada\n- Enfoque en infraestructura telefónica\n\n### Minute Call\n\n- Producto central: recepción y atención de llamadas\n- Atienden agentes nativos o IA\n- Cualificación incluida en el protocolo\n- Enfoque en atención como extensión de tu equipo\n\n## Cuando tiene sentido cada opción\n\nSi lo que necesitas es montar tu telefonía, con números, extensiones y menús, una centralita como Fonvirtual es la herramienta adecuada. Si lo que necesitas es que las llamadas se atiendan y se cualifiquen por personas que representan a tu empresa, Minute Call es la alternativa. No compiten en lo mismo: uno enruta, el otro atiende.",
+    "content": "Fonvirtual es sobre todo una centralita virtual con recepcionista como complemento, así que si lo que necesitas es que alguien atienda y cualifique las llamadas de verdad y no solo enrutarlas, la alternativa es un [servicio de recepción](/lp/call-center-para-empresas) como Minute Call.\n\n## Que es Fonvirtual\n\nFonvirtual es una empresa española especializada en telefonía en la nube. Su producto central es la centralita virtual: numeración, desvíos, menús de voz e integraciones telefónicas. El servicio de recepcionista existe, pero funciona como complemento de la infraestructura de telefonía, no como el núcleo de la propuesta.\n\n## Centralita y recepcionista no son lo mismo\n\nUna centralita enruta llamadas: decide a qué extensión o a qué menú va cada llamada. Una recepcionista las atiende: descuelga con el nombre de tu empresa, entiende qué necesita quien llama, cualifica el contacto y agenda o transfiere según tus reglas. Muchas empresas creen que necesitan una centralita cuando en realidad lo que pierden son llamadas que nadie coge. Ahí es donde una recepcionista aporta valor y una [centralita no llega](/articulos/centralita-virtual-vs-recepcionista-virtual-diferencias).\n\n## Fonvirtual o Minute Call: en que se diferencian\n\n### Fonvirtual\n\n- Producto central: centralita virtual\n- Atienden menús y desvíos, recepción opcional\n- Cualificación de leads limitada\n- Enfoque en infraestructura telefónica\n\n### Minute Call\n\n- Producto central: recepción y atención de llamadas\n- Atienden agentes nativos o IA\n- Cualificación incluida en el protocolo\n- Enfoque en atención como extensión de tu equipo\n\n## Cuando tiene sentido cada opción\n\nSi lo que necesitas es montar tu telefonía, con números, extensiones y menús, una centralita como Fonvirtual es la herramienta adecuada. Si lo que necesitas es que las llamadas se atiendan y se cualifiquen por personas que representan a tu empresa, Minute Call es la alternativa. No compiten en lo mismo: uno enruta, el otro atiende.",
     "faq": [
       {
         "question": "¿Puedo tener las dos cosas?",
@@ -2812,7 +2819,7 @@
     "metaTitle": "Alternativa a Mas IP para pymes en España | minute call",
     "metaDescription": "Más IP se orienta a grandes volúmenes y contratos a medio plazo. Minute Call es la alternativa flexible para pymes, sin permanencia.",
     "excerpt": "Más IP se orienta a grandes volúmenes y equipos dedicados con contratos a medio plazo. Para una pyme que necesita flexibilidad, la alternativa es un servicio sin permanencia con agentes nativos.",
-    "content": "Más IP se orienta a grandes volúmenes de llamadas y equipos dedicados con contratos a medio plazo, así que para una pyme que necesita flexibilidad la alternativa es un servicio sin permanencia y con agentes nativos como Minute Call.\n\n## Que es Mas IP\n\nMás IP es un proveedor español de soluciones de telefonía y externalización de atención telefónica. Trabaja con empresas que necesitan gestionar volúmenes de llamadas entrantes y salientes con equipos dedicados, a menudo con compromisos de volumen y de duración.\n\n## Por qué una pyme necesita otra cosa\n\nLos servicios orientados a grandes volúmenes cobran sentido cuando la empresa alcanza cierta escala. Una pyme que recibe entre 50 y 300 llamadas al mes no rentabiliza un equipo dedicado ni un [contrato con mínimos](/comparar). Lo que necesita es un servicio que se ajuste a su actividad, que arranque rápido y que pueda cambiar sin penalizaciones.\n\n## Mas IP o Minute Call: en que se diferencian\n\n### Mas IP\n\n- Orientación a grandes volúmenes\n- Equipos dedicados\n- Compromiso a medio plazo\n- Activación en semanas\n\n### Minute Call\n\n- Orientación a pymes y empresas medianas\n- Agentes compartidos o dedicados según necesidad\n- Sin permanencia\n- Activación en 48 horas\n\n## Cuando tiene sentido cada opción\n\nMás IP encaja cuando una empresa tiene volumen suficiente para justificar un equipo dedicado y una operación de mayor tamaño. Minute Call es la alternativa cuando priorizas flexibilidad, [rapidez de puesta en marcha](/articulos/call-center-externalizado-para-empresas) y agentes nativos sin comprometerte a plazos.",
+    "content": "Más IP se orienta a grandes volúmenes de llamadas y equipos dedicados con contratos a medio plazo, así que para una pyme que necesita flexibilidad la alternativa es un servicio sin permanencia y con agentes nativos como Minute Call.\n\n## Que es Mas IP\n\nMás IP es un proveedor español de soluciones de telefonía y externalización de atención telefónica. Trabaja con empresas que necesitan gestionar volúmenes de llamadas entrantes y salientes con equipos dedicados, a menudo con compromisos de volumen y de duración.\n\n## Por qué una pyme necesita otra cosa\n\nLos servicios orientados a grandes volúmenes cobran sentido cuando la empresa alcanza cierta escala. Una pyme que recibe entre 50 y 300 llamadas al mes no rentabiliza un equipo dedicado ni un [contrato con mínimos](/comparar). Lo que necesita es un servicio que se ajuste a su actividad, que arranque rápido y que pueda cambiar sin penalizaciones.\n\n## Mas IP o Minute Call: en que se diferencian\n\n### Mas IP\n\n- Orientación a grandes volúmenes\n- Equipos dedicados\n- Compromiso a medio plazo\n- Activación en semanas\n\n### Minute Call\n\n- Orientación a pymes y empresas medianas\n- Agentes compartidos o dedicados según necesidad\n- Sin permanencia\n- Activación en 48 horas\n\n## Cuando tiene sentido cada opción\n\nMás IP encaja cuando una empresa tiene volumen suficiente para justificar un equipo dedicado y una operación de mayor tamaño. Minute Call es la alternativa cuando priorizas flexibilidad, [rapidez de puesta en marcha](/lp/call-center-para-empresas) y agentes nativos sin comprometerte a plazos.",
     "faq": [
       {
         "question": "¿Minute Call ofrece agentes dedicados?",
@@ -2829,7 +2836,7 @@
         "label": "Alternativa a los grandes call centers"
       },
       {
-        "href": "/articulos/call-center-para-empresas-espana",
+        "href": "/lp/call-center-para-empresas",
         "label": "Call center para empresas"
       },
       {
@@ -2856,6 +2863,10 @@
       }
     ],
     "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
       {
         "href": "/articulos/alternativa-konecta-pymes",
         "label": "Alternativa a Konecta para pymes"
@@ -2889,6 +2900,10 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/articulos/alternativa-atento-pymes",
         "label": "Alternativa a Atento para pymes"
       },
@@ -2921,6 +2936,10 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/articulos/alternativa-konecta-pymes",
         "label": "Alternativa a Konecta para pymes"
       },
@@ -2940,7 +2959,7 @@
     "metaTitle": "Atento vs Minute Call: comparativa para pymes",
     "metaDescription": "Atento o Minute Call: un BPO global para grandes cuentas frente a un servicio flexible con agentes nativos para pymes.",
     "excerpt": "La diferencia entre Atento y Minute Call es de escala y de modelo: Atento es un BPO global para grandes cuentas; Minute Call, un servicio flexible con agentes nativos para pymes y empresas medianas.",
-    "content": "La diferencia entre Atento y Minute Call es de escala y de modelo: Atento es un BPO global para grandes cuentas de banca y telco, y Minute Call es un servicio flexible con agentes nativos para pymes y empresas medianas.\n\n## Atento de un vistazo\n\n- Cliente objetivo: grandes cuentas reguladas\n- Contratos plurianuales\n- Volumen mínimo elevado\n- Operación a gran escala\n- Activación en semanas o meses\n- Protocolo estandarizado\n\n## Minute Call de un vistazo\n\n- Cliente objetivo: pymes y empresas medianas\n- Sin permanencia\n- Sin volumen mínimo\n- Agentes nativos en España\n- Activación en 48 horas\n- Protocolo personalizado\n\n## En qué se diferencian\n\nAtento aporta escala y especialización en sectores regulados, con la contrapartida de contratos largos y un [servicio más estandarizado](/comparar). Minute Call aporta cercanía y flexibilidad: agentes nativos, protocolo a medida y la posibilidad de empezar o parar sin penalizaciones.\n\n## Cuál elegir según tu empresa\n\nElige Atento si tu empresa opera en banca, seguros o telecomunicaciones con grandes volúmenes. Elige Minute Call si buscas una atención telefónica profesional y ágil para una empresa mediana, con [integración en tus sistemas](/articulos/call-center-externalizado-para-empresas) y sin compromiso de años.",
+    "content": "La diferencia entre Atento y Minute Call es de escala y de modelo: Atento es un BPO global para grandes cuentas de banca y telco, y Minute Call es un servicio flexible con agentes nativos para pymes y empresas medianas.\n\n## Atento de un vistazo\n\n- Cliente objetivo: grandes cuentas reguladas\n- Contratos plurianuales\n- Volumen mínimo elevado\n- Operación a gran escala\n- Activación en semanas o meses\n- Protocolo estandarizado\n\n## Minute Call de un vistazo\n\n- Cliente objetivo: pymes y empresas medianas\n- Sin permanencia\n- Sin volumen mínimo\n- Agentes nativos en España\n- Activación en 48 horas\n- Protocolo personalizado\n\n## En qué se diferencian\n\nAtento aporta escala y especialización en sectores regulados, con la contrapartida de contratos largos y un [servicio más estandarizado](/comparar). Minute Call aporta cercanía y flexibilidad: agentes nativos, protocolo a medida y la posibilidad de empezar o parar sin penalizaciones.\n\n## Cuál elegir según tu empresa\n\nElige Atento si tu empresa opera en banca, seguros o telecomunicaciones con grandes volúmenes. Elige Minute Call si buscas una atención telefónica profesional y ágil para una empresa mediana, con [integración en tus sistemas](/lp/call-center-para-empresas) y sin compromiso de años.",
     "faq": [
       {
         "question": "¿Puedo migrar de Atento a Minute Call?",
@@ -2952,6 +2971,10 @@
       }
     ],
     "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
       {
         "href": "/articulos/alternativa-atento-pymes",
         "label": "Alternativa a Atento para pymes"
@@ -2972,7 +2995,7 @@
     "metaTitle": "Konecta vs Atento vs Minute Call: comparativa",
     "metaDescription": "Konecta, Atento y Minute Call comparados: dos grandes BPO para corporaciones y una alternativa flexible para pymes.",
     "excerpt": "Konecta y Atento son dos de los mayores BPO del mercado español, diseñados para grandes corporaciones. Minute Call es la alternativa flexible con agentes nativos para pymes y empresas medianas.",
-    "content": "Konecta y Atento son dos de los mayores BPO del mercado español, diseñados para grandes corporaciones, mientras que Minute Call es la alternativa flexible con agentes nativos para pymes y empresas medianas.\n\n## Que tienen en común Konecta y Atento\n\nAmbos son grandes BPO orientados a corporaciones con volúmenes muy altos, contratos de duración y operaciones a gran escala en España y Latinoamérica. Son [referencias sólidas](/comparar) cuando una empresa necesita esa capacidad.\n\n## Konecta\n\n- Cliente objetivo: grandes corporaciones\n- Permanencia: anual\n- Volumen mínimo alto\n- Agentes en España y Latinoamérica\n- Activación en semanas o meses\n\n## Atento\n\n- Cliente objetivo: grandes cuentas reguladas\n- Permanencia: plurianual\n- Volumen mínimo elevado\n- Operación a gran escala\n- Activación en semanas o meses\n\n## Minute Call\n\n- Cliente objetivo: pymes y empresas medianas\n- Mes a mes, sin permanencia\n- Sin volumen mínimo\n- Agentes nativos en España\n- Activación en 48 horas\n\n## Dónde encaja Minute Call\n\nMinute Call no compite en volumen con esos gigantes: compite en flexibilidad y cercanía. Para una empresa mediana o una pyme que quiere agentes nativos, protocolo a medida y activación rápida sin permanencia, es la [opción más práctica](/articulos/call-center-para-empresas-espana) de las tres.\n\n## Cuál elegir\n\nSi tu empresa mueve miles de llamadas diarias, Konecta o Atento aportan la escala. Si buscas atención profesional para volúmenes medios con integración en tu CRM y sin contrato largo, Minute Call es la elección.",
+    "content": "Konecta y Atento son dos de los mayores BPO del mercado español, diseñados para grandes corporaciones, mientras que Minute Call es la alternativa flexible con agentes nativos para pymes y empresas medianas.\n\n## Que tienen en común Konecta y Atento\n\nAmbos son grandes BPO orientados a corporaciones con volúmenes muy altos, contratos de duración y operaciones a gran escala en España y Latinoamérica. Son [referencias sólidas](/comparar) cuando una empresa necesita esa capacidad.\n\n## Konecta\n\n- Cliente objetivo: grandes corporaciones\n- Permanencia: anual\n- Volumen mínimo alto\n- Agentes en España y Latinoamérica\n- Activación en semanas o meses\n\n## Atento\n\n- Cliente objetivo: grandes cuentas reguladas\n- Permanencia: plurianual\n- Volumen mínimo elevado\n- Operación a gran escala\n- Activación en semanas o meses\n\n## Minute Call\n\n- Cliente objetivo: pymes y empresas medianas\n- Mes a mes, sin permanencia\n- Sin volumen mínimo\n- Agentes nativos en España\n- Activación en 48 horas\n\n## Dónde encaja Minute Call\n\nMinute Call no compite en volumen con esos gigantes: compite en flexibilidad y cercanía. Para una empresa mediana o una pyme que quiere agentes nativos, protocolo a medida y activación rápida sin permanencia, es la [opción más práctica](/lp/call-center-para-empresas) de las tres.\n\n## Cuál elegir\n\nSi tu empresa mueve miles de llamadas diarias, Konecta o Atento aportan la escala. Si buscas atención profesional para volúmenes medios con integración en tu CRM y sin contrato largo, Minute Call es la elección.",
     "faq": [
       {
         "question": "¿Cuál es la mejor opción para una empresa mediana?",
@@ -2985,128 +3008,16 @@
     ],
     "relatedLinks": [
       {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      },
+      {
         "href": "/articulos/konecta-vs-minute-call",
         "label": "Konecta vs Minute Call"
       },
       {
         "href": "/articulos/atento-vs-minute-call",
         "label": "Atento vs Minute Call"
-      },
-      {
-        "href": "/comparar",
-        "label": "Alternativa a los grandes call centers"
-      }
-    ]
-  },
-  {
-    "slug": "call-center-para-empresas-espana",
-    "title": "Call center para empresas en España",
-    "metaTitle": "Call center para empresas en España: guía 2026 | minute call",
-    "metaDescription": "Qué esperar de un call center para empresas en España: modelos, agentes nativos, integración con tu CRM y sin la rigidez de un gran BPO.",
-    "excerpt": "Un call center para empresas gestiona la atención telefónica con agentes profesionales, protocolo propio e integración con el CRM. Para empresas que no llegan a los volúmenes de un gran BPO, la opción práctica es un servicio flexible sin permanencia.",
-    "content": "Un call center para empresas es un servicio externo que gestiona la atención telefónica de la compañía con agentes profesionales, protocolo propio e integración con el CRM, y para una empresa que no llega a los volúmenes de un gran BPO la opción práctica es un servicio flexible sin permanencia.\n\n## Que aporta un call center a una empresa\n\nPara una empresa con estructura, el teléfono sigue siendo un canal crítico: entran clientes potenciales, proveedores, incidencias y consultas de clientes actuales. Un call center profesional asegura que cada llamada se atienda con criterio, se registre y se derive al departamento adecuado. El resultado es menos oportunidades perdidas y un [equipo interno](/articulos/call-center-externalizado-para-empresas) que no se interrumpe con llamadas que puede gestionar un servicio externo.\n\n## Que necesita una empresa, más alla de coger el teléfono\n\nUna empresa no busca solo que alguien descuelgue. Busca integración con su CRM para que cada contacto quede registrado, reporting para medir volumen y motivos de llamada, protocolo por tipo de consulta y capacidad de dar servicio a varias sedes o departamentos. También valora la cobertura fuera de horario y la posibilidad de escalar en picos de actividad.\n\n## Sectores donde tiene más impacto\n\nAdemás de los servicios profesionales, un call center para empresas aporta valor en varios sectores:\n\n- Industria y fabricación\n- Tecnología y SaaS\n- Ecommerce y retail\n- Servicios financieros\n- Logística y distribución\n- Consultoría\n\nSon sectores donde una llamada perdida puede significar un pedido, un contrato o una incidencia sin resolver.\n\n## Call center interno o externalizado\n\n### Equipo interno\n\n- Coste fijo alto en salarios y estructura\n- Cobertura limitada al horario del equipo\n- Escalabilidad lenta\n- Puesta en marcha de semanas\n\n### Call center externalizado\n\n- Coste variable según el servicio\n- Cobertura ampliable a 24/7\n- Escalabilidad rápida\n- Activación en 48 horas\n\n## Por qué Minute Call\n\nMinute Call ofrece un call center para empresas con agentes nativos en España, protocolo personalizado e integración con herramientas como HubSpot, Pipedrive, Salesforce y Google Calendar. Sin la rigidez ni los contratos de un [gran BPO](/comparar), y con la posibilidad de combinar agentes humanos e IA según el tipo de llamada. Activación en 48 horas y sin permanencia.",
-    "faq": [
-      {
-        "question": "¿Un call center externalizado sirve para una empresa mediana?",
-        "answer": "Sí. Es la forma de dar cobertura profesional sin asumir el coste fijo de un equipo interno."
-      },
-      {
-        "question": "¿Se integra con nuestro CRM?",
-        "answer": "Sí, con los CRM y agendas habituales, para que cada llamada quede registrada."
-      },
-      {
-        "question": "¿Podemos ampliar a 24/7?",
-        "answer": "Sí, con agentes, IA o un modelo híbrido según el horario."
-      }
-    ],
-    "relatedLinks": [
-      {
-        "href": "/articulos/call-center-externalizado-para-empresas",
-        "label": "Call center externalizado para empresas"
-      },
-      {
-        "href": "/comparar",
-        "label": "Alternativa a los grandes call centers"
-      },
-      {
-        "href": "/reserva-llamada",
-        "label": "Reserva una llamada"
-      },
-      {
-        "href": "/articulos/call-center-para-pequenas-empresas",
-        "label": "Call center para pequeñas empresas"
-      }
-    ]
-  },
-  {
-    "slug": "call-center-externalizado-para-empresas",
-    "title": "Call center externalizado para empresas",
-    "metaTitle": "Call center externalizado: cómo funciona y qué cuesta",
-    "metaDescription": "Call center externalizado: cómo cubrir tu atención telefónica sin montar un equipo interno. Cuándo, qué medir y cómo integrarlo.",
-    "excerpt": "Externalizar el call center permite cubrir toda la atención telefónica sin montar un equipo interno. La clave está en elegir un proveedor con agentes nativos, protocolo personalizado e integración con tus sistemas.",
-    "content": "Externalizar el call center permite a una empresa cubrir toda su atención telefónica sin montar un equipo interno, y la clave está en elegir un proveedor con agentes nativos, protocolo personalizado e integración con tus sistemas.\n\n## Que significa externalizar el call center\n\nExternalizar el call center consiste en delegar la atención telefónica en un [proveedor especializado](/comparar) que atiende en nombre de tu empresa. No es un contestador ni un simple desvío: los agentes siguen tu protocolo, cualifican las llamadas, agendan citas o transfieren según tus reglas, y registran cada contacto en tu sistema.\n\n## Cuando tiene sentido externalizar\n\nExternalizar compensa cuando el volumen de llamadas interrumpe al equipo interno, cuando se pierden llamadas fuera de horario, cuando la empresa crece y la atención no escala al mismo ritmo, o cuando montar un equipo propio supone un [coste fijo](/articulos/call-center-para-empresas-espana) que no se justifica. En esos escenarios, un servicio externo cubre la necesidad con mayor flexibilidad.\n\n## Que medir para saber si funciona\n\nUna externalización bien hecha se mide con datos:\n\n- Porcentaje de llamadas atendidas\n- Tiempo de respuesta\n- Motivos de llamada\n- Citas o leads generados\n- Llamadas transferidas al departamento correcto\n\nSin reporting no hay control, por eso conviene elegir un proveedor que entregue esta información de forma periódica.\n\n## Como integrarlo con tus sistemas\n\nEl valor real aparece cuando la atención telefónica se conecta con el CRM y la agenda de la empresa. Cada llamada debe quedar registrada donde el equipo comercial y de operaciones ya trabaja. La integración con herramientas como HubSpot, Pipedrive, Salesforce o Google Calendar evita el doble trabajo y da trazabilidad a cada contacto.\n\n## Que buscar en el proveedor\n\n- Agentes nativos, por cercanía cultural y comprensión del cliente\n- Protocolo personalizado, para que la atención represente a tu empresa\n- Integración con tu CRM, para trazabilidad y cero doble trabajo\n- Flexibilidad, para escalar sin contratos largos\n- Reporting, para medir y mejorar\n\n## Por qué Minute Call\n\nMinute Call es un call center externalizado con agentes nativos en España, protocolo a medida e integración con tus sistemas. Combina agentes humanos e IA según el tipo de llamada, se activa en 48 horas y funciona sin permanencia, lo que reduce el riesgo de probarlo.",
-    "faq": [
-      {
-        "question": "¿Cuánto se tarda en externalizar?",
-        "answer": "El servicio se pone en marcha en 48 horas laborables tras definir el protocolo."
-      },
-      {
-        "question": "¿Qué pasa con las llamadas fuera de horario?",
-        "answer": "Se pueden cubrir con agentes, IA o un modelo híbrido según la necesidad."
-      },
-      {
-        "question": "¿Y si quiero volver a internalizar?",
-        "answer": "Al no haber permanencia, puedes ajustar o terminar el servicio cuando quieras."
-      }
-    ],
-    "relatedLinks": [
-      {
-        "href": "/articulos/call-center-para-empresas-espana",
-        "label": "Call center para empresas"
-      },
-      {
-        "href": "/comparar",
-        "label": "Alternativa a los grandes call centers"
-      },
-      {
-        "href": "/reserva-llamada",
-        "label": "Reserva una llamada"
-      },
-      {
-        "href": "/articulos/call-center-para-pequenas-empresas",
-        "label": "Call center para pequeñas empresas"
-      }
-    ]
-  },
-  {
-    "slug": "call-center-para-pequenas-empresas",
-    "title": "Call center para pequeñas empresas",
-    "metaTitle": "Call center para pequeñas empresas: opciones reales",
-    "metaDescription": "Atención telefónica profesional sin volumen mínimo ni equipo dedicado: agentes nativos, activo en 48 horas y sin permanencia.",
-    "excerpt": "Una pequeña empresa no necesita (ni puede pagar) el equipo dedicado que exige un gran BPO. Un call center flexible, sin volumen mínimo y con agentes nativos cubre sus llamadas sin esa estructura.",
-    "content": "Un call center para pequeñas empresas es un servicio de atención telefónica que cubre las llamadas de un negocio pequeño con agentes profesionales, pero sin el volumen mínimo, el equipo dedicado ni los contratos que exige un gran BPO. Es la opción cuando recibes pocas llamadas al mes y aun así no quieres perder ninguna.\n\n## El problema de una pequeña empresa con los call centers tradicionales\n\nLos grandes call centers están construidos para volumen. Suelen pedir un equipo dedicado mínimo (a menudo varios agentes a jornada completa), un volumen mínimo de llamadas y contratos de meses o años. Una pequeña empresa que recibe entre 20 y 200 llamadas al mes no encaja en ese molde: pagaría por capacidad que no usa y se ataría a un compromiso que no necesita.\n\nEl resultado suele ser que la pequeña empresa se queda sin cubrir: contesta el dueño entre tareas, se pierden llamadas fuera de horario y cada llamada perdida puede ser un cliente que se va a la competencia.\n\n## Que necesita de verdad una pequeña empresa\n\nNo un equipo de cinco personas dedicadas en exclusiva. Necesita que, cuando entre una llamada, alguien profesional la atienda con el nombre del negocio, resuelva o tome el mensaje, y avise al instante. En la práctica, eso son unas pocas horas de atención repartidas a lo largo del día, no un contrato de BPO.\n\nLas claves para una pequeña empresa son: sin volumen mínimo, sin permanencia, agentes nativos que suenen como parte del equipo, y activación rápida sin instalaciones.\n\n## Call center tradicional o servicio flexible\n\n### Gran call center o BPO\n\n- Exige equipo dedicado y volumen mínimo\n- Contratos de meses o años\n- Pensado para miles de llamadas\n- Activación lenta\n\n### Servicio flexible tipo Minute Call\n\n- Sin volumen mínimo, agentes compartidos\n- Mes a mes, sin permanencia\n- Pensado para decenas o pocos cientos de llamadas\n- Activación en 48 horas\n\n## Cuánto cuesta y como se paga\n\nUna recepcionista interna a jornada completa supone un coste fijo alto para una empresa pequeña. Un call center flexible se ajusta a tu volumen real, sin pagar por agentes en exclusiva. Para un negocio pequeño, esa diferencia entre coste fijo y coste ajustado es lo que hace viable externalizar la atención.\n\n## Por qué Minute Call encaja en una pequeña empresa\n\nMinute Call funciona con agentes nativos en España y opción de IA, sin volumen mínimo y sin permanencia. Se integra con tu CRM y tu agenda, se activa en 48 horas y combina agentes humanos e IA según el tipo de llamada. Es el [call center para empresas](/articulos/call-center-para-empresas-espana) en su versión más ligera: pensado para quien tiene pocas llamadas y no quiere un equipo dedicado.",
-    "faq": [
-      {
-        "question": "¿Merece la pena un call center para una empresa pequeña?",
-        "answer": "Sí, si pierdes llamadas o te interrumpen constantemente. Un servicio flexible sin volumen mínimo cubre tus llamadas por menos de lo que cuesta una recepcionista a jornada completa."
-      },
-      {
-        "question": "¿Necesito un mínimo de llamadas para contratarlo?",
-        "answer": "No. A diferencia de los grandes BPO, Minute Call no exige volumen mínimo ni equipo dedicado, así que encaja aunque recibas pocas llamadas al mes."
-      },
-      {
-        "question": "¿Cuánto tarda en activarse?",
-        "answer": "48 horas laborables. Se define el protocolo, se configura el desvío y empieza a atender en nombre de tu empresa."
-      }
-    ],
-    "relatedLinks": [
-      {
-        "href": "/articulos/call-center-para-empresas-espana",
-        "label": "Call center para empresas"
-      },
-      {
-        "href": "/articulos/call-center-externalizado-para-empresas",
-        "label": "Call center externalizado para empresas"
       },
       {
         "href": "/comparar",
