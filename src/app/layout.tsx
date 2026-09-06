@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { OrganizationSchema } from "@/components/JsonLd";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Minute Call | Call Center para PYMES",
@@ -175,6 +176,10 @@ export default function RootLayout({
         <main className="flex-grow">{children}</main>
         <WhatsAppButton />
         <Footer />
+        {/* Analitica propia: mide visitas reales sin depender de Search Console,
+            que es lo que dejo de registrar datos entre el 28 de agosto y la
+            reverificacion de la propiedad. Sin cookies y sin datos personales. */}
+        <Analytics />
       </body>
     </html>
   );
