@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { InternalLinks } from '@/components/InternalLinks';
-import { FAQPageSchema, LocalBusinessSchema, HowToSchema, ServiceSchema } from "@/components/JsonLd";
+import { FAQPageSchema, ServiceSchema } from "@/components/JsonLd";
 import VideoCard from "@/components/VideoCard";
 
 export default function Home() {
@@ -49,6 +49,22 @@ export default function Home() {
 
   return (
     <>
+      {/* Schema de la home.
+          Los cuatro componentes estaban IMPORTADOS y ninguno se renderizaba: la
+          home tenia 10 preguntas frecuentes visibles y cero FAQPage JSON-LD, y
+          ningun Service. Es la causa real de que las auditorias GEO marquen la
+          FAQ como "sin estructura": el <details>/<summary> esta bien, lo que
+          faltaba era el marcado. */}
+      <FAQPageSchema faqs={faqs.map((f) => ({ question: f.q, answer: f.a }))} />
+      <ServiceSchema
+        services={[
+          { name: "Recepcionista virtual", description: "Agentes nativos en España atienden las llamadas de tu empresa con tu protocolo y tu nombre." },
+          { name: "Toma de mensajes", description: "Recogemos el recado con el contexto que necesitas y te lo hacemos llegar en tiempo real." },
+          { name: "Cualificación de leads", description: "Filtramos y cualificamos cada llamada para que tu equipo solo dedique tiempo a lo relevante." },
+          { name: "Reserva de citas", description: "Nos integramos con tu calendario y agendamos citas en tu nombre según tu disponibilidad." },
+        ]}
+      />
+
 
       {/* ===== HERO ===== */}
       <section className="hero-section" style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(16px,5vw,64px) clamp(40px,6vw,60px)', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(340px, 100%), 1fr))', gap: 40, alignItems: 'center' }}>

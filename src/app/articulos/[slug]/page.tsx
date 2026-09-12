@@ -330,9 +330,16 @@ export default async function ArticlePage({
           antes no habia ninguna: ni <time> en el HTML ni fechas en el schema,
           asi que Google se inventaba una. Mostramos la de revision, que es la
           unica verificable; la de publicacion original solo la sabe el autor. */}
+      {/* Firma visible. El schema ya declaraba Person como autor, pero no habia
+          ni nombre ni fecha en el HTML, que es lo que leen los motores
+          generativos para decidir si un contenido tiene autoria identificable. */}
       {article.dateModified && (
         <p style={{ fontSize: 14, marginBottom: 32, color: 'rgba(0,0,0,0.45)' }}>
-          Actualizado el{' '}
+          Por{' '}
+          <Link href="/sobre-nosotros" style={{ color: 'rgba(0,0,0,0.6)' }}>
+            Alberto Castiel
+          </Link>
+          {' · '}Actualizado el{' '}
           <time dateTime={article.dateModified}>
             {new Date(article.dateModified + 'T00:00:00').toLocaleDateString('es-ES', {
               day: 'numeric',
