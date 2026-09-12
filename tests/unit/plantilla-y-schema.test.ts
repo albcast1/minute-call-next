@@ -110,3 +110,33 @@ test('los articulos llevan fecha de revision', () => {
   const sinFecha = articles.filter(a => !a.dateModified).map(a => a.slug)
   assert.deepEqual(sinFecha, [], `Articulos sin dateModified: ${sinFecha.slice(0, 5).join(', ')}`)
 })
+
+test('solo se piden indexadas las combinaciones con demanda demostrada', () => {
+  const idx: { indexables: string[] } = read('../../src/data/city-sector-indexables.json')
+  const citySlugs = new Set(cities.map(c => c.slug))
+  const sectorSlugs = new Set(sectors.map(s => s.slug))
+
+  const rotas = idx.indexables.filter(p => {
+    const [c, s] = p.split('/')
+    return !citySlugs.has(c) || !sectorSlugs.has(s)
+  })
+  assert.deepEqual(rotas, [], `Combinaciones indexables que no existen: ${rotas.join(', ')}`)
+  assert.equal(new Set(idx.indexables).size, idx.indexables.length, 'hay combinaciones repetidas')
+  assert.ok(
+    idx.indexables.length > 50 && idx.indexables.length < 600,
+    `Se indexan ${idx.indexables.length} combinaciones. Por debajo de 50 se tira trafico real; ` +
+      `por encima de 600 se vuelve al patron de doorway que provoco la poda.`
+  )
+})
+
+test('la pagina de precios no publica ninguna tarifa propia de Minute Call', () => {
+  const pagina = readFileSync(new URL('../../src/app/precios/page.tsx', import.meta.url), 'utf8')
+  // Las cifras de /precios son rangos de MERCADO. Una tarifa propia se
+  // reconoce porque la marca aparece pegada al importe.
+  const sospechosas = [
+    ...pagina.matchAll(/Minute Call[^.\n]{0,80}?\d{1,4}\s*€/gi),
+    ...pagina.matchAll(/\d{1,4}\s*€[^.\n]{0,40}?\bde Minute Call\b/gi),
+  ].map(m => m[0])
+  assert.deepEqual(sospechosas, [], `Importes atribuidos a Minute Call: ${sospechosas.join(' | ')}`)
+  assert.ok(pagina.includes('no nuestras tarifas'), 'la pagina debe dejar claro que los rangos son de mercado')
+})

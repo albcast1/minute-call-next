@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next'
 import sectors from '@/data/sectors.json'
 import cities from '@/data/cities.json'
 import articles from '@/data/articles.json'
+import indexables from '@/data/city-sector-indexables.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.minute-call.com'
@@ -12,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages = [
     { url: baseUrl, lastModified: now, changeFrequency: 'weekly' as const, priority: 1 },
+    { url: `${baseUrl}/precios`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/sobre-nosotros`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/reserva-llamada`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/comparar`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
@@ -44,34 +46,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
-  // Top 10 ciudades × top 10 sectores - priority alta (contenido más trabajado)
-  const topSectorCityPages = TOP_CITY_SLUGS.flatMap(ciudad =>
-    TOP_SECTOR_SLUGS.map(sector => ({
-      url: `${baseUrl}/atencion-telefonica/${ciudad}/${sector}`,
-      lastModified: now,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
-    }))
+  // Paginas ciudad x sector: solo las que tienen demanda demostrada.
+  //
+  // De las 2.400 combinaciones, 231 concentran el 91% de las impresiones
+  // (>=5 impresiones en 90 dias, Search Console 12/09/2026). Las otras 2.169
+  // no aportan trafico y diluyen la senal de calidad del dominio, que es el
+  // patron de doorway pages que senalaba la auditoria. Salen del sitemap y
+  // pasan a noindex,follow en la propia pagina; no se borra ninguna.
+  const indexableSet = new Set(indexables.indexables)
+  const TOP = new Set(
+    TOP_CITY_SLUGS.flatMap(c => TOP_SECTOR_SLUGS.map(s => `${c}/${s}`))
   )
-
-  // Resto de combinaciones ciudad×sector - priority baja (descubrimiento por Google)
-  const allTopCitySet = new Set(TOP_CITY_SLUGS)
-  const allTopSectorSet = new Set(TOP_SECTOR_SLUGS)
-  const remainingSectorCityPages = cities.flatMap(city =>
-    sectors
-      .filter(sector => !(allTopCitySet.has(city.slug) && allTopSectorSet.has(sector.slug)))
-      .map(sector => ({
-        url: `${baseUrl}/atencion-telefonica/${city.slug}/${sector.slug}`,
-        lastModified: now,
-        changeFrequency: 'monthly' as const,
-        priority: 0.3,
-      }))
-  )
+  const sectorCityPages = [...indexableSet].map(par => ({
+    url: `${baseUrl}/atencion-telefonica/${par}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    // Las que ademas estaban en el grupo prioritario mantienen prioridad alta.
+    priority: TOP.has(par) ? 0.8 : 0.6,
+  }))
 
   return [
     ...staticPages,
-    ...topSectorCityPages,
-    ...remainingSectorCityPages,
+    ...sectorCityPages,
     ...sectorPages,
     ...articlePages,
     ...cityPages,

@@ -5,19 +5,19 @@ import sectors from '@/data/sectors.json'
 import cities from '@/data/cities.json'
 import { FAQPageSchema, BreadcrumbSchema, ServiceSchema } from '@/components/JsonLd'
 import highlights from '@/data/city-sector-highlights.json'
+import indexables from '@/data/city-sector-indexables.json'
 import { buildCitySectorMeta, pickHighlight, clientesDe, clientesSinArticulo } from '@/lib/seo/city-sector'
 
-const TOP_CITY_SLUGS = ['madrid','barcelona','valencia','sevilla','malaga','bilbao','zaragoza','murcia','palma-de-mallorca','las-palmas']
-const TOP_SECTOR_SLUGS = ['recepcionista-ia-clinicas','recepcionista-ia-inmobiliarias','recepcionista-ia-restaurantes','recepcionista-ia-abogados','recepcionista-ia-clinicas-dentales','recepcionista-ia-asesorias','recepcionista-ia-veterinarias','recepcionista-ia-centros-estetica','recepcionista-ia-fisioterapia','recepcionista-ia-seguros']
-
+/**
+ * Se prerenderizan las combinaciones con demanda demostrada, no un top 10x10
+ * elegido a ojo. De las 100 que se generaban antes, la mayoria no recibia
+ * ninguna impresion; estas 231 concentran el 91% del trafico de la ruta.
+ */
 export async function generateStaticParams() {
-  const params: { ciudad: string; sector: string }[] = []
-  for (const ciudad of TOP_CITY_SLUGS) {
-    for (const sector of TOP_SECTOR_SLUGS) {
-      params.push({ ciudad, sector })
-    }
-  }
-  return params
+  return (indexables.indexables as string[]).map(par => {
+    const [ciudad, sector] = par.split('/')
+    return { ciudad, sector }
+  })
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ ciudad: string; sector: string }> }): Promise<Metadata> {
@@ -28,9 +28,16 @@ export async function generateMetadata({ params }: { params: Promise<{ ciudad: s
 
   const { title, description } = buildCitySectorMeta(city, sec)
 
+  // Solo pedimos indexacion de las combinaciones con demanda demostrada
+  // (>=5 impresiones en 90 dias). El resto sigue accesible y transmitiendo
+  // enlaces, pero deja de competir por presupuesto de rastreo y de diluir la
+  // senal de calidad del dominio con 2.169 paginas casi identicas.
+  const indexable = (indexables.indexables as string[]).includes(`${ciudad}/${sector}`)
+
   return {
     title,
     description,
+    robots: indexable ? undefined : { index: false, follow: true },
     alternates: { canonical: `https://www.minute-call.com/atencion-telefonica/${ciudad}/${sector}` },
     openGraph: { title, description, url: `https://www.minute-call.com/atencion-telefonica/${ciudad}/${sector}`, siteName: 'minute call', locale: 'es_ES', type: 'website' },
   }

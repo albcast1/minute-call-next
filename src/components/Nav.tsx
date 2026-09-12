@@ -51,6 +51,13 @@ export default function Nav() {
             Ciudades
           </Link>
           <Link
+            href="/precios"
+            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
+            className="hover:opacity-80 transition-opacity"
+          >
+            Precios
+          </Link>
+          <Link
             href="/sobre-nosotros"
             style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
             className="hover:opacity-80 transition-opacity"

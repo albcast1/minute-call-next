@@ -3575,7 +3575,25 @@
     "servicio": "Centralita virtual para empresas",
     "clientes": "las empresas",
     "esServicio": true,
-    "servicioCorto": "Centralita virtual para empresas"
+    "servicioCorto": "Centralita virtual para empresas",
+    "deepDive": [
+      {
+        "heading": "Qué es una centralita virtual y en qué se diferencia de una física",
+        "body": "Una centralita virtual hace lo mismo que la centralita de toda la vida —recibir una llamada y repartirla entre extensiones, departamentos y horarios— pero sin una caja en un armario de tu oficina. Todo vive en la nube: das de alta una extensión desde un panel, cambias el horario de atención en un minuto y añades un departamento nuevo sin que venga nadie a instalar nada.\n\nLa diferencia práctica no es la tecnología, es lo que cuesta cambiar de opinión. Con una centralita física, ampliar o mover algo es una obra pequeña; el equipo se dimensiona por el peor escenario y se paga entero todo el año. Con una virtual, el coste sigue al uso real y una reorganización interna se resuelve el mismo día."
+      },
+      {
+        "heading": "Centralita virtual, IVR y recepcionista: tres cosas distintas que se confunden",
+        "body": "**El IVR** es el menú de opciones: «pulse 1 para ventas». Reparte, no resuelve. Funciona cuando el que llama sabe exactamente a qué departamento quiere ir.\n\n**La centralita virtual** es la infraestructura: numeración, extensiones, colas, horarios, desvíos y grabación. Decide a dónde va cada llamada según las reglas que tú defines.\n\n**La recepcionista** es quien descuelga cuando el menú no basta: toma el recado, agenda la cita, filtra al comercial y decide si algo es urgente.\n\nLa mayoría de las empresas que se quejan de su centralita no tienen un problema de centralita: tienen un menú que reparte llamadas hacia extensiones donde no hay nadie para cogerlas. Por eso conviene decidir las dos capas a la vez."
+      },
+      {
+        "heading": "Qué mirar antes de contratar una",
+        "body": "**¿Hay que portar el número o vale con un desvío?** Portar es un trámite de semanas y bloquea la puesta en marcha. Un desvío desde tu numeración actual arranca en horas y es reversible.\n\n**¿Cuántas llamadas simultáneas aguanta?** Es la pregunta que nadie hace y la que explica los tonos de ocupado en hora punta. Una centralita virtual bien dimensionada no tiene ese techo.\n\n**¿Se pueden definir horarios distintos por departamento?** Administración cierra a las 15:00 y el servicio técnico no. Si el sistema solo admite un horario global, alguien va a quedarse sin atender.\n\n**¿Qué pasa cuando no contesta nadie?** Esta es la que de verdad importa. Si la respuesta es «salta el buzón», has comprado una forma más elegante de perder la llamada.\n\n**¿Hay grabación y panel de métricas?** Sin datos de llamadas atendidas, perdidas y tiempo de espera no puedes saber si el sistema funciona."
+      },
+      {
+        "heading": "Cómo lo montamos en Minute Call",
+        "body": "Configuramos la centralita sobre tu numeración actual, sin portabilidad y sin instalar equipos: extensiones, departamentos, horarios por franja y enrutado por idioma si lo necesitas. Hasta ahí es infraestructura y la tiene cualquiera.\n\nLo que cambia es lo que hay detrás: cuando el menú no resuelve o la extensión no contesta, la llamada no cae en un buzón, la coge un agente nativo que conoce tu protocolo, toma el recado con contexto y te lo hace llegar al momento por el canal que prefieras. Operativo en menos de 48 horas, sin permanencia y sin coste de alta."
+      }
+    ]
   },
   {
     "slug": "recepcion-de-llamadas",
@@ -3735,7 +3753,25 @@
     "servicio": "Secretaria virtual",
     "clientes": "las empresas",
     "esServicio": true,
-    "servicioCorto": "Secretaria virtual"
+    "servicioCorto": "Secretaria virtual",
+    "deepDive": [
+      {
+        "heading": "Cuánto cuesta una secretaria virtual en España",
+        "body": "En el mercado español conviven tres modelos y compararlos por el precio de entrada lleva a error, porque no miden lo mismo.\n\n**Por llamada atendida.** El más habitual entre servicios de secretaría virtual. Se paga por llamada gestionada, normalmente con un mínimo mensual, y el precio por llamada varía según lo que haya que hacer con ella: no cuesta lo mismo tomar un recado que cualificar un lead siguiendo un guion de seis preguntas o cerrar una cita en tu agenda.\n\n**Por paquete mensual.** Un número cerrado de llamadas o minutos a precio fijo. Hace el gasto previsible y es el que mejor encaja cuando el volumen es más o menos estable.\n\n**Por hora de agente.** El modelo de los call centers tradicionales. En España la hora de agente se mueve en torno a los 25-30 € en servicios estándar, y sube en perfiles con idiomas o especialización. Pagas disponibilidad, la uses o no, así que solo sale a cuenta con volumen alto y constante.\n\nAntes de comparar presupuestos conviene calcular la alternativa interna completa: no el sueldo, sino el sueldo más la Seguridad Social a cargo de la empresa, vacaciones, bajas, formación y puesto de trabajo. Esa es la cifra contra la que compite cualquier servicio externo."
+      },
+      {
+        "heading": "Qué hace y qué no hace una secretaria virtual",
+        "body": "**Hace**: atender con el nombre de tu empresa, filtrar comerciales y llamadas irrelevantes, tomar recados estructurados, gestionar y confirmar citas en tu agenda, cualificar leads con las preguntas que tú definas, derivar por urgencia según tu protocolo y avisarte en tiempo real por email, WhatsApp o SMS.\n\n**No hace**: campañas de emisión de llamadas ni telemarketing —eso es otro servicio—, ni soporte técnico de nivel 2 que requiera acceso a tus sistemas internos, ni tareas que exijan un criterio que no se pueda escribir en un protocolo.\n\nLa frontera útil es esa: todo lo que se puede definir por escrito antes de que suene el teléfono, se puede externalizar bien. Lo que depende de tu criterio en el momento, no."
+      },
+      {
+        "heading": "Cuándo compensa y cuándo no",
+        "body": "Compensa cuando el teléfono te interrumpe más de lo que te aporta. El caso más claro es el profesional que atiende a un cliente mientras le llaman otros tres: no es que no quiera cogerlo, es que no puede, y esas llamadas no vuelven. También cuando el volumen es estacional y montar plantilla para el pico no tiene sentido, o cuando necesitas cubrir tardes, fines de semana o idiomas que tu equipo no cubre.\n\nNo compensa si recibes cuatro llamadas a la semana —con un buzón bien configurado te basta— ni si cada llamada requiere conocimiento técnico profundo que no se puede transferir a un protocolo. Y tampoco si lo que necesitas es alguien físicamente en una recepción."
+      },
+      {
+        "heading": "Cómo elegir sin llevarte una sorpresa",
+        "body": "**¿Dónde están los agentes?** Se nota en la primera frase y tu cliente lo percibe. Pregunta por la ubicación real del equipo, no por la sede de la empresa.\n\n**¿Hay permanencia y coste de alta?** Firmar doce meses por un servicio que aún no sabes si encaja es mala idea. Empieza corto.\n\n**¿Se cobran aparte noches, fines de semana y festivos?** Muchos presupuestos parecen competitivos hasta que aparecen los recargos.\n\n**¿Puedes escuchar llamadas reales?** Sin grabación no puedes auditar la calidad de algo que habla en nombre de tu empresa.\n\n**¿Cuánto tarda en estar operativo y hay que cambiar de número?** Si exige portabilidad, es un proyecto. Si se resuelve con un desvío, es un trámite.\n\nEn Minute Call atendemos con agentes nativos en España, con IA para lo repetitivo o una combinación de ambos según el tipo de llamada. Definimos el protocolo contigo, configuramos el desvío desde tu número actual y arrancas en menos de 48 horas, sin permanencia y sin coste de alta. El presupuesto se ajusta al volumen real de cada empresa, así que se calcula caso por caso."
+      }
+    ]
   },
   {
     "slug": "call-center-para-pymes",
