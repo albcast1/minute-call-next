@@ -1,30 +1,36 @@
 {
-    "name": "minute-call",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "eslint",
-        "test": "node --test \"tests/unit/*.test.ts\"",
-        "test:unit": "node --test \"tests/unit/*.test.ts\"",
-        "test:e2e": "node --test \"tests/e2e/*.test.mjs\""
-    },
-    "dependencies": {
-        "@vercel/analytics": "^2.0.1",
-        "next": "16.2.2",
-        "react": "19.2.4",
-        "react-dom": "19.2.4"
-    },
-    "devDependencies": {
-        "@tailwindcss/postcss": "^4",
-        "@types/node": "^20",
-        "@types/react": "^19",
-        "@types/react-dom": "^19",
-        "eslint": "^9",
-        "eslint-config-next": "16.2.2",
-        "tailwindcss": "^4",
-        "typescript": "^5"
-    }
+  "name": "minute-call",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --experimental-strip-types --test \"tests/unit/*.test.ts\"",
+    "test:unit": "node --experimental-strip-types --test \"tests/unit/*.test.ts\"",
+    "test:e2e": "node --test \"tests/e2e/*.test.mjs\"",
+    "check:llms": "node scripts/sync-llms.mjs --check",
+    "check": "npm run test && npm run check:llms"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "next": "16.2.2",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22"
+  }
 }
