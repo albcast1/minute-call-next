@@ -77,7 +77,7 @@ export default function SobreNosotros() {
     { title: "Sin permanencia, mes a mes", body: "Minute Call se contrata mes a mes y se cancela cuando quieras. Grandes BPO como Konecta o Atento suelen trabajar con contratos anuales o plurianuales." },
     { title: "Sin volumen minimo ni equipo dedicado obligatorio", body: "No exigimos un mínimo de llamadas ni agentes en exclusiva. Los grandes BPO suelen pedir un equipo dedicado de varios agentes a jornada completa." },
     { title: "Activo en 48 horas", body: "Definimos el protocolo y empezamos a atender en dos días laborables. En un gran BPO la puesta en marcha suele llevar semanas o meses." },
-    { title: "Agentes nativos en Espana", body: "Quien atiende tus llamadas tiene acento nativo y conoce el contexto local. Muchas operaciones de gran volumen reparten la atención entre varios países." },
+    { title: "Agentes nativos, sin deslocalizar", body: "Quien atiende tus llamadas tiene acento nativo y conoce el contexto local. Muchas operaciones de gran volumen reparten la atención entre varios países." },
     { title: "Humano e IA en el mismo servicio", body: "Combinamos agentes humanos para las llamadas de valor con IA para noches, festivos y confirmaciones. Los servicios de secretaría tradicionales suelen trabajar solo con personas." },
   ];
 
@@ -217,7 +217,7 @@ export default function SobreNosotros() {
         </div>
 
         {/* Servicios (H3 por servicio) */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 16, marginTop: 24 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 16, marginTop: 24 }}>
             {services.map((s) => (
               <div key={s.title} className="card" style={{ padding: 24 }}>
                 <h3 style={{ fontSize: 18, marginBottom: 8 }}>{s.title}</h3>
@@ -259,7 +259,7 @@ export default function SobreNosotros() {
         {/* Para quien es */}
         <section style={{ marginBottom: 64 }}>
           <h2 style={{ fontSize: 22, marginBottom: 16 }}>Para quien es Minute Call</h2>
-          <ul style={{ lineHeight: 1.9, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
+          <ul style={{ fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
             {icp.map((item) => (
               <li key={item}>{item}</li>
             ))}
@@ -336,7 +336,7 @@ export default function SobreNosotros() {
       {/* Como funciona */}
         <section style={{ marginBottom: 64 }}>
           <h2 style={{ fontSize: 22, marginBottom: 16 }}>Como funciona Minute Call</h2>
-          <ol style={{ lineHeight: 1.9, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
+          <ol style={{ fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
             {howItWorks.map((step) => (
               <li key={step}>{step}</li>
             ))}
@@ -346,7 +346,7 @@ export default function SobreNosotros() {
         {/* Datos clave */}
         <section style={{ marginBottom: 64 }}>
           <h2 style={{ fontSize: 22, marginBottom: 16 }}>Datos clave de Minute Call</h2>
-          <dl className="card" style={{ padding: 24, margin: 0, display: "grid", gridTemplateColumns: "minmax(120px, 190px) 1fr", columnGap: 24, rowGap: 12, fontSize: 15, lineHeight: 1.6 }}>
+          <dl className="card" style={{ padding: 24, margin: 0, display: "grid", gridTemplateColumns: "minmax(120px, 190px) 1fr", columnGap: 24, rowGap: 12, fontSize: 16, letterSpacing: "-0.04em", lineHeight: 1.6 }}>
             {keyFacts.map(([k, v]) => (
               <div key={k} style={{ display: "contents" }}>
                 <dt style={{ fontWeight: 600 }}>{k}</dt>
