@@ -44,10 +44,10 @@ export default function Footer() {
             <nav style={{ display: "flex", flexDirection: "column", gap: 8 }}>
               <Link href="/" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Home</Link>
               <Link href="/sobre-nosotros" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Nosotros</Link>
-              <Link href="/politica-privacidad" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Politica de Privacidad</Link>
-              <Link href="/politica-cookies" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Politica de Cookies</Link>
+              <Link href="/politica-privacidad" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Política de privacidad</Link>
+              <Link href="/politica-cookies" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Política de cookies</Link>
               <Link href="/aviso-legal" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Aviso legal</Link>
-              <Link href="/docs" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>API y documentacion</Link>
+              <Link href="/docs" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>API y documentación</Link>
               <a href="/agent-instructions.md" style={{ fontSize: 14, color: "rgba(0,0,0,0.56)" }}>Instrucciones para agentes</a>
             </nav>
           </div>
