@@ -24,6 +24,8 @@ export default function SobreNosotros() {
     "@id": "https://www.minute-call.com/#organization",
     name: "minute call",
     alternateName: "Minute Call",
+    legalName: "MINUTE CALL SLU",
+    taxID: "B22766828",
     url: "https://www.minute-call.com",
     logo: "https://www.minute-call.com/og-image.png",
     description:
@@ -38,7 +40,7 @@ export default function SobreNosotros() {
         sameAs: ["https://www.linkedin.com/in/alberto-castiel/"] },
     ],
     numberOfEmployees: { "@type": "QuantitativeValue", minValue: 10, maxValue: 50 },
-    address: { "@type": "PostalAddress", addressCountry: "ES" },
+    address: { "@type": "PostalAddress", addressLocality: "Málaga", addressRegion: "Andalucía", postalCode: "29016", addressCountry: "ES" },
     areaServed: { "@type": "Country", name: "España" },
     sameAs: [
       "https://www.linkedin.com/company/minute-call/",
@@ -63,6 +65,67 @@ export default function SobreNosotros() {
   const rev1Body = "Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdíamos fuera de horario.";
   const rev2Body = "La calidad es indistinguible de tener una recepcionista propia. Nuestros clientes no saben que es externo.";
   const rev3Body = "En temporada de declaraciones el volumen se disparaba y perdíamos clientes. Ahora cada llamada se atiende.";
+
+  const services = [
+    { title: "Recepcion de llamadas", body: "Atendemos con el nombre de tu empresa y tu protocolo, para que tu cliente hable con alguien que suena como parte de tu equipo." },
+    { title: "Cualificacion de leads", body: "Hacemos las preguntas que definas y te enviamos el resumen al momento, para que llames solo a quien merece la pena." },
+    { title: "Gestion de citas", body: "Agendamos en tu calendario o CRM según tu disponibilidad real y confirmamos la cita al cliente." },
+    { title: "Cobertura 24/7 y desbordamiento", body: "Cubrimos noches, festivos y picos de volumen con agentes o IA, sin que tengas que ampliar plantilla." },
+  ];
+
+  const differentiators = [
+    { title: "Sin permanencia, mes a mes", body: "Minute Call se contrata mes a mes y se cancela cuando quieras. Grandes BPO como Konecta o Atento suelen trabajar con contratos anuales o plurianuales." },
+    { title: "Sin volumen minimo ni equipo dedicado obligatorio", body: "No exigimos un mínimo de llamadas ni agentes en exclusiva. Los grandes BPO suelen pedir un equipo dedicado de varios agentes a jornada completa." },
+    { title: "Activo en 48 horas", body: "Definimos el protocolo y empezamos a atender en dos días laborables. En un gran BPO la puesta en marcha suele llevar semanas o meses." },
+    { title: "Agentes nativos en Espana", body: "Quien atiende tus llamadas tiene acento nativo y conoce el contexto local. Muchas operaciones de gran volumen reparten la atención entre varios países." },
+    { title: "Humano e IA en el mismo servicio", body: "Combinamos agentes humanos para las llamadas de valor con IA para noches, festivos y confirmaciones. Los servicios de secretaría tradicionales suelen trabajar solo con personas." },
+  ];
+
+  const icp = [
+    "Pymes y empresas medianas de servicios, de 1 a 50 empleados.",
+    "Empresas que reciben entre unas decenas y unos cientos de llamadas al mes.",
+    "Clínicas, clínicas dentales y veterinarias.",
+    "Despachos de abogados, asesorías y corredurías de seguros.",
+    "Inmobiliarias.",
+    "Empresas B2B (tecnología, industria, ecommerce, logística) que quieren cubrir picos o fuera de horario sin contratar.",
+    "Negocios que no llegan al mínimo de agentes que exige un BPO.",
+  ];
+
+  const howItWorks = [
+    "Sesión inicial: definimos contigo el saludo, las preguntas clave y qué hacer con cada tipo de llamada.",
+    "Activación en 48 horas: desvías tu número o integras el servicio en tu centralita. Tus clientes siguen llamando al mismo número.",
+    "Atención: agentes nativos en España responden en nombre de tu empresa y, si lo eliges, la IA cubre noches y festivos.",
+    "Aviso inmediato: recibes el resumen de cada llamada por email, WhatsApp o en tu CRM, y las citas en tu calendario.",
+    "Control de calidad: revisamos las conversaciones y ajustamos el protocolo contigo cuando hace falta.",
+  ];
+
+  const keyFacts: [string, string][] = [
+    ["Nombre", "Minute Call (MINUTE CALL SLU)"],
+    ["Tipo", "Call center y contact center externalizado para pymes y empresas medianas"],
+    ["Fundación", "Noviembre de 2024"],
+    ["Fundador", "Alberto Castiel"],
+    ["Sede", "Málaga, España"],
+    ["Web", "www.minute-call.com"],
+    ["Oferta principal", "Atención telefónica 24/7 con agentes nativos en España e IA"],
+    ["Precio", "Presupuesto personalizado según volumen y horario"],
+    ["Contrato", "Mes a mes, sin permanencia ni volumen mínimo"],
+    ["Servicios", "Recepción de llamadas, cualificación de leads, gestión de citas, cobertura 24/7 y desbordamiento"],
+    ["Comunicación", "Resúmenes por email, WhatsApp o CRM (HubSpot, Pipedrive, Salesforce, Google Calendar)"],
+    ["Idiomas", "Español, inglés y francés"],
+    ["Cobertura", "Más de 50 ciudades en España"],
+    ["Activación", "48 horas laborables"],
+    ["Partners", "Teleperformance y Zendesk"],
+    ["Valoración", "5.0 en Trustpilot"],
+    ["Competidores", "Konecta, Atento, Concentrix, Transcom, Secretaria.es"],
+    ["Redes", "LinkedIn y Trustpilot"],
+  ];
+
+  const faqs = [
+    { q: "¿Minute Call es un call center o una secretaria virtual?", a: "Es un call center flexible para pymes y empresas medianas: atiende, cualifica y agenda como un call center, pero sin volumen mínimo ni permanencia y con un trato tan cercano como el de una secretaría virtual." },
+    { q: "¿Hay permanencia o volumen minimo?", a: "No. El servicio es mes a mes y no exigimos un mínimo de llamadas ni agentes dedicados en exclusiva." },
+    { q: "¿Donde estan los agentes?", a: "En España. Son agentes nativos que atienden en español, inglés y francés; la IA es opcional para noches, festivos y confirmaciones." },
+    { q: "¿Cuanto tarda en ponerse en marcha?", a: "48 horas laborables desde que definimos el protocolo contigo." },
+  ];
 
   return (
     <div style={{ maxWidth: 900, margin: "0 auto", padding: "60px 24px 80px" }}>
@@ -153,6 +216,16 @@ export default function SobreNosotros() {
           </p>
         </div>
 
+        {/* Servicios (H3 por servicio) */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 16, marginTop: 24 }}>
+            {services.map((s) => (
+              <div key={s.title} className="card" style={{ padding: 24 }}>
+                <h3 style={{ fontSize: 18, marginBottom: 8 }}>{s.title}</h3>
+                <p style={{ fontSize: 15, lineHeight: 1.7, color: "rgba(0,0,0,0.75)", margin: 0 }}>{s.body}</p>
+              </div>
+            ))}
+          </div>
+
         {/* Internal links to services */}
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, marginTop: 24 }}>
           <Link href="/lp" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid #000', borderRadius: 999, fontSize: 14, color: '#000', textDecoration: 'none', fontWeight: 500 }}>
@@ -169,6 +242,29 @@ export default function SobreNosotros() {
           </Link>
         </div>
       </section>
+
+      {/* Diferenciadores */}
+        <section style={{ marginBottom: 64 }}>
+          <h2 style={{ fontSize: 22, marginBottom: 24 }}>Que diferencia a Minute Call</h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 700 }}>
+            {differentiators.map((d) => (
+              <div key={d.title}>
+                <h3 style={{ fontSize: 18, marginBottom: 6 }}>{d.title}</h3>
+                <p style={{ lineHeight: 1.8, color: "rgba(0,0,0,0.75)", margin: 0 }}>{d.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Para quien es */}
+        <section style={{ marginBottom: 64 }}>
+          <h2 style={{ fontSize: 22, marginBottom: 16 }}>Para quien es Minute Call</h2>
+          <ul style={{ lineHeight: 1.9, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
+            {icp.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </section>
 
       {/* Partners */}
       <section style={{ marginBottom: 64 }}>
@@ -237,6 +333,29 @@ export default function SobreNosotros() {
         </div>
       </section>
 
+      {/* Como funciona */}
+        <section style={{ marginBottom: 64 }}>
+          <h2 style={{ fontSize: 22, marginBottom: 16 }}>Como funciona Minute Call</h2>
+          <ol style={{ lineHeight: 1.9, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
+            {howItWorks.map((step) => (
+              <li key={step}>{step}</li>
+            ))}
+          </ol>
+        </section>
+
+        {/* Datos clave */}
+        <section style={{ marginBottom: 64 }}>
+          <h2 style={{ fontSize: 22, marginBottom: 16 }}>Datos clave de Minute Call</h2>
+          <dl className="card" style={{ padding: 24, margin: 0, display: "grid", gridTemplateColumns: "minmax(120px, 190px) 1fr", columnGap: 24, rowGap: 12, fontSize: 15, lineHeight: 1.6 }}>
+            {keyFacts.map(([k, v]) => (
+              <div key={k} style={{ display: "contents" }}>
+                <dt style={{ fontWeight: 600 }}>{k}</dt>
+                <dd style={{ margin: 0, color: "rgba(0,0,0,0.75)" }}>{v}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+
       {/* Trustpilot */}
       <section style={{ marginBottom: 48 }}>
         <h2 style={{ fontSize: 22, marginBottom: 16 }}>
@@ -249,7 +368,7 @@ export default function SobreNosotros() {
             { name: "Laura Martínez", role: "Gerente de Asesoría", body: rev3Body },
           ].map((review, i) => (
             <div key={i} className="card" style={{ padding: 24 }}>
-              <p style={{ fontSize: 15, lineHeight: 1.7, color: 'rgba(0,0,0,0.75)', marginBottom: 12, fontStyle: 'italic' }}>
+              <p style={{ fontSize: 15, lineHeight: 1.7, color: 'rgba(0,0,0,0.75)', marginBottom: 12 }}>
                 &ldquo;{review.body}&rdquo;
               </p>
               <p style={{ fontSize: 14, fontWeight: 600, margin: 0 }}>
@@ -270,9 +389,36 @@ export default function SobreNosotros() {
         </p>
       </section>
 
+      {/* Preguntas frecuentes */}
+        <section style={{ marginBottom: 48 }}>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                mainEntity: faqs.map((f) => ({
+                  "@type": "Question",
+                  name: f.q,
+                  acceptedAnswer: { "@type": "Answer", text: f.a },
+                })),
+              }),
+            }}
+          />
+          <h2 style={{ fontSize: 22, marginBottom: 24 }}>Preguntas frecuentes</h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 700 }}>
+            {faqs.map((f) => (
+              <div key={f.q}>
+                <h3 style={{ fontSize: 18, marginBottom: 6 }}>{f.q}</h3>
+                <p style={{ lineHeight: 1.8, color: "rgba(0,0,0,0.75)", margin: 0 }}>{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
       {/* Last updated */}
       <p style={{ fontSize: 12, color: 'rgba(0,0,0,0.3)', borderTop: '1px solid rgba(0,0,0,0.08)', paddingTop: 24 }}>
-        Última actualización: junio 2026
+        Última actualización: septiembre 2026
       </p>
     </div>
   );
