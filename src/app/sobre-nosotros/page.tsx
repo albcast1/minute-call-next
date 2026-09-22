@@ -259,7 +259,7 @@ export default function SobreNosotros() {
         {/* Para quien es */}
         <section style={{ marginBottom: 64 }}>
           <h2 style={{ fontSize: 22, marginBottom: 16 }}>Para quien es Minute Call</h2>
-          <ul style={{ fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
+          <ul style={{ listStyle: "disc", fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
             {icp.map((item) => (
               <li key={item}>{item}</li>
             ))}
@@ -336,7 +336,7 @@ export default function SobreNosotros() {
       {/* Como funciona */}
         <section style={{ marginBottom: 64 }}>
           <h2 style={{ fontSize: 22, marginBottom: 16 }}>Como funciona Minute Call</h2>
-          <ol style={{ fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
+          <ol style={{ listStyle: "decimal", fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
             {howItWorks.map((step) => (
               <li key={step}>{step}</li>
             ))}
