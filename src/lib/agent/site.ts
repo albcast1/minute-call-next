@@ -23,10 +23,10 @@ export const LEGAL_ENTITY = {
   legalName: 'MINUTE CALL SLU',
   tradingName: 'Minute Call',
   taxId: 'B22766828',
-  address: 'Calle Sierra de Grazalema 35, Bloque 7, Planta 2, Puerta A, 29016 Malaga, Espana',
+  address: 'Calle Sierra de Grazalema 35, Bloque 7, Planta 2, Puerta A, 29016 Málaga, España',
   country: 'ES',
   email: 'alberto@minute-call.com',
-  activity: 'Servicios de recepcion telefonica, atencion al cliente y secretaria virtual para empresas.',
+  activity: 'Servicios de recepción telefónica, atención al cliente y secretaría virtual para empresas.',
 } as const
 
 /** Publicly verifiable trust signals, all already published on the site. */
