@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Call center en noruego | Contact center en noruego para empresas | minute call',
-  description: 'Call center y contact center en noruego para empresas españolas. Agentes nativos noruegoparlantes, atención telefónica 24/7, sin permanencia. Ideal para turismo, comercio internacional y más.',
+  title: 'Call center en noruego para empresas | minute call',
+  description: 'Call center en noruego con agentes nativos para empresas españolas. Atención 24/7 y sin permanencia, ideal para turismo y comercio internacional.',
   alternates: { canonical: 'https://www.minute-call.com/call-center-en-noruego' },
   openGraph: {
     title: 'Call center en noruego | minute call',
