@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Call center en ingles | Contact center en ingles para empresas | minute call',
-  description: 'Call center y contact center en inglÃ©s para empresas espaÃ±olas. Agentes nativos angloparlantes, atenciÃ³n telefÃ³nica 24/7, sin permanencia. Ideal para turismo, comercio internacional y mÃ¡s.',
+  title: 'Call center en inglés para empresas | minute call',
+  description: 'Call center en inglés con agentes nativos para empresas españolas. Atención 24/7 y sin permanencia, ideal para turismo y comercio internacional.',
   alternates: { canonical: 'https://www.minute-call.com/call-center-en-ingles' },
   openGraph: {
     title: 'Call center en ingles | minute call',
-    description: 'AtenciÃ³n telefÃ³nica en inglÃ©s con agentes nativos. Contact center especializado para empresas que necesitan comunicarse con clientes angloparlantes.',
+    description: 'Atención telefónica en inglés con agentes nativos. Contact center especializado para empresas que necesitan comunicarse con clientes angloparlantes.',
     url: 'https://www.minute-call.com/call-center-en-ingles',
     siteName: 'minute call',
     locale: 'es_ES',
@@ -16,39 +16,39 @@ export const metadata: Metadata = {
 
 const painPoints = [
   {
-    icon: 'ð¬ð§',
+    icon: '🇬🇧',
     title: 'Clientes angloparlantes que cuelgan',
-    description: 'Reino Unido es el primer mercado emisor de turistas a EspaÃ±a. AdemÃ¡s, el inglÃ©s es el idioma de los negocios internacionales. Si llaman y nadie les atiende en inglÃ©s, buscan otra opciÃ³n.',
+    description: 'Reino Unido es el primer mercado emisor de turistas a España. Además, el inglés es el idioma de los negocios internacionales. Si llaman y nadie les atiende en inglés, buscan otra opción.',
   },
   {
-    icon: 'ð',
+    icon: '📉',
     title: 'Oportunidades comerciales perdidas',
-    description: 'Empresas y clientes de Reino Unido, EE.UU. o mercados internacionales que necesitan comunicarse en inglÃ©s con tu negocio.',
+    description: 'Empresas y clientes de Reino Unido, EE.UU. o mercados internacionales que necesitan comunicarse en inglés con tu negocio.',
   },
   {
-    icon: 'ð£ï¸',
+    icon: '🗣️',
     title: 'Traducciones automaticas que no convencen',
-    description: 'Un script traducido al inglÃ©s no es atenciÃ³n en inglÃ©s. Los clientes notan la diferencia y la confianza se pierde.',
+    description: 'Un script traducido al inglés no es atención en inglés. Los clientes notan la diferencia y la confianza se pierde.',
   },
   {
-    icon: 'ð¼',
+    icon: '💼',
     title: 'Contratar un nativo es caro',
-    description: 'Incorporar un empleado que hable inglÃ©s nativo a tu plantilla supone un coste fijo elevado que muchas empresas no pueden justificar.',
+    description: 'Incorporar un empleado que hable inglés nativo a tu plantilla supone un coste fijo elevado que muchas empresas no pueden justificar.',
   },
 ]
 
 const services = [
   {
     title: 'Atencion telefonica en ingles nativo',
-    description: 'Agentes nativos en inglÃ©s que atienden a tus clientes con fluidez real, no con guiones traducidos.',
+    description: 'Agentes nativos en inglés que atienden a tus clientes con fluidez real, no con guiones traducidos.',
   },
   {
     title: 'Soporte multicanal',
-    description: 'AtenciÃ³n por telÃ©fono, email y chat en inglÃ©s. Tus clientes eligen cÃ³mo contactar.',
+    description: 'Atención por teléfono, email y chat en inglés. Tus clientes eligen cómo contactar.',
   },
   {
     title: 'Cobertura 24/7',
-    description: 'Cubrimos cualquier franja horaria: maÃ±anas, tardes, noches, fines de semana y festivos.',
+    description: 'Cubrimos cualquier franja horaria: mañanas, tardes, noches, fines de semana y festivos.',
   },
   {
     title: 'Gestion de reservas y pedidos',
@@ -56,37 +56,37 @@ const services = [
   },
   {
     title: 'Filtrado y clasificacion de llamadas',
-    description: 'Clasificamos cada llamada en inglÃ©s por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atenciÃ³n.',
+    description: 'Clasificamos cada llamada en inglés por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atención.',
   },
   {
     title: 'Integracion con tus herramientas',
-    description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacciÃ³n queda registrada en tu plataforma.',
+    description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacción queda registrada en tu plataforma.',
   },
 ]
 
 const stats = [
   { value: '24/7', label: 'Cobertura' },
-  { value: '100%', label: 'inglÃ©s nativo' },
-  { value: '48h', label: 'ActivaciÃ³n' },
+  { value: '100%', label: 'inglés nativo' },
+  { value: '48h', label: 'Activación' },
   { value: '0', label: 'Permanencia' },
 ]
 
 const steps = [
-  { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cÃ³mo quieres que atendamos a tus clientes angloparlantes: tono, informaciÃ³n clave, procedimientos y escalado.' },
-  { step: '02', title: 'Configuramos el desvio', description: 'DesvÃ­as las llamadas en inglÃ©s a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
-  { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en inglÃ©s nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacciÃ³n.' },
+  { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cómo quieres que atendamos a tus clientes angloparlantes: tono, información clave, procedimientos y escalado.' },
+  { step: '02', title: 'Configuramos el desvio', description: 'Desvías las llamadas en inglés a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
+  { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en inglés nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacción.' },
 ]
 
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    { '@type': 'Question', name: 'Â¿QuÃ© es un call center en inglÃ©s?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atenciÃ³n telefÃ³nica con agentes nativos en inglÃ©s que atienden a tus clientes como parte de tu equipo. Siguen tu protocolo, usan tus herramientas y representan tu marca.' } },
-    { '@type': 'Question', name: 'Â¿Vuestros agentes son angloparlantes nativos?', acceptedAnswer: { '@type': 'Answer', text: 'SÃ­. Nuestros agentes son hablantes nativos de inglÃ©s â no usan traducciones ni scripts. Entienden las referencias culturales y el registro que tus clientes esperan.' } },
-    { '@type': 'Question', name: 'Â¿Para quÃ© sectores es Ãºtil un contact center en inglÃ©s?', acceptedAnswer: { '@type': 'Answer', text: 'Turismo y hostelerÃ­a, tecnologÃ­a, SaaS, e-commerce internacional, fintech, consultorÃ­a y cualquier empresa con clientes angloparlantes.' } },
-    { '@type': 'Question', name: 'Â¿Puedo activar el servicio solo cuando lo necesite?', acceptedAnswer: { '@type': 'Answer', text: 'SÃ­. No hay permanencia ni compromiso de duraciÃ³n. Puedes activar la atenciÃ³n en inglÃ©s para temporadas altas, campaÃ±as puntuales o de forma continuada â tÃº decides.' } },
-    { '@type': 'Question', name: 'Â¿CuÃ¡nto cuesta un call center en inglÃ©s?', acceptedAnswer: { '@type': 'Answer', text: 'El precio depende del volumen de llamadas y la complejidad del servicio. Contacta con nosotros para un presupuesto personalizado sin compromiso.' } },
-    { '@type': 'Question', name: 'Â¿En quÃ© se diferencia Minute Call de otros call centers?', acceptedAnswer: { '@type': 'Answer', text: 'Agentes nativos basados en EspaÃ±a, sin permanencia, protocolo personalizado, integraciÃ³n con tu CRM/PMS y posibilidad de combinar agentes humanos con IA conversacional.' } },
+    { '@type': 'Question', name: '¿Qué es un call center en inglés?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atención telefónica con agentes nativos en inglés que atienden a tus clientes como parte de tu equipo. Siguen tu protocolo, usan tus herramientas y representan tu marca.' } },
+    { '@type': 'Question', name: '¿Vuestros agentes son angloparlantes nativos?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. Nuestros agentes son hablantes nativos de inglés — no usan traducciones ni scripts. Entienden las referencias culturales y el registro que tus clientes esperan.' } },
+    { '@type': 'Question', name: '¿Para qué sectores es útil un contact center en inglés?', acceptedAnswer: { '@type': 'Answer', text: 'Turismo y hostelería, tecnología, SaaS, e-commerce internacional, fintech, consultoría y cualquier empresa con clientes angloparlantes.' } },
+    { '@type': 'Question', name: '¿Puedo activar el servicio solo cuando lo necesite?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. No hay permanencia ni compromiso de duración. Puedes activar la atención en inglés para temporadas altas, campañas puntuales o de forma continuada — tú decides.' } },
+    { '@type': 'Question', name: '¿Cuánto cuesta un call center en inglés?', acceptedAnswer: { '@type': 'Answer', text: 'El precio depende del volumen de llamadas y la complejidad del servicio. Contacta con nosotros para un presupuesto personalizado sin compromiso.' } },
+    { '@type': 'Question', name: '¿En qué se diferencia Minute Call de otros call centers?', acceptedAnswer: { '@type': 'Answer', text: 'Agentes nativos basados en España, sin permanencia, protocolo personalizado, integración con tu CRM/PMS y posibilidad de combinar agentes humanos con IA conversacional.' } },
   ],
 }
 
@@ -104,7 +104,7 @@ export default function CallCenterInglesPage() {
           Call center en ingles.<br />Atencion telefonica nativa para tus clientes <span className="serif-italic">angloparlantes.</span>
         </h1>
         <p style={{ maxWidth: 600, margin: '0 auto 32px' }}>
-          Contact center en inglÃ©s con agentes nativos para empresas espaÃ±olas. Atendemos a tus clientes de Reino Unido, Estados Unidos, Irlanda y otros paÃ­ses angloparlantes â sin permanencia y con activaciÃ³n en 48 horas.
+          Contact center en inglés con agentes nativos para empresas españolas. Atendemos a tus clientes de Reino Unido, Estados Unidos, Irlanda y otros países angloparlantes — sin permanencia y con activación en 48 horas.
         </p>
         <a href="/reserva-llamada" className="btn-contact">
           Solicita presupuesto gratuito
@@ -189,12 +189,12 @@ export default function CallCenterInglesPage() {
                 'Coste fijo elevado (salario + SS)',
                 'Solo cubre horario laboral',
                 'Si enferma o se va, sin cobertura',
-                'Proceso de selecciÃ³n largo',
+                'Proceso de selección largo',
                 'Un solo idioma por empleado',
-                'DifÃ­cil escalar en temporada alta',
+                'Difícil escalar en temporada alta',
               ].map((item) => (
                 <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(0,0,0,0.56)' }}>
-                  <span style={{ color: '#e53e3e', fontSize: 16 }}>â</span> {item}
+                  <span style={{ color: '#e53e3e', fontSize: 16 }}>✕</span> {item}
                 </li>
               ))}
             </ul>
@@ -203,15 +203,15 @@ export default function CallCenterInglesPage() {
             <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
-                'Coste variable segÃºn volumen',
-                'Cobertura 24/7 todo el aÃ±o',
+                'Coste variable según volumen',
+                'Cobertura 24/7 todo el año',
                 'Equipo siempre disponible',
-                'ActivaciÃ³n en 48 horas',
-                'MÃºltiples idiomas disponibles',
-                'Escala automÃ¡tica en picos',
+                'Activación en 48 horas',
+                'Múltiples idiomas disponibles',
+                'Escala automática en picos',
               ].map((item) => (
                 <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(255,255,255,0.8)' }}>
-                  <span style={{ color: '#5AFF15', fontSize: 16 }}>â</span> {item}
+                  <span style={{ color: '#5AFF15', fontSize: 16 }}>✓</span> {item}
                 </li>
               ))}
             </ul>
@@ -242,7 +242,7 @@ export default function CallCenterInglesPage() {
           Atiende a tus clientes angloparlantes como se <span className="serif-italic">merecen.</span>
         </h2>
         <p style={{ color: 'rgba(255,255,255,0.6)', maxWidth: 500, margin: '0 auto 32px' }}>
-          Activa tu call center en inglÃ©s en 48 horas. Sin permanencia, agentes nativos.
+          Activa tu call center en inglés en 48 horas. Sin permanencia, agentes nativos.
         </p>
         <a href="/reserva-llamada" style={{ display: 'inline-block', background: 'white', color: 'black', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
           Solicita presupuesto gratuito
