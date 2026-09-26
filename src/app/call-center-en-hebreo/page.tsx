@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Call center en hebreo | Contact center en hebreo para empresas | minute call',
-  description: 'Call center y contact center en hebreo para empresas espaÃ±olas. Agentes nativos hebreoparlantes, atenciÃ³n telefÃ³nica 24/7, sin permanencia. Ideal para turismo, comercio internacional y mÃ¡s.',
+  title: 'Call center en hebreo para empresas | minute call',
+  description: 'Call center en hebreo con agentes nativos para empresas españolas. Atención 24/7 y sin permanencia, ideal para turismo y comercio internacional.',
   alternates: { canonical: 'https://www.minute-call.com/call-center-en-hebreo' },
   openGraph: {
     title: 'Call center en hebreo | minute call',
-    description: 'AtenciÃ³n telefÃ³nica en hebreo con agentes nativos. Contact center especializado para empresas que necesitan comunicarse con clientes hebreoparlantes.',
+    description: 'Atención telefónica en hebreo con agentes nativos. Contact center especializado para empresas que necesitan comunicarse con clientes hebreoparlantes.',
     url: 'https://www.minute-call.com/call-center-en-hebreo',
     siteName: 'minute call',
     locale: 'es_ES',
@@ -16,22 +16,22 @@ export const metadata: Metadata = {
 
 const painPoints = [
   {
-    icon: 'ð®ð±',
-    title: 'Clientes israelÃ­es que cuelgan',
-    description: 'Israel es un mercado emisor creciente de turistas a EspaÃ±a, especialmente en destinos como Barcelona, Madrid y la Costa del Sol. Si llaman y nadie les atiende en hebreo, buscan otra opciÃ³n.',
+    icon: '🇮🇱',
+    title: 'Clientes israelíes que cuelgan',
+    description: 'Israel es un mercado emisor creciente de turistas a España, especialmente en destinos como Barcelona, Madrid y la Costa del Sol. Si llaman y nadie les atiende en hebreo, buscan otra opción.',
   },
   {
-    icon: 'ð',
+    icon: '📉',
     title: 'Oportunidades comerciales perdidas',
-    description: 'Clientes israelÃ­es que contactan con tu negocio y encuentran una barrera lingÃ¼Ã­stica total. El hebreo no es un idioma que se improvise.',
+    description: 'Clientes israelíes que contactan con tu negocio y encuentran una barrera lingüística total. El hebreo no es un idioma que se improvise.',
   },
   {
-    icon: 'ð£ï¸',
+    icon: '🗣️',
     title: 'Traducciones automaticas que no convencen',
-    description: 'Un script traducido al hebreo no es atenciÃ³n en hebreo. Los clientes notan la diferencia y la confianza se pierde.',
+    description: 'Un script traducido al hebreo no es atención en hebreo. Los clientes notan la diferencia y la confianza se pierde.',
   },
   {
-    icon: 'ð¼',
+    icon: '💼',
     title: 'Contratar un nativo es caro',
     description: 'Incorporar un empleado que hable hebreo nativo a tu plantilla supone un coste fijo elevado que muchas empresas no pueden justificar.',
   },
@@ -44,49 +44,49 @@ const services = [
   },
   {
     title: 'Soporte multicanal',
-    description: 'AtenciÃ³n por telÃ©fono, email y chat en hebreo. Tus clientes eligen cÃ³mo contactar.',
+    description: 'Atención por teléfono, email y chat en hebreo. Tus clientes eligen cómo contactar.',
   },
   {
     title: 'Cobertura 24/7',
-    description: 'Cubrimos cualquier franja horaria: maÃ±anas, tardes, noches, fines de semana y festivos.',
+    description: 'Cubrimos cualquier franja horaria: mañanas, tardes, noches, fines de semana y festivos.',
   },
   {
     title: 'Gestion de reservas y pedidos',
-    description: 'Recibimos llamadas de clientes israelÃ­es, procesamos reservas, consultas y pedidos siguiendo tu protocolo.',
+    description: 'Recibimos llamadas de clientes israelíes, procesamos reservas, consultas y pedidos siguiendo tu protocolo.',
   },
   {
     title: 'Filtrado y clasificacion de llamadas',
-    description: 'Clasificamos cada llamada en hebreo por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atenciÃ³n.',
+    description: 'Clasificamos cada llamada en hebreo por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atención.',
   },
   {
     title: 'Integracion con tus herramientas',
-    description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacciÃ³n queda registrada en tu plataforma.',
+    description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacción queda registrada en tu plataforma.',
   },
 ]
 
 const stats = [
   { value: '24/7', label: 'Cobertura' },
   { value: '100%', label: 'hebreo nativo' },
-  { value: '48h', label: 'ActivaciÃ³n' },
+  { value: '48h', label: 'Activación' },
   { value: '0', label: 'Permanencia' },
 ]
 
 const steps = [
-  { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cÃ³mo quieres que atendamos a tus clientes hebreoparlantes: tono, informaciÃ³n clave, procedimientos y escalado.' },
-  { step: '02', title: 'Configuramos el desvio', description: 'DesvÃ­as las llamadas en hebreo a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
-  { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en hebreo nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacciÃ³n.' },
+  { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cómo quieres que atendamos a tus clientes hebreoparlantes: tono, información clave, procedimientos y escalado.' },
+  { step: '02', title: 'Configuramos el desvio', description: 'Desvías las llamadas en hebreo a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
+  { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en hebreo nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacción.' },
 ]
 
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    { '@type': 'Question', name: 'Â¿QuÃ© es un call center en hebreo?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atenciÃ³n telefÃ³nica con agentes nativos en hebreo que atienden a tus clientes como parte de tu equipo. Siguen tu protocolo, usan tus herramientas y representan tu marca.' } },
-    { '@type': 'Question', name: 'Â¿Vuestros agentes son israelÃ­es nativos?', acceptedAnswer: { '@type': 'Answer', text: 'SÃ­. Nuestros agentes son hablantes nativos de hebreo â no usan traducciones ni scripts. Entienden las referencias culturales y el registro que tus clientes esperan.' } },
-    { '@type': 'Question', name: 'Â¿Para quÃ© sectores es Ãºtil un contact center en hebreo?', acceptedAnswer: { '@type': 'Answer', text: 'Turismo y hostelerÃ­a, inmobiliarias, clÃ­nicas de salud y estÃ©tica, tecnologÃ­a, diamantes y joyerÃ­a, y servicios legales con clientes israelÃ­es.' } },
-    { '@type': 'Question', name: 'Â¿Puedo activar el servicio solo cuando lo necesite?', acceptedAnswer: { '@type': 'Answer', text: 'SÃ­. No hay permanencia ni compromiso de duraciÃ³n. Puedes activar la atenciÃ³n en hebreo para temporadas altas, campaÃ±as puntuales o de forma continuada â tÃº decides.' } },
-    { '@type': 'Question', name: 'Â¿CuÃ¡nto cuesta un call center en hebreo?', acceptedAnswer: { '@type': 'Answer', text: 'El precio depende del volumen de llamadas y la complejidad del servicio. Contacta con nosotros para un presupuesto personalizado sin compromiso.' } },
-    { '@type': 'Question', name: 'Â¿En quÃ© se diferencia Minute Call de otros call centers?', acceptedAnswer: { '@type': 'Answer', text: 'Agentes nativos basados en EspaÃ±a, sin permanencia, protocolo personalizado, integraciÃ³n con tu CRM/PMS y posibilidad de combinar agentes humanos con IA conversacional.' } },
+    { '@type': 'Question', name: '¿Qué es un call center en hebreo?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atención telefónica con agentes nativos en hebreo que atienden a tus clientes como parte de tu equipo. Siguen tu protocolo, usan tus herramientas y representan tu marca.' } },
+    { '@type': 'Question', name: '¿Vuestros agentes son israelíes nativos?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. Nuestros agentes son hablantes nativos de hebreo — no usan traducciones ni scripts. Entienden las referencias culturales y el registro que tus clientes esperan.' } },
+    { '@type': 'Question', name: '¿Para qué sectores es útil un contact center en hebreo?', acceptedAnswer: { '@type': 'Answer', text: 'Turismo y hostelería, inmobiliarias, clínicas de salud y estética, tecnología, diamantes y joyería, y servicios legales con clientes israelíes.' } },
+    { '@type': 'Question', name: '¿Puedo activar el servicio solo cuando lo necesite?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. No hay permanencia ni compromiso de duración. Puedes activar la atención en hebreo para temporadas altas, campañas puntuales o de forma continuada — tú decides.' } },
+    { '@type': 'Question', name: '¿Cuánto cuesta un call center en hebreo?', acceptedAnswer: { '@type': 'Answer', text: 'El precio depende del volumen de llamadas y la complejidad del servicio. Contacta con nosotros para un presupuesto personalizado sin compromiso.' } },
+    { '@type': 'Question', name: '¿En qué se diferencia Minute Call de otros call centers?', acceptedAnswer: { '@type': 'Answer', text: 'Agentes nativos basados en España, sin permanencia, protocolo personalizado, integración con tu CRM/PMS y posibilidad de combinar agentes humanos con IA conversacional.' } },
   ],
 }
 
@@ -101,10 +101,10 @@ export default function CallCenterHebreoPage() {
           Call center y contact center en hebreo
         </span>
         <h1>
-          Call center en hebreo.<br />Atencion telefonica nativa para tus clientes <span className="serif-italic">israelÃ­es.</span>
+          Call center en hebreo.<br />Atencion telefonica nativa para tus clientes <span className="serif-italic">israelíes.</span>
         </h1>
         <p style={{ maxWidth: 600, margin: '0 auto 32px' }}>
-          Contact center en hebreo con agentes nativos para empresas espaÃ±olas. Atendemos a tus clientes de Israel â sin permanencia y con activaciÃ³n en 48 horas.
+          Contact center en hebreo con agentes nativos para empresas españolas. Atendemos a tus clientes de Israel — sin permanencia y con activación en 48 horas.
         </p>
         <a href="/reserva-llamada" className="btn-contact">
           Solicita presupuesto gratuito
@@ -127,7 +127,7 @@ export default function CallCenterHebreoPage() {
       <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
         <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>El problema</span>
         <h2 style={{ marginTop: 16 }}>
-          Por que pierdes clientes israelÃ­es sin un call center en <span className="serif-italic">hebreo.</span>
+          Por que pierdes clientes israelíes sin un call center en <span className="serif-italic">hebreo.</span>
         </h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 20, marginTop: 48, textAlign: 'left' }}>
           {painPoints.map((p, i) => (
@@ -189,12 +189,12 @@ export default function CallCenterHebreoPage() {
                 'Coste fijo elevado (salario + SS)',
                 'Solo cubre horario laboral',
                 'Si enferma o se va, sin cobertura',
-                'Proceso de selecciÃ³n largo',
+                'Proceso de selección largo',
                 'Un solo idioma por empleado',
-                'DifÃ­cil escalar en temporada alta',
+                'Difícil escalar en temporada alta',
               ].map((item) => (
                 <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(0,0,0,0.56)' }}>
-                  <span style={{ color: '#e53e3e', fontSize: 16 }}>â</span> {item}
+                  <span style={{ color: '#e53e3e', fontSize: 16 }}>✕</span> {item}
                 </li>
               ))}
             </ul>
@@ -203,15 +203,15 @@ export default function CallCenterHebreoPage() {
             <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
-                'Coste variable segÃºn volumen',
-                'Cobertura 24/7 todo el aÃ±o',
+                'Coste variable según volumen',
+                'Cobertura 24/7 todo el año',
                 'Equipo siempre disponible',
-                'ActivaciÃ³n en 48 horas',
-                'MÃºltiples idiomas disponibles',
-                'Escala automÃ¡tica en picos',
+                'Activación en 48 horas',
+                'Múltiples idiomas disponibles',
+                'Escala automática en picos',
               ].map((item) => (
                 <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(255,255,255,0.8)' }}>
-                  <span style={{ color: '#5AFF15', fontSize: 16 }}>â</span> {item}
+                  <span style={{ color: '#5AFF15', fontSize: 16 }}>✓</span> {item}
                 </li>
               ))}
             </ul>
@@ -239,7 +239,7 @@ export default function CallCenterHebreoPage() {
       {/* CTA */}
       <section style={{ background: 'black', color: 'white', textAlign: 'center', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)' }}>
         <h2 style={{ color: 'white' }}>
-          Atiende a tus clientes israelÃ­es como se <span className="serif-italic">merecen.</span>
+          Atiende a tus clientes israelíes como se <span className="serif-italic">merecen.</span>
         </h2>
         <p style={{ color: 'rgba(255,255,255,0.6)', maxWidth: 500, margin: '0 auto 32px' }}>
           Activa tu call center en hebreo en 48 horas. Sin permanencia, agentes nativos.
