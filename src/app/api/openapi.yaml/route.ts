@@ -8,7 +8,9 @@ export async function GET() {
   return new Response(toYaml(buildOpenApiDocument()), {
     status: 200,
     headers: {
-      'Content-Type': 'application/yaml; charset=utf-8',
+      // text/yaml y no application/yaml: Vercel solo comprime (gzip/brotli) los
+      // tipos text/*, JSON, JS, XML... y la auditoria lo marcaba sin comprimir.
+      'Content-Type': 'text/yaml; charset=utf-8',
       'Cache-Control': 'public, max-age=3600, s-maxage=86400',
       Vary: 'Accept, Accept-Encoding',
     },

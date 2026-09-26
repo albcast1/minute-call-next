@@ -4,9 +4,9 @@ import { API_BASE, DOCS_URL, SITE_URL } from '@/lib/agent/site'
 import { buildOpenApiDocument, OPENAPI_VERSION } from '@/lib/api/openapi'
 
 export const metadata: Metadata = {
-  title: 'Minute Call API y documentación para desarrolladores | minute call',
+  title: 'API y documentación para desarrolladores | minute call',
   description:
-    'Documentación de la API pública de Minute Call: especificación OpenAPI, endpoints de sectores y ciudades, calculadora de llamadas perdidas, alta de leads, autenticación y errores JSON.',
+    'Documentación de la API pública de Minute Call: especificación OpenAPI, sectores, ciudades, calculadora de llamadas perdidas y alta de leads.',
   alternates: { canonical: DOCS_URL },
   keywords: [
     'Minute Call API',

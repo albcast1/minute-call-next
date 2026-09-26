@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Calculadora: cuánto te cuestan las llamadas perdidas | minute call',
-  description: 'Calcula gratis el impacto económico real de las llamadas perdidas en tu negocio. Introduce tus datos y descubre cuánta facturación estás perdiendo cada mes por no atender el teléfono.',
+  title: 'Calculadora de llamadas perdidas | minute call',
+  description: 'Calcula gratis cuánto dinero pierdes cada mes por no atender el teléfono. Introduce tus datos y mide el impacto real de las llamadas perdidas.',
   alternates: { canonical: 'https://www.minute-call.com/calculadora-roi' },
   openGraph: {
     title: 'Calculadora de llamadas perdidas | minute call',

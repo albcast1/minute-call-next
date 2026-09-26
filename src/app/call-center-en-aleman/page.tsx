@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Call center en aleman | Contact center en aleman para empresas | minute call',
-  description: 'Call center y contact center en alemÃ¡n para empresas espaÃ±olas. Agentes nativos germanÃ³fonos, atenciÃ³n telefÃ³nica 24/7, sin permanencia. Ideal para turismo, comercio internacional y mÃ¡s.',
+  title: 'Call center en alemán para empresas | minute call',
+  description: 'Call center en alemán con agentes nativos para empresas españolas. Atención 24/7 y sin permanencia, ideal para turismo y comercio internacional.',
   alternates: { canonical: 'https://www.minute-call.com/call-center-en-aleman' },
   openGraph: {
     title: 'Call center en aleman | minute call',
-    description: 'AtenciÃ³n telefÃ³nica en alemÃ¡n con agentes nativos. Contact center especializado para empresas que necesitan comunicarse con clientes germanÃ³fonos.',
+    description: 'Atención telefónica en alemán con agentes nativos. Contact center especializado para empresas que necesitan comunicarse con clientes germanófonos.',
     url: 'https://www.minute-call.com/call-center-en-aleman',
     siteName: 'minute call',
     locale: 'es_ES',
@@ -16,39 +16,39 @@ export const metadata: Metadata = {
 
 const painPoints = [
   {
-    icon: 'ð©ðª',
+    icon: '🇩🇪',
     title: 'Clientes alemanes que cuelgan',
-    description: 'Alemania es el primer mercado emisor de turistas a EspaÃ±a, con mÃ¡s de 11 millones de visitantes al aÃ±o. Si llaman y nadie les atiende en alemÃ¡n, buscan otra opciÃ³n.',
+    description: 'Alemania es el primer mercado emisor de turistas a España, con más de 11 millones de visitantes al año. Si llaman y nadie les atiende en alemán, buscan otra opción.',
   },
   {
-    icon: 'ð',
+    icon: '📉',
     title: 'Oportunidades comerciales perdidas',
-    description: 'Empresas germanÃ³fonas de Alemania, Austria y Suiza que contactan con tu negocio y encuentran una barrera lingÃ¼Ã­stica que frena la venta.',
+    description: 'Empresas germanófonas de Alemania, Austria y Suiza que contactan con tu negocio y encuentran una barrera lingüística que frena la venta.',
   },
   {
-    icon: 'ð£ï¸',
+    icon: '🗣️',
     title: 'Traducciones automaticas que no convencen',
-    description: 'Un script traducido al alemÃ¡n no es atenciÃ³n en alemÃ¡n. Los clientes notan la diferencia y la confianza se pierde.',
+    description: 'Un script traducido al alemán no es atención en alemán. Los clientes notan la diferencia y la confianza se pierde.',
   },
   {
-    icon: 'ð¼',
+    icon: '💼',
     title: 'Contratar un nativo es caro',
-    description: 'Incorporar un empleado que hable alemÃ¡n nativo a tu plantilla supone un coste fijo elevado que muchas empresas no pueden justificar.',
+    description: 'Incorporar un empleado que hable alemán nativo a tu plantilla supone un coste fijo elevado que muchas empresas no pueden justificar.',
   },
 ]
 
 const services = [
   {
     title: 'Atencion telefonica en aleman nativo',
-    description: 'Agentes nativos en alemÃ¡n que atienden a tus clientes con fluidez real, no con guiones traducidos.',
+    description: 'Agentes nativos en alemán que atienden a tus clientes con fluidez real, no con guiones traducidos.',
   },
   {
     title: 'Soporte multicanal',
-    description: 'AtenciÃ³n por telÃ©fono, email y chat en alemÃ¡n. Tus clientes eligen cÃ³mo contactar.',
+    description: 'Atención por teléfono, email y chat en alemán. Tus clientes eligen cómo contactar.',
   },
   {
     title: 'Cobertura 24/7',
-    description: 'Cubrimos cualquier franja horaria: maÃ±anas, tardes, noches, fines de semana y festivos.',
+    description: 'Cubrimos cualquier franja horaria: mañanas, tardes, noches, fines de semana y festivos.',
   },
   {
     title: 'Gestion de reservas y pedidos',
@@ -56,37 +56,37 @@ const services = [
   },
   {
     title: 'Filtrado y clasificacion de llamadas',
-    description: 'Clasificamos cada llamada en alemÃ¡n por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atenciÃ³n.',
+    description: 'Clasificamos cada llamada en alemán por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atención.',
   },
   {
     title: 'Integracion con tus herramientas',
-    description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacciÃ³n queda registrada en tu plataforma.',
+    description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacción queda registrada en tu plataforma.',
   },
 ]
 
 const stats = [
   { value: '24/7', label: 'Cobertura' },
-  { value: '100%', label: 'alemÃ¡n nativo' },
-  { value: '48h', label: 'ActivaciÃ³n' },
+  { value: '100%', label: 'alemán nativo' },
+  { value: '48h', label: 'Activación' },
   { value: '0', label: 'Permanencia' },
 ]
 
 const steps = [
-  { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cÃ³mo quieres que atendamos a tus clientes germanÃ³fonos: tono, informaciÃ³n clave, procedimientos y escalado.' },
-  { step: '02', title: 'Configuramos el desvio', description: 'DesvÃ­as las llamadas en alemÃ¡n a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
-  { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en alemÃ¡n nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacciÃ³n.' },
+  { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cómo quieres que atendamos a tus clientes germanófonos: tono, información clave, procedimientos y escalado.' },
+  { step: '02', title: 'Configuramos el desvio', description: 'Desvías las llamadas en alemán a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
+  { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en alemán nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacción.' },
 ]
 
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    { '@type': 'Question', name: 'Â¿QuÃ© es un call center en alemÃ¡n?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atenciÃ³n telefÃ³nica con agentes nativos en alemÃ¡n que atienden a tus clientes como parte de tu equipo. Siguen tu protocolo, usan tus herramientas y representan tu marca.' } },
-    { '@type': 'Question', name: 'Â¿Vuestros agentes son alemanes nativos?', acceptedAnswer: { '@type': 'Answer', text: 'SÃ­. Nuestros agentes son hablantes nativos de alemÃ¡n â no usan traducciones ni scripts. Entienden las referencias culturales y el registro que tus clientes esperan.' } },
-    { '@type': 'Question', name: 'Â¿Para quÃ© sectores es Ãºtil un contact center en alemÃ¡n?', acceptedAnswer: { '@type': 'Answer', text: 'Turismo y hostelerÃ­a, automociÃ³n, industria, comercio internacional, e-commerce con clientes en Alemania, Austria o Suiza, y logÃ­stica.' } },
-    { '@type': 'Question', name: 'Â¿Puedo activar el servicio solo cuando lo necesite?', acceptedAnswer: { '@type': 'Answer', text: 'SÃ­. No hay permanencia ni compromiso de duraciÃ³n. Puedes activar la atenciÃ³n en alemÃ¡n para temporadas altas, campaÃ±as puntuales o de forma continuada â tÃº decides.' } },
-    { '@type': 'Question', name: 'Â¿CuÃ¡nto cuesta un call center en alemÃ¡n?', acceptedAnswer: { '@type': 'Answer', text: 'El precio depende del volumen de llamadas y la complejidad del servicio. Contacta con nosotros para un presupuesto personalizado sin compromiso.' } },
-    { '@type': 'Question', name: 'Â¿En quÃ© se diferencia Minute Call de otros call centers?', acceptedAnswer: { '@type': 'Answer', text: 'Agentes nativos basados en EspaÃ±a, sin permanencia, protocolo personalizado, integraciÃ³n con tu CRM/PMS y posibilidad de combinar agentes humanos con IA conversacional.' } },
+    { '@type': 'Question', name: '¿Qué es un call center en alemán?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atención telefónica con agentes nativos en alemán que atienden a tus clientes como parte de tu equipo. Siguen tu protocolo, usan tus herramientas y representan tu marca.' } },
+    { '@type': 'Question', name: '¿Vuestros agentes son alemanes nativos?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. Nuestros agentes son hablantes nativos de alemán — no usan traducciones ni scripts. Entienden las referencias culturales y el registro que tus clientes esperan.' } },
+    { '@type': 'Question', name: '¿Para qué sectores es útil un contact center en alemán?', acceptedAnswer: { '@type': 'Answer', text: 'Turismo y hostelería, automoción, industria, comercio internacional, e-commerce con clientes en Alemania, Austria o Suiza, y logística.' } },
+    { '@type': 'Question', name: '¿Puedo activar el servicio solo cuando lo necesite?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. No hay permanencia ni compromiso de duración. Puedes activar la atención en alemán para temporadas altas, campañas puntuales o de forma continuada — tú decides.' } },
+    { '@type': 'Question', name: '¿Cuánto cuesta un call center en alemán?', acceptedAnswer: { '@type': 'Answer', text: 'El precio depende del volumen de llamadas y la complejidad del servicio. Contacta con nosotros para un presupuesto personalizado sin compromiso.' } },
+    { '@type': 'Question', name: '¿En qué se diferencia Minute Call de otros call centers?', acceptedAnswer: { '@type': 'Answer', text: 'Agentes nativos basados en España, sin permanencia, protocolo personalizado, integración con tu CRM/PMS y posibilidad de combinar agentes humanos con IA conversacional.' } },
   ],
 }
 
@@ -104,7 +104,7 @@ export default function CallCenterAlemanPage() {
           Call center en aleman.<br />Atencion telefonica nativa para tus clientes <span className="serif-italic">alemanes.</span>
         </h1>
         <p style={{ maxWidth: 600, margin: '0 auto 32px' }}>
-          Contact center en alemÃ¡n con agentes nativos para empresas espaÃ±olas. Atendemos a tus clientes de Alemania, Austria y Suiza â sin permanencia y con activaciÃ³n en 48 horas.
+          Contact center en alemán con agentes nativos para empresas españolas. Atendemos a tus clientes de Alemania, Austria y Suiza — sin permanencia y con activación en 48 horas.
         </p>
         <a href="/reserva-llamada" className="btn-contact">
           Solicita presupuesto gratuito
@@ -189,12 +189,12 @@ export default function CallCenterAlemanPage() {
                 'Coste fijo elevado (salario + SS)',
                 'Solo cubre horario laboral',
                 'Si enferma o se va, sin cobertura',
-                'Proceso de selecciÃ³n largo',
+                'Proceso de selección largo',
                 'Un solo idioma por empleado',
-                'DifÃ­cil escalar en temporada alta',
+                'Difícil escalar en temporada alta',
               ].map((item) => (
                 <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(0,0,0,0.56)' }}>
-                  <span style={{ color: '#e53e3e', fontSize: 16 }}>â</span> {item}
+                  <span style={{ color: '#e53e3e', fontSize: 16 }}>✕</span> {item}
                 </li>
               ))}
             </ul>
@@ -203,15 +203,15 @@ export default function CallCenterAlemanPage() {
             <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
-                'Coste variable segÃºn volumen',
-                'Cobertura 24/7 todo el aÃ±o',
+                'Coste variable según volumen',
+                'Cobertura 24/7 todo el año',
                 'Equipo siempre disponible',
-                'ActivaciÃ³n en 48 horas',
-                'MÃºltiples idiomas disponibles',
-                'Escala automÃ¡tica en picos',
+                'Activación en 48 horas',
+                'Múltiples idiomas disponibles',
+                'Escala automática en picos',
               ].map((item) => (
                 <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(255,255,255,0.8)' }}>
-                  <span style={{ color: '#5AFF15', fontSize: 16 }}>â</span> {item}
+                  <span style={{ color: '#5AFF15', fontSize: 16 }}>✓</span> {item}
                 </li>
               ))}
             </ul>
@@ -242,7 +242,7 @@ export default function CallCenterAlemanPage() {
           Atiende a tus clientes alemanes como se <span className="serif-italic">merecen.</span>
         </h2>
         <p style={{ color: 'rgba(255,255,255,0.6)', maxWidth: 500, margin: '0 auto 32px' }}>
-          Activa tu call center en alemÃ¡n en 48 horas. Sin permanencia, agentes nativos.
+          Activa tu call center en alemán en 48 horas. Sin permanencia, agentes nativos.
         </p>
         <a href="/reserva-llamada" style={{ display: 'inline-block', background: 'white', color: 'black', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
           Solicita presupuesto gratuito

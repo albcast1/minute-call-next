@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Call center para hoteles | Atencion telefonica 24/7 | minute call',
+  title: 'Call center para hoteles 24/7 | minute call',
   description: 'Call center especializado en hoteles: gestión de reservas, atención multilingüe, upselling y cobertura 24/7. Agentes nativos en España o IA. Sin permanencia.',
   alternates: { canonical: 'https://www.minute-call.com/call-center-para-hoteles' },
   openGraph: {

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Call center en sueco | Contact center en sueco para empresas | minute call',
-  description: 'Call center y contact center en sueco para empresas españolas. Agentes nativos suecoparlantes, atención telefónica 24/7, sin permanencia. Ideal para turismo, comercio internacional y más.',
+  title: 'Call center en sueco para empresas | minute call',
+  description: 'Call center en sueco con agentes nativos para empresas españolas. Atención 24/7 y sin permanencia, ideal para turismo y comercio internacional.',
   alternates: { canonical: 'https://www.minute-call.com/call-center-en-sueco' },
   openGraph: {
     title: 'Call center en sueco | minute call',

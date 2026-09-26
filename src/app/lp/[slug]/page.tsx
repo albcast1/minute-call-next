@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Metadata } from "next";
 import sectors from "@/data/sectors.json";
+import cities from "@/data/cities.json";
+import indexables from "@/data/city-sector-indexables.json";
 import { FAQPageSchema, BreadcrumbSchema , ServiceSchema } from "@/components/JsonLd";
 import VideoCard from "@/components/VideoCard";
 
@@ -33,6 +35,23 @@ export async function generateMetadata({
       title: sector.metaTitle,
       description: sector.metaDescription,
       images: ["/og-image.png"] } };
+}
+
+/**
+ * Ciudades con pagina ciudad x sector indexable para este sector. Esas paginas
+ * estan en el sitemap pero no las enlazaba ninguna otra (auditoria SE Ranking:
+ * "sin enlaces entrantes"); desde aqui y desde la ciudad reciben dos enlaces.
+ */
+function citiesForSector(slug: string): { href: string; city: string }[] {
+  const suffix = `/${slug}`;
+  return (indexables.indexables as string[])
+    .filter((par) => par.endsWith(suffix) && par.split("/").length === 2)
+    .map((par) => {
+      const c = cities.find((x) => x.slug === par.split("/")[0]);
+      return c ? { href: `/atencion-telefonica/${par}`, city: c.city } : null;
+    })
+    .filter((x): x is { href: string; city: string } => x !== null)
+    .sort((a, b) => a.city.localeCompare(b.city, "es"));
 }
 
 export default async function LandingPage({
@@ -282,6 +301,29 @@ export default async function LandingPage({
               ))}
             </div>
           ))}
+        </section>
+      )}
+
+      {/* ===== CIUDADES DE ESTE SECTOR ===== */}
+      {citiesForSector(sector.slug).length > 0 && (
+        <section style={{ maxWidth: 1000, margin: "0 auto", padding: "40px clamp(16px,5vw,64px) 0", textAlign: "center" }}>
+          <h2 style={{ fontSize: "clamp(22px,4vw,30px)", marginBottom: 12 }}>
+            También por <span className="serif-italic">ciudad</span>
+          </h2>
+          <p style={{ maxWidth: 560, margin: "0 auto 24px" }}>
+            Cómo trabajamos este servicio en cada ciudad.
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 10 }}>
+            {citiesForSector(sector.slug).map((c) => (
+              <Link
+                key={c.href}
+                href={c.href}
+                style={{ padding: "10px 18px", border: "1px solid rgba(0,0,0,0.12)", borderRadius: 50, color: "black", textDecoration: "none", fontSize: 14, fontWeight: 500 }}
+              >
+                {c.city}
+              </Link>
+            ))}
+          </div>
         </section>
       )}
 

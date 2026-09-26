@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import cities from "@/data/cities.json";
 import sectors from "@/data/sectors.json";
+import indexables from "@/data/city-sector-indexables.json";
 import { FAQPageSchema, BreadcrumbSchema, CityLocalBusinessSchema, CityServiceSchema } from "@/components/JsonLd";
 
 export async function generateStaticParams() {
@@ -56,6 +57,28 @@ function normalizeRegion(region: string): string {
     "Valencia": "Comunidad Valenciana",
   };
   return map[region] || region;
+}
+
+type SectorRow = { slug: string; title: string; servicio?: string };
+
+/**
+ * Paginas ciudad x sector indexables de esta ciudad.
+ *
+ * Estan en el sitemap pero ninguna pagina las enlazaba (la auditoria de SE Ranking
+ * las marcaba como "sin enlaces entrantes"). Se enlazan desde su ciudad y desde
+ * la landing de su sector para que Google las encuentre rastreando la web.
+ */
+function servicesForCity(ciudad: string): { href: string; label: string }[] {
+  const prefix = `${ciudad}/`;
+  const rows = sectors as unknown as SectorRow[];
+  return (indexables.indexables as string[])
+    .filter((par) => par.startsWith(prefix))
+    .map((par) => {
+      const s = rows.find((x) => x.slug === par.slice(prefix.length));
+      if (!s) return null;
+      return { href: `/atencion-telefonica/${par}`, label: (s.servicio ?? s.title).replace(/\.$/, "") };
+    })
+    .filter((x): x is { href: string; label: string } => x !== null);
 }
 
 /**
@@ -143,6 +166,7 @@ export default async function CityPage({
 
   const faqs = (city as { faq?: Array<{question: string; answer: string}> }).faq || [];
   const nearbyCities = getNearbyCities(city.slug, city.region);
+  const cityServices = servicesForCity(city.slug);
 
   const breadcrumbItems = [
     { name: "Inicio", url: "https://www.minute-call.com" },
@@ -417,6 +441,52 @@ export default async function CityPage({
       </section>
 
       {/* ===== NEARBY CITIES INTERLINKING ===== */}
+      {cityServices.length > 0 && (
+        <section
+          style={{
+            maxWidth: 1200,
+            margin: "0 auto",
+            padding: "60px clamp(16px,5vw,64px) 0",
+            textAlign: "center",
+          }}
+        >
+          <h2 style={{ marginBottom: 16 }}>
+            Servicios en{" "}
+            <span className="serif-italic">{city.city}</span>
+          </h2>
+          <p style={{ maxWidth: 600, margin: "0 auto 32px", lineHeight: "1.6" }}>
+            Cómo trabajamos con las empresas de {city.city} según su sector.
+          </p>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+              gap: 12,
+              textAlign: "left",
+            }}
+          >
+            {cityServices.map((s) => (
+              <Link
+                key={s.href}
+                href={s.href}
+                className="card"
+                style={{
+                  padding: "16px 20px",
+                  textDecoration: "none",
+                  color: "black",
+                  fontSize: 15,
+                  fontWeight: 500,
+                  letterSpacing: "-0.3px",
+                  display: "block",
+                }}
+              >
+                {s.label} en {city.city} →
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       {nearbyCities.length > 0 && (
         <section
           style={{

@@ -18,7 +18,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Precios de atención telefónica en España 2026 | minute call',
   description:
-    'Qué cuesta un call center o una secretaria virtual en España: modelos por hora, por llamada y por paquete, con rangos reales de mercado y el coste de la alternativa interna.',
+    'Qué cuesta un call center o una secretaria virtual en España: precio por hora, por llamada o por paquete, con rangos reales de mercado.',
   alternates: { canonical: 'https://www.minute-call.com/precios' },
   openGraph: {
     title: 'Precios de atención telefónica en España 2026',

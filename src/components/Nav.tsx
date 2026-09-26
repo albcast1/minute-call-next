@@ -13,7 +13,7 @@ export default function Nav() {
       >
         {/* Logo: icon + text */}
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <img src="/assets/logo.png" alt="" style={{ width: 25, height: 25 }} />
+          <img src="/assets/logo.png" alt="Logo de Minute Call" width={25} height={25} style={{ width: 25, height: 25 }} />
           <span
             style={{
               fontFamily: "Inter, sans-serif",
