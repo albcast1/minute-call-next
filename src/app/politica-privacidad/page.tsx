@@ -4,6 +4,8 @@ export const metadata: Metadata = {
   title: "Política de Privacidad | minute call",
   description:
     "Conoce nuestra política de privacidad y cómo tratamos tus datos personales en Minute Call",
+  // Sin esto hereda el canonical "/" del layout y Google la trata como copia de la home
+  alternates: { canonical: "/politica-privacidad" },
 };
 
 export default function PoliticaPrivacidad() {
