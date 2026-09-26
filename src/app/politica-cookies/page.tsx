@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Política de Cookies | minute call",
   description: "Información sobre el uso de cookies en minute-call.com. Tipos de cookies, finalidad y cómo desactivarlas.",
+  // Sin esto hereda el canonical "/" del layout y Google la trata como copia de la home
+  alternates: { canonical: "/politica-cookies" },
 };
 
 export default function PoliticaCookies() {
