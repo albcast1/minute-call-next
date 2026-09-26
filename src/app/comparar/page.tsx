@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Alternativa a Teleperformance, Konecta y Atento para PYMES | minute call',
-  description: '¿Buscas una alternativa a los grandes call centers para tu PYME? Minute Call es la opción ligera y flexible: agentes nativos, sin permanencia, presupuesto personalizado. Activa en 48h.',
+  title: 'Alternativa a Teleperformance, Konecta y Atento para PYMES',
+  description: '¿Buscas una alternativa a los grandes call centers para tu PYME? Agentes nativos, sin permanencia, presupuesto a medida y activación en 48 h.',
   alternates: { canonical: 'https://www.minute-call.com/comparar' },
   openGraph: {
     title: 'Alternativa a call centers para PYMES | minute call',
