@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Call center en danes | Contact center en danes para empresas | minute call',
-  description: 'Call center y contact center en danés para empresas españolas. Agentes nativos danesoparlantes, atención telefónica 24/7, sin permanencia. Ideal para turismo, comercio internacional y más.',
+  title: 'Call center en danés para empresas | minute call',
+  description: 'Call center en danés con agentes nativos para empresas españolas. Atención 24/7 y sin permanencia, ideal para turismo y comercio internacional.',
   alternates: { canonical: 'https://www.minute-call.com/call-center-en-danes' },
   openGraph: {
     title: 'Call center en danes | minute call',
