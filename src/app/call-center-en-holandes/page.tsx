@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Call center en holandes | Contact center en holandes para empresas | minute call',
-  description: 'Call center y contact center en holandÃ©s para empresas espaÃ±olas. Agentes nativos neerlandÃ³fonos, atenciÃ³n telefÃ³nica 24/7, sin permanencia. Ideal para turismo, comercio internacional y mÃ¡s.',
+  title: 'Call center en holandés para empresas | minute call',
+  description: 'Call center en holandés con agentes nativos para empresas españolas. Atención 24/7 y sin permanencia, ideal para turismo y comercio internacional.',
   alternates: { canonical: 'https://www.minute-call.com/call-center-en-holandes' },
   openGraph: {
     title: 'Call center en holandes | minute call',
-    description: 'AtenciÃ³n telefÃ³nica en holandÃ©s con agentes nativos. Contact center especializado para empresas que necesitan comunicarse con clientes neerlandÃ³fonos.',
+    description: 'Atención telefónica en holandés con agentes nativos. Contact center especializado para empresas que necesitan comunicarse con clientes neerlandófonos.',
     url: 'https://www.minute-call.com/call-center-en-holandes',
     siteName: 'minute call',
     locale: 'es_ES',
@@ -16,39 +16,39 @@ export const metadata: Metadata = {
 
 const painPoints = [
   {
-    icon: 'ð³ð±',
+    icon: '🇳🇱',
     title: 'Clientes holandeses que cuelgan',
-    description: 'Los PaÃ­ses Bajos son uno de los principales mercados emisores de turistas a EspaÃ±a, con millones de visitantes anuales especialmente en la costa mediterrÃ¡nea. Si llaman y nadie les atiende en holandÃ©s, buscan otra opciÃ³n.',
+    description: 'Los Países Bajos son uno de los principales mercados emisores de turistas a España, con millones de visitantes anuales especialmente en la costa mediterránea. Si llaman y nadie les atiende en holandés, buscan otra opción.',
   },
   {
-    icon: 'ð',
+    icon: '📉',
     title: 'Oportunidades comerciales perdidas',
-    description: 'Clientes holandeses y belgas flamencos que contactan con tu negocio. Aunque muchos hablan inglÃ©s, prefieren ser atendidos en su idioma nativo.',
+    description: 'Clientes holandeses y belgas flamencos que contactan con tu negocio. Aunque muchos hablan inglés, prefieren ser atendidos en su idioma nativo.',
   },
   {
-    icon: 'ð£ï¸',
+    icon: '🗣️',
     title: 'Traducciones automaticas que no convencen',
-    description: 'Un script traducido al holandÃ©s no es atenciÃ³n en holandÃ©s. Los clientes notan la diferencia y la confianza se pierde.',
+    description: 'Un script traducido al holandés no es atención en holandés. Los clientes notan la diferencia y la confianza se pierde.',
   },
   {
-    icon: 'ð¼',
+    icon: '💼',
     title: 'Contratar un nativo es caro',
-    description: 'Incorporar un empleado que hable holandÃ©s nativo a tu plantilla supone un coste fijo elevado que muchas empresas no pueden justificar.',
+    description: 'Incorporar un empleado que hable holandés nativo a tu plantilla supone un coste fijo elevado que muchas empresas no pueden justificar.',
   },
 ]
 
 const services = [
   {
     title: 'Atencion telefonica en holandes nativo',
-    description: 'Agentes nativos en holandÃ©s que atienden a tus clientes con fluidez real, no con guiones traducidos.',
+    description: 'Agentes nativos en holandés que atienden a tus clientes con fluidez real, no con guiones traducidos.',
   },
   {
     title: 'Soporte multicanal',
-    description: 'AtenciÃ³n por telÃ©fono, email y chat en holandÃ©s. Tus clientes eligen cÃ³mo contactar.',
+    description: 'Atención por teléfono, email y chat en holandés. Tus clientes eligen cómo contactar.',
   },
   {
     title: 'Cobertura 24/7',
-    description: 'Cubrimos cualquier franja horaria: maÃ±anas, tardes, noches, fines de semana y festivos.',
+    description: 'Cubrimos cualquier franja horaria: mañanas, tardes, noches, fines de semana y festivos.',
   },
   {
     title: 'Gestion de reservas y pedidos',
@@ -56,37 +56,37 @@ const services = [
   },
   {
     title: 'Filtrado y clasificacion de llamadas',
-    description: 'Clasificamos cada llamada en holandÃ©s por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atenciÃ³n.',
+    description: 'Clasificamos cada llamada en holandés por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atención.',
   },
   {
     title: 'Integracion con tus herramientas',
-    description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacciÃ³n queda registrada en tu plataforma.',
+    description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacción queda registrada en tu plataforma.',
   },
 ]
 
 const stats = [
   { value: '24/7', label: 'Cobertura' },
-  { value: '100%', label: 'holandÃ©s nativo' },
-  { value: '48h', label: 'ActivaciÃ³n' },
+  { value: '100%', label: 'holandés nativo' },
+  { value: '48h', label: 'Activación' },
   { value: '0', label: 'Permanencia' },
 ]
 
 const steps = [
-  { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cÃ³mo quieres que atendamos a tus clientes neerlandÃ³fonos: tono, informaciÃ³n clave, procedimientos y escalado.' },
-  { step: '02', title: 'Configuramos el desvio', description: 'DesvÃ­as las llamadas en holandÃ©s a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
-  { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en holandÃ©s nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacciÃ³n.' },
+  { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cómo quieres que atendamos a tus clientes neerlandófonos: tono, información clave, procedimientos y escalado.' },
+  { step: '02', title: 'Configuramos el desvio', description: 'Desvías las llamadas en holandés a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
+  { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en holandés nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacción.' },
 ]
 
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    { '@type': 'Question', name: 'Â¿QuÃ© es un call center en holandÃ©s?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atenciÃ³n telefÃ³nica con agentes nativos en holandÃ©s que atienden a tus clientes como parte de tu equipo. Siguen tu protocolo, usan tus herramientas y representan tu marca.' } },
-    { '@type': 'Question', name: 'Â¿Vuestros agentes son holandeses nativos?', acceptedAnswer: { '@type': 'Answer', text: 'SÃ­. Nuestros agentes son hablantes nativos de holandÃ©s â no usan traducciones ni scripts. Entienden las referencias culturales y el registro que tus clientes esperan.' } },
-    { '@type': 'Question', name: 'Â¿Para quÃ© sectores es Ãºtil un contact center en holandÃ©s?', acceptedAnswer: { '@type': 'Answer', text: 'Turismo y hostelerÃ­a, inmobiliarias en costa, logÃ­stica, comercio internacional, e-commerce y servicios financieros con clientes neerlandeses.' } },
-    { '@type': 'Question', name: 'Â¿Puedo activar el servicio solo cuando lo necesite?', acceptedAnswer: { '@type': 'Answer', text: 'SÃ­. No hay permanencia ni compromiso de duraciÃ³n. Puedes activar la atenciÃ³n en holandÃ©s para temporadas altas, campaÃ±as puntuales o de forma continuada â tÃº decides.' } },
-    { '@type': 'Question', name: 'Â¿CuÃ¡nto cuesta un call center en holandÃ©s?', acceptedAnswer: { '@type': 'Answer', text: 'El precio depende del volumen de llamadas y la complejidad del servicio. Contacta con nosotros para un presupuesto personalizado sin compromiso.' } },
-    { '@type': 'Question', name: 'Â¿En quÃ© se diferencia Minute Call de otros call centers?', acceptedAnswer: { '@type': 'Answer', text: 'Agentes nativos basados en EspaÃ±a, sin permanencia, protocolo personalizado, integraciÃ³n con tu CRM/PMS y posibilidad de combinar agentes humanos con IA conversacional.' } },
+    { '@type': 'Question', name: '¿Qué es un call center en holandés?', acceptedAnswer: { '@type': 'Answer', text: 'Es un servicio de atención telefónica con agentes nativos en holandés que atienden a tus clientes como parte de tu equipo. Siguen tu protocolo, usan tus herramientas y representan tu marca.' } },
+    { '@type': 'Question', name: '¿Vuestros agentes son holandeses nativos?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. Nuestros agentes son hablantes nativos de holandés — no usan traducciones ni scripts. Entienden las referencias culturales y el registro que tus clientes esperan.' } },
+    { '@type': 'Question', name: '¿Para qué sectores es útil un contact center en holandés?', acceptedAnswer: { '@type': 'Answer', text: 'Turismo y hostelería, inmobiliarias en costa, logística, comercio internacional, e-commerce y servicios financieros con clientes neerlandeses.' } },
+    { '@type': 'Question', name: '¿Puedo activar el servicio solo cuando lo necesite?', acceptedAnswer: { '@type': 'Answer', text: 'Sí. No hay permanencia ni compromiso de duración. Puedes activar la atención en holandés para temporadas altas, campañas puntuales o de forma continuada — tú decides.' } },
+    { '@type': 'Question', name: '¿Cuánto cuesta un call center en holandés?', acceptedAnswer: { '@type': 'Answer', text: 'El precio depende del volumen de llamadas y la complejidad del servicio. Contacta con nosotros para un presupuesto personalizado sin compromiso.' } },
+    { '@type': 'Question', name: '¿En qué se diferencia Minute Call de otros call centers?', acceptedAnswer: { '@type': 'Answer', text: 'Agentes nativos basados en España, sin permanencia, protocolo personalizado, integración con tu CRM/PMS y posibilidad de combinar agentes humanos con IA conversacional.' } },
   ],
 }
 
@@ -104,7 +104,7 @@ export default function CallCenterHolandesPage() {
           Call center en holandes.<br />Atencion telefonica nativa para tus clientes <span className="serif-italic">holandeses.</span>
         </h1>
         <p style={{ maxWidth: 600, margin: '0 auto 32px' }}>
-          Contact center en holandÃ©s con agentes nativos para empresas espaÃ±olas. Atendemos a tus clientes de PaÃ­ses Bajos y BÃ©lgica flamenca â sin permanencia y con activaciÃ³n en 48 horas.
+          Contact center en holandés con agentes nativos para empresas españolas. Atendemos a tus clientes de Países Bajos y Bélgica flamenca — sin permanencia y con activación en 48 horas.
         </p>
         <a href="/reserva-llamada" className="btn-contact">
           Solicita presupuesto gratuito
@@ -189,12 +189,12 @@ export default function CallCenterHolandesPage() {
                 'Coste fijo elevado (salario + SS)',
                 'Solo cubre horario laboral',
                 'Si enferma o se va, sin cobertura',
-                'Proceso de selecciÃ³n largo',
+                'Proceso de selección largo',
                 'Un solo idioma por empleado',
-                'DifÃ­cil escalar en temporada alta',
+                'Difícil escalar en temporada alta',
               ].map((item) => (
                 <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(0,0,0,0.56)' }}>
-                  <span style={{ color: '#e53e3e', fontSize: 16 }}>â</span> {item}
+                  <span style={{ color: '#e53e3e', fontSize: 16 }}>✕</span> {item}
                 </li>
               ))}
             </ul>
@@ -203,15 +203,15 @@ export default function CallCenterHolandesPage() {
             <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
-                'Coste variable segÃºn volumen',
-                'Cobertura 24/7 todo el aÃ±o',
+                'Coste variable según volumen',
+                'Cobertura 24/7 todo el año',
                 'Equipo siempre disponible',
-                'ActivaciÃ³n en 48 horas',
-                'MÃºltiples idiomas disponibles',
-                'Escala automÃ¡tica en picos',
+                'Activación en 48 horas',
+                'Múltiples idiomas disponibles',
+                'Escala automática en picos',
               ].map((item) => (
                 <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(255,255,255,0.8)' }}>
-                  <span style={{ color: '#5AFF15', fontSize: 16 }}>â</span> {item}
+                  <span style={{ color: '#5AFF15', fontSize: 16 }}>✓</span> {item}
                 </li>
               ))}
             </ul>
@@ -242,7 +242,7 @@ export default function CallCenterHolandesPage() {
           Atiende a tus clientes holandeses como se <span className="serif-italic">merecen.</span>
         </h2>
         <p style={{ color: 'rgba(255,255,255,0.6)', maxWidth: 500, margin: '0 auto 32px' }}>
-          Activa tu call center en holandÃ©s en 48 horas. Sin permanencia, agentes nativos.
+          Activa tu call center en holandés en 48 horas. Sin permanencia, agentes nativos.
         </p>
         <a href="/reserva-llamada" style={{ display: 'inline-block', background: 'white', color: 'black', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
           Solicita presupuesto gratuito
