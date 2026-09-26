@@ -5,8 +5,10 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contáctanos por WhatsApp"
+      title="Contáctanos por WhatsApp"
       className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-[#25D366] shadow-lg transition-transform duration-200 hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
     >
+      <span className="sr-only">Contáctanos por WhatsApp</span>
       <svg
         viewBox="0 0 32 32"
         className="h-7 w-7 sm:h-8 sm:w-8 fill-white"
