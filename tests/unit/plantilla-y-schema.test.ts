@@ -129,14 +129,3 @@ test('solo se piden indexadas las combinaciones con demanda demostrada', () => {
   )
 })
 
-test('la pagina de precios no publica ninguna tarifa propia de Minute Call', () => {
-  const pagina = readFileSync(new URL('../../src/app/precios/page.tsx', import.meta.url), 'utf8')
-  // Las cifras de /precios son rangos de MERCADO. Una tarifa propia se
-  // reconoce porque la marca aparece pegada al importe.
-  const sospechosas = [
-    ...pagina.matchAll(/Minute Call[^.\n]{0,80}?\d{1,4}\s*€/gi),
-    ...pagina.matchAll(/\d{1,4}\s*€[^.\n]{0,40}?\bde Minute Call\b/gi),
-  ].map(m => m[0])
-  assert.deepEqual(sospechosas, [], `Importes atribuidos a Minute Call: ${sospechosas.join(' | ')}`)
-  assert.ok(pagina.includes('no nuestras tarifas'), 'la pagina debe dejar claro que los rangos son de mercado')
-})

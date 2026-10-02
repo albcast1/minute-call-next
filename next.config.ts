@@ -84,7 +84,8 @@ const nextConfig: NextConfig = {
       },
 
       // 301 redirects para URLs antiguas indexadas en Google que devuelven 404
-      // (/precios ya no redirige: existe la pagina con rangos de mercado)
+      // /precios eliminada: redirige temporalmente a reserva de llamada
+      { source: '/precios', destination: '/reserva-llamada', permanent: false },
       // URLs antiguas rastreadas por Google que devuelven 404 - fix indexación
       { source: '/secretaria-virtual-pymes', destination: '/lp/secretaria-virtual', permanent: true },
       { source: '/recepcionista-ia-vs-humana', destination: '/articulos/secretaria-virtual-pymes-espana', permanent: true },
@@ -111,7 +112,7 @@ const nextConfig: NextConfig = {
       { source: '/en/home', destination: '/', permanent: true },
       { source: '/en', destination: '/', permanent: true },
       // EN legacy pages - wildcard catches all /en/* routes not already handled
-      { source: '/en/pricing', destination: '/precios', permanent: true },
+      { source: '/en/pricing', destination: '/reserva-llamada', permanent: true },
       { source: '/en/contact', destination: '/reserva-llamada', permanent: true },
       { source: '/en/services', destination: '/', permanent: true },
       { source: '/en/about', destination: '/sobre-nosotros', permanent: true },
@@ -120,7 +121,7 @@ const nextConfig: NextConfig = {
       { source: '/en/:slug*', destination: '/', permanent: true },
 
       // Old ES routes Google crawled
-      { source: '/planes', destination: '/precios', permanent: true },
+      { source: '/planes', destination: '/reserva-llamada', permanent: true },
       { source: '/como-funciona', destination: '/', permanent: true },
       { source: '/quienes-somos', destination: '/sobre-nosotros', permanent: true },
       { source: '/atencion-al-cliente', destination: '/lp/recepcion-de-llamadas', permanent: true },
