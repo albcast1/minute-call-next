@@ -84,8 +84,8 @@ const nextConfig: NextConfig = {
       },
 
       // 301 redirects para URLs antiguas indexadas en Google que devuelven 404
-      // /precios eliminada: redirige temporalmente a reserva de llamada
-      { source: '/precios', destination: '/reserva-llamada', permanent: false },
+      // /precios eliminada: 301 a reserva de llamada para no dejar 404 por enlaces externos
+      { source: '/precios', destination: '/reserva-llamada', permanent: true },
       // URLs antiguas rastreadas por Google que devuelven 404 - fix indexación
       { source: '/secretaria-virtual-pymes', destination: '/lp/secretaria-virtual', permanent: true },
       { source: '/recepcionista-ia-vs-humana', destination: '/articulos/secretaria-virtual-pymes-espana', permanent: true },
