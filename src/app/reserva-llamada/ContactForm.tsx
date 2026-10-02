@@ -29,6 +29,17 @@ export default function ContactForm() {
       });
 
       if (res.ok) {
+        // Conversion de ChatGPT Ads: se cuenta al enviar el formulario,
+        // no al reservar en Calendly (solo ~1 de cada 2 llega a reservar).
+        try {
+          (window as unknown as { oaiq?: (...args: unknown[]) => void }).oaiq?.(
+            "measure",
+            "lead_created",
+            { type: "customer_action" },
+          );
+        } catch {
+          // Si el pixel falla, el formulario sigue funcionando igual.
+        }
         setSubmitted(true);
       } else {
         setError("Error al enviar. Inténtalo de nuevo.");
