@@ -75,7 +75,28 @@ export default function RootLayout({
             `,
           }}
         />
-        
+        {/* Pixel de conversiones de ChatGPT Ads (OpenAI Ads Manager).
+            Fuente de datos "Web Minute Call". El evento de conversion
+            (lead_created) se dispara en reserva-llamada/ContactForm.tsx. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function (w, d, s, u) {
+                if (w.oaiq) return;
+                var q = function () { q.q.push(arguments); };
+                q.q = [];
+                w.oaiq = q;
+                var js = d.createElement(s);
+                js.async = true;
+                js.src = u;
+                var f = d.getElementsByTagName(s)[0];
+                f.parentNode.insertBefore(js, f);
+              })(window, document, "script", "https://bzrcdn.openai.com/sdk/oaiq.min.js");
+              oaiq("init", { pixelId: "GCRb1VeZ4SmsV3ZY1SJEQT" });
+            `,
+          }}
+        />
+
       {/* JSON-LD unificado.
           Antes se inyectaban CUATRO bloques en cada pagina: Organization
           definida 3 veces bajo el mismo @id con logo y sameAs distintos,
