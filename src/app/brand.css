@@ -323,9 +323,13 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
   .rail-track{gap:10px;animation-duration:44s}
   @keyframes rail{to{transform:translateX(calc(-50% - 5px))}}
 }
+/* Con "reducir movimiento" la pasarela no se mueve sola: queda como fila
+   horizontal que se desliza con el dedo, sin apilar las tarjetas. */
 @media (prefers-reduced-motion:reduce){
-  .rail{width:auto;margin-left:0;-webkit-mask-image:none;mask-image:none}
-  .rail-track{animation:none;width:auto;flex-wrap:wrap;justify-content:center}
+  .rail{overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:16px;-webkit-mask-image:none;mask-image:none;scrollbar-width:none}
+  .rail::-webkit-scrollbar{display:none}
+  .rail-track{animation:none;padding-inline:16px}
+  .rail .sc2{scroll-snap-align:start}
   .rail .sc2[aria-hidden="true"]{display:none}
 }
 
