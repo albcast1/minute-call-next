@@ -156,7 +156,7 @@ export default async function CityPage({
       <div style={{ maxWidth: 800, margin: "0 auto", padding: "80px 24px", textAlign: "center" }}>
         <h1>Ciudad no encontrada</h1>
         <p style={{ marginTop: 16 }}>
-          <Link href="/" style={{ color: "black", textDecoration: "underline" }}>
+          <Link href="/" style={{ color: "var(--ink)", textDecoration: "underline" }}>
             Volver al inicio
           </Link>
         </p>
@@ -188,13 +188,13 @@ export default async function CityPage({
           margin: "0 auto",
           padding: "24px clamp(16px,5vw,64px)",
           fontSize: 13,
-          color: "rgba(0,0,0,0.4)",
+          color: "#8E8A85",
         }}
       >
         {breadcrumbItems.map((item, index) => (
           <span key={item.name}>
             {index > 0 && <span style={{ margin: "0 8px" }}>/</span>}
-            <Link href={item.url} style={{ color: "rgba(0,0,0,0.4)", textDecoration: "none" }}>
+            <Link href={item.url} style={{ color: "#8E8A85", textDecoration: "none" }}>
               {item.name}
             </Link>
           </span>
@@ -273,14 +273,14 @@ export default async function CityPage({
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))",
             gap: 24,
             marginTop: 40,
             textAlign: "left",
           }}
         >
           <div className="card" style={{ padding: 32 }}>
-            <p style={{ fontSize: 13, fontWeight: 500, color: "rgba(0,0,0,0.4)", marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.5px" }}>
+            <p style={{ fontSize: 13, fontWeight: 500, color: "#8E8A85", marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.5px" }}>
               PYMES en {city.city}
             </p>
             <p style={{ fontSize: 28, fontWeight: 500, letterSpacing: "-1.5px", marginBottom: 0 }}>
@@ -288,7 +288,7 @@ export default async function CityPage({
             </p>
           </div>
           <div className="card" style={{ padding: 32 }}>
-            <p style={{ fontSize: 13, fontWeight: 500, color: "rgba(0,0,0,0.4)", marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.5px" }}>
+            <p style={{ fontSize: 13, fontWeight: 500, color: "#8E8A85", marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.5px" }}>
               Problema actual
             </p>
             <p style={{ fontSize: 16, fontWeight: 500, lineHeight: "1.5", marginBottom: 0 }}>
@@ -300,7 +300,7 @@ export default async function CityPage({
         {/* Sector context callout */}
         {(city as { sectorContext?: string }).sectorContext && (
           <div className="card" style={{ padding: "28px 32px", marginTop: 32, textAlign: "left" }}>
-            <p style={{ color: 'rgba(0,0,0,0.56)', lineHeight: 1.7, fontSize: 15, margin: 0 }}>
+            <p style={{ color: 'var(--ink-2)', lineHeight: 1.7, fontSize: 15, margin: 0 }}>
               {(city as { sectorContext?: string }).sectorContext}
             </p>
           </div>
@@ -348,7 +348,7 @@ export default async function CityPage({
                   style={{
                     fontSize: 18,
                     fontWeight: 500,
-                    color: "black",
+                    color: "var(--ink)",
                     letterSpacing: "-0.72px",
                   }}
                 >
@@ -382,7 +382,7 @@ export default async function CityPage({
           style={{
             fontSize: 20,
             lineHeight: "1.6",
-            fontStyle: "italic",
+            fontStyle: "normal",
             maxWidth: 700,
             margin: "0 auto 24px",
           }}
@@ -392,7 +392,7 @@ export default async function CityPage({
         <p style={{ fontSize: 16, fontWeight: 500, margin: "0 0 4px 0" }}>
           {city.testimonial.author}
         </p>
-        <p style={{ fontSize: 14, color: "rgba(0,0,0,0.56)", margin: 0 }}>
+        <p style={{ fontSize: 14, color: "var(--ink-2)", margin: 0 }}>
           {city.testimonial.role}
         </p>
       </section>
@@ -416,7 +416,7 @@ export default async function CityPage({
               key={faq.question}
               style={{
                 padding: "24px 0",
-                borderBottom: "1px solid rgba(0,0,0,0.08)",
+                borderBottom: "1px solid var(--line)",
               }}
             >
               <summary
@@ -428,13 +428,13 @@ export default async function CityPage({
                   display: "flex",
                   justifyContent: "space-between",
                   alignItems: "center",
-                  color: "black",
+                  color: "var(--ink)",
                 }}
               >
                 {faq.question}
                 <span style={{ fontSize: "clamp(14px,3.8vw,24px)", fontWeight: 300 }}>+</span>
               </summary>
-              <p style={{ marginTop: 16, lineHeight: "1.6", color: "rgba(0,0,0,0.56)" }}>{faq.answer}</p>
+              <p style={{ marginTop: 16, lineHeight: "1.6", color: "var(--ink-2)" }}>{faq.answer}</p>
             </details>
           ))}
         </div>
@@ -460,7 +460,7 @@ export default async function CityPage({
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fill, minmax(min(240px, 100%), 1fr))",
               gap: 12,
               textAlign: "left",
             }}
@@ -473,7 +473,7 @@ export default async function CityPage({
                 style={{
                   padding: "16px 20px",
                   textDecoration: "none",
-                  color: "black",
+                  color: "var(--ink)",
                   fontSize: 15,
                   fontWeight: 500,
                   letterSpacing: "-0.3px",
@@ -520,7 +520,7 @@ export default async function CityPage({
                 style={{
                   padding: "20px 24px",
                   textDecoration: "none",
-                  color: "black",
+                  color: "var(--ink)",
                   fontSize: 16,
                   fontWeight: 500,
                   letterSpacing: "-0.5px",
@@ -535,7 +535,7 @@ export default async function CityPage({
           <p style={{ marginTop: 24, fontSize: 14 }}>
             <Link
               href="/atencion-telefonica"
-              style={{ color: "rgba(0,0,0,0.56)", textDecoration: "underline" }}
+              style={{ color: "var(--ink-2)", textDecoration: "underline" }}
             >
               Ver todas las ciudades →
             </Link>
@@ -566,18 +566,18 @@ export default async function CityPage({
         {/* Top sectores en esta ciudad */}
         {city.topSectors && city.topSectors.length > 0 && (
           <section style={{ maxWidth: 900, margin: '0 auto', padding: '48px 24px 0' }}>
-            <h2 style={{ fontSize: "clamp(14px,3.8vw,22px)", fontWeight: 600, marginBottom: 8 }}>
+            <h2 style={{ fontSize: "clamp(14px,3.8vw,22px)", fontWeight: 500, marginBottom: 8 }}>
               Sectores que más nos llaman desde{" "}
               <span className="serif-italic">{city.city}</span>
             </h2>
-            <p style={{ color: '#666', marginBottom: 24, fontSize: 15 }}>
+            <p style={{ color: 'var(--ink-2)', marginBottom: 24, fontSize: 15 }}>
               Si tienes un negocio en {city.city}, estos son los sectores que más se benefician de nuestro servicio de atención telefónica.
             </p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 12 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(220px, 100%), 1fr))', gap: 12 }}>
               {city.topSectors.map((sector: {slug: string; title: string}) => (
                 <a key={sector.slug} href={`/lp/${sector.slug}`} style={{
-                  display: 'block', padding: '16px 20px', border: '1px solid #e5e5e5', borderRadius: 12,
-                  textDecoration: 'none', color: '#000', fontSize: 14, fontWeight: 500, transition: 'border-color 0.2s'
+                  display: 'block', padding: '16px 20px', border: '1px solid var(--line)', borderRadius: 12,
+                  textDecoration: 'none', color: 'var(--ink)', fontSize: 14, fontWeight: 500, transition: 'border-color 0.2s'
                 }}>
                   {sector.title} →
                 </a>

@@ -71,13 +71,13 @@ export default function AtencionTelefonicaIndex() {
           margin: "0 auto",
           padding: "24px clamp(16px,5vw,64px)",
           fontSize: 13,
-          color: "rgba(0,0,0,0.4)",
+          color: "#8E8A85",
         }}
       >
         {breadcrumbItems.map((item, index) => (
           <span key={item.name}>
             {index > 0 && <span style={{ margin: "0 8px" }}>/</span>}
-            <Link href={item.url} style={{ color: "rgba(0,0,0,0.4)", textDecoration: "none" }}>
+            <Link href={item.url} style={{ color: "#8E8A85", textDecoration: "none" }}>
               {item.name}
             </Link>
           </span>
@@ -126,10 +126,10 @@ export default function AtencionTelefonicaIndex() {
               <h3
                 style={{
                   fontSize: 18,
-                  fontWeight: 600,
+                  fontWeight: 500,
                   marginBottom: 16,
                   letterSpacing: "-0.5px",
-                  color: "rgba(0,0,0,0.7)",
+                  color: "var(--ink-2)",
                 }}
               >
                 {region}
@@ -143,7 +143,7 @@ export default function AtencionTelefonicaIndex() {
                     style={{
                       padding: "20px 24px",
                       textDecoration: "none",
-                      color: "black",
+                      color: "var(--ink)",
                       fontSize: 16,
                       fontWeight: 500,
                       letterSpacing: "-0.5px",

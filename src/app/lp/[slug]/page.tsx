@@ -5,6 +5,7 @@ import cities from "@/data/cities.json";
 import indexables from "@/data/city-sector-indexables.json";
 import { FAQPageSchema, BreadcrumbSchema , ServiceSchema } from "@/components/JsonLd";
 import VideoCard from "@/components/VideoCard";
+import { TrustpilotBadge } from "@/components/brand/Brand";
 
 export async function generateStaticParams() {
   return sectors.map((sector) => ({
@@ -92,18 +93,9 @@ export default async function LandingPage({
           flexWrap: "wrap" }}
       >
         <div style={{ flex: "1 1 280px", maxWidth: 560 }}>
-          <a
-            href="https://www.trustpilot.com/review/minute-call.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: "inline-block", marginBottom: 20, marginLeft: 16 }}
-          >
-            <img
-              src="https://framerusercontent.com/images/2kfdzrRIvwdbWAtc0ABXMgtFH2E.png"
-              alt="Trustpilot reviews"
-              style={{ height: 36 }}
-            />
-          </a>
+          <div style={{ marginBottom: 20 }}>
+            <TrustpilotBadge />
+          </div>
 
           <div style={{ marginBottom: 24 }}>
             <span className="pill-label">{sector.heroTag}</span>
@@ -146,18 +138,18 @@ export default async function LandingPage({
           <p
             style={{
               fontSize: "clamp(14px, 3.8vw, 22px)",
-              fontStyle: "italic",
-              color: "black",
+              fontStyle: "normal",
+              color: "var(--ink)",
               marginBottom: 24,
               lineHeight: 1.5,
               letterSpacing: "-0.5px" }}
           >
             &ldquo;{sector.testimonial.quote}&rdquo;
           </p>
-          <p style={{ fontWeight: 600, color: "black", marginBottom: 4 }}>
+          <p style={{ fontWeight: 500, color: "var(--ink)", marginBottom: 4 }}>
             {sector.testimonial.author}
           </p>
-          <p style={{ color: "rgba(0,0,0,0.56)", marginBottom: 0 }}>
+          <p style={{ color: "var(--ink-2)", marginBottom: 0 }}>
             {sector.testimonial.role}
           </p>
         </div>
@@ -222,14 +214,7 @@ export default async function LandingPage({
               description: "La IA atiende, filtra leads y agenda citas. Tú solo enfocado en cerrar." },
           ].map((item) => (
             <div key={item.step} className="card" style={{ padding: 32 }}>
-              <p
-                style={{
-                  fontSize: 48,
-                  fontWeight: 500,
-                  color: "rgba(0,0,0,0.1)",
-                  marginBottom: 16,
-                  letterSpacing: -2 }}
-              >
+              <p className="step-n">
                 {item.step}
               </p>
               <h3 style={{ fontSize: 22 }}>{item.title}</h3>
@@ -256,7 +241,7 @@ export default async function LandingPage({
           {sector.faq.slice(4).map((faq, index) => (
             <details
               key={index}
-              style={{ padding: "24px 0", borderBottom: "1px solid rgba(0,0,0,0.08)" }}
+              style={{ padding: "24px 0", borderBottom: "1px solid var(--line)" }}
             >
               <summary
                 style={{
@@ -267,7 +252,7 @@ export default async function LandingPage({
                   display: "flex",
                   justifyContent: "space-between",
                   alignItems: "center",
-                  color: "black" }}
+                  color: "var(--ink)" }}
               >
                 {faq.question}
                 <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
@@ -318,7 +303,7 @@ export default async function LandingPage({
               <Link
                 key={c.href}
                 href={c.href}
-                style={{ padding: "10px 18px", border: "1px solid rgba(0,0,0,0.12)", borderRadius: 50, color: "black", textDecoration: "none", fontSize: 14, fontWeight: 500 }}
+                style={{ padding: "10px 18px", border: "1px solid var(--line)", borderRadius: 5, color: "var(--ink)", textDecoration: "none", fontSize: 14, fontWeight: 500 }}
               >
                 {c.city}
               </Link>

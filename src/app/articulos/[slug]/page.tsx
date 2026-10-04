@@ -57,7 +57,7 @@ export default async function ArticlePage({
       <div style={{ maxWidth: 800, margin: "0 auto", padding: "80px 24px", textAlign: "center" }}>
         <h1>Artículo no encontrado</h1>
         <p style={{ marginTop: 16 }}>
-          <Link href="/" style={{ color: "black", textDecoration: "underline" }}>
+          <Link href="/" style={{ color: "var(--ink)", textDecoration: "underline" }}>
             Volver al inicio
           </Link>
         </p>
@@ -165,8 +165,8 @@ export default async function ArticlePage({
                       <th key={i} style={{
                         padding: '12px 16px',
                         textAlign: 'left',
-                        borderBottom: '2px solid #000',
-                        fontWeight: 600,
+                        borderBottom: '2px solid var(--ink)',
+                        fontWeight: 500,
                         fontSize: 14,
                         whiteSpace: 'nowrap',
                       }}>{h}</th>
@@ -175,14 +175,14 @@ export default async function ArticlePage({
                 </thead>
                 <tbody>
                   {rows.map((row: string[], ri: number) => (
-                    <tr key={ri} style={{ borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
+                    <tr key={ri} style={{ borderBottom: '1px solid var(--line)' }}>
                       {row.map((cell: string, ci: number) => {
                         const rendered = parseLinksInText(cell);
                         return (
                           <td key={ci} style={{
                             padding: '12px 16px',
                             fontSize: 15,
-                            color: 'rgba(0,0,0,0.75)',
+                            color: 'var(--ink-2)',
                             lineHeight: 1.5,
                           }}>{rendered}</td>
                         );
@@ -200,7 +200,7 @@ export default async function ArticlePage({
     // Default: render as paragraph
     const rendered = parseLinksInText(block);
     return (
-      <p key={index} style={{ margin: 0, lineHeight: 1.8, color: 'rgba(0,0,0,0.75)' }}>
+      <p key={index} style={{ margin: 0, lineHeight: 1.8, color: 'var(--ink-2)' }}>
         {rendered}
       </p>
     );
@@ -290,21 +290,21 @@ export default async function ArticlePage({
       <nav
         style={{
           fontSize: 13,
-          color: "rgba(0,0,0,0.4)",
+          color: "#8E8A85",
           marginBottom: 16,
           display: "flex",
           gap: 8,
         }}
       >
-        <Link href="/" style={{ color: "rgba(0,0,0,0.4)" }}>
+        <Link href="/" style={{ color: "#8E8A85" }}>
           Inicio
         </Link>
         <span>/</span>
-        <Link href="/articulos" style={{ color: "rgba(0,0,0,0.4)" }}>
+        <Link href="/articulos" style={{ color: "#8E8A85" }}>
           Artículos
         </Link>
         <span>/</span>
-        <span style={{ color: "rgba(0,0,0,0.56)" }}>
+        <span style={{ color: "var(--ink-2)" }}>
           {article.title.substring(0, 60)}
           {article.title.length > 60 ? "..." : ""}
         </span>
@@ -322,7 +322,7 @@ export default async function ArticlePage({
       >
         {article.title}
       </h1>
-      <p style={{ fontSize: 17, marginBottom: 16, lineHeight: 1.6, maxWidth: 700, color: 'rgba(0,0,0,0.6)' }}>
+      <p style={{ fontSize: 17, marginBottom: 16, lineHeight: 1.6, maxWidth: 700, color: 'var(--ink-2)' }}>
         {article.excerpt}
       </p>
 
@@ -334,9 +334,9 @@ export default async function ArticlePage({
           ni nombre ni fecha en el HTML, que es lo que leen los motores
           generativos para decidir si un contenido tiene autoria identificable. */}
       {article.dateModified && (
-        <p style={{ fontSize: 14, marginBottom: 32, color: 'rgba(0,0,0,0.45)' }}>
+        <p style={{ fontSize: 14, marginBottom: 32, color: '#8E8A85' }}>
           Por{' '}
-          <Link href="/sobre-nosotros" style={{ color: 'rgba(0,0,0,0.6)' }}>
+          <Link href="/sobre-nosotros" style={{ color: 'var(--ink-2)' }}>
             Alberto Castiel
           </Link>
           {' · '}Actualizado el{' '}
@@ -354,14 +354,14 @@ export default async function ArticlePage({
       {article.directAnswer && (
         <div
           style={{
-            borderLeft: '4px solid #000',
+            borderLeft: '4px solid var(--ink)',
             padding: '20px 24px',
             marginBottom: 32,
             borderRadius: '0 8px 8px 0',
             maxWidth: 700,
           }}
         >
-          <p style={{ fontSize: 16, lineHeight: 1.7, margin: 0, color: '#222', fontWeight: 500 }}>
+          <p style={{ fontSize: 16, lineHeight: 1.7, margin: 0, color: 'var(--ink)', fontWeight: 500 }}>
             {article.directAnswer}
           </p>
         </div>
@@ -382,7 +382,7 @@ export default async function ArticlePage({
             <details
               style={{
                 marginBottom: 32,
-                border: '1px solid rgba(0,0,0,0.1)',
+                border: '1px solid var(--line)',
                 borderRadius: 12,
                 padding: '16px 20px',
               }}
@@ -390,7 +390,7 @@ export default async function ArticlePage({
               <summary
                 style={{
                   cursor: 'pointer',
-                  fontWeight: 600,
+                  fontWeight: 500,
                   fontSize: 15,
                   listStyle: 'none',
                   display: 'flex',
@@ -399,7 +399,7 @@ export default async function ArticlePage({
                 }}
               >
                 Tabla de contenidos
-                <span style={{ fontSize: 12, color: 'rgba(0,0,0,0.4)' }}>▼</span>
+                <span style={{ fontSize: 12, color: '#8E8A85' }}>▼</span>
               </summary>
               <nav style={{ marginTop: 12 }}>
                 <ol style={{ margin: 0, paddingLeft: 20 }}>
@@ -408,7 +408,7 @@ export default async function ArticlePage({
                       <a
                         href={`#${h.id}`}
                         style={{
-                          color: 'rgba(0,0,0,0.7)',
+                          color: 'var(--ink-2)',
                           textDecoration: 'none',
                           fontSize: 14,
                           lineHeight: 1.5,
@@ -436,11 +436,11 @@ export default async function ArticlePage({
               </h2>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 {article.faq.map((faq: {question: string; answer: string}, i: number) => (
-                  <details key={i} style={{ border: '1px solid rgba(0,0,0,0.1)', borderRadius: 8, padding: '16px 20px' }}>
-                    <summary style={{ cursor: 'pointer', fontWeight: 600, fontSize: 15 }}>
+                  <details key={i} style={{ border: '1px solid var(--line)', borderRadius: 8, padding: '16px 20px' }}>
+                    <summary style={{ cursor: 'pointer', fontWeight: 500, fontSize: 15 }}>
                       {faq.question}
                     </summary>
-                    <p style={{ marginTop: 12, fontSize: 15, lineHeight: 1.7, color: 'rgba(0,0,0,0.7)' }}>
+                    <p style={{ marginTop: 12, fontSize: 15, lineHeight: 1.7, color: 'var(--ink-2)' }}>
                       {faq.answer}
                     </p>
                   </details>
@@ -464,26 +464,26 @@ export default async function ArticlePage({
         >
           <div
             style={{
-              border: '1px solid rgba(0,0,0,0.1)',
+              border: '1px solid var(--line)',
               borderRadius: 16,
               padding: 24,
             }}
           >
-            <p style={{ fontSize: 18, fontWeight: 700, letterSpacing: '-0.5px', marginBottom: 16, lineHeight: 1.3 }}>
+            <p style={{ fontSize: 18, fontWeight: 500, letterSpacing: '-0.5px', marginBottom: 16, lineHeight: 1.3 }}>
               No pierdas mas llamadas
             </p>
             <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 20px', display: 'flex', flexDirection: 'column', gap: 10 }}>
-              <li style={{ fontSize: 14, display: 'flex', alignItems: 'flex-start', gap: 8, color: 'rgba(0,0,0,0.7)' }}>
-                <span style={{ flexShrink: 0 }}>✓</span> Atención 24/7 con agentes nativos
+              <li style={{ fontSize: 14, display: 'flex', alignItems: 'flex-start', gap: 8, color: 'var(--ink-2)' }}>
+                <span className="ck" aria-hidden="true">✓</span> Atención 24/7 con agentes nativos
               </li>
-              <li style={{ fontSize: 14, display: 'flex', alignItems: 'flex-start', gap: 8, color: 'rgba(0,0,0,0.7)' }}>
-                <span style={{ flexShrink: 0 }}>✓</span> Cualificación de leads en tiempo real
+              <li style={{ fontSize: 14, display: 'flex', alignItems: 'flex-start', gap: 8, color: 'var(--ink-2)' }}>
+                <span className="ck" aria-hidden="true">✓</span> Cualificación de leads en tiempo real
               </li>
-              <li style={{ fontSize: 14, display: 'flex', alignItems: 'flex-start', gap: 8, color: 'rgba(0,0,0,0.7)' }}>
-                <span style={{ flexShrink: 0 }}>✓</span> Gestión de citas y agenda
+              <li style={{ fontSize: 14, display: 'flex', alignItems: 'flex-start', gap: 8, color: 'var(--ink-2)' }}>
+                <span className="ck" aria-hidden="true">✓</span> Gestión de citas y agenda
               </li>
-              <li style={{ fontSize: 14, display: 'flex', alignItems: 'flex-start', gap: 8, color: 'rgba(0,0,0,0.7)' }}>
-                <span style={{ flexShrink: 0 }}>✓</span> Sin permanencia
+              <li style={{ fontSize: 14, display: 'flex', alignItems: 'flex-start', gap: 8, color: 'var(--ink-2)' }}>
+                <span className="ck" aria-hidden="true">✓</span> Sin permanencia
               </li>
             </ul>
             <Link
@@ -491,18 +491,19 @@ export default async function ArticlePage({
               style={{
                 display: 'block',
                 textAlign: 'center',
-                background: '#5AFF15',
-                color: '#000',
+                background: 'var(--lime)',
+                color: 'var(--ink)',
                 padding: '12px 20px',
-                borderRadius: 999,
+                borderRadius: 5,
+                boxShadow: 'inset 0 0 0 1px var(--ink)',
                 fontSize: 14,
-                fontWeight: 600,
+                fontWeight: 500,
                 textDecoration: 'none',
               }}
             >
               Reserva una llamada
             </Link>
-            <p style={{ fontSize: 12, color: 'rgba(0,0,0,0.55)', textAlign: 'center', marginTop: 10 }}>
+            <p style={{ fontSize: 12, color: 'var(--ink-2)', textAlign: 'center', marginTop: 10 }}>
               Sin compromiso · Respuesta en 24h
             </p>
           </div>
@@ -511,8 +512,8 @@ export default async function ArticlePage({
 
       {/* Related Links */}
       {article.relatedLinks && article.relatedLinks.length > 0 && (
-        <div style={{ marginTop: 48, padding: '32px', borderRadius: 12, border: '1px solid rgba(0,0,0,0.08)' }}>
-          <p style={{ fontSize: 13, fontWeight: 600, color: 'rgba(0,0,0,0.5)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 16 }}>
+        <div style={{ marginTop: 48, padding: '32px', borderRadius: 12, border: '1px solid var(--line)' }}>
+          <p style={{ fontSize: 13, fontWeight: 500, color: 'var(--ink-2)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 16 }}>
             Servicios relacionados
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
@@ -523,10 +524,10 @@ export default async function ArticlePage({
                 style={{
                   display: 'inline-block',
                   padding: '8px 20px',
-                  border: '1px solid #000',
-                  borderRadius: 999,
+                  border: '1px solid var(--ink)',
+                  borderRadius: 5,
                   fontSize: 14,
-                  color: '#000',
+                  color: 'var(--ink)',
                   textDecoration: 'none',
                   fontWeight: 500,
                 }}
@@ -553,7 +554,7 @@ export default async function ArticlePage({
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))",
               gap: 24,
             }}
           >

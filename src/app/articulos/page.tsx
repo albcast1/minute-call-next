@@ -30,7 +30,7 @@ export default function ArticlesPage() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(min(320px, 100%), 1fr))",
           gap: 24,
           marginTop: 48,
         }}
@@ -42,7 +42,7 @@ export default function ArticlesPage() {
                 {article.title}
               </h2>
               <p className="service-card-body">{article.excerpt}</p>
-              <span style={{ fontSize: 14, fontWeight: 500, color: "black", marginTop: 16, display: "inline-block" }}>
+              <span style={{ fontSize: 14, fontWeight: 500, color: "var(--ink)", marginTop: 16, display: "inline-block" }}>
                 Leer más →
               </span>
             </div>

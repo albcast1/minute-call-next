@@ -116,13 +116,13 @@ export default function SectorIndexPage() {
           margin: "0 auto",
           padding: "24px clamp(16px,5vw,64px)",
           fontSize: 13,
-          color: "rgba(0,0,0,0.4)",
+          color: "#8E8A85",
         }}
       >
         {breadcrumbItems.map((item, index) => (
           <span key={item.name}>
             {index > 0 && <span style={{ margin: "0 8px" }}>/</span>}
-            <Link href={item.url} style={{ color: "rgba(0,0,0,0.4)", textDecoration: "none" }}>
+            <Link href={item.url} style={{ color: "#8E8A85", textDecoration: "none" }}>
               {item.name}
             </Link>
           </span>
@@ -179,10 +179,10 @@ export default function SectorIndexPage() {
               <h3
                 style={{
                   fontSize: 18,
-                  fontWeight: 600,
+                  fontWeight: 500,
                   marginBottom: 16,
                   letterSpacing: "-0.5px",
-                  color: "rgba(0,0,0,0.7)",
+                  color: "var(--ink-2)",
                 }}
               >
                 {category}
@@ -202,7 +202,7 @@ export default function SectorIndexPage() {
                     style={{
                       padding: "20px 24px",
                       textDecoration: "none",
-                      color: "black",
+                      color: "var(--ink)",
                       flex: "0 1 280px",
                       display: "block",
                     }}
@@ -221,7 +221,7 @@ export default function SectorIndexPage() {
                     <span
                       style={{
                         fontSize: 13,
-                        color: "rgba(0,0,0,0.56)",
+                        color: "var(--ink-2)",
                         lineHeight: "1.5",
                         display: "block",
                       }}

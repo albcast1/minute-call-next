@@ -25,7 +25,7 @@ export default function PoliticaCookies() {
 
   const sectionHeadingStyle: React.CSSProperties = {
     fontSize: "18px",
-    fontWeight: 600,
+    fontWeight: 500,
     marginTop: "32px",
     marginBottom: "16px",
     lineHeight: "24px",
@@ -36,7 +36,7 @@ export default function PoliticaCookies() {
     fontSize: "16px",
     lineHeight: "1.6",
     marginBottom: "16px",
-    color: "#333",
+    color: "var(--ink)",
   };
 
   const listStyle = {
@@ -48,7 +48,7 @@ export default function PoliticaCookies() {
     fontSize: "16px",
     lineHeight: "1.6",
     marginBottom: "8px",
-    color: "#333",
+    color: "var(--ink)",
   };
 
   return (
