@@ -1,9 +1,24 @@
 import Link from "next/link";
 import { InternalLinks } from '@/components/InternalLinks';
 import { FAQPageSchema, ServiceSchema } from "@/components/JsonLd";
-import type { CSSProperties } from "react";
 import { Star, Voice, TrustpilotBadge, WaveBars } from "@/components/brand/Brand";
 import HomeEffects from "@/components/brand/HomeEffects";
+
+/* Pasarela de sectores: la lista se pinta dos veces para que el bucle sea continuo. */
+const SECTORS = [
+  { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas", c: "lime" },
+  { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "purple" },
+  { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes", c: "ink" },
+  { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados", c: "lime" },
+  { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales", c: "purple" },
+  { name: "Asesorías y gestorías", href: "/lp/recepcionista-ia-asesorias", c: "orange" },
+  { name: "Veterinarias", href: "/lp/recepcionista-ia-veterinarias", c: "ink" },
+  { name: "Centros de estética", href: "/lp/recepcionista-ia-centros-estetica", c: "lime" },
+  { name: "Fisioterapia", href: "/lp/recepcionista-ia-fisioterapia", c: "purple" },
+  { name: "Seguros", href: "/lp/recepcionista-ia-seguros", c: "ink" },
+  { name: "Turismo", href: "/lp/recepcionista-ia-turismo", c: "lime" },
+  { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas", c: "purple" },
+];
 
 export default function Home() {
   const faqs = [
@@ -78,7 +93,7 @@ export default function Home() {
               Atención telefónica <Star /> 24/7.
             </h1>
             <p className="sub">
-              Atendemos las llamadas de tu empresa con <span className="chip">agentes nativos</span> o{" "}
+              Atendemos las llamadas de tu empresa con <span className="chip">personas</span> o{" "}
               <span className="chip">asistentes de IA</span> - tú eliges. Sin permanencia, diseñado para PYMES.
             </p>
             <div className="hero-actions">
@@ -171,31 +186,32 @@ export default function Home() {
           <div className="wrap">
             <span className="tag">Creados para ser flexibles</span>
             <h2 className="h2" style={{ marginTop: 22 }}>Diseñado para PYMES.</h2>
-            <div className="deck">
-              {[
-                { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas", c: "white", r: "-6deg" },
-                { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "ink", r: "4deg" },
-                { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes", c: "white", r: "-3deg" },
-                { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados", c: "lime", r: "5deg" },
-                { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales", c: "ink", r: "-4deg" },
-                { name: "Asesorías y gestorías", href: "/lp/recepcionista-ia-asesorias", c: "white", r: "2deg" },
-                { name: "Veterinarias", href: "/lp/recepcionista-ia-veterinarias", c: "purple", r: "-5deg" },
-                { name: "Centros de estética", href: "/lp/recepcionista-ia-centros-estetica", c: "white", r: "3deg" },
-                { name: "Fisioterapia", href: "/lp/recepcionista-ia-fisioterapia", c: "white", r: "-2deg" },
-                { name: "Seguros", href: "/lp/recepcionista-ia-seguros", c: "lime", r: "6deg" },
-                { name: "Turismo", href: "/lp/recepcionista-ia-turismo", c: "white", r: "-3deg" },
-                { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas", c: "ink", r: "4deg" },
-              ].map((sector) => (
-                <Link
-                  key={sector.name}
-                  className={`sc ${sector.c}`}
-                  href={sector.href}
-                  style={{ "--r": sector.r } as CSSProperties}
-                >
-                  <span className="sc-t">Sector</span>
-                  <span className="sc-n">{sector.name}</span>
-                </Link>
-              ))}
+            <div className="rail" aria-label="Sectores">
+              <div className="rail-track">
+                {[...SECTORS, ...SECTORS].map((sector, i) => {
+                  const clone = i >= SECTORS.length;
+                  return (
+                    <Link
+                      key={`${sector.href}-${i}`}
+                      className="sc2"
+                      href={sector.href}
+                      aria-hidden={clone || undefined}
+                      tabIndex={clone ? -1 : undefined}
+                    >
+                      <span className="sc2-panel">
+                        <span className={`sc2-badge b-${sector.c}`}>
+                          Sector {String((i % SECTORS.length) + 1).padStart(2, "0")}
+                        </span>
+                        <span className="sc2-n">{sector.name}</span>
+                      </span>
+                      <span className="sc2-cap">
+                        <span>Ver sector</span>
+                        <span className="sc2-go" aria-hidden="true">↗</span>
+                      </span>
+                    </Link>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </section>

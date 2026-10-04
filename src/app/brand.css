@@ -296,6 +296,39 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .res-lead + .res-lead{margin-top:12px}
 .res-lead strong{color:var(--ink);font-weight:500}
 
+/* Sectores: pasarela horizontal continua (sustituye a la baraja inclinada) */
+.rail{position:relative;width:100vw;margin:56px 0 0 calc(50% - 50vw);overflow:hidden;padding-block:14px 18px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent);mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent)}
+.rail-track{display:flex;gap:14px;width:max-content;animation:rail 52s linear infinite}
+.rail:hover .rail-track,.rail:focus-within .rail-track{animation-play-state:paused}
+@keyframes rail{to{transform:translateX(calc(-50% - 7px))}}
+/* Tarjeta de sector: marco blanco fino con panel interior y pie en mono,
+   misma familia que el marco de la foto del fundador */
+.sc2{flex:none;display:flex;flex-direction:column;text-align:left;width:268px;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:6px 6px 0;text-decoration:none;color:var(--ink);box-shadow:0 1px 2px rgba(32,29,29,.04),0 10px 26px rgba(32,29,29,.06);transition:transform .3s cubic-bezier(.2,.7,.2,1),box-shadow .3s ease}
+.sc2:hover,.sc2:focus-visible{opacity:1;transform:translateY(-4px);box-shadow:0 1px 2px rgba(32,29,29,.05),0 16px 34px rgba(32,29,29,.10)}
+.sc2-panel{height:128px;border-radius:9px;padding:14px 16px 16px;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;background:var(--soft);color:var(--ink)}
+.sc2-badge{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:4px;line-height:1.2}
+.b-lime{background:var(--lime);color:var(--ink)}
+.b-purple{background:var(--purple);color:var(--white)}
+.b-ink{background:var(--ink);color:var(--white)}
+.b-orange{background:var(--coral);color:var(--white)}
+.sc2-n{font-size:21px;font-weight:500;letter-spacing:-0.03em;line-height:1.1;text-wrap:balance}
+.sc2-cap{display:flex;justify-content:space-between;align-items:center;padding:9px 4px 10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+.sc2-go{font-family:var(--sans);font-size:14px;transition:color .2s ease,transform .2s ease}
+.sc2:hover .sc2-go{color:var(--purple);transform:translate(2px,-2px)}
+@media (max-width:760px){
+  .rail{margin-top:32px}
+  .sc2{width:200px}
+  .sc2-panel{height:104px;padding:11px 13px 13px}
+  .sc2-n{font-size:17px}
+  .rail-track{gap:10px;animation-duration:44s}
+  @keyframes rail{to{transform:translateX(calc(-50% - 5px))}}
+}
+@media (prefers-reduced-motion:reduce){
+  .rail{width:auto;margin-left:0;-webkit-mask-image:none;mask-image:none}
+  .rail-track{animation:none;width:auto;flex-wrap:wrap;justify-content:center}
+  .rail .sc2[aria-hidden="true"]{display:none}
+}
+
 /* Bloque CTA de cierre en páginas interiores: panel suave, no banda negra */
 .cta-panel{width:min(1200px,calc(100% - 32px));margin:clamp(40px,6vw,80px) auto 0;padding:clamp(48px,7vw,96px) clamp(20px,4vw,48px);background:var(--soft);border-radius:16px;text-align:center}
 .cta-panel h2{max-width:20ch;margin-inline:auto}
