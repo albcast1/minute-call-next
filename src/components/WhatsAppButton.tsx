@@ -1,13 +1,19 @@
+"use client";
+
+declare global {
+  interface Window {
+    oaiq?: (...args: unknown[]) => void;
+  }
+}
+
 export default function WhatsAppButton() {
   const handleClick = () => {
-    if (typeof window !== "undefined" && window.oaiq) {
-      window.oaiq(
-        "measure",
-        "custom",
-        { type: "custom" },
-        { custom_event_name: "whatsapp_contact" }
-      );
-    }
+    window.oaiq?.(
+      "measure",
+      "custom",
+      { type: "custom" },
+      { custom_event_name: "whatsapp_contact" }
+    );
   };
 
   return (
