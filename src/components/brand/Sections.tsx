@@ -188,11 +188,7 @@ export function Faq({ items }: { items: { q: ReactNode; a: ReactNode }[] }) {
 export function Quote({ quote, author, role }: { quote: ReactNode; author: ReactNode; role?: ReactNode }) {
   return (
     <figure className="quote2">
-      <blockquote>
-        <span className="qm">&ldquo;</span>
-        {quote}
-        <span className="qm">&rdquo;</span>
-      </blockquote>
+      <blockquote>&ldquo;{quote}&rdquo;</blockquote>
       <figcaption>
         <b>{author}</b>
         {role && <span>{role}</span>}
