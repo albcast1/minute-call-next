@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { BrandPage, Hero, Ed, Rows, Faq, Versus, CtaFinal } from '@/components/brand/Sections'
 
 export const metadata: Metadata = {
   title: 'Alternativa a Teleperformance, Konecta y Atento para PYMES',
@@ -37,113 +38,46 @@ export default function CompararPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-
-      {/* Hero */}
-      <section style={{ textAlign: 'center', maxWidth: 860, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(16px,5vw,64px) clamp(40px,6vw,60px)' }}>
-        <span className="pill-label" style={{ marginBottom: 20, display: 'inline-block' }}>
-          La alternativa a los grandes call centers para PYMES
-        </span>
-        <h1>
-          Todo lo que necesitas de un call center.<br />Sin los contratos que no puedes <span className="serif-italic">pagar.</span>
-        </h1>
-        <p style={{ maxWidth: 600, margin: '0 auto 32px' }}>
-          Teleperformance, Konecta y Atento son para grandes corporaciones. Secretaria.es es alemana. Minute Call es la alternativa española para PYMES: agentes nativos, sin permanencia, presupuesto personalizado.
-        </p>
-        <a href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada gratuita
-        </a>
-      </section>
-
-      {/* Comparison - home style cards instead of table */}
-      <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
-        <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>La comparativa</span>
-        <h2 style={{ marginTop: 16 }}>
-          Grandes BPO vs <span className="serif-italic">Minute Call.</span>
-        </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(350px, 100%), 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
-          <div className="card" style={{ padding: 32 }}>
-            <h3 style={{ fontSize: 20, marginBottom: 24 }}>Teleperformance / Konecta / Atento</h3>
-            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
-              {[
-                'Contratos de 12+ meses obligatorios',
-                'Agentes en LATAM o Marruecos',
-                'Mínimo 500+ llamadas/día',
-                'Activación en 1-3 meses',
-                'Protocolo genérico, sin especialización por sector',
-                'Diseñado para grandes corporaciones',
-              ].map((item) => (
-                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'var(--ink-2)' }}>
-                  <span className="xk" aria-hidden="true">✕</span> {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div style={{ background: 'var(--ink)', borderRadius: 14, padding: 32, color: 'white' }}>
-            <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
-            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
-              {[
-                'Sin permanencia - mes a mes',
-                'Agentes nativos en España',
-                'Sin volumen mínimo de llamadas',
-                'Activación en 48 horas',
-                'Protocolo personalizado por sector',
-                'Diseñado para PYMES españolas',
-              ].map((item) => (
-                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'var(--on-dark-2)' }}>
-                  <span className="ck" aria-hidden="true">✓</span> {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* Use cases - 3x2 grid */}
-      <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
-        <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Sectores</span>
-        <h2 style={{ marginTop: 16 }}>
-          Para que tipo de empresa es <span className="serif-italic">Minute Call.</span>
-        </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 20, marginTop: 48, textAlign: 'left' }}>
-          {useCases.map((uc, i) => (
-            <div key={i} className="card" style={{ padding: 32 }}>
-              <div style={{ fontSize: 32, marginBottom: 16 }}>{uc.icon}</div>
-              <h3 style={{ fontSize: 18, letterSpacing: '-0.5px' }}>{uc.title}</h3>
-              <p className="service-card-body">{uc.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)', textAlign: 'center' }}>
-        <span className="pill-label" style={{ marginBottom: 16, display: 'inline-block' }}>Preguntas</span>
-        <h2 style={{ marginTop: 16 }}>FAQ</h2>
-        <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 0, textAlign: 'left' }}>
-          {faqSchema.mainEntity.map((item) => (
-            <details key={item.name} style={{ padding: '24px 0', borderBottom: '1px solid var(--line)' }}>
-              <summary style={{ fontSize: 18, fontWeight: 500, cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--ink)' }}>
-                {item.name}
-                <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
-              </summary>
-              <p style={{ marginTop: 16 }}>{item.acceptedAnswer.text}</p>
-            </details>
-          ))}
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="cta-panel">
-        <h2>
-          Prueba la alternativa espanola a los grandes <span className="serif-italic">call centers.</span>
-        </h2>
-        <p>
-          Sin contratos, sin permanencia, sin agentes en LATAM. Activa en 48 horas.
-        </p>
-        <a href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada gratuita
-        </a>
-      </section>
+      <BrandPage>
+        <Hero
+          tag="La alternativa a los grandes call centers para PYMES"
+          title="Todo lo que necesitas de un call center. Sin los contratos que no puedes pagar."
+          sub="Teleperformance, Konecta y Atento son para grandes corporaciones. Secretaria.es es alemana. Minute Call es la alternativa española para PYMES: agentes nativos, sin permanencia, presupuesto personalizado."
+          cta={{ label: 'Reserva una llamada gratuita' }}
+        />
+        <Ed tag="La comparativa" title="Grandes BPO vs Minute Call." flush={false}>
+          <Versus
+            themLabel="Teleperformance / Konecta / Atento"
+            them={[
+              'Contratos de 12+ meses obligatorios',
+              'Agentes en LATAM o Marruecos',
+              'Mínimo 500+ llamadas/día',
+              'Activación en 1-3 meses',
+              'Protocolo genérico, sin especialización por sector',
+              'Diseñado para grandes corporaciones',
+            ]}
+            ours={[
+              'Sin permanencia - mes a mes',
+              'Agentes nativos en España',
+              'Sin volumen mínimo de llamadas',
+              'Activación en 48 horas',
+              'Protocolo personalizado por sector',
+              'Diseñado para PYMES españolas',
+            ]}
+          />
+        </Ed>
+        <Ed tag="Sectores" title="Para que tipo de empresa es Minute Call.">
+          <Rows items={useCases.map((uc) => ({ title: uc.title, desc: uc.description }))} />
+        </Ed>
+        <Ed tag="Preguntas" title="FAQ">
+          <Faq items={faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.text }))} />
+        </Ed>
+        <CtaFinal
+          title="Prueba la alternativa espanola a los grandes call centers."
+          text="Sin contratos, sin permanencia, sin agentes en LATAM. Activa en 48 horas."
+          cta={{ label: 'Reserva una llamada gratuita' }}
+        />
+      </BrandPage>
     </>
   )
 }

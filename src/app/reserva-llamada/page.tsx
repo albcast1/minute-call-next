@@ -19,8 +19,8 @@ export default function ReservaLlamada() {
           <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
             Hablemos
           </span>
-          <h1 style={{ marginTop: 16, fontSize: "clamp(36px, 7vw, 55px)", letterSpacing: "-0.06em", lineHeight: 1.05 }}>
-            Manos a la <span className="serif-italic">obra</span>
+          <h1 style={{ marginTop: 16, fontSize: "clamp(40px, 6vw, 72px)", letterSpacing: "-0.055em", lineHeight: 0.98 }}>
+            Manos a la obra.
           </h1>
           <p className="hide-on-mobile" style={{ marginTop: 24, maxWidth: 400 }}>
             Nos pondremos en contacto contigo menos de 24h.
@@ -29,7 +29,7 @@ export default function ReservaLlamada() {
                 className="hide-on-mobile"
                 src="/images/contacto.jpg"
                 alt="Persona hablando por teléfono"
-                style={{ marginTop: 32, borderRadius: 16, maxWidth: 520, width: "100%" }}
+                style={{ marginTop: 32, borderRadius: 10, maxWidth: 520, width: "100%" }}
               />
         </div>
 

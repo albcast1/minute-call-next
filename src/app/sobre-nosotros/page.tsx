@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { PersonSchema } from "@/components/JsonLd";
+import { BrandPage, Hero, Ed, Rows, Steps, Stats, Chips, CtaFinal } from "@/components/brand/Sections";
+import { Star } from "@/components/brand/Brand";
 
 export const metadata: Metadata = {
   title: "Sobre nosotros | minute call",
@@ -57,7 +58,7 @@ export default function SobreNosotros() {
 
   const stats = [
     { value: "24/7", label: "Cobertura horaria" },
-    { value: "5.0", label: "Valoración en Trustpilot" },
+    { value: "4,4", label: "Valoración en Trustpilot" },
     { value: "+50", label: "Ciudades cubiertas en España" },
     { value: "3", label: "Idiomas nativos (ES, EN, FR)" },
   ];
@@ -115,7 +116,7 @@ export default function SobreNosotros() {
     ["Cobertura", "Más de 50 ciudades en España"],
     ["Activación", "48 horas laborables"],
     ["Partners", "Teleperformance y Zendesk"],
-    ["Valoración", "5.0 en Trustpilot"],
+    ["Valoración", "4,4 en Trustpilot"],
     ["Competidores", "Konecta, Atento, Concentrix, Transcom, Secretaria.es"],
     ["Redes", "LinkedIn y Trustpilot"],
   ];
@@ -128,7 +129,7 @@ export default function SobreNosotros() {
   ];
 
   return (
-    <div style={{ maxWidth: 900, margin: "0 auto", padding: "60px 24px 80px" }}>
+    <>
       {/* Schema markup */}
       <script
         type="application/ld+json"
@@ -151,249 +152,6 @@ export default function SobreNosotros() {
         ]}
       />
 
-      {/* Badge */}
-      <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
-        Sobre nosotros
-      </span>
-
-      {/* H1 */}
-      <h1 style={{ marginTop: 16, marginBottom: 24 }}>
-        Quienes <span className="serif-italic">somos</span>
-      </h1>
-
-      {/* Capsule response */}
-      <p style={{ fontSize: 18, lineHeight: 1.7, maxWidth: 700, marginBottom: 32 }}>
-        <strong>Minute Call</strong> es un call center y contact center 24/7 para PYMES,
-        fundado en noviembre de 2024 por{" "}
-        <a href="https://www.linkedin.com/in/alberto-castiel/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
-          Alberto Castiel
-        </a>.
-        Ofrecemos agentes humanos nativos e inteligencia artificial para que ninguna llamada quede
-        sin responder. Partner comercial de Teleperformance y Zendesk.
-      </p>      {/* En cifras */}
-      <section style={{ marginBottom: 64 }}>
-        <h2 style={{ fontSize: 22, marginBottom: 24 }}>
-          Minute Call en cifras
-        </h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-            gap: 16 }}
-        >
-          {stats.map((stat, i) => (
-            <div
-              key={i}
-              className="card"
-              style={{ padding: 24, textAlign: "center" }}
-            >
-              <div style={{ fontSize: 32, fontWeight: 500, letterSpacing: "-1px", marginBottom: 4 }}>
-                {stat.value}
-              </div>
-              <div style={{ fontSize: 14, color: "var(--ink-2)" }}>
-                {stat.label}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Qué hacemos */}
-      <section style={{ marginBottom: 64 }}>
-        <h2 style={{ fontSize: 22, marginBottom: 16 }}>
-          Que hacemos
-        </h2>
-        <div style={{ display: "flex", flexDirection: "column", gap: 16, maxWidth: 700 }}>
-          <p style={{ lineHeight: 1.8, color: 'var(--ink-2)' }}>
-            Nuestros agentes trabajan como una extensión de tu equipo. Seguimos tus instrucciones,
-            tu tono y tus flujos de trabajo: cualificamos llamadas, tomamos mensajes, programamos
-            citas y escalamos los casos urgentes cuando es necesario.
-          </p>
-          <p style={{ lineHeight: 1.8, color: 'var(--ink-2)' }}>
-            Diseñado para clínicas, despachos de abogados, inmobiliarias, asesorías, veterinarias
-            y cualquier PYME que no puede permitirse perder llamadas fuera de horario o durante los
-            picos de actividad.
-          </p>
-        </div>
-
-        {/* Servicios (H3 por servicio) */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: 16, marginTop: 24 }}>
-            {services.map((s) => (
-              <div key={s.title} className="card" style={{ padding: 24 }}>
-                <h3 style={{ fontSize: 18, marginBottom: 8 }}>{s.title}</h3>
-                <p style={{ fontSize: 15, lineHeight: 1.7, color: "var(--ink-2)", margin: 0 }}>{s.body}</p>
-              </div>
-            ))}
-          </div>
-
-        {/* Internal links to services */}
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, marginTop: 24 }}>
-          <Link href="/lp" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid var(--ink)', borderRadius: 5, fontSize: 14, color: 'var(--ink)', textDecoration: 'none', fontWeight: 500 }}>
-            Sectores →
-          </Link>
-          <Link href="/atencion-telefonica" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid var(--ink)', borderRadius: 5, fontSize: 14, color: 'var(--ink)', textDecoration: 'none', fontWeight: 500 }}>
-            Ciudades →
-          </Link>
-          <Link href="/comparar" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid var(--ink)', borderRadius: 5, fontSize: 14, color: 'var(--ink)', textDecoration: 'none', fontWeight: 500 }}>
-            Comparar alternativas →
-          </Link>
-          <Link href="/articulos" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid var(--ink)', borderRadius: 5, fontSize: 14, color: 'var(--ink)', textDecoration: 'none', fontWeight: 500 }}>
-            Blog →
-          </Link>
-        </div>
-      </section>
-
-      {/* Diferenciadores */}
-        <section style={{ marginBottom: 64 }}>
-          <h2 style={{ fontSize: 22, marginBottom: 24 }}>Que diferencia a Minute Call</h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 700 }}>
-            {differentiators.map((d) => (
-              <div key={d.title}>
-                <h3 style={{ fontSize: 18, marginBottom: 6 }}>{d.title}</h3>
-                <p style={{ lineHeight: 1.8, color: "var(--ink-2)", margin: 0 }}>{d.body}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Para quien es */}
-        <section style={{ marginBottom: 64 }}>
-          <h2 style={{ fontSize: 22, marginBottom: 16 }}>Para quien es Minute Call</h2>
-          <ul style={{ listStyle: "disc", fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "var(--ink-2)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
-            {icp.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </section>
-
-      {/* Partners */}
-      <section style={{ marginBottom: 64 }}>
-        <h2 style={{ fontSize: 22, marginBottom: 16 }}>
-          Partners estrategicos
-        </h2>
-        <p style={{ lineHeight: 1.8, color: 'var(--ink-2)', maxWidth: 700 }}>
-          Minute Call es partner comercial de <strong>Teleperformance</strong> (uno de los mayores BPO del mundo con
-          más de 410.000 empleados) y de <strong>Zendesk</strong> (plataforma líder de atención al cliente).
-          Estas alianzas nos permiten ofrecer infraestructura y estándares de calidad de nivel enterprise
-          a PYMES.
-        </p>
-      </section>
-
-      {/* Equipo */}
-      <section style={{ marginBottom: 64 }}>
-        <h2 style={{ fontSize: 22, marginBottom: 32 }}>
-          Nuestro equipo
-        </h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "minmax(0, 420px)",
-            gap: 24 }}
-        >
-          {/* Alberto */}
-          <div className="card" style={{ padding: 32 }}>
-            <div
-              style={{
-                width: "100%",
-                aspectRatio: "4/5",
-                borderRadius: 10,
-                overflow: "hidden",
-                marginBottom: 24,
-                background: "var(--line)" }}
-            >
-              <img
-                src="/assets/team/alberto-castiel.jpg"
-                alt="Alberto Castiel, fundador de Minute Call"
-                width={720}
-                height={900}
-                loading="lazy"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 30%" }}
-              />
-            </div>
-            <h3 style={{ fontSize: 22, marginBottom: 4 }}>Alberto Castiel</h3>
-            <p style={{ fontSize: 14, color: 'var(--ink-2)', marginBottom: 12 }}>Fundador</p>
-            <p style={{ fontSize: 15, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-              Ex General Manager en Leocare (insurtech valorada en 350M€). Como Country Manager
-              en Novum Bank, escaló el mercado francés de 0 a 45M€ de facturación con crecimiento
-              del 70% YoY y multiplicó el EBITDA ×8. Ex consultor de Estrategia y Operaciones en
-              Deloitte. También fue Head of Global Operations en Naboo, respaldada por Lightspeed
-              (el VC detrás de Anthropic y ElevenLabs).
-            </p>
-            <a
-              href="https://www.linkedin.com/in/alberto-castiel/"
-              target="_blank"              rel="noopener noreferrer"
-              style={{
-                display: 'inline-block',
-                marginTop: 12,
-                fontSize: 14,
-                color: 'var(--ink)',
-                textDecoration: 'underline',
-                textUnderlineOffset: 3 }}
-            >
-              LinkedIn →
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Como funciona */}
-        <section style={{ marginBottom: 64 }}>
-          <h2 style={{ fontSize: 22, marginBottom: 16 }}>Como funciona Minute Call</h2>
-          <ol style={{ listStyle: "decimal", fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "var(--ink-2)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
-            {howItWorks.map((step) => (
-              <li key={step}>{step}</li>
-            ))}
-          </ol>
-        </section>
-
-        {/* Datos clave */}
-        <section style={{ marginBottom: 64 }}>
-          <h2 style={{ fontSize: 22, marginBottom: 16 }}>Datos clave de Minute Call</h2>
-          <dl className="card" style={{ padding: 24, margin: 0, display: "grid", gridTemplateColumns: "minmax(120px, 190px) 1fr", columnGap: 24, rowGap: 12, fontSize: 16, letterSpacing: "-0.04em", lineHeight: 1.6 }}>
-            {keyFacts.map(([k, v]) => (
-              <div key={k} style={{ display: "contents" }}>
-                <dt style={{ fontWeight: 500 }}>{k}</dt>
-                <dd style={{ margin: 0, color: "var(--ink-2)" }}>{v}</dd>
-              </div>
-            ))}
-          </dl>
-        </section>
-
-      {/* Trustpilot */}
-      <section style={{ marginBottom: 48 }}>
-        <h2 style={{ fontSize: 22, marginBottom: 16 }}>
-          Lo que dicen nuestros clientes
-        </h2>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-          {[
-            { name: "María Monsalve", role: "Directora de Clínica", body: rev1Body },
-            { name: "Carlos Fernández", role: "Responsable de Inmobiliaria", body: rev2Body },
-            { name: "Laura Martínez", role: "Gerente de Asesoría", body: rev3Body },
-          ].map((review, i) => (
-            <div key={i} className="card" style={{ padding: 24 }}>
-              <p style={{ fontSize: 15, lineHeight: 1.7, color: 'var(--ink-2)', marginBottom: 12 }}>
-                &ldquo;{review.body}&rdquo;
-              </p>
-              <p style={{ fontSize: 14, fontWeight: 500, margin: 0 }}>
-                {review.name} <span style={{ fontWeight: 400, color: 'var(--ink-2)' }}>· {review.role}</span>
-              </p>
-            </div>
-          ))}
-        </div>
-        <p style={{ fontSize: 13, color: '#8E8A85', marginTop: 12 }}>
-          <a
-            href="https://es.trustpilot.com/review/minute-call.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: '#8E8A85', textDecoration: 'underline' }}
-          >
-            Ver todas las opiniones en Trustpilot →
-          </a>
-        </p>
-      </section>
-
-      {/* Preguntas frecuentes */}
-        <section style={{ marginBottom: 48 }}>
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
@@ -408,21 +166,148 @@ export default function SobreNosotros() {
               }),
             }}
           />
-          <h2 style={{ fontSize: 22, marginBottom: 24 }}>Preguntas frecuentes</h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 700 }}>
-            {faqs.map((f) => (
-              <div key={f.q}>
-                <h3 style={{ fontSize: 18, marginBottom: 6 }}>{f.q}</h3>
-                <p style={{ lineHeight: 1.8, color: "var(--ink-2)", margin: 0 }}>{f.a}</p>
+      <BrandPage>
+        <Hero
+          tag="Sobre nosotros"
+          title="Quiénes somos."
+          sub={
+            <>
+              <strong>Minute Call</strong> es un call center y contact center 24/7 para PYMES, fundado en noviembre de
+              2024 por{" "}
+              <a href="https://www.linkedin.com/in/alberto-castiel/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", textUnderlineOffset: 3 }}>
+                Alberto Castiel
+              </a>
+              . Ofrecemos agentes humanos nativos e inteligencia artificial para que ninguna llamada quede sin
+              responder. Partner comercial de Teleperformance y Zendesk.
+            </>
+          }
+        />
+
+        <Ed tag="En cifras" title="Minute Call en cifras." flush={false}>
+          <Stats items={stats} />
+        </Ed>
+
+        <Ed tag="Qué hacemos" title="Qué hacemos.">
+          <p className="lead2">
+            Nuestros agentes trabajan como una extensión de tu equipo. Seguimos tus instrucciones, tu tono y tus flujos
+            de trabajo: cualificamos llamadas, tomamos mensajes, programamos citas y escalamos los casos urgentes cuando
+            es necesario.
+          </p>
+          <p className="lead2">
+            Diseñado para clínicas, despachos de abogados, inmobiliarias, asesorías, veterinarias y cualquier PYME que no
+            puede permitirse perder llamadas fuera de horario o durante los picos de actividad.
+          </p>
+          <Rows cols={2} items={services.map((sv) => ({ title: sv.title, desc: sv.body }))} />
+          <Chips
+            links={[
+              { href: "/lp", label: "Sectores →" },
+              { href: "/atencion-telefonica", label: "Ciudades →" },
+              { href: "/comparar", label: "Comparar alternativas →" },
+              { href: "/articulos", label: "Blog →" },
+            ]}
+          />
+        </Ed>
+
+        <Ed tag="La diferencia" title="Qué diferencia a Minute Call.">
+          <Rows items={differentiators.map((d) => ({ title: d.title, desc: d.body }))} />
+        </Ed>
+
+        <Ed tag="Para quién" title="Para quién es Minute Call.">
+          <ul className="ticks">
+            {icp.map((item) => (
+              <li key={item}>
+                <i aria-hidden="true">✓</i>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </Ed>
+
+        <Ed tag="Partners" title="Partners estratégicos.">
+          <p className="lead2">
+            Minute Call es partner comercial de <strong>Teleperformance</strong> (uno de los mayores BPO del mundo con
+            más de 410.000 empleados) y de <strong>Zendesk</strong> (plataforma líder de atención al cliente). Estas
+            alianzas nos permiten ofrecer infraestructura y estándares de calidad de nivel enterprise a PYMES.
+          </p>
+        </Ed>
+
+        <Ed tag="Nuestro equipo" title="Nuestro equipo.">
+          <div className="founder2">
+            <figure className="fframe">
+              <div className="fshot">
+                <img src="/assets/team/alberto-castiel.jpg" alt="Alberto Castiel, fundador de Minute Call" width={720} height={900} loading="lazy" />
+                <i className="fc tl" aria-hidden="true" />
+                <i className="fc tr" aria-hidden="true" />
+                <i className="fc bl" aria-hidden="true" />
+                <i className="fc br" aria-hidden="true" />
+              </div>
+              <figcaption>
+                <span>Minute Call · desde 2024</span>
+                <Star className="fstar" />
+              </figcaption>
+            </figure>
+            <div className="bio2">
+              <div>
+                <h3>Alberto Castiel</h3>
+                <span className="role">Fundador</span>
+              </div>
+              <p>
+                Ex General Manager en Leocare (insurtech valorada en 350M€). Como Country Manager en Novum Bank, escaló
+                el mercado francés de 0 a 45M€ de facturación con crecimiento del 70% YoY y multiplicó el EBITDA ×8. Ex
+                consultor de Estrategia y Operaciones en Deloitte. También fue Head of Global Operations en Naboo,
+                respaldada por Lightspeed (el VC detrás de Anthropic y ElevenLabs).
+              </p>
+              <a className="link" href="https://www.linkedin.com/in/alberto-castiel/" target="_blank" rel="noopener noreferrer">
+                LinkedIn →
+              </a>
+            </div>
+          </div>
+        </Ed>
+
+        <Ed tag="Cómo funciona" title="Cómo funciona Minute Call.">
+          <Steps items={howItWorks.map((step) => { const [t, ...rest] = step.split(": "); return rest.length ? { title: t, desc: rest.join(": ") } : { title: step, desc: "" }; })} />
+        </Ed>
+
+        <Ed tag="Datos clave" title="Datos clave de Minute Call.">
+          <dl className="facts">
+            {keyFacts.map(([k, v]) => (
+              <div key={k}>
+                <dt>{k}</dt>
+                <dd>{v}</dd>
               </div>
             ))}
-          </div>
-        </section>
+          </dl>
+        </Ed>
 
-      {/* Last updated */}
-      <p style={{ fontSize: 12, color: '#8E8A85', borderTop: '1px solid var(--line)', paddingTop: 24 }}>
-        Última actualización: septiembre 2026
-      </p>
-    </div>
+        <Ed tag="Clientes" title="Lo que dicen nuestros clientes.">
+          <div className="reviews">
+            {[
+              { name: "María Monsalve", role: "Directora de Clínica", body: rev1Body },
+              { name: "Carlos Fernández", role: "Responsable de Inmobiliaria", body: rev2Body },
+              { name: "Laura Martínez", role: "Gerente de Asesoría", body: rev3Body },
+            ].map((review) => (
+              <figure key={review.name}>
+                <blockquote>&ldquo;{review.body}&rdquo;</blockquote>
+                <figcaption>
+                  <b>{review.name}</b> <span>{review.role}</span>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+          <p className="lead2">
+            <a href="https://es.trustpilot.com/review/minute-call.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", textUnderlineOffset: 3 }}>
+              Ver todas las opiniones en Trustpilot →
+            </a>
+          </p>
+        </Ed>
+
+        <Ed tag="Preguntas" title="Preguntas frecuentes.">
+          <Rows cols={2} items={faqs.map((f) => ({ title: f.q, desc: f.a }))} />
+          <p className="updated">Última actualización: septiembre 2026</p>
+        </Ed>
+
+        <CtaFinal />
+      </BrandPage>
+    </>
   );
 }

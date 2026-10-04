@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { BrandPage, Hero, Ed, Faq, CtaFinal } from '@/components/brand/Sections'
 
 const faqItems = [
   { q: '¿Cuánto me cuesta cada llamada perdida?', a: 'Depende de tu ticket medio y tasa de conversión. Para una empresa con ticket de 500€ y conversión del 20%, cada lead perdido supone 100€ de facturación no ingresada.' },
@@ -30,19 +31,14 @@ export default function CalculadoraROIPage() {
   const labelStyle = { fontSize: 13, fontWeight: 500 as const, color: 'var(--ink-2)', display: 'block' as const, marginBottom: 8 }
 
   return (
-    <>
-      {/* Hero */}
-      <section style={{ textAlign: 'center', maxWidth: 760, margin: '0 auto', padding: 'clamp(40px,8vw,72px) clamp(16px,5vw,64px) clamp(24px,4vw,40px)' }}>
-        <span className="pill-label" style={{ marginBottom: 20, display: 'inline-block' }}>
-          Herramienta gratuita
-        </span>
-        <h1>
-          ¿Cuanto te cuestan las llamadas<br/>que no <span className="serif-italic">atiendes?</span>
-        </h1>
-        <p style={{ maxWidth: 600, margin: '0 auto' }}>
-          Calcula el impacto económico real de las llamadas perdidas en tu negocio. Las PYMES españolas pierden entre el 27% y el 58% de sus llamadas entrantes.
-        </p>
-      </section>
+    <BrandPage>
+      <Hero
+        tag="Herramienta gratuita"
+        title="¿Cuánto te cuestan las llamadas que no atiendes?"
+        sub="Calcula el impacto económico real de las llamadas perdidas en tu negocio. Las PYMES españolas pierden entre el 27% y el 58% de sus llamadas entrantes."
+        cta={false}
+        trust={false}
+      />
 
       {/* Calculator */}
       <section style={{ maxWidth: 860, margin: '0 auto', padding: '0 clamp(16px,5vw,64px) clamp(40px,8vw,80px)' }}>
@@ -89,7 +85,7 @@ export default function CalculadoraROIPage() {
                 { label: 'Facturación perdida/mes', value: fmt(result.coste) + '€' },
               ].map(({ label, value }) => (
                 <div key={label} className="card" style={{ textAlign: 'center', padding: 20 }}>
-                  <p style={{ fontSize: 36, fontWeight: 500, color: '#BDB8B1', letterSpacing: -2, marginBottom: 4 }}>{value}</p>
+                  <p style={{ fontSize: 36, fontWeight: 500, color: 'var(--coral)', letterSpacing: -2, marginBottom: 4 }}>{value}</p>
                   <p className="service-card-body" style={{ marginBottom: 0 }}>{label}</p>
                 </div>
               ))}
@@ -107,21 +103,10 @@ export default function CalculadoraROIPage() {
         )}
       </section>
 
-      {/* FAQ */}
-      <section style={{ maxWidth: 760, margin: '0 auto', padding: 'clamp(40px,8vw,80px) clamp(16px,5vw,64px)' }}>
-        <h2 style={{ marginBottom: 32 }}>Preguntas frecuentes</h2>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
-          {faqItems.map((item, i) => (
-            <details key={i} style={{ padding: '24px 0', borderBottom: '1px solid var(--line)' }}>
-              <summary style={{ fontSize: 18, fontWeight: 500, cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--ink)' }}>
-                {item.q}
-                <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
-              </summary>
-              <p style={{ marginTop: 16 }}>{item.a}</p>
-            </details>
-          ))}
-        </div>
-      </section>
-    </>
+      <Ed tag="Preguntas" title="Preguntas frecuentes." flush={false}>
+        <Faq items={faqItems} />
+      </Ed>
+      <CtaFinal />
+    </BrandPage>
   )
 }

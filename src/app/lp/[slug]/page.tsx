@@ -1,11 +1,10 @@
-import Link from "next/link";
 import { Metadata } from "next";
 import sectors from "@/data/sectors.json";
 import cities from "@/data/cities.json";
 import indexables from "@/data/city-sector-indexables.json";
 import { FAQPageSchema, BreadcrumbSchema , ServiceSchema } from "@/components/JsonLd";
 import VideoCard from "@/components/VideoCard";
-import { TrustpilotBadge } from "@/components/brand/Brand";
+import { BrandPage, Hero, Ed, Rows, Steps, Faq, Quote, Chips, CtaFinal, Prose } from "@/components/brand/Sections";
 
 export async function generateStaticParams() {
   return sectors.map((sector) => ({
@@ -66,6 +65,8 @@ export default async function LandingPage({
     return <div style={{ textAlign: "center", padding: "80px 64px" }}>Sector no encontrado</div>;
   }
 
+  const deepDive = (sector as unknown as { deepDive?: Array<{ heading: string; body: string }> }).deepDive;
+
   return (
     <>
       <FAQPageSchema faqs={sector.faq.slice(4).map(f => ({ question: f.question, answer: f.answer ?? "" }))} />
@@ -80,256 +81,77 @@ export default async function LandingPage({
         { name: sector.title, url: `https://www.minute-call.com/lp/${sector.slug}` }
       ]} />
 
-      {/* ===== HERO ===== */}
-      <section
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "clamp(40px,8vw,80px) clamp(16px,5vw,64px) 60px",
-          display: "flex",
-          alignItems: "flex-start",
-          justifyContent: "space-between",
-          gap: "clamp(24px,4vw,60px)",
-          flexWrap: "wrap" }}
-      >
-        <div style={{ flex: "1 1 280px", maxWidth: 560 }}>
-          <div style={{ marginBottom: 20 }}>
-            <TrustpilotBadge />
+      <BrandPage>
+        <Hero
+          tag={sector.heroTag}
+          title={sector.heroTitle ? sector.heroTitle : <>Recepcionista de IA para {sector.sector}.</>}
+          sub={sector.heroSubtitle}
+          extra={sector.socialProof}
+        >
+          <div className="hero-media">
+            <VideoCard />
           </div>
+        </Hero>
 
-          <div style={{ marginBottom: 24 }}>
-            <span className="pill-label">{sector.heroTag}</span>
-          </div>
+        <Ed tag="Clientes" title="Lo que dicen nuestros clientes." flush={false}>
+          <Quote
+            quote={sector.testimonial.quote}
+            author={sector.testimonial.author}
+            role={sector.testimonial.role}
+          />
+        </Ed>
 
-          <h1>
-            {sector.heroTitle ? (
-              <span className="serif-italic">{sector.heroTitle}</span>
-            ) : (
-              <>Recepcionista de IA para{" "}<span className="serif-italic">{sector.sector}.</span></>
-            )}
-          </h1>
+        <Ed tag="Ventajas" title="Qué hacemos por ti.">
+          <Rows items={sector.features.slice(0, 3).map((f) => ({ title: f.title, desc: f.description }))} />
+        </Ed>
 
-          <p style={{ maxWidth: 500, marginBottom: 16 }}>{sector.heroSubtitle}</p>
+        <Ed tag="Cómo funciona" title="Cómo funciona.">
+          <Steps
+            items={[
+              { title: "Configuración", desc: "Te conocemos. Entrenamos a la IA con tus datos, políticas y FAQs." },
+              { title: "Integración", desc: "Configuramos tu número. Los clientes siguen llamando al mismo número." },
+              { title: "Gestión", desc: "La IA atiende, filtra leads y agenda citas. Tú solo enfocado en cerrar." },
+            ]}
+          />
+        </Ed>
 
-          <p style={{ marginBottom: 40 }}>{sector.socialProof}</p>
+        <Ed tag="Preguntas" title="FAQ">
+          <Faq items={sector.faq.slice(4).map((f) => ({ q: f.question, a: f.answer }))} />
+        </Ed>
 
-          <Link href="/reserva-llamada" className="btn-cta">
-            Reserva una llamada
-          </Link>
-        </div>
-
-        <div style={{ alignSelf: "center" }}>
-          <VideoCard />
-        </div>
-      </section>
-
-      {/* ===== TESTIMONIAL ===== */}
-      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}>
-        <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
-          Clientes
-        </span>
-        <h2 style={{ marginTop: 16 }}>
-          Lo que dicen <span className="serif-italic">nuestros clientes.</span>
-        </h2>
-        <div
-          className="card"
-          style={{ maxWidth: 720, margin: "48px auto 0", padding: 48, textAlign: "center" }}
-        >
-          <p
-            style={{
-              fontSize: "clamp(14px, 3.8vw, 22px)",
-              fontStyle: "normal",
-              color: "var(--ink)",
-              marginBottom: 24,
-              lineHeight: 1.5,
-              letterSpacing: "-0.5px" }}
-          >
-            &ldquo;{sector.testimonial.quote}&rdquo;
-          </p>
-          <p style={{ fontWeight: 500, color: "var(--ink)", marginBottom: 4 }}>
-            {sector.testimonial.author}
-          </p>
-          <p style={{ color: "var(--ink-2)", marginBottom: 0 }}>
-            {sector.testimonial.role}
-          </p>
-        </div>
-      </section>
-
-      {/* ===== VENTAJAS CLAVE — siempre 3 cards ===== */}
-      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}>
-        <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
-          Ventajas
-        </span>
-        <h2 style={{ marginTop: 16 }}>
-          Qué hacemos <span className="serif-italic">por ti.</span>
-        </h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
-            gap: 20,
-            marginTop: 48 }}
-          className="grid-3col"
-        >
-          {sector.features.slice(0, 3).map((feature, index) => (
-            <div key={index} className="card" style={{ textAlign: "left", padding: 32 }}>
-              <h3 className="service-card-title" style={{ fontSize: 24 }}>
-                {feature.title}
-              </h3>
-              <p className="service-card-body">{feature.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ===== CÓMO FUNCIONA ===== */}
-      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}>
-        <span className="pill-label" style={{ marginBottom: 16, display: "inline-block" }}>
-          Como funciona
-        </span>
-        <h2 style={{ marginTop: 16 }}>
-          Cómo <span className="serif-italic">funciona.</span>
-        </h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
-            gap: 24,
-            marginTop: 48,
-            textAlign: "left" }}
-          className="grid-3col"
-        >
-          {[
-            {
-              step: "01",
-              title: "Configuración",
-              description: "Te conocemos. Entrenamos a la IA con tus datos, políticas y FAQs." },
-            {
-              step: "02",
-              title: "Integración",
-              description: "Configuramos tu número. Los clientes siguen llamando al mismo número." },
-            {
-              step: "03",
-              title: "Gestión",
-              description: "La IA atiende, filtra leads y agenda citas. Tú solo enfocado en cerrar." },
-          ].map((item) => (
-            <div key={item.step} className="card" style={{ padding: 32 }}>
-              <p className="step-n">
-                {item.step}
-              </p>
-              <h3 style={{ fontSize: 22 }}>{item.title}</h3>
-              <p className="service-card-body">{item.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ===== FAQ ===== */}
-      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}>
-        <span className="pill-label" style={{ marginBottom: 16, display: "inline-block" }}>
-          Preguntas
-        </span>
-        <h2 style={{ marginTop: 16 }}>FAQ</h2>
-        <div
-          style={{
-            marginTop: 32,
-            display: "flex",
-            flexDirection: "column",
-            gap: 0,
-            textAlign: "left" }}
-        >
-          {sector.faq.slice(4).map((faq, index) => (
-            <details
-              key={index}
-              style={{ padding: "24px 0", borderBottom: "1px solid var(--line)" }}
-            >
-              <summary
-                style={{
-                  fontSize: 18,
-                  fontWeight: 500,
-                  cursor: "pointer",
-                  listStyle: "none",
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  color: "var(--ink)" }}
-              >
-                {faq.question}
-                <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
-              </summary>
-              <p style={{ marginTop: 16, maxWidth: 700 }}>{faq.answer}</p>
-            </details>
-          ))}
-        </div>
-      </section>
-
-      {/* ===== CONTENIDO EN PROFUNDIDAD =====
-          Las landings comerciales tenian 380-480 palabras y competian con
-          articulos propios de 370-455 sobre exactamente la misma intencion.
-          Consolidado el cluster, este bloque es donde vive el contenido que
-          antes estaba repartido en cuatro URLs. */}
-      {Array.isArray((sector as { deepDive?: Array<{ heading: string; body: string }> }).deepDive) && (
-        <section style={{ maxWidth: 820, margin: "0 auto", padding: "40px 64px 0" }}>
-          {(sector as unknown as { deepDive: Array<{ heading: string; body: string }> }).deepDive.map((bloque, i) => (
-            <div key={i} style={{ marginBottom: 48 }}>
-              <h2 style={{ fontSize: "clamp(22px,4vw,30px)", marginBottom: 20 }}>{bloque.heading}</h2>
-              {bloque.body.split("\n\n").map((parrafo, j) => (
-                <p
-                  key={j}
-                  style={{ lineHeight: 1.75, marginBottom: 16 }}
-                  dangerouslySetInnerHTML={{
-                    __html: parrafo.replace(
-                      /\*\*(.+?)\*\*/g,
-                      '<strong>$1</strong>'
-                    ) }}
-                />
+        {/* Contenido en profundidad: aquí vive el contenido que antes estaba
+            repartido en cuatro URLs (consolidación del cluster SEO). */}
+        {deepDive && (
+          <Ed tag="En detalle">
+            <Prose>
+              {deepDive.map((bloque, i) => (
+                <div key={i}>
+                  <h2>{bloque.heading}</h2>
+                  {bloque.body.split("\n\n").map((parrafo, j) => (
+                    <p
+                      key={j}
+                      dangerouslySetInnerHTML={{ __html: parrafo.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>") }}
+                    />
+                  ))}
+                </div>
               ))}
-            </div>
-          ))}
-        </section>
-      )}
+            </Prose>
+          </Ed>
+        )}
 
-      {/* ===== CIUDADES DE ESTE SECTOR ===== */}
-      {citiesForSector(sector.slug).length > 0 && (
-        <section style={{ maxWidth: 1000, margin: "0 auto", padding: "40px clamp(16px,5vw,64px) 0", textAlign: "center" }}>
-          <h2 style={{ fontSize: "clamp(22px,4vw,30px)", marginBottom: 12 }}>
-            También por <span className="serif-italic">ciudad</span>
-          </h2>
-          <p style={{ maxWidth: 560, margin: "0 auto 24px" }}>
-            Cómo trabajamos este servicio en cada ciudad.
-          </p>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 10 }}>
-            {citiesForSector(sector.slug).map((c) => (
-              <Link
-                key={c.href}
-                href={c.href}
-                style={{ padding: "10px 18px", border: "1px solid var(--line)", borderRadius: 5, color: "var(--ink)", textDecoration: "none", fontSize: 14, fontWeight: 500 }}
-              >
-                {c.city}
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
+        {citiesForSector(sector.slug).length > 0 && (
+          <Ed tag="Ciudades" title="También por ciudad.">
+            <p className="lead2">Cómo trabajamos este servicio en cada ciudad.</p>
+            <Chips links={citiesForSector(sector.slug).map((c) => ({ href: c.href, label: c.city }))} />
+          </Ed>
+        )}
 
-      {/* ===== BOTTOM CTA ===== */}
-      <section
-        style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 64px", textAlign: "center" }}
-      >
-        <span className="pill-label" style={{ marginBottom: 16, display: "inline-block" }}>
-          Empieza hoy
-        </span>
-        <h2 style={{ marginTop: 16 }}>
-          ¿Listo para <span className="serif-italic">transformar</span> tu atención?
-        </h2>
-        <p style={{ maxWidth: 520, margin: "0 auto 40px auto" }}>
-          Prueba Minute Call sin compromiso. La mayoría de clientes ven resultados en la primera
-          semana.
-        </p>
-        <Link href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada
-        </Link>
-      </section>
+        <CtaFinal
+          tag="Empieza hoy"
+          title="¿Listo para transformar tu atención?"
+          text="Prueba Minute Call sin compromiso. La mayoría de clientes ven resultados en la primera semana."
+        />
+      </BrandPage>
     </>
   );
 }
