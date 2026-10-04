@@ -1,4 +1,22 @@
+"use client";
+
+declare global {
+  interface Window {
+    oaiq?: (...args: unknown[]) => void;
+  }
+}
+
 export default function WhatsAppButton() {
+
+  const handleClick = () => {
+    window.oaiq?.(
+      "measure",
+      "custom",
+      { type: "custom" },
+      { custom_event_name: "whatsapp_contact" }
+    );
+  };
+
   return (
     <a
       href="https://wa.me/message/VBBRQ3ICIGMMF1"
@@ -6,6 +24,7 @@ export default function WhatsAppButton() {
       rel="noopener noreferrer"
       aria-label="Contáctanos por WhatsApp"
       title="Contáctanos por WhatsApp"
+      onClick={handleClick}
       className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-[#25D366] shadow-lg transition-transform duration-200 hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
     >
       <span className="sr-only">Contáctanos por WhatsApp</span>
