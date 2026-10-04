@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "./ContactForm";
+import { Voice, WaveBars } from "@/components/brand/Brand";
 
 export const metadata: Metadata = {
   title: "Reserva una llamada | minute call",
@@ -25,12 +26,15 @@ export default function ReservaLlamada() {
           <p className="hide-on-mobile" style={{ marginTop: 24, maxWidth: 400 }}>
             Nos pondremos en contacto contigo menos de 24h.
           </p>
-              <img
-                className="hide-on-mobile"
-                src="/images/contacto.jpg"
-                alt="Persona hablando por teléfono"
-                style={{ marginTop: 32, borderRadius: 10, maxWidth: 520, width: "100%" }}
-              />
+<div className="call-card hide-on-mobile" style={{ marginTop: 32, maxWidth: 520 }}>
+            <div className="cc-top">
+              <Voice />
+              <span>Llamada saliente</span>
+            </div>
+            <div className="cc-who">Te llamamos nosotros</div>
+            <div className="cc-sub">En menos de 24 h · Sin compromiso</div>
+            <WaveBars />
+          </div>
         </div>
 
         {/* Right Side - Form */}
