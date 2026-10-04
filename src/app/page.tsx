@@ -3,21 +3,22 @@ import { InternalLinks } from '@/components/InternalLinks';
 import { FAQPageSchema, ServiceSchema } from "@/components/JsonLd";
 import { Star, Voice, TrustpilotBadge, WaveBars } from "@/components/brand/Brand";
 import HomeEffects from "@/components/brand/HomeEffects";
+import SectorRail from "@/components/brand/SectorRail";
 
 /* Pasarela de sectores: la lista se pinta dos veces para que el bucle sea continuo. */
 const SECTORS = [
-  { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas", c: "lime" },
-  { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "purple" },
-  { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes", c: "ink" },
-  { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados", c: "lime" },
-  { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales", c: "purple" },
-  { name: "Asesorías y gestorías", href: "/lp/recepcionista-ia-asesorias", c: "orange" },
-  { name: "Veterinarias", href: "/lp/recepcionista-ia-veterinarias", c: "ink" },
-  { name: "Centros de estética", href: "/lp/recepcionista-ia-centros-estetica", c: "lime" },
-  { name: "Fisioterapia", href: "/lp/recepcionista-ia-fisioterapia", c: "purple" },
-  { name: "Seguros", href: "/lp/recepcionista-ia-seguros", c: "ink" },
-  { name: "Turismo", href: "/lp/recepcionista-ia-turismo", c: "lime" },
-  { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas", c: "purple" },
+  { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas" },
+  { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias" },
+  { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes" },
+  { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados" },
+  { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales" },
+  { name: "Asesorías y gestorías", href: "/lp/recepcionista-ia-asesorias" },
+  { name: "Veterinarias", href: "/lp/recepcionista-ia-veterinarias" },
+  { name: "Centros de estética", href: "/lp/recepcionista-ia-centros-estetica" },
+  { name: "Fisioterapia", href: "/lp/recepcionista-ia-fisioterapia" },
+  { name: "Seguros", href: "/lp/recepcionista-ia-seguros" },
+  { name: "Turismo", href: "/lp/recepcionista-ia-turismo" },
+  { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas" },
 ];
 
 export default function Home() {
@@ -186,33 +187,7 @@ export default function Home() {
           <div className="wrap">
             <span className="tag">Creados para ser flexibles</span>
             <h2 className="h2" style={{ marginTop: 22 }}>Diseñado para PYMES.</h2>
-            <div className="rail" aria-label="Sectores">
-              <div className="rail-track">
-                {[...SECTORS, ...SECTORS].map((sector, i) => {
-                  const clone = i >= SECTORS.length;
-                  return (
-                    <Link
-                      key={`${sector.href}-${i}`}
-                      className="sc2"
-                      href={sector.href}
-                      aria-hidden={clone || undefined}
-                      tabIndex={clone ? -1 : undefined}
-                    >
-                      <span className="sc2-panel">
-                        <span className={`sc2-badge b-${sector.c}`}>
-                          Sector {String((i % SECTORS.length) + 1).padStart(2, "0")}
-                        </span>
-                        <span className="sc2-n">{sector.name}</span>
-                      </span>
-                      <span className="sc2-cap">
-                        <span>Ver sector</span>
-                        <span className="sc2-go" aria-hidden="true">↗</span>
-                      </span>
-                    </Link>
-                  );
-                })}
-              </div>
-            </div>
+            <SectorRail sectors={SECTORS} />
           </div>
         </section>
 
