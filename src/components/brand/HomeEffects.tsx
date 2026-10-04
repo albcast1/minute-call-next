@@ -6,7 +6,7 @@ import { useEffect } from "react";
    debajo del primer pantallazo, así el primer frame está completo),
    contador en las cifras y biografía abierta en escritorio. */
 const REVEAL =
-  ".h2, .bento .bx, .deck, .rows .row, .vs, .founder2, .steps2 > div, .faq2, .cta3-copy, .call-card, .partners .logos";
+  ".h2, .bento .bx, .rail, .rows .row, .vs, .founder2, .steps2 > div, .faq2, .cta3-copy, .call-card, .partners .logos";
 
 export default function HomeEffects() {
   useEffect(() => {
