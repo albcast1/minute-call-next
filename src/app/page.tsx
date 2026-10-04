@@ -238,14 +238,25 @@ export default function Home() {
             <div className="ed-main">
               <h2 className="h2 left">Fundado por quien ha escalado startups de 0 a millones.</h2>
               <div className="founder2">
-                <img
-                  src="/assets/team/alberto-castiel.jpg"
-                  alt="Alberto Castiel, fundador de Minute Call"
-                  width={720}
-                  height={900}
-                  className="fphoto"
-                  loading="lazy"
-                />
+                <figure className="fframe">
+                  <div className="fshot">
+                    <img
+                      src="/assets/team/alberto-castiel.jpg"
+                      alt="Alberto Castiel, fundador de Minute Call"
+                      width={720}
+                      height={900}
+                      loading="lazy"
+                    />
+                    <i className="fc tl" aria-hidden="true" />
+                    <i className="fc tr" aria-hidden="true" />
+                    <i className="fc bl" aria-hidden="true" />
+                    <i className="fc br" aria-hidden="true" />
+                  </div>
+                  <figcaption>
+                    <span>Minute Call · desde 2024</span>
+                    <Star className="fstar" />
+                  </figcaption>
+                </figure>
                 <div className="bio2">
                   <div>
                     <h3>Alberto Castiel</h3>

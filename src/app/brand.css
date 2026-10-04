@@ -120,7 +120,20 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .ours{display:flex;gap:12px;color:var(--ink)}
 .ours i{font-style:normal;flex:none;width:20px;height:20px;border-radius:4px;background:var(--purple);color:var(--lime);display:grid;place-items:center;font-size:11px;margin-top:2px}
 .founder2{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);gap:44px;margin-top:56px;align-items:start}
-.fphoto{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;border-radius:10px;display:block}
+/* Foto del fundador: marco tipo polaroid/visor, ligeramente inclinado como las cartas de sectores */
+.fframe{margin:0;width:100%;max-width:360px;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:8px 8px 0;box-shadow:0 1px 2px rgba(32,29,29,.04),0 14px 34px rgba(32,29,29,.07);transform:rotate(-1.5deg);transition:transform .4s cubic-bezier(.2,.7,.2,1)}
+.fframe:hover{transform:rotate(0deg)}
+.fshot{position:relative;border-radius:8px;overflow:hidden;background:var(--soft)}
+.fshot img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%}
+.fc{position:absolute;width:14px;height:14px;border:1.5px solid rgba(32,29,29,.42);pointer-events:none}
+.fc.tl{top:10px;left:10px;border-right:0;border-bottom:0;border-top-left-radius:3px}
+.fc.tr{top:10px;right:10px;border-left:0;border-bottom:0;border-top-right-radius:3px}
+.fc.bl{bottom:10px;left:10px;border-right:0;border-top:0;border-bottom-left-radius:3px}
+.fc.br{bottom:10px;right:10px;border-left:0;border-top:0;border-bottom-right-radius:3px}
+.fframe figcaption{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 4px 11px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+.fstar{display:block;flex:none;width:12px;height:12px}
+.fstar svg{display:block;width:100%;height:100%}
+@media (prefers-reduced-motion:reduce){.fframe{transition:none}}
 .bio2{display:flex;flex-direction:column;gap:16px;border-top:1px solid var(--ink);padding-top:22px;min-width:0}
 .bio2 h3{font-size:26px;letter-spacing:-0.035em}
 .bio2 .role{display:block;margin-top:6px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
@@ -147,7 +160,7 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
   .ed{grid-template-columns:minmax(0,1fr);gap:16px}
   .ed-side{flex-direction:row;align-items:center;padding-top:0}
   .founder2{grid-template-columns:minmax(0,1fr)}
-  .fphoto{max-width:420px}
+  .fframe{max-width:300px}
 }
 @media (max-width:600px){
   .rows,.steps2{grid-template-columns:minmax(0,1fr);gap:24px}
@@ -180,6 +193,13 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .bio-more p + p{margin-top:16px}
 @media (max-width:600px){
   .bio-short{display:block}
+  .founder2{gap:28px}
+  .fframe{max-width:220px;margin-left:6px;padding:6px 6px 0}
+  .fshot img{aspect-ratio:1/1;object-position:50% 22%}
+  .fc{width:11px;height:11px}
+  .fc.tl,.fc.tr{top:8px}.fc.bl,.fc.br{bottom:8px}
+  .fc.tl,.fc.bl{left:8px}.fc.tr,.fc.br{right:8px}
+  .fframe figcaption{padding:8px 3px 9px;font-size:10px}
   .bio-more summary{display:inline-flex;align-items:center;gap:8px;cursor:pointer;list-style:none;font-weight:500;font-size:15px;color:var(--ink)}
   .bio-more summary::-webkit-details-marker{display:none}
   .bio-more summary::after{content:"+";font-family:var(--mono);color:var(--ink-2)}
