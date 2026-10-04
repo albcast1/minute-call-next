@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import sectors from '@/data/sectors.json'
 import cities from '@/data/cities.json'
 import { FAQPageSchema, BreadcrumbSchema, ServiceSchema } from '@/components/JsonLd'
-import { BrandPage, Hero, Ed, Results, Faq, Quote, CtaFinal } from '@/components/brand/Sections'
+import { BrandPage, Hero, Ed, Stats, Faq, Quote, CtaFinal } from '@/components/brand/Sections'
 import highlights from '@/data/city-sector-highlights.json'
 import indexables from '@/data/city-sector-indexables.json'
 import { buildCitySectorMeta, pickHighlight, clientesDe, clientesSinArticulo } from '@/lib/seo/city-sector'
@@ -77,20 +77,21 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
             { name: sec.sector, url: `/atencion-telefonica/${ciudad}/${sector}` },
           ]}
           tag={<>{servicio} en {city.city}</>}
-          title={`${servicio} en ${city.city}.`}
+          title={<>{servicio} en {city.city}.</>}
           sub={<>{sec.heroSubtitle} Servicio disponible en {city.city} ({city.region}) con agentes nativos en español. Sin permanencia.</>}
           secondary={{ href: `/lp/${sector}`, label: 'Ver landing completa' }}
         />
 
-        <Results
-          tag="En cifras"
-          items={[
-            { value: '15 s', label: 'Tiempo de respuesta' },
-            { value: '98%', label: 'Tasa de respuesta' },
-            { value: '48 h', label: 'Activación' },
-            { value: '4,4', label: 'Trustpilot' },
-          ]}
-        />
+        <Ed tag="En cifras" flush>
+          <Stats
+            items={[
+              { value: '15 s', label: 'Tiempo de respuesta' },
+              { value: '98%', label: 'Tasa de respuesta' },
+              { value: '48 h', label: 'Activación' },
+              { value: '4,4', label: 'Trustpilot' },
+            ]}
+          />
+        </Ed>
 
         {/* Contexto local: bloque unico escrito a mano en las combinaciones prioritarias,
             plantilla apoyada en datos reales de la ciudad en el resto. */}

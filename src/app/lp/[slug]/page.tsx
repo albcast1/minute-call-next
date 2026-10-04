@@ -84,7 +84,7 @@ export default async function LandingPage({
       <BrandPage>
         <Hero
           tag={sector.heroTag}
-          title={sector.heroTitle ? sector.heroTitle : `Recepcionista de IA para ${sector.sector}.`}
+          title={sector.heroTitle ? sector.heroTitle : <>Recepcionista de IA para {sector.sector}.</>}
           sub={sector.heroSubtitle}
           extra={sector.socialProof}
         >

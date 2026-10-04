@@ -357,6 +357,11 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .stats2>div{border-top:1px solid var(--ink);padding-top:16px;display:flex;flex-direction:column;gap:8px;min-width:0}
 .stats2 strong{font-weight:400;font-size:clamp(34px,3.6vw,52px);letter-spacing:-0.05em;line-height:1;color:var(--ink)}
 .stats2 span{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+/* Acento de color discreto: cuadradito con la alternancia de la pasarela de sectores */
+.stats2 span::before{content:"";display:inline-block;width:7px;height:7px;border-radius:2px;margin-right:8px;vertical-align:1px;background:var(--lime);box-shadow:inset 0 0 0 1px rgba(32,29,29,.25)}
+.stats2>div:nth-child(4n+2) span::before{background:var(--purple);box-shadow:none}
+.stats2>div:nth-child(4n+3) span::before{background:var(--ink);box-shadow:none}
+.stats2>div:nth-child(4n+4) span::before{background:var(--coral);box-shadow:none}
 .quote2{margin:48px 0 0;max-width:46ch}
 .quote2 blockquote{margin:0;font-size:clamp(24px,2.6vw,34px);letter-spacing:-0.035em;line-height:1.2;color:var(--ink);text-wrap:pretty}
 .quote2 figcaption{margin-top:24px;padding-top:14px;border-top:1px solid var(--ink);display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline}
