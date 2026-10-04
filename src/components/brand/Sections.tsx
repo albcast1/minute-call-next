@@ -1,15 +1,34 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { Star, Voice, TrustpilotBadge, WaveBars } from "./Brand";
+import HomeEffects from "./HomeEffects";
 
 /* Bloques de la marca 2026, los mismos de la home, para todas las páginas.
    Todos van dentro de <BrandPage>, que aplica .mc-reset. */
 
 export function BrandPage({ children }: { children: ReactNode }) {
-  return <div className="home mc-reset">{children}</div>;
+  return (
+    <>
+      <HomeEffects />
+      <div className="home mc-reset">{children}</div>
+    </>
+  );
 }
 
 type Cta = { href?: string; label?: string };
+
+/** Asterisco morado dentro del titular, como en la home ("Atención telefónica ✱ 24/7."):
+ *  va antes de la última palabra. */
+function withStar(title: ReactNode): ReactNode {
+  if (typeof title !== "string") return title;
+  const i = title.trimEnd().lastIndexOf(" ");
+  if (i < 0) return title;
+  return (
+    <>
+      {title.slice(0, i)} <Star /> {title.slice(i + 1)}
+    </>
+  );
+}
 
 /** Hero centrado de la home: etiqueta mono con barras de voz, titular grande,
  *  subtítulo, CTA lima y Trustpilot. `star` añade el asterisco morado. */
@@ -20,7 +39,7 @@ export function Hero({
   extra,
   cta = {},
   trust = true,
-  star = false,
+  star = true,
   crumbs,
   secondary,
   children,
@@ -37,6 +56,7 @@ export function Hero({
   children?: ReactNode;
 }) {
   return (
+    <>
     <section className="hero hero-page">
       <div className="wrap">
         {crumbs && (
@@ -53,15 +73,7 @@ export function Hero({
           <Voice />
           {tag}
         </span>
-        <h1 style={{ marginTop: 28 }}>
-          {title}
-          {star && (
-            <>
-              {" "}
-              <Star />
-            </>
-          )}
-        </h1>
+        <h1 style={{ marginTop: 28 }}>{star ? withStar(title) : title}</h1>
         {sub && <p className="sub">{sub}</p>}
         {extra && <p className="sub sub-2">{extra}</p>}
         {cta !== false && (
@@ -84,6 +96,7 @@ export function Hero({
         {children}
       </div>
     </section>
+    </>
   );
 }
 
@@ -162,6 +175,59 @@ export function Stats({ items }: { items: { value: ReactNode; label: ReactNode }
         </div>
       ))}
     </div>
+  );
+}
+
+/** Resultados con el bento de la home: tinta grande, morado, suave y blanca ancha con cifra naranja.
+ *  Necesita 4 cifras; con otro número usa las cifras con regla. */
+export function Results({
+  tag,
+  title,
+  items,
+}: {
+  tag: ReactNode;
+  title?: ReactNode;
+  items: { value: ReactNode; label: ReactNode }[];
+}) {
+  if (items.length !== 4) {
+    return (
+      <Ed tag={tag} title={title} flush={false}>
+        <Stats items={items} />
+      </Ed>
+    );
+  }
+  const [a, b, c, d] = items;
+  return (
+    <section className="section center">
+      <div className="wrap">
+        <span className="tag">{tag}</span>
+        {title && (
+          <h2 className="h2" style={{ marginTop: 22 }}>
+            {title}
+          </h2>
+        )}
+        <div className="bento" style={title ? undefined : { marginTop: 28 }}>
+          <div className="bx bx-big">
+            <span className="tag dark" style={{ color: "var(--lime)" }}>
+              {a.label}
+            </span>
+            <div className="bx-fig">{a.value}</div>
+          </div>
+          <div className="bx bx-purple">
+            <span className="tag onp">{b.label}</span>
+            <strong>{b.value}</strong>
+          </div>
+          <div className="bx bx-soft">
+            <span className="tag">{c.label}</span>
+            <strong>{c.value}</strong>
+          </div>
+          <div className="bx bx-lime bx-wide">
+            <span className="tag lime-tag">{d.label}</span>
+            <strong>{d.value}</strong>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 

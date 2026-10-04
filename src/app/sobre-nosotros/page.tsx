@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { PersonSchema } from "@/components/JsonLd";
-import { BrandPage, Hero, Ed, Rows, Steps, Stats, Chips, CtaFinal } from "@/components/brand/Sections";
+import { BrandPage, Hero, Ed, Rows, Steps, Results, Chips, CtaFinal } from "@/components/brand/Sections";
 import { Star } from "@/components/brand/Brand";
 
 export const metadata: Metadata = {
@@ -183,9 +183,7 @@ export default function SobreNosotros() {
           }
         />
 
-        <Ed tag="En cifras" title="Minute Call en cifras." flush={false}>
-          <Stats items={stats} />
-        </Ed>
+        <Results tag="En cifras" title="Minute Call en cifras." items={stats} />
 
         <Ed tag="Qué hacemos" title="Qué hacemos.">
           <p className="lead2">

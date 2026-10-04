@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { BrandPage, Hero, Ed, Rows, Steps, Stats, Faq, Versus, CtaFinal } from "./Sections";
+import { BrandPage, Hero, Ed, Rows, Steps, Results, Faq, Versus, CtaFinal } from "./Sections";
 
 type Item = { title: string; description: string };
 
@@ -28,9 +28,7 @@ export default function LanguageLanding(props: {
   return (
     <BrandPage>
       <Hero tag={props.heroTag} title={props.heroTitle} sub={props.heroSub} cta={{ label: props.heroCta }} />
-      <Ed tag="En cifras" flush>
-        <Stats items={props.stats} />
-      </Ed>
+      <Results tag="En cifras" items={props.stats} />
       <Ed tag="El problema" title={props.painTitle} flush={false}>
         <Rows cols={2} items={props.painPoints.map((p) => ({ title: p.title, desc: p.description }))} />
       </Ed>
