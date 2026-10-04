@@ -310,7 +310,10 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .sc2-n{font-size:21px;font-weight:500;letter-spacing:-0.03em;line-height:1.1;text-wrap:balance}
 .sc2-cap{display:flex;align-items:center;padding:8px 2px 8px}
 .sc2-cta{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);background:var(--lime);border-radius:4px;padding:5px 8px;transition:background-color .2s ease}
-.sc2:hover .sc2-cta{background:var(--lime-hover)}
+.sc2-cta.c-purple{background:var(--purple);color:var(--white)}
+.sc2-cta.c-ink{background:var(--ink);color:var(--white)}
+.sc2-cta.c-orange{background:var(--coral);color:var(--white)}
+.sc2:hover .sc2-cta{filter:brightness(1.08)}
 @media (max-width:760px){
   .rail{margin-top:32px}
   .sc2{width:200px}

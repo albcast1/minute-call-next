@@ -7,18 +7,18 @@ import SectorRail from "@/components/brand/SectorRail";
 
 /* Pasarela de sectores: la lista se pinta dos veces para que el bucle sea continuo. */
 const SECTORS = [
-  { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas" },
-  { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias" },
-  { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes" },
-  { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados" },
-  { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales" },
-  { name: "Asesorías y gestorías", href: "/lp/recepcionista-ia-asesorias" },
-  { name: "Veterinarias", href: "/lp/recepcionista-ia-veterinarias" },
-  { name: "Centros de estética", href: "/lp/recepcionista-ia-centros-estetica" },
-  { name: "Fisioterapia", href: "/lp/recepcionista-ia-fisioterapia" },
-  { name: "Seguros", href: "/lp/recepcionista-ia-seguros" },
-  { name: "Turismo", href: "/lp/recepcionista-ia-turismo" },
-  { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas" },
+  { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas", c: "lime" },
+  { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "purple" },
+  { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes", c: "ink" },
+  { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados", c: "lime" },
+  { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales", c: "purple" },
+  { name: "Asesorías y gestorías", href: "/lp/recepcionista-ia-asesorias", c: "orange" },
+  { name: "Veterinarias", href: "/lp/recepcionista-ia-veterinarias", c: "ink" },
+  { name: "Centros de estética", href: "/lp/recepcionista-ia-centros-estetica", c: "lime" },
+  { name: "Fisioterapia", href: "/lp/recepcionista-ia-fisioterapia", c: "purple" },
+  { name: "Seguros", href: "/lp/recepcionista-ia-seguros", c: "ink" },
+  { name: "Turismo", href: "/lp/recepcionista-ia-turismo", c: "lime" },
+  { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas", c: "purple" },
 ];
 
 export default function Home() {

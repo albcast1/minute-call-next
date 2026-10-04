@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRef } from "react";
 
-export type Sector = { name: string; href: string };
+export type Sector = { name: string; href: string; c: string };
 
 /* Pasarela de sectores. Con movimiento normal avanza sola en bucle (CSS).
    Con "reducir movimiento" queda quieta y se desliza a mano: para que se
@@ -38,7 +38,7 @@ export default function SectorRail({ sectors }: { sectors: Sector[] }) {
                   <span className="sc2-n">{sector.name}</span>
                 </span>
                 <span className="sc2-cap">
-                  <span className="sc2-cta">
+                  <span className={`sc2-cta c-${sector.c}`}>
                     Ver sector <span aria-hidden="true">↗</span>
                   </span>
                 </span>
