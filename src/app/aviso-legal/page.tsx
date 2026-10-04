@@ -18,8 +18,8 @@ export const metadata: Metadata = {
 }
 
 const sectionStyle = { maxWidth: 820, margin: '0 auto', padding: '0 clamp(16px,5vw,64px) clamp(24px,4vw,40px)' } as const
-const rowStyle = { padding: '12px 0', borderBottom: '1px solid rgba(0,0,0,0.08)', display: 'flex', gap: 16, flexWrap: 'wrap' as const }
-const labelStyle = { fontWeight: 600, minWidth: 200 }
+const rowStyle = { padding: '12px 0', borderBottom: '1px solid var(--line)', display: 'flex', gap: 16, flexWrap: 'wrap' as const }
+const labelStyle = { fontWeight: 500, minWidth: 200 }
 
 export default function AvisoLegal() {
   return (

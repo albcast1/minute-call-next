@@ -1,67 +1,43 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital@0;1&display=swap");
 @import "tailwindcss";
 
+/* ── Minute Call brand 2026 (Osmo-inspired) ──────────────────────────
+   Paleta: blanco roto, tinta, lima (acciones), morado (acentos),
+   naranja en dosis mínimas. Tipografía: Geist + Geist Mono.
+   Las variables antiguas (--color-*) se mantienen como alias para no
+   romper los estilos en línea existentes.                           */
 :root {
-  /* Color Palette */
-  --color-background: #EFEBE5;
-  --color-primary-text: #000000;
-  --color-muted-text: rgba(0, 0, 0, 0.56);
-  --color-accent-green: #5AFF15;
-  --color-card-overlay: rgba(0, 0, 0, 0.04);
-  --color-card-white: #F5F5F5;
-  --color-warm-white: #F7F2EA;
-  --color-button-text: #FFFFFF;
+  color-scheme: light;
+  --bg: #FEFEFC;
+  --soft: #F1F0ED;
+  --ink: #201D1D;
+  --ink-2: #5E5A5A;
+  --on-dark-2: #B8B3AE;
+  --line: #E6E3DE;
+  --lime: #A1FF62;
+  --lime-hover: #B6FF85;
+  --purple: #6840FF;
+  --coral: #FF5B22;
+  --white: #FFFFFF;
+  --sans: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: var(--font-geist-mono), ui-monospace, "SFMono-Regular", Menlo, monospace;
 
-  /* Font Families */
-  --font-sans: "Inter", sans-serif;
-  --font-serif: "Source Serif 4", serif;
+  /* Legacy aliases */
+  --color-background: var(--bg);
+  --color-primary-text: var(--ink);
+  --color-muted-text: var(--ink-2);
+  --color-accent-green: var(--lime);
+  --color-card-overlay: var(--soft);
+  --color-card-white: var(--white);
+  --color-warm-white: var(--soft);
+  --color-button-text: var(--white);
+  --font-sans: var(--sans);
+  --font-serif: var(--sans);
 
-  /* Typography */
-  --text-nav-logo: 26px;
-  --text-nav-logo-weight: 500;
-  --text-nav-logo-letter-spacing: -1.56px;
-  --text-nav-logo-line-height: 28.6px;
-
-  --text-nav-links: 14px;
-  --text-nav-links-weight: 500;
-  --text-nav-links-letter-spacing: -0.56px;
-
-  --text-hero-h1: 75px;
-  --text-hero-h1-weight: 500;
-  --text-hero-h1-letter-spacing: -0.06em;
-  --text-hero-h1-line-height: 1.05;
-
-  --text-section-h2: 55px;
-  --text-section-h2-weight: 500;
-  --text-section-h2-letter-spacing: -0.06em;
-  --text-section-h2-line-height: 1.05;
-
-  --text-h3-stat: 28px;
-  --text-h3-stat-weight: 500;
-  --text-h3-stat-letter-spacing: -0.06em;
-
-  --text-body: 18px;
-  --text-body-weight: 400;
-  --text-body-letter-spacing: -0.72px;
-  --text-body-line-height: 27px;
-
-  --text-pill-label: 12px;
-  --text-pill-label-weight: 500;
-  --text-pill-label-letter-spacing: -0.48px;
-
-  --text-service-card-title: 24px;
-  --text-service-card-title-weight: 500;
-
-  --text-service-card-body: 16px;
-  --text-service-card-body-weight: 400;
-
-  /* Button */
-  --btn-padding: 18px 32px;
+  --text-section-h2-weight: 400;
+  --btn-padding: 16px 22px;
   --btn-font-size: 16px;
   --btn-font-weight: 500;
-  --btn-border-radius: 50px;
-
-  /* Spacing */
+  --btn-border-radius: 5px;
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing-md: 16px;
@@ -72,8 +48,9 @@
 }
 
 @theme inline {
-  --color-background: var(--color-background);
-  --font-sans: var(--font-sans);
+  --color-background: var(--bg);
+  --font-sans: var(--sans);
+  --font-mono: var(--mono);
 }
 
 * {
@@ -85,14 +62,15 @@
 html {
   scroll-behavior: smooth;
   overflow-x: clip;
+  scroll-padding-top: 80px;
 }
 
 body {
-  background-color: var(--color-background);
-  color: var(--color-primary-text);
-  font-family: var(--font-sans);
-  font-size: 16px;
-  line-height: 1.6;
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: clip;
@@ -109,144 +87,173 @@ h1, h2, h3, p {
   word-wrap: break-word;
 }
 
+:focus-visible { outline: 2px solid var(--purple); outline-offset: 3px; }
+
 /* Typography */
 h1 {
-  font-size: var(--text-hero-h1);
-  font-weight: var(--text-hero-h1-weight);
-  line-height: var(--text-hero-h1-line-height);
-  letter-spacing: var(--text-hero-h1-letter-spacing);
+  font-size: clamp(40px, 5.6vw, 76px);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.055em;
   margin-bottom: var(--spacing-lg);
+  text-wrap: balance;
 }
 
 h2 {
-  font-size: var(--text-section-h2);
-  font-weight: var(--text-section-h2-weight);
-  line-height: var(--text-section-h2-line-height);
-  letter-spacing: var(--text-section-h2-letter-spacing);
+  font-size: clamp(32px, 4.2vw, 56px);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.05em;
   margin-bottom: var(--spacing-lg);
+  text-wrap: balance;
 }
 
 h3 {
-  font-size: var(--text-h3-stat);
-  font-weight: var(--text-h3-stat-weight);
-  letter-spacing: var(--text-h3-stat-letter-spacing);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
   margin-bottom: var(--spacing-md);
 }
 
 p {
-  color: var(--color-muted-text);
-  font-size: var(--text-body);
-  font-weight: var(--text-body-weight);
-  letter-spacing: var(--text-body-letter-spacing);
-  line-height: var(--text-body-line-height);
+  color: var(--ink-2);
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.005em;
+  line-height: 1.55;
   margin-bottom: var(--spacing-md);
 }
 
+strong, b { color: var(--ink); font-weight: 500; }
+
 a {
-  color: var(--color-primary-text);
+  color: var(--ink);
   text-decoration: none;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease, background-color 0.2s ease, color 0.2s ease;
 }
 
 a:hover {
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
-/* CTA Button */
+/* CTA principal: lima con borde fino de tinta */
 .btn-cta {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: var(--btn-padding);
-  font-size: var(--btn-font-size);
-  font-weight: var(--btn-font-weight);
-  border-radius: var(--btn-border-radius);
-  border: 2px solid #222222;
+  gap: 10px;
+  height: 52px;
+  padding: 0 22px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px var(--ink);
   cursor: pointer;
-  background-color: var(--color-accent-green);
-  color: var(--color-primary-text);
-  font-family: var(--font-sans);
-  transition: all 0.2s ease;
+  background-color: var(--lime);
+  color: var(--ink);
+  font-family: var(--sans);
+  transition: background-color 0.2s ease;
 }
 
 .btn-cta:hover {
-  opacity: 0.9;
+  opacity: 1;
+  background-color: var(--lime-hover);
 }
 
-/* Contact Button (Black background) */
+/* Botón secundario: tinta */
 .btn-contact {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: var(--btn-padding);
-  font-size: var(--btn-font-size);
-  font-weight: var(--btn-font-weight);
-  border-radius: var(--btn-border-radius);
+  gap: 10px;
+  height: 52px;
+  padding: 0 22px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  border-radius: 5px;
   border: none;
   cursor: pointer;
-  background-color: var(--color-primary-text);
-  color: var(--color-button-text);
-  font-family: var(--font-sans);
-  transition: all 0.2s ease;
+  background-color: var(--ink);
+  color: var(--white);
+  font-family: var(--sans);
+  transition: background-color 0.2s ease;
 }
 
 .btn-contact:hover {
-  opacity: 0.9;
+  opacity: 1;
+  background-color: #383434;
 }
 
-/* Navigation - styles handled by Nav.tsx component */
-
-/* Cards with light overlay */
+/* Cards */
 .card {
-  background-color: rgba(0, 0, 0, 0.04);
-  border-radius: var(--spacing-lg);
+  background-color: var(--soft);
+  border-radius: 14px;
   padding: var(--spacing-xl);
-  transition: all 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+
+a:hover > .card,
+a.card:hover {
+  background-color: #E9E7E3;
 }
 
 .card-white {
-  background-color: var(--color-card-white);
-  border-radius: var(--spacing-lg);
+  background-color: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 14px;
   padding: var(--spacing-xl);
 }
 
 .card-warm {
-  background-color: var(--color-warm-white);
-  border-radius: var(--spacing-lg);
+  background-color: var(--soft);
+  border-radius: 14px;
   padding: var(--spacing-xl);
 }
 
 /* Service card specific styles */
 .service-card-title {
-  font-size: var(--text-service-card-title);
-  font-weight: var(--text-service-card-title-weight);
-  color: var(--color-primary-text);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  color: var(--ink);
   margin-bottom: var(--spacing-md);
 }
 
 .service-card-body {
-  font-size: var(--text-service-card-body);
-  font-weight: var(--text-service-card-body-weight);
-  color: var(--color-muted-text);
-  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--ink-2);
+  line-height: 1.55;
 }
 
-/* Pill/Tag labels */
+/* Etiquetas: mono, mayúsculas, estilo Osmo */
 .pill-label {
-  display: inline-block;
-  font-size: var(--text-pill-label);
-  font-weight: var(--text-pill-label-weight);
-  letter-spacing: var(--text-pill-label-letter-spacing);
-  color: var(--color-muted-text);
-  padding: var(--spacing-sm) var(--spacing-md);
-  background-color: var(--color-card-overlay);
-  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding: 5px 9px;
+  background-color: var(--soft);
+  border-radius: 4px;
 }
 
-/* Italic serif emphasis */
+/* Antes: énfasis en serif cursiva. La marca nueva no usa cursivas:
+   se mantiene la clase para no tocar el marcado, sin efecto visual. */
 .serif-italic {
-  font-family: var(--font-serif);
-  font-style: italic;
+  font-family: inherit;
+  font-style: normal;
 }
 
 /* Contact grid */
@@ -260,44 +267,13 @@ a:hover {
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-  h1 {
-    font-size: 56px;
-    letter-spacing: -3.36px;
-  }
-
-  h2 {
-    font-size: 42px;
-    letter-spacing: -2.52px;
-  }
-
-}
-
 @media (max-width: 768px) {
-  h1 {
-    font-size: 42px;
-    letter-spacing: -2.52px;
-  }
-
-  h2 {
-    font-size: 32px;
-    letter-spacing: -1.92px;
-  }
-
   h3 {
-    font-size: 22px;
-    letter-spacing: -1.32px;
+    font-size: 20px;
   }
 
   p {
     font-size: 16px;
-    letter-spacing: -0.64px;
-  }
-
-  .btn-cta,
-  .btn-contact {
-    padding: 14px 24px;
-    font-size: 14px;
   }
 
   .card,

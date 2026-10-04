@@ -57,8 +57,8 @@ const apiSchema = {
 }
 
 const codeBlock: CSSProperties = {
-  background: 'rgba(0,0,0,0.04)',
-  border: '1px solid rgba(0,0,0,0.08)',
+  background: 'var(--line)',
+  border: '1px solid var(--line)',
   borderRadius: 12,
   padding: 20,
   overflowX: 'auto',
@@ -71,7 +71,7 @@ const codeBlock: CSSProperties = {
 
 const cellStyle: CSSProperties = {
   padding: '14px 12px',
-  borderBottom: '1px solid rgba(0,0,0,0.08)',
+  borderBottom: '1px solid var(--line)',
   fontSize: 14,
   verticalAlign: 'top',
   textAlign: 'left',
@@ -96,7 +96,7 @@ export default function DocsPage() {
         </p>
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
           <a href="/openapi.json" className="btn-contact">Especificación OpenAPI (JSON)</a>
-          <a href="/api/openapi.yaml" style={{ display: 'inline-block', border: '1.5px solid rgba(0,0,0,0.15)', borderRadius: 999, padding: '12px 28px', fontSize: 14, fontWeight: 500, color: 'black', textDecoration: 'none' }}>
+          <a href="/api/openapi.yaml" style={{ display: 'inline-block', border: '1.5px solid var(--line)', borderRadius: 5, padding: '12px 28px', fontSize: 14, fontWeight: 500, color: 'var(--ink)', textDecoration: 'none' }}>
             OpenAPI (YAML)
           </a>
         </div>
@@ -127,10 +127,10 @@ export default function DocsPage() {
           <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 640 }}>
             <thead>
               <tr>
-                <th style={{ ...cellStyle, fontWeight: 600 }}>Método</th>
-                <th style={{ ...cellStyle, fontWeight: 600 }}>Ruta</th>
-                <th style={{ ...cellStyle, fontWeight: 600 }}>operationId</th>
-                <th style={{ ...cellStyle, fontWeight: 600 }}>Qué hace</th>
+                <th style={{ ...cellStyle, fontWeight: 500 }}>Método</th>
+                <th style={{ ...cellStyle, fontWeight: 500 }}>Ruta</th>
+                <th style={{ ...cellStyle, fontWeight: 500 }}>operationId</th>
+                <th style={{ ...cellStyle, fontWeight: 500 }}>Qué hace</th>
               </tr>
             </thead>
             <tbody>

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const FORM_BG = "#F5F1EB";
+const FORM_BG = "var(--soft)";
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -49,8 +49,8 @@ export default function ContactForm() {
             borderRadius: 16,
             padding: "20px 28px",
             fontSize: 16,
-            color: "#222",
-            border: "1px solid rgba(0,0,0,0.06)",
+            color: "var(--ink)",
+            border: "1px solid var(--line)",
           }}
         >
           ✓ ¡Solicitud recibida! Elige el hueco que mejor te venga:
@@ -70,10 +70,10 @@ export default function ContactForm() {
     width: "100%",
     padding: "14px 16px",
     borderRadius: 10,
-    border: "1px solid rgba(0,0,0,0.12)",
+    border: "1px solid var(--line)",
     background: "#fff",
     fontSize: 15,
-    color: "#222",
+    color: "var(--ink)",
     outline: "none",
     boxSizing: "border-box",
   };
@@ -82,7 +82,7 @@ export default function ContactForm() {
     display: "block",
     fontSize: 13,
     fontWeight: 500,
-    color: "rgba(0,0,0,0.5)",
+    color: "var(--ink-2)",
     marginBottom: 6,
   };
 
@@ -91,9 +91,9 @@ export default function ContactForm() {
       className="contact-form-card"
       style={{
         background: FORM_BG,
-        borderRadius: 20,
+        borderRadius: 14,
         padding: "36px 40px",
-        border: "1px solid rgba(0,0,0,0.06)",
+        border: "1px solid var(--line)",
       }}
     >
       <form onSubmit={handleSubmit} autoComplete="on" className="contact-form" style={{ display: "flex", flexDirection: "column", gap: 20 }}>

@@ -23,14 +23,14 @@ export default function FAQ({ items }: FAQProps) {
       {items.map((item, index) => (
         <div
           key={index}
-          className="accordion-item border border-[#E0DCD6] rounded-[16px] overflow-hidden"
+          className="accordion-item border border-[var(--line)] rounded-[16px] overflow-hidden"
         >
           <button
             onClick={() => toggleAccordion(index)}
             className={`accordion-header w-full flex items-center justify-between px-6 py-4 text-left font-semibold transition-all ${
               expandedIndex === index
-                ? "bg-[#7BF542] text-black"
-                : "bg-[#F7F5F2] text-black hover:bg-[#f0ebe4]"
+                ? "bg-[var(--lime)] text-black"
+                : "bg-[var(--soft)] text-black hover:bg-[var(--soft)]"
             }`}
           >
             <span className="pr-4 text-sm">{item.question}</span>
@@ -52,8 +52,8 @@ export default function FAQ({ items }: FAQProps) {
           </button>
 
           {expandedIndex === index && (
-            <div className="accordion-content bg-white px-6 py-4 border-t border-[#E0DCD6] animate-slideDown">
-              <p className="text-[#6B6B6B] leading-relaxed">{item.answer}</p>
+            <div className="accordion-content bg-white px-6 py-4 border-t border-[var(--line)] animate-slideDown">
+              <p className="text-[var(--ink-2)] leading-relaxed">{item.answer}</p>
             </div>
           )}
         </div>

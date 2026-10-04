@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import "./globals.css";
+import "./brand.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -55,10 +58,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="h-full antialiased">
+    <html lang="es" className={`h-full antialiased ${GeistSans.variable} ${GeistMono.variable}`}>
       <head>
         {/* Preconnect for performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="dns-prefetch" href="https://framerusercontent.com" />
         {/* OpenAI Ads Measurement Pixel */}
         <script
@@ -176,7 +178,7 @@ export default function RootLayout({
       />
 
       </head>
-      <body className="min-h-full flex flex-col bg-[#EFEBE5]">
+      <body className="min-h-full flex flex-col">
         <Nav />
         <main className="flex-grow">{children}</main>
         <WhatsAppButton />

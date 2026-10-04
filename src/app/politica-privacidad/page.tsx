@@ -70,7 +70,7 @@ export default function PoliticaPrivacidad() {
           <h2 style={{ marginTop: 48, marginBottom: 16, fontSize: 20, letterSpacing: "-0.5px", lineHeight: "26px" }}>Cómo puede contactarnos</h2>
           <p>
             Puede contactar con el Delegado de Protección de Datos por correo electrónico:{" "}
-            <a href="mailto:privacy@minute-call.com" style={{ color: "black", fontWeight: 500, textDecoration: "underline" }}>
+            <a href="mailto:privacy@minute-call.com" style={{ color: "var(--ink)", fontWeight: 500, textDecoration: "underline" }}>
               privacy@minute-call.com
             </a>
           </p>
@@ -186,7 +186,7 @@ export default function PoliticaPrivacidad() {
           </p>
           <p style={{ marginTop: 16 }}>
             Para ejercerlos, deberá contactarnos a través del correo electrónico{" "}
-            <a href="mailto:clients@minute-call.com" style={{ color: "black", fontWeight: 500, textDecoration: "underline" }}>
+            <a href="mailto:clients@minute-call.com" style={{ color: "var(--ink)", fontWeight: 500, textDecoration: "underline" }}>
               clients@minute-call.com
             </a>
             , indicando en el asunto "Derechos de Protección de Datos".

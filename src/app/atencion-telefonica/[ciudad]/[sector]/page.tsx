@@ -70,10 +70,10 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
       <ServiceSchema services={[{ name: sec.title, description: sec.heroSubtitle }]} />
 
       {/* Breadcrumb */}
-      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '24px clamp(16px,5vw,64px)', fontSize: 13, color: 'rgba(0,0,0,0.4)' }}>
-        <Link href="/" style={{ color: 'rgba(0,0,0,0.4)', textDecoration: 'none' }}>Inicio</Link>
+      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '24px clamp(16px,5vw,64px)', fontSize: 13, color: '#8E8A85' }}>
+        <Link href="/" style={{ color: '#8E8A85', textDecoration: 'none' }}>Inicio</Link>
         {' / '}
-        <Link href={`/atencion-telefonica/${ciudad}`} style={{ color: 'rgba(0,0,0,0.4)', textDecoration: 'none' }}>{city.city}</Link>
+        <Link href={`/atencion-telefonica/${ciudad}`} style={{ color: '#8E8A85', textDecoration: 'none' }}>{city.city}</Link>
         {' / '}
         <span>{sec.sector}</span>
       </div>
@@ -93,14 +93,14 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
           <Link href="/reserva-llamada" className="btn-cta">
             Reserva una llamada
           </Link>
-          <Link href={`/lp/${sector}`} style={{ border: '1px solid black', color: 'black', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
+          <Link href={`/lp/${sector}`} style={{ border: '1px solid var(--ink)', color: 'var(--ink)', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
             Ver landing completa
           </Link>
         </div>
       </section>
 
       {/* Stats */}
-      <section style={{ maxWidth: 900, margin: '0 auto', padding: '0 clamp(16px,5vw,64px) clamp(40px,6vw,60px)', display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+      <section style={{ maxWidth: 900, margin: '0 auto', padding: '0 clamp(16px,5vw,64px) clamp(40px,6vw,60px)', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(150px, 100%), 1fr))', gap: 16 }}>
         {[
           { value: '15s', label: 'Tiempo de respuesta' },
           { value: '98%', label: 'Tasa de respuesta' },
@@ -108,7 +108,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
           { value: '5.0', label: 'Trustpilot' },
         ].map((s, i) => (
           <div key={i} className="card" style={{ textAlign: 'center', padding: 24 }}>
-            <p style={{ fontSize: 'clamp(22px,5vw,28px)', fontWeight: 500, color: 'black', letterSpacing: -1.5, marginBottom: 4 }}>
+            <p style={{ fontSize: 'clamp(22px,5vw,28px)', fontWeight: 500, color: 'var(--ink)', letterSpacing: -1.5, marginBottom: 4 }}>
               {s.value}
             </p>
             <p className="service-card-body" style={{ marginBottom: 0 }}>{s.label}</p>
@@ -144,7 +144,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
           </>
         )}
         {city.keySectors && city.keySectors.length > 0 && (
-          <p style={{ maxWidth: 700, margin: '24px auto 0', lineHeight: 1.7, color: 'rgba(0,0,0,0.56)', fontSize: 15 }}>
+          <p style={{ maxWidth: 700, margin: '24px auto 0', lineHeight: 1.7, color: 'var(--ink-2)', fontSize: 15 }}>
             Trabajamos también con el resto del tejido empresarial de {city.city}: {city.keySectors.map(s => s.toLowerCase()).join(', ')}.
           </p>
         )}
@@ -160,13 +160,13 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
           {sec.socialProof && <p style={{ maxWidth: 700, margin: '24px auto 32px', lineHeight: 1.7 }}>{sec.socialProof}</p>}
           <div className="card" style={{ maxWidth: 600, margin: '0 auto', padding: 32, textAlign: 'center' }}>
             <p style={{ fontSize: 'clamp(14px,3.8vw,24px)', marginBottom: 12 }}>★★★★★</p>
-            <p style={{ fontSize: 16, fontStyle: 'italic', color: 'black', lineHeight: 1.7, marginBottom: 20 }}>
+            <p style={{ fontSize: 16, fontStyle: 'normal', color: 'var(--ink)', lineHeight: 1.7, marginBottom: 20 }}>
               &ldquo;{(sec.testimonial as { quote: string; author: string; role: string }).quote}&rdquo;
             </p>
-            <p style={{ fontWeight: 600, marginBottom: 4 }}>
+            <p style={{ fontWeight: 500, marginBottom: 4 }}>
               {(sec.testimonial as { quote: string; author: string; role: string }).author}
             </p>
-            <p style={{ color: 'rgba(0,0,0,0.56)', marginBottom: 0 }}>
+            <p style={{ color: 'var(--ink-2)', marginBottom: 0 }}>
               {(sec.testimonial as { quote: string; author: string; role: string }).role}
             </p>
           </div>
@@ -182,8 +182,8 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
           </h2>
           <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 0, maxWidth: 800, margin: '32px auto 0', textAlign: 'left' }}>
             {faqs.map((faq, i) => (
-              <details key={i} style={{ padding: '24px 0', borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
-                <summary style={{ fontSize: 18, fontWeight: 500, cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'black' }}>
+              <details key={i} style={{ padding: '24px 0', borderBottom: '1px solid var(--line)' }}>
+                <summary style={{ fontSize: 18, fontWeight: 500, cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--ink)' }}>
                   {faq.question}
                   <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
                 </summary>
@@ -195,14 +195,14 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
       )}
 
       {/* CTA */}
-      <section style={{ background: 'black', color: 'white', textAlign: 'center', padding: 'clamp(40px,8vw,80px) clamp(16px,5vw,64px)' }}>
-        <h2 style={{ color: 'white' }}>
+      <section className="cta-panel">
+        <h2>
           Activa tu recepcionista en <span className="serif-italic">{city.city}.</span>
         </h2>
-        <p style={{ color: 'rgba(255,255,255,0.6)', maxWidth: 500, margin: '0 auto 32px' }}>
+        <p>
           Sin permanencia. Agentes nativos. Activación en 48 horas.
         </p>
-        <a href="/reserva-llamada" style={{ display: 'inline-block', background: 'white', color: 'black', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
+        <a href="/reserva-llamada" className="btn-cta">
           Reserva una llamada gratuita
         </a>
       </section>

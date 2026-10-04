@@ -1,82 +1,54 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
+/* Nav flotante de tinta. El CTA es blanco mientras se ve el CTA del
+   hero y pasa a lima en cuanto el hero sale de pantalla. En páginas
+   sin CTA en el hero, pasa a lima tras un poco de scroll. */
 export default function Nav() {
+  const pathname = usePathname();
+  const [lime, setLime] = useState(false);
+
+  useEffect(() => {
+    const target = document.querySelector("main [data-hero-cta], main .btn-cta");
+    if (target && "IntersectionObserver" in window) {
+      const io = new IntersectionObserver(
+        ([entry]) => setLime(!entry.isIntersecting),
+        { rootMargin: "-96px 0px 0px 0px" }
+      );
+      io.observe(target);
+      return () => io.disconnect();
+    }
+    const onScroll = () => setLime(window.scrollY > 240);
+    const raf = requestAnimationFrame(onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, [pathname]);
+
   return (
-    <nav
-      className="sticky top-0 w-full z-50"
-      style={{ backgroundColor: "#EFEBE5", position: "sticky" as const, top: 0, zIndex: 50, boxShadow: "0 1px 8px rgba(0,0,0,0.06)" }}
-    >
-      <div
-        style={{ maxWidth: 1200, height: 85, padding: "0 clamp(16px, 5vw, 64px)", margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" }}
-      >
-        {/* Logo: icon + text */}
-        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <img src="/assets/logo.png" alt="Logo de Minute Call" width={25} height={25} style={{ width: 25, height: 25 }} />
-          <span
-            style={{
-              fontFamily: "Inter, sans-serif",
-              fontSize: 26,
-              fontWeight: 500,
-              letterSpacing: "-1.56px",
-              color: "black",
-            }}
-          >
+    <div className="navshell mc-reset">
+      <div className="navcol">
+        <nav className="nav" aria-label="Principal">
+          <Link className="brand" href="/" aria-label="minute call, inicio">
+            <img src="/assets/logo.png" alt="" width={26} height={26} />
             minute call
-          </span>
-        </Link>
-
-        {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8">
-          <Link
-            href="/articulos"
-            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
-            className="hover:opacity-80 transition-opacity"
-          >
-            Blog
           </Link>
-          <Link
-            href="/lp"
-            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
-            className="hover:opacity-80 transition-opacity"
-          >
-            Sectores
-          </Link>
-          <Link
-            href="/atencion-telefonica"
-            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
-            className="hover:opacity-80 transition-opacity"
-          >
-            Ciudades
-          </Link>
-          <Link
-            href="/sobre-nosotros"
-            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "black" }}
-            className="hover:opacity-80 transition-opacity"
-          >
-            Sobre nosotros
-          </Link>
-          <Link
-            href="/reserva-llamada"
-            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "white", backgroundColor: "black", padding: "10px 20px", borderRadius: 50 }}
-            className="hover:opacity-80 transition-opacity"
-          >
+          <div className="links">
+            <Link href="/articulos">Blog</Link>
+            <Link href="/lp">Sectores</Link>
+            <Link href="/atencion-telefonica">Ciudades</Link>
+            <Link href="/sobre-nosotros">Sobre nosotros</Link>
+          </div>
+          <Link className={`btn btn-nav${lime ? " is-lime" : ""}`} href="/reserva-llamada">
             Contacto
           </Link>
-        </div>
-
-        {/* Mobile: just Contacto CTA */}
-        <div className="md:hidden">
-          <Link
-            href="/reserva-llamada"
-            style={{ fontFamily: "Inter, sans-serif", fontSize: 14, fontWeight: 500, letterSpacing: "-0.56px", color: "white", backgroundColor: "black", padding: "10px 20px", borderRadius: 50 }}
-            className="hover:opacity-80 transition-opacity"
-          >
-            Contacto
-          </Link>
-        </div>
+        </nav>
       </div>
-    </nav>
+    </div>
   );
 }

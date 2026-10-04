@@ -61,10 +61,10 @@ export default function VideoCard() {
       style={{
         width: "100%",
         maxWidth: 460,
-        borderRadius: 20,
+        borderRadius: 12,
         overflow: "hidden",
-        background: "#fff",
-        boxShadow: "0 4px 32px rgba(0,0,0,0.10)",
+        background: "var(--ink)",
+        boxShadow: "0 24px 60px rgba(32,29,29,.16)",
         fontFamily: "inherit",
       }}
     >
@@ -72,9 +72,8 @@ export default function VideoCard() {
       <div
         style={{
           display: "flex",
-          background: "#F5F5F5",
-          borderRadius: "14px 14px 0 0",
-          padding: "6px",
+          background: "var(--ink)",
+          padding: "8px",
           gap: 4,
         }}
       >
@@ -82,19 +81,19 @@ export default function VideoCard() {
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
+            aria-pressed={activeTab === tab}
             style={{
               flex: 1,
               padding: "10px 0",
-              borderRadius: 10,
+              borderRadius: activeTab === tab ? 999 : 5,
               border: "none",
               cursor: "pointer",
-              fontWeight: 600,
+              fontWeight: 500,
               fontSize: 14,
-              transition: "all 0.2s",
-              background: activeTab === tab ? "#fff" : "transparent",
-              color: activeTab === tab ? "#111" : "#888",
-              boxShadow:
-                activeTab === tab ? "0 2px 8px rgba(0,0,0,0.08)" : "none",
+              fontFamily: "var(--sans)",
+              transition: "background-color 0.2s, color 0.2s",
+              background: activeTab === tab ? "var(--bg)" : "#2E2A2A",
+              color: activeTab === tab ? "var(--ink)" : "var(--on-dark-2)",
             }}
           >
             {tab === "human" ? "Recepcionista" : "Recepcionista IA"}
@@ -122,7 +121,7 @@ export default function VideoCard() {
       <div
         style={{
           padding: "14px 16px",
-          background: "#fff",
+          background: "var(--ink)",
           display: "flex",
           alignItems: "center",
           gap: 10,
@@ -130,11 +129,12 @@ export default function VideoCard() {
       >
         <button
           onClick={togglePlay}
+          aria-label={playing ? "Pausar" : "Reproducir"}
           style={{
             width: 40,
             height: 40,
-            borderRadius: "50%",
-            background: "#111",
+            borderRadius: 5,
+            background: "var(--bg)",
             border: "none",
             cursor: "pointer",
             display: "flex",
@@ -144,18 +144,18 @@ export default function VideoCard() {
           }}
         >
           {playing ? (
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="white">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#201D1D">
               <rect x="3" y="2" width="4" height="12" rx="1" />
               <rect x="9" y="2" width="4" height="12" rx="1" />
             </svg>
           ) : (
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="white">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#201D1D">
               <polygon points="4,2 14,8 4,14" />
             </svg>
           )}
         </button>
 
-        <span style={{ fontSize: 12, color: "#888", minWidth: 72, flexShrink: 0 }}>
+        <span style={{ fontSize: 12, fontFamily: "var(--mono)", color: "var(--on-dark-2)", minWidth: 80, flexShrink: 0, fontVariantNumeric: "tabular-nums" }}>
           {formatTime(currentTime)} / {formatTime(duration)}
         </span>
 
@@ -163,7 +163,7 @@ export default function VideoCard() {
           style={{
             flex: 1,
             height: 4,
-            background: "#E5E5E5",
+            background: "#4A4545",
             borderRadius: 2,
             overflow: "hidden",
             cursor: "pointer",
@@ -180,7 +180,7 @@ export default function VideoCard() {
             style={{
               height: "100%",
               width: duration > 0 ? `${(currentTime / duration) * 100}%` : "0%",
-              background: "#111",
+              background: "var(--bg)",
               borderRadius: 2,
               transition: "width 0.1s linear",
             }}
@@ -189,6 +189,7 @@ export default function VideoCard() {
 
         <button
           onClick={restart}
+          aria-label="Volver a empezar"
           style={{
             background: "none",
             border: "none",
@@ -197,7 +198,7 @@ export default function VideoCard() {
             flexShrink: 0,
           }}
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#888" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B8B3AE" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="1 4 1 10 7 10" />
             <path d="M3.51 15a9 9 0 1 0 .49-4.71" />
           </svg>

@@ -187,10 +187,10 @@ export default function SobreNosotros() {
               className="card"
               style={{ padding: 24, textAlign: "center" }}
             >
-              <div style={{ fontSize: 32, fontWeight: 700, letterSpacing: "-1px", marginBottom: 4 }}>
+              <div style={{ fontSize: 32, fontWeight: 500, letterSpacing: "-1px", marginBottom: 4 }}>
                 {stat.value}
               </div>
-              <div style={{ fontSize: 14, color: "rgba(0,0,0,0.6)" }}>
+              <div style={{ fontSize: 14, color: "var(--ink-2)" }}>
                 {stat.label}
               </div>
             </div>
@@ -204,12 +204,12 @@ export default function SobreNosotros() {
           Que hacemos
         </h2>
         <div style={{ display: "flex", flexDirection: "column", gap: 16, maxWidth: 700 }}>
-          <p style={{ lineHeight: 1.8, color: 'rgba(0,0,0,0.75)' }}>
+          <p style={{ lineHeight: 1.8, color: 'var(--ink-2)' }}>
             Nuestros agentes trabajan como una extensión de tu equipo. Seguimos tus instrucciones,
             tu tono y tus flujos de trabajo: cualificamos llamadas, tomamos mensajes, programamos
             citas y escalamos los casos urgentes cuando es necesario.
           </p>
-          <p style={{ lineHeight: 1.8, color: 'rgba(0,0,0,0.75)' }}>
+          <p style={{ lineHeight: 1.8, color: 'var(--ink-2)' }}>
             Diseñado para clínicas, despachos de abogados, inmobiliarias, asesorías, veterinarias
             y cualquier PYME que no puede permitirse perder llamadas fuera de horario o durante los
             picos de actividad.
@@ -217,27 +217,27 @@ export default function SobreNosotros() {
         </div>
 
         {/* Servicios (H3 por servicio) */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 16, marginTop: 24 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: 16, marginTop: 24 }}>
             {services.map((s) => (
               <div key={s.title} className="card" style={{ padding: 24 }}>
                 <h3 style={{ fontSize: 18, marginBottom: 8 }}>{s.title}</h3>
-                <p style={{ fontSize: 15, lineHeight: 1.7, color: "rgba(0,0,0,0.75)", margin: 0 }}>{s.body}</p>
+                <p style={{ fontSize: 15, lineHeight: 1.7, color: "var(--ink-2)", margin: 0 }}>{s.body}</p>
               </div>
             ))}
           </div>
 
         {/* Internal links to services */}
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, marginTop: 24 }}>
-          <Link href="/lp" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid #000', borderRadius: 999, fontSize: 14, color: '#000', textDecoration: 'none', fontWeight: 500 }}>
+          <Link href="/lp" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid var(--ink)', borderRadius: 5, fontSize: 14, color: 'var(--ink)', textDecoration: 'none', fontWeight: 500 }}>
             Sectores →
           </Link>
-          <Link href="/atencion-telefonica" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid #000', borderRadius: 999, fontSize: 14, color: '#000', textDecoration: 'none', fontWeight: 500 }}>
+          <Link href="/atencion-telefonica" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid var(--ink)', borderRadius: 5, fontSize: 14, color: 'var(--ink)', textDecoration: 'none', fontWeight: 500 }}>
             Ciudades →
           </Link>
-          <Link href="/comparar" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid #000', borderRadius: 999, fontSize: 14, color: '#000', textDecoration: 'none', fontWeight: 500 }}>
+          <Link href="/comparar" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid var(--ink)', borderRadius: 5, fontSize: 14, color: 'var(--ink)', textDecoration: 'none', fontWeight: 500 }}>
             Comparar alternativas →
           </Link>
-          <Link href="/articulos" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid #000', borderRadius: 999, fontSize: 14, color: '#000', textDecoration: 'none', fontWeight: 500 }}>
+          <Link href="/articulos" style={{ display: 'inline-block', padding: '8px 20px', border: '1px solid var(--ink)', borderRadius: 5, fontSize: 14, color: 'var(--ink)', textDecoration: 'none', fontWeight: 500 }}>
             Blog →
           </Link>
         </div>
@@ -250,7 +250,7 @@ export default function SobreNosotros() {
             {differentiators.map((d) => (
               <div key={d.title}>
                 <h3 style={{ fontSize: 18, marginBottom: 6 }}>{d.title}</h3>
-                <p style={{ lineHeight: 1.8, color: "rgba(0,0,0,0.75)", margin: 0 }}>{d.body}</p>
+                <p style={{ lineHeight: 1.8, color: "var(--ink-2)", margin: 0 }}>{d.body}</p>
               </div>
             ))}
           </div>
@@ -259,7 +259,7 @@ export default function SobreNosotros() {
         {/* Para quien es */}
         <section style={{ marginBottom: 64 }}>
           <h2 style={{ fontSize: 22, marginBottom: 16 }}>Para quien es Minute Call</h2>
-          <ul style={{ listStyle: "disc", fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
+          <ul style={{ listStyle: "disc", fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "var(--ink-2)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
             {icp.map((item) => (
               <li key={item}>{item}</li>
             ))}
@@ -271,7 +271,7 @@ export default function SobreNosotros() {
         <h2 style={{ fontSize: 22, marginBottom: 16 }}>
           Partners estrategicos
         </h2>
-        <p style={{ lineHeight: 1.8, color: 'rgba(0,0,0,0.75)', maxWidth: 700 }}>
+        <p style={{ lineHeight: 1.8, color: 'var(--ink-2)', maxWidth: 700 }}>
           Minute Call es partner comercial de <strong>Teleperformance</strong> (uno de los mayores BPO del mundo con
           más de 410.000 empleados) y de <strong>Zendesk</strong> (plataforma líder de atención al cliente).
           Estas alianzas nos permiten ofrecer infraestructura y estándares de calidad de nivel enterprise
@@ -295,21 +295,24 @@ export default function SobreNosotros() {
             <div
               style={{
                 width: "100%",
-                aspectRatio: "1.13",
-                borderRadius: 16,
+                aspectRatio: "4/5",
+                borderRadius: 10,
                 overflow: "hidden",
                 marginBottom: 24,
-                background: "rgba(0,0,0,0.04)" }}
+                background: "var(--line)" }}
             >
               <img
-                src="https://framerusercontent.com/images/3EqwlGYnNWfbaSmYW7sjtrJQ.jpg"
+                src="/assets/team/alberto-castiel.jpg"
                 alt="Alberto Castiel, fundador de Minute Call"
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                width={720}
+                height={900}
+                loading="lazy"
+                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 30%" }}
               />
             </div>
             <h3 style={{ fontSize: 22, marginBottom: 4 }}>Alberto Castiel</h3>
-            <p style={{ fontSize: 14, color: 'rgba(0,0,0,0.5)', marginBottom: 12 }}>Fundador</p>
-            <p style={{ fontSize: 15, lineHeight: 1.7, color: 'rgba(0,0,0,0.75)' }}>
+            <p style={{ fontSize: 14, color: 'var(--ink-2)', marginBottom: 12 }}>Fundador</p>
+            <p style={{ fontSize: 15, lineHeight: 1.7, color: 'var(--ink-2)' }}>
               Ex General Manager en Leocare (insurtech valorada en 350M€). Como Country Manager
               en Novum Bank, escaló el mercado francés de 0 a 45M€ de facturación con crecimiento
               del 70% YoY y multiplicó el EBITDA ×8. Ex consultor de Estrategia y Operaciones en
@@ -323,7 +326,7 @@ export default function SobreNosotros() {
                 display: 'inline-block',
                 marginTop: 12,
                 fontSize: 14,
-                color: '#000',
+                color: 'var(--ink)',
                 textDecoration: 'underline',
                 textUnderlineOffset: 3 }}
             >
@@ -336,7 +339,7 @@ export default function SobreNosotros() {
       {/* Como funciona */}
         <section style={{ marginBottom: 64 }}>
           <h2 style={{ fontSize: 22, marginBottom: 16 }}>Como funciona Minute Call</h2>
-          <ol style={{ listStyle: "decimal", fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "rgba(0,0,0,0.75)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
+          <ol style={{ listStyle: "decimal", fontSize: 18, letterSpacing: "-0.04em", lineHeight: 1.8, color: "var(--ink-2)", maxWidth: 700, paddingLeft: 20, margin: 0 }}>
             {howItWorks.map((step) => (
               <li key={step}>{step}</li>
             ))}
@@ -349,8 +352,8 @@ export default function SobreNosotros() {
           <dl className="card" style={{ padding: 24, margin: 0, display: "grid", gridTemplateColumns: "minmax(120px, 190px) 1fr", columnGap: 24, rowGap: 12, fontSize: 16, letterSpacing: "-0.04em", lineHeight: 1.6 }}>
             {keyFacts.map(([k, v]) => (
               <div key={k} style={{ display: "contents" }}>
-                <dt style={{ fontWeight: 600 }}>{k}</dt>
-                <dd style={{ margin: 0, color: "rgba(0,0,0,0.75)" }}>{v}</dd>
+                <dt style={{ fontWeight: 500 }}>{k}</dt>
+                <dd style={{ margin: 0, color: "var(--ink-2)" }}>{v}</dd>
               </div>
             ))}
           </dl>
@@ -368,21 +371,21 @@ export default function SobreNosotros() {
             { name: "Laura Martínez", role: "Gerente de Asesoría", body: rev3Body },
           ].map((review, i) => (
             <div key={i} className="card" style={{ padding: 24 }}>
-              <p style={{ fontSize: 15, lineHeight: 1.7, color: 'rgba(0,0,0,0.75)', marginBottom: 12 }}>
+              <p style={{ fontSize: 15, lineHeight: 1.7, color: 'var(--ink-2)', marginBottom: 12 }}>
                 &ldquo;{review.body}&rdquo;
               </p>
-              <p style={{ fontSize: 14, fontWeight: 600, margin: 0 }}>
-                {review.name} <span style={{ fontWeight: 400, color: 'rgba(0,0,0,0.5)' }}>· {review.role}</span>
+              <p style={{ fontSize: 14, fontWeight: 500, margin: 0 }}>
+                {review.name} <span style={{ fontWeight: 400, color: 'var(--ink-2)' }}>· {review.role}</span>
               </p>
             </div>
           ))}
         </div>
-        <p style={{ fontSize: 13, color: 'rgba(0,0,0,0.4)', marginTop: 12 }}>
+        <p style={{ fontSize: 13, color: '#8E8A85', marginTop: 12 }}>
           <a
             href="https://es.trustpilot.com/review/minute-call.com"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: 'rgba(0,0,0,0.4)', textDecoration: 'underline' }}
+            style={{ color: '#8E8A85', textDecoration: 'underline' }}
           >
             Ver todas las opiniones en Trustpilot →
           </a>
@@ -410,14 +413,14 @@ export default function SobreNosotros() {
             {faqs.map((f) => (
               <div key={f.q}>
                 <h3 style={{ fontSize: 18, marginBottom: 6 }}>{f.q}</h3>
-                <p style={{ lineHeight: 1.8, color: "rgba(0,0,0,0.75)", margin: 0 }}>{f.a}</p>
+                <p style={{ lineHeight: 1.8, color: "var(--ink-2)", margin: 0 }}>{f.a}</p>
               </div>
             ))}
           </div>
         </section>
 
       {/* Last updated */}
-      <p style={{ fontSize: 12, color: 'rgba(0,0,0,0.3)', borderTop: '1px solid rgba(0,0,0,0.08)', paddingTop: 24 }}>
+      <p style={{ fontSize: 12, color: '#8E8A85', borderTop: '1px solid var(--line)', paddingTop: 24 }}>
         Última actualización: septiembre 2026
       </p>
     </div>

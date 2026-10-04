@@ -106,16 +106,16 @@ export default function CallCenterSuecoPage() {
         <p style={{ maxWidth: 600, margin: '0 auto 32px' }}>
           Contact center en sueco con agentes nativos para empresas españolas. Atendemos a tus clientes de Suecia - sin permanencia y con activación en 48 horas.
         </p>
-        <a href="/reserva-llamada" className="btn-contact">
+        <a href="/reserva-llamada" className="btn-cta">
           Solicita presupuesto gratuito
         </a>
       </section>
 
       {/* Stats bar */}
-      <section style={{ maxWidth: 900, margin: '0 auto', padding: '0 clamp(16px,5vw,64px) clamp(40px,6vw,60px)', display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+      <section style={{ maxWidth: 900, margin: '0 auto', padding: '0 clamp(16px,5vw,64px) clamp(40px,6vw,60px)', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(150px, 100%), 1fr))', gap: 16 }}>
         {stats.map((s, i) => (
           <div key={i} className="card" style={{ textAlign: 'center', padding: 24 }}>
-            <p style={{ fontSize: 'clamp(26px,7vw,48px)', fontWeight: 500, color: 'black', letterSpacing: -2, marginBottom: 8 }}>
+            <p style={{ fontSize: 'clamp(26px,7vw,48px)', fontWeight: 500, color: 'var(--ink)', letterSpacing: -2, marginBottom: 8 }}>
               {s.value}
             </p>
             <p className="service-card-body" style={{ marginBottom: 0 }}>{s.label}</p>
@@ -129,7 +129,7 @@ export default function CallCenterSuecoPage() {
         <h2 style={{ marginTop: 16 }}>
           Por que pierdes clientes suecos sin un call center en <span className="serif-italic">sueco.</span>
         </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 20, marginTop: 48, textAlign: 'left' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 20, marginTop: 48, textAlign: 'left' }}>
           {painPoints.map((p, i) => (
             <div key={i} className="card" style={{ padding: 32 }}>
               <div style={{ fontSize: 32, marginBottom: 16 }}>{p.icon}</div>
@@ -146,7 +146,7 @@ export default function CallCenterSuecoPage() {
         <h2 style={{ marginTop: 16 }}>
           Que incluye nuestro contact center en <span className="serif-italic">sueco.</span>
         </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 20, marginTop: 48, textAlign: 'left' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 20, marginTop: 48, textAlign: 'left' }}>
           {services.map((s, i) => (
             <div key={i} className="card" style={{ padding: 32 }}>
               <h3 className="service-card-title" style={{ fontSize: 18, letterSpacing: '-0.5px' }}>{s.title}</h3>
@@ -162,10 +162,10 @@ export default function CallCenterSuecoPage() {
         <h2 style={{ marginTop: 16 }}>
           Como <span className="serif-italic">funciona.</span>
         </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(280px, 100%), 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
           {steps.map((item) => (
             <div key={item.step} className="card" style={{ padding: 32 }}>
-              <p style={{ fontSize: 48, fontWeight: 500, color: 'rgba(0,0,0,0.1)', marginBottom: 16, letterSpacing: -2 }}>
+              <p className="step-n">
                 {item.step}
               </p>
               <h3 style={{ fontSize: 22 }}>{item.title}</h3>
@@ -181,7 +181,7 @@ export default function CallCenterSuecoPage() {
         <h2 style={{ marginTop: 16 }}>
           Contratar un nativo vs externalizar con <span className="serif-italic">Minute Call.</span>
         </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(350px, 100%), 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
           <div className="card" style={{ padding: 32 }}>
             <h3 style={{ fontSize: 20, marginBottom: 24 }}>Contratar empleado nativo</h3>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -193,13 +193,13 @@ export default function CallCenterSuecoPage() {
                 'Un solo idioma por empleado',
                 'Difícil escalar en temporada alta',
               ].map((item) => (
-                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(0,0,0,0.56)' }}>
-                  <span style={{ color: '#e53e3e', fontSize: 16 }}>✕</span> {item}
+                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'var(--ink-2)' }}>
+                  <span className="xk" aria-hidden="true">✕</span> {item}
                 </li>
               ))}
             </ul>
           </div>
-          <div style={{ background: 'black', borderRadius: 24, padding: 32, color: 'white' }}>
+          <div style={{ background: 'var(--ink)', borderRadius: 14, padding: 32, color: 'white' }}>
             <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
@@ -210,8 +210,8 @@ export default function CallCenterSuecoPage() {
                 'Múltiples idiomas disponibles',
                 'Escala automática en picos',
               ].map((item) => (
-                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(255,255,255,0.8)' }}>
-                  <span style={{ color: '#5AFF15', fontSize: 16 }}>✓</span> {item}
+                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'var(--on-dark-2)' }}>
+                  <span className="ck" aria-hidden="true">✓</span> {item}
                 </li>
               ))}
             </ul>
@@ -225,8 +225,8 @@ export default function CallCenterSuecoPage() {
         <h2 style={{ marginTop: 16 }}>FAQ</h2>
         <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 0, textAlign: 'left' }}>
           {faqSchema.mainEntity.map((item) => (
-            <details key={item.name} style={{ padding: '24px 0', borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
-              <summary style={{ fontSize: 18, fontWeight: 500, cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'black' }}>
+            <details key={item.name} style={{ padding: '24px 0', borderBottom: '1px solid var(--line)' }}>
+              <summary style={{ fontSize: 18, fontWeight: 500, cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--ink)' }}>
                 {item.name}
                 <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
               </summary>
@@ -237,14 +237,14 @@ export default function CallCenterSuecoPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ background: 'black', color: 'white', textAlign: 'center', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)' }}>
-        <h2 style={{ color: 'white' }}>
+      <section className="cta-panel">
+        <h2>
           Atiende a tus clientes suecos como se <span className="serif-italic">merecen.</span>
         </h2>
-        <p style={{ color: 'rgba(255,255,255,0.6)', maxWidth: 500, margin: '0 auto 32px' }}>
+        <p>
           Activa tu call center en sueco en 48 horas. Sin permanencia, agentes nativos.
         </p>
-        <a href="/reserva-llamada" style={{ display: 'inline-block', background: 'white', color: 'black', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
+        <a href="/reserva-llamada" className="btn-cta">
           Solicita presupuesto gratuito
         </a>
       </section>

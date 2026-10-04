@@ -49,7 +49,7 @@ export default function CompararPage() {
         <p style={{ maxWidth: 600, margin: '0 auto 32px' }}>
           Teleperformance, Konecta y Atento son para grandes corporaciones. Secretaria.es es alemana. Minute Call es la alternativa española para PYMES: agentes nativos, sin permanencia, presupuesto personalizado.
         </p>
-        <a href="/reserva-llamada" className="btn-contact">
+        <a href="/reserva-llamada" className="btn-cta">
           Reserva una llamada gratuita
         </a>
       </section>
@@ -60,7 +60,7 @@ export default function CompararPage() {
         <h2 style={{ marginTop: 16 }}>
           Grandes BPO vs <span className="serif-italic">Minute Call.</span>
         </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(350px, 100%), 1fr))', gap: 24, marginTop: 48, textAlign: 'left' }}>
           <div className="card" style={{ padding: 32 }}>
             <h3 style={{ fontSize: 20, marginBottom: 24 }}>Teleperformance / Konecta / Atento</h3>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -72,13 +72,13 @@ export default function CompararPage() {
                 'Protocolo genérico, sin especialización por sector',
                 'Diseñado para grandes corporaciones',
               ].map((item) => (
-                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(0,0,0,0.56)' }}>
-                  <span style={{ color: '#e53e3e', fontSize: 16 }}>✕</span> {item}
+                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'var(--ink-2)' }}>
+                  <span className="xk" aria-hidden="true">✕</span> {item}
                 </li>
               ))}
             </ul>
           </div>
-          <div style={{ background: 'black', borderRadius: 24, padding: 32, color: 'white' }}>
+          <div style={{ background: 'var(--ink)', borderRadius: 14, padding: 32, color: 'white' }}>
             <h3 style={{ fontSize: 20, marginBottom: 24, color: 'white' }}>minute call</h3>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
@@ -89,8 +89,8 @@ export default function CompararPage() {
                 'Protocolo personalizado por sector',
                 'Diseñado para PYMES españolas',
               ].map((item) => (
-                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'rgba(255,255,255,0.8)' }}>
-                  <span style={{ color: '#5AFF15', fontSize: 16 }}>✓</span> {item}
+                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: 15, color: 'var(--on-dark-2)' }}>
+                  <span className="ck" aria-hidden="true">✓</span> {item}
                 </li>
               ))}
             </ul>
@@ -104,7 +104,7 @@ export default function CompararPage() {
         <h2 style={{ marginTop: 16 }}>
           Para que tipo de empresa es <span className="serif-italic">Minute Call.</span>
         </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 20, marginTop: 48, textAlign: 'left' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 20, marginTop: 48, textAlign: 'left' }}>
           {useCases.map((uc, i) => (
             <div key={i} className="card" style={{ padding: 32 }}>
               <div style={{ fontSize: 32, marginBottom: 16 }}>{uc.icon}</div>
@@ -121,8 +121,8 @@ export default function CompararPage() {
         <h2 style={{ marginTop: 16 }}>FAQ</h2>
         <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 0, textAlign: 'left' }}>
           {faqSchema.mainEntity.map((item) => (
-            <details key={item.name} style={{ padding: '24px 0', borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
-              <summary style={{ fontSize: 18, fontWeight: 500, cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'black' }}>
+            <details key={item.name} style={{ padding: '24px 0', borderBottom: '1px solid var(--line)' }}>
+              <summary style={{ fontSize: 18, fontWeight: 500, cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--ink)' }}>
                 {item.name}
                 <span style={{ fontSize: 24, fontWeight: 300 }}>+</span>
               </summary>
@@ -133,14 +133,14 @@ export default function CompararPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ background: 'black', color: 'white', textAlign: 'center', padding: 'clamp(40px,8vw,80px) clamp(20px,5vw,64px)' }}>
-        <h2 style={{ color: 'white' }}>
+      <section className="cta-panel">
+        <h2>
           Prueba la alternativa espanola a los grandes <span className="serif-italic">call centers.</span>
         </h2>
-        <p style={{ color: 'rgba(255,255,255,0.6)', maxWidth: 500, margin: '0 auto 32px' }}>
+        <p>
           Sin contratos, sin permanencia, sin agentes en LATAM. Activa en 48 horas.
         </p>
-        <a href="/reserva-llamada" style={{ display: 'inline-block', background: 'white', color: 'black', padding: 'var(--btn-padding)', borderRadius: 'var(--btn-border-radius)', fontSize: 'var(--btn-font-size)', fontWeight: 500, textDecoration: 'none' }}>
+        <a href="/reserva-llamada" className="btn-cta">
           Reserva una llamada gratuita
         </a>
       </section>
