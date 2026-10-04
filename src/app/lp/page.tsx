@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import { BrandPage, Hero, Ed, CtaFinal } from "@/components/brand/Sections";
 import sectors from "@/data/sectors.json";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
@@ -109,123 +110,22 @@ export default function SectorIndexPage() {
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* ===== BREADCRUMB ===== */}
-      <div
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "24px clamp(16px,5vw,64px)",
-          fontSize: 13,
-          color: "#8E8A85",
-        }}
-      >
-        {breadcrumbItems.map((item, index) => (
-          <span key={item.name}>
-            {index > 0 && <span style={{ margin: "0 8px" }}>/</span>}
-            <Link href={item.url} style={{ color: "#8E8A85", textDecoration: "none" }}>
-              {item.name}
-            </Link>
-          </span>
-        ))}
-      </div>
-
-      {/* ===== HERO ===== */}
-      <section
-        style={{
-          maxWidth: 1000,
-          margin: "0 auto",
-          padding: "80px clamp(16px,5vw,64px) 60px",
-          textAlign: "center",
-        }}
-      >
-        <div style={{ marginBottom: 24 }}>
-          <span className="pill-label">{totalSectors} sectores</span>
-        </div>
-        <h1 style={{ marginTop: 24 }}>
-          Call center para{" "}
-          <span className="serif-italic">cada sector</span>.
-        </h1>
-        <p
-          style={{
-            maxWidth: 700,
-            margin: "24px auto 32px",
-            lineHeight: "1.6",
-          }}
-        >
-          Cada negocio tiene necesidades distintas. Por eso adaptamos nuestro servicio
-          de atención telefónica a los flujos de trabajo de tu sector. Elige el tuyo.
-        </p>
-        <Link href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada
-        </Link>
-      </section>
-
-      {/* ===== SECTOR GRID BY CATEGORY ===== */}
-      <section
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "60px clamp(16px,5vw,64px)",
-        }}
-      >
-        <h2 style={{ textAlign: "center", marginBottom: 48 }}>
-          Todos nuestros{" "}
-          <span className="serif-italic">sectores</span>
-        </h2>
-
-        <div style={{ display: "flex", flexDirection: "column", gap: 48 }}>
+      <BrandPage>
+        <Hero
+          crumbs={breadcrumbItems.map((c) => ({ name: c.name, url: c.url.replace("https://www.minute-call.com", "") || "/" }))}
+          tag={<>{totalSectors} sectores</>}
+          title="Call center para cada sector."
+          sub="Cada negocio tiene necesidades distintas. Por eso adaptamos nuestro servicio de atención telefónica a los flujos de trabajo de tu sector. Elige el tuyo."
+        />
+        <Ed tag="Sectores" title="Todos nuestros sectores." flush={false}>
           {sortedCategories.map((category) => (
-            <div key={category}>
-              <h3
-                style={{
-                  fontSize: 18,
-                  fontWeight: 500,
-                  marginBottom: 16,
-                  letterSpacing: "-0.5px",
-                  color: "var(--ink-2)",
-                }}
-              >
-                {category}
-              </h3>
-              <div
-                style={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  gap: 12,
-                }}
-              >
+            <div className="dir-cat" key={category}>
+              <h3>{category}</h3>
+              <div className="dir-grid">
                 {byCategory[category].map((sector) => (
-                  <Link
-                    key={sector.slug}
-                    href={`/lp/${sector.slug}`}
-                    className="card"
-                    style={{
-                      padding: "20px 24px",
-                      textDecoration: "none",
-                      color: "var(--ink)",
-                      flex: "0 1 280px",
-                      display: "block",
-                    }}
-                  >
-                    <span
-                      style={{
-                        fontSize: 16,
-                        fontWeight: 500,
-                        letterSpacing: "-0.5px",
-                        display: "block",
-                        marginBottom: 8,
-                      }}
-                    >
-                      {sector.title.replace(/\.$/, "")} →
-                    </span>
-                    <span
-                      style={{
-                        fontSize: 13,
-                        color: "var(--ink-2)",
-                        lineHeight: "1.5",
-                        display: "block",
-                      }}
-                    >
+                  <Link key={sector.slug} href={`/lp/${sector.slug}`} className="dir-item">
+                    <b>{sector.title.replace(/\.$/, "")} →</b>
+                    <span>
                       {sector.heroSubtitle.length > 100
                         ? sector.heroSubtitle.substring(0, 100) + "..."
                         : sector.heroSubtitle}
@@ -235,30 +135,13 @@ export default function SectorIndexPage() {
               </div>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* ===== CTA ===== */}
-      <section
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "60px clamp(16px,5vw,64px)",
-          textAlign: "center",
-        }}
-      >
-        <h2 style={{ marginBottom: 16 }}>
-          ¿No encuentras tu{" "}
-          <span className="serif-italic">sector</span>?
-        </h2>
-        <p style={{ maxWidth: 600, margin: "0 auto 32px", lineHeight: "1.6" }}>
-          Adaptamos nuestro servicio a cualquier tipo de negocio.
-          Contacta con nosotros y diseñamos la solución perfecta para ti.
-        </p>
-        <Link href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada
-        </Link>
-      </section>
+        </Ed>
+        <CtaFinal
+          tag="A medida"
+          title="¿No encuentras tu sector?"
+          text="Adaptamos nuestro servicio a cualquier tipo de negocio. Contacta con nosotros y diseñamos la solución perfecta para ti."
+        />
+      </BrandPage>
     </>
   );
 }

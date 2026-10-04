@@ -4,6 +4,7 @@ import cities from "@/data/cities.json";
 import sectors from "@/data/sectors.json";
 import indexables from "@/data/city-sector-indexables.json";
 import { FAQPageSchema, BreadcrumbSchema, CityLocalBusinessSchema, CityServiceSchema } from "@/components/JsonLd";
+import { BrandPage, Hero, Ed, Stats, Faq, Quote, Chips, CtaFinal, splitFigure } from "@/components/brand/Sections";
 
 export async function generateStaticParams() {
   return cities.map((city) => ({
@@ -181,411 +182,94 @@ export default async function CityPage({
       <CityLocalBusinessSchema cityName={city.city} region={city.region} slug={city.slug} />
       <CityServiceSchema cityName={city.city} slug={city.slug} />
 
-      {/* ===== BREADCRUMB NAVIGATION ===== */}
-      <div
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "24px clamp(16px,5vw,64px)",
-          fontSize: 13,
-          color: "#8E8A85",
-        }}
-      >
-        {breadcrumbItems.map((item, index) => (
-          <span key={item.name}>
-            {index > 0 && <span style={{ margin: "0 8px" }}>/</span>}
-            <Link href={item.url} style={{ color: "#8E8A85", textDecoration: "none" }}>
-              {item.name}
-            </Link>
-          </span>
-        ))}
-      </div>
+      <BrandPage>
+        <Hero
+          crumbs={breadcrumbItems.map((c) => ({ name: c.name, url: c.url.replace("https://www.minute-call.com", "") || "/" }))}
+          tag={city.heroTag}
+          title={city.heroTitle}
+          sub={city.heroSubtitle}
+        />
 
-      {/* ===== HERO SECTION ===== */}
-      <section
-        style={{
-          maxWidth: 1000,
-          margin: "0 auto",
-          padding: "80px clamp(16px,5vw,64px) 60px",
-          textAlign: "center",
-        }}
-      >
-        {/* Pill label */}
-        <div style={{ marginBottom: 24 }}>
-          <span className="pill-label">{city.heroTag}</span>
-        </div>
-
-        {/* Main heading */}
-        <h1 style={{ marginTop: 24 }}>
-          {city.heroTitle.split(city.city).map((part, index) => (
-            <span key={index}>
-              {part}
-              {index === 0 && <span className="serif-italic">{city.city}</span>}
-            </span>
-          ))}
-        </h1>
-
-        {/* Subtext */}
-        <p
-          style={{
-            maxWidth: 700,
-            margin: "24px auto 32px",
-            lineHeight: "1.6",
-          }}
-        >
-          {city.heroSubtitle}
-        </p>
-
-        {/* CTA Button */}
-        <Link href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada
-        </Link>
-      </section>
-
-      {/* ===== LOCAL CONTEXT SECTION ===== */}
-      <section
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "60px clamp(16px,5vw,64px)",
-          textAlign: "center",
-        }}
-      >
-        <h2 style={{ marginBottom: 24 }}>
-          Atención telefónica adaptada a{" "}
-          <span className="serif-italic">{city.city}</span>
-        </h2>
-
-        {(() => {
-          const sentences = city.localContext.split('. ');
-          const mid = Math.ceil(sentences.length / 2);
-          const p1 = sentences.slice(0, mid).join('. ') + (sentences.length > 1 ? '.' : '');
-          const p2 = sentences.slice(mid).join('. ');
-          return (
-            <>
-              <p style={{ maxWidth: 700, margin: "0 auto 24px", lineHeight: "1.7" }}>{p1}</p>
-              {p2 && <p style={{ maxWidth: 700, margin: "0 auto 40px", lineHeight: "1.7" }}>{p2}</p>}
-            </>
-          );
-        })()}
-
-        {/* Stats cards */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))",
-            gap: 24,
-            marginTop: 40,
-            textAlign: "left",
-          }}
-        >
-          <div className="card" style={{ padding: 32 }}>
-            <p style={{ fontSize: 13, fontWeight: 500, color: "#8E8A85", marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.5px" }}>
-              PYMES en {city.city}
-            </p>
-            <p style={{ fontSize: 28, fontWeight: 500, letterSpacing: "-1.5px", marginBottom: 0 }}>
-              {city.stats.pymes}
-            </p>
-          </div>
-          <div className="card" style={{ padding: 32 }}>
-            <p style={{ fontSize: 13, fontWeight: 500, color: "#8E8A85", marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.5px" }}>
-              Problema actual
-            </p>
-            <p style={{ fontSize: 16, fontWeight: 500, lineHeight: "1.5", marginBottom: 0 }}>
-              {city.stats.callsLost}
-            </p>
-          </div>
-        </div>
-
-        {/* Sector context callout */}
-        {(city as { sectorContext?: string }).sectorContext && (
-          <div className="card" style={{ padding: "28px 32px", marginTop: 32, textAlign: "left" }}>
-            <p style={{ color: 'var(--ink-2)', lineHeight: 1.7, fontSize: 15, margin: 0 }}>
-              {(city as { sectorContext?: string }).sectorContext}
-            </p>
-          </div>
-        )}
-      </section>
-
-      {/* ===== KEY SECTORS SECTION ===== */}
-      <section
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "60px clamp(16px,5vw,64px)",
-          textAlign: "center",
-        }}
-      >
-        <h2 style={{ marginBottom: 40 }}>
-          Sectores que atendemos en{" "}
-          <span className="serif-italic">{city.city}</span>
-        </h2>
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "center",
-            gap: 16,
-            textAlign: "left",
-          }}
-        >
-          {city.keySectors.map((sector) => {
-            const link = getSectorLink(sector);
-            const content = (
-              <div
-                key={sector}
-                className="card"
-                style={{
-                  padding: "28px 24px",
-                  display: "flex",
-                  alignItems: "center",
-                  cursor: link ? "pointer" : "default",
-                  minHeight: 80,
-                  flex: "0 1 280px",
-                }}
-              >
-                <span
-                  style={{
-                    fontSize: 18,
-                    fontWeight: 500,
-                    color: "var(--ink)",
-                    letterSpacing: "-0.72px",
-                  }}
-                >
-                  {sector}
-                </span>
-              </div>
+        <Ed tag="Contexto local" title={<>Atención telefónica adaptada a {city.city}.</>} flush={false}>
+          {(() => {
+            const sentences = city.localContext.split(". ");
+            const mid = Math.ceil(sentences.length / 2);
+            const p1 = sentences.slice(0, mid).join(". ") + (sentences.length > 1 ? "." : "");
+            const p2 = sentences.slice(mid).join(". ");
+            return (
+              <>
+                <p className="lead2">{p1}</p>
+                {p2 && <p className="lead2">{p2}</p>}
+              </>
             );
+          })()}
+          <Stats
+            items={[
+              { value: city.stats.pymes, label: `PYMES en ${city.city}` },
+              splitFigure(city.stats.callsLost) ?? { value: "!", label: city.stats.callsLost },
+            ]}
+          />
+          {(city as { sectorContext?: string }).sectorContext && (
+            <p className="lead2">{(city as { sectorContext?: string }).sectorContext}</p>
+          )}
+        </Ed>
 
-            if (link) {
-              return (
-                <Link key={sector} href={link} style={{ textDecoration: "none" }}>
-                  {content}
-                </Link>
-              );
-            }
-            return content;
-          })}
-        </div>
-      </section>
+        <Ed tag="Sectores" title={<>Sectores que atendemos en {city.city}.</>}>
+          <Chips links={city.keySectors.map((sector) => ({ href: getSectorLink(sector), label: sector }))} />
+        </Ed>
 
-      {/* ===== TESTIMONIAL SECTION ===== */}
-      <section
-        style={{
-          maxWidth: 800,
-          margin: "0 auto",
-          padding: "60px clamp(16px,5vw,64px)",
-          textAlign: "center",
-        }}
-      >
-        <blockquote
-          style={{
-            fontSize: 20,
-            lineHeight: "1.6",
-            fontStyle: "normal",
-            maxWidth: 700,
-            margin: "0 auto 24px",
-          }}
-        >
-          &ldquo;{city.testimonial.quote}&rdquo;
-        </blockquote>
-        <p style={{ fontSize: 16, fontWeight: 500, margin: "0 0 4px 0" }}>
-          {city.testimonial.author}
-        </p>
-        <p style={{ fontSize: 14, color: "var(--ink-2)", margin: 0 }}>
-          {city.testimonial.role}
-        </p>
-      </section>
+        <Ed tag="Clientes" title="Lo que dicen nuestros clientes.">
+          <Quote quote={city.testimonial.quote} author={city.testimonial.author} role={city.testimonial.role} />
+        </Ed>
 
-      {/* ===== FAQ SECTION ===== */}
-      <section
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "60px clamp(16px,5vw,64px)",
-          textAlign: "center",
-        }}
-      >
-        <h2 style={{ marginBottom: 40 }}>
-          Preguntas frecuentes sobre atención telefónica en{" "}
-          <span className="serif-italic">{city.city}</span>
-        </h2>
-        <div style={{ display: "flex", flexDirection: "column", gap: 0, maxWidth: 800, margin: "0 auto", textAlign: "left" }}>
-          {faqs.map((faq) => (
-            <details
-              key={faq.question}
-              style={{
-                padding: "24px 0",
-                borderBottom: "1px solid var(--line)",
-              }}
-            >
-              <summary
-                style={{
-                  fontSize: 18,
-                  fontWeight: 500,
-                  cursor: "pointer",
-                  listStyle: "none",
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  color: "var(--ink)",
-                }}
-              >
-                {faq.question}
-                <span style={{ fontSize: "clamp(14px,3.8vw,24px)", fontWeight: 300 }}>+</span>
-              </summary>
-              <p style={{ marginTop: 16, lineHeight: "1.6", color: "var(--ink-2)" }}>{faq.answer}</p>
-            </details>
-          ))}
-        </div>
-      </section>
-
-      {/* ===== NEARBY CITIES INTERLINKING ===== */}
-      {cityServices.length > 0 && (
-        <section
-          style={{
-            maxWidth: 1200,
-            margin: "0 auto",
-            padding: "60px clamp(16px,5vw,64px) 0",
-            textAlign: "center",
-          }}
-        >
-          <h2 style={{ marginBottom: 16 }}>
-            Servicios en{" "}
-            <span className="serif-italic">{city.city}</span>
-          </h2>
-          <p style={{ maxWidth: 600, margin: "0 auto 32px", lineHeight: "1.6" }}>
-            Cómo trabajamos con las empresas de {city.city} según su sector.
-          </p>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(min(240px, 100%), 1fr))",
-              gap: 12,
-              textAlign: "left",
-            }}
-          >
-            {cityServices.map((s) => (
-              <Link
-                key={s.href}
-                href={s.href}
-                className="card"
-                style={{
-                  padding: "16px 20px",
-                  textDecoration: "none",
-                  color: "var(--ink)",
-                  fontSize: 15,
-                  fontWeight: 500,
-                  letterSpacing: "-0.3px",
-                  display: "block",
-                }}
-              >
-                {s.label} en {city.city} →
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {nearbyCities.length > 0 && (
-        <section
-          style={{
-            maxWidth: 1200,
-            margin: "0 auto",
-            padding: "60px clamp(16px,5vw,64px)",
-            textAlign: "center",
-          }}
-        >
-          <h2 style={{ marginBottom: 16 }}>
-            También atendemos en{" "}
-            <span className="serif-italic">otras ciudades</span>
-          </h2>
-          <p style={{ maxWidth: 600, margin: "0 auto 32px", lineHeight: "1.6" }}>
-            Nuestro servicio de atención telefónica está disponible en toda España.
-            Consulta la cobertura en estas ciudades cercanas.
-          </p>
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "center",
-              gap: 12,
-            }}
-          >
-            {nearbyCities.map((nearby) => (
-              <Link
-                key={nearby.slug}
-                href={`/atencion-telefonica/${nearby.slug}`}
-                className="card"
-                style={{
-                  padding: "20px 24px",
-                  textDecoration: "none",
-                  color: "var(--ink)",
-                  fontSize: 16,
-                  fontWeight: 500,
-                  letterSpacing: "-0.5px",
-                  flex: "0 1 220px",
-                  display: "block",
-                }}
-              >
-                {nearby.city} →
-              </Link>
-            ))}
-          </div>
-          <p style={{ marginTop: 24, fontSize: 14 }}>
-            <Link
-              href="/atencion-telefonica"
-              style={{ color: "var(--ink-2)", textDecoration: "underline" }}
-            >
-              Ver todas las ciudades →
-            </Link>
-          </p>
-        </section>
-      )}
-
-      {/* ===== CTA SECTION ===== */}
-      <section
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "60px clamp(16px,5vw,64px)",
-          textAlign: "center",
-        }}
-      >
-        <h2 style={{ marginBottom: 16 }}>
-          Empieza{" "}
-          <span className="serif-italic">hoy</span>
-        </h2>
-        <p style={{ marginBottom: 32, maxWidth: 600, margin: "0 auto 32px" }}>
-          No pierdas más llamadas en {city.city}. Prueba Minute Call sin compromiso.
-        </p>
-        <Link href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada
-        </Link>
-
-        {/* Top sectores en esta ciudad */}
-        {city.topSectors && city.topSectors.length > 0 && (
-          <section style={{ maxWidth: 900, margin: '0 auto', padding: '48px 24px 0' }}>
-            <h2 style={{ fontSize: "clamp(14px,3.8vw,22px)", fontWeight: 500, marginBottom: 8 }}>
-              Sectores que más nos llaman desde{" "}
-              <span className="serif-italic">{city.city}</span>
-            </h2>
-            <p style={{ color: 'var(--ink-2)', marginBottom: 24, fontSize: 15 }}>
-              Si tienes un negocio en {city.city}, estos son los sectores que más se benefician de nuestro servicio de atención telefónica.
-            </p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(220px, 100%), 1fr))', gap: 12 }}>
-              {city.topSectors.map((sector: {slug: string; title: string}) => (
-                <a key={sector.slug} href={`/lp/${sector.slug}`} style={{
-                  display: 'block', padding: '16px 20px', border: '1px solid var(--line)', borderRadius: 12,
-                  textDecoration: 'none', color: 'var(--ink)', fontSize: 14, fontWeight: 500, transition: 'border-color 0.2s'
-                }}>
-                  {sector.title} →
-                </a>
-              ))}
-            </div>
-          </section>
+        {faqs.length > 0 && (
+          <Ed tag="Preguntas" title={<>Preguntas frecuentes sobre atención telefónica en {city.city}.</>}>
+            <Faq items={faqs.map((f) => ({ q: f.question, a: f.answer }))} />
+          </Ed>
         )}
-      </section>
+
+        {cityServices.length > 0 && (
+          <Ed tag="Servicios" title={<>Servicios en {city.city}.</>}>
+            <p className="lead2">Cómo trabajamos con las empresas de {city.city} según su sector.</p>
+            <Chips links={cityServices.map((s) => ({ href: s.href, label: `${s.label} en ${city.city}` }))} />
+          </Ed>
+        )}
+
+        {city.topSectors && city.topSectors.length > 0 && (
+          <Ed tag="Más demandados" title={<>Sectores que más nos llaman desde {city.city}.</>}>
+            <p className="lead2">
+              Si tienes un negocio en {city.city}, estos son los sectores que más se benefician de nuestro servicio de
+              atención telefónica.
+            </p>
+            <Chips
+              links={city.topSectors.map((sector: { slug: string; title: string }) => ({
+                href: `/lp/${sector.slug}`,
+                label: sector.title,
+              }))}
+            />
+          </Ed>
+        )}
+
+        {nearbyCities.length > 0 && (
+          <Ed tag="Ciudades" title="También atendemos en otras ciudades.">
+            <p className="lead2">
+              Nuestro servicio de atención telefónica está disponible en toda España. Consulta la cobertura en estas
+              ciudades cercanas.
+            </p>
+            <Chips links={nearbyCities.map((n) => ({ href: `/atencion-telefonica/${n.slug}`, label: n.city }))} />
+            <p className="lead2">
+              <Link href="/atencion-telefonica" style={{ textDecoration: "underline", textUnderlineOffset: 3 }}>
+                Ver todas las ciudades →
+              </Link>
+            </p>
+          </Ed>
+        )}
+
+        <CtaFinal
+          title="Empieza hoy."
+          text={<>No pierdas más llamadas en {city.city}. Prueba Minute Call sin compromiso.</>}
+        />
+      </BrandPage>
     </>
   );
 }

@@ -45,7 +45,7 @@ export function TrustpilotBadge() {
   );
 }
 
-function waveBars(count: number) {
+export function waveBars(count: number) {
   let seed = 11;
   const rnd = () => {
     seed = (seed * 9301 + 49297) % 233280;

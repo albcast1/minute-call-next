@@ -98,10 +98,10 @@ export default async function ArticlePage({
           key={index}
           id={id}
           style={{
-            fontSize: "clamp(18px, 4vw, 24px)",
-            letterSpacing: "-0.8px",
-            lineHeight: 1.3,
-            marginTop: 40,
+            fontSize: "clamp(24px, 3vw, 32px)",
+            letterSpacing: "-0.035em",
+            lineHeight: 1.1,
+            marginTop: 48,
             marginBottom: 16,
           }}
         >
@@ -118,8 +118,9 @@ export default async function ArticlePage({
         <h3
           key={index}
           style={{
-            fontSize: 18,
-            letterSpacing: "-0.5px",
+            fontSize: 20,
+            fontWeight: 500,
+            letterSpacing: "-0.02em",
             marginTop: 28,
             marginBottom: 10,
           }}
@@ -289,10 +290,14 @@ export default async function ArticlePage({
       {/* Breadcrumbs */}
       <nav
         style={{
-          fontSize: 13,
+          fontFamily: "var(--mono)",
+          fontSize: 11.5,
+          letterSpacing: ".04em",
+          textTransform: "uppercase",
           color: "#8E8A85",
-          marginBottom: 16,
+          marginBottom: 28,
           display: "flex",
+          flexWrap: "wrap",
           gap: 8,
         }}
       >
@@ -313,16 +318,16 @@ export default async function ArticlePage({
       {/* Article Header — full width */}
       <h1
         style={{
-          marginBottom: 16,
-          fontSize: "clamp(24px, 5vw, 36px)",
-          letterSpacing: "-1.5px",
-          lineHeight: 1.15,
-          maxWidth: 700,
+          marginBottom: 20,
+          fontSize: "clamp(34px, 4.6vw, 60px)",
+          letterSpacing: "-0.05em",
+          lineHeight: 1,
+          maxWidth: 820,
         }}
       >
         {article.title}
       </h1>
-      <p style={{ fontSize: 17, marginBottom: 16, lineHeight: 1.6, maxWidth: 700, color: 'var(--ink-2)' }}>
+      <p style={{ fontSize: 19, marginBottom: 20, lineHeight: 1.5, maxWidth: 700, color: 'var(--ink-2)' }}>
         {article.excerpt}
       </p>
 
@@ -334,7 +339,7 @@ export default async function ArticlePage({
           ni nombre ni fecha en el HTML, que es lo que leen los motores
           generativos para decidir si un contenido tiene autoria identificable. */}
       {article.dateModified && (
-        <p style={{ fontSize: 14, marginBottom: 32, color: '#8E8A85' }}>
+        <p style={{ fontFamily: 'var(--mono)', fontSize: 12, letterSpacing: '.04em', textTransform: 'uppercase', marginBottom: 40, color: '#8E8A85' }}>
           Por{' '}
           <Link href="/sobre-nosotros" style={{ color: 'var(--ink-2)' }}>
             Alberto Castiel
@@ -354,10 +359,11 @@ export default async function ArticlePage({
       {article.directAnswer && (
         <div
           style={{
-            borderLeft: '4px solid var(--ink)',
-            padding: '20px 24px',
-            marginBottom: 32,
-            borderRadius: '0 8px 8px 0',
+            background: 'var(--soft)',
+            borderLeft: '3px solid var(--purple)',
+            padding: '22px 26px',
+            marginBottom: 40,
+            borderRadius: '0 10px 10px 0',
             maxWidth: 700,
           }}
         >
@@ -542,33 +548,28 @@ export default async function ArticlePage({
       {/* Related Articles */}
       {relatedArticles.length > 0 && (
         <section style={{ marginTop: 64 }}>
+          <span className="pill-label" style={{ marginBottom: 16 }}>Blog</span>
           <h2
             style={{
-              fontSize: "clamp(18px, 4vw, 24px)",
-              letterSpacing: "-0.8px",
-              marginBottom: 24,
+              fontSize: "clamp(28px, 3.4vw, 44px)",
+              letterSpacing: "-0.05em",
+              marginTop: 16,
+              marginBottom: 28,
             }}
           >
-            Otros articulos
+            Otros artículos.
           </h2>
           <div
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))",
-              gap: 24,
+              gap: "0 28px",
             }}
           >
             {relatedArticles.map((related) => (
-              <Link key={related.slug} href={`/articulos/${related.slug}`}>
-                <div
-                  className="card"
-                  style={{ padding: 24, height: "100%" }}
-                >
-                  <h3 style={{ fontSize: 18, marginBottom: 8 }}>
-                    {related.title}
-                  </h3>
-                  <p className="service-card-body">{related.excerpt}</p>
-                </div>
+              <Link key={related.slug} href={`/articulos/${related.slug}`} className="dir-item">
+                <b>{related.title}</b>
+                <span>{related.excerpt}</span>
               </Link>
             ))}
           </div>

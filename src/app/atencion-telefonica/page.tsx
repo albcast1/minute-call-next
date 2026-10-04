@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import { BrandPage, Hero, Ed, Chips, CtaFinal } from "@/components/brand/Sections";
 import cities from "@/data/cities.json";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
@@ -65,121 +66,27 @@ export default function AtencionTelefonicaIndex() {
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      <div
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "24px clamp(16px,5vw,64px)",
-          fontSize: 13,
-          color: "#8E8A85",
-        }}
-      >
-        {breadcrumbItems.map((item, index) => (
-          <span key={item.name}>
-            {index > 0 && <span style={{ margin: "0 8px" }}>/</span>}
-            <Link href={item.url} style={{ color: "#8E8A85", textDecoration: "none" }}>
-              {item.name}
-            </Link>
-          </span>
-        ))}
-      </div>
-
-      <section
-        style={{
-          maxWidth: 1000,
-          margin: "0 auto",
-          padding: "80px clamp(16px,5vw,64px) 60px",
-          textAlign: "center",
-        }}
-      >
-        <div style={{ marginBottom: 24 }}>
-          <span className="pill-label">Cobertura nacional</span>
-        </div>
-        <h1 style={{ marginTop: 24 }}>
-          Atención telefónica para empresas en{" "}
-          <span className="serif-italic">toda España</span>.
-        </h1>
-        <p style={{ maxWidth: 700, margin: "24px auto 32px", lineHeight: "1.6" }}>
-          Ofrecemos servicio de recepcionista virtual en más de {totalCities} ciudades.
-          Agentes nativos o asistentes de IA - tú eliges. Sin permanencia. Presupuesto a medida.
-        </p>
-        <Link href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada
-        </Link>
-      </section>
-
-      <section
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "60px clamp(16px,5vw,64px)",
-        }}
-      >
-        <h2 style={{ textAlign: "center", marginBottom: 48 }}>
-          Ciudades donde{" "}
-          <span className="serif-italic">operamos</span>
-        </h2>
-
-        <div style={{ display: "flex", flexDirection: "column", gap: 48 }}>
+      <BrandPage>
+        <Hero
+          crumbs={breadcrumbItems.map((c) => ({ name: c.name, url: c.url.replace("https://www.minute-call.com", "") || "/" }))}
+          tag="Cobertura nacional"
+          title="Atención telefónica para empresas en toda España."
+          sub={<>Ofrecemos servicio de recepcionista virtual en más de {totalCities} ciudades. Agentes nativos o asistentes de IA - tú eliges. Sin permanencia. Presupuesto a medida.</>}
+        />
+        <Ed tag="Ciudades" title="Ciudades donde operamos." flush={false}>
           {sortedRegions.map((region) => (
-            <div key={region}>
-              <h3
-                style={{
-                  fontSize: 18,
-                  fontWeight: 500,
-                  marginBottom: 16,
-                  letterSpacing: "-0.5px",
-                  color: "var(--ink-2)",
-                }}
-              >
-                {region}
-              </h3>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
-                {byRegion[region].map((city) => (
-                  <Link
-                    key={city.slug}
-                    href={`/atencion-telefonica/${city.slug}`}
-                    className="card"
-                    style={{
-                      padding: "20px 24px",
-                      textDecoration: "none",
-                      color: "var(--ink)",
-                      fontSize: 16,
-                      fontWeight: 500,
-                      letterSpacing: "-0.5px",
-                      flex: "0 1 220px",
-                      display: "block",
-                    }}
-                  >
-                    {city.city} →
-                  </Link>
-                ))}
-              </div>
+            <div className="dir-cat" key={region}>
+              <h3>{region}</h3>
+              <Chips links={byRegion[region].map((city) => ({ href: `/atencion-telefonica/${city.slug}`, label: city.city }))} />
             </div>
           ))}
-        </div>
-      </section>
-
-      <section
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "60px clamp(16px,5vw,64px)",
-          textAlign: "center",
-        }}
-      >
-        <h2 style={{ marginBottom: 16 }}>
-          ¿No encuentras tu{" "}
-          <span className="serif-italic">ciudad</span>?
-        </h2>
-        <p style={{ maxWidth: 600, margin: "0 auto 32px", lineHeight: "1.6" }}>
-          Atendemos llamadas de empresas en toda España. Contacta con nosotros
-          y te explicamos cómo podemos ayudarte.
-        </p>
-        <Link href="/reserva-llamada" className="btn-cta">
-          Reserva una llamada
-        </Link>
-      </section>
+        </Ed>
+        <CtaFinal
+          tag="Toda España"
+          title="¿No encuentras tu ciudad?"
+          text="Atendemos llamadas de empresas en toda España. Contacta con nosotros y te explicamos cómo podemos ayudarte."
+        />
+      </BrandPage>
     </>
   );
 }
