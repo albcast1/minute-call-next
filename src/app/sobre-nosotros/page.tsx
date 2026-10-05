@@ -28,7 +28,7 @@ export default function SobreNosotros() {
     legalName: "MINUTE CALL SLU",
     taxID: "B22766828",
     url: "https://www.minute-call.com",
-    logo: "https://www.minute-call.com/og-image.png",
+    logo: "https://www.minute-call.com/logo.png",
     description:
       "Call center y contact center 24/7 para PYMES en España. Agentes nativos o IA, sin permanencia.",
     foundingDate: "2024-11",
