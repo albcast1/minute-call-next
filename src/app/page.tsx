@@ -2,6 +2,7 @@ import Link from "next/link";
 import { InternalLinks } from '@/components/InternalLinks';
 import { FAQPageSchema, ServiceSchema } from "@/components/JsonLd";
 import { Star, Voice, TrustpilotBadge, WaveBars } from "@/components/brand/Brand";
+import { LogoMark } from "@/components/brand/Logo";
 import HomeEffects from "@/components/brand/HomeEffects";
 import SectorRail from "@/components/brand/SectorRail";
 
@@ -201,7 +202,7 @@ export default function Home() {
                 <div className="vs-head">
                   <span>Otros Call Centers</span>
                   <span className="us">
-                    <img src="/assets/logo.png" alt="" width={24} height={24} style={{ width: 24, height: 24, borderRadius: 5 }} />
+                    <LogoMark height={12} />
                     minute call
                   </span>
                 </div>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { Star, Voice, TrustpilotBadge, WaveBars } from "./Brand";
 import HomeEffects from "./HomeEffects";
+import { LogoMark } from "./Logo";
 
 /* Bloques de la marca 2026, los mismos de la home, para todas las páginas.
    Todos van dentro de <BrandPage>, que aplica .mc-reset. */
@@ -219,7 +220,7 @@ export function Versus({
       <div className="vs-head">
         <span>{themLabel}</span>
         <span className="us">
-          <img src="/assets/logo.png" alt="" width={24} height={24} style={{ width: 24, height: 24, borderRadius: 5 }} />
+          <LogoMark height={12} />
           minute call
         </span>
       </div>

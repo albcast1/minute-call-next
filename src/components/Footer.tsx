@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { LogoMark } from "@/components/brand/Logo";
 
 const NAV = [
   ["/", "Home"],
@@ -40,7 +41,7 @@ export default function Footer() {
         <div className="fgrid">
           <div>
             <Link className="brand" href="/">
-              <img src="/assets/logo.png" alt="Logo de Minute Call" width={30} height={30} loading="lazy" />
+              <LogoMark height={17} title="Logo de Minute Call" />
               minute call
             </Link>
             <p className="tagline">

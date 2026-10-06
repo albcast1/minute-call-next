@@ -463,3 +463,9 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .pl-restart:hover{background:var(--bg)}
 .player .cc-wave,.booking-hero .cc-wave{flex:none;height:96px}
 .player .voice i{background:var(--coral)}
+
+/* Logo 2026 (M): alto fijo, ancho por proporcion */
+.brand svg.mark,.vs-head .us svg.mark{width:auto}
+.nav .brand svg.mark{height:15px}
+.fgrid .brand svg.mark{height:17px}
+.vs-head .us svg.mark{height:12px}
