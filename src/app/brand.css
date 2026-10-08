@@ -154,7 +154,7 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .faq2 .pl{flex:none;font-family:var(--mono);font-size:18px;color:var(--ink-2);width:20px;text-align:center}
 .faq2 details[open] .pl{transform:rotate(45deg);color:var(--ink)}
 .faq2 details p{padding:0 40px 22px 0;color:var(--ink-2);max-width:64ch}
-.btn-nav{background:var(--white);color:var(--ink);border-radius:999px;transition:background-color .2s ease}
+.btn-nav{background:var(--white);color:var(--ink);border-radius:5px;transition:background-color .2s ease}
 .btn-nav:hover{background:#F1F0ED}
 .btn-nav.is-lime{background:var(--lime)}
 .btn-nav.is-lime:hover{background:#B6FF85}
@@ -475,3 +475,21 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
   .navshell{padding:8px 8px 0}
   .nav{width:100%;border-radius:8px;border-top:1px solid #3A3636}
 }
+
+/* Hero: llamadas de ejemplo que entran y se atienden */
+.hcalls{margin:34px auto 0;width:min(470px,100%);height:52px;overflow:hidden;border:1px solid var(--line);border-radius:8px;background:#FFFFFF;box-shadow:0 1px 2px rgba(32,29,29,.03),0 10px 28px rgba(32,29,29,.05)}
+.hc-row{height:100%;display:flex;align-items:center;gap:12px;padding:0 10px 0 10px;text-align:left;animation:hcIn .55s cubic-bezier(.2,.7,.2,1) both}
+@keyframes hcIn{from{transform:translateY(100%);opacity:0}to{transform:none;opacity:1}}
+.hc-ico{width:32px;height:32px;border-radius:6px;background:var(--ink);display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.hc-ico .voice i{background:var(--coral);transition:background-color .3s ease}
+.hc-row.is-on .hc-ico .voice i{background:var(--lime);animation-duration:1.6s}
+.hc-who{flex:1;min-width:0;font-size:15px;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink)}
+.hc-city{color:var(--ink-2)}
+.hc-st{position:relative;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);white-space:nowrap;display:grid}
+.hc-st>span{grid-area:1/1;justify-self:end;transition:opacity .3s ease,transform .3s ease}
+.hc-done{opacity:0;transform:translateY(6px);color:var(--ink)}
+.hc-row.is-on .hc-ring{opacity:0;transform:translateY(-6px)}
+.hc-row.is-on .hc-done{opacity:1;transform:none}
+@media (max-width:600px){.hcalls{margin-top:28px}.hc-who{font-size:14px}.hc-st{font-size:10px;letter-spacing:.04em}}
+@media (prefers-reduced-motion:reduce){.hc-row{animation:none}}
+@media (max-width:600px){.hc-city{display:none}}

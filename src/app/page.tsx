@@ -3,6 +3,7 @@ import { InternalLinks } from '@/components/InternalLinks';
 import { FAQPageSchema, ServiceSchema } from "@/components/JsonLd";
 import { Star, Voice, TrustpilotBadge, WaveBars } from "@/components/brand/Brand";
 import { LogoMark } from "@/components/brand/Logo";
+import HeroCalls from "@/components/brand/HeroCalls";
 import HomeEffects from "@/components/brand/HomeEffects";
 import SectorRail from "@/components/brand/SectorRail";
 
@@ -104,6 +105,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="tp-row"><TrustpilotBadge /></div>
+            <HeroCalls />
           </div>
         </section>
 
