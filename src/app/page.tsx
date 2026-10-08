@@ -288,11 +288,12 @@ export default function Home() {
 
         {/* ===== CÓMO FUNCIONA ===== */}
         <section className="section" id="como-funciona" style={{ paddingTop: 0 }}>
-          <div className="wrap ed">
+          <div className="wrap">
+          <div className="dark-panel ed">
             <div className="ed-side"><span className="tag">Cómo funciona</span></div>
             <div className="ed-main">
               <h2 className="h2 left">Cómo funciona.</h2>
-              <div className="steps2">
+              <div className="steps2 steps-dark">
                 {[
                   { step: "01", title: "Definición del flujo", desc: "Personalizamos contigo el guión de llamada y acciones del agente." },
                   { step: "02", title: "Llamada entrante", desc: "Respondemos en nombre de tu empresa siguiendo tu procedimiento." },
@@ -306,6 +307,7 @@ export default function Home() {
                 ))}
               </div>
             </div>
+          </div>
           </div>
         </section>
 

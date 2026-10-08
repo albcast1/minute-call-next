@@ -493,3 +493,35 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 @media (max-width:600px){.hcalls{margin-top:28px}.hc-who{font-size:14px}.hc-st{font-size:10px;letter-spacing:.04em}}
 @media (prefers-reduced-motion:reduce){.hc-row{animation:none}}
 @media (max-width:600px){.hc-city{display:none}}
+
+/* Botones: el texto rueda hacia arriba al pasar el ratón */
+.roll{display:inline-grid;overflow:hidden;line-height:1.25;height:1.25em}
+.roll>span{grid-area:1/1;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.roll>span+span{transform:translateY(110%)}
+.btn:hover .roll>span:first-child{transform:translateY(-110%)}
+.btn:hover .roll>span+span{transform:none}
+
+/* Titulares: las palabras suben desde una máscara */
+.wr-w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.1em;margin-bottom:-.1em}
+.wr-w>span{display:inline-block;transform:translateY(108%);transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.wr.in .wr-w>span{transform:none}
+
+/* Cómo funciona (home): panel oscuro, pasos que se activan uno a uno */
+.dark-panel{background:var(--ink);color:var(--bg);border-radius:24px;padding:clamp(28px,5vw,64px)}
+.dark-panel .tag{background:#2E2A2A;color:var(--bg)}
+.dark-panel .h2{color:var(--bg)}
+.steps-dark>div{border-top-color:#3A3636;position:relative}
+.steps-dark>div::before{content:"";position:absolute;left:0;top:-1px;height:1px;width:0;background:var(--lime);transition:width .9s cubic-bezier(.2,.7,.2,1)}
+.steps-dark .n{color:#8E8A85;transition:color .4s ease}
+.steps-dark h3{color:var(--bg)}
+.steps-dark p{color:var(--on-dark-2)}
+.steps-dark>div>*{transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
+.steps-dark:not(.go)>div>*{opacity:.35}
+.steps-dark.go>div::before{width:100%}
+.steps-dark.go .n{color:var(--lime)}
+.steps-dark.go>div:nth-child(2)::before,.steps-dark.go>div:nth-child(2)>*{transition-delay:.45s}
+.steps-dark.go>div:nth-child(3)::before,.steps-dark.go>div:nth-child(3)>*{transition-delay:.9s}
+.steps-dark.go>div:nth-child(2) .n{transition-delay:.45s}
+.steps-dark.go>div:nth-child(3) .n{transition-delay:.9s}
+@media (max-width:760px){.dark-panel{border-radius:16px}}
+@media (prefers-reduced-motion:reduce){.roll>span,.wr-w>span,.steps-dark>div::before,.steps-dark>div>*,.steps-dark .n{transition:none}}
