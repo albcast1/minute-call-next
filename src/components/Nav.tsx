@@ -46,7 +46,7 @@ export default function Nav() {
             <Link href="/sobre-nosotros">Sobre nosotros</Link>
           </div>
           <Link className={`btn btn-nav${lime ? " is-lime" : ""}`} href="/reserva-llamada">
-            Contacto
+            Hablemos
           </Link>
         </nav>
       </div>
