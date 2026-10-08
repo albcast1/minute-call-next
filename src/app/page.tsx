@@ -185,6 +185,22 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ===== CINTA ===== */}
+        <div className="ribbon" aria-label="Agentes nativos en España, sin permanencia, activación en 48 h, personas o IA, atención 24/7">
+          <div className="ribbon-track" aria-hidden="true">
+            {[0, 1].map((k) => (
+              <div className="ribbon-set" key={k}>
+                {["Agentes nativos en España", "Sin permanencia", "Activación en 48 h", "Personas o IA", "Atención 24/7"].map((t) => (
+                  <span className="ribbon-item" key={t}>
+                    {t}
+                    <LogoMark height={9} />
+                  </span>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* ===== SECTORES / INDUSTRIAS ===== */}
         <section className="section center" id="sectores">
           <div className="wrap">

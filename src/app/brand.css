@@ -525,3 +525,14 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .steps-dark.go>div:nth-child(3) .n{transition-delay:.9s}
 @media (max-width:760px){.dark-panel{border-radius:16px}}
 @media (prefers-reduced-motion:reduce){.roll>span,.wr-w>span,.steps-dark>div::before,.steps-dark>div>*,.steps-dark .n{transition:none}}
+
+/* Cinta de la home: negra, a mitad de página, lenta y se para al pasar el ratón */
+.ribbon{background:var(--ink);color:var(--bg);overflow:hidden;margin-block:clamp(8px,2vw,24px)}
+.ribbon-track{display:flex;width:max-content;animation:ribbon 48s linear infinite}
+.ribbon:hover .ribbon-track{animation-play-state:paused}
+.ribbon-set{display:flex;flex-shrink:0}
+.ribbon-item{display:inline-flex;align-items:center;gap:28px;padding:18px 0 18px 28px;font-size:17px;letter-spacing:-.02em;white-space:nowrap}
+.ribbon-item svg.mark{color:var(--lime);width:auto;height:9px}
+@keyframes ribbon{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (max-width:600px){.ribbon-item{font-size:15px;gap:22px;padding:15px 0 15px 22px}}
+@media (prefers-reduced-motion:reduce){.ribbon-track{animation:none}}
