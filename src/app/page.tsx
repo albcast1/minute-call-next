@@ -22,18 +22,18 @@ const SECTORS = [
   { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas", c: "purple" },
 ];
 
-/* Cinta negra: solo datos que ya están en la web. */
+/* Cinta negra: mensajes clave de la marca. */
 const RIBBON = [
   "Agentes nativos en España",
   "Sin permanencia",
-  "Toma de mensajes",
-  "Activación en 48 h",
-  "Español, inglés y francés",
-  "Cualificación de leads",
-  "Personas o IA",
-  "Partners de Teleperformance",
-  "Reserva de citas",
+  "Hecho para PYMES y startups",
+  "Activación en 72 h",
+  "Inglés y francés bajo demanda",
   "Integración con tu CRM",
+  "Personas o IA",
+  "Toma de mensajes",
+  "Cualificación de leads",
+  "Reserva de citas",
   "Atención 24/7",
 ];
 
