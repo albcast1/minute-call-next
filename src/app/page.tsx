@@ -22,6 +22,21 @@ const SECTORS = [
   { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas", c: "purple" },
 ];
 
+/* Cinta negra: solo datos que ya están en la web. */
+const RIBBON = [
+  "Agentes nativos en España",
+  "Sin permanencia",
+  "Toma de mensajes",
+  "Activación en 48 h",
+  "Español, inglés y francés",
+  "Cualificación de leads",
+  "Personas o IA",
+  "Partners de Teleperformance",
+  "Reserva de citas",
+  "Integración con tu CRM",
+  "Atención 24/7",
+];
+
 export default function Home() {
   const faqs = [
     {
@@ -184,11 +199,11 @@ export default function Home() {
         </section>
 
         {/* ===== CINTA ===== */}
-        <div className="ribbon" aria-label="Agentes nativos en España, sin permanencia, activación en 48 h, personas o IA, atención 24/7">
+        <div className="ribbon" aria-label={RIBBON.join(", ")}>
           <div className="ribbon-track" aria-hidden="true">
             {[0, 1].map((k) => (
               <div className="ribbon-set" key={k}>
-                {["Agentes nativos en España", "Sin permanencia", "Activación en 48 h", "Personas o IA", "Atención 24/7"].map((t) => (
+                {RIBBON.map((t) => (
                   <span className="ribbon-item" key={t}>
                     {t}
                     <LogoMark height={9} />

@@ -509,9 +509,12 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 @media (prefers-reduced-motion:reduce){.roll>span,.wr-w>span,.steps-dark>div::before,.steps-dark>div>*,.steps-dark .n{transition:none}}
 
 /* Cinta de la home: negra, a mitad de página, lenta y se para al pasar el ratón */
-.ribbon{background:var(--ink);color:var(--bg);overflow:hidden;margin-block:clamp(8px,2vw,24px)}
-.ribbon-track{display:flex;width:max-content;animation:ribbon 48s linear infinite}
-.ribbon:hover .ribbon-track{animation-play-state:paused}
+.ribbon{background:var(--ink);color:var(--bg);overflow:hidden;margin-block:clamp(8px,2vw,24px);position:relative}
+.ribbon::before,.ribbon::after{content:"";position:absolute;inset-block:0;width:clamp(32px,8vw,120px);z-index:1;pointer-events:none}
+.ribbon::before{left:0;background:linear-gradient(90deg,var(--ink),transparent)}
+.ribbon::after{right:0;background:linear-gradient(270deg,var(--ink),transparent)}
+.ribbon-track{display:flex;width:max-content;animation:ribbon 55s linear infinite}
+@media (hover:hover){.ribbon:hover .ribbon-track{animation-play-state:paused}}
 .ribbon-set{display:flex;flex-shrink:0}
 .ribbon-item{display:inline-flex;align-items:center;gap:28px;padding:18px 0 18px 28px;font-size:17px;letter-spacing:-.02em;white-space:nowrap}
 .ribbon-item svg.mark{color:var(--lime);width:auto;height:9px}
