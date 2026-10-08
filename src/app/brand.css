@@ -469,3 +469,9 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .nav .brand svg.mark{height:15px}
 .fgrid .brand svg.mark{height:17px}
 .vs-head .us svg.mark{height:12px}
+
+/* Móvil: nav a todo el ancho (8 px de margen), separada del borde superior y con las cuatro esquinas redondeadas */
+@media (max-width:600px){
+  .navshell{padding:8px 8px 0}
+  .nav{width:100%;border-radius:8px;border-top:1px solid #3A3636}
+}
