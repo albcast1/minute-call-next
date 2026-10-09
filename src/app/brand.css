@@ -32,7 +32,7 @@
 
 /* Buttons: Osmo-style rectangles */
 .btn{display:inline-flex;align-items:center;gap:10px;height:52px;padding-inline:22px;border-radius:5px;font:500 16px/1 var(--sans);text-decoration:none;cursor:pointer;white-space:nowrap;border:0}
-.btn-lime{background:var(--lime);color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.btn-lime{background:var(--lime);color:var(--ink)}
 .btn-lime:hover{background:#B6FF85}
 
 .btn-white{background:var(--white);color:var(--ink)}
@@ -521,3 +521,9 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 @keyframes ribbon{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (max-width:600px){.ribbon-item{font-size:15px;gap:22px;padding:15px 0 15px 22px}}
 @media (prefers-reduced-motion:reduce){.ribbon-track{animation:none}}
+
+/* Reserva: banda con la forma de la M */
+.mband{width:100%;aspect-ratio:3.4/1;max-height:440px;overflow:hidden;margin-top:28px}
+.mband svg{display:block;width:100%;height:100%}
+.mb-bar{fill:var(--lime);transform-box:fill-box;transform-origin:center;animation:wv 1.6s ease-in-out infinite alternate}
+@media (prefers-reduced-motion:reduce){.mb-bar{animation:none}}
