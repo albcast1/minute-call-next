@@ -539,4 +539,4 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
   .nav{grid-template-columns:auto auto minmax(0,1fr);width:min(900px,100%)}
   .nav-word{justify-self:start;margin-left:10px;font-size:22px}
 }
-@media (max-width:480px){.nav-word{font-size:21px}.nav .btn{padding-inline:14px}}
+@media (max-width:760px){.nav{grid-template-columns:auto minmax(0,1fr)}.nav-word{display:none}}
