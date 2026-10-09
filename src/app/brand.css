@@ -523,5 +523,8 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 @media (prefers-reduced-motion:reduce){.ribbon-track{animation:none}}
 
 /* Reserva: banda con la forma de la M */
-.mband{width:100%;margin-top:28px}
+.mband{width:100%}
+.mband-side{margin-top:40px}
+.mband-bottom{display:none;margin-bottom:48px}
+@media (max-width:768px){.mband-side{display:none}.mband-bottom{display:block}}
 .mband img{display:block;width:100%;height:auto}
