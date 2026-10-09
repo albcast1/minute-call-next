@@ -523,7 +523,5 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 @media (prefers-reduced-motion:reduce){.ribbon-track{animation:none}}
 
 /* Reserva: banda con la forma de la M */
-.mband{width:100%;aspect-ratio:3.4/1;max-height:440px;overflow:hidden;margin-top:28px}
-.mband svg{display:block;width:100%;height:100%}
-.mb-bar{fill:var(--lime);transform-box:fill-box;transform-origin:center;animation:wv 1.6s ease-in-out infinite alternate}
-@media (prefers-reduced-motion:reduce){.mb-bar{animation:none}}
+.mband{width:100%;margin-top:28px}
+.mband img{display:block;width:100%;height:auto}
