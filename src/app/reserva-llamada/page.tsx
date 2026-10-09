@@ -18,10 +18,7 @@ export default function ReservaLlamada() {
       <div className="contact-grid" style={{ display: "grid", gap: 64, alignItems: "start" }}>
         {/* Left Side */}
         <div className="booking-hero">
-          <span className="pill-label" style={{ marginBottom: 24, display: "inline-block" }}>
-            Hablemos
-          </span>
-          <h1 style={{ marginTop: 16, fontSize: "clamp(40px, 6vw, 72px)", letterSpacing: "-0.055em", lineHeight: 0.98 }}>
+          <h1 style={{ marginTop: 0, fontSize: "clamp(40px, 6vw, 72px)", letterSpacing: "-0.055em", lineHeight: 0.98 }}>
             Manos a la obra.
           </h1>
           <p className="hide-on-mobile" style={{ marginTop: 24, maxWidth: 400 }}>
