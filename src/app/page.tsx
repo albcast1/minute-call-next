@@ -105,8 +105,7 @@ export default function Home() {
         {/* ===== HERO ===== */}
         <section className="hero">
           <div className="wrap">
-            <span className="tag"><Voice />Call center para PYMES</span>
-            <h1 style={{ marginTop: 28 }}>
+            <h1>
               Atención telefónica <Star /> 24/7.
             </h1>
             <p className="sub">
