@@ -32,7 +32,7 @@
 
 /* Buttons: Osmo-style rectangles */
 .btn{display:inline-flex;align-items:center;gap:10px;height:52px;padding-inline:22px;border-radius:5px;font:500 16px/1 var(--sans);text-decoration:none;cursor:pointer;white-space:nowrap;border:0}
-.btn-lime{background:var(--lime);color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.btn-lime{background:var(--lime);color:var(--ink)}
 .btn-lime:hover{background:#B6FF85}
 
 .btn-white{background:var(--white);color:var(--ink)}
@@ -55,7 +55,7 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .navcol{display:flex;flex-direction:column;align-items:center;width:100%}
 
 /* Hero */
-.hero{position:relative;padding-block:clamp(72px,10vw,128px) clamp(64px,8vw,104px);text-align:center}
+.hero{position:relative;padding-block:clamp(44px,6vw,80px) clamp(64px,8vw,104px);text-align:center}
 .hero::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--line);z-index:-1}
 .hero h1{font-size:clamp(44px,6.4vw,92px);letter-spacing:-0.06em;line-height:.92;font-weight:400}
 .hero h1 .star{display:inline-block;width:.62em;height:.62em;margin:0 .04em;vertical-align:.12em}
@@ -154,7 +154,7 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .faq2 .pl{flex:none;font-family:var(--mono);font-size:18px;color:var(--ink-2);width:20px;text-align:center}
 .faq2 details[open] .pl{transform:rotate(45deg);color:var(--ink)}
 .faq2 details p{padding:0 40px 22px 0;color:var(--ink-2);max-width:64ch}
-.btn-nav{background:var(--white);color:var(--ink);border-radius:999px;transition:background-color .2s ease}
+.btn-nav{background:var(--white);color:var(--ink);border-radius:5px;transition:background-color .2s ease}
 .btn-nav:hover{background:#F1F0ED}
 .btn-nav.is-lime{background:var(--lime)}
 .btn-nav.is-lime:hover{background:#B6FF85}
@@ -463,3 +463,68 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .pl-restart:hover{background:var(--bg)}
 .player .cc-wave,.booking-hero .cc-wave{flex:none;height:96px}
 .player .voice i{background:var(--coral)}
+
+/* Logo 2026 (M): alto fijo, ancho por proporcion */
+.brand svg.mark,.vs-head .us svg.mark{width:auto}
+.nav .brand svg.mark{height:15px}
+.fgrid .brand svg.mark{height:17px}
+.vs-head .us svg.mark{height:12px}
+
+/* Móvil: nav a todo el ancho (8 px de margen), separada del borde superior y con las cuatro esquinas redondeadas */
+@media (max-width:600px){
+  .navshell{padding:8px 8px 0}
+  .nav{width:100%;border-radius:8px;border-top:1px solid #3A3636}
+}
+
+/* Botones: el texto rueda hacia arriba al pasar el ratón */
+.roll{display:inline-grid;overflow:hidden;line-height:1.25;height:1.25em}
+.roll>span{grid-area:1/1;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.roll>span+span{transform:translateY(110%)}
+.btn:hover .roll>span:first-child{transform:translateY(-110%)}
+.btn:hover .roll>span+span{transform:none}
+
+/* Titulares: las palabras suben desde una máscara */
+.wr-w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.1em;margin-bottom:-.1em}
+.wr-w>span{display:inline-block;transform:translateY(108%);transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.wr.in .wr-w>span{transform:none}
+
+/* Cómo funciona (home): panel oscuro, pasos que se activan uno a uno */
+.dark-panel{background:var(--ink);color:var(--bg);border-radius:24px;padding:clamp(28px,5vw,64px)}
+.dark-panel .tag{background:#2E2A2A;color:var(--bg)}
+.dark-panel .h2{color:var(--bg)}
+.steps-dark>div{border-top-color:#3A3636;position:relative}
+.steps-dark>div::before{content:"";position:absolute;left:0;top:-1px;height:1px;width:0;background:var(--lime);transition:width .9s cubic-bezier(.2,.7,.2,1)}
+.steps-dark .n{color:#8E8A85;transition:color .4s ease}
+.steps-dark h3{color:var(--bg)}
+.steps-dark p{color:var(--on-dark-2)}
+.steps-dark>div>*{transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
+.steps-dark:not(.go)>div>*{opacity:.35}
+.steps-dark.go>div::before{width:100%}
+.steps-dark.go .n{color:var(--lime)}
+.steps-dark.go>div:nth-child(2)::before,.steps-dark.go>div:nth-child(2)>*{transition-delay:.45s}
+.steps-dark.go>div:nth-child(3)::before,.steps-dark.go>div:nth-child(3)>*{transition-delay:.9s}
+.steps-dark.go>div:nth-child(2) .n{transition-delay:.45s}
+.steps-dark.go>div:nth-child(3) .n{transition-delay:.9s}
+@media (max-width:760px){.dark-panel{border-radius:16px}}
+@media (prefers-reduced-motion:reduce){.roll>span,.wr-w>span,.steps-dark>div::before,.steps-dark>div>*,.steps-dark .n{transition:none}}
+
+/* Cinta de la home: negra, a mitad de página, lenta y se para al pasar el ratón */
+.ribbon{background:var(--ink);color:var(--bg);overflow:hidden;margin-block:clamp(8px,2vw,24px);position:relative}
+.ribbon::before,.ribbon::after{content:"";position:absolute;inset-block:0;width:clamp(32px,8vw,120px);z-index:1;pointer-events:none}
+.ribbon::before{left:0;background:linear-gradient(90deg,var(--ink),transparent)}
+.ribbon::after{right:0;background:linear-gradient(270deg,var(--ink),transparent)}
+.ribbon-track{display:flex;width:max-content;animation:ribbon 55s linear infinite}
+@media (hover:hover){.ribbon:hover .ribbon-track{animation-play-state:paused}}
+.ribbon-set{display:flex;flex-shrink:0}
+.ribbon-item{display:inline-flex;align-items:center;gap:28px;padding:18px 0 18px 28px;font-size:17px;letter-spacing:-.02em;white-space:nowrap}
+.ribbon-item svg.mark{color:var(--lime);width:auto;height:9px}
+@keyframes ribbon{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (max-width:600px){.ribbon-item{font-size:15px;gap:22px;padding:15px 0 15px 22px}}
+@media (prefers-reduced-motion:reduce){.ribbon-track{animation:none}}
+
+/* Reserva: banda con la forma de la M */
+.mband{width:100%}
+.mband-side{margin-top:40px}
+.mband-bottom{display:none;margin-bottom:48px}
+@media (max-width:768px){.mband-side{display:none}.mband-bottom{display:block}}
+.mband img{display:block;width:100%;height:auto}

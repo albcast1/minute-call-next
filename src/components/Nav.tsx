@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { LogoMark } from "@/components/brand/Logo";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -35,7 +36,7 @@ export default function Nav() {
       <div className="navcol">
         <nav className="nav" aria-label="Principal">
           <Link className="brand" href="/" aria-label="minute call, inicio">
-            <img src="/assets/logo.png" alt="" width={26} height={26} />
+            <LogoMark height={15} />
             minute call
           </Link>
           <div className="links">
@@ -45,7 +46,7 @@ export default function Nav() {
             <Link href="/sobre-nosotros">Sobre nosotros</Link>
           </div>
           <Link className={`btn btn-nav${lime ? " is-lime" : ""}`} href="/reserva-llamada">
-            Contacto
+            ¿Hablamos?
           </Link>
         </nav>
       </div>

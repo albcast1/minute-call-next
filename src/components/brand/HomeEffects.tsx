@@ -6,7 +6,7 @@ import { useEffect } from "react";
    debajo del primer pantallazo, así el primer frame está completo),
    contador en las cifras y biografía abierta en escritorio. */
 const REVEAL =
-  ".h2, .bento .bx, .rail, .rows .row, .vs, .founder2, .steps2 > div, .faq2, .cta3-copy, .call-card, .partners .logos";
+  ".bento .bx, .rail, .rows .row, .vs, .founder2, .steps2:not(.steps-dark) > div, .faq2, .call-card, .partners .logos";
 
 export default function HomeEffects() {
   useEffect(() => {
@@ -24,7 +24,23 @@ export default function HomeEffects() {
     }
 
     const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-    if (reduce || !("IntersectionObserver" in window)) return () => cleanups.forEach((c) => c());
+    if (reduce || !("IntersectionObserver" in window)) {
+      document.querySelectorAll(".steps-dark").forEach((el) => el.classList.add("go"));
+      return () => cleanups.forEach((c) => c());
+    }
+
+    // Pasos en el panel oscuro: se activan uno a uno al entrar en pantalla.
+    const darkIo = new IntersectionObserver(
+      (entries) =>
+        entries.forEach((e) => {
+          if (!e.isIntersecting) return;
+          e.target.classList.add("go");
+          darkIo.unobserve(e.target);
+        }),
+      { rootMargin: "0px 0px -20% 0px" }
+    );
+    document.querySelectorAll(".steps-dark").forEach((el) => darkIo.observe(el));
+    cleanups.push(() => darkIo.disconnect());
 
     const els = Array.from(document.querySelectorAll<HTMLElement>(REVEAL)).filter(
       (el) => el.getBoundingClientRect().top > window.innerHeight

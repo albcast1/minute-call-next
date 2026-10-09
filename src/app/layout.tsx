@@ -4,6 +4,7 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import "./brand.css";
 import Nav from "@/components/Nav";
+import BrandMotion from "@/components/brand/BrandMotion";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Script from "next/script";
@@ -180,6 +181,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col">
         <Nav />
+        <BrandMotion />
         <main className="flex-grow">{children}</main>
         <WhatsAppButton />
         <Footer />

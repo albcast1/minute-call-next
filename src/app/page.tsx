@@ -2,6 +2,7 @@ import Link from "next/link";
 import { InternalLinks } from '@/components/InternalLinks';
 import { FAQPageSchema, ServiceSchema } from "@/components/JsonLd";
 import { Star, Voice, TrustpilotBadge, WaveBars } from "@/components/brand/Brand";
+import { LogoMark } from "@/components/brand/Logo";
 import HomeEffects from "@/components/brand/HomeEffects";
 import SectorRail from "@/components/brand/SectorRail";
 
@@ -19,6 +20,21 @@ const SECTORS = [
   { name: "Seguros", href: "/lp/recepcionista-ia-seguros", c: "ink" },
   { name: "Turismo", href: "/lp/recepcionista-ia-turismo", c: "lime" },
   { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas", c: "purple" },
+];
+
+/* Cinta negra: mensajes clave de la marca. */
+const RIBBON = [
+  "Agentes nativos en España",
+  "Sin permanencia",
+  "Hecho para PYMES y startups",
+  "Activación en 48 h",
+  "Inglés y francés bajo demanda",
+  "Integración con tu CRM",
+  "Personas o IA",
+  "Toma de mensajes",
+  "Cualificación de leads",
+  "Reserva de citas",
+  "Atención 24/7",
 ];
 
 export default function Home() {
@@ -182,6 +198,22 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ===== CINTA ===== */}
+        <div className="ribbon" aria-label={RIBBON.join(", ")}>
+          <div className="ribbon-track" aria-hidden="true">
+            {[0, 1].map((k) => (
+              <div className="ribbon-set" key={k}>
+                {RIBBON.map((t) => (
+                  <span className="ribbon-item" key={t}>
+                    {t}
+                    <LogoMark height={9} />
+                  </span>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* ===== SECTORES / INDUSTRIAS ===== */}
         <section className="section center" id="sectores">
           <div className="wrap">
@@ -201,7 +233,7 @@ export default function Home() {
                 <div className="vs-head">
                   <span>Otros Call Centers</span>
                   <span className="us">
-                    <img src="/assets/logo.png" alt="" width={24} height={24} style={{ width: 24, height: 24, borderRadius: 5 }} />
+                    <LogoMark height={12} />
                     minute call
                   </span>
                 </div>
@@ -285,11 +317,12 @@ export default function Home() {
 
         {/* ===== CÓMO FUNCIONA ===== */}
         <section className="section" id="como-funciona" style={{ paddingTop: 0 }}>
-          <div className="wrap ed">
+          <div className="wrap">
+          <div className="dark-panel ed">
             <div className="ed-side"><span className="tag">Cómo funciona</span></div>
             <div className="ed-main">
               <h2 className="h2 left">Cómo funciona.</h2>
-              <div className="steps2">
+              <div className="steps2 steps-dark">
                 {[
                   { step: "01", title: "Definición del flujo", desc: "Personalizamos contigo el guión de llamada y acciones del agente." },
                   { step: "02", title: "Llamada entrante", desc: "Respondemos en nombre de tu empresa siguiendo tu procedimiento." },
@@ -303,6 +336,7 @@ export default function Home() {
                 ))}
               </div>
             </div>
+          </div>
           </div>
         </section>
 
