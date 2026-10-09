@@ -27,7 +27,7 @@ const RIBBON = [
   "Agentes nativos en España",
   "Sin permanencia",
   "Hecho para PYMES y startups",
-  "Activación en 72 h",
+  "Activación en 48 h",
   "Inglés y francés bajo demanda",
   "Integración con tu CRM",
   "Personas o IA",
