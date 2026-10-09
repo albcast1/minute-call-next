@@ -520,7 +520,7 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .ribbon-item svg.mark{color:var(--lime);width:auto;height:9px}
 @keyframes ribbon{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (max-width:600px){.ribbon-item{font-size:15px;gap:22px;padding:15px 0 15px 22px}}
-@media (prefers-reduced-motion:reduce){.ribbon-track{animation:none}}
+@media (prefers-reduced-motion:reduce){.ribbon-track{animation-duration:90s}}
 
 /* Reserva: banda con la forma de la M */
 .mband{width:100%}
