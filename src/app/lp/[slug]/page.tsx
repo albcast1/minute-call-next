@@ -73,6 +73,7 @@ export default async function LandingPage({
   const extra = sector as unknown as {
     testimonial?: { quote: string; author: string; role: string };
     caseStudy?: { title: string; context: string; scope: string[]; outcome: string };
+    caseStudies?: Array<{ title: string; context: string; scope: string[]; outcome: string }>;
     related?: Array<{ href: string; label: string }>;
     steps?: Array<{ title: string; desc: string }>;
     faqFrom?: number;
@@ -117,19 +118,19 @@ export default async function LandingPage({
           </Ed>
         )}
 
-        {extra.caseStudy && (
-          <Ed tag="Caso real" title={extra.caseStudy.title} flush={false}>
+        {(extra.caseStudies ?? (extra.caseStudy ? [extra.caseStudy] : [])).map((cs, n) => (
+          <Ed key={n} tag="Caso real" title={cs.title} flush={false}>
             <Prose>
-              <p>{extra.caseStudy.context}</p>
+              <p>{cs.context}</p>
               <ul>
-                {extra.caseStudy.scope.map((item, i) => (
+                {cs.scope.map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}
               </ul>
-              <p>{extra.caseStudy.outcome}</p>
+              <p>{cs.outcome}</p>
             </Prose>
           </Ed>
-        )}
+        ))}
 
         <Ed tag="Ventajas" title="Qué hacemos por ti.">
           <Rows items={sector.features.slice(0, 3).map((f) => ({ title: f.title, desc: f.description }))} />

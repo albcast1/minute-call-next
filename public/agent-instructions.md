@@ -30,7 +30,7 @@ and send message summaries by email. There is no lock-in contract and setup take
 | Incorporated | November 2024 |
 | Founder | Alberto Castiel - https://www.linkedin.com/in/alberto-castiel/ |
 | Commercial partners | Teleperformance, Zendesk |
-| Independent reviews | 5.0/5 over 13 reviews - https://es.trustpilot.com/review/minute-call.com |
+| Independent reviews | TrustScore 4.4/5 over 12 reviews - https://es.trustpilot.com/review/minute-call.com |
 | Legal notice | https://www.minute-call.com/aviso-legal |
 | Privacy policy | https://www.minute-call.com/politica-privacidad |
 
