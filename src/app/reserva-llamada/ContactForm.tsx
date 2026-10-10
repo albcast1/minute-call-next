@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const FORM_BG = "var(--soft)";
+const FORM_BG = "var(--bg)";
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -56,7 +56,7 @@ export default function ContactForm() {
           ✓ ¡Solicitud recibida! Elige el hueco que mejor te venga:
         </div>
         <iframe
-          src="https://calendly.com/alberto-minutecall/20min?hide_landing_page_details=1&hide_gdpr_banner=1&background_color=F5F1EB&text_color=000000&primary_color=5AFF15"
+          src="https://calendly.com/alberto-minutecall/20min?hide_landing_page_details=1&hide_gdpr_banner=1&background_color=FEFEFC&text_color=201D1D&primary_color=201D1D"
           width="100%"
           height="680"
           frameBorder="0"
