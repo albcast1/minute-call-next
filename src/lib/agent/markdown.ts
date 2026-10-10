@@ -392,7 +392,7 @@ function cityDoc(city: City): string {
     '',
     city.localContext,
     '',
-    '## Sectores con más demanda',
+    '## Por sector',
     '',
     ...city.topSectors.map((s) => link(s.title.replace(/\.$/, ''), `/atencion-telefonica/${city.slug}/${s.slug}`)),
     faqSection(city.faq),

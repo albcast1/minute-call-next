@@ -107,6 +107,14 @@ const nextConfig: NextConfig = {
       // URLs internas rotas que Google llevaba tiempo rastreando y devolvian 404.
       // La de teleperformance acumulaba 296 impresiones en 90 dias apuntando a
       // una pagina que no existe.
+      // Oct 2026: las 5 piezas cortas sobre Konecta y Atento se fusionan en dos paginas con fuentes.
+      { source: '/articulos/konecta-opiniones-servicios-alternativa', destination: '/articulos/alternativa-konecta-pymes', permanent: true },
+      { source: '/articulos/konecta-vs-minute-call', destination: '/articulos/alternativa-konecta-pymes', permanent: true },
+      { source: '/articulos/atento-opiniones-servicios-alternativa', destination: '/articulos/alternativa-atento-pymes', permanent: true },
+      { source: '/articulos/atento-vs-minute-call', destination: '/articulos/alternativa-atento-pymes', permanent: true },
+      { source: '/articulos/konecta-vs-atento-vs-minute-call', destination: '/articulos/gran-bpo-o-call-center-a-medida', permanent: true },
+      // Oct 2026: no atendemos restaurantes; el articulo de hosteleria pasa a la pagina de turismo.
+      { source: '/articulos/mejores-soluciones-atencion-telefonica-hosteleria', destination: '/lp/call-center-turismo', permanent: true },
       { source: '/articulos/call-center-pymes-espana-alternativa-teleperformance', destination: '/lp/call-center-para-pymes', permanent: true },
       { source: '/lp/recepcionista-virtual-clinicas', destination: '/lp/call-center-clinicas', permanent: true },
       { source: '/lp/recepcionista-virtual-despachos-abogados', destination: '/lp/call-center-abogados', permanent: true },

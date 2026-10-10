@@ -168,7 +168,7 @@ Un call center no es solo para grandes empresas. Consulta [call center con dispo
 
 ### Recepcionista virtual para clinicas en Espana: guia completa 2025
 - URL: /articulos/recepcionista-virtual-clinicas-espana
-- Resumen: Las clinicas en Espana pierden entre el 30-50% de las llamadas entrantes. Un servicio de recepcionista virtual especializado en salud puede resolver esto sin mínimo de equipo ni volumen.
+- Resumen: Muchas clínicas no llegan a atender todas las llamadas en hora punta y fuera de horario. Un servicio de recepcionista virtual especializado en salud puede resolver esto sin mínimo de equipo ni volumen.
 - Contenido: Las clinicas medicas, dentales, de fisioterapia y otras especialidades sanitarias en Espana se enfrentan a un reto comun: el telefono suena mientras el equipo atiende pacientes, y muchas llamadas se pierden.
 
 Segun datos del sector, entre el 30 y el 50% de las llamadas a clinicas no se atienden, esp...
@@ -229,7 +229,7 @@ Una centralita virtual es software de telefonia: distribuye llamadas entre exten
 - Resumen: Si tu negocio recibe 30 llamadas al dia y pierdes el 35%, son 10-11 llamadas perdidas diarias. Si cada lead vale 300 euros, son 3.000 euros de oportunidad perdida cada dia. Aqui esta el calculo real.
 - Contenido: Las llamadas perdidas son el coste invisible mas grande de las PYMES espanolas. No aparecen en ninguna factura ni en ningun informe - simplemente se evaporan.
 
-El dato de partida: estudios del sector indican que las PYMES espanolas pierden entre el 30-60% de sus llamadas entrantes. La cifra sube al ...
+El dato de partida: no hay un estudio público con muestra española. En nuestra operación vemos entre un 30% y un 60% de llamadas no atendidas en pymes de servicios, con mucha dispersión; lo fiable es medirlo en tu centralita.
 
 ### Gran BPO o call center a medida: cuándo compensa cada uno
 - URL: /articulos/gran-bpo-o-call-center-a-medida

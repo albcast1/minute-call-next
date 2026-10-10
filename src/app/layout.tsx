@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://www.minute-call.com",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.png?v=2",
         width: 1200,
         height: 630,
         alt: "Minute Call – Call center y atención telefónica para PYMES",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Minute Call | Call center para PYMES y grandes empresas",
     description:
       "Call center para PYMES y grandes empresas: agentes compartidos o equipos dedicados de 1 a 5 agentes, 24/7.",
-    images: ["/og-image.png"],
+    images: ["/og-image.png?v=2"],
   },
   icons: {
     icon: [
@@ -124,7 +124,7 @@ export default function RootLayout({
                 "alternateName": "Minute Call",
                 "url": "https://www.minute-call.com",
                 "logo": { "@type": "ImageObject", "url": "https://www.minute-call.com/logo.png" },
-                "image": "https://www.minute-call.com/og-image.png",
+                "image": "https://www.minute-call.com/og-image.png?v=2",
                 "description":
                   "Call center y atención telefónica 24/7 para PYMES y grandes empresas en España: agentes compartidos o equipos dedicados de 1 a 5 agentes, nativos o IA. Sin mínimo de puestos ni permanencia.",
                 "foundingDate": "2024",

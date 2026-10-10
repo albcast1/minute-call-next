@@ -29,12 +29,12 @@ export async function generateMetadata({
       type: "website",
       locale: "es_ES",
       url: `https://www.minute-call.com/lp/${slug}`,
-      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: sector.metaTitle }] },
+      images: [{ url: "/og-image.png?v=2", width: 1200, height: 630, alt: sector.metaTitle }] },
     twitter: {
       card: "summary_large_image" as const,
       title: sector.metaTitle,
       description: sector.metaDescription,
-      images: ["/og-image.png"] } };
+      images: ["/og-image.png?v=2"] } };
 }
 
 /**

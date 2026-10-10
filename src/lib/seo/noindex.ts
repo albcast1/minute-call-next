@@ -9,17 +9,14 @@
 
 /** Articulos sobre marcas de terceros (publicados el 20/08/2026) y la pagina de opiniones propia. */
 export const NOINDEX_ARTICLES = new Set<string>([
+  // Reescritas con fuentes el 10/10/2026. Quitar de la lista hacia mediados de
+  // noviembre de 2026 si las impresiones sin marca se han recuperado.
   'alternativa-konecta-pymes',
   'alternativa-atento-pymes',
   'alternativa-transcom-pymes',
   'alternativa-concentrix-pymes',
   'alternativa-fonvirtual-pymes',
   'alternativa-mas-ip-pymes',
-  'konecta-opiniones-servicios-alternativa',
-  'atento-opiniones-servicios-alternativa',
-  'konecta-vs-minute-call',
-  'atento-vs-minute-call',
-  'konecta-vs-atento-vs-minute-call',
   'alternativa-secretaria-es-minute-call-comparativa',
   'minute-call-opiniones-precios-analisis',
 ])
@@ -30,3 +27,14 @@ export const NOINDEX_ARTICLES = new Set<string>([
  * Se mantienen las 50 paginas de ciudad y las 48 de sector.
  */
 export const CITY_SECTOR_INDEXABLE = false
+
+/**
+ * Paginas de ciudad que se piden indexar (oct 2026). En 16 meses las 50 ciudades
+ * sumaron 38 clics; estas 12 concentran casi todas las impresiones. El resto queda
+ * en noindex,follow: siguen accesibles y enlazadas, pero no compiten en el indice
+ * con contenido de plantilla.
+ */
+export const INDEXABLE_CITIES = new Set<string>([
+  'malaga', 'madrid', 'barcelona', 'valencia', 'sevilla', 'bilbao', 'zaragoza',
+  'alicante', 'valladolid', 'palma-de-mallorca', 'las-palmas', 'murcia',
+])
