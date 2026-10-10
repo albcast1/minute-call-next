@@ -168,7 +168,6 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 - /articulos/cuanto-cuesta-secretaria-virtual-espana-2025: Comparativa real de precios de secretaria virtual en Espana 2025. Secretaria.es vs Minute Call vs Secrelan vs Digalia.
 - /articulos/secretaria-virtual-clinicas-precio-espana: Secretaria virtual especializada para clinicas. Gestion de citas con Doctoralia, protocolo sanitario, precios.
 - /articulos/secretaria-virtual-despacho-abogados-espana: Secretaria virtual para despachos de abogados. Confidencialidad, terminologia juridica, gestion de agenda.
-- /articulos/alternativa-secretaria-es-minute-call-comparativa: Comparativa entre Minute Call y Secretaria.es para PYMES espanolas.
 - /articulos/secretaria-virtual-autonomos-espana: Secretaria virtual para autonomos y freelancers en Espana.
 - /articulos/recepcion-llamadas-empresas-espana-guia: Guia completa de opciones de recepcion de llamadas para empresas en Espana.
 

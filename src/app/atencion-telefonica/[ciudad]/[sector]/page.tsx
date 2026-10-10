@@ -6,6 +6,7 @@ import { FAQPageSchema, BreadcrumbSchema, ServiceSchema } from '@/components/Jso
 import { BrandPage, Hero, Ed, Stats, Faq, Quote, CtaFinal } from '@/components/brand/Sections'
 import highlights from '@/data/city-sector-highlights.json'
 import indexables from '@/data/city-sector-indexables.json'
+import { CITY_SECTOR_INDEXABLE } from '@/lib/seo/noindex'
 import { buildCitySectorMeta, pickHighlight, clientesDe, clientesSinArticulo } from '@/lib/seo/city-sector'
 
 /**
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ ciudad: s
   // (>=5 impresiones en 90 dias). El resto sigue accesible y transmitiendo
   // enlaces, pero deja de competir por presupuesto de rastreo y de diluir la
   // senal de calidad del dominio con 2.169 paginas casi identicas.
-  const indexable = (indexables.indexables as string[]).includes(`${ciudad}/${sector}`)
+  const indexable = CITY_SECTOR_INDEXABLE && (indexables.indexables as string[]).includes(`${ciudad}/${sector}`)
 
   return {
     title,

@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import sectors from "@/data/sectors.json";
 import cities from "@/data/cities.json";
 import indexables from "@/data/city-sector-indexables.json";
+import { CITY_SECTOR_INDEXABLE } from "@/lib/seo/noindex";
 import { FAQPageSchema, BreadcrumbSchema , ServiceSchema } from "@/components/JsonLd";
 import VideoCard from "@/components/VideoCard";
 import { BrandPage, Hero, Ed, Rows, Steps, Faq, Quote, Chips, CtaFinal, Prose } from "@/components/brand/Sections";
@@ -43,6 +44,8 @@ export async function generateMetadata({
  * "sin enlaces entrantes"); desde aqui y desde la ciudad reciben dos enlaces.
  */
 function citiesForSector(slug: string): { href: string; city: string }[] {
+  // Con las paginas ciudad x sector en noindex no se enlazan desde la landing.
+  if (!CITY_SECTOR_INDEXABLE) return [];
   const suffix = `/${slug}`;
   return (indexables.indexables as string[])
     .filter((par) => par.endsWith(suffix) && par.split("/").length === 2)

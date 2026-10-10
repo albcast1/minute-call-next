@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import articles from "@/data/articles.json";
+import { NOINDEX_ARTICLES } from "@/lib/seo/noindex";
 import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/JsonLd";
 
 export async function generateStaticParams() {
@@ -24,6 +25,7 @@ export async function generateMetadata({
   return {
     title: article.metaTitle,
     description: article.metaDescription,
+    robots: NOINDEX_ARTICLES.has(slug) ? { index: false, follow: true } : undefined,
     alternates: {
       canonical: `/articulos/${slug}`,
     },
@@ -65,7 +67,7 @@ export default async function ArticlePage({
     );
   }
 
-  const relatedArticles = articles.filter((a) => a.slug !== slug).slice(0, 2);
+  const relatedArticles = articles.filter((a) => a.slug !== slug && !NOINDEX_ARTICLES.has(a.slug)).slice(0, 2);
 
   // Extract H2 headings for Table of Contents
   const blocks = article.content.split("\n\n");

@@ -3,6 +3,7 @@ import sectors from '@/data/sectors.json'
 import cities from '@/data/cities.json'
 import articles from '@/data/articles.json'
 import indexables from '@/data/city-sector-indexables.json'
+import { NOINDEX_ARTICLES, CITY_SECTOR_INDEXABLE } from '@/lib/seo/noindex'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.minute-call.com'
@@ -31,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  const articlePages = articles.map(article => ({
+  const articlePages = articles.filter(article => !NOINDEX_ARTICLES.has(article.slug)).map(article => ({
     url: `${baseUrl}/articulos/${article.slug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
@@ -56,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const TOP = new Set(
     TOP_CITY_SLUGS.flatMap(c => TOP_SECTOR_SLUGS.map(s => `${c}/${s}`))
   )
-  const sectorCityPages = [...indexableSet].map(par => ({
+  const sectorCityPages = (CITY_SECTOR_INDEXABLE ? [...indexableSet] : []).map(par => ({
     url: `${baseUrl}/atencion-telefonica/${par}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,

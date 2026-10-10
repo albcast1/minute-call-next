@@ -13,7 +13,6 @@ export async function GET() {
     'https://www.minute-call.com/comparar',
     'https://www.minute-call.com/articulos/cuanto-cuesta-secretaria-virtual-espana-2025',
     'https://www.minute-call.com/articulos/secretaria-virtual-clinicas-precio-espana',
-    'https://www.minute-call.com/articulos/alternativa-secretaria-es-minute-call-comparativa',
     'https://www.minute-call.com/articulos/centralita-virtual-vs-recepcionista-virtual-diferencias',
     'https://www.minute-call.com/articulos/llamadas-perdidas-impacto-negocio-espana',
     'https://www.minute-call.com/llms-full.txt',
