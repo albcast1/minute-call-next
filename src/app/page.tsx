@@ -5,24 +5,17 @@ import { Star, Voice, TrustpilotBadge, WaveBars } from "@/components/brand/Brand
 import { LogoMark } from "@/components/brand/Logo";
 import HomeEffects from "@/components/brand/HomeEffects";
 
-/* Pasarela de sectores: la lista se pinta dos veces para que el bucle sea continuo. */
+/* Sectores de la home: 8 para que la rejilla de 4 columnas quede completa.
+   El resto de landings de sector siguen enlazadas desde el pie y el sitemap. */
 const SECTORS = [
   { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas", c: "lime" },
   { name: "Grandes empresas", href: "/lp/call-center-para-empresas", c: "purple" },
-  { name: "Farmacéuticas y laboratorios", href: "/lp/call-center-farmaceuticas", c: "ink" },
   { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "lime" },
   { name: "Comercializadoras de energía", href: "/lp/call-center-energia", c: "purple" },
-  { name: "Logística y e-commerce", href: "/lp/call-center-logistica-ecommerce", c: "orange" },
   { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes", c: "ink" },
   { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados", c: "lime" },
   { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales", c: "purple" },
   { name: "Asesorías y gestorías", href: "/lp/recepcionista-ia-asesorias", c: "orange" },
-  { name: "Veterinarias", href: "/lp/recepcionista-ia-veterinarias", c: "ink" },
-  { name: "Centros de estética", href: "/lp/recepcionista-ia-centros-estetica", c: "lime" },
-  { name: "Fisioterapia", href: "/lp/recepcionista-ia-fisioterapia", c: "purple" },
-  { name: "Seguros", href: "/lp/recepcionista-ia-seguros", c: "ink" },
-  { name: "Turismo", href: "/lp/recepcionista-ia-turismo", c: "lime" },
-  { name: "Autoescuelas", href: "/lp/recepcionista-ia-autoescuelas", c: "purple" },
 ];
 
 /* Cinta negra: mensajes clave de la marca. */
