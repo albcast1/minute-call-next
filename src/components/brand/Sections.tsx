@@ -111,9 +111,8 @@ export function Ed({
   return (
     <section className="section" id={id} style={flush ? { paddingTop: 0 } : undefined}>
       <div className="wrap ed">
-        <div className="ed-side">
-          <span className="tag">{tag}</span>
-        </div>
+        {/* La etiqueta solo se muestra si no hay titular: si lo hay, lo repetiría. */}
+        <div className="ed-side">{!title && <span className="tag">{tag}</span>}</div>
         <div className="ed-main">
           {title && <h2 className="h2 left">{title}</h2>}
           {children}
