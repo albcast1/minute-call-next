@@ -76,7 +76,7 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 
 
 /* Partners */
-.partners{padding-block:24px 0;text-align:center}
+.partners{padding-block:24px clamp(40px,5vw,72px);text-align:center}
 .partners .names{margin-top:20px;display:flex;flex-wrap:wrap;justify-content:center;gap:14px 56px}
 .partners .names span{font-weight:600;font-size:24px;letter-spacing:-0.035em;color:#8E8A85}
 

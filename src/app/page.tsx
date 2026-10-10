@@ -123,9 +123,9 @@ export default function Home() {
           <div className="wrap">
             <span className="eyebrow">Somos partners de empresas líderes</span>
             <div className="logos">
-              <img src="/assets/partners/teleperformance.png" alt="Teleperformance" width={200} height={49} style={{ height: "clamp(24px, 3vw, 32px)" }} />
-              <img src="/assets/partners/intelcia.png" alt="Intelcia" width={140} height={36} style={{ height: "clamp(22px, 2.8vw, 30px)" }} />
-              <img src="/assets/partners/zendesk.png" alt="Zendesk" width={120} height={24} style={{ height: "clamp(16px, 2vw, 21px)" }} />
+              <img src="/assets/partners/teleperformance.png" alt="Teleperformance" width={200} height={49} style={{ height: "clamp(20px, 2.4vw, 26px)" }} />
+              <img src="/assets/partners/intelcia.png" alt="Intelcia" width={140} height={36} style={{ height: "clamp(18px, 2.2vw, 24px)" }} />
+              <img src="/assets/partners/zendesk.png" alt="Zendesk" width={120} height={24} style={{ height: "clamp(13px, 1.6vw, 17px)" }} />
             </div>
           </div>
         </section>
