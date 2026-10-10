@@ -35,12 +35,11 @@ const ARTICLES = [
 
 const SECTORS = [
   ["/lp/recepcionista-ia-clinicas", "Clínicas"],
-  ["/lp/call-center-para-empresas", "Medianas y grandes empresas"],
+  ["/lp/call-center-para-empresas", "Grupos empresariales"],
   ["/lp/call-center-farmaceuticas", "Farmacéuticas"],
   ["/lp/call-center-energia", "Energía"],
   ["/lp/call-center-logistica-ecommerce", "Logística y e-commerce"],
   ["/lp/recepcionista-ia-inmobiliarias", "Inmobiliarias"],
-  ["/lp/recepcionista-ia-restaurantes", "Hostelería"],
   ["/lp/recepcionista-ia-abogados", "Abogados"],
   ["/lp/recepcionista-ia-clinicas-dentales", "Dentistas"],
   ["/lp/recepcionista-ia-asesorias", "Asesorías"],
