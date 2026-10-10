@@ -35,19 +35,23 @@ export default function Nav() {
     <div className="navshell mc-reset">
       <div className="navcol">
         <nav className="nav" aria-label="Principal">
-          <Link className="brand" href="/" aria-label="minute call, inicio">
+          <Link className="brand nav-mark" href="/" aria-label="minute call, inicio">
             <LogoMark height={15} />
+          </Link>
+          <Link className="nav-word" href="/" tabIndex={-1} aria-hidden="true">
             minute call
           </Link>
-          <div className="links">
-            <Link href="/articulos">Blog</Link>
-            <Link href="/lp">Sectores</Link>
-            <Link href="/atencion-telefonica">Ciudades</Link>
-            <Link href="/sobre-nosotros">Sobre nosotros</Link>
+          <div className="nav-right">
+            <div className="links">
+              <Link href="/articulos">Blog</Link>
+              <Link href="/lp">Sectores</Link>
+              <Link href="/atencion-telefonica">Ciudades</Link>
+              <Link href="/sobre-nosotros">Sobre nosotros</Link>
+            </div>
+            <Link className={`btn btn-nav${lime ? " is-lime" : ""}`} href="/reserva-llamada">
+              ¿Hablamos?
+            </Link>
           </div>
-          <Link className={`btn btn-nav${lime ? " is-lime" : ""}`} href="/reserva-llamada">
-            ¿Hablamos?
-          </Link>
         </nav>
       </div>
     </div>
