@@ -95,6 +95,8 @@ const nextConfig: NextConfig = {
       { source: '/articulos/mejores-soluciones-filtrar-llamadas-comerciales', destination: '/articulos/mejores-soluciones-reducir-interrupciones-telefonicas', permanent: true },
       { source: '/articulos/mejores-soluciones-atencion-telefonica-asesorias', destination: '/lp/recepcionista-ia-asesorias', permanent: true },
       { source: '/articulos/mejores-soluciones-atencion-telefonica-turismo', destination: '/lp/recepcionista-ia-turismo', permanent: true },
+      // Hoteles se fusiona en la página de turismo (oct 2026).
+      { source: '/call-center-para-hoteles', destination: '/lp/recepcionista-ia-turismo', permanent: true },
       { source: '/articulos/mejores-soluciones-atencion-telefonica-estetica', destination: '/lp/recepcionista-ia-centros-estetica', permanent: true },
       { source: '/articulos/mejores-soluciones-atencion-telefonica-autoescuelas', destination: '/lp/recepcionista-ia-autoescuelas', permanent: true },
 

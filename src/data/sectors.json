@@ -741,19 +741,23 @@
   },
   {
     "slug": "recepcionista-ia-turismo",
-    "sector": "turismo y agencias de viajes",
-    "title": "Call center para agencias de viajes.",
-    "heroTag": "Call center para turismo y agencias de viajes",
-    "heroSubtitle": "Nuestro call center para agencias de viajes atiende consultas multilingüe, gestiona reservas y resuelve incidencias de viajeros - 24/7, en español, inglés y francés. Agentes nativos o IA sin permanencia.",
+    "sector": "turismo, hoteles y agencias de viajes",
+    "title": "Call center para hoteles y agencias de viajes.",
+    "heroTag": "Call center para turismo",
+    "heroSubtitle": "Atendemos las llamadas de hoteles y agencias de viajes: reservas directas, cambios, consultas e incidencias de viajeros, 24/7 en español, inglés y francés. Agentes nativos o IA, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Atención multilingüe (español, inglés, francés)",
-        "description": "Clientes en diferentes zonas horarias. La IA atiende en su idioma, toma reservas, consultas y soporte sin barrera de idioma."
+        "title": "Reservas directas para hoteles",
+        "description": "Consultamos disponibilidad y tarifas en tu PMS y cerramos la reserva directa por teléfono, sin la comisión del 15-25% de Booking o Expedia. Upgrades y late check-out durante la llamada."
       },
       {
         "title": "Gestión de reservas y cambios",
         "description": "Gestiona vuelos, hoteles y actividades. Cambios de fechas, cancelaciones, upgrade de habitaciones. Integra con GDS Amadeus, Sabre, Galileo."
+      },
+      {
+        "title": "Atención multilingüe (español, inglés, francés)",
+        "description": "Clientes en diferentes zonas horarias. La IA atiende en su idioma, toma reservas, consultas y soporte sin barrera de idioma."
       },
       {
         "title": "Información de paquetes y destinos",
@@ -764,8 +768,8 @@
         "description": "Cliente se pierde, vuelo retrasado, emergencia médica. La IA contacta hotel, línea aérea, aseguradora. Proporciona teléfonos de emergencia locales."
       },
       {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Noches y temporada alta",
+        "description": "Cubrimos la recepción telefónica fuera de horario, en puentes y en temporada alta sin contratar turnos de noche. Puedes activarlo solo para los meses de más volumen."
       }
     ],
     "faq": [
@@ -784,6 +788,14 @@
       {
         "question": "¿Ofrecéis call center con IA?",
         "answer": "Sí. Agentes humanos para consultoría en destinos y personalización de itinerarios, o IA para gestión de reservas, información y soporte multilingüe."
+      },
+      {
+        "question": "¿Cómo gestionáis las reservas directas de un hotel?",
+        "answer": "Accedemos a la disponibilidad y las tarifas de tu hotel en tiempo real a través de tu PMS. Cuando un huésped llama, consultamos fechas, ofrecemos la tarifa disponible y cerramos la reserva directa. El huésped recibe la confirmación por email o SMS."
+      },
+      {
+        "question": "¿Puedo usar el servicio solo en temporada alta?",
+        "answer": "Sí. No hay permanencia: puedes activarlo para cubrir temporada alta, puentes o eventos y desactivarlo cuando quieras."
       },
       {
         "question": "¿Cuándo usar IA y cuándo agente humano para turismo?",
@@ -806,12 +818,13 @@
         "answer": "Sí. IA para temporada baja; humanos reforzados en temporada alta."
       }
     ],
-    "metaTitle": "Call center para agencias de viajes | minute call",
-    "metaDescription": "Call center para turismo. Atención multilingüe, gestión de reservas y soporte durante viajes. Agentes nativos o IA - tú eliges.",
-    "clientes": "las agencias de viajes",
-    "servicio": "Recepcionista virtual para agencias de viajes",
+    "metaTitle": "Call center para hoteles y agencias de viajes | minute call",
+    "metaDescription": "Call center para turismo: reservas directas para hoteles sin comisión de OTA, atención multilingüe y soporte a viajeros 24/7. Agentes nativos o IA.",
+    "clientes": "los hoteles y agencias de viajes",
+    "servicio": "Recepcionista virtual para hoteles y agencias de viajes",
     "esServicio": false,
-    "servicioCorto": "Recepcionista para agencias de viajes"
+    "servicioCorto": "Recepcionista para hoteles y agencias",
+    "heroTitle": "Call center para hoteles y agencias de viajes."
   },
   {
     "slug": "recepcionista-ia-autoescuelas",

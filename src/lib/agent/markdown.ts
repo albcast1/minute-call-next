@@ -50,7 +50,6 @@ const LANGUAGE_PAGES: Record<string, string> = {
   'call-center-en-italiano': 'Call center en italiano',
   'call-center-en-noruego': 'Call center en noruego',
   'call-center-en-sueco': 'Call center en sueco',
-  'call-center-para-hoteles': 'Call center para hoteles',
 }
 
 /**
