@@ -143,7 +143,7 @@ export default function Home() {
           <div className="wrap ed">
             <div className="ed-side" />
             <div className="ed-main">
-              <h2 className="h2 left">Qué hacemos por ti.</h2>
+              <h2 className="h2 h2-c">Qué hacemos por ti.</h2>
               <div className="rows">
                 {[
                   {
@@ -221,7 +221,7 @@ export default function Home() {
         {/* ===== SECTORES / INDUSTRIAS ===== */}
         <section className="section center" id="sectores">
           <div className="wrap">
-            <h2 className="h2">De la pyme a la gran empresa.</h2>
+            <h2 className="h2">Para PYMES. Y para las que ya no lo son.</h2>
             <SectorRail sectors={SECTORS} />
           </div>
         </section>
@@ -231,7 +231,7 @@ export default function Home() {
           <div className="wrap ed">
             <div className="ed-side" />
             <div className="ed-main">
-              <h2 className="h2 left">Por qué nos eligen.</h2>
+              <h2 className="h2 h2-c">Por qué nos eligen.</h2>
               <div className="vs">
                 <div className="vs-head">
                   <span>Otros Call Centers</span>
@@ -262,8 +262,8 @@ export default function Home() {
           <div className="wrap ed">
             <div className="ed-side" />
             <div className="ed-main">
-              <span className="tag">Nuestro equipo</span>
-              <h2 className="h2 left" style={{ marginTop: 22 }}>Fundado por quien ha escalado startups de 0 a millones.</h2>
+              <div className="center"><span className="tag">Nuestro equipo</span></div>
+              <h2 className="h2 h2-c" style={{ marginTop: 22 }}>Fundado por quien ha escalado startups de 0 a millones.</h2>
               <div className="founder2">
                 <figure className="fframe">
                   <div className="fshot">
@@ -325,7 +325,7 @@ export default function Home() {
           <div className="dark-panel ed">
             <div className="ed-side" />
             <div className="ed-main">
-              <h2 className="h2 left">Cómo funciona.</h2>
+              <h2 className="h2 h2-c">Cómo funciona.</h2>
               <div className="steps2 steps-dark">
                 {[
                   { step: "01", title: "Definición del flujo", desc: "Personalizamos contigo el guión de llamada y acciones del agente." },
@@ -349,7 +349,7 @@ export default function Home() {
           <div className="wrap ed">
             <div className="ed-side" />
             <div className="ed-main">
-              <h2 className="h2 left">FAQ</h2>
+              <h2 className="h2 h2-c">FAQ</h2>
               <div className="faq2">
                 {faqs.map((faq) => (
                   <details key={faq.q}>
