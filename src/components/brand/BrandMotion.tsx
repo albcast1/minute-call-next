@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 
 /* Movimiento de marca en todo el sitio, sin librerías:
    - Botones: el texto rueda hacia arriba al pasar el ratón (solo con ratón).
-   - Titulares h2: las palabras suben desde una máscara al entrar en pantalla.
    Todo se omite con "reducir movimiento". Se reaplica en cada cambio de ruta. */
 
 const reduce = () => window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
@@ -37,65 +36,12 @@ function rollButtons() {
   });
 }
 
-function revealHeadings() {
-  const heads = Array.from(document.querySelectorAll<HTMLElement>("main h2.h2, main .cta3 h2")).filter(
-    (h) => !h.dataset.wr && h.getBoundingClientRect().top > window.innerHeight * 0.9
-  );
-  if (!heads.length || !("IntersectionObserver" in window)) return () => {};
-  heads.forEach((h) => {
-    h.dataset.wr = "1";
-    let k = 0;
-    const walk = (node: Node) => {
-      Array.from(node.childNodes).forEach((child) => {
-        if (child.nodeType === Node.TEXT_NODE) {
-          const parts = (child.nodeValue || "").split(/(\s+)/);
-          const frag = document.createDocumentFragment();
-          parts.forEach((p) => {
-            if (!p) return;
-            if (/^\s+$/.test(p)) return frag.appendChild(document.createTextNode(p));
-            const w = document.createElement("span");
-            w.className = "wr-w";
-            const inner = document.createElement("span");
-            inner.textContent = p;
-            inner.style.transitionDelay = `${k++ * 45}ms`;
-            w.appendChild(inner);
-            frag.appendChild(w);
-          });
-          child.replaceWith(frag);
-        } else if (child.nodeType === Node.ELEMENT_NODE && (child as Element).tagName !== "BR") {
-          walk(child);
-        }
-      });
-    };
-    walk(h);
-    h.classList.add("wr");
-  });
-  const io = new IntersectionObserver(
-    (entries) =>
-      entries.forEach((e) => {
-        if (!e.isIntersecting) return;
-        e.target.classList.add("in");
-        io.unobserve(e.target);
-      }),
-    { rootMargin: "0px 0px -10% 0px" }
-  );
-  heads.forEach((h) => io.observe(h));
-  return () => io.disconnect();
-}
-
 export default function BrandMotion() {
   const pathname = usePathname();
   useEffect(() => {
     if (reduce()) return;
-    let cleanup = () => {};
-    const t = setTimeout(() => {
-      rollButtons();
-      cleanup = revealHeadings();
-    }, 60);
-    return () => {
-      clearTimeout(t);
-      cleanup();
-    };
+    const t = setTimeout(rollButtons, 60);
+    return () => clearTimeout(t);
   }, [pathname]);
   return null;
 }

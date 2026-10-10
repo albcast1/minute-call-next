@@ -118,8 +118,8 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .vs-row > span{padding:16px 0;border-top:1px solid var(--line)}
 .vs-row .ours{padding:16px 18px;background:var(--soft);border-top-color:#E4E2DD}
 .vs-row:last-child .ours{border-radius:0 0 10px 10px}
-.them span{text-decoration:line-through;text-decoration-color:#CFCAC3}
-.them{display:flex;gap:12px;color:#9A958F}
+.them span{text-decoration:none}
+.them{display:flex;gap:12px;color:#7A756F}
 .them i{font-style:normal;font-family:var(--mono);font-size:13px;color:#BDB8B1;width:20px;flex:none;text-align:center}
 .ours{display:flex;gap:12px;color:var(--ink)}
 .ours i{font-style:normal;flex:none;width:20px;height:20px;border-radius:4px;background:var(--purple);color:var(--lime);display:grid;place-items:center;font-size:11px;margin-top:2px}
@@ -544,3 +544,14 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 /* Sin etiqueta lateral, la sección ocupa todo el ancho en lugar de quedar desplazada a la derecha */
 .ed-side:empty{display:none}
 .ed:has(> .ed-side:empty){grid-template-columns:minmax(0,1fr)}
+
+/* Propuesta de limpieza (oct 2026) */
+.res-note a{color:var(--ink);text-underline-offset:3px}
+.sgrid{margin:48px auto 0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));column-gap:32px;max-width:1080px;text-align:left}
+.sgrid-i{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:15px 0;border-top:1px solid var(--line);text-decoration:none;color:var(--ink);font-size:16px;letter-spacing:-0.015em;line-height:1.3}
+.sgrid-i span:last-child{color:var(--ink-2);transition:transform .2s,color .2s}
+.sgrid-i:hover span:last-child,.sgrid-i:focus-visible span:last-child{transform:translateX(4px);color:var(--ink)}
+@media (max-width:900px){.sgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.sgrid{grid-template-columns:minmax(0,1fr)}}
+#resultados{padding-top:clamp(24px,3vw,48px)}
+.hero::before{display:none}

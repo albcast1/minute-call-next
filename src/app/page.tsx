@@ -4,7 +4,6 @@ import { FAQPageSchema, ServiceSchema } from "@/components/JsonLd";
 import { Star, Voice, TrustpilotBadge, WaveBars } from "@/components/brand/Brand";
 import { LogoMark } from "@/components/brand/Logo";
 import HomeEffects from "@/components/brand/HomeEffects";
-import SectorRail from "@/components/brand/SectorRail";
 
 /* Pasarela de sectores: la lista se pinta dos veces para que el bucle sea continuo. */
 const SECTORS = [
@@ -172,32 +171,31 @@ export default function Home() {
         {/* ===== RESULTADOS / CADA LLAMADA PERDIDA ===== */}
         <section id="resultados" className="section center">
           <div className="wrap">
-            <span className="tag">Resultados de clientes</span>
-            <h2 className="h2" style={{ marginTop: 22 }}>Cada llamada perdida es una oportunidad perdida.</h2>
+            <h2 className="h2">Cada llamada perdida es una oportunidad perdida.</h2>
             <div className="bento">
               <div className="bx bx-big">
-                <span className="tag dark" style={{ color: "var(--lime)" }}>Llamadas perdidas</span>
+                <span className="tag dark" style={{ color: "var(--lime)" }}>Harvard Business Review · 2011</span>
                 <div>
-                  <div className="bx-fig">40<span className="bs-c">-</span>60%</div>
-                  <p className="bx-cap">de las llamadas entrantes que pierde la mayoría de las PYMES.</p>
+                  <div className="bx-fig">42&#8239;h</div>
+                  <p className="bx-cap">es lo que tarda de media una empresa en responder a un contacto nuevo.</p>
                 </div>
               </div>
-              <div className="bx bx-purple scard">
-                <span className="tag onp">Tiempo de respuesta</span>
-                <div><strong>15&#8239;s</strong><p>Somos rápidos.</p></div>
+              <div className="bx bx-soft scard">
+                <span className="tag">Harvard Business Review · 2011</span>
+                <div><strong>×7</strong><p>más probable cualificar a un cliente si respondes en la primera hora.</p></div>
               </div>
               <div className="bx bx-soft scard">
-                <span className="tag">Tasa de respuesta</span>
-                <div><strong>98%</strong><p>No pierdas más llamadas.</p></div>
+                <span className="tag">Harvard Business Review · 2011</span>
+                <div><strong>23%</strong><p>de las empresas no responde nunca.</p></div>
               </div>
               <div className="bx bx-lime bx-wide scard">
-                <span className="tag lime-tag">Responder primero gana</span>
-                <div className="bx-row"><strong>78%</strong><p>de los leads contratan al negocio que responde primero.</p></div>
+                <span className="tag lime-tag">Lead Response Study · 2007</span>
+                <div className="bx-row"><strong>×21</strong><p>más probable cualificar a un cliente si le atiendes en 5 minutos en vez de en 30.</p></div>
               </div>
             </div>
             <p className="res-note">
-              <span className="tag">Basados en España</span>
-              Somos partners de Teleperformance (nº1 mundial BPO), muestra de nuestros altos estándares y calidad.
+              Datos medidos con muestra publicada.{" "}
+              <Link href="/articulos/estadisticas-llamadas-perdidas-pymes-espana">Ver fuentes →</Link>
             </p>
           </div>
         </section>
@@ -222,7 +220,14 @@ export default function Home() {
         <section className="section center" id="sectores">
           <div className="wrap">
             <h2 className="h2">Para PYMES. Y para las que ya no lo son.</h2>
-            <SectorRail sectors={SECTORS} />
+            <div className="sgrid">
+              {SECTORS.map((s) => (
+                <Link key={s.href} href={s.href} className="sgrid-i">
+                  <span>{s.name}</span>
+                  <span aria-hidden="true">→</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 
@@ -262,8 +267,7 @@ export default function Home() {
           <div className="wrap ed">
             <div className="ed-side" />
             <div className="ed-main">
-              <div className="center"><span className="tag">Nuestro equipo</span></div>
-              <h2 className="h2 h2-c" style={{ marginTop: 22 }}>Fundado por quien ha escalado startups de 0 a millones.</h2>
+              <h2 className="h2 h2-c">Fundado por quien ha escalado startups de 0 a millones.</h2>
               <div className="founder2">
                 <figure className="fframe">
                   <div className="fshot">

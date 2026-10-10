@@ -2,93 +2,22 @@
 
 import { useEffect } from "react";
 
-/* Animaciones de la home: aparición al hacer scroll (solo elementos por
-   debajo del primer pantallazo, así el primer frame está completo),
-   contador en las cifras y biografía abierta en escritorio. */
-const REVEAL =
-  ".bento .bx, .rail, .rows .row, .vs, .founder2, .steps2:not(.steps-dark) > div, .faq2, .call-card, .partners .logos";
-
+/* Home: biografía abierta en escritorio y pasos del panel oscuro activos.
+   Sin apariciones al hacer scroll ni contadores (oct 2026): el texto se lee
+   completo desde el primer momento. */
 export default function HomeEffects() {
   useEffect(() => {
-    const cleanups: Array<() => void> = [];
+    document.querySelectorAll(".steps-dark").forEach((el) => el.classList.add("go"));
 
     const bio = document.getElementById("bio-more") as HTMLDetailsElement | null;
-    if (bio && window.matchMedia) {
-      const mq = window.matchMedia("(min-width:601px)");
-      const sync = () => {
-        if (mq.matches) bio.open = true;
-      };
-      sync();
-      mq.addEventListener?.("change", sync);
-      cleanups.push(() => mq.removeEventListener?.("change", sync));
-    }
-
-    const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-    if (reduce || !("IntersectionObserver" in window)) {
-      document.querySelectorAll(".steps-dark").forEach((el) => el.classList.add("go"));
-      return () => cleanups.forEach((c) => c());
-    }
-
-    // Pasos en el panel oscuro: se activan uno a uno al entrar en pantalla.
-    const darkIo = new IntersectionObserver(
-      (entries) =>
-        entries.forEach((e) => {
-          if (!e.isIntersecting) return;
-          e.target.classList.add("go");
-          darkIo.unobserve(e.target);
-        }),
-      { rootMargin: "0px 0px -20% 0px" }
-    );
-    document.querySelectorAll(".steps-dark").forEach((el) => darkIo.observe(el));
-    cleanups.push(() => darkIo.disconnect());
-
-    const els = Array.from(document.querySelectorAll<HTMLElement>(REVEAL)).filter(
-      (el) => el.getBoundingClientRect().top > window.innerHeight
-    );
-    const groups = new Map<Node, number>();
-    els.forEach((el) => {
-      const parent = el.parentNode as Node;
-      const i = groups.get(parent) ?? 0;
-      groups.set(parent, i + 1);
-      el.style.transitionDelay = `${i * 90}ms`;
-      el.classList.add("reveal");
-    });
-
-    const count = (el: HTMLElement | null) => {
-      if (!el) return;
-      const final = el.getAttribute("data-final") || el.textContent || "";
-      el.setAttribute("data-final", final);
-      const nums = final.match(/\d+/g);
-      if (!nums) return;
-      let start: number | null = null;
-      const step = (ts: number) => {
-        if (start === null) start = ts;
-        const k = Math.min(1, (ts - start) / 1100);
-        const e = 1 - Math.pow(1 - k, 3);
-        let i = 0;
-        el.textContent = final.replace(/\d+/g, () => String(Math.round(parseInt(nums[i++], 10) * e)));
-        if (k < 1) requestAnimationFrame(step);
-        else el.textContent = final;
-      };
-      requestAnimationFrame(step);
+    if (!bio || !window.matchMedia) return;
+    const mq = window.matchMedia("(min-width:601px)");
+    const sync = () => {
+      if (mq.matches) bio.open = true;
     };
-
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => {
-          if (!e.isIntersecting) return;
-          const t = e.target as HTMLElement;
-          t.classList.add("in");
-          if (t.classList.contains("scard")) count(t.querySelector("strong"));
-          io.unobserve(t);
-        });
-      },
-      { rootMargin: "0px 0px -8% 0px" }
-    );
-    els.forEach((el) => io.observe(el));
-    cleanups.push(() => io.disconnect());
-
-    return () => cleanups.forEach((c) => c());
+    sync();
+    mq.addEventListener?.("change", sync);
+    return () => mq.removeEventListener?.("change", sync);
   }, []);
 
   return null;
