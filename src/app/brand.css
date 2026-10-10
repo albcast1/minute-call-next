@@ -569,3 +569,34 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 @media (max-width:480px){.sgrid{grid-template-columns:minmax(0,1fr)}}
 #resultados{padding-top:clamp(24px,3vw,48px)}
 .hero::before{display:none}
+
+/* Caso real (oct 2026): panel suave con cifras, reto / qué hicimos y resultado. */
+.case{background:var(--soft);border-radius:8px;padding:clamp(28px,4.5vw,64px);display:flex;flex-direction:column;align-items:center}
+.case > .tag{background:var(--bg)}
+.case > .h2{margin-top:20px}
+.case .stats2{width:100%;margin-top:40px}
+.case-grid{width:100%;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,4vw,56px);margin-top:48px}
+.case-grid h3{font-family:var(--mono);font-size:12px;font-weight:400;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin:0 0 14px}
+.case-grid p{margin:0;font-size:17px;line-height:1.6;color:var(--ink)}
+.case-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.case-list li{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:16px;line-height:1.5;color:var(--ink)}
+.case-list i{font-style:normal;flex:none;width:20px;height:20px;border-radius:4px;background:var(--purple);color:var(--lime);display:grid;place-items:center;font-size:11px;margin-top:1px}
+.case-out{width:100%;margin:40px 0 0;padding-top:20px;border-top:1px solid var(--ink);font-size:clamp(19px,1.8vw,24px);line-height:1.4;letter-spacing:-0.02em;color:var(--ink)}
+@media (max-width:760px){.case-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:760px){.case .stats2:has(> div:nth-child(3):last-child){grid-template-columns:minmax(0,1fr)}}
+/* "En detalle": bloques largos en filas con regla superior, título a la izquierda y texto a la derecha. */
+.dd{margin-top:48px;border-bottom:1px solid var(--line)}
+.dd-row{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);gap:clamp(20px,4vw,64px);padding:32px 0;border-top:1px solid var(--ink)}
+.dd-row h3{margin:0;font-size:clamp(20px,1.8vw,24px);font-weight:400;letter-spacing:-0.03em;line-height:1.2;color:var(--ink)}
+.dd-body p{margin:0 0 14px;font-size:16.5px;line-height:1.65;color:var(--ink-2)}
+.dd-body p:last-child{margin-bottom:0}
+.dd-body strong{color:var(--ink);font-weight:500}
+@media (max-width:760px){.dd-row{grid-template-columns:minmax(0,1fr);gap:12px;padding:24px 0}}
+/* Reserva: solo Trustpilot junto al formulario. */
+.rsv-side{margin-top:24px}
+.rsv-bottom{display:none;margin-top:40px}
+.mband-solid svg{display:block}
+.mband-purple{color:var(--purple)}
+.mband-ink{color:var(--ink)}
+.mband-lime{color:var(--lime)}
+@media (max-width:768px){.rsv-side{display:none}.rsv-bottom{display:block}}

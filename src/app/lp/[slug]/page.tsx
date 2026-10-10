@@ -4,7 +4,7 @@ import cities from "@/data/cities.json";
 import indexables from "@/data/city-sector-indexables.json";
 import { CITY_SECTOR_INDEXABLE } from "@/lib/seo/noindex";
 import { FAQPageSchema, BreadcrumbSchema , ServiceSchema } from "@/components/JsonLd";
-import { BrandPage, Hero, Ed, Rows, Steps, Faq, Quote, Chips, CtaFinal, Prose } from "@/components/brand/Sections";
+import { BrandPage, Hero, Ed, Rows, Steps, Faq, Quote, Chips, CtaFinal, CaseStudy, type CaseStudyData } from "@/components/brand/Sections";
 
 export async function generateStaticParams() {
   return sectors.map((sector) => ({
@@ -71,8 +71,8 @@ export default async function LandingPage({
   // Campos opcionales de las páginas para medianas y grandes empresas.
   const extra = sector as unknown as {
     testimonial?: { quote: string; author: string; role: string };
-    caseStudy?: { title: string; context: string; scope: string[]; outcome: string };
-    caseStudies?: Array<{ title: string; context: string; scope: string[]; outcome: string }>;
+    caseStudy?: CaseStudyData;
+    caseStudies?: CaseStudyData[];
     related?: Array<{ href: string; label: string }>;
     steps?: Array<{ title: string; desc: string }>;
     faqFrom?: number;
@@ -114,17 +114,7 @@ export default async function LandingPage({
         )}
 
         {(extra.caseStudies ?? (extra.caseStudy ? [extra.caseStudy] : [])).map((cs, n) => (
-          <Ed key={n} tag="Caso real" title={cs.title} flush={false} size="m">
-            <Prose>
-              <p>{cs.context}</p>
-              <ul>
-                {cs.scope.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </ul>
-              <p>{cs.outcome}</p>
-            </Prose>
-          </Ed>
+          <CaseStudy key={n} {...cs} />
         ))}
 
         <Ed tag="Ventajas" title="Qué hacemos por ti.">
@@ -150,20 +140,22 @@ export default async function LandingPage({
         {/* Contenido en profundidad: aquí vive el contenido que antes estaba
             repartido en cuatro URLs (consolidación del cluster SEO). */}
         {deepDive && (
-          <Ed tag="En detalle">
-            <Prose>
+          <Ed tag="En detalle" title="En detalle." flush={false}>
+            <div className="dd">
               {deepDive.map((bloque, i) => (
-                <div key={i}>
-                  <h2>{bloque.heading}</h2>
-                  {bloque.body.split("\n\n").map((parrafo, j) => (
-                    <p
-                      key={j}
-                      dangerouslySetInnerHTML={{ __html: parrafo.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>") }}
-                    />
-                  ))}
+                <div className="dd-row" key={i}>
+                  <h3>{bloque.heading}</h3>
+                  <div className="dd-body">
+                    {bloque.body.split("\n\n").map((parrafo, j) => (
+                      <p
+                        key={j}
+                        dangerouslySetInnerHTML={{ __html: parrafo.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>") }}
+                      />
+                    ))}
+                  </div>
                 </div>
               ))}
-            </Prose>
+            </div>
           </Ed>
         )}
 

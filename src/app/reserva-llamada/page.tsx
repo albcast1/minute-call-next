@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ContactForm from "./ContactForm";
 import BrandBand from "@/components/brand/BrandBand";
+import { TrustpilotBadge } from "@/components/brand/Brand";
 
 export const metadata: Metadata = {
   title: "Reserva una llamada | minute call",
@@ -10,6 +11,18 @@ export const metadata: Metadata = {
     canonical: "/reserva-llamada",
   },
 };
+
+/* Solo Trustpilot junto al formulario: la atención va al formulario. */
+function Trust({ className }: { className: string }) {
+  return (
+    <div className={`rsv-tp ${className}`}>
+      <TrustpilotBadge />
+    </div>
+  );
+}
+
+/* Banda de la M: "photo" (agente con auriculares) o un color sólido: "purple" | "ink" | "lime". */
+const BAND = "photo" as const;
 
 export default function ReservaLlamada() {
   return (
@@ -22,16 +35,18 @@ export default function ReservaLlamada() {
             Manos a la obra.
           </h1>
           <p className="hide-on-mobile" style={{ marginTop: 24, maxWidth: 400 }}>
-            Nos pondremos en contacto contigo menos de 24h.
+            Nos pondremos en contacto contigo en menos de 24 h.
           </p>
-          <BrandBand className="mband-side" />
+          <Trust className="rsv-side" />
+          <BrandBand className="mband-side" variant={BAND} />
         </div>
 
         {/* Right Side - Form */}
         <ContactForm />
       </div>
+      <Trust className="rsv-bottom" />
     </div>
-    <BrandBand className="mband-bottom" />
+    <BrandBand className="mband-bottom" variant={BAND} />
     </>
   );
 }
