@@ -146,7 +146,10 @@ export default function RootLayout({
                 },
                 "sameAs": [
                   "https://es.trustpilot.com/review/minute-call.com",
-                  "https://es.linkedin.com/company/minute-call"
+                  "https://es.linkedin.com/company/minute-call",
+                  "https://clutch.co/profile/minute-call",
+                  "https://www.sortlist.com/agency/minute-call",
+                  "https://www.goodfirms.co/company/minute-call"
                 ],
                 "knowsAbout": [
                   "Atención telefónica 24/7",
