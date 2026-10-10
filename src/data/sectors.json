@@ -1207,71 +1207,47 @@
     "slug": "bpo-externalizacion",
     "sector": "BPO y Externalización de Procesos",
     "title": "Servicios de BPO y Externalización de Procesos Telefónicos.",
-    "heroTag": "BPO FLEXIBLE · Agentes nativos o IA",
-    "heroSubtitle": "Externaliza tu atención al cliente y procesamiento de llamadas con un socio especializado. Nos encargamos de toda la gestión, permitiéndote concentrarte en tu core business mientras mejoras la calidad de servicio. Agentes nativos o IA - tú eliges.",
+    "heroTag": "Externalización BPO",
+    "heroSubtitle": "El modelo de un BPO, procedimiento, operación y reporte, para empresas que no necesitan un programa de decenas de agentes. Agentes compartidos o un equipo dedicado de 1 a 5 agentes, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Externalización Completa de Procesos",
-        "description": "Delega todo el procesamiento y atención de llamadas a expertos. Nuestro equipo maneja recepciones, derivaciones, toma de datos y seguimiento de clientes."
+        "title": "Procedimiento escrito antes de empezar",
+        "description": "Como en un BPO: escenarios, criterios de resolución, escalados y plazos, acordados contigo y revisados cuando cambian tus procesos."
       },
       {
-        "title": "Reducción de Gastos Operativos",
-        "description": "Ahorra en infraestructura, software, formación y gestión de personal. Modelo de pago variable según volumen real, no costos fijos."
+        "title": "Sin el tamaño mínimo de un BPO",
+        "description": "Los grandes BPO trabajan a partir de unos diez puestos. Nosotros, con agentes compartidos sin mínimo o con equipos de 1 a 5 agentes."
       },
       {
-        "title": "Cumplimiento de SLA y Métricas",
-        "description": "Garantizamos tiempos de respuesta, tasas de satisfacción y disponibilidad 24/7. Reportes detallados y transparencia total en métricas de rendimiento."
-      },
-      {
-        "title": "Escalabilidad Rápida sin Inversión",
-        "description": "Crece tu capacidad de atención en horas, no meses. Sin necesidad de contratar, formar ni invertir en infraestructura adicional."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Trazabilidad de cada llamada",
+        "description": "Cada llamada queda registrada en tu herramienta o en un resumen por email, con lo que se hizo y lo que queda pendiente."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Qué procesos puedo externalizar con BPO?",
-        "answer": "Puedes externalizar recepción de llamadas, toma de citas, procesamiento de pedidos, seguimiento de clientes, gestión de consultas, y cualquier proceso que requiera atención telefónica. Nos adaptamos a tus necesidades específicas."
-      },
-      {
-        "question": "¿Cuál es el costo del servicio BPO?",
-        "answer": "Nuestro modelo BPO no exige mínimo de volumen ni permanencia, con tarificación según el volumen de llamadas y los procesos a externalizar. Cada cliente recibe presupuesto personalizado basado en sus necesidades."
-      },
-      {
-        "question": "¿Mantienen confidencialidad con datos de clientes?",
-        "answer": "Sí, garantizamos total confidencialidad y cumplimiento RGPD. Nuestros agentes firman acuerdos de no divulgación y todos los datos se manejan bajo máximas medidas de seguridad."
-      },
-      {
         "question": "¿Qué procesos se pueden externalizar?",
-        "answer": "Atención telefónica, filtrado de leads, gestión de citas, toma de mensajes, soporte de primer nivel y cobertura fuera de horario."
+        "answer": "Procesos telefónicos entrantes: atención al cliente, recepción, incidencias de primer nivel, urgencias y coordinación con terceros. No hacemos venta masiva ni back-office sin teléfono."
       },
       {
-        "question": "¿En qué se diferencia el BPO de Minute Call?",
-        "answer": "Los grandes BPO son para corporaciones. Minute Call para PYMES: personalización real, arranque en 48h, sin permanencia. Partner comercial de Teleperformance."
+        "question": "¿En qué se diferencia de un gran BPO?",
+        "answer": "En el tamaño mínimo y el contrato: sin mínimo de puestos con agentes compartidos, equipos dedicados de 1 a 5 agentes y sin permanencia."
       },
       {
-        "question": "¿Cómo se asegura la calidad?",
-        "answer": "Guión y protocolo personalizados. Control de calidad en cada conversación."
+        "question": "¿Cómo se controla la calidad?",
+        "answer": "Con un procedimiento por escenarios acordado contigo, el registro de cada llamada en tu herramienta o por email y revisiones periódicas del procedimiento."
       },
       {
-        "question": "¿Cuánto cuesta?",
-        "answer": "Sin costes de activación. 40-70% más económico que equipo interno."
+        "question": "¿Cubrís 24/7?",
+        "answer": "Sí, con agentes o con asistente de IA según la franja. Las noches, fines de semana y festivos llevan recargo."
       },
       {
         "question": "¿Cuánto tarda en activarse?",
-        "answer": "Menos de 48 horas."
+        "answer": "Un servicio estándar, en menos de 48 horas."
       }
     ],
-    "metaTitle": "BPO y externalización de procesos | minute call",
-    "metaDescription": "Externaliza tu atención telefónica con especialistas en BPO: reduce costes operativos, sin contratos anuales y con agentes nativos.",
+    "metaTitle": "Externalización BPO para empresas medianas | Minute Call",
+    "metaDescription": "Externaliza tu atención telefónica con el modelo de un BPO sin su tamaño mínimo: agentes compartidos o equipo de 1 a 5 agentes, sin permanencia.",
     "servicio": "BPO y externalización de procesos",
     "clientes": "las empresas",
     "esServicio": true,
@@ -1293,78 +1269,74 @@
         "href": "/lp/outsourcing-atencion-cliente",
         "label": "Outsourcing de atención al cliente"
       }
-    ]
+    ],
+    "heroTitle": "Externalización BPO a la medida de tu volumen.",
+    "deepDive": [
+      {
+        "heading": "Qué externalizamos",
+        "body": "Procesos telefónicos entrantes: atención al cliente, recepción de llamadas, incidencias de primer nivel, líneas de urgencias y coordinación con terceros (transportistas, técnicos, centros).\n\nNo hacemos campañas de venta masiva ni back-office sin teléfono. Para eso, un BPO grande es mejor opción."
+      },
+      {
+        "heading": "Cuándo compensa frente a un gran BPO",
+        "body": "Un gran BPO compensa cuando el programa necesita muchos agentes a jornada completa, varios países y volumen estable. Nosotros encajamos cuando necesitas de uno a cinco agentes, dedicados o compartidos, cobertura 24/7 con volumen bajo o varios idiomas con poco volumen en cada uno.\n\nSomos partner comercial de Teleperformance: si tu operación crece por encima de ese tamaño, te ayudamos a dar el salto."
+      },
+      {
+        "heading": "Cómo se pone en marcha",
+        "body": "**1. Diagnóstico** de tipos de llamada, horarios, volumen y escalados.\n\n**2. Procedimiento** por escenarios y formación de los agentes.\n\n**3. Operación** con registro de cada llamada y revisión periódica contigo.\n\nUn servicio estándar arranca en menos de 48 horas; uno con muchos escenarios, cuando está probado."
+      }
+    ],
+    "faqFrom": 0
   },
   {
     "slug": "call-center-24-horas",
     "sector": "Call Center 24 Horas",
     "title": "Servicio de Call Center 24 Horas Continuo",
-    "heroTag": "Atención telefónica 24 horas para empresas",
-    "heroSubtitle": "Servicio de atención telefónica 24/7 para PYMES. Tus clientes siempre encontrarán respuesta, incluso a las 3 de la madrugada. Agentes nativos o IA - tú eliges.",
+    "heroTag": "Call center 24 horas",
+    "heroSubtitle": "Atendemos las llamadas de tu empresa a cualquier hora, todos los días del año. Tú decides qué pasa en cada franja: agente, asistente de IA o toma de mensajes. Agentes compartidos o un equipo dedicado de 1 a 5 agentes, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Atención Continua sin Interrupciones",
-        "description": "Nuestros agentes trabajan en turnos coordinados para cubrir 24 horas, 365 días al año. No hay pausas, descansos ni horarios cerrados."
+        "title": "Cada franja, con su protocolo",
+        "description": "En horario de oficina atendemos con agentes; de noche puedes elegir agente, asistente de IA o toma de mensajes. Cada franja tiene sus propias reglas de qué se resuelve y qué se escala."
       },
       {
-        "title": "Cobertura de Múltiples Zonas Horarias",
-        "description": "Equipos distribuidos que permiten responder llamadas desde cualquier zona horaria de Europa. Perfecto para empresas con clientes internacionales."
+        "title": "Urgencias que llegan a quien tienen que llegar",
+        "description": "Definimos contigo qué es urgente y a quién se avisa, por qué canal y en qué orden. Lo que no es urgente queda registrado para la mañana siguiente."
       },
       {
-        "title": "Tiempo de Respuesta Garantizado",
-        "description": "Máximo 15 segundos de espera en todas las llamadas, incluso en horario nocturno. SLA de disponibilidad del 99.5%."
-      },
-      {
-        "title": "Gestión de Picos de Demanda",
-        "description": "Capacidad para absorber aumentos inesperados de volumen sin degradar calidad. Recursos escalables bajo demanda, incluso a las 3 de la mañana."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Sin turnos propios que cubrir",
+        "description": "Con agentes compartidos cubres noches, fines de semana y festivos sin contratar tres turnos ni gestionar vacaciones y bajas."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
+        "question": "¿Atendéis de verdad a las 3 de la madrugada?",
+        "answer": "Sí. Hay agentes disponibles 24 horas, todos los días del año. Si lo prefieres, la noche la puede cubrir un asistente de IA o una toma de mensajes."
       },
       {
-        "question": "¿Realmente responden a llamadas a las 3 de la mañana?",
-        "answer": "Sí, absolutamente. Tenemos equipos activos en horario nocturno y madrugada. Todas tus llamadas reciben respuesta humana inmediata 24/7/365."
+        "question": "¿Cuánto tarda en contestar un agente?",
+        "answer": "El tiempo de espera suele rondar los 20 segundos. No es una cifra contractual: depende del volumen y de la franja."
       },
       {
-        "question": "¿Cuánto cuesta tener cobertura 24 horas?",
-        "answer": "El servicio 24/7 no exige mínimo de volumen ni permanencia. El precio final depende de volumen de llamadas y servicios adicionales. Consultamos contigo para presupuesto personalizado."
+        "question": "¿Hay recargo por noches, fines de semana o festivos?",
+        "answer": "Sí. Esas franjas llevan recargo respecto al horario de oficina. Te lo detallamos en el presupuesto según las horas que quieras cubrir."
       },
       {
-        "question": "¿Pueden manejar picos de llamadas inesperados?",
-        "answer": "Sí, nuestra capacidad es escalable. Si tienes un pico de volumen, aumentamos recursos automáticamente. Luego ajustamos según tus necesidades reales sin costo de penalización."
+        "question": "¿Cómo se gestionan las urgencias fuera de horario?",
+        "answer": "Con tu protocolo: qué se considera urgente, a quién se avisa, por qué canal y qué hacer si no contesta. Lo no urgente queda registrado para tu equipo."
       },
       {
-        "question": "¿Realmente atendéis 24 horas?",
-        "answer": "Sí, 24/7/365 incluidos festivos y noches. Configuras humano o IA según franja."
+        "question": "¿Dónde veo lo que ha pasado durante la noche?",
+        "answer": "Cada llamada queda registrada en tu herramienta o en un resumen por email, como prefieras: quién llamó, por qué y qué se hizo."
       },
       {
-        "question": "¿Cómo funcionan las llamadas fuera de horario?",
-        "answer": "Siguen tu protocolo: toma de mensaje, filtrado, derivación si es emergencia o agenda de cita."
-      },
-      {
-        "question": "¿Hay sobrecoste nocturno?",
-        "answer": "No. Cobertura 24/7 sin sobrecargos. Mismo precio siempre."
-      },
-      {
-        "question": "¿Cuánto cuesta?",
-        "answer": "Sin recargo por nocturnidad."
-      },
-      {
-        "question": "¿Puedo activar solo cuando la necesite?",
-        "answer": "Sí. Permanente o solo en períodos específicos. Mes a mes."
+        "question": "¿Puedo contratar solo fines de semana o solo vacaciones?",
+        "answer": "Sí. Sin permanencia: cubre solo las franjas o los periodos que necesites."
       }
     ],
     "heroTitle": "Call center 24 horas para tu empresa.",
-    "metaTitle": "Call center 24 horas para empresas | minute call",
-    "metaDescription": "Atención telefónica 24 horas para pymes en España: no pierdas ninguna llamada fuera de horario. Agentes nativos o IA, sin permanencia.",
+    "metaTitle": "Call center 24 horas para empresas | Minute Call",
+    "metaDescription": "Call center 24 horas, 365 días: agentes o IA según la franja, escalado de urgencias y registro de cada llamada. Agentes compartidos o equipo de 1 a 5.",
     "servicio": "Call center 24 horas",
     "clientes": "las empresas",
     "esServicio": true,
@@ -1386,77 +1358,100 @@
         "href": "/lp/call-center-multilingue",
         "label": "Call center multilingüe"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Atención telefónica 24/7 en español e inglés para un grupo europeo.",
+        "context": "Un grupo con presencia en varios países de Europa necesitaba que sus clientes en España tuvieran atención telefónica a cualquier hora, en español y en inglés. El volumen de llamadas no justificaba montar un equipo propio ni contratar un programa con un gran BPO, pero cada llamada tenía que atenderse bien y rápido.",
+        "scope": [
+          "Atención 24 horas, todos los días del año, con la marca del cliente.",
+          "Llamadas en español y en inglés, según el idioma de quien llama.",
+          "Protocolo diseñado a medida con el cliente: qué se resuelve en la llamada, qué se registra y a quién se escala.",
+          "Revisión del protocolo con el cliente cuando cambian sus procesos."
+        ],
+        "outcome": "El 94% de las llamadas se atiende en menos de un minuto. El grupo tiene cobertura continua en España sin dimensionar una plantilla propia para un volumen bajo.",
+        "label": "Grupo europeo · Servicios",
+        "kpis": [
+          {
+            "value": "94%",
+            "label": "llamadas atendidas en menos de 1 minuto"
+          },
+          {
+            "value": "24/7",
+            "label": "todos los días del año"
+          },
+          {
+            "value": "ES · EN",
+            "label": "según el idioma de quien llama"
+          }
+        ]
+      }
+    ],
+    "deepDive": [
+      {
+        "heading": "Qué cambia de noche",
+        "body": "Las llamadas de fuera de horario son distintas: menos volumen, más urgencias reales y más clientes que llaman porque no han podido hacerlo antes.\n\nPor eso cada franja tiene su protocolo. En horario de oficina el agente resuelve todo lo que pueda; de noche lo habitual es **filtrar**: resolver lo sencillo, escalar lo urgente según tu lista de guardia y dejar el resto registrado para tu equipo a primera hora."
+      },
+      {
+        "heading": "Agente, IA o mensajes: cómo elegir",
+        "body": "**Agente 24/7.** Para servicios con urgencias, clientes que esperan una respuesta real o procedimientos con criterio. Hay agentes disponibles a cualquier hora.\n\n**Asistente de IA.** Para volumen nocturno alto y llamadas repetitivas: horarios, estado de un pedido, toma de datos.\n\n**Toma de mensajes.** Cuando de noche entran pocas llamadas y ninguna requiere actuar en el momento.\n\nSe puede combinar: agente hasta medianoche e IA el resto, o agente solo en fines de semana."
+      },
+      {
+        "heading": "Cuánto cuesta cubrir las 24 horas",
+        "body": "Un puesto propio 24/7 exige al menos cinco personas para cubrir turnos, descansos y vacaciones. Con **agentes compartidos** pagas por el uso real, sin mínimo de puestos.\n\nLas noches, los fines de semana y los festivos llevan recargo respecto al horario de oficina; te lo detallamos en el presupuesto según tus franjas y tu volumen. Sin permanencia: puedes activar la cobertura solo en temporada alta o en vacaciones."
+      }
+    ],
+    "faqFrom": 0
   },
   {
     "slug": "outsourcing-atencion-cliente",
     "sector": "Outsourcing de Atención al Cliente",
     "title": "Outsourcing Profesional de Atención Telefónica al Cliente.",
-    "heroTag": "OUTSOURCING INTELIGENTE · Agentes nativos o IA",
-    "heroSubtitle": "Delega la atención al cliente a especialistas mientras tú te enfocas en crecer. Nuestro equipo de agentes profesionales atiende con la calidad que tus clientes merecen, mejorando satisfacción y lealtad. Agentes nativos o IA - tú eliges.",
+    "heroTag": "Outsourcing de atención al cliente",
+    "heroSubtitle": "Externaliza la atención telefónica a tus clientes sin un programa de gran BPO: consultas, incidencias y reclamaciones con tu procedimiento y tu marca. Agentes compartidos o un equipo dedicado de 1 a 5 agentes, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Agentes Especializados en Servicio al Cliente",
-        "description": "Equipo entrenado en empatía, resolución de problemas y satisfacción del cliente. Manejo profesional de consultas, quejas y gestión de expectativas."
+        "title": "Primer nivel resuelto",
+        "description": "Consultas, estado de pedidos o gestiones, cambios de datos e incidencias sencillas se resuelven en la llamada con la información y los accesos que nos des."
       },
       {
-        "title": "Reducción de Costos Operativos 60-70%",
-        "description": "Elimina gastos de nómina, beneficios, oficina y software. Modelo variable según volumen real. Solo pagas por lo que realmente usas."
+        "title": "Segundo nivel bien escalado",
+        "description": "Lo que no se resuelve llega a tu equipo con el caso documentado: quién, qué, desde cuándo y qué se ha hecho ya."
       },
       {
-        "title": "Mejora Inmediata de Satisfacción",
-        "description": "Agentes disponibles inmediatamente, mejor tiempo de respuesta, atención profesional. Medición continua de satisfacción con encuestas post-llamada."
-      },
-      {
-        "title": "Soporte Multicanal y Multiidioma",
-        "description": "Atención en español, inglés y francés. Integración con email, chat y redes sociales. Una solución completa de servicio al cliente."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Convive con tu equipo",
+        "description": "Podemos llevar toda la línea o solo desbordes, horarios ampliados y fines de semana mientras tu equipo atiende el resto."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo evitamos que tus clientes noten la diferencia?",
-        "answer": "Nuestros agentes reciben formación específica en tu sector, productos y procesos. Manejan scripts personalizados y tienen acceso a tu base de datos de clientes. Parecen parte de tu equipo."
-      },
-      {
-        "question": "¿Cuál es el precio del outsourcing de atención al cliente?",
-        "answer": "No exigimos mínimo de volumen ni permanencia, con tarificación variable según el volumen de llamadas. Cada negocio recibe presupuesto personalizado basado en sus métricas reales."
-      },
-      {
-        "question": "¿Puedo monitorear la calidad de atención?",
-        "answer": "Sí, tienes acceso a reportes detallados, grabaciones de llamadas seleccionadas, métricas de satisfacción y KPIs en tiempo real. Transparencia total en nuestro servicio."
-      },
-      {
         "question": "¿Qué incluye el servicio?",
-        "answer": "Recepción de llamadas en tu nombre, filtrado de leads, gestión de citas, toma de mensajes y cobertura fuera de horario."
+        "answer": "Atención telefónica a tus clientes con tu marca: consultas, incidencias de primer nivel, reclamaciones y escalado a tu equipo, en tu horario o 24/7."
       },
       {
-        "question": "¿Cómo se mantiene la identidad de marca?",
-        "answer": "Nuestros agentes usan tu nombre comercial, siguen tu guión y conocen tu oferta. Los clientes no perciben que la atención es externa."
+        "question": "¿Trabajáis con mi herramienta de tickets o CRM?",
+        "answer": "Sí, si tiene acceso web: registramos cada llamada ahí. Si lo prefieres, te enviamos un resumen por email."
       },
       {
-        "question": "¿Qué control tengo?",
-        "answer": "Total. Cada conversación se registra. Informes y ajuste de guión en cualquier momento."
+        "question": "¿Puedo externalizar solo una parte?",
+        "answer": "Sí: solo desbordes, solo fuera de horario, solo una línea o un tipo de llamada."
       },
       {
-        "question": "¿Cuánto cuesta?",
-        "answer": "Sin permanencia. 40-60% de ahorro frente a personal propio."
+        "question": "¿En qué se diferencia de un gran BPO?",
+        "answer": "En el tamaño: no hay mínimo de puestos y trabajamos sin permanencia. Para programas de decenas de agentes, un gran BPO es la opción adecuada."
       },
       {
-        "question": "¿Se puede combinar con equipo interno?",
-        "answer": "Sí. Tu equipo para las especializadas; Minute Call para desbordamiento y fuera de horario."
+        "question": "¿En qué idiomas?",
+        "answer": "Español, inglés y francés, con agentes nativos."
+      },
+      {
+        "question": "¿Cuánto tarda en arrancar?",
+        "answer": "Un servicio estándar, en menos de 48 horas desde que cerramos el procedimiento."
       }
     ],
-    "metaTitle": "Outsourcing de atención al cliente | minute call",
-    "metaDescription": "Externaliza tu atención al cliente con agentes bilingües: mejora la satisfacción, reduce costes, sin mínimo de volumen ni permanencia.",
+    "metaTitle": "Outsourcing de atención al cliente telefónica | Minute Call",
+    "metaDescription": "Outsourcing de atención al cliente sin mínimo de puestos: consultas, incidencias y reclamaciones con tu procedimiento. Agentes compartidos o de 1 a 5.",
     "servicio": "Outsourcing de atención al cliente",
     "clientes": "las empresas",
     "esServicio": true,
@@ -1478,7 +1473,23 @@
         "href": "/articulos/coste-agente-bpo-espana-alternativas",
         "label": "Cuánto cuesta un agente de BPO"
       }
-    ]
+    ],
+    "heroTitle": "Outsourcing de atención al cliente.",
+    "deepDive": [
+      {
+        "heading": "Qué se puede externalizar",
+        "body": "**Consultas.** Información de producto o servicio, condiciones, horarios, estado de una gestión.\n\n**Incidencias.** Apertura, seguimiento y cierre de primer nivel, con escalado al equipo que corresponda.\n\n**Reclamaciones.** Recogida completa del caso y derivación con prioridad.\n\n**Picos y campañas.** Lanzamientos, rebajas o incidencias masivas, sin dimensionar tu plantilla para el pico."
+      },
+      {
+        "heading": "Por qué no un gran BPO",
+        "body": "Los grandes BPO están hechos para programas de muchos agentes y suelen trabajar a partir de equipos de unos diez puestos con contratos largos. Si tu volumen está por debajo, o solo necesitas cubrir algunas franjas, el modelo no encaja.\n\nNosotros trabajamos con **agentes compartidos**, sin mínimo de puestos, o con un **equipo dedicado de 1 a 5 agentes**. Somos partner comercial de Teleperformance: si tu operación crece por encima de ese tamaño, te ayudamos a dar el salto."
+      },
+      {
+        "heading": "Cómo mantenemos tu nivel de servicio",
+        "body": "Partimos de un **procedimiento por escenarios** que escribimos contigo: qué se resuelve, con qué información, qué se escala y en qué plazo.\n\nCada llamada queda registrada en tu herramienta o en un resumen por email. Revisamos el procedimiento contigo cuando cambian tus productos o tus procesos."
+      }
+    ],
+    "faqFrom": 0
   },
   {
     "slug": "centralita-virtual-empresas",
@@ -1506,7 +1517,7 @@
       },
       {
         "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "description": "Agentes nativos en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
       }
     ],
     "faq": [
@@ -1590,68 +1601,52 @@
     "slug": "recepcion-de-llamadas",
     "sector": "Recepción de llamadas",
     "title": "Servicio de recepción de llamadas para empresas.",
-    "heroTag": "Recepción de llamadas para empresas y PYMES",
+    "heroTag": "Recepción de llamadas",
     "heroTitle": "Recepción de llamadas para tu empresa.",
-    "heroSubtitle": "Agentes nativos en España atienden todas las llamadas de tu empresa como si fueran de tu propio equipo. Filtrado, mensajes, citas y cualificación de leads. Sin contratar personal.",
+    "heroSubtitle": "Atendemos las llamadas de tu empresa como lo haría tu recepción: con tu nombre, filtrando, pasando las que importan y registrando el resto. Agentes nativos o IA, en tu horario o 24/7, sin permanencia.",
     "socialProof": "Quien llama rara vez insiste: si no le atiendes, llama al siguiente. Con Minute Call, ninguna llamada queda sin respuesta - ni en hora punta, ni fuera de horario, ni en vacaciones.",
     "features": [
       {
-        "title": "Disponible 24/7",
-        "description": "Tus clientes llaman cuando ellos pueden, no solo cuando estás disponible. Captura leads en cualquier momento."
+        "title": "Filtrado y transferencias",
+        "description": "Pasamos a cada persona solo las llamadas que le corresponden, según tu lista de contactos y prioridades. El resto se resuelve o queda como recado."
       },
       {
-        "title": "Agentes nativos en España",
-        "description": "A diferencia de call centers con agentes en LATAM, nuestros agentes están basados en España y conocen el contexto local."
+        "title": "Recados que se pueden usar",
+        "description": "Quién llamó, de qué empresa, por qué, cómo contactarle y con qué urgencia. En tu herramienta o por email, al momento."
       },
       {
-        "title": "Protocolo personalizado",
-        "description": "Los agentes se forman en tu empresa: nombre comercial, productos, preguntas frecuentes y protocolo de derivación."
-      },
-      {
-        "title": "Sin permanencia",
-        "description": "Mes a mes, cancela cuando quieras. Sin contratos de 12 meses ni penalizaciones por salida anticipada."
+        "title": "Agenda y citas",
+        "description": "Si trabajas con citas, las damos, cambiamos o cancelamos siguiendo tus reglas."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es un servicio de recepción de llamadas?",
-        "answer": "Es un servicio externo donde agentes profesionales atienden las llamadas de tu empresa en tu nombre, siguiendo tu protocolo. El cliente llama a tu número habitual y los agentes responden como si fueran de tu empresa."
-      },
-      {
-        "question": "¿En qué se diferencia de un contestador automático?",
-        "answer": "Un contestador automático genera rechazo en el 70% de los llamantes - la mayoria cuelgan sin dejar mensaje. Un agente humano o IA bien configurado retiene al cliente, recoge la información necesaria y convierte la llamada en una oportunidad."
-      },
-      {
-        "question": "¿Cuánto cuesta un servicio de recepción de llamadas en España?",
-        "answer": "Con Minute Call el precio se ajusta al volumen: el Plan Starter cubre hasta 200 llamadas mensuales en horario comercial y el Plan Business añade cobertura 24/7. Sin costes de activación ni permanencia."
-      },
-      {
-        "question": "¿Cuánto tarda en activarse?",
-        "answer": "Menos de 48 horas desde que firmas. Definimos el protocolo contigo, configuramos el desvío de llamadas a tu número existente y el servicio está operativo. Sin cambiar tu número público."
-      },
-      {
-        "question": "¿Puede el servicio atender en varios idiomas?",
-        "answer": "Si. Minute Call atiende en español, inglés y francés con agentes nativos. Para empresas con clientes internacionales, configuramos la atención según el idioma del llamante."
-      },
-      {
-        "question": "¿Qué pasa con las llamadas fuera de horario?",
-        "answer": "Configuras exactamente que hacer: agente humano 24/7, IA fuera de horario, toma de mensajes o desvío a urgencias. Cada franja horaria puede tener un protocolo distinto según las necesidades de tu negocio."
-      },
-      {
-        "question": "¿Los clientes saben que es un servicio externo?",
-        "answer": "No si no quieres. El 80% de los clientes de nuestros usuarios no saben que es un servicio externo. Los agentes usan el nombre de tu empresa, tu protocolo y tu tono de voz."
-      },
-      {
-        "question": "¿Es compatible con mi sistema de CRM o agenda?",
-        "answer": "Si. Nos integramos con Google Calendar, Outlook, Salesforce, HubSpot y la mayoria de CRMs con acceso web. Los agentes registran cada llamada directamente en tu sistema."
-      },
-      {
         "question": "¿Qué diferencia hay entre recepción de llamadas y call center?",
-        "answer": "Un call center gestiona volumen masivo con scripts estándar para muchas empresas. La recepción de llamadas personalizada de Minute Call actúa como tu propia recepcionista: con tu nombre, tu protocolo y conocimiento real de tu negocio."
+        "answer": "La recepción atiende las llamadas entrantes de tu empresa como lo haría tu propia recepción: filtra, transfiere y toma recados. Un call center suele gestionar programas más amplios, como atención al cliente o ventas."
+      },
+      {
+        "question": "¿Podéis transferir llamadas a mi equipo?",
+        "answer": "Sí, según tu lista de contactos, horarios y prioridades. Si la persona no está, tomamos el recado o la avisamos por el canal que nos digas."
+      },
+      {
+        "question": "¿Cómo recibo los recados?",
+        "answer": "En tu herramienta o por email, como prefieras."
+      },
+      {
+        "question": "¿Puede ser solo para algunas horas?",
+        "answer": "Sí: horario de oficina, mediodías, desbordes o 24/7. Las noches, fines de semana y festivos llevan recargo."
+      },
+      {
+        "question": "¿Atendéis en varios idiomas?",
+        "answer": "Sí, en español, inglés y francés con agentes nativos."
+      },
+      {
+        "question": "¿Hay permanencia?",
+        "answer": "No."
       }
     ],
-    "metaTitle": "Servicio de Recepción de Llamadas para Empresa | minute call",
-    "metaDescription": "Recepción de llamadas profesional para empresas en España. Agentes nativos o IA atienden en nombre de tu empresa las 24h. Sin personal fijo. Prueba gratis.",
+    "metaTitle": "Recepción de llamadas para empresas | Minute Call",
+    "metaDescription": "Recepción de llamadas para empresas: filtrado, transferencias, recados y citas con tu nombre. Agentes nativos o IA, en tu horario o 24/7, sin permanencia.",
     "servicio": "Recepción de llamadas",
     "clientes": "las empresas",
     "esServicio": true,
@@ -1673,7 +1668,22 @@
         "href": "/articulos/precio-recepcionista-virtual-espana-2025",
         "label": "Precio de recepcionista virtual"
       }
-    ]
+    ],
+    "deepDive": [
+      {
+        "heading": "Qué hace una recepción externa",
+        "body": "**Atender con tu nombre.** El saludo, el tono y las respuestas que definas.\n\n**Filtrar.** Distinguir un cliente de un proveedor, un comercial o una llamada equivocada.\n\n**Transferir.** Pasar la llamada a la persona adecuada, o avisarla si no está.\n\n**Resolver lo sencillo.** Horarios, dirección, información básica, estado de una gestión si nos das acceso.\n\n**Registrar.** Todo lo que no se resuelve queda como recado con los datos completos."
+      },
+      {
+        "heading": "Cuándo encaja",
+        "body": "Cuando nadie se dedica en exclusiva al teléfono y las llamadas interrumpen el trabajo; cuando la recepción no cubre mediodías, tardes o vacaciones; o cuando quieres que alguien atienda siempre con el mismo criterio.\n\nPuede ser la recepción completa o solo un apoyo: desbordes, ausencias o fuera de horario."
+      },
+      {
+        "heading": "Agentes, IA o los dos",
+        "body": "Con **agentes compartidos**, personas formadas en tu procedimiento atienden tus llamadas sin que pagues un puesto completo. Si el volumen es alto y estable, un **equipo dedicado de 1 a 5 agentes**.\n\nUn **asistente de IA** encaja para llamadas repetitivas o para cubrir la noche. Puedes combinarlos por franja."
+      }
+    ],
+    "faqFrom": 0
   },
   {
     "slug": "secretaria-virtual",
@@ -1724,7 +1734,7 @@
       },
       {
         "question": "¿Los clientes saben que no es mi propia secretaria?",
-        "answer": "No si no quieres. Nuestros agentes usan el nombre de tu empresa, tu tono y tu protocolo. El 80% de los clientes de nuestros usuarios no perciben que es un servicio externo."
+        "answer": "No si no quieres. Nuestros agentes usan el nombre de tu empresa, tu tono y tu protocolo."
       },
       {
         "question": "¿Qué diferencia hay entre una secretaria virtual y una recepcionista virtual?",
@@ -1794,56 +1804,52 @@
     "slug": "call-center-para-pymes",
     "sector": "Call center para pymes",
     "title": "Call center para pymes y pequeñas empresas.",
-    "heroTag": "Call center externo para pymes en España",
-    "heroTitle": "El call center que cabe en el presupuesto de una pyme.",
-    "heroSubtitle": "Agentes nativos atienden las llamadas de tu empresa desde el primer día. Sin infraestructura, sin costes fijos, sin mínimos de volumen. Solo pagas por lo que usas.",
+    "heroTag": "Call center para PYMES",
+    "heroTitle": "Call center para PYMES.",
+    "heroSubtitle": "Atendemos las llamadas de tu empresa con agentes nativos o con IA, con tu nombre y tu procedimiento. Agentes compartidos sin mínimo de puestos, o un equipo dedicado de 1 a 5 agentes cuando crece el volumen. Sin permanencia.",
     "socialProof": "Montar un call center interno supone un coste elevado en personal, tecnología y espacio. Minute Call lo gestiona todo a medida. La diferencia financia otras cosas.",
     "features": [
       {
-        "title": "Sin contrato de permanencia",
-        "description": "Activa el servicio hoy y cancela cuando quieras. Sin penalizaciones, sin letra pequeña. Diseñado para que las pymes tengan la misma flexibilidad que las grandes empresas."
+        "title": "Sin mínimo de puestos",
+        "description": "Los grandes call centers montan equipos a partir de unos diez puestos. Con agentes compartidos pagas por el uso real, aunque entren pocas llamadas al día."
       },
       {
-        "title": "Agentes que conocen tu empresa",
-        "description": "No es un contestador automático. Son personas reales que saben cómo se llama tu empresa, qué ofreces y cómo gestionar cada tipo de llamada según tus instrucciones."
+        "title": "Tu procedimiento, no un guion genérico",
+        "description": "Antes de empezar definimos contigo qué tipos de llamada recibes, qué se resuelve en la llamada, qué se registra y qué se escala."
       },
       {
-        "title": "Presupuesto personalizado",
-        "description": "Un precio que entra en cualquier presupuesto de pyme. Sin costes de setup, sin hardware, sin formación interna. Empieza a recibir llamadas atendidas en 48 horas."
+        "title": "Crece sin cambiar de proveedor",
+        "description": "Empiezas con agentes compartidos y, si el volumen lo justifica, pasas a un equipo dedicado de 1 a 5 agentes con el mismo procedimiento."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué diferencia hay entre un call center para pymes y uno para grandes empresas?",
-        "answer": "Los call centers para grandes empresas exigen volúmenes mínimos de cientos de llamadas al día, contratos largos y plataformas tecnológicas complejas. Un call center para pymes como Minute Call se adapta a volúmenes pequeños - desde 20 llamadas al mes - con precios proporcionales, sin permanencia y con configuración en 48 horas."
+        "question": "¿Hay un mínimo de llamadas o de puestos?",
+        "answer": "No. Con agentes compartidos no hay mínimo de puestos ni de volumen."
       },
       {
-        "question": "¿Cuánto cuesta contratar un call center externo para una pyme?",
-        "answer": "Depende del volumen. Minute Call empieza a medida para pymes con volúmenes bajos. Los call centers tradicionales suelen exigir mínimos de un coste elevado. La diferencia está en que Minute Call cobra por uso real, no por capacidad reservada."
+        "question": "¿En cuánto tiempo está operativo?",
+        "answer": "Un servicio estándar, en menos de 48 horas desde que definimos el procedimiento. Uno con muchos escenarios o integraciones arranca cuando está listo y probado."
       },
       {
-        "question": "¿Pueden los agentes atender llamadas como si fueran de mi empresa?",
-        "answer": "Sí. Los agentes se presentan con el nombre de tu empresa, siguen tus instrucciones de atención y gestionan cada llamada según los protocolos que tú defines. El cliente no percibe que es un servicio externo."
+        "question": "¿Puedo contratar solo algunas franjas?",
+        "answer": "Sí: solo desbordes, solo mediodías, solo fuera de horario o la línea completa. Las noches, fines de semana y festivos llevan recargo."
       },
       {
-        "question": "¿Qué pasa con las llamadas fuera de horario?",
-        "answer": "Puedes activar cobertura 24/7 o limitarla a tu horario comercial. Fuera de ese horario, el sistema puede dejar un mensaje personalizado, registrar el dato de contacto o desviar a un número de urgencia. Tú decides."
+        "question": "¿Mis clientes notarán que es un servicio externo?",
+        "answer": "Los agentes atienden con el nombre de tu empresa y siguen tu procedimiento y tu tono."
       },
       {
-        "question": "¿En cuánto tiempo está operativo el servicio?",
-        "answer": "En 48 horas hábiles desde que defines el protocolo de atención. Te guiamos en el proceso - solo necesitas decirnos cómo quieres que se atienda cada tipo de llamada."
+        "question": "¿En qué se diferencia de un gran call center?",
+        "answer": "Los grandes call centers trabajan con equipos de unos diez puestos en adelante y contratos largos. Nosotros trabajamos con agentes compartidos o equipos de 1 a 5 agentes, sin permanencia. Somos partner comercial de Teleperformance."
       },
       {
-        "question": "¿Puedo contratar el servicio solo para ciertos horarios o días?",
-        "answer": "Sí. Puedes activar la cobertura solo de lunes a viernes en horario comercial, añadir fines de semana, o solo para horas punta. El servicio se ajusta exactamente a lo que necesitas."
-      },
-      {
-        "question": "¿Qué diferencia hay entre Minute Call y un call center tradicional?",
-        "answer": "Los call centers tradicionales están diseñados para grandes empresas con cientos de llamadas diarias. Minute Call está pensado específicamente para pymes: precio ajustado al volumen real de llamadas, onboarding en 48 horas y agentes que aprenden tu negocio en profundidad, no ejecutan un guión genérico."
+        "question": "¿Atendéis en otros idiomas?",
+        "answer": "Sí, en español, inglés y francés con agentes nativos."
       }
     ],
-    "metaTitle": "Call center para pymes en España | minute call",
-    "metaDescription": "Call center externo para pymes en España: agentes nativos atienden en nombre de tu empresa. Sin nóminas, infraestructura ni permanencia.",
+    "metaTitle": "Call center para PYMES sin mínimo de puestos | Minute Call",
+    "metaDescription": "Call center para PYMES: agentes compartidos sin mínimo de puestos o equipo dedicado de 1 a 5 agentes. Tu procedimiento, tu nombre, sin permanencia.",
     "servicio": "Call center para pymes",
     "clientes": "las empresas",
     "esServicio": true,
@@ -1865,7 +1871,22 @@
         "href": "/lp/call-center-para-empresas",
         "label": "Call center para empresas"
       }
-    ]
+    ],
+    "deepDive": [
+      {
+        "heading": "Para qué PYMES tiene sentido",
+        "body": "Funciona cuando el teléfono importa pero no justifica un puesto propio, o cuando el equipo que lo atiende también hace otra cosa:\n\n**Desbordes y hora punta.** Las llamadas que tu equipo no puede coger.\n\n**Mediodías, tardes y vacaciones.** Franjas en las que hoy salta el buzón.\n\n**Fuera de horario.** Con agente, IA o toma de mensajes.\n\n**Línea completa.** Toda la atención telefónica, con tu equipo solo para lo que escalamos."
+      },
+      {
+        "heading": "Cómo empezamos",
+        "body": "**1. Diagnóstico.** Repasamos los tipos de llamada, el horario y a quién hay que avisar en cada caso.\n\n**2. Procedimiento.** Lo convertimos en escenarios concretos y formamos a los agentes sobre él.\n\n**3. Operación.** Desviamos tus llamadas y registramos cada una en tu herramienta o en un resumen por email. Un servicio estándar arranca en menos de 48 horas."
+      },
+      {
+        "heading": "Agentes compartidos o equipo dedicado",
+        "body": "Con **agentes compartidos**, un equipo formado en tu procedimiento atiende tus llamadas con tu nombre y también las de otras empresas. Es lo más eficiente con volúmenes bajos o irregulares.\n\nCon un **equipo dedicado de 1 a 5 agentes**, esas personas solo atienden a tu empresa en el horario pactado. Encaja con volumen estable durante la jornada o procesos que requieren mucho conocimiento propio."
+      }
+    ],
+    "faqFrom": 0
   },
   {
     "slug": "call-center-multilingue",
