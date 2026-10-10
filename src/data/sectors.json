@@ -2978,15 +2978,15 @@
     "title": "Call center para medianas y grandes empresas.",
     "heroTag": "Call center para empresas",
     "heroTitle": "Call center para medianas y grandes empresas.",
-    "heroSubtitle": "Sin mínimo de puestos: equipos de 1 a 5 agentes, dedicados o compartidos, con atención 24/7 y tus procedimientos al detalle. Para las líneas, franjas y desbordes que un gran BPO no dimensiona. Agentes nativos en España, en español, inglés y francés.",
+    "heroSubtitle": "Sin mínimo de puestos: agentes compartidos formados en tu procedimiento o equipos dedicados de 1 a 5 agentes, con atención 24/7 y tus procedimientos al detalle. Para las líneas, franjas y desbordes que un gran BPO no dimensiona. Agentes nativos en España, en español, inglés y francés.",
     "socialProof": "Partner comercial de Teleperformance · Atención 24/7 para un grupo europeo y para una multinacional farmacéutica",
     "features": [
       {
         "title": "Sin mínimo de puestos",
-        "description": "Empezamos con un solo agente dedicado o con un equipo compartido. Creces cuando crece tu volumen, sin contratos dimensionados para otra empresa."
+        "description": "Estamos especializados en agentes compartidos: cubren tu línea sin que pagues puestos completos. Si crece el volumen, montamos un equipo dedicado de 1 a 5 agentes."
       },
       {
-        "title": "Dedicados, compartidos o mixtos",
+        "title": "Compartidos, dedicados o mixtos",
         "description": "Agentes dedicados en tu horario laboral y equipo compartido por la noche y el fin de semana: atención 24/7 sin pagar turnos completos."
       },
       {
@@ -3014,7 +3014,7 @@
     "faq": [
       {
         "question": "¿Cuál es el mínimo de agentes?",
-        "answer": "No hay mínimo. Podemos empezar con un solo agente dedicado o con un equipo compartido formado en tu protocolo, y ampliar cuando crezca el volumen."
+        "answer": "No hay mínimo. Lo habitual es empezar con agentes compartidos formados en tu protocolo y, si el volumen crece, pasar a un equipo dedicado de 1 a 5 agentes."
       },
       {
         "question": "¿Qué diferencia hay entre agentes dedicados y compartidos?",
@@ -3022,7 +3022,7 @@
       },
       {
         "question": "¿Por qué no contratar directamente un gran BPO?",
-        "answer": "Si necesitas decenas de agentes, es la opción razonable. Para equipos de uno a cinco agentes, cobertura 24/7 con poco volumen o varios idiomas con pocas llamadas, un equipo a medida encaja mejor."
+        "answer": "Si necesitas decenas de agentes, es la opción razonable. Cuando el volumen cabe en agentes compartidos o en un equipo dedicado de 1 a 5 agentes, con cobertura 24/7 o varios idiomas con pocas llamadas, un servicio a medida encaja mejor."
       },
       {
         "question": "¿Trabajáis con empresas grandes o solo con pymes?",
@@ -3054,10 +3054,10 @@
       }
     ],
     "metaTitle": "Call center para empresas sin mínimos | minute call",
-    "metaDescription": "Call center para medianas y grandes empresas sin mínimo de puestos: de 1 a 5 agentes dedicados o compartidos, atención 24/7 y procedimientos a medida.",
+    "metaDescription": "Call center para empresas sin mínimo de puestos: agentes compartidos o equipos dedicados de 1 a 5 agentes, atención 24/7 y procedimientos a medida.",
     "deepDive": [
       {
-        "heading": "Por qué los grandes BPO no dimensionan equipos de 1 a 5 agentes",
+        "heading": "Por qué los grandes BPO no trabajan con equipos pequeños",
         "body": "Un gran BPO está diseñado para operar programas de muchos agentes, en varios países y con procesos muy industrializados. En nuestra experiencia, los proyectos que aceptan parten de equipos de unas diez personas. Es una consecuencia lógica de su modelo, no una carencia.\n\nEl problema es que muchas necesidades reales de empresas medianas y grandes son más pequeñas: una línea de distribuidores, la atención fuera de horario, un desborde en campañas o una línea en inglés con pocas llamadas al día. Para eso hace falta un equipo que conozca tu procedimiento a fondo, no un equipo grande.\n\n**El modelo compartido** es la diferencia principal: un equipo formado en tu protocolo que atiende también a otras empresas. Permite cubrir 24/7 con poco volumen sin pagar tres turnos de agentes dedicados."
       },
       {
