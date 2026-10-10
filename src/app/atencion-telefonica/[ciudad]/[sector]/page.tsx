@@ -110,9 +110,6 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
           <Ed tag="Contexto local" title={<>Por qué {clientes} de {city.city} necesitan atención telefónica profesional.</>} flush={false}>
             <p className="lead2">{city.localContext}</p>
             <p className="lead2">
-              {city.stats?.callsLost
-                ? `En ${city.city} el patrón es conocido: ${city.stats.callsLost.toLowerCase()}. `
-                : ''}
               Para <strong>{clientes}</strong> de {city.city} ({city.region}), cada llamada perdida es un cliente que llama al siguiente de la lista. Atendemos todas las llamadas en nombre de tu empresa, con agentes formados específicamente para {clientesPlano}.
             </p>
             {city.keySectors && city.keySectors.length > 0 && (

@@ -3,9 +3,9 @@ import Link from "next/link";
 import cities from "@/data/cities.json";
 import sectors from "@/data/sectors.json";
 import indexables from "@/data/city-sector-indexables.json";
-import { CITY_SECTOR_INDEXABLE } from "@/lib/seo/noindex";
+import { CITY_SECTOR_INDEXABLE, INDEXABLE_CITIES } from "@/lib/seo/noindex";
 import { FAQPageSchema, BreadcrumbSchema, CityLocalBusinessSchema, CityServiceSchema } from "@/components/JsonLd";
-import { BrandPage, Hero, Ed, Stats, Faq, Chips, CtaFinal, splitFigure } from "@/components/brand/Sections";
+import { BrandPage, Hero, Ed, Faq, Chips, CtaFinal } from "@/components/brand/Sections";
 
 export async function generateStaticParams() {
   return cities.map((city) => ({
@@ -31,19 +31,20 @@ export async function generateMetadata({
     alternates: {
       canonical: `/atencion-telefonica/${ciudad}`,
     },
+    robots: INDEXABLE_CITIES.has(ciudad) ? undefined : { index: false, follow: true },
     openGraph: {
       title: city.metaTitle,
       description: city.metaDescription,
       type: "website",
       locale: "es_ES",
       url: `https://www.minute-call.com/atencion-telefonica/${ciudad}`,
-      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: city.metaTitle }],
+      images: [{ url: "/og-image.png?v=2", width: 1200, height: 630, alt: city.metaTitle }],
     },
     twitter: {
       card: "summary_large_image" as const,
       title: city.metaTitle,
       description: city.metaDescription,
-      images: ["/og-image.png"],
+      images: ["/og-image.png?v=2"],
     },
   };
 }
@@ -195,9 +196,12 @@ export default async function CityPage({
 
         <Ed tag="Contexto local" title={<>Atención telefónica adaptada a {city.city}.</>} flush={false}>
           {(() => {
+            if (city.localContext.includes("\n\n")) {
+              return city.localContext.split("\n\n").map((p, i) => <p className="lead2" key={i}>{p}</p>);
+            }
             const sentences = city.localContext.split(". ");
             const mid = Math.ceil(sentences.length / 2);
-            const p1 = sentences.slice(0, mid).join(". ") + (sentences.length > 1 ? "." : "");
+            const p1 = sentences.slice(0, mid).join(". ") + (sentences.length > 1 && !sentences[mid - 1].endsWith(".") ? "." : "");
             const p2 = sentences.slice(mid).join(". ");
             return (
               <>
@@ -206,12 +210,6 @@ export default async function CityPage({
               </>
             );
           })()}
-          <Stats
-            items={[
-              { value: city.stats.pymes, label: `PYMES en ${city.city}` },
-              splitFigure(city.stats.callsLost) ?? { value: "!", label: city.stats.callsLost },
-            ]}
-          />
           {(city as { sectorContext?: string }).sectorContext && (
             <p className="lead2">{(city as { sectorContext?: string }).sectorContext}</p>
           )}
@@ -235,10 +233,9 @@ export default async function CityPage({
         )}
 
         {city.topSectors && city.topSectors.length > 0 && (
-          <Ed tag="Más demandados" title={<>Sectores que más nos llaman desde {city.city}.</>}>
+          <Ed tag="Por sector" title="Cómo trabajamos según tu sector.">
             <p className="lead2">
-              Si tienes un negocio en {city.city}, estos son los sectores que más se benefician de nuestro servicio de
-              atención telefónica.
+              Cada sector tiene su propio procedimiento: qué se resuelve en la llamada, qué se registra y qué se escala.
             </p>
             <Chips
               links={city.topSectors.map((sector: { slug: string; title: string }) => ({

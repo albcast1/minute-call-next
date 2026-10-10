@@ -41,15 +41,8 @@ function optionalString(record: object, key: string): string | undefined {
 
 /** Language landing pages that live as their own route files. */
 const LANGUAGE_PAGES: Record<string, string> = {
-  'call-center-en-aleman': 'Call center en alemán',
-  'call-center-en-danes': 'Call center en danés',
   'call-center-en-frances': 'Call center en francés',
-  'call-center-en-hebreo': 'Call center en hebreo',
-  'call-center-en-holandes': 'Call center en holandés',
   'call-center-en-ingles': 'Call center en inglés',
-  'call-center-en-italiano': 'Call center en italiano',
-  'call-center-en-noruego': 'Call center en noruego',
-  'call-center-en-sueco': 'Call center en sueco',
 }
 
 /**
@@ -399,7 +392,7 @@ function cityDoc(city: City): string {
     '',
     city.localContext,
     '',
-    '## Sectores con más demanda',
+    '## Por sector',
     '',
     ...city.topSectors.map((s) => link(s.title.replace(/\.$/, ''), `/atencion-telefonica/${city.slug}/${s.slug}`)),
     faqSection(city.faq),

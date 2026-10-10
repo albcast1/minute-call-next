@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ATTR_KEY } from "@/components/AttributionCapture";
 
 const FORM_BG = "var(--bg)";
 
@@ -20,6 +21,13 @@ export default function ContactForm() {
     fd.forEach((v, k) => {
       data[k] = String(v);
     });
+    // Origen de la visita (UTM, oppref, gclid, referrer), guardado por AttributionCapture.
+    try {
+      const attr = JSON.parse(sessionStorage.getItem(ATTR_KEY) || "{}") as Record<string, string>;
+      for (const [k, v] of Object.entries(attr)) data[k] = v;
+    } catch {
+      /* sin origen */
+    }
 
     try {
       const res = await fetch("https://formspree.io/f/xjgdbkgj", {
@@ -29,6 +37,8 @@ export default function ContactForm() {
       });
 
       if (res.ok) {
+        // Evento para Tag Manager (conversión de GA4 / Ads y, más adelante, el píxel de OpenAI).
+        (window as unknown as { dataLayer?: unknown[] }).dataLayer?.push({ event: "generate_lead", form: "reserva_llamada" });
         setSubmitted(true);
       } else {
         setError("Error al enviar. Inténtalo de nuevo.");

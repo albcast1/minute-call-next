@@ -3,7 +3,7 @@ import sectors from '@/data/sectors.json'
 import cities from '@/data/cities.json'
 import articles from '@/data/articles.json'
 import indexables from '@/data/city-sector-indexables.json'
-import { NOINDEX_ARTICLES, CITY_SECTOR_INDEXABLE } from '@/lib/seo/noindex'
+import { NOINDEX_ARTICLES, CITY_SECTOR_INDEXABLE, INDEXABLE_CITIES } from '@/lib/seo/noindex'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.minute-call.com'
@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/sobre-nosotros`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/reserva-llamada`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/comparar`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/call-center-en-ingles`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/call-center-en-frances`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/calculadora-roi`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/articulos`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${baseUrl}/docs`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 },
@@ -39,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  const cityPages = cities.map(city => ({
+  const cityPages = cities.filter(city => INDEXABLE_CITIES.has(city.slug)).map(city => ({
     url: `${baseUrl}/atencion-telefonica/${city.slug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,

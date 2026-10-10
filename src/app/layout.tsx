@@ -8,6 +8,7 @@ import BrandMotion from "@/components/brand/BrandMotion";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Script from "next/script";
+import AttributionCapture from "@/components/AttributionCapture";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://www.minute-call.com",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.png?v=2",
         width: 1200,
         height: 630,
         alt: "Minute Call – Call center y atención telefónica para PYMES",
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     title: "Minute Call | Call center para PYMES y grandes empresas",
     description:
       "Call center para PYMES y grandes empresas: agentes compartidos o equipos dedicados de 1 a 5 agentes, 24/7.",
-    images: ["/og-image.png"],
+    images: ["/og-image.png?v=2"],
   },
   icons: {
     icon: [
@@ -123,7 +124,7 @@ export default function RootLayout({
                 "alternateName": "Minute Call",
                 "url": "https://www.minute-call.com",
                 "logo": { "@type": "ImageObject", "url": "https://www.minute-call.com/logo.png" },
-                "image": "https://www.minute-call.com/og-image.png",
+                "image": "https://www.minute-call.com/og-image.png?v=2",
                 "description":
                   "Call center y atención telefónica 24/7 para PYMES y grandes empresas en España: agentes compartidos o equipos dedicados de 1 a 5 agentes, nativos o IA. Sin mínimo de puestos ni permanencia.",
                 "foundingDate": "2024",
@@ -145,7 +146,10 @@ export default function RootLayout({
                 },
                 "sameAs": [
                   "https://es.trustpilot.com/review/minute-call.com",
-                  "https://es.linkedin.com/company/minute-call"
+                  "https://es.linkedin.com/company/minute-call",
+                  "https://clutch.co/profile/minute-call",
+                  "https://www.sortlist.com/agency/minute-call",
+                  "https://www.goodfirms.co/company/minute-call"
                 ],
                 "knowsAbout": [
                   "Atención telefónica 24/7",
@@ -190,6 +194,7 @@ export default function RootLayout({
             que es lo que dejo de registrar datos entre el 28 de agosto y la
             reverificacion de la propiedad. Sin cookies y sin datos personales. */}
         <Analytics />
+        <AttributionCapture />
       </body>
     </html>
   );

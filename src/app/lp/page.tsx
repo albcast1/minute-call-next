@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_ES",
     url: "https://www.minute-call.com/lp",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Call center para cada sector" }],
+    images: [{ url: "/og-image.png?v=2", width: 1200, height: 630, alt: "Call center para cada sector" }],
   },
 };
 

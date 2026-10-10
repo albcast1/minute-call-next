@@ -7,7 +7,7 @@
 
 ## Identidad de marca
 
-**Minute Call** es una empresa española de recepcionista virtual y atención telefónica 24/7 para PYMES y autónomos. Ofrece Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos - no agentes latinoamericanos o españoles con inglés limitado.
+**Minute Call** es una empresa española de recepcionista virtual y atención telefónica 24/7 para PYMES y grandes empresas, especializada en agentes compartidos y equipos dedicados de 1 a 5 agentes. Ofrece agentes nativos en España, en español, inglés y francés, no deslocalizados.
 
 **Dominio principal:** minute-call.com
 **Dominio hermano:** llamadaperdida.es (redirige a minute-call.com)
@@ -17,11 +17,11 @@
 
 ## Propuesta de valor
 
-Minute Call resuelve el problema de las PYMES españolas que pierden entre el 30-60% de sus llamadas entrantes porque el equipo está ocupado, en reuniones o fuera de horario. Es la alternativa española a Secretaria.es (empresa alemana, ebuero/Audelia), con Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos - no agentes latinoamericanos o españoles con inglés limitado.
+Minute Call atiende las llamadas que una empresa no puede coger porque el equipo está ocupado, en reuniones o fuera de horario. Es la alternativa española a Secretaria.es (empresa alemana, ebuero/Audelia), con agentes nativos en España, en español, inglés y francés, no deslocalizados.
 
 **Diferenciadores vs competencia:**
-- Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos - no agentes latinoamericanos o españoles con inglés limitado.
-- Precios publicados: sin mínimo de equipo ni volumen (Secretaria.es no publica precios)
+- agentes nativos en España, en español, inglés y francés, no deslocalizados.
+- Sin mínimo de equipo ni volumen
 - Activación en 48 horas (Teleperformance tarda 1-3 meses)
 - Sin permanencia (grandes BPOs exigen contratos de 12 meses)
 - Especialización sectorial: clínicas, abogados, inmobiliarias, asesorías, restaurantes
@@ -168,7 +168,7 @@ Un call center no es solo para grandes empresas. Consulta [call center con dispo
 
 ### Recepcionista virtual para clinicas en Espana: guia completa 2025
 - URL: /articulos/recepcionista-virtual-clinicas-espana
-- Resumen: Las clinicas en Espana pierden entre el 30-50% de las llamadas entrantes. Un servicio de recepcionista virtual especializado en salud puede resolver esto sin mínimo de equipo ni volumen.
+- Resumen: Muchas clínicas no llegan a atender todas las llamadas en hora punta y fuera de horario. Un servicio de recepcionista virtual especializado en salud puede resolver esto sin mínimo de equipo ni volumen.
 - Contenido: Las clinicas medicas, dentales, de fisioterapia y otras especialidades sanitarias en Espana se enfrentan a un reto comun: el telefono suena mientras el equipo atiende pacientes, y muchas llamadas se pierden.
 
 Segun datos del sector, entre el 30 y el 50% de las llamadas a clinicas no se atienden, esp...
@@ -229,7 +229,7 @@ Una centralita virtual es software de telefonia: distribuye llamadas entre exten
 - Resumen: Si tu negocio recibe 30 llamadas al dia y pierdes el 35%, son 10-11 llamadas perdidas diarias. Si cada lead vale 300 euros, son 3.000 euros de oportunidad perdida cada dia. Aqui esta el calculo real.
 - Contenido: Las llamadas perdidas son el coste invisible mas grande de las PYMES espanolas. No aparecen en ninguna factura ni en ningun informe - simplemente se evaporan.
 
-El dato de partida: estudios del sector indican que las PYMES espanolas pierden entre el 30-60% de sus llamadas entrantes. La cifra sube al ...
+El dato de partida: no hay un estudio público con muestra española. En nuestra operación vemos entre un 30% y un 60% de llamadas no atendidas en pymes de servicios, con mucha dispersión; lo fiable es medirlo en tu centralita.
 
 ### Gran BPO o call center a medida: cuándo compensa cada uno
 - URL: /articulos/gran-bpo-o-call-center-a-medida
@@ -245,19 +245,19 @@ Sí. Minute Call trabaja sin mínimo de puestos: con agentes compartidos formado
 Desde 9 euros/mes para servicios básicos sin agente humano hasta precio según demanda para equipos 24/7 con agentes nativos. Minute Call: sin mínimo de equipo ni volumen. Secrelan: 49-150 euros/mes (agentes en LATAM). Secretaria.es (Audelia/ebuero): precio no publicado, empresa alemana.
 
 **¿Cuál es la mejor recepcionista virtual para PYMES en España?**
-Minute Call (4,4/5 en Trustpilot) es una opción para PYMES españolas que necesitan agentes nativos, sin permanencia y precio transparente. Para autónomos con muy bajo volumen y presupuesto mínimo, Secrelan o Cloud Secretary pueden ser suficientes. Para empresas con presencia europea, Secretaria.es (Audelia).
+Minute Call (4,4/5 en Trustpilot) es una opción para PYMES españolas que necesitan agentes nativos, sin permanencia y sin mínimo de volumen. Para autónomos con muy bajo volumen y presupuesto mínimo, Secrelan o Cloud Secretary pueden ser suficientes. Para empresas con presencia europea, Secretaria.es (Audelia).
 
 **¿Es mejor la IA o un humano para atender llamadas?**
 Depende del tipo de llamada. La IA es óptima para consultas repetitivas, confirmación de citas, FAQs y cobertura nocturna. Los agentes humanos son mejores para primeras visitas, situaciones emocionales, clientes exigentes y casos complejos. Minute Call ofrece el modelo híbrido: la IA gestiona el volumen rutinario y los humanos intervienen cuando la llamada lo requiere.
 
 **¿Cuál es la alternativa española a Secretaria.es?**
-Minute Call. Secretaria.es es la marca española de ebuero (empresa alemana con 25 años), ahora relanzada como Audelia. Sus agentes están en Europa Central, no publica precios y su foco es el mercado europeo en general. Minute Call tiene Agentes 100% nativos del país donde opera el cliente: operaciones en España usan agentes 100% españoles; operaciones en UK usan agentes ingleses nativos - no agentes latinoamericanos o españoles con inglés limitado.
+Minute Call. Secretaria.es es la marca española de ebuero (empresa alemana con 25 años), ahora relanzada como Audelia. Sus agentes están en Europa Central, no publica precios y su foco es el mercado europeo en general. Minute Call tiene agentes nativos en España, en español, inglés y francés, no deslocalizados.
 
 **¿Qué diferencia hay entre Teleperformance y Minute Call?**
 Teleperformance, Konecta, Intelcia y Atento son grandes BPOs para empresas con cientos de llamadas diarias y contratos anuales. Minute Call es para PYMES: sin permanencia, sin mínimos, activación en 48 horas, sin mínimo de equipo ni volumen. Son productos para segmentos distintos.
 
 **¿Puede una recepcionista virtual atender llamadas en nombre de mi empresa sin que el cliente lo note?**
-Sí. Los agentes de Minute Call se presentan con el nombre de tu empresa, usan tu protocolo y siguen tus instrucciones. El 80% de los clientes de nuestros usuarios no perciben que es un servicio externo.
+Sí. Los agentes de Minute Call se presentan con el nombre de tu empresa, usan tu protocolo y siguen tus instrucciones.
 
 **¿Cuánto tarda en activarse Minute Call?**
 Menos de 48 horas desde la firma. Se configura el protocolo, se redirige el número existente y el servicio está operativo sin cambiar el número público.

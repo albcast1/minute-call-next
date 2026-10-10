@@ -739,6 +739,10 @@
         "label": "Guía: gran BPO o call center a medida"
       },
       {
+        "href": "/lp/call-center-multilingue",
+        "label": "Call center multilingüe"
+      },
+      {
         "href": "/lp/call-center-farmaceuticas",
         "label": "Farmacéuticas y laboratorios"
       },
@@ -1379,8 +1383,8 @@
         "label": "Llamadas en vacaciones y festivos"
       },
       {
-        "href": "/articulos/mejores-soluciones-atencion-telefonica-multilingue",
-        "label": "Atención telefónica multilingüe"
+        "href": "/lp/call-center-multilingue",
+        "label": "Call center multilingüe"
       }
     ]
   },
@@ -1862,5 +1866,93 @@
         "label": "Call center para empresas"
       }
     ]
+  },
+  {
+    "slug": "call-center-multilingue",
+    "sector": "empresas con clientes internacionales",
+    "title": "Call center multilingüe.",
+    "heroTitle": "Call center multilingüe en español, inglés y francés.",
+    "heroTag": "Call center multilingüe",
+    "heroSubtitle": "Atendemos a tus clientes en español, inglés y francés con agentes nativos en España, 24/7. Agentes compartidos para pocas llamadas por idioma o un equipo dedicado de 1 a 5 agentes, sin permanencia.",
+    "socialProof": "Partner comercial de Teleperformance",
+    "features": [
+      {
+        "title": "Nativos en cada idioma",
+        "description": "Quien atiende en inglés o en francés es nativo: entiende el registro, los acentos y lo que no se dice."
+      },
+      {
+        "title": "Pocas llamadas por idioma",
+        "description": "Con agentes compartidos cubres una línea en inglés o en francés sin pagar un puesto completo por idioma."
+      },
+      {
+        "title": "El idioma de quien llama",
+        "description": "Un mismo número o uno por idioma: el agente atiende en el idioma del cliente con el mismo procedimiento."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿En qué idiomas atendéis?",
+        "answer": "En español, inglés y francés, con agentes nativos en cada idioma."
+      },
+      {
+        "question": "¿Cuántas llamadas en inglés o francés hacen falta?",
+        "answer": "No hay mínimo. Con agentes compartidos se puede cubrir una línea con pocas llamadas al día; si el volumen crece, montamos un equipo dedicado de 1 a 5 agentes."
+      },
+      {
+        "question": "¿Un número por idioma o uno solo?",
+        "answer": "Las dos opciones funcionan: un número por idioma o un número único en el que el agente atiende en el idioma de quien llama."
+      },
+      {
+        "question": "¿Atendéis 24/7 en los tres idiomas?",
+        "answer": "Sí. Es el caso de un grupo europeo al que atendemos 24/7 en español y en inglés, con el 94% de las llamadas atendidas en menos de un minuto."
+      },
+      {
+        "question": "¿Quién atiende las llamadas: personas o IA?",
+        "answer": "Tú eliges. La IA encaja para consultas repetitivas; las llamadas con clientes internacionales que piden criterio las atiende una persona nativa."
+      },
+      {
+        "question": "¿Hay permanencia?",
+        "answer": "No. El servicio es mes a mes y el precio depende del volumen, del horario y de si los agentes son compartidos o dedicados."
+      }
+    ],
+    "faqFrom": 0,
+    "deepDive": [
+      {
+        "heading": "Cuándo necesitas atención en varios idiomas",
+        "body": "**Clientes internacionales en España.** Turismo, inmobiliaria, salud privada o educación con clientes que llaman en inglés o en francés.\n\n**Empresas extranjeras con clientes en España.** Grupos europeos que necesitan una línea en España atendida en español y en el idioma de su sede.\n\n**Líneas concretas.** Distribuidores, pacientes o proveedores de otros países que llaman a horas en las que tu equipo no está."
+      },
+      {
+        "heading": "Por qué agentes compartidos",
+        "body": "Una línea en inglés o en francés suele tener pocas llamadas al día, pero cada una tiene que atenderse bien. Contratar a una persona nativa por idioma no compensa, y un gran BPO no monta un programa para ese volumen.\n\nCon **agentes compartidos** formados en tu procedimiento, cada idioma está cubierto sin pagar un puesto completo. Si el volumen crece, pasamos a un **equipo dedicado de 1 a 5 agentes**."
+      },
+      {
+        "heading": "Caso real",
+        "body": "Un grupo europeo con presencia en varios países necesitaba atención 24/7 en España, en español y en inglés, con un volumen que no justificaba un equipo propio. Lo atendemos con agentes nativos y un procedimiento diseñado con el cliente: el 94% de las llamadas se atiende en menos de un minuto."
+      }
+    ],
+    "related": [
+      {
+        "href": "/call-center-en-ingles",
+        "label": "Call center en inglés"
+      },
+      {
+        "href": "/call-center-en-frances",
+        "label": "Call center en francés"
+      },
+      {
+        "href": "/articulos/mejores-soluciones-atencion-telefonica-multilingue",
+        "label": "Atención telefónica multilingüe: opciones"
+      },
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para empresas"
+      }
+    ],
+    "metaTitle": "Call center multilingüe ES, EN y FR | minute call",
+    "metaDescription": "Call center multilingüe con agentes nativos en España: español, inglés y francés 24/7. Agentes compartidos o equipo dedicado, sin permanencia.",
+    "clientes": "las empresas con clientes internacionales",
+    "servicio": "Call center multilingüe",
+    "esServicio": true,
+    "servicioCorto": "Call center multilingüe"
   }
 ]
