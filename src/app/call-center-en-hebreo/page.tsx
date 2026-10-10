@@ -28,7 +28,7 @@ const painPoints = [
   },
   {
     icon: '🗣️',
-    title: 'Traducciones automaticas que no convencen',
+    title: 'Traducciones automáticas que no convencen',
     description: 'Un script traducido al hebreo no es atención en hebreo. Los clientes notan la diferencia y la confianza se pierde.',
   },
   {
@@ -40,7 +40,7 @@ const painPoints = [
 
 const services = [
   {
-    title: 'Atencion telefonica en hebreo nativo',
+    title: 'Atención telefónica en hebreo nativo',
     description: 'Agentes nativos en hebreo que atienden a tus clientes con fluidez real, no con guiones traducidos.',
   },
   {
@@ -52,15 +52,15 @@ const services = [
     description: 'Cubrimos cualquier franja horaria: mañanas, tardes, noches, fines de semana y festivos.',
   },
   {
-    title: 'Gestion de reservas y pedidos',
+    title: 'Gestión de reservas y pedidos',
     description: 'Recibimos llamadas de clientes israelíes, procesamos reservas, consultas y pedidos siguiendo tu protocolo.',
   },
   {
-    title: 'Filtrado y clasificacion de llamadas',
+    title: 'Filtrado y clasificación de llamadas',
     description: 'Clasificamos cada llamada en hebreo por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atención.',
   },
   {
-    title: 'Integracion con tus herramientas',
+    title: 'Integración con tus herramientas',
     description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacción queda registrada en tu plataforma.',
   },
 ]
@@ -74,7 +74,7 @@ const stats = [
 
 const steps = [
   { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cómo quieres que atendamos a tus clientes hebreoparlantes: tono, información clave, procedimientos y escalado.' },
-  { step: '02', title: 'Configuramos el desvio', description: 'Desvías las llamadas en hebreo a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
+  { step: '02', title: 'Configuramos el desvío', description: 'Desvías las llamadas en hebreo a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
   { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en hebreo nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacción.' },
 ]
 
@@ -97,15 +97,15 @@ export default function CallCenterHebreoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <LanguageLanding
         heroTag={"Call center y contact center en hebreo"}
-        heroTitle={"Call center en hebreo. Atencion telefonica nativa para tus clientes israelíes."}
+        heroTitle={"Call center en hebreo. Atención telefónica nativa para tus clientes israelíes."}
         heroSub={"Contact center en hebreo con agentes nativos para empresas españolas. Atendemos a tus clientes de Israel — sin permanencia y con activación en 48 horas."}
         heroCta={"Solicita presupuesto gratuito"}
         stats={stats}
-        painTitle={"Por que pierdes clientes israelíes sin un call center en hebreo."}
+        painTitle={"Por qué pierdes clientes israelíes sin un call center en hebreo."}
         painPoints={painPoints}
-        servicesTitle={"Que incluye nuestro contact center en hebreo."}
+        servicesTitle={"Qué incluye nuestro contact center en hebreo."}
         services={services}
-        stepsTitle={"Como funciona."}
+        stepsTitle={"Cómo funciona."}
         steps={steps}
         compareTitle={"Contratar un nativo vs externalizar con Minute Call."}
         themLabel={"Contratar empleado nativo"}

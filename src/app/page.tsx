@@ -8,8 +8,8 @@ import HomeEffects from "@/components/brand/HomeEffects";
 /* Sectores de la home: 8 para que la rejilla de 4 columnas quede completa.
    El resto de landings de sector siguen enlazadas desde el pie y el sitemap. */
 const SECTORS = [
+  { name: "Medianas y grandes empresas", href: "/lp/call-center-para-empresas", c: "purple" },
   { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas", c: "lime" },
-  { name: "Grandes empresas", href: "/lp/call-center-para-empresas", c: "purple" },
   { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "lime" },
   { name: "Comercializadoras de energía", href: "/lp/call-center-energia", c: "purple" },
   { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes", c: "ink" },

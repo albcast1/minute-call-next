@@ -53,7 +53,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
   const faqs = sec.faq?.slice(4, 9) || []
   const highlight = pickHighlight(highlights as unknown as Record<string, unknown>, ciudad, sector)
   // `sec.sector` es el CLIENTE en 41 de 48 sectores ("clinicas"), no el servicio.
-  // Estas dos formas dan la concordancia correcta en el cuerpo de la pagina.
+  // Estas dos formas dan la concordancia correcta en el cuerpo de la página.
   const clientes = clientesDe(sec)
   const clientesPlano = clientesSinArticulo(sec)
   const servicio = sec.servicio ?? sec.sector

@@ -35,7 +35,7 @@ const ARTICLES = [
 
 const SECTORS = [
   ["/lp/recepcionista-ia-clinicas", "Clínicas"],
-  ["/lp/call-center-para-empresas", "Grandes empresas"],
+  ["/lp/call-center-para-empresas", "Medianas y grandes empresas"],
   ["/lp/call-center-farmaceuticas", "Farmacéuticas"],
   ["/lp/call-center-energia", "Energía"],
   ["/lp/call-center-logistica-ecommerce", "Logística y e-commerce"],

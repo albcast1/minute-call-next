@@ -40,11 +40,11 @@ const painPoints = [
 
 const services = [
   {
-    title: 'Gestion de reservas directas',
+    title: 'Gestión de reservas directas',
     description: 'Consultamos disponibilidad en tu PMS y cerramos la reserva directa - sin comisiones de OTA.',
   },
   {
-    title: 'Atencion multilingue',
+    title: 'Atención multilingüe',
     description: 'Agentes nativos en español, inglés y francés. Fluidez real, no scripts traducidos.',
   },
   {
@@ -60,7 +60,7 @@ const services = [
     description: 'Clasificamos llamadas: reservas, modificaciones, cancelaciones, quejas. Solo te pasamos lo importante.',
   },
   {
-    title: 'Integracion con tu PMS',
+    title: 'Integración con tu PMS',
     description: 'Accedemos a disponibilidad y tarifas en tiempo real para dar información precisa al huésped.',
   },
 ]
@@ -74,7 +74,7 @@ const stats = [
 
 const steps = [
   { step: '01', title: 'Nos cuentas tu hotel', description: 'Tipos de habitación, tarifas, políticas de cancelación, servicios extra. Creamos tu protocolo personalizado.' },
-  { step: '02', title: 'Configuramos el desvio', description: 'Desvías las llamadas que no puedas atender a nuestro número. Tus huéspedes nunca notan la diferencia.' },
+  { step: '02', title: 'Configuramos el desvío', description: 'Desvías las llamadas que no puedas atender a nuestro número. Tus huéspedes nunca notan la diferencia.' },
   { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos reservas, resolvemos dudas y ofrecemos upselling siguiendo tu protocolo. Recibes un resumen de cada llamada.' },
 ]
 
@@ -96,14 +96,14 @@ export default function CallCenterHotelesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <LanguageLanding
-        heroTag={"Especialistas en atencion telefonica hotelera"}
+        heroTag={"Especialistas en atención telefónica hotelera"}
         heroTitle={"Call center para hoteles. Mas reservas directas, menos comisiones."}
         heroSub={"Atención telefónica especializada en hoteles: gestionamos reservas directas, atendemos en 3 idiomas y cubrimos las 24 horas - sin permanencia y sin comisiones de OTA."}
         heroCta={"Solicita presupuesto gratuito"}
         stats={stats}
-        painTitle={"Por que los hoteles pierden reservas por telefono."}
+        painTitle={"Por qué los hoteles pierden reservas por telefono."}
         painPoints={painPoints}
-        servicesTitle={"Que incluye nuestro servicio para hoteles."}
+        servicesTitle={"Qué incluye nuestro servicio para hoteles."}
         services={services}
         stepsTitle={"Cómo funciona."}
         steps={steps}

@@ -479,7 +479,7 @@ export default async function ArticlePage({
             }}
           >
             <p style={{ fontSize: 18, fontWeight: 500, letterSpacing: '-0.5px', marginBottom: 16, lineHeight: 1.3 }}>
-              No pierdas mas llamadas
+              No pierdas más llamadas
             </p>
             <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 20px', display: 'flex', flexDirection: 'column', gap: 10 }}>
               <li style={{ fontSize: 14, display: 'flex', alignItems: 'flex-start', gap: 8, color: 'var(--ink-2)' }}>
