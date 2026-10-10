@@ -260,9 +260,10 @@ export default function Home() {
         {/* ===== EQUIPO ===== */}
         <section className="section" id="fundador" style={{ paddingTop: 0 }}>
           <div className="wrap ed">
-            <div className="ed-side"><span className="tag">Nuestro equipo</span></div>
+            <div className="ed-side" />
             <div className="ed-main">
-              <h2 className="h2 left">Fundado por quien ha escalado startups de 0 a millones.</h2>
+              <span className="tag">Nuestro equipo</span>
+              <h2 className="h2 left" style={{ marginTop: 22 }}>Fundado por quien ha escalado startups de 0 a millones.</h2>
               <div className="founder2">
                 <figure className="fframe">
                   <div className="fshot">
