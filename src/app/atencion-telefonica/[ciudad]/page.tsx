@@ -90,19 +90,19 @@ function servicesForCity(ciudad: string): { href: string; label: string }[] {
  */
 function getSectorLink(sectorName: string): string | null {
   const sectorMap: Record<string, string> = {
-    "Clínicas & Salud": "recepcionista-ia-clinicas",
-    "Agencias inmobiliarias": "recepcionista-ia-inmobiliarias",
-    "Hostelería": "recepcionista-ia-restaurantes",
-    "Despachos de abogados": "recepcionista-ia-abogados",
-    "Clínicas dentales": "recepcionista-ia-clinicas-dentales",
-    "Asesorías y gestorías": "recepcionista-ia-asesorias",
-    "Veterinarias": "recepcionista-ia-veterinarias",
-    "Centros de estética": "recepcionista-ia-centros-estetica",
-    "Fisioterapia": "recepcionista-ia-fisioterapia",
-    "Seguros": "recepcionista-ia-seguros",
-    "Turismo": "recepcionista-ia-turismo",
-    "Autoescuelas": "recepcionista-ia-autoescuelas",
-    "Consultoría": "recepcionista-ia-consultoria",
+    "Clínicas & Salud": "call-center-clinicas",
+    "Agencias inmobiliarias": "call-center-inmobiliarias",
+    "Hostelería": "call-center-turismo",
+    "Despachos de abogados": "call-center-abogados",
+    "Clínicas dentales": "call-center-clinicas-dentales",
+    "Asesorías y gestorías": "call-center-asesorias",
+    "Veterinarias": "call-center-veterinarias",
+    "Centros de estética": "call-center-clinicas",
+    "Fisioterapia": "call-center-clinicas",
+    "Seguros": "call-center-seguros",
+    "Turismo": "call-center-turismo",
+    "Autoescuelas": "call-center-para-pymes",
+    "Consultoría": "call-center-asesorias",
   };
 
   const slug = sectorMap[sectorName];

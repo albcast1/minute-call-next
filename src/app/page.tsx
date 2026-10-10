@@ -9,13 +9,13 @@ import HomeEffects from "@/components/brand/HomeEffects";
    El resto de landings de sector siguen enlazadas desde el pie y el sitemap. */
 const SECTORS = [
   { name: "Grupos empresariales", href: "/lp/call-center-para-empresas", c: "purple" },
-  { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas", c: "lime" },
-  { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "lime" },
+  { name: "Clínicas & Salud", href: "/lp/call-center-clinicas", c: "lime" },
+  { name: "Agencias inmobiliarias", href: "/lp/call-center-inmobiliarias", c: "lime" },
   { name: "Comercializadoras de energía", href: "/lp/call-center-energia", c: "purple" },
-  { name: "Turismo", href: "/lp/recepcionista-ia-turismo", c: "ink" },
-  { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados", c: "lime" },
-  { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales", c: "purple" },
-  { name: "Asesorías y gestorías", href: "/lp/recepcionista-ia-asesorias", c: "orange" },
+  { name: "Turismo", href: "/lp/call-center-turismo", c: "ink" },
+  { name: "Despachos de abogados", href: "/lp/call-center-abogados", c: "lime" },
+  { name: "Clínicas dentales", href: "/lp/call-center-clinicas-dentales", c: "purple" },
+  { name: "Asesorías y gestorías", href: "/lp/call-center-asesorias", c: "orange" },
 ];
 
 /* Cinta negra: mensajes clave de la marca. */

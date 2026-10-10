@@ -71,46 +71,14 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 - Blog/Artículos: https://www.minute-call.com/articulos
 
 ## Landings por sector (recepcionista IA + agentes nativos)
-- Clínicas: https://www.minute-call.com/lp/recepcionista-ia-clinicas
-- Inmobiliarias: https://www.minute-call.com/lp/recepcionista-ia-inmobiliarias
-- Restaurantes/Hostelería: https://www.minute-call.com/lp/recepcionista-ia-restaurantes
-- Abogados: https://www.minute-call.com/lp/recepcionista-ia-abogados
-- Clínicas dentales: https://www.minute-call.com/lp/recepcionista-ia-clinicas-dentales
-- Asesorías y gestorías: https://www.minute-call.com/lp/recepcionista-ia-asesorias
-- Veterinarias: https://www.minute-call.com/lp/recepcionista-ia-veterinarias
-- Centros de estética: https://www.minute-call.com/lp/recepcionista-ia-centros-estetica
-- Fisioterapia: https://www.minute-call.com/lp/recepcionista-ia-fisioterapia
-- Seguros: https://www.minute-call.com/lp/recepcionista-ia-seguros
-- Turismo: https://www.minute-call.com/lp/recepcionista-ia-turismo
-- Autoescuelas: https://www.minute-call.com/lp/recepcionista-ia-autoescuelas
-- Consultoría: https://www.minute-call.com/lp/recepcionista-ia-consultoria
-- Gimnasios: https://www.minute-call.com/lp/recepcionista-ia-gimnasios-deportivos
-- Peluquerías: https://www.minute-call.com/lp/recepcionista-ia-peluquerias-belleza
-- Farmacias: https://www.minute-call.com/lp/recepcionista-ia-farmacias
-- Ópticas: https://www.minute-call.com/lp/recepcionista-ia-opticas
-- Psicólogos: https://www.minute-call.com/lp/recepcionista-ia-psicologos-terapeutas
-- Academias de idiomas: https://www.minute-call.com/lp/recepcionista-ia-academias-idiomas
-- Talleres mecánicos: https://www.minute-call.com/lp/recepcionista-ia-talleres-mecanicos
-- Empresas de limpieza: https://www.minute-call.com/lp/recepcionista-ia-empresas-limpieza
-- Empresas de reformas: https://www.minute-call.com/lp/recepcionista-ia-empresas-reformas
-- Arquitectos e ingenieros: https://www.minute-call.com/lp/recepcionista-ia-arquitectos-ingenieros
-- Notarías: https://www.minute-call.com/lp/recepcionista-ia-notarias
-- Podología: https://www.minute-call.com/lp/recepcionista-ia-clinicas-podologia
-- Mudanzas: https://www.minute-call.com/lp/recepcionista-ia-empresas-mudanzas
-- Cerrajerías: https://www.minute-call.com/lp/recepcionista-ia-cerrajerias
-- Catering: https://www.minute-call.com/lp/recepcionista-ia-empresas-catering
-- Coworkings: https://www.minute-call.com/lp/recepcionista-ia-coworkings-espacios-trabajo
-- Guarderías: https://www.minute-call.com/lp/recepcionista-ia-guarderias-escuelas-infantiles
-- Residencias de mayores: https://www.minute-call.com/lp/recepcionista-ia-residencias-mayores
-- Yoga y pilates: https://www.minute-call.com/lp/recepcionista-ia-centros-yoga-pilates
-- Fotografía: https://www.minute-call.com/lp/recepcionista-ia-estudios-fotografia
-- Seguridad privada: https://www.minute-call.com/lp/recepcionista-ia-empresas-seguridad-privada
-- Reproducción asistida: https://www.minute-call.com/lp/recepcionista-ia-clinicas-reproduccion-asistida
-- Formación profesional: https://www.minute-call.com/lp/recepcionista-ia-centros-formacion-profesional
-- Transporte: https://www.minute-call.com/lp/recepcionista-ia-empresas-transporte
-- Funerarias: https://www.minute-call.com/lp/recepcionista-ia-funerarias-tanatorios
-- Administradores de fincas: https://www.minute-call.com/lp/recepcionista-ia-administradores-fincas
-- Cirugía estética: https://www.minute-call.com/lp/recepcionista-ia-clinicas-cirugia-estetica
+- Clínicas: https://www.minute-call.com/lp/call-center-clinicas
+- Inmobiliarias: https://www.minute-call.com/lp/call-center-inmobiliarias
+- Abogados: https://www.minute-call.com/lp/call-center-abogados
+- Clínicas dentales: https://www.minute-call.com/lp/call-center-clinicas-dentales
+- Asesorías y gestorías: https://www.minute-call.com/lp/call-center-asesorias
+- Veterinarias: https://www.minute-call.com/lp/call-center-veterinarias
+- Seguros: https://www.minute-call.com/lp/call-center-seguros
+- Turismo: https://www.minute-call.com/lp/call-center-turismo
 - Call center para empresas: https://www.minute-call.com/lp/call-center-para-empresas
 - BPO y externalización: https://www.minute-call.com/lp/bpo-externalizacion
 - Call center 24 horas: https://www.minute-call.com/lp/call-center-24-horas

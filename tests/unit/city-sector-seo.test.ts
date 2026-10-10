@@ -86,7 +86,8 @@ test('el contenido diferenciado es unico entre combinaciones', () => {
     assert.ok(!intros.has(intro), `intro repetida en ${key}`)
     intros.add(intro)
   }
-  assert.ok(intros.size >= 25, `Se esperaban al menos 25 combinaciones diferenciadas, hay ${intros.size}`)
+  // 24 desde oct 2026: la combinacion de restaurantes se retiro al fusionar sectores.
+  assert.ok(intros.size >= 24, `Se esperaban al menos 24 combinaciones diferenciadas, hay ${intros.size}`)
 })
 
 test('las preguntas de FAQ llevan signo de apertura', () => {

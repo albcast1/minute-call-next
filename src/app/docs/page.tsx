@@ -179,8 +179,8 @@ export default function DocsPage() {
   }'`}</pre>
 
         <h3 style={{ fontSize: 16, margin: '24px 0 12px' }}>Leer cualquier página en Markdown</h3>
-        <pre style={codeBlock}>{`curl -s -H 'Accept: text/markdown' ${SITE_URL}/lp/recepcionista-ia-clinicas
-curl -s ${SITE_URL}/lp/recepcionista-ia-clinicas.md`}</pre>
+        <pre style={codeBlock}>{`curl -s -H 'Accept: text/markdown' ${SITE_URL}/lp/call-center-clinicas
+curl -s ${SITE_URL}/lp/call-center-clinicas.md`}</pre>
       </section>
 
       <section style={{ maxWidth: 900, margin: '0 auto', padding: '0 clamp(16px,5vw,64px) clamp(32px,6vw,56px)' }}>

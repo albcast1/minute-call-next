@@ -34,18 +34,18 @@ const ARTICLES = [
 ] as const;
 
 const SECTORS = [
-  ["/lp/recepcionista-ia-clinicas", "Clínicas"],
+  ["/lp/call-center-clinicas", "Clínicas"],
   ["/lp/call-center-para-empresas", "Grupos empresariales"],
   ["/lp/call-center-farmaceuticas", "Farmacéuticas"],
   ["/lp/call-center-energia", "Energía"],
   ["/lp/call-center-logistica-ecommerce", "Logística y e-commerce"],
-  ["/lp/recepcionista-ia-inmobiliarias", "Inmobiliarias"],
-  ["/lp/recepcionista-ia-abogados", "Abogados"],
-  ["/lp/recepcionista-ia-clinicas-dentales", "Dentistas"],
-  ["/lp/recepcionista-ia-asesorias", "Asesorías"],
-  ["/lp/recepcionista-ia-veterinarias", "Veterinarias"],
-  ["/lp/recepcionista-ia-seguros", "Seguros"],
-  ["/lp/recepcionista-ia-turismo", "Turismo"],
+  ["/lp/call-center-inmobiliarias", "Inmobiliarias"],
+  ["/lp/call-center-abogados", "Abogados"],
+  ["/lp/call-center-clinicas-dentales", "Dentistas"],
+  ["/lp/call-center-asesorias", "Asesorías"],
+  ["/lp/call-center-veterinarias", "Veterinarias"],
+  ["/lp/call-center-seguros", "Seguros"],
+  ["/lp/call-center-turismo", "Turismo"],
 ] as const;
 
 export default function Footer() {

@@ -1,746 +1,524 @@
 [
   {
-    "slug": "recepcionista-ia-clinicas",
+    "slug": "call-center-clinicas",
     "sector": "clínicas",
     "title": "Call center para clínicas.",
     "heroTag": "Call center para clínicas",
-    "heroSubtitle": "Nuestro call center para clínicas atiende llamadas de pacientes, gestiona citas y cancelaciones, filtra urgencias y toma mensajes - 24/7, sin que tu equipo médico se interrumpa. Agentes nativos en España o IA especializada, sin permanencia.",
+    "heroSubtitle": "Atendemos las llamadas de tu clínica con agentes nativos en España o con IA: citas, cambios, dudas de pacientes y urgencias, también fuera de horario. Agentes compartidos o un equipo dedicado de 1 a 5 agentes, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Disponible 24/7",
-        "description": "Tus clientes llaman cuando ellos pueden, no solo cuando tú estás abierto. Captura leads cuando estás ocupado y fuera de horario."
+        "title": "Citas, cambios y cancelaciones",
+        "description": "Gestionamos la agenda siguiendo tus reglas: tipos de visita, profesionales, huecos y lista de espera. El paciente cuelga con la cita cerrada."
       },
       {
-        "title": "Sin tiempos de espera",
-        "description": "Elimina la música de espera frustrante. La IA contesta al instante, mejorando la satisfacción del cliente."
+        "title": "Urgencias bien filtradas",
+        "description": "Con tu protocolo distinguimos una urgencia de una consulta y avisamos al profesional que corresponde, al momento y por el canal que nos digas."
       },
       {
-        "title": "Aprende de tu clínica",
-        "description": "Entrenamos a la IA con tus propios datos, FAQs y políticas para que actúe como un empleado experto."
+        "title": "Tu equipo sin interrupciones",
+        "description": "Recepción deja de atender el teléfono mientras atiende a pacientes en mostrador, y ninguna llamada se queda sin respuesta en hora punta."
       },
       {
-        "title": "Reduce costes",
-        "description": "Ahorra miles de euros en salarios y costes de contratación. Paga solo una fracción por un servicio superior."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Fuera de horario y festivos",
+        "description": "Noches, fines de semana y vacaciones con el mismo procedimiento que en horario de consulta."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés. Somos partner comercial de Teleperformance y trabajamos con sectores de alto valor como clínicas, agencias inmobiliarias y otras empresas de servicio."
+        "question": "¿Los agentes conocen el trato con pacientes?",
+        "answer": "Sí. Se forman en tu procedimiento y en comunicación con pacientes: tono, información sensible y confidencialidad. Nunca dan información clínica."
       },
       {
-        "question": "¿Qué es una secretaria virtual?",
-        "answer": "Es una profesional remota que atiende llamadas como si fuera parte de tu equipo. A diferencia de una recepcionista interna, puede trabajar 24/7, en varios idiomas, y escalar según tus necesidades. No es un bot: sigue tus instrucciones, agenda citas y filtra clientes."
+        "question": "¿Podéis gestionar la agenda de varios profesionales o sedes?",
+        "answer": "Sí. Definimos contigo las reglas de cada agenda (tipos de visita, duración, profesional) y trabajamos sobre la herramienta que uses, o te enviamos las solicitudes para que las confirmes."
       },
       {
-        "question": "¿Qué coste tienen vuestros servicios?",
-        "answer": "Minute Call funciona con un modelo de suscripción mensual flexible, que combina una tarifa base fija con un coste por llamada. No hay costes de activación ni contratos de permanencia."
+        "question": "¿Qué hacéis con una urgencia fuera de horario?",
+        "answer": "Lo que diga tu protocolo: avisar al profesional de guardia, derivar a urgencias o tomar los datos para la primera hora. El paciente siempre sabe qué va a pasar."
       },
       {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Ofrecemos dos tipos de recepcionistas: agentes humanos o recepcionistas virtuales con inteligencia artificial. La IA puede responder llamadas básicas, proporcionar información general, derivar solicitudes y apoyar fuera de horario."
+        "question": "¿Cumplís con la protección de datos de pacientes?",
+        "answer": "Firmamos el contrato de encargado del tratamiento y solo accedemos a la información mínima necesaria para atender la llamada."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para clínicas?",
-        "answer": "Para citas rutinarias y consultas de horario, la IA es ideal. Para primeras visitas o situaciones de urgencia, un agente humano nativo transmite la confianza que el sector salud exige. Lo habitual es IA fuera de horario y humanos para las llamadas que generan ingresos."
+        "question": "¿Quién atiende las llamadas: personas o IA?",
+        "answer": "Tú eliges. Lo habitual es combinar agentes nativos en España para las llamadas que piden criterio y empatía con IA para consultas repetitivas, confirmaciones o franjas de mucho volumen."
       },
       {
-        "question": "¿En qué se diferencia Minute Call de otros proveedores?",
-        "answer": "La mayoría de call centers trabajan con scripts rígidos y agentes que no entienden terminología médica. Nuestros agentes están formados en atención sanitaria: distinguen urgencias de consultas rutinarias y siguen protocolos de triaje. Operan desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad en un entorno clínico?",
-        "answer": "Revisamos cada conversación para verificar que se siguen tus protocolos. Formación en comunicación sanitaria: tono empático, manejo de información sensible y confidencialidad. Partner comercial de Teleperformance."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Planes presupuesto personalizado"
-      },
-      {
-        "question": "¿Puedo alternar entre IA y agente humano?",
-        "answer": "Sí. IA para noches, festivos y confirmaciones; humanos nativos para horario de consulta y primeras visitas. Cambias la configuración en cualquier momento sin coste adicional."
+        "question": "¿Hay permanencia?",
+        "answer": "No. El servicio es mes a mes y el precio depende del volumen, del horario de cobertura y de si los agentes son compartidos o dedicados."
       }
     ],
-    "metaTitle": "Call center para clínicas | 24/7 | minute call",
-    "metaDescription": "Recepcionista con IA para clínicas en España: atiende llamadas, gestiona citas y filtra urgencias 24/7. Agentes de IA o humanos.",
+    "metaTitle": "Call center para clínicas | minute call",
+    "metaDescription": "Call center para clínicas: citas, cambios, dudas de pacientes y urgencias con agentes nativos o IA, 24/7. Compartidos o equipo dedicado, sin permanencia.",
     "clientes": "las clínicas",
-    "servicio": "Recepcionista virtual para clínicas",
+    "servicio": "Call center para clínicas",
     "esServicio": false,
-    "servicioCorto": "Recepcionista para clínicas"
+    "servicioCorto": "Call center para clínicas",
+    "heroTitle": "Call center para clínicas.",
+    "deepDive": [
+      {
+        "heading": "Qué llamadas atendemos en una clínica",
+        "body": "**Citas y cambios.** Primeras visitas, revisiones, cambios de hora y cancelaciones, con las reglas de tu agenda.\n\n**Dudas de pacientes.** Preparación de pruebas, horarios, precios orientativos, documentación y cómo llegar, según la información que nos des.\n\n**Resultados e informes.** No los comunicamos: tomamos el recado y lo pasamos a quien corresponde.\n\n**Urgencias.** Seguimos tu protocolo: qué se considera urgente, a quién se avisa y qué se le dice al paciente mientras tanto."
+      },
+      {
+        "heading": "Qué resolvemos en la llamada y qué escalamos",
+        "body": "En la llamada se resuelve todo lo administrativo: agenda, información y recados. Lo clínico nunca: cualquier pregunta sobre síntomas, tratamientos o resultados se deriva al profesional con el contexto ya recogido, para que no tenga que volver a preguntar.\n\nCada llamada queda registrada en tu herramienta o en un resumen por email, con quién llamó, por qué y qué se hizo."
+      },
+      {
+        "heading": "Agentes compartidos, equipo dedicado o IA",
+        "body": "Para la mayoría de clínicas lo que mejor funciona son **agentes compartidos** formados en tu procedimiento: cubren hora punta, ausencias y fuera de horario sin pagar un puesto completo.\n\nSi la clínica tiene varias sedes o mucho volumen de agenda, montamos un **equipo dedicado de 1 a 5 agentes**. La **IA** encaja para confirmaciones y recordatorios de cita, o para cubrir la noche con mucho volumen; las primeras visitas y las urgencias las atiende una persona."
+      }
+    ],
+    "faqFrom": 0
   },
   {
-    "slug": "recepcionista-ia-inmobiliarias",
+    "slug": "call-center-inmobiliarias",
     "sector": "inmobiliarias",
     "title": "Call center para inmobiliarias.",
     "heroTag": "Call center para inmobiliarias",
-    "heroSubtitle": "Nuestro call center para inmobiliarias cualifica compradores en la primera llamada, filtra leads por zona y presupuesto, agenda visitas y toma mensajes detallados - 24/7. Agentes nativos o IA sin permanencia.",
+    "heroSubtitle": "Atendemos las llamadas de tu inmobiliaria con agentes nativos en España o con IA: interesados en inmuebles, visitas, captación de propietarios e inquilinos, también fines de semana. Agentes compartidos o un equipo dedicado, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Disponible 24/7",
-        "description": "Tus clientes llaman cuando ellos pueden, no solo cuando tú estás abierto. Captura leads cuando estás ocupado y fuera de horario."
+        "title": "Leads de portales al momento",
+        "description": "Quien llama por un anuncio llama a varias agencias. Le atendemos al primer tono, cualificamos y agendamos la visita."
       },
       {
-        "title": "Sin tiempos de espera",
-        "description": "Elimina la música de espera frustrante. La IA contesta al instante, mejorando la satisfacción del cliente."
+        "title": "Visitas cerradas en la llamada",
+        "description": "Agendamos según la disponibilidad de cada comercial y de cada inmueble, y confirmamos la visita al interesado."
       },
       {
-        "title": "Aprende de tu agencia",
-        "description": "Entrenamos a la IA con tus propios datos, FAQs y políticas para que actúe como un empleado experto."
+        "title": "Captación de propietarios",
+        "description": "Quien quiere vender o alquilar su piso recibe atención inmediata y una cita de valoración con tu equipo."
       },
       {
-        "title": "Reduce costes",
-        "description": "Ahorra miles de euros en salarios y costes de contratación. Paga solo una fracción por un servicio superior."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Alquileres e incidencias",
+        "description": "Para la cartera de alquiler: incidencias de inquilinos, avisos al propietario o al técnico y seguimiento hasta cerrarlas."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
+        "question": "¿Atendéis los leads de los portales inmobiliarios?",
+        "answer": "Sí. Atendemos las llamadas que llegan de tus anuncios y, si quieres, devolvemos la llamada a los contactos que llegan por formulario."
       },
       {
-        "question": "¿Qué es una secretaria virtual?",
-        "answer": "Es una profesional remota que atiende llamadas como si fuera parte de tu equipo. A diferencia de una recepcionista interna, puede trabajar 24/7, en varios idiomas, y escalar según tus necesidades."
+        "question": "¿Cómo sabéis qué contarle al interesado?",
+        "answer": "Trabajamos con la ficha de cada inmueble y con tu procedimiento: qué información dar, qué preguntar para cualificar y cuándo pasar al comercial."
       },
       {
-        "question": "¿Qué coste tienen vuestros servicios?",
-        "answer": "Minute Call funciona con un modelo de suscripción mensual flexible, que combina una tarifa base fija con un coste por llamada. No hay costes de activación ni contratos de permanencia."
+        "question": "¿Atendéis fines de semana?",
+        "answer": "Sí. Es cuando más llaman los particulares, y con agentes compartidos cubrirlo no exige un puesto completo."
       },
       {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Ofrecemos dos tipos de recepcionistas: agentes humanos o recepcionistas virtuales con inteligencia artificial."
+        "question": "¿Podéis trabajar en nuestro CRM?",
+        "answer": "Sí, si nos das acceso. Si no, recibes cada lead por email con los datos y lo hablado."
       },
       {
-        "question": "¿Cuándo es mejor usar IA y cuándo un agente humano para inmobiliarias?",
-        "answer": "La IA funciona para consultas sobre disponibilidad, precios orientativos y horarios de visita. Cuando un comprador potencial quiere agendar una visita o tiene dudas sobre financiación, un agente humano cualifica al lead en tiempo real."
+        "question": "¿Quién atiende las llamadas: personas o IA?",
+        "answer": "Tú eliges. Lo habitual es combinar agentes nativos en España para las llamadas que piden criterio y empatía con IA para consultas repetitivas, confirmaciones o franjas de mucho volumen."
       },
       {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "En inmobiliaria, cada llamada perdida puede ser una venta de miles de euros. Nuestros agentes cualifican preguntando por presupuesto, zona, plazo y tipo de inmueble. Desde España, sin contratos largos."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Cada llamada se revisa para verificar correcta cualificación del lead y seguimiento del guión comercial. Partner comercial de Teleperformance."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "El coste es una fracción de lo que genera una sola venta captada por teléfono. Sin permanencia: mes a mes."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA fuera de horario laboral y para filtrar consultas básicas; humanos nativos para visitas, negociaciones y seguimiento."
+        "question": "¿Hay permanencia?",
+        "answer": "No. El servicio es mes a mes y el precio depende del volumen, del horario de cobertura y de si los agentes son compartidos o dedicados."
       }
     ],
     "metaTitle": "Call center para inmobiliarias | minute call",
-    "metaDescription": "Servicio de call center con agentes nativos o IA para agencias inmobiliarias. Atendemos llamadas, filtramos leads y agendamos visitas 24/7.",
+    "metaDescription": "Call center para inmobiliarias: leads de portales, visitas, captación y gestión de alquileres con agentes nativos o IA, 7 días. Sin permanencia.",
     "clientes": "las inmobiliarias",
-    "servicio": "Recepcionista virtual para inmobiliarias",
+    "servicio": "Call center para inmobiliarias",
     "esServicio": false,
-    "servicioCorto": "Recepcionista para inmobiliarias"
-  },
-  {
-    "slug": "recepcionista-ia-restaurantes",
-    "sector": "restaurantes",
-    "title": "Call center para restaurantes.",
-    "heroTag": "Call center para restaurantes",
-    "heroSubtitle": "Nuestro call center para restaurantes gestiona reservas telefónicas, responde consultas sobre menú y disponibilidad, y coordina pedidos - 24/7, sin saturar a tu equipo de sala. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
+    "servicioCorto": "Call center para inmobiliarias",
+    "heroTitle": "Call center para inmobiliarias.",
+    "deepDive": [
       {
-        "title": "Disponible 24/7",
-        "description": "Tus clientes llaman cuando ellos pueden, no solo cuando tú estás abierto. Captura reservas cuando estás en pleno servicio."
+        "heading": "Qué llamadas atendemos en una inmobiliaria",
+        "body": "**Interesados en un inmueble.** Referencia, presupuesto, financiación, plazos y necesidades: cualificamos antes de ocupar la agenda del comercial.\n\n**Visitas.** Agendamos, confirmamos y reprogramamos.\n\n**Propietarios.** Valoraciones y captación de inmuebles para venta o alquiler.\n\n**Gestión de alquileres.** Incidencias de inquilinos, pagos y avisos al propietario, según lo que gestione tu agencia."
       },
       {
-        "title": "Sin tiempos de espera",
-        "description": "La IA contesta al instante, mejorando la satisfacción del cliente."
+        "heading": "Qué resolvemos en la llamada y qué escalamos",
+        "body": "Resolvemos cualificación, agenda de visitas e información del inmueble que nos des. La negociación de precio y las condiciones de la operación son siempre de tu equipo: le pasamos el lead cualificado con todo lo hablado.\n\nCada lead queda registrado en tu CRM o en un resumen por email."
       },
       {
-        "title": "Aprende de tu negocio",
-        "description": "Entrenamos a la IA con tu carta, horarios, políticas de reservas y FAQs para que actúe como un empleado experto."
-      },
-      {
-        "title": "Reduce costes",
-        "description": "Ahorra miles de euros en salarios. Paga solo una fracción por un servicio superior."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "heading": "Agentes compartidos, equipo dedicado o IA",
+        "body": "Los **agentes compartidos** cubren las horas de visitas, cuando tu equipo está en la calle, y los fines de semana, cuando más llaman los particulares.\n\nPara redes de agencias o promotoras con campañas, un **equipo dedicado de 1 a 5 agentes** atiende todos los leads con el mismo criterio. La **IA** encaja para filtrar consultas sobre anuncios con mucho volumen; la captación de propietarios la atiende una persona."
       }
     ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo gestiona las reservas?",
-        "answer": "La IA puede gestionar reservas siguiendo tus reglas: horarios, número de comensales, disponibilidad. Se integra con tu sistema de reservas o envía notificaciones por email."
-      },
-      {
-        "question": "¿Qué coste tienen vuestros servicios?",
-        "answer": "Modelo de suscripción mensual flexible. Tarifa base fija + coste por llamada. Sin permanencia ni costes de activación."
-      },
-      {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Agentes humanos o IA, tú eliges según tu volumen y necesidades."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano en hostelería?",
-        "answer": "Para reservas de mesa, confirmaciones y consultas sobre menú o alérgenos, la IA no pierde una llamada en hora punta. Para eventos privados, grupos grandes o quejas, un agente humano gestiona mejor."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "En hostelería, el pico de llamadas coincide con el máximo trabajo en sala. Nuestros agentes completan reservas sin fricciones, preguntando por alérgenos y accesibilidad. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos que las reservas se completen con todos los datos necesarios. Agentes formados en atención hostelera."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Inferior a una persona dedicada al teléfono. Sin permanencia: perfecto para restaurantes estacionales."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para reservas estándar 24/7 y agente humano para eventos, grupos y atención premium."
-      }
-    ],
-    "metaTitle": "Call center para restaurantes | 24/7 | minute call",
-    "metaDescription": "Servicio de call center con agentes nativos o IA para hostelería. Gestiona reservas, atiende llamadas y filtra consultas 24/7.",
-    "clientes": "los restaurantes",
-    "servicio": "Recepcionista virtual para restaurantes",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para restaurantes"
+    "faqFrom": 0
   },
   {
-    "slug": "recepcionista-ia-abogados",
+    "slug": "call-center-abogados",
     "sector": "despachos de abogados",
     "title": "Call center para despachos de abogados.",
     "heroTag": "Call center para despachos de abogados",
-    "heroSubtitle": "Nuestro call center para despachos de abogados atiende llamadas con total confidencialidad, filtra por urgencia, deriva a la persona correcta y toma mensajes detallados - 24/7. Agentes nativos formados en terminología jurídica o IA/mes.",
+    "heroSubtitle": "Atendemos las llamadas de tu despacho con agentes nativos en España o con IA: consultas de nuevos clientes, citas, recados para los letrados y urgencias, con confidencialidad. Agentes compartidos o un equipo dedicado, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Filtrado por urgencia legal",
-        "description": "La IA identifica automáticamente casos urgentes, violaciones de derechos y demandas inminentes, derivando al letrado disponible de inmediato."
+        "title": "Nuevas consultas bien recogidas",
+        "description": "Área, urgencia, plazos y datos de contacto: el letrado recibe la consulta lista para valorar si la acepta."
       },
       {
-        "title": "Confidencialidad garantizada RGPD",
-        "description": "Cumplimiento total de RGPD y secreto profesional. Encriptación end-to-end, almacenamiento seguro y auditorías de acceso."
+        "title": "Letrados sin interrupciones",
+        "description": "Nadie corta una reunión o una vista para coger el teléfono. Tomamos el recado y lo pasamos con el contexto."
       },
       {
-        "title": "Agenda de consultas con potenciales",
-        "description": "Gestiona primeras consultas automáticamente: datos del cliente, motivo legal, disponibilidad de letrados. Sin perder información crítica."
+        "title": "Urgencias según tu protocolo",
+        "description": "Detenciones, plazos que vencen o medidas urgentes: avisamos al letrado de guardia por el canal que nos digas."
       },
       {
-        "title": "Derivación inteligente de casos",
-        "description": "Distribuye llamadas según especialidad del letrado (civil, mercantil, penal, fiscal), disponibilidad y carga actual."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Confidencialidad",
+        "description": "Contrato de encargado del tratamiento, acceso mínimo a la información y nunca damos asesoramiento jurídico."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
+        "question": "¿Dais información jurídica a quien llama?",
+        "answer": "No. Recogemos la consulta y la pasamos al letrado; la valoración y el asesoramiento son siempre del despacho."
       },
       {
-        "question": "¿Cómo garantizáis la confidencialidad y el RGPD?",
-        "answer": "Todos nuestros agentes firman NDA. Los datos se procesan en servidores europeos encriptados, con auditorías de seguridad regulares. La recepción de llamadas cumple con las obligaciones RGPD y secreto profesional de despachos."
+        "question": "¿Cómo garantizáis la confidencialidad?",
+        "answer": "Firmamos el contrato de encargado del tratamiento, accedemos solo a la información mínima necesaria y los agentes siguen tu procedimiento de confidencialidad."
       },
       {
-        "question": "¿Cómo gestiona la IA casos urgentes y demandas?",
-        "answer": "Nuestro sistema identifica palabras clave de urgencia (demanda interpuesta, querella, embargo, violencia, negligencia) y avisa al letrado inmediatamente con llamada directa o mensajes de máxima prioridad."
+        "question": "¿Podéis filtrar consultas que no encajan con el despacho?",
+        "answer": "Sí. Con tus criterios (área, territorio, tipo de asunto) indicamos qué consultas pasan al letrado y cuáles se derivan o se descartan con educación."
       },
       {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Nuestros agentes pueden actuar como recepcionistas humanos o combinar con IA para filtrado inicial, clasificación y derivación automática según el tipo de caso."
+        "question": "¿Atendéis urgencias fuera de horario?",
+        "answer": "Sí, según tu protocolo de guardia: a quién se avisa, por qué canal y qué se le dice al cliente."
       },
       {
-        "question": "¿Cuándo usar IA y cuándo agente humano para despachos?",
-        "answer": "IA para filtrar consultas iniciales, confirmar citas e informar de documentación. Cuando un cliente llama con un problema legal urgente, necesita profesionalidad y confidencialidad humana."
+        "question": "¿Quién atiende las llamadas: personas o IA?",
+        "answer": "Tú eliges. Lo habitual es combinar agentes nativos en España para las llamadas que piden criterio y empatía con IA para consultas repetitivas, confirmaciones o franjas de mucho volumen."
       },
       {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Un cliente que llama a un abogado espera discreción y seriedad. Nuestros agentes preguntan por el tipo de caso sin dar asesoramiento legal y mantienen confidencialidad estricta. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "La confidencialidad es innegociable. Acuerdos de confidencialidad firmados, protocolos estrictos. Cada conversación se revisa. Partner comercial de Teleperformance."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Basta con captar un solo caso que antes se hubiera perdido. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para noches y fines de semana; humanos nativos para horario comercial y primeras llamadas."
+        "question": "¿Hay permanencia?",
+        "answer": "No. El servicio es mes a mes y el precio depende del volumen, del horario de cobertura y de si los agentes son compartidos o dedicados."
       }
     ],
-    "metaTitle": "Call center despachos de abogados | minute call",
-    "metaDescription": "Call center para despachos de abogados: filtra urgencias por prioridad, protege datos RGPD y cuida la confidencialidad.",
+    "metaTitle": "Call center para despachos de abogados | minute call",
+    "metaDescription": "Call center para despachos de abogados: nuevas consultas, citas, recados y urgencias con agentes nativos o IA y confidencialidad. Sin permanencia.",
     "clientes": "los despachos de abogados",
-    "servicio": "Recepcionista virtual para despachos de abogados",
+    "servicio": "Call center para despachos de abogados",
     "esServicio": false,
-    "servicioCorto": "Recepcionista para abogados"
+    "servicioCorto": "Call center para abogados",
+    "heroTitle": "Call center para despachos de abogados.",
+    "deepDive": [
+      {
+        "heading": "Qué llamadas atendemos en un despacho",
+        "body": "**Nuevos clientes.** Recogemos el área del asunto, la urgencia y los datos básicos, y agendamos la primera consulta si tu procedimiento lo prevé.\n\n**Clientes en curso.** Recados para el letrado, estado de la cita y documentación pendiente.\n\n**Urgencias.** Seguimos tu protocolo de guardia.\n\n**Llamadas de terceros.** Juzgados, procuradores y contrarios: tomamos el recado con todos los datos."
+      },
+      {
+        "heading": "Qué resolvemos en la llamada y qué escalamos",
+        "body": "Resolvemos agenda, recogida de información y recados. El asesoramiento jurídico y la aceptación del asunto son siempre del despacho: el letrado recibe la consulta ordenada para decidir.\n\nCada llamada queda registrada en tu herramienta o en un resumen por email."
+      },
+      {
+        "heading": "Agentes compartidos, equipo dedicado o IA",
+        "body": "Para la mayoría de despachos, **agentes compartidos** formados en tu procedimiento: cubren reuniones, vistas y fuera de horario sin pagar un puesto completo.\n\nPara despachos con varias áreas o mucho volumen de consultas, un **equipo dedicado de 1 a 5 agentes**. La **IA** sirve para recordatorios de cita y consultas simples; las nuevas consultas las atiende una persona."
+      }
+    ],
+    "faqFrom": 0
   },
   {
-    "slug": "recepcionista-ia-clinicas-dentales",
+    "slug": "call-center-clinicas-dentales",
     "sector": "clínicas dentales",
     "title": "Call center para clínicas dentales.",
     "heroTag": "Call center para clínicas dentales",
-    "heroSubtitle": "Nuestro call center para clínicas dentales gestiona citas, cancelaciones y urgencias dentales mientras tu equipo atiende pacientes en consulta - 24/7. Agentes nativos o IA especializada sin permanencia.",
+    "heroSubtitle": "Atendemos las llamadas de tu clínica dental con agentes nativos en España o con IA: primeras visitas, citas, presupuestos y urgencias de dolor, también fuera de horario. Agentes compartidos o un equipo dedicado, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Gestión de citas y reprogramaciones",
-        "description": "La IA agenda citas nuevas, gestiona cambios de horario y evita dobles-booking. Se integra con software dental como Dentix y Topdata."
+        "title": "Primeras visitas que no se pierden",
+        "description": "Quien llama por una primera visita o un tratamiento suele llamar a varias clínicas. Le atendemos al momento y sale con la cita cerrada."
       },
       {
-        "title": "Captura de urgencias dentales",
-        "description": "Identifica dolor agudo, infecciones y traumatismos, permitiendo encaje de urgencias o derivación a guardias."
+        "title": "Urgencias de dolor",
+        "description": "Con tu protocolo valoramos si es urgente, le damos hueco en la agenda de urgencias o avisamos al odontólogo de guardia."
       },
       {
-        "title": "Recordatorios automáticos",
-        "description": "Envía recordatorios de citas 48h antes por SMS o llamada, reduciendo no-shows hasta un 40%."
+        "title": "Recepción libre en el sillón",
+        "description": "El equipo de recepción atiende al paciente que tiene delante mientras nosotros atendemos el teléfono."
       },
       {
-        "title": "Respuesta durante tratamientos",
-        "description": "Contesta llamadas mientras el dentista está operando, eliminando interrupciones pero sin perder clientes."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Seguimiento de presupuestos",
+        "description": "Llamamos a los pacientes con presupuesto pendiente para resolver dudas y agendar la siguiente visita, si lo quieres."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
+        "question": "¿Podéis agendar en el software de la clínica?",
+        "answer": "Sí, si nos das acceso. Si no, recogemos los datos y te enviamos la solicitud para que la confirmes."
       },
       {
-        "question": "¿Se integra con mi software dental?",
-        "answer": "Sí. Nos integramos con Dentix, Topdata, Orysis y otros sistemas. También funcionamos sin integración: enviamos datos por email o permitimos acceso a panel de control para consultar citas agendadas."
+        "question": "¿Cómo tratáis una urgencia de dolor fuera de horario?",
+        "answer": "Según tu protocolo: hueco a primera hora, aviso al odontólogo de guardia o indicaciones que tú nos des. El paciente sabe qué va a pasar."
       },
       {
-        "question": "¿Cómo gestionáis urgencias dentales?",
-        "answer": "La IA identifica urgencias (dolor agudo, infección, accidente) y avisa inmediatamente al dentista. Puede encajar el paciente en huecos libres, ofrecerle teléfono del servicio de guardias o agendar para al día siguiente."
+        "question": "¿Atendéis a grupos con varias clínicas?",
+        "answer": "Sí. Un mismo equipo puede atender varias sedes con un número por clínica o uno central, y repartir las citas según la ubicación del paciente."
       },
       {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Ofrecemos agentes humanos para atención premium o IA para flujo de citas, cancelaciones y recordatorios automáticos."
+        "question": "¿Hacéis llamadas salientes?",
+        "answer": "Sí: confirmación de citas, recuperación de pacientes que cancelaron y seguimiento de presupuestos, si lo incluyes en el servicio."
       },
       {
-        "question": "¿Cuándo usar IA y cuándo agente humano para clínicas dentales?",
-        "answer": "Citas de revisión, limpiezas y consultas de precios son perfectas para IA. Para urgencias dentales o primeras visitas de implantes, un agente humano marca la diferencia."
+        "question": "¿Quién atiende las llamadas: personas o IA?",
+        "answer": "Tú eliges. Lo habitual es combinar agentes nativos en España para las llamadas que piden criterio y empatía con IA para consultas repetitivas, confirmaciones o franjas de mucho volumen."
       },
       {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Un paciente con dolor no espera: si no contestas, llama al siguiente dentista. Nuestros agentes priorizan según criterio clínico básico. Desde España, sin contratos largos."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos priorización de urgencias, recogida de datos y confirmación de seguro. Partner comercial de Teleperformance."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Captando 2-3 pacientes al mes que antes perdías, se recupera la inversión. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para noche y fines de semana; humanos en horario de clínica para primeras consultas de alto valor."
+        "question": "¿Hay permanencia?",
+        "answer": "No. El servicio es mes a mes y el precio depende del volumen, del horario de cobertura y de si los agentes son compartidos o dedicados."
       }
     ],
     "metaTitle": "Call center para clínicas dentales | minute call",
-    "metaDescription": "Call center para odontología. Gestión de citas, cancelaciones, recordatorios y captura de urgencias dentales. Agentes nativos o IA - tú eliges.",
+    "metaDescription": "Call center para clínicas dentales: primeras visitas, citas, presupuestos y urgencias con agentes nativos o IA, 24/7. Compartidos o equipo dedicado.",
     "clientes": "las clínicas dentales",
-    "servicio": "Recepcionista virtual para clínicas dentales",
+    "servicio": "Call center para clínicas dentales",
     "esServicio": false,
-    "servicioCorto": "Recepcionista para dentistas"
+    "servicioCorto": "Call center para dentistas",
+    "heroTitle": "Call center para clínicas dentales.",
+    "deepDive": [
+      {
+        "heading": "Qué llamadas atendemos en una clínica dental",
+        "body": "**Primeras visitas.** Implantes, ortodoncia, estética dental o revisión: recogemos el motivo y agendamos con el profesional adecuado.\n\n**Citas de tratamiento.** Cambios, cancelaciones y huecos libres, con las duraciones de cada tratamiento.\n\n**Dudas habituales.** Financiación, seguros dentales que aceptas, precios orientativos y cómo prepararse, con la información que nos des.\n\n**Urgencias.** Dolor, roturas o inflamación: seguimos tu protocolo de urgencias."
+      },
+      {
+        "heading": "Qué resolvemos en la llamada y qué escalamos",
+        "body": "Resolvemos agenda, información y recados. El diagnóstico y el plan de tratamiento son siempre del odontólogo: si el paciente pregunta por su caso, tomamos la consulta y la pasamos con el contexto recogido.\n\nCada llamada queda registrada en tu herramienta o en un resumen por email."
+      },
+      {
+        "heading": "Agentes compartidos, equipo dedicado o IA",
+        "body": "Para una clínica dental lo habitual son **agentes compartidos**: cubren hora punta y fuera de horario sin pagar un puesto completo.\n\nPara grupos con varias clínicas, un **equipo dedicado de 1 a 5 agentes** centraliza la agenda de todas las sedes. La **IA** encaja para recordatorios y confirmaciones; las primeras visitas, que son las que más valen, las atiende una persona."
+      }
+    ],
+    "faqFrom": 0
   },
   {
-    "slug": "recepcionista-ia-asesorias",
+    "slug": "call-center-asesorias",
     "sector": "asesorías y gestorías",
     "title": "Call center para asesorías y gestorías.",
     "heroTag": "Call center para asesorías y gestorías",
-    "heroSubtitle": "Nuestro call center para asesorías y gestorías informa del estado de trámites, captura nuevos clientes y gestiona la agenda de tu equipo - especialmente en picos de abril, junio y diciembre. Agentes nativos o IA sin permanencia.",
+    "heroSubtitle": "Atendemos las llamadas de tu asesoría con agentes nativos en España o con IA: clientes, nuevas altas, recados para cada asesor y los picos de campaña fiscal. Agentes compartidos o un equipo dedicado, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Información de expedientes en tiempo real",
-        "description": "Conecta con tu sistema de gestión. Clientes pueden consultar estado de IRPF, IVA, traspasos, sin molestar al gestor."
+        "title": "Picos de campaña cubiertos",
+        "description": "Renta, trimestres y cierres: absorbemos el pico de llamadas sin que tu equipo deje de trabajar en los expedientes."
       },
       {
-        "title": "Cobertura en picos fiscales",
-        "description": "Escala automáticamente en abril (IRPF), junio (IVA trimestral) y septiembre (impuestos autonómicos). No rechaza llamadas."
+        "title": "Recados con contexto",
+        "description": "Cliente, tema, plazo y documentación pendiente: cada asesor recibe el recado listo para actuar."
       },
       {
-        "title": "Filtrado de consultas repetitivas",
-        "description": "Identifica consultas recurrentes (¿cuándo me devuelven?, ¿cuánto me cuesta?, ¿qué documentos necesito?) y responde automáticamente."
+        "title": "Nuevos clientes cualificados",
+        "description": "Autónomo o sociedad, servicio que busca y volumen: la consulta llega ordenada para que preparéis la propuesta."
       },
       {
-        "title": "Captura de nuevos clientes",
-        "description": "Cualifica prospectos (actividad, tamaño, sector) y agenda consultoría con tu equipo de ventas o comercial."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Recordatorios a clientes",
+        "description": "Llamamos a los clientes que deben documentación antes de un vencimiento, si lo incluyes en el servicio."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
+        "question": "¿Respondéis dudas fiscales o laborales?",
+        "answer": "No. Tomamos la consulta y la pasamos al asesor; el asesoramiento es siempre de tu equipo."
       },
       {
-        "question": "¿Cómo manejáis los picos de abril y junio?",
-        "answer": "Escalamos automáticamente nuestro equipo en fechas críticas: 15 abril (IRPF), 20 junio (IVA trimestral). Puedes personalizar qué respuestas automáticas se activan y qué requiere transferencia con gestor."
+        "question": "¿Podéis reforzar solo en campaña?",
+        "answer": "Sí. Sin permanencia: puedes ampliar la cobertura en renta o en trimestres y reducirla después."
       },
       {
-        "question": "¿Se integra con software de gestión?",
-        "answer": "Sí. Nos conectamos con Wolters Kluwer, ASESOR, Sisconweb y otros. La IA consulta estado de expedientes, fechas de presentación, documentos faltantes, sin necesidad de transferencia."
+        "question": "¿Cómo repartís los recados entre asesores?",
+        "answer": "Con tu cartera de clientes: cada recado va al asesor responsable, por email, por tu herramienta o por el canal que uséis."
       },
       {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Agentes humanos para consultoría premium, o IA para información de expedientes, filtrado de llamadas y captura de potenciales."
+        "question": "¿Hacéis llamadas salientes a clientes?",
+        "answer": "Sí, si lo incluyes: recordatorios de documentación pendiente y citas antes de los vencimientos."
       },
       {
-        "question": "¿Cuándo usar IA y cuándo agente humano para asesorías?",
-        "answer": "IA para estado de trámites, plazos y documentación. Cuando un autónomo llama preocupado por una notificación de Hacienda, la empatía humana es insustituible."
+        "question": "¿Quién atiende las llamadas: personas o IA?",
+        "answer": "Tú eliges. Lo habitual es combinar agentes nativos en España para las llamadas que piden criterio y empatía con IA para consultas repetitivas, confirmaciones o franjas de mucho volumen."
       },
       {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Las asesorías pierden clientes cuando no atienden en momentos clave. Nuestros agentes están familiarizados con lenguaje fiscal y contable básico. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Cada conversación se revisa verificando clasificación correcta de urgencia. Nuestros agentes entienden la estacionalidad del sector. Partner comercial de Teleperformance."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Retener un solo cliente que iba a marcharse cubre la inversión. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA todo el año para consultas rutinarias y refuerzo humano en períodos de campaña fiscal."
+        "question": "¿Hay permanencia?",
+        "answer": "No. El servicio es mes a mes y el precio depende del volumen, del horario de cobertura y de si los agentes son compartidos o dedicados."
       }
     ],
-    "metaTitle": "Call center asesorías y gestorías | minute call",
-    "metaDescription": "Secretaria virtual con agentes nativos en España. Para PYMES, autónomos y profesionales independientes. Precios competitivos. Sin permanencia. Activa en 48h.",
-    "clientes": "las asesorías y gestorías",
-    "servicio": "Recepcionista virtual para asesorías y gestorías",
+    "metaTitle": "Call center para asesorías y gestorías | minute call",
+    "metaDescription": "Call center para asesorías y gestorías: clientes, nuevas altas, recados y picos de campaña fiscal con agentes nativos o IA. Sin permanencia.",
+    "clientes": "las asesorías",
+    "servicio": "Call center para asesorías",
     "esServicio": false,
-    "servicioCorto": "Recepcionista para asesorías"
+    "servicioCorto": "Call center para asesorías",
+    "heroTitle": "Call center para asesorías y gestorías.",
+    "deepDive": [
+      {
+        "heading": "Qué llamadas atendemos en una asesoría",
+        "body": "**Clientes.** Dudas de plazos, documentación, estado de sus trámites y recados para su asesor.\n\n**Nuevas altas.** Autónomos y empresas que buscan asesoría fiscal, laboral o contable.\n\n**Campaña.** Picos de renta, trimestres y cierres, cuando el teléfono no para.\n\n**Organismos y terceros.** Recados con todos los datos."
+      },
+      {
+        "heading": "Qué resolvemos en la llamada y qué escalamos",
+        "body": "Resolvemos información general, agenda y recados. El asesoramiento fiscal, laboral o contable es siempre de tu equipo: le pasamos la consulta con el contexto recogido.\n\nCada llamada queda registrada en tu herramienta o en un resumen por email."
+      },
+      {
+        "heading": "Agentes compartidos, equipo dedicado o IA",
+        "body": "Los **agentes compartidos** encajan muy bien en una asesoría porque el volumen sube y baja con el calendario fiscal: pagas lo que usas, sin un puesto completo todo el año.\n\nPara asesorías grandes o con varias oficinas, un **equipo dedicado de 1 a 5 agentes**. La **IA** encaja para recordatorios de plazos y consultas repetitivas en campaña."
+      }
+    ],
+    "faqFrom": 0
   },
   {
-    "slug": "recepcionista-ia-veterinarias",
-    "sector": "veterinarias",
-    "title": "Call center para veterinarias.",
-    "heroTag": "Call center para veterinarias",
-    "heroSubtitle": "Nuestro call center para veterinarias evalúa la urgencia de cada llamada, gestiona citas y atiende 24/7 cuando tu equipo está en quirófano - sin que ningún dueño preocupado se quede sin respuesta. Agentes nativos o IA sin permanencia.",
+    "slug": "call-center-veterinarias",
+    "sector": "clínicas veterinarias",
+    "title": "Call center para clínicas veterinarias.",
+    "heroTag": "Call center para clínicas veterinarias",
+    "heroSubtitle": "Atendemos las llamadas de tu clínica veterinaria con agentes nativos en España o con IA: citas, vacunas, dudas de propietarios y urgencias, también por la noche. Agentes compartidos o un equipo dedicado, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Triaje telefónico de urgencias",
-        "description": "La IA pregunta síntomas, edad, historial. Clasifica como urgencia crítica (shock, inconsciencia, paro cardiaco) o urgencia moderada (trauma, sangrado)."
+        "title": "Urgencias según tu protocolo",
+        "description": "Valoramos con tus criterios si es urgente y avisamos al veterinario de guardia o derivamos al hospital que nos digas."
       },
       {
-        "title": "Agenda de consultas automática",
-        "description": "Gestiona citas de revisión, vacunaciones, esterilizaciones. Previene dobles booking y optimiza horarios de quirófano."
+        "title": "Citas y vacunas",
+        "description": "Consultas, revisiones, vacunas y peluquería: agendamos con las duraciones y los profesionales de tu clínica."
       },
       {
-        "title": "Información de vacunaciones y desparasitaciones",
-        "description": "Responde sobre calendarios, próximas vacunas, productos recomendados. Reduce consultas administrativas."
+        "title": "Equipo centrado en el animal",
+        "description": "Nadie deja una consulta o una cirugía para coger el teléfono."
       },
       {
-        "title": "Derivación de urgencias a guardias",
-        "description": "Fuera de horario, proporciona teléfono de guardias veterinarias, informa coste estimado y referencias de emergencias."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Recordatorios",
+        "description": "Llamamos para recordar vacunas y revisiones pendientes, si lo incluyes en el servicio."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
+        "question": "¿Qué hacéis con una urgencia de noche?",
+        "answer": "Lo que diga tu protocolo: avisar al veterinario de guardia o derivar al hospital de referencia, y explicar al propietario los siguientes pasos."
       },
       {
-        "question": "¿Cómo evalúa urgencias veterinarias?",
-        "answer": "La IA pregunta síntomas específicos (dificultad respiratoria, sangrado, inconsciencia, traumatismo) y edad del animal. Clasifica urgencia en crítica, moderada o electiva, alertando inmediatamente al veterinario si es necesario."
+        "question": "¿Podéis agendar en el software de la clínica?",
+        "answer": "Sí, si nos das acceso. Si no, te enviamos cada solicitud para que la confirmes."
       },
       {
-        "question": "¿Ofrecéis cobertura nocturna?",
-        "answer": "Sí, 24/7 incluyendo horario nocturno. Para urgencias fuera de horario, la IA proporciona teléfono de guardias veterinarias, referencia de clínicas 24h y estimación de costes."
+        "question": "¿Dais información sobre el estado de un animal ingresado?",
+        "answer": "No. Tomamos el recado y lo pasa el veterinario, que es quien puede informar."
       },
       {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Agentes humanos para consultoría, o IA para triaje, gestión de citas y información de vacunaciones."
+        "question": "¿Atendéis varias clínicas del mismo grupo?",
+        "answer": "Sí, con un número por clínica o uno central, repartiendo las citas por ubicación."
       },
       {
-        "question": "¿Cuándo usar IA y cuándo agente humano para veterinarias?",
-        "answer": "Citas de vacunación y consultas de horario son ideales para IA. Cuando un dueño llama por una emergencia, necesita una voz humana que transmita calma y evalúe la urgencia."
+        "question": "¿Quién atiende las llamadas: personas o IA?",
+        "answer": "Tú eliges. Lo habitual es combinar agentes nativos en España para las llamadas que piden criterio y empatía con IA para consultas repetitivas, confirmaciones o franjas de mucho volumen."
       },
       {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Los dueños de mascotas son emocionalmente sensibles. Nuestros agentes preguntan síntomas clave y priorizan urgencias con empatía real. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos triaje de urgencia, derivación correcta y tono empático. Partner comercial de Teleperformance."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Para una veterinaria que pierde 3-5 llamadas de urgencia al mes, la inversión se recupera rápido. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para citas de rutina; humanos para urgencias nocturnas y fines de semana."
+        "question": "¿Hay permanencia?",
+        "answer": "No. El servicio es mes a mes y el precio depende del volumen, del horario de cobertura y de si los agentes son compartidos o dedicados."
       }
     ],
-    "metaTitle": "Call center para veterinarias | 24/7 | minute call",
-    "metaDescription": "Call center para clínicas veterinarias. Triaje de urgencias, gestión de citas y información sobre vacunaciones. Agentes nativos o IA - tú eliges.",
+    "metaTitle": "Call center para clínicas veterinarias | minute call",
+    "metaDescription": "Call center para clínicas veterinarias: citas, vacunas, dudas de propietarios y urgencias con agentes nativos o IA, 24/7. Sin permanencia.",
     "clientes": "las clínicas veterinarias",
-    "servicio": "Recepcionista virtual para clínicas veterinarias",
+    "servicio": "Call center para veterinarias",
     "esServicio": false,
-    "servicioCorto": "Recepcionista para veterinarias"
+    "servicioCorto": "Call center para veterinarias",
+    "heroTitle": "Call center para clínicas veterinarias.",
+    "deepDive": [
+      {
+        "heading": "Qué llamadas atendemos en una clínica veterinaria",
+        "body": "**Citas.** Consultas, revisiones, vacunas, cirugías programadas y peluquería.\n\n**Dudas de propietarios.** Horarios, precios orientativos, preparación para una cirugía o recogida de resultados, con la información que nos des.\n\n**Urgencias.** Con tu protocolo: qué se considera urgente y a quién se avisa.\n\n**Hospitalizados.** No damos partes clínicos: tomamos el recado para el veterinario."
+      },
+      {
+        "heading": "Qué resolvemos en la llamada y qué escalamos",
+        "body": "Resolvemos agenda, información y recados. Cualquier pregunta clínica sobre el animal se pasa al veterinario con lo que ha contado el propietario.\n\nCada llamada queda registrada en tu herramienta o en un resumen por email."
+      },
+      {
+        "heading": "Agentes compartidos, equipo dedicado o IA",
+        "body": "Para una clínica veterinaria lo habitual son **agentes compartidos**: cubren hora punta y la noche sin pagar un puesto completo.\n\nPara hospitales veterinarios o grupos de clínicas, un **equipo dedicado de 1 a 5 agentes**. La **IA** encaja para recordatorios de vacunas; las urgencias las atiende una persona."
+      }
+    ],
+    "faqFrom": 0
   },
   {
-    "slug": "recepcionista-ia-centros-estetica",
-    "sector": "centros de estética",
-    "title": "Call center para centros de estética.",
-    "heroTag": "Call center para centros de estética",
-    "heroSubtitle": "Nuestro call center para centros de estética confirma citas, maneja cancelaciones, informa de tratamientos y captura cada nuevo lead - 24/7. Tu agenda siempre llena sin interrumpir las sesiones. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Gestión integral de agenda",
-        "description": "Reserva nuevas citas, gestiona cambios y cancelaciones. Evita dobles bookings. Se sincroniza con Acuity, Studio y otros software de estética."
-      },
-      {
-        "title": "Información de tratamientos y precios",
-        "description": "Clientes preguntan sobre duración, precio, contraindicaciones. La IA responde instantáneamente, aumentando conversión."
-      },
-      {
-        "title": "Recordatorios y reducción de no-shows",
-        "description": "Recordatorios automáticos 48h y 24h antes. Reduce ausencias hasta un 50%, maximizando ocupación."
-      },
-      {
-        "title": "Captura de nuevos clientes",
-        "description": "Primera cita es crítica: la IA agenda rápidamente, toma datos (tipo de piel, presupuesto, preferencias) para experiencia personalizada."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Se integra con mi software de agenda?",
-        "answer": "Sí. Nos integramos con Acuity Scheduling, Genexus Studio, PracticePRO y otros. También sin integración: la IA te avisa por email de nuevas citas y cancelaciones."
-      },
-      {
-        "question": "¿Cómo gestionáis múltiples profesionales?",
-        "answer": "La IA distribuye citas según disponibilidad de cada profesional. Sabe quién hace qué tratamiento y encaja clientes automáticamente en el hueco óptimo."
-      },
-      {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Agentes humanos para consultoría sobre tratamientos complejos, o IA para gestión de agenda, información de precios y recordatorios."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para estética?",
-        "answer": "Reservas de tratamientos y consultas de precio son perfectas para IA. Para asesoramiento personalizado, un agente humano convierte en venta de alto valor."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "En estética, la imagen lo es todo. Nuestros agentes nativos representan tu centro con el tono de exclusividad que necesita tu marca. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos que la experiencia telefónica refleje la calidad de tu centro. Nuestros agentes conocen tu carta de tratamientos y promociones."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Captar 2-3 clientas que habrías perdido cubre el coste. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para citas 24/7; humano para asesoramiento y ventas de bonos."
-      }
-    ],
-    "metaTitle": "Call center para centros de estética | minute call",
-    "metaDescription": "Call center para centros de belleza. Gestión de citas, recordatorios y captura de nuevos clientes. Agentes nativos o IA - tú eliges.",
-    "clientes": "los centros de estética",
-    "servicio": "Recepcionista virtual para centros de estética",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para estética"
-  },
-  {
-    "slug": "recepcionista-ia-fisioterapia",
-    "sector": "fisioterapia",
-    "title": "Call center para centros de fisioterapia.",
-    "heroTag": "Call center para fisioterapia",
-    "heroSubtitle": "Nuestro call center para centros de fisioterapia gestiona citas recurrentes, cambios de horario y bajas sin interrumpir las sesiones en camilla - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Gestión de citas recurrentes",
-        "description": "Pacientes con tratamientos de múltiples sesiones. La IA mantiene calendario de citas regulares, gestiona cambios y ajusta horarios sin perder continuidad del tratamiento."
-      },
-      {
-        "title": "Listas de espera dinámicas",
-        "description": "Cuando alguien cancela, la IA contacta automáticamente a pacientes en lista de espera para ocupar el hueco. Maximiza ocupación."
-      },
-      {
-        "title": "Información de tratamientos y duraciones",
-        "description": "Pacientes preguntan sobre lesiones, tiempos de recuperación, contraindicaciones. La IA proporciona información básica sin sobrecargar al fisio."
-      },
-      {
-        "title": "Gestión de bajas temporales",
-        "description": "Si el fisio está enfermo o de vacaciones, la IA avisa a pacientes, reprograma citas y mantiene continuidad del tratamiento."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo gestionáis citas recurrentes?",
-        "answer": "La IA mantiene un calendario de sesiones (ej: 3 sesiones semanales durante 6 semanas). Cuando paciente llama para cambiar, la IA reorganiza sin afectar otras citas ni el plan terapéutico."
-      },
-      {
-        "question": "¿Se integra con calendarios de fisioterapia?",
-        "answer": "Sí. Nos conectamos con Heali, Physitrack, Terapify y software estándar. La IA consulta disponibilidad en tiempo real y sincroniza cambios automáticamente."
-      },
-      {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Agentes humanos para valoración de lesiones complejas, o IA para gestión de citas, listas de espera y información terapéutica."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para fisioterapia?",
-        "answer": "Citas de seguimiento y consultas sobre seguro son perfectas para IA. Cuando un paciente llama con dolor agudo tras una lesión, necesita sentir que alguien entiende su situación."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Un paciente con dolor que no obtiene respuesta busca otro fisioterapeuta inmediatamente. Nuestros agentes preguntan por tipo de lesión y urgencia. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos recogida de datos relevantes y clasificación correcta de urgencia. Partner comercial de Teleperformance."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Captar un solo paciente al mes justifica la inversión. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para gestión de agenda; humanos para pacientes nuevos con lesiones agudas."
-      }
-    ],
-    "metaTitle": "Call center centros de fisioterapia | minute call",
-    "metaDescription": "Call center para fisioterapia. Gestión de citas recurrentes, listas de espera y soporte 24/7. Agentes nativos o IA - tú eliges.",
-    "clientes": "las clínicas de fisioterapia",
-    "servicio": "Recepcionista virtual para clínicas de fisioterapia",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para fisioterapia"
-  },
-  {
-    "slug": "recepcionista-ia-seguros",
+    "slug": "call-center-seguros",
     "sector": "seguros y corredurías",
     "title": "Call center para seguros y corredurías.",
     "heroTag": "Call center para seguros y corredurías",
-    "heroSubtitle": "Nuestro call center para corredurías de seguros recibe siniestros, cualifica nuevos clientes y deriva consultas urgentes - 24/7, incluidos fines de semana y festivos. Agentes nativos o IA sin permanencia.",
+    "heroSubtitle": "Atendemos las llamadas de tu correduría con agentes nativos en España o con IA: siniestros, consultas de pólizas, nuevos clientes y renovaciones, también fuera de horario. Agentes compartidos o un equipo dedicado, sin permanencia.",
     "socialProof": "Partner comercial de Teleperformance",
     "features": [
       {
-        "title": "Recepción de siniestros 24/7",
-        "description": "Accidentes, robos, incendios. La IA toma datos del siniestro (qué pasó, dónde, cuándo, heridos), abre expediente y avisa inmediatamente al ajustador."
+        "title": "Siniestros también de noche",
+        "description": "Recogemos el parte con tu procedimiento (qué pasó, dónde, daños, terceros) y avisamos a quien lo tramita."
       },
       {
-        "title": "Cualificación de leads automática",
-        "description": "La IA pregunta tipo de seguro que busca (hogar, coche, salud, vida, responsabilidad), empresa anterior, presupuesto. Entrega lead calificado al comercial."
+        "title": "Nuevos clientes cualificados",
+        "description": "Tipo de seguro, situación actual y vencimiento: el comercial recibe un contacto listo para presupuestar."
       },
       {
-        "title": "Información de pólizas",
-        "description": "Clientes preguntan cobertura, límites, franquicias. La IA consulta sistema, responde y reduce derivaciones innecesarias."
+        "title": "Consultas de pólizas",
+        "description": "Coberturas, recibos y documentación, con la información a la que nos des acceso. Lo que requiere criterio, al gestor."
       },
       {
-        "title": "Derivación por tipo de seguro",
-        "description": "Distribuye automáticamente llamadas de siniestros y ventas según especialidad del agente: vida, responsabilidad civil, salud."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Renovaciones",
+        "description": "Llamamos antes del vencimiento para retener al cliente y detectar si quiere revisar su póliza, si lo incluyes."
       }
     ],
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
+        "question": "¿Podéis abrir siniestros fuera de horario?",
+        "answer": "Sí. Recogemos el parte con tu procedimiento y avisamos a quien lo tramita por el canal que nos digas."
       },
       {
-        "question": "¿Cómo gestiona siniestros fuera de horario?",
-        "answer": "La IA toma datos completos del siniestro (circunstancias, daños, testigos, lesionados) y abre expediente automáticamente. El ajustador recibe notificación inmediata con toda la información. Para urgencias críticas, activamos escala de emergencias."
+        "question": "¿Dais información de coberturas?",
+        "answer": "Solo la que nos autorices y con acceso a la póliza. Cualquier duda de interpretación pasa al gestor."
       },
       {
-        "question": "¿Se integra con sistemas de seguros?",
-        "answer": "Sí. Nos conectamos con AMSAFIN, Operativa, Dinámico y otros. La IA consulta pólizas, historiales de siniestros y cobertura en tiempo real."
+        "question": "¿Trabajáis en nuestro programa de gestión?",
+        "answer": "Sí, si nos das acceso. Si no, recibes cada llamada por email con los datos recogidos."
       },
       {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Agentes humanos para negociación de pólizas, o IA para recepción de siniestros, cualificación de leads y información de coberturas."
+        "question": "¿Hacéis campañas de renovación?",
+        "answer": "Sí, si lo incluyes: llamadas antes del vencimiento para confirmar la renovación o detectar riesgo de baja."
       },
       {
-        "question": "¿Cuándo usar IA y cuándo agente humano para seguros?",
-        "answer": "IA para consultas sobre coberturas, vencimientos y estado de pólizas. Cuando un asegurado llama tras un accidente, el apoyo humano es clave para retención."
+        "question": "¿Quién atiende las llamadas: personas o IA?",
+        "answer": "Tú eliges. Lo habitual es combinar agentes nativos en España para las llamadas que piden criterio y empatía con IA para consultas repetitivas, confirmaciones o franjas de mucho volumen."
       },
       {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "La llamada post-siniestro define si el cliente renueva o se va. Nuestros agentes entienden la gestión de siniestros y derivan correctamente. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos recogida correcta de datos del siniestro y experiencia profesional. Control de calidad sistemático."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Retener un solo cliente que iba a cancelar devuelve la inversión. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para estado de póliza; humanos para atención post-siniestro y renovaciones."
+        "question": "¿Hay permanencia?",
+        "answer": "No. El servicio es mes a mes y el precio depende del volumen, del horario de cobertura y de si los agentes son compartidos o dedicados."
       }
     ],
-    "metaTitle": "Call center seguros y corredurias | minute call",
-    "metaDescription": "Call center para corredurías. Recepción de siniestros, cualificación de leads y gestión de pólizas 24/7. Agentes nativos o IA - tú eliges.",
+    "metaTitle": "Call center para seguros y corredurías | minute call",
+    "metaDescription": "Call center para corredurías de seguros: siniestros, consultas de pólizas, nuevos clientes y renovaciones con agentes nativos o IA, 24/7.",
     "clientes": "las corredurías de seguros",
-    "servicio": "Recepcionista virtual para corredurías de seguros",
+    "servicio": "Call center para corredurías de seguros",
     "esServicio": false,
-    "servicioCorto": "Recepcionista para corredurías"
+    "servicioCorto": "Call center para corredurías",
+    "heroTitle": "Call center para seguros y corredurías.",
+    "deepDive": [
+      {
+        "heading": "Qué llamadas atendemos en una correduría",
+        "body": "**Siniestros.** Apertura del parte con todos los datos y aviso inmediato al tramitador o a la compañía, según tu procedimiento.\n\n**Clientes.** Coberturas, recibos, cambios de datos y documentación.\n\n**Nuevos clientes.** Hogar, auto, salud, vida o empresa: cualificamos y agendamos con el comercial.\n\n**Renovaciones y anulaciones.** Recogemos el motivo y lo pasamos a quien puede retener al cliente."
+      },
+      {
+        "heading": "Qué resolvemos en la llamada y qué escalamos",
+        "body": "Resolvemos la recogida de datos del siniestro, la información que nos autorices a dar y la agenda comercial. La valoración de coberturas, la negociación y la decisión sobre un siniestro son siempre de tu equipo o de la compañía.\n\nCada llamada queda registrada en tu herramienta o en un resumen por email."
+      },
+      {
+        "heading": "Agentes compartidos, equipo dedicado o IA",
+        "body": "Los **agentes compartidos** cubren el teléfono de siniestros por la noche y en fin de semana sin pagar turnos completos.\n\nPara corredurías con mucha cartera o campañas comerciales, un **equipo dedicado de 1 a 5 agentes**. La **IA** encaja para consultas de recibos y estado de pólizas; la llamada tras un siniestro la atiende una persona."
+      }
+    ],
+    "faqFrom": 0
   },
   {
-    "slug": "recepcionista-ia-turismo",
+    "slug": "call-center-turismo",
     "sector": "turismo, hoteles y agencias de viajes",
     "title": "Call center para hoteles y agencias de viajes.",
     "heroTag": "Call center para turismo",
@@ -824,2153 +602,21 @@
     "servicio": "Recepcionista virtual para hoteles y agencias de viajes",
     "esServicio": false,
     "servicioCorto": "Recepcionista para hoteles y agencias",
-    "heroTitle": "Call center para hoteles y agencias de viajes."
-  },
-  {
-    "slug": "recepcionista-ia-autoescuelas",
-    "sector": "autoescuelas",
-    "title": "Call center para autoescuelas.",
-    "heroTag": "Call center para autoescuelas",
-    "heroSubtitle": "Nuestro call center para autoescuelas gestiona cambios de horario, informa sobre citas de examen DGT y atiende a nuevos alumnos - 24/7, mientras tus profesores están en ruta. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
+    "heroTitle": "Call center para hoteles y agencias de viajes.",
+    "deepDive": [
       {
-        "title": "Gestión de cambios de horario de prácticas",
-        "description": "Alumnos necesitan cambiar día/hora. La IA reprograma automáticamente, evita conflictos con otros alumnos y notifica al profesor de cualquier cambio."
+        "heading": "Qué llamadas atendemos en turismo",
+        "body": "**Hoteles.** Reservas directas, disponibilidad, cambios y cancelaciones, peticiones especiales y llamadas de huéspedes alojados fuera del horario de recepción.\n\n**Agencias de viajes.** Información de viajes y paquetes, cambios de reserva e incidencias de viajeros en destino.\n\n**Idiomas.** Español, inglés y francés con agentes nativos."
       },
       {
-        "title": "Información de precios y trámites DGT",
-        "description": "¿Cuánto cuesta el carné? ¿Cuándo me examino? ¿Qué papeles necesito? La IA responde sobre licencias, tasas y plazos de la DGT."
+        "heading": "Qué resolvemos en la llamada y qué escalamos",
+        "body": "Resolvemos reservas, cambios y la información que nos des. Las excepciones a tus políticas (descuentos, cambios de condiciones, reembolsos) y las incidencias que requieren decisión pasan a tu equipo con todo lo recogido.\n\nCada llamada queda registrada en tu herramienta o en un resumen por email."
       },
       {
-        "title": "Captura de nuevos alumnos",
-        "description": "Llamadas de gente interesada. La IA agenda una primera llamada, toma datos (edad, licencia anterior, disponibilidad) y acelera matrícula."
-      },
-      {
-        "title": "Recordatorios de clases y exámenes",
-        "description": "Alumnos olvidan clases teóricas o prácticas. Recordatorios automáticos 24h antes reducen ausencias y maximizan aprovechamiento."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "heading": "Agentes compartidos, equipo dedicado o IA",
+        "body": "Los **agentes compartidos** cubren la noche, los fines de semana y la temporada alta sin contratar turnos.\n\nPara cadenas hoteleras o agencias con mucho volumen, un **equipo dedicado de 1 a 5 agentes**. La **IA** encaja para disponibilidad y preguntas frecuentes; las reservas de grupos y las incidencias las atiende una persona."
       }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo gestionáis cambios de horario?",
-        "answer": "La IA consulta disponibilidad de coches y profesores. Busca alternativas que se adapten al alumno, reprograma sin doble-booking. El profesor recibe notificación clara de cada cambio."
-      },
-      {
-        "question": "¿Qué información de la DGT podéis proporcionar?",
-        "answer": "Información pública: tipos de licencia, tasas, requisitos de edad, duración de permisos, puntos de tráfico, fechas de exámenes en tu provincia. No interferimos en gestión oficial de la DGT."
-      },
-      {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Agentes humanos para asesoría compleja sobre licencias, o IA para gestión de horarios, información DGT y captura de alumnos nuevos."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para autoescuelas?",
-        "answer": "IA para precios, horarios y disponibilidad. Humanos para cerrar matrículas y resolver dudas sobre permisos."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Los alumnos comparan rápido. Nuestros agentes se forman en tu oferta y contestan como tu recepción. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos información correcta sobre precios, horarios y proceso de matriculación."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA 24/7; humanos para cerrar matrículas en horario comercial."
-      }
-    ],
-    "metaTitle": "Call center para autoescuelas | 24/7 | minute call",
-    "metaDescription": "Call center para academias de conducción. Gestión de cambios de horario, información DGT y captura de alumnos. Agentes nativos o IA - tú eliges.",
-    "clientes": "las autoescuelas",
-    "servicio": "Recepcionista virtual para autoescuelas",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para autoescuelas"
-  },
-  {
-    "slug": "recepcionista-ia-consultoria",
-    "sector": "consultoría y formación",
-    "title": "Call center para consultoría y formación.",
-    "heroTag": "Call center para consultoría y formación",
-    "heroSubtitle": "Nuestro call center para consultorías atiende llamadas de clientes y leads de alto valor mientras estás en reunión - 24/7, con cualificación profesional. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Filtrado inteligente de llamadas",
-        "description": "La IA evalúa: tamaño de empresa, presupuesto estimado, urgencia, si es lead conocido o competencia. Identifica oportunidades de alto valor instantáneamente."
-      },
-      {
-        "title": "Agenda de reuniones con consultores",
-        "description": "Cita reuniones directamente en calendarios de consultores. Evita dobles bookings. Respeta tiempos de preparación y viajes entre clientes."
-      },
-      {
-        "title": "Información sobre servicios y casos de éxito",
-        "description": "Prospecto pregunta sobre expertise, duración de proyectos, ROI típico. La IA responde con confianza, proyectando imagen premium."
-      },
-      {
-        "title": "Imagen corporativa premium 24/7",
-        "description": "Voz, tono y información perfectamente alineados con brand consultant. Nunca dice 'ahora no podemos', siempre ofrece alternativas profesionales."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo personalizáis el tono para consultoría?",
-        "answer": "Tu onboarding define vocabulario, casos de éxito, el tono corporativo. Nuestros agentes suena como parte de tu equipo: seguridad, confidencialidad, profesionalismo. Son embajadores de tu marca."
-      },
-      {
-        "question": "¿Cómo gestionáis múltiples consultores?",
-        "answer": "Cada consultor tiene calendario y especialidad. La IA redirige: si llama sobre strategy, va a tu partner expert en strategy. Si sobre transformación digital, al especialista correspondiente."
-      },
-      {
-        "question": "¿Ofrecéis call center con IA?",
-        "answer": "Sí. Agentes humanos completamente personalizados para tu marca, o IA avanzada para filtrado de leads y respuestas de servicios que mantiene tono premium."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para consultoras?",
-        "answer": "IA para filtrado, confirmación de reuniones e información general. Humanos para cualificar oportunidades con decisores."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "En consultoría, la primera impresión define si consigues la reunión. Nuestros agentes entienden lenguaje B2B y cualifican por tamaño de empresa. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos tono profesional, cualificación correcta y derivación adecuada. Partner comercial de Teleperformance."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para un presupuesto personalizado. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para filtrado; humanos para atención a decisores."
-      }
-    ],
-    "metaTitle": "Call center consultoria y formación | minute call",
-    "metaDescription": "Call center para consultores: filtrado inteligente de llamadas, agenda de reuniones y gestión de leads de alto valor.",
-    "clientes": "las consultoras y centros de formación",
-    "servicio": "Recepcionista virtual para consultoras y centros de formación",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para consultoras"
-  },
-  {
-    "slug": "recepcionista-ia-gimnasios-deportivos",
-    "sector": "Gimnasios y Centros Deportivos",
-    "title": "Call center para Gimnasios y Centros Deportivos.",
-    "heroTag": "Call center para gimnasios y centros deportivos",
-    "heroSubtitle": "Nuestro call center para gimnasios gestiona reservas de clases, inscripciones de nuevos miembros y consultas sobre tarifas - 24/7, sin sobrecargar a tu equipo de recepción. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Gestión de Reservas de Clases",
-        "description": "Los miembros pueden reservar clases de yoga, spinning, crossfit y entrenamientos personales sin esperar. Tu recepcionista IA confirma disponibilidad en tiempo real."
-      },
-      {
-        "title": "Registro de Nuevos Miembros",
-        "description": "Captura información de clientes potenciales interesados en membresías. Recopila datos de contacto y preferencias de entrenamiento para seguimiento posterior."
-      },
-      {
-        "title": "Consultas sobre Tarifas y Promociones",
-        "description": "Responde automáticamente preguntas sobre planes mensuales, ofertas especiales y horarios de clases sin intervención manual."
-      },
-      {
-        "title": "Control de Acceso e Información",
-        "description": "Proporciona horarios de apertura, ubicación, estacionamiento disponible e información sobre servicios adicionales (vestuarios, duchas, cafetería)."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo se integra Minute Call con mi software de gestión de gimnasio?",
-        "answer": "Podemos integrar directamente con sistemas como Mindbody, Zen o Easyfit. Si utilizas un sistema diferente, nuestro equipo trabaja contigo para implementar la solución más eficiente."
-      },
-      {
-        "question": "¿Puede Minute Call capturar preferencias de entrenamiento?",
-        "answer": "Sí, nuestros agentes pueden hacer preguntas específicas sobre objetivos de fitness, horarios preferidos y experiencia previa para calificar prospectos."
-      },
-      {
-        "question": "¿Qué sucede si hay una clase llena?",
-        "answer": "Nuestro equipo informa al cliente sobre alternativas y horarios disponibles, e incluye información sobre listas de espera si así lo configuraste."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para gimnasios?",
-        "answer": "IA para horarios, precios y consultas sobre instalaciones. Humanos para cerrar altas y gestionar bajas."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Si no contestas, el cliente se apunta al de al lado. Nuestros agentes conocen tus clases y tarifas. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos información correcta y analizamos oportunidades de conversión perdidas."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para horarios 24/7; humanos para cerrar altas. Más cobertura humana en enero y septiembre."
-      }
-    ],
-    "metaTitle": "Call center Gimnasios y Centros Depo | minute call",
-    "metaDescription": "Recepcionista de IA 24/7 para gimnasios. Gestiona reservas de clases, inscripciones y consultas de miembros automáticamente.",
-    "clientes": "los gimnasios y centros deportivos",
-    "servicio": "Recepcionista virtual para gimnasios y centros deportivos",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para gimnasios"
-  },
-  {
-    "slug": "recepcionista-ia-peluquerias-belleza",
-    "sector": "Peluquerías y Salones de Belleza",
-    "title": "Call center para Peluquerías y Salones de Belleza.",
-    "heroTag": "Call center para peluquerías y salones de belleza",
-    "heroSubtitle": "Nuestro call center para peluquerías y salones de belleza agenda citas, gestiona cambios y envía recordatorios - 24/7, mientras tus estilistas se concentran en los clientes. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Agendamiento Automático de Citas",
-        "description": "Los clientes llaman y obtienen citas disponibles de forma inmediata. Tu recepcionista IA consulta tu calendario y confirma horarios sin conflictos."
-      },
-      {
-        "title": "Gestión de Servicios Específicos",
-        "description": "Diferencia entre cortes, tintes, alisados, tratamientos capilares y otros servicios. Asigna tiempo adecuado según el servicio solicitado."
-      },
-      {
-        "title": "Recordatorios de Citas",
-        "description": "Envía SMS y llamadas de confirmación 24 horas antes. Reduce cancelaciones y no-shows significativamente."
-      },
-      {
-        "title": "Consulta de Disponibilidad de Profesionales",
-        "description": "Identifica qué peluquero o especialista está disponible y coordina citas con preferencias del cliente."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Puede Minute Call agendar citas en mi sistema de reservas?",
-        "answer": "Sí, integramos con sistemas como Phuturo, Reservio y otros. También podemos trabajar manualmente si tu agenda es simplificada."
-      },
-      {
-        "question": "¿Cómo maneja Minute Call servicios complejos como tintes o tratamientos?",
-        "answer": "Nuestros agentes están entrenados para hacer preguntas de calificación: tipo de cabello, color deseado, productos requeridos. Esto asegura citas realistas en duración."
-      },
-      {
-        "question": "¿Incluye gestión de productos y venta de servicios adicionales?",
-        "answer": "Nuestros agentes pueden informar sobre productos y servicios, pero la venta principal ocurre en la cita. Podemos mencionar ofertas especiales para maximizar ticket promedio."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para peluquerías?",
-        "answer": "IA para reservas estándar y confirmaciones. Humanos para asesoramiento de look y coordinación de novias."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Las llamadas llegan mientras tienes las manos ocupadas. Nuestros agentes gestionan reservas por estilista. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos citas correctas: duración adecuada, estilista correcto, datos completos."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Un cliente se pierde cada vez que no contestas. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para reservas y fuera de horario; humanos para asesoramiento y servicios premium."
-      }
-    ],
-    "metaTitle": "Call center Peluquerias y Salones de | minute call",
-    "metaDescription": "Recepción 24/7 para peluquerías: agenda cortes y tratamientos, reduce cancelaciones y maximiza la ocupación de sillas.",
-    "clientes": "las peluquerías y salones de belleza",
-    "servicio": "Recepcionista virtual para peluquerías y salones de belleza",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para peluquerías"
-  },
-  {
-    "slug": "recepcionista-ia-farmacias",
-    "sector": "Farmacias",
-    "title": "Call center para Farmacias.",
-    "heroTag": "Call center para farmacias",
-    "heroSubtitle": "Nuestro call center para farmacias atiende consultas sobre medicamentos, disponibilidad y entregas a cualquier hora - 24/7, dejando que tus farmacéuticos se dediquen a recetar. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Consultas sobre Disponibilidad de Medicamentos",
-        "description": "Los clientes preguntan por medicinas específicas. Tu recepcionista IA consulta tu inventario y confirma disponibilidad en tiempo real."
-      },
-      {
-        "title": "Información sobre Medicamentos y Contraindicaciones",
-        "description": "Proporciona información básica: composición, modo de uso, efectos secundarios comunes. Escala a farmacéutico para consultas complejas."
-      },
-      {
-        "title": "Gestión de Entregas a Domicilio",
-        "description": "Registra pedidos de entregas, coordina direcciones y horarios. Comunica restricciones de cobertura o costos de envío."
-      },
-      {
-        "title": "Recordatorios de Medicación y Recetas",
-        "description": "Infoma sobre medicinas que vencen o recordatorios de renovación de recetas. Mantén a clientes informados automáticamente."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Pueden los agentes de Minute Call aconsejar sobre medicamentos?",
-        "answer": "Nuestros agentes proporcionan información general, pero siempre recomendamos consultas farmacéuticas para diagnósticos o prescripciones. Escalaremos cualquier caso que requiera expertise."
-      },
-      {
-        "question": "¿Cómo maneja Minute Call información confidencial de salud?",
-        "answer": "Cumplimos con GDPR y regulaciones de privacidad sanitaria. Los datos se encriptan y no se almacenan innecesariamente."
-      },
-      {
-        "question": "¿Integra Minute Call con sistemas de gestión farmacéutica?",
-        "answer": "Sí, integramos con Farmagestion, TienesFarmacia y otros sistemas. También ofrecemos integración manual para farmacias pequeñas."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para farmacias?",
-        "answer": "IA para disponibilidad de medicamentos, horarios y entregas. Humano para derivar consultas al farmacéutico."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Las farmacias reciben llamadas mientras atienden mostrador. Nuestros agentes saben cuándo derivar. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos respuestas correctas y derivación adecuada. Nuestros agentes nunca dan consejo farmacéutico."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Cada llamada perdida es una venta que se va. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para disponibilidad 24/7; humanos para derivación a farmacéutico."
-      }
-    ],
-    "metaTitle": "Call center para Farmacias | 24/7 | minute call",
-    "metaDescription": "Recepcionista 24/7 para farmacias: resuelve dudas de horarios, entregas a domicilio y consultas farmacéuticas.",
-    "clientes": "las farmacias",
-    "servicio": "Recepcionista virtual para farmacias",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para farmacias"
-  },
-  {
-    "slug": "recepcionista-ia-opticas",
-    "sector": "Ópticas",
-    "title": "Call center para Ópticas.",
-    "heroTag": "Call center para ópticas",
-    "heroSubtitle": "Nuestro call center para ópticas agenda revisiones de vista, responde consultas sobre gafas graduadas y lentes de contacto - 24/7, sin interrumpir la atención en tienda. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Agendamiento de Revisiones Visuales",
-        "description": "Los clientes llaman para revisiones o cambio de graduación. Tu recepcionista IA consulta disponibilidad del óptico y confirma citas automáticamente."
-      },
-      {
-        "title": "Consultas sobre Tipos de Lentes",
-        "description": "Responde preguntas sobre lentes progresivas, cristales fotocromáticos, lentes de contacto y opciones de materiales. Facilita decisión informada del cliente."
-      },
-      {
-        "title": "Gestión de Pedidos de Gafas Personalizadas",
-        "description": "Toma información sobre estilos, marcas preferidas y presupuesto. Coordina tiempo de entrega y pruebas."
-      },
-      {
-        "title": "Recordatorios de Revisiones Periódicas",
-        "description": "Notifica a clientes regulares cuando es momento de nueva revisión (cada 1-2 años). Mantiene ingresos recurrentes estables."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Puede Minute Call agendar citas en mi software óptico?",
-        "answer": "Sí, integramos con softwares como Óptica Plus, Gestor Óptico y otros. Si usas Excel o agenda manual, podemos trabajar con eso también."
-      },
-      {
-        "question": "¿Qué información captura Minute Call en citas de gafas nuevas?",
-        "answer": "Nuestros agentes preguntan: nombre, edad aproximada, estilo preferido, presupuesto, si es primera cita o revisión, y cualquier necesidad especial."
-      },
-      {
-        "question": "¿Cómo maneja Minute Call urgencias o problemas con gafas?",
-        "answer": "Escala inmediatamente a tu equipo cualquier urgencia. Documenta el problema para que tu óptico priorice en la cita."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para ópticas?",
-        "answer": "IA para citas de revisión y consultas sobre graduación. Humanos para asesoramiento sobre lentes progresivas."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Las ópticas compiten por fidelizar clientes que renuevan gafas cada 1-2 años. Nuestros agentes se forman en tu catálogo. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos citas correctas y derivación inmediata de urgencias."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para citas y horarios; humanos para asesoramiento sobre productos."
-      }
-    ],
-    "metaTitle": "Call center para Ópticas | 24/7 | minute call",
-    "metaDescription": "Recepción 24/7 para ópticas: agenda revisiones visuales y consultas de gafas y lentes de contacto de forma automática.",
-    "clientes": "las ópticas",
-    "servicio": "Recepcionista virtual para ópticas",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para ópticas"
-  },
-  {
-    "slug": "recepcionista-ia-psicologos-terapeutas",
-    "sector": "Psicólogos y Terapeutas",
-    "title": "Call center para Psicólogos y Terapeutas.",
-    "heroTag": "Call center para psicólogos y terapeutas",
-    "heroSubtitle": "Nuestro call center para psicólogos y terapeutas atiende llamadas con sensibilidad, agenda citas y maneja urgencias emocionales con profesionalismo - 24/7, respetando la confidencialidad. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Agendamiento Sensible de Citas",
-        "description": "Los pacientes explican brevemente su situación. Tu recepcionista IA agenda con empatía, eligiendo terapeuta apropiado y tiempo de sesión según necesidad."
-      },
-      {
-        "title": "Manejo de Llamadas de Crisis",
-        "description": "Identifica emergencias emocionales e inmediatamente las escala a tu personal. Mantiene paciente en línea con apoyo mientras espera atención urgente."
-      },
-      {
-        "title": "Gestión de Confidencialidad y Privacidad",
-        "description": "Cumple GDPR y regulaciones sanitarias. Datos sensibles se manejan con máxima privacidad. No identifica pacientes por teléfono públicos."
-      },
-      {
-        "title": "Información sobre Especialidades Terapéuticas",
-        "description": "Responde preguntas sobre tipos de terapia (cognitivo-conductual, psicodinámica, etc.) y ayuda a pacientes a encontrar profesional adecuado."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo protege Minute Call la confidencialidad de mis pacientes?",
-        "answer": "Nuestros agentes están entrenados en confidencialidad sanitaria y GDPR. Datos sensibles se encriptan y no se comparten con terceros."
-      },
-      {
-        "question": "¿Pueden los agentes identificar si un paciente está en crisis?",
-        "answer": "Sí, nuestros agentes son entrenados para reconocer señales de crisis emocional. Escalan inmediatamente a tu profesional de turno."
-      },
-      {
-        "question": "¿Integra Minute Call con sistemas de gestión de clínicas de psicología?",
-        "answer": "Sí, integramos con softwares como Psicol, Docplanner y sistemas ERP sanitarios. También funcionamos con agendas manuales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para psicología?",
-        "answer": "IA para gestión de agenda. La primera llamada de un paciente que busca ayuda es extremadamente sensible: necesita acogida humana desde el primer segundo."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Nuestros agentes están formados en atención sensible: escucha activa, tono calmado, sin juicios. Desde España, con confidencialidad estricta."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "La confidencialidad y sensibilidad son máximas. Acuerdos de confidencialidad firmados."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Un paciente nuevo suele comprometerse a varias sesiones. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para agenda; humanos para primeras llamadas. La mayoría prefieren humano al 100% para primeros contactos."
-      }
-    ],
-    "metaTitle": "Call center Psicologos y Terapeutas | minute call",
-    "metaDescription": "Recepción 24/7 para psicólogos y terapeutas: agenda citas, maneja llamadas delicadas y protege la confidencialidad.",
-    "clientes": "los psicólogos y terapeutas",
-    "servicio": "Recepcionista virtual para psicólogos y terapeutas",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para psicólogos"
-  },
-  {
-    "slug": "recepcionista-ia-academias-idiomas",
-    "sector": "Academias de Idiomas",
-    "title": "Call center para Academias de Idiomas.",
-    "heroTag": "Call center para academias de idiomas",
-    "heroSubtitle": "Nuestro call center para academias de idiomas inscribe estudiantes, evalúa niveles y disponibilidad, y gestiona cambios de horario - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Inscripción Automática de Cursos",
-        "description": "Estudiantes llaman y se inscriben directamente. Tu recepcionista IA identifica nivel, horario preferido y coordina pagos iniciales."
-      },
-      {
-        "title": "Evaluación de Nivel de Idioma",
-        "description": "Realiza cuestionarios breves de diagnóstico para identificar nivel (principiante, intermedio, avanzado). Asigna grupo de clase apropiado."
-      },
-      {
-        "title": "Consultas sobre Programas y Certificaciones",
-        "description": "Responde preguntas sobre certificaciones (Cambridge, DELE, TOEFL). Explica rutas de estudio y diferencias entre cursos."
-      },
-      {
-        "title": "Recordatorios de Clases y Pagos",
-        "description": "Envía recordatorios de horarios, notificaciones de pagos vencidos y promociones de cursos adicionales."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Pueden los agentes de Minute Call dar clases de prueba?",
-        "answer": "No, nuestros agentes coordinan pruebas con tus profesores. Pueden describir la estructura y filosofía de enseñanza de tu academia."
-      },
-      {
-        "question": "¿Cómo evalúa Minute Call el nivel de idioma?",
-        "answer": "Usamos cuestionarios estándar internacionales (Marco Común Europeo) adaptados por teléfono. Estimamos nivel A1-C2 de forma confiable."
-      },
-      {
-        "question": "¿Integra Minute Call con plataformas de gestión educativa?",
-        "answer": "Sí, integramos con Moodle, Canvas, Classroom y softwares de academias. También funcionamos con agendas manuales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para academias?",
-        "answer": "IA para cursos, niveles y precios. Humanos para asesoramiento personalizado y cierre de matrículas."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "La competencia es alta. Nuestros agentes se forman en tu oferta y cierran matrículas. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos información correcta y gestión de oportunidades de matrícula."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA 24/7; humanos para asesoramiento. Más cobertura en septiembre y enero."
-      }
-    ],
-    "metaTitle": "Call center Academias de Idiomas | minute call",
-    "metaDescription": "Recepcionista 24/7 para academias de idiomas: gestiona inscripciones, consultas de cursos y pruebas de nivel.",
-    "clientes": "las academias de idiomas",
-    "servicio": "Recepcionista virtual para academias de idiomas",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para academias"
-  },
-  {
-    "slug": "recepcionista-ia-talleres-mecanicos",
-    "sector": "Talleres Mecánicos",
-    "title": "Call center para Talleres Mecánicos.",
-    "heroTag": "Call center para talleres mecánicos",
-    "heroSubtitle": "Nuestro call center para talleres mecánicos agenda reparaciones, cotiza servicios y coordina entregas - 24/7, incluso cuando tu equipo está bajo el capó. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Agendamiento de Reparaciones",
-        "description": "Los clientes describen el problema (ruido, avería, mantenimiento). Tu recepcionista IA estima tiempo requerido y agenda en slot disponible."
-      },
-      {
-        "title": "Cotización por Teléfono",
-        "description": "Proporciona estimados de costo basado en descripción del problema. Captura información del vehículo (marca, modelo, año) para presupuesto exacto."
-      },
-      {
-        "title": "Registro de Historial del Vehículo",
-        "description": "Documenta reparaciones previas y mantenimiento realizado. Ayuda a diagnosticar problemas recurrentes y upsell servicios relacionados."
-      },
-      {
-        "title": "Gestión de Garantías y Seguimiento",
-        "description": "Informa sobre garantía de reparaciones, coordina devoluciones de vehículos y seguimiento post-reparación."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Pueden los agentes de Minute Call diagnosticar problemas mecánicos?",
-        "answer": "Nuestros agentes hacen preguntas diagnósticas básicas (ruidos, síntomas) para clasificar urgencia. Diagnósticos complejos los realiza tu mecánico en taller."
-      },
-      {
-        "question": "¿Cómo cotiza Minute Call sin ver el vehículo?",
-        "answer": "Nuestros agentes usan tablas de costos por servicio común (cambio de aceite, pastillas, etc.). Para reparaciones complejas, ofrecen estimado inicial y confirmación tras inspección."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de taller?",
-        "answer": "Sí, integramos con Mechanic.io, Autocrm y sistemas similares. También funcionamos con agendas manuales de talleres pequeños."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para talleres?",
-        "answer": "IA para citas de revisión, ITV y horarios. Humanos para averías urgentes y presupuestos complejos."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Los talleres pierden clientes cuando no contestan. Nuestros agentes recogen datos del vehículo. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos recogida correcta de datos y escalado de urgencias."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para citas programadas; humanos para averías urgentes."
-      }
-    ],
-    "metaTitle": "Call center para Talleres Mecanicos | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para talleres. Agenda reparaciones, cotizaciones y diagnósticos. Maximiza ocupación de mecánicos. Agentes nativos o IA - tú eliges.",
-    "clientes": "los talleres mecánicos",
-    "servicio": "Recepcionista virtual para talleres mecánicos",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para talleres"
-  },
-  {
-    "slug": "recepcionista-ia-empresas-limpieza",
-    "sector": "Empresas de Limpieza",
-    "title": "Call center para Empresas de Limpieza.",
-    "heroTag": "Call center para empresas de limpieza",
-    "heroSubtitle": "Nuestro call center para empresas de limpieza cotiza servicios, agenda visitas y confirma trabajos - 24/7, sin perder ninguna oportunidad. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Captura de Nuevos Clientes Corporativos",
-        "description": "Empresas necesitan limpiezas regulares. Tu recepcionista IA identifica tipo de espacio (oficina, almacén, fábrica), frecuencia y presupuesto."
-      },
-      {
-        "title": "Cotización por Tipo de Servicio",
-        "description": "Proporciona presupuestos para limpieza regular, limpieza profunda, desinfección y servicios especiales. Clarifica incluye mano de obra y productos."
-      },
-      {
-        "title": "Agendamiento de Equipos y Equipos",
-        "description": "Coordina disponibilidad de personal y equipos. Asigna turnos y horarios que maximizan eficiencia operativa."
-      },
-      {
-        "title": "Gestión de Contratos Recurrentes",
-        "description": "Documenta frecuencia de servicios (diaria, semanal, mensual). Programa recordatorios de renovación y upsell de servicios adicionales."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo cotiza Minute Call sin visitar el lugar?",
-        "answer": "Nuestros agentes preguntan: metros cuadrados, tipo de superficie, frecuencia de limpieza deseada, servicios especiales. Estiman costo base que tu equipo confirma tras visita."
-      },
-      {
-        "question": "¿Puede Minute Call agendar múltiples ubicaciones para un cliente?",
-        "answer": "Sí, coordinamos servicios en múltiples ubicaciones. Nuestros agentes documentan cada dirección, horarios y contactos específicos."
-      },
-      {
-        "question": "¿Integra Minute Call con sistemas de gestión de limpieza?",
-        "answer": "Sí, integramos con Cleanify, Limpieza.pro y softwares similares. También funcionamos con agendas manuales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para limpieza?",
-        "answer": "IA para servicios, precios y zonas. Humanos para presupuestos personalizados y cierre de contratos."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Las empresas de limpieza compiten en rapidez. Nuestros agentes cualifican correctamente. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos datos completos: tipo de espacio, metros, frecuencia, servicios especiales."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para consultas y fuera de horario; humanos para presupuestos y cierre."
-      }
-    ],
-    "metaTitle": "Call center Empresas de Limpieza | minute call",
-    "metaDescription": "Recepción 24/7 para empresas de limpieza: capta nuevos clientes, agenda servicios y gestiona la disponibilidad de equipos.",
-    "clientes": "las empresas de limpieza",
-    "servicio": "Recepcionista virtual para empresas de limpieza",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para limpieza"
-  },
-  {
-    "slug": "recepcionista-ia-empresas-reformas",
-    "sector": "Empresas de Reformas",
-    "title": "Call center para Empresas de Reformas.",
-    "heroTag": "Call center para empresas de reformas",
-    "heroSubtitle": "Nuestro call center para empresas de reformas atiende consultas de presupuesto, toma datos del proyecto y genera leads cualificados - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Captura de Consultas de Reforma",
-        "description": "Clientes describen necesidades: baño, cocina, pintura, carpintería. Tu recepcionista IA documenta tipo de trabajo, presupuesto aproximado e urgencia."
-      },
-      {
-        "title": "Solicitud de Presupuestos",
-        "description": "Recopila información: tamaño del proyecto, materiales, fechas deseadas. Agenda visita de diagnóstico con tu equipo de presupuestación."
-      },
-      {
-        "title": "Gestión de Urgencias y Emergencias",
-        "description": "Identifica trabajos urgentes (goteras, daños) y los prioriza. Coordina respuesta rápida de tu equipo."
-      },
-      {
-        "title": "Seguimiento de Proyectos",
-        "description": "Comunica avances del proyecto, cambios de fechas y próximos pasos. Mantiene cliente informado sin intervención constante."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo documenta Minute Call un proyecto de reforma?",
-        "answer": "Nuestros agentes preguntan: ubicación, tipo de reforma, tamaño aproximado, fecha deseada, presupuesto estimado. Genera hoja de especificaciones para tu equipo técnico."
-      },
-      {
-        "question": "¿Puede Minute Call responder preguntas técnicas sobre reformas?",
-        "answer": "Responden preguntas generales (plazo típico, si requiere licencia). Preguntas técnicas complejas se derivan a tu personal especializado."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de gestión de proyectos?",
-        "answer": "Sí, integramos con Asana, Monday.com y softwares de obra. También funcionamos con documentación manual de proyectos."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para reformas?",
-        "answer": "IA para filtrar consultas iniciales. Una reforma requiere un agente humano que transmita confianza y agende la visita."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "El cliente contrata a la que mejor impresión da. Nuestros agentes recogen datos clave y agendan visitas. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos cualificación correcta: tipo de obra, ubicación, presupuesto orientativo."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para filtrado; humanos para cualificación y visitas."
-      }
-    ],
-    "metaTitle": "Call center Empresas de Reformas | minute call",
-    "metaDescription": "Recepción 24/7 para empresas de reformas: capta consultas, recoge peticiones de presupuesto y agenda visitas.",
-    "clientes": "las empresas de reformas",
-    "servicio": "Recepcionista virtual para empresas de reformas",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para reformas"
-  },
-  {
-    "slug": "recepcionista-ia-arquitectos-ingenieros",
-    "sector": "Arquitectos e Ingenieros",
-    "title": "Call center para Arquitectos e Ingenieros.",
-    "heroTag": "Call center para arquitectos e ingenieros",
-    "heroSubtitle": "Nuestro call center para despachos de arquitectura gestiona llamadas, agenda reuniones con clientes y captura datos de nuevos proyectos - 24/7, mientras tu equipo diseña. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Agendamiento de Consultas de Proyecto",
-        "description": "Clientes llaman con ideas de proyectos. Tu recepcionista IA agenda reuniones de consulta inicial con detalle de alcance."
-      },
-      {
-        "title": "Recopilación de Datos de Sitio",
-        "description": "Documenta ubicación del proyecto, características del terreno, dimensiones aproximadas. Prepara información para tu equipo técnico."
-      },
-      {
-        "title": "Gestión de Presupuestos y Propuestas",
-        "description": "Coordina envío de propuestas, sigue pistas de interés y proporciona actualizaciones a clientes sobre avance."
-      },
-      {
-        "title": "Información sobre Servicios Especializados",
-        "description": "Explica diferencia entre diseño, supervisión, trámites. Ayuda clientes a entender servicios ofrecidos y rango de tarifas."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Qué información captura Minute Call en una consulta inicial?",
-        "answer": "Tipo de proyecto, ubicación, presupuesto estimado, plazo, datos de contacto. Genera breve para tu equipo de cotización."
-      },
-      {
-        "question": "¿Pueden los agentes responder preguntas técnicas de diseño?",
-        "answer": "Pueden dar información general sobre servicios. Preguntas técnicas específicas se derivan a tu equipo de diseño."
-      },
-      {
-        "question": "¿Integra Minute Call con BIM y softwares de proyectos?",
-        "answer": "Sí, nos integramos con Revit, Autocad y sistemas de gestión. También funcionamos con flujos manuales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para arquitectura?",
-        "answer": "IA para agenda y filtrado. Humanos para cualificar proyectos de promotores."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Un estudio proyecta imagen en cada contacto. Nuestros agentes cualifican por tipo y envergadura. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos cualificación correcta de oportunidades."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Los honorarios empiezan en miles de euros. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para agenda; humanos para cualificación de proyectos."
-      }
-    ],
-    "metaTitle": "Call center Arquitectos e Ingenieros | minute call",
-    "metaDescription": "Recepción 24/7 para arquitectura e ingeniería: coordina consultas, visitas a obra y presupuestos de proyecto.",
-    "clientes": "los estudios de arquitectura e ingeniería",
-    "servicio": "Recepcionista virtual para estudios de arquitectura e ingeniería",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para arquitectos"
-  },
-  {
-    "slug": "recepcionista-ia-notarias",
-    "sector": "Notarías",
-    "title": "Call center para Notarías.",
-    "heroTag": "Call center para notarías",
-    "heroSubtitle": "Nuestro call center para notarías gestiona consultas legales básicas, agenda citas y coordina la documentación necesaria - 24/7, con total discreción profesional. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Agendamiento de Citas Notariales",
-        "description": "Clientes llaman para otorgar poderes, firmar documentos, realizar actas. Tu recepcionista IA agenda con máxima confidencialidad."
-      },
-      {
-        "title": "Información sobre Servicios Notariales",
-        "description": "Responde preguntas sobre poderes, escrituras, actas de comparecencia. Explica documentos requeridos y tarifas orientativas."
-      },
-      {
-        "title": "Recopilación Confidencial de Datos",
-        "description": "Documenta tipo de documento, partes involucradas, urgencia. Protege confidencialidad total bajo regulaciones legales."
-      },
-      {
-        "title": "Gestión de Documentación Requerida",
-        "description": "Informa qué documentos llevar: DNI, datos de herederos, poderes previos. Acelera tramitación en cita notarial."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo protege Minute Call confidencialidad en notarías?",
-        "answer": "Nuestros agentes están entrenados en secreto profesional notarial. Datos se manejan bajo máxima privacidad. Cumplimos GDPR y leyes de secreto profesional."
-      },
-      {
-        "question": "¿Pueden los agentes dar asesoría legal?",
-        "answer": "No, solo información procedural. Asesoría legal la proporciona el notario en cita. Nuestros agentes coordinan."
-      },
-      {
-        "question": "¿Integra Minute Call con sistemas de notarías?",
-        "answer": "Sí, nos integramos con softwares notariales estándar. También funcionamos con agendas manuales manteniendo confidencialidad."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para notarías?",
-        "answer": "IA para citas de firma y documentación. Humanos para consultas sobre escrituras o herencias."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Las notarías manejan asuntos sensibles. Nuestros agentes mantienen confidencialidad y rigor. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos citas correctas y confidencialidad estricta."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para agenda de firmas; humanos para primeras consultas."
-      }
-    ],
-    "metaTitle": "Call center para Notarías | 24/7 | minute call",
-    "metaDescription": "Recepción 24/7 para notarías: agenda citas, atiende consultas y gestiona documentación de forma segura y confidencial.",
-    "clientes": "las notarías",
-    "servicio": "Recepcionista virtual para notarías",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para notarías"
-  },
-  {
-    "slug": "recepcionista-ia-clinicas-podologia",
-    "sector": "Clínicas de Podología",
-    "title": "Call center para Clínicas de Podología.",
-    "heroTag": "Call center para clínicas de podología",
-    "heroSubtitle": "Nuestro call center para clínicas de podología agenda citas, gestiona cancelaciones y atiende consultas sobre tratamientos - 24/7, sin interrumpir las sesiones. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Agendamiento de Consultas Podológicas",
-        "description": "Pacientes describen problema: callos, hongos, uñas encarnadas, dolor en arcos. Tu recepcionista IA estima tiempo de cita necesario."
-      },
-      {
-        "title": "Información sobre Tratamientos",
-        "description": "Explica tratamientos: pedicura médica, láser fungal, plantillas personalizadas, cirugía mínimamente invasiva."
-      },
-      {
-        "title": "Gestión de Pacientes Crónico-Recurrentes",
-        "description": "Mantiene registro de pacientes con diabetes, problemas circulatorios. Recuerda seguimientos periódicos necesarios."
-      },
-      {
-        "title": "Información sobre Prevención",
-        "description": "Ofrece consejos básicos: cuidados de pie diabético, prevención de hongos. Escala consultas complejas a podólogo."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Pueden los agentes diagnosticar problemas de pies?",
-        "answer": "Nuestros agentes identifican tipo de problema (hongo, callos, etc.) para estimar tiempo de cita. Diagnóstico real lo hace el podólogo."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de clínicas?",
-        "answer": "Sí, integramos con softwares médicos estándar. Respetamos confidencialidad de datos sensibles de salud bajo GDPR."
-      },
-      {
-        "question": "¿Cómo maneja Minute Call urgencias podológicas?",
-        "answer": "Identifica urgencias (infecciones, lesiones). Escala inmediatamente a tu podólogo o aconseja visita a urgencias si necesario."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para podología?",
-        "answer": "IA para citas de quiropodia y revisiones. Humanos para pacientes con urgencias y primeras visitas con dolor."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Equipo reducido: el podólogo no puede coger el teléfono. Nuestros agentes clasifican por urgencia. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos citas correctas y escalado de urgencias."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Los pacientes vuelven regularmente. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para agenda; humanos para primeras consultas y necesidades especiales."
-      }
-    ],
-    "metaTitle": "Call center Clínicas de Podología | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para clínicas de podología. Agenda tratamientos, consultas y cirugías podológicas automáticamente. Agentes nativos o IA - tú eliges.",
-    "clientes": "las clínicas de podología",
-    "servicio": "Recepcionista virtual para clínicas de podología",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para podología"
-  },
-  {
-    "slug": "recepcionista-ia-empresas-mudanzas",
-    "sector": "Empresas de Mudanzas",
-    "title": "Call center para Empresas de Mudanzas.",
-    "heroTag": "Call center para empresas de mudanzas",
-    "heroSubtitle": "Nuestro call center para empresas de mudanzas cotiza servicios, agenda fechas y confirma detalles logísticos - 24/7, sin dejar oportunidades sin atender. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Cotización de Mudanzas",
-        "description": "Clientes describen origen, destino y volumen de carga. Tu recepcionista IA proporciona presupuesto estimado basado en distancia y metros cúbicos."
-      },
-      {
-        "title": "Agendamiento de Fechas",
-        "description": "Coordina disponibilidad de camiones y equipos. Agenda mudanzas en ventanas horarias disponibles sin conflictos."
-      },
-      {
-        "title": "Gestión de Servicios Adicionales",
-        "description": "Informa sobre embalaje profesional, seguros, almacenamiento temporal. Upsell servicios que aumentan ticket promedio."
-      },
-      {
-        "title": "Información sobre Zona de Cobertura",
-        "description": "Clarifica área de servicio, costos de distancia, restricciones de acceso. Identifica mudanzas internacionales que requieren coordinación."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo calcula Minute Call el volumen de mudanza?",
-        "answer": "Nuestros agentes preguntan cantidad de habitaciones, si incluye muebles grandes. Proporcionan estimado que tu equipo confirma tras visita presupuestaria."
-      },
-      {
-        "question": "¿Puede Minute Call manejar mudanzas internacionales?",
-        "answer": "Sí, documentan origen y destino, capturan requerimientos de aduanas. Coordinan con tu equipo de logística internacional."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de mudanzas?",
-        "answer": "Sí, integramos con Movemi, Déménage y sistemas similares. También funcionamos con agendas manuales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para mudanzas?",
-        "answer": "IA para recogida de datos (origen, destino, fecha, volumen). Humanos para presupuestos y negociación."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "El cliente pide 3-4 presupuestos y elige rápido. Nuestros agentes recogen todo para que llames preparado. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos datos completos: dirección, planta, ascensor, volumen, fecha."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA 24/7 para datos; humanos para negociación y cierre."
-      }
-    ],
-    "metaTitle": "Call center Empresas de Mudanzas | minute call",
-    "metaDescription": "Recepción 24/7 para empresas de mudanzas: capta solicitudes, cotiza servicios y cierra fechas de forma automática.",
-    "clientes": "las empresas de mudanzas",
-    "servicio": "Recepcionista virtual para empresas de mudanzas",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para mudanzas"
-  },
-  {
-    "slug": "recepcionista-ia-cerrajerias",
-    "sector": "Cerrajerías",
-    "title": "Call center para Cerrajerías.",
-    "heroTag": "Call center para cerrajerías",
-    "heroSubtitle": "Nuestro call center para cerrajerías atiende urgencias a cualquier hora, identifica el tipo de emergencia y despacha al equipo más cercano - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Atención de Urgencias 24/7",
-        "description": "Personas encerradas, robos, cerraduras dañadas. Tu recepcionista IA identifica urgencia y despacha equipo inmediatamente."
-      },
-      {
-        "title": "Captura de Ubicación Exacta",
-        "description": "Documenta dirección completa, piso, tipos de cerraduras. Proporciona información detallada a cerrajero antes de llegar."
-      },
-      {
-        "title": "Información sobre Servicios de Cerrajería",
-        "description": "Explica servicios: apertura de puertas, reparación, duplicado de llaves, instalación de cerraduras de seguridad."
-      },
-      {
-        "title": "Gestión de Presupuestos de Trabajos",
-        "description": "Proporciona estimados de costo por tipo de servicio. Confirma autorización de cliente antes de trabajo."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo identifica Minute Call una emergencia de cerrajería?",
-        "answer": "Nuestros agentes preguntan sobre la situación: ¿está encerrado?, ¿cerradura dañada?, ¿robo?. Priorizan urgencias reales."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de cerrajerías?",
-        "answer": "Sí, podemos integrar con sistemas de despacho. También funcionamos con notificación por SMS/app a cerrajeros."
-      },
-      {
-        "question": "¿Cómo se cobra servicio urgente de noche?",
-        "answer": "Nuestros agentes informan sobre tarifa de emergencia/sobrecargo nocturno. Confirman aceptación del cliente antes de despachar."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para cerrajerías?",
-        "answer": "IA para clasificar urgencia y recoger ubicación en segundos. Humanos para robos y negociación de tarifa nocturna."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Una llamada perdida a las 2 AM es un cliente que se va a la competencia. Nuestros agentes despachan al equipo en minutos. Operando 24/7 de verdad."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Cada urgencia se revisa: identificación de emergencia, ubicación exacta, tarifa nocturna, tiempo de despacho."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Un servicio urgente nocturno factura 100-precios competitivos. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA 24/7 para triaje rápido; escalado a humano para urgencias complejas."
-      }
-    ],
-    "metaTitle": "Call center para Cerrajerías | 24/7 | minute call",
-    "metaDescription": "Recepción 24/7 para cerrajerías: atiende urgencias y emergencias a cualquier hora y despacha los avisos al instante.",
-    "clientes": "las cerrajerías",
-    "servicio": "Recepcionista virtual para cerrajerías",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para cerrajerías"
-  },
-  {
-    "slug": "recepcionista-ia-empresas-catering",
-    "sector": "Empresas de Catering",
-    "title": "Call center para Empresas de Catering.",
-    "heroTag": "Call center para empresas de catering",
-    "heroSubtitle": "Nuestro call center para empresas de catering cotiza menús para eventos, bodas y comidas corporativas, toma pedidos y agenda reuniones - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Captura de Pedidos de Catering",
-        "description": "Clientes describen evento: tipo (boda, cumpleaños, corporativo), cantidad de personas, fecha, presupuesto. Tu recepcionista IA documenta todo."
-      },
-      {
-        "title": "Información sobre Menús",
-        "description": "Ofrece opciones de menú, explica diferencias entre opciones básicas y premium. Responde preguntas sobre ingredientes y alergias."
-      },
-      {
-        "title": "Cotización Automática",
-        "description": "Calcula costo por persona, costos de servicio, delivery. Proporciona presupuesto total para evento solicitado."
-      },
-      {
-        "title": "Gestión de Detalles de Evento",
-        "description": "Coordina ubicación exacta, horario de servicio, cantidad final de comensales. Confirma cambios hasta fecha límite."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo cotiza Minute Call un evento de catering?",
-        "answer": "Nuestros agentes preguntan: cantidad de personas, tipo de evento, fecha, menú preferido. Calculan costo total incluyendo servicio y transporte."
-      },
-      {
-        "question": "¿Puede Minute Call acomodar dietas especiales?",
-        "answer": "Sí, documentamos alergias, vegetariano, vegano, etc. Nuestros agentes aseguran que tu chef prepara opciones apropiadas."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de catering?",
-        "answer": "Sí, integramos con HubRise, Toast y softwares de gestión de eventos. También funcionamos con agendas manuales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para catering?",
-        "answer": "IA para menús, precios y disponibilidad. Humanos para venta consultiva de eventos personalizados."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Cada evento factura miles de euros. Nuestros agentes manejan venta consultiva. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos datos completos del evento: fecha, personas, menú, alergias, ubicación."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA 24/7; humanos para venta de eventos."
-      }
-    ],
-    "metaTitle": "Call center Empresas de Catering | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de catering. Captura pedidos, cotiza menús y gestiona fechas de eventos. Agentes nativos o IA - tú eliges.",
-    "clientes": "las empresas de catering",
-    "servicio": "Recepcionista virtual para empresas de catering",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para catering"
-  },
-  {
-    "slug": "recepcionista-ia-coworkings-espacios-trabajo",
-    "sector": "Coworkings y Espacios de Trabajo",
-    "title": "Call center para Coworkings y Espacios de Trabajo.",
-    "heroTag": "Call center para coworkings y espacios de trabajo",
-    "heroSubtitle": "Nuestro call center para coworkings vende membresías, agenda salas de reuniones y atiende consultas sobre disponibilidad y precios - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Información sobre Planes de Membresía",
-        "description": "Explica opciones: desk hot-desk, oficina privada, membresía flex. Describe servicios incluidos y diferenciales de cada plan."
-      },
-      {
-        "title": "Reserva de Salas de Reuniones",
-        "description": "Miembros reservan salas para reuniones. Tu recepcionista IA verifica disponibilidad, confirma capacidad y coordina acceso."
-      },
-      {
-        "title": "Gestión de Membresías",
-        "description": "Captura nuevos miembros, sus necesidades de espacio, duración de membresía. Genera documentación de onboarding."
-      },
-      {
-        "title": "Información sobre Servicios Adicionales",
-        "description": "Ofrece servicios: mail forwarding, asesoría legal, networking events, café y descansos. Upsell servicios premium."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Puede Minute Call gestionar acceso a oficinas 24/7?",
-        "answer": "Nuestros agentes coordinan acceso. Integramos con sistemas de control de acceso digital para permitir entrada sin presencia física."
-      },
-      {
-        "question": "¿Cómo identifica Minute Call necesidades de membresía?",
-        "answer": "Preguntan: tipo de negocio, presencia necesaria (tiempo completo, ocasional), necesidad de salas de reuniones. Recomiendan plan óptimo."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de coworking?",
-        "answer": "Sí, integramos con Cobot, Essensys y softwares similares. También funcionamos con agendas manuales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para coworkings?",
-        "answer": "IA para precios, disponibilidad y horarios. Humanos para visitas comerciales y negociación de planes."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Los coworkings venden experiencia. Nuestros agentes venden la experiencia, no solo el precio. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos conocimiento de tu oferta y agendamiento correcto de visitas."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA 24/7; humanos para visitas comerciales."
-      }
-    ],
-    "metaTitle": "Call center Coworkings y Espacios de | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para coworkings. Gestiona membresías, salas de reuniones y consultas de emprendedores. Agentes nativos o IA - tú eliges.",
-    "clientes": "los coworkings y espacios de trabajo",
-    "servicio": "Recepcionista virtual para coworkings y espacios de trabajo",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para coworkings"
-  },
-  {
-    "slug": "recepcionista-ia-guarderias-escuelas-infantiles",
-    "sector": "Guarderías y Escuelas Infantiles",
-    "title": "Call center para Guarderías y Escuelas Infantiles.",
-    "heroTag": "Call center para guarderías y escuelas infantiles",
-    "heroSubtitle": "Nuestro call center para guarderías responde consultas de padres, agenda visitas y comunica cambios importantes - 24/7, con la sensibilidad que requieren las familias. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Inscripciones de Nuevos Estudiantes",
-        "description": "Padres llaman para información de inscripción. Tu recepcionista IA toma datos del niño, documentos requeridos, fechas de inicio."
-      },
-      {
-        "title": "Información sobre Programas Educativos",
-        "description": "Explica enfoque pedagógico, actividades diarias, horarios, servicios (almuerzo, siesta). Responde preguntas sobre seguridad."
-      },
-      {
-        "title": "Gestión de Horarios y Cambios",
-        "description": "Comunica cambios de horario, días cerrados, actividades especiales. Actualiza información de recogida de menores."
-      },
-      {
-        "title": "Consultas de Padres",
-        "description": "Padres llaman con preguntas generales. Tu recepcionista IA responde o escala a director/maestra para consultas específicas del niño."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo protege Minute Call información de menores?",
-        "answer": "Cumplimos GDPR estrictamente. No compartimos información de niños con terceros. Datos se manejan con máxima confidencialidad."
-      },
-      {
-        "question": "¿Puede Minute Call manejar emergencias de salud?",
-        "answer": "Sí, identifica urgencias médicas e inmediatamente escala a director/enfermera. Contacta padres o servicios de emergencia si necesario."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de guarderías?",
-        "answer": "Sí, integramos con Kindly, Famly y softwares educativos. También funcionamos con registro manual."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para guarderías?",
-        "answer": "IA para plazas, horarios y precios. Los padres necesitan confianza humana para dejar a su hijo."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Los padres eligen la guardería que mejor impresión da. Nuestros agentes atienden con sensibilidad. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos calidez, información correcta y agendamiento de visitas."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para consultas; humanos para primeras llamadas de padres."
-      }
-    ],
-    "metaTitle": "Call center Guarderias y Escuelas In | minute call",
-    "metaDescription": "Recepción para guarderías y escuelas infantiles: gestiona inscripciones, horarios y avisos a las familias.",
-    "clientes": "las guarderías y escuelas infantiles",
-    "servicio": "Recepcionista virtual para guarderías y escuelas infantiles",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para guarderías"
-  },
-  {
-    "slug": "recepcionista-ia-residencias-mayores",
-    "sector": "Residencias de Mayores",
-    "title": "Call center para Residencias de Mayores.",
-    "heroTag": "Call center para residencias de mayores",
-    "heroSubtitle": "Nuestro call center para residencias de mayores atiende llamadas de familias, coordina visitas y comunica cambios de salud - 24/7, con empatía y profesionalismo. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Información Sobre Residentes",
-        "description": "Familias preguntan cómo esta su familiar mayor. Tu recepcionista IA proporciona información general, coordina llamadas telefónicas con residente."
-      },
-      {
-        "title": "Gestión de Visitas",
-        "description": "Coordina horarios de visita, informa sobre restricciones (si aplican). Agenda visitas en franjas disponibles sin conflictos."
-      },
-      {
-        "title": "Comunicación de Cambios de Salud",
-        "description": "Informa a familias sobre cambios importantes en salud del residente. Coordina contacto con médicos cuando es necesario."
-      },
-      {
-        "title": "Información sobre Servicios y Actividades",
-        "description": "Explica actividades recreativas, servicios médicos, comidas, terapias. Responde preguntas sobre cuidado integral."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo protege Minute Call información de salud?",
-        "answer": "Cumplimos GDPR y regulaciones sanitarias estrictamente. Información médica delicada se escala a personal médico autorizado."
-      },
-      {
-        "question": "¿Puede Minute Call manejar emergencias médicas?",
-        "answer": "Sí, identifica urgencias médicas. Inmediatamente escala a enfermería y contacta familia si es necesario."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de residencias?",
-        "answer": "Sí, integramos con Gesresi, Orpys y softwares similares. También funcionamos con agendas y sistemas manuales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para residencias?",
-        "answer": "IA para información general. Las familias necesitan escucha y empatía humana en un momento difícil."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Buscar residencia es una de las decisiones más difíciles. Nuestros agentes atienden con sensibilidad. Desde España."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos empatía, información correcta y facilitación del proceso a la familia."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para información básica; humanos para todas las primeras consultas de familias."
-      }
-    ],
-    "metaTitle": "Call center Residencias de Mayores | minute call",
-    "metaDescription": "Recepción 24/7 para residencias de mayores: atiende a familiares, gestiona visitas e informa del estado del residente.",
-    "clientes": "las residencias de mayores",
-    "servicio": "Recepcionista virtual para residencias de mayores",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para residencias"
-  },
-  {
-    "slug": "recepcionista-ia-centros-yoga-pilates",
-    "sector": "Centros de Yoga y Pilates",
-    "title": "Call center para Centros de Yoga y Pilates.",
-    "heroTag": "Call center para centros de yoga y pilates",
-    "heroSubtitle": "Nuestro call center para centros de yoga y pilates agenda clases, gestiona inscripciones y atiende consultas sobre horarios y tarifas - 24/7, sin interrupciones. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Reserva de Clases de Yoga y Pilates",
-        "description": "Alumnos llaman para reservar clases específicas. Tu recepcionista IA confirma horarios, niveles (beginner, intermedio, avanzado) y disponibilidad."
-      },
-      {
-        "title": "Información sobre Tipos de Clases",
-        "description": "Explica diferencias: yoga vinyasa, hatha, yin yoga, pilates reformer. Ayuda alumnos a elegir clase adecuada a su nivel."
-      },
-      {
-        "title": "Gestión de Membresías y Paquetes",
-        "description": "Ofrece opciones: clases ilimitadas, paquetes de 10 clases, drop-in. Explica beneficios de cada opción."
-      },
-      {
-        "title": "Recordatorios de Clases",
-        "description": "Envía confirmaciones de reserva y recordatorios 24 horas antes. Reduce no-shows en clases."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Puede Minute Call agendar clases privadas?",
-        "answer": "Sí, coordina clases privadas de yoga y pilates. Captura necesidades específicas del alumno y disponibilidad de instructor."
-      },
-      {
-        "question": "¿Cómo ayuda Minute Call a nuevos alumnos sin experiencia?",
-        "answer": "Nuestros agentes preguntan sobre experiencia previa, lesiones o limitaciones. Recomiendan clases beginner y preparación necesaria."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de yoga?",
-        "answer": "Sí, integramos con Mindbody, Zen y softwares similares. También funcionamos con agendas manuales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para yoga y pilates?",
-        "answer": "IA para horarios, bonos y reservas. Humanos para asesoramiento sobre disciplinas y lesiones previas."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Los centros de yoga transmiten bienestar. Nuestros agentes representan tu centro con tono cercano. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos reservas correctas y derivación de consultas sobre lesiones."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para reservas 24/7; humanos para asesoramiento y ventas de bonos."
-      }
-    ],
-    "metaTitle": "Call center Centros de Yoga y Pilate | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para centros de yoga y pilates. Agenda clases, canaliza nuevos alumnos y gestiona membresías. Agentes nativos o IA - tú eliges.",
-    "clientes": "los centros de yoga y pilates",
-    "servicio": "Recepcionista virtual para centros de yoga y pilates",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para yoga y pilates"
-  },
-  {
-    "slug": "recepcionista-ia-estudios-fotografia",
-    "sector": "Estudios de Fotografía",
-    "title": "Call center para Estudios de Fotografía.",
-    "heroTag": "Call center para estudios de fotografía",
-    "heroSubtitle": "Nuestro call center para estudios de fotografía agenda sesiones de fotos para bodas, eventos y empresas - 24/7, capturando cada oportunidad. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Agenda de Sesiones Fotográficas",
-        "description": "Clientes llaman para reservar sesiones: boda, retrato, embarazo, evento corporativo. Tu recepcionista IA consulta disponibilidad y agenda."
-      },
-      {
-        "title": "Información sobre Paquetes",
-        "description": "Explica opciones de servicio: sesión + CD, álbum impreso, video, álbum digital. Detalla qué incluye cada paquete."
-      },
-      {
-        "title": "Cotización Automática",
-        "description": "Proporciona presupuesto por tipo de evento y duración de sesión. Informa sobre depósito requerido."
-      },
-      {
-        "title": "Coordinación de Detalles",
-        "description": "Documenta ubicación, fecha, hora, número de personas. Comunica cambios de fecha o requisitos especiales del cliente."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Puede Minute Call agendar sesiones de boda?",
-        "answer": "Sí, coordina todas las detalles: fecha, hora, locación, número de fotos. Captura preferencias de estilo del cliente."
-      },
-      {
-        "question": "¿Cómo documenta Minute Call los detalles de una sesión?",
-        "answer": "Nuestros agentes preguntan: tipo de evento, horario, locación, número de personas, paquete preferido. Generan brief para fotógrafo."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de fotografía?",
-        "answer": "Sí, integramos con Smug Mug, ShootProof y softwares similares. También funcionamos con agendas manuales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para fotografía?",
-        "answer": "IA para precio y disponibilidad. Humanos para venta emocional de reportajes, especialmente bodas."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Un estudio vende arte y emoción. Nuestros agentes transmiten tu propuesta. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos conocimiento de tu oferta y escalado rápido de leads de alto valor."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para disponibilidad; humanos para venta de reportajes premium."
-      }
-    ],
-    "metaTitle": "Call center Estudios de Fotografia | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para estudios de fotografía. Agenda sesiones de fotos, consulta de paquetes y gestión de eventos. Agentes nativos o IA - tú eliges.",
-    "clientes": "los estudios de fotografía",
-    "servicio": "Recepcionista virtual para estudios de fotografía",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para fotógrafos"
-  },
-  {
-    "slug": "recepcionista-ia-empresas-seguridad-privada",
-    "sector": "Empresas de Seguridad Privada",
-    "title": "Call center para Empresas de Seguridad Privada.",
-    "heroTag": "Call center para empresas de seguridad privada",
-    "heroSubtitle": "Nuestro call center para empresas de seguridad atiende llamadas de emergencia, coordina personal de guardia y gestiona incidencias - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Coordinación de Servicios de Seguridad",
-        "description": "Empresas requieren guardias, vigilancia, custodias. Tu recepcionista IA coordina disponibilidad de personal."
-      },
-      {
-        "title": "Atención de Alertas de Seguridad",
-        "description": "Identifica emergencias: robo, alerta de alarma, intrusión. Despacha personal de seguridad inmediatamente."
-      },
-      {
-        "title": "Información sobre Servicios",
-        "description": "Explica servicios: vigilancia física, monitoreo de cámaras, escoltas, custodias. Describe diferencias entre niveles de servicio."
-      },
-      {
-        "title": "Documentación de Incidentes",
-        "description": "Registra detalles de emergencias: ubicación exacta, tipo de alerta, personas involucradas. Genera reporte para análisis."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Puede Minute Call manejar emergencias de seguridad?",
-        "answer": "Sí, identifica emergencias inmediatamente, despacha personal, contacta policía si necesario. Nuestros agentes están entrenados en protocolos de seguridad."
-      },
-      {
-        "question": "¿Cómo documenta Minute Call incidentes de seguridad?",
-        "answer": "Nuestros agentes registran: ubicación exacta, tipo de incidente, personas involucradas, acciones tomadas. Genera reporte completo."
-      },
-      {
-        "question": "¿Integra Minute Call con sistemas de seguridad?",
-        "answer": "Sí, integramos con sistemas de alarma y CCTV. También coordinamos con softwares de despacho de personal."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para seguridad?",
-        "answer": "IA para información y estado de servicios. Humanos para alarmas e incidencias que requieren evaluación."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "En seguridad, las emergencias no esperan. Nuestros agentes siguen protocolos específicos y escalan según gravedad. Desde España, 24/7."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Cada incidencia se revisa: protocolo seguido, escalado correcto, tiempo de respuesta."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para consultas; humanos para alarmas e incidencias."
-      }
-    ],
-    "metaTitle": "Call center Empresas de Seguridad Pr | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de seguridad privada. Coordina servicios, identifica emergencias y despacha personal. Agentes nativos o IA - tú eliges.",
-    "clientes": "las empresas de seguridad privada",
-    "servicio": "Recepcionista virtual para empresas de seguridad privada",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para seguridad privada"
-  },
-  {
-    "slug": "recepcionista-ia-clinicas-reproduccion-asistida",
-    "sector": "Clínicas de Reproducción Asistida",
-    "title": "Call center para Clínicas de Reproducción Asistida.",
-    "heroTag": "Call center para clínicas de reproducción asistida",
-    "heroSubtitle": "Nuestro call center para clínicas de reproducción asistida atiende consultas con empatía y confidencialidad total, agenda primeras visitas y coordina pruebas - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Agendamiento Confidencial de Consultas",
-        "description": "Parejas llaman para consulta inicial sobre fertilidad. Tu recepcionista IA agenda con máxima privacidad, nunca identifica pacientes públicamente."
-      },
-      {
-        "title": "Información sobre Tratamientos de Fertilidad",
-        "description": "Explica opciones: FIV, inseminación artificial, donación. Responde preguntas frecuentes sobre procesos y tasas de éxito."
-      },
-      {
-        "title": "Gestión de Resultados de Pruebas",
-        "description": "Coordina comunicación de resultados delicados. Asegura privacidad total, nunca comparte resultados por teléfono público."
-      },
-      {
-        "title": "Apoyo Emocional y Orientación",
-        "description": "Nuestros agentes son sensibles a la carga emocional. Ofrecen recursos de apoyo psicológico y asesoramiento."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo protege Minute Call la confidencialidad en reproducción asistida?",
-        "answer": "Cumplimos GDPR estrictamente. Información sensible sobre fertilidad nunca se comparte públicamente. Máxima privacidad garantizada."
-      },
-      {
-        "question": "¿Pueden los agentes responder preguntas médicas sobre tratamientos?",
-        "answer": "Proporciona información general. Preguntas médicas específicas son respondidas por especialista en cita."
-      },
-      {
-        "question": "¿Integra Minute Call con sistemas de clínicas reproductivas?",
-        "answer": "Sí, integramos con softwares médicos especializados. Respetamos privacidad bajo regulaciones sanitarias internacionales."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para reproducción asistida?",
-        "answer": "IA para citas de seguimiento y precios. La primera llamada de una pareja es extraordinariamente sensible: un agente humano empático es imprescindible."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Nuestros agentes atienden con empatía profunda y respetan la privacidad. Desde España, con confidencialidad absoluta."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos máximo cuidado emocional, confidencialidad absoluta y derivación correcta al equipo médico."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para agenda; humanos para primeras consultas de pacientes nuevos."
-      }
-    ],
-    "metaTitle": "Call center Clínicas de Reproducción | minute call",
-    "metaDescription": "Recepción para clínicas de reproducción asistida: atiende consultas delicadas, agenda citas y cuida la confidencialidad.",
-    "clientes": "las clínicas de reproducción asistida",
-    "servicio": "Recepcionista virtual para clínicas de reproducción asistida",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para reproducción asistida"
-  },
-  {
-    "slug": "recepcionista-ia-centros-formacion-profesional",
-    "sector": "Centros de Formación Profesional",
-    "title": "Call center para Centros de Formación Profesional.",
-    "heroTag": "Call center para centros de formación profesional",
-    "heroSubtitle": "Nuestro call center para centros de formación inscribe alumnos, responde dudas sobre programas y agenda clases - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Inscripción en Cursos Profesionales",
-        "description": "Estudiantes llaman para inscribirse en cursos técnicos. Tu recepcionista IA toma información, explica requisitos y confirma inicio."
-      },
-      {
-        "title": "Información sobre Planes de Estudio",
-        "description": "Explica duración de cursos, temario, certificaciones obtenidas. Ayuda estudiantes a elegir especialidad adecuada."
-      },
-      {
-        "title": "Gestión de Horarios y Modalidades",
-        "description": "Ofrece opciones: presencial, virtual, híbrido. Coordina horarios que se adapten a estudiantes que trabajan."
-      },
-      {
-        "title": "Información sobre Bolsa de Empleo",
-        "description": "Informa sobre oportunidades laborales post-formación. Destaca empleadores asociados que contratan egresados."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Puede Minute Call inscribir personas sin experiencia?",
-        "answer": "Sí, nuestros agentes identifican nivel de estudiante y recomiendan curso apropiado. Explican requisitos previos si los hay."
-      },
-      {
-        "question": "¿Cómo maneja Minute Call estudiantes con responsabilidades laborales?",
-        "answer": "Nuestros agentes explican opciones de horarios: nocturnos, fin de semana, virtuales. Coordina modalidad que se adapte a calendario."
-      },
-      {
-        "question": "¿Integra Minute Call con plataformas de formación?",
-        "answer": "Sí, integramos con Moodle, Canvas y plataformas de e-learning. También funcionamos con registro manual."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para FP?",
-        "answer": "IA para cursos, requisitos y plazas. Humanos para asesoramiento y cierre de matrículas."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Los alumnos comparan centros rápidamente. Nuestros agentes se forman en tu oferta. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Revisamos información correcta y gestión eficaz de matrículas."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA 24/7; humanos para orientación y cierre."
-      }
-    ],
-    "metaTitle": "Call center Centros de Formacion Pro | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para centros de formación. Gestiona inscripciones, horarios y consultas de alumnos. Agentes nativos o IA - tú eliges.",
-    "clientes": "los centros de formación profesional",
-    "servicio": "Recepcionista virtual para centros de formación profesional",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para centros de FP"
-  },
-  {
-    "slug": "recepcionista-ia-empresas-transporte",
-    "sector": "Empresas de Transporte",
-    "title": "Call center para Empresas de Transporte.",
-    "heroTag": "Call center para empresas de transporte",
-    "heroSubtitle": "Nuestro call center para empresas de transporte atiende consultas de seguimiento de carga, coordina rutas y despacha - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Coordinación de Solicitudes de Transporte",
-        "description": "Empresas y particulares llaman para transporte. Tu recepcionista IA toma origen, destino, tipo de carga, urgencia."
-      },
-      {
-        "title": "Rastreo de Envíos",
-        "description": "Clientes preguntan por ubicación de su envío. Tu recepcionista IA proporciona información en tiempo real."
-      },
-      {
-        "title": "Cotización de Servicios",
-        "description": "Calcula costo por distancia, peso, tipo de carga. Proporciona presupuesto con opciones de urgencia."
-      },
-      {
-        "title": "Despacho de Vehículos",
-        "description": "Coordina disponibilidad de camiones y conductores. Despacha unidad más cercana a ubicación de cliente."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Puede Minute Call rastrear envíos en tiempo real?",
-        "answer": "Sí, integramos con sistemas de rastreo GPS. Clientes reciben ubicación actualizada de su carga."
-      },
-      {
-        "question": "¿Cómo cotiza Minute Call transporte especial?",
-        "answer": "Nuestros agentes preguntan tipo de carga, dimensiones, peso, fragilidad. Aplican tarifas especiales según requisitos."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de transporte?",
-        "answer": "Sí, integramos con TMS, sistemas de logística y GPS. También funcionamos con despacho manual."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para transporte?",
-        "answer": "IA para estado de envíos, horarios y tarifas. Humanos para incidencias con mercancía y negociación."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Una incidencia mal gestionada puede costar un cliente que factura miles al mes. Nuestros agentes entienden transporte. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos información actualizada e incidencias registradas correctamente."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Retener un solo cliente recurrente justifica años de servicio. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para tracking 24/7; humanos para incidencias."
-      }
-    ],
-    "metaTitle": "Call center Empresas de Transporte | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para empresas de transporte. Coordina envíos, rastreo y consultas de clientes. Agentes nativos o IA - tú eliges.",
-    "clientes": "las empresas de transporte",
-    "servicio": "Recepcionista virtual para empresas de transporte",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para transporte"
-  },
-  {
-    "slug": "recepcionista-ia-funerarias-tanatorios",
-    "sector": "Funerarias y Tanatorios",
-    "title": "Call center para Funerarias y Tanatorios.",
-    "heroTag": "Call center para funerarias y tanatorios",
-    "heroSubtitle": "Nuestro call center para funerarias atiende familias en duelo con máxima empatía, explica servicios disponibles y coordina trámites - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Asesoramiento Empático en Momentos Difíciles",
-        "description": "Familias llaman en duelo. Tu recepcionista IA atiende con sensibilidad, explica opciones de servicio sin presión."
-      },
-      {
-        "title": "Información sobre Servicios Fúnebres",
-        "description": "Explica opciones: embalsamamiento, cremación, funeral religioso, velatorio. Detalla cada servicio con claridad."
-      },
-      {
-        "title": "Gestión de Trámites y Documentación",
-        "description": "Coordina permisos, certificados de defunción, documentos requeridos. Guía familias por proceso administrativo."
-      },
-      {
-        "title": "Información sobre Planes Premortem",
-        "description": "Informa sobre planes prearreglados. Responde preguntas sobre seguros funerarios y opciones de pago."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo maneja Minute Call situaciones emotivas?",
-        "answer": "Nuestros agentes están entrenados en empatía y sensibilidad. Responden con respeto y comprensión en momentos difíciles."
-      },
-      {
-        "question": "¿Puede Minute Call coordinar todos los trámites?",
-        "answer": "Sí, coordina documentación, permisos, notificaciones. Guía familias sin dejarlas solas en el proceso."
-      },
-      {
-        "question": "¿Integra Minute Call con sistemas de funerarias?",
-        "answer": "Sí, integramos con softwares de gestión funeraria. También funcionamos con registro manual de casos."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para funerarias?",
-        "answer": "Prácticamente todas las llamadas tienen carga emocional intensa. IA solo para información general; cualquier primera llamada de una familia necesita agente humano."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Las funerarias atienden a personas en el peor momento. Nuestros agentes están formados en atención al duelo. Desde España, 24/7."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Cada interacción se revisa: tono, facilitación del proceso, sensibilidad. Formación continua en duelo."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Contacta para presupuesto. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Recomendamos humano para la gran mayoría. IA solo para información básica."
-      }
-    ],
-    "metaTitle": "Call center Funerarias y Tanatorios | minute call",
-    "metaDescription": "Servicio de recepción 24/7 para funerarias. Atiende con empatía, gestiona servicios y coordina trámites fúnebres. Agentes nativos o IA - tú eliges.",
-    "clientes": "las funerarias y tanatorios",
-    "servicio": "Recepcionista virtual para funerarias y tanatorios",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para funerarias"
-  },
-  {
-    "slug": "recepcionista-ia-administradores-fincas",
-    "sector": "Administradores de Fincas",
-    "title": "Call center para Administradores de Fincas.",
-    "heroTag": "Call center para administradores de fincas",
-    "heroSubtitle": "Nuestro call center para administradores de fincas recibe avisos de averías, atiende consultas de vecinos y coordina reparaciones - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Reporte de Incidencias",
-        "description": "Vecinos reportan problemas: fugas, daños, ruidos. Tu recepcionista IA documenta detalle completo para reparación urgente."
-      },
-      {
-        "title": "Coordinación de Reparaciones",
-        "description": "Agenda citas con fontaneros, electricistas, etc. Coordina horarios que no interrumpan a vecinos."
-      },
-      {
-        "title": "Información sobre Normas de Convivencia",
-        "description": "Responde preguntas sobre reglas de comunidad, horarios de silencio, mascotas. Informa sobre sanciones si es necesario."
-      },
-      {
-        "title": "Gestión de Pagos y Cuotas",
-        "description": "Informa sobre estado de cuotas, recuerda pagos vencidos. Coordina planes de pago si es necesario."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Puede Minute Call manejar emergencias en la finca?",
-        "answer": "Sí, identifica emergencias (fugas críticas, ascensor dañado). Despacha reparadores inmediatamente o avisa a servicios de emergencia."
-      },
-      {
-        "question": "¿Cómo documenta Minute Call una incidencia?",
-        "answer": "Nuestros agentes preguntan: ubicación (piso, local), descripción del problema, urgencia. Generan reporte para administrador."
-      },
-      {
-        "question": "¿Integra Minute Call con softwares de administración?",
-        "answer": "Sí, integramos con softwares de gestión de comunidades. También funcionamos con registro manual de incidencias."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para administradores de fincas?",
-        "answer": "IA para cuotas, derramas y estado de incidencias. Humanos para urgencias como fugas o averías de ascensor."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "Los administradores reciben llamadas a todas horas. Nuestros agentes clasifican incidencias por urgencia. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos clasificación correcta de urgencias y escalado inmediato."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Retener una comunidad es más valioso que perderla. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para consultas; humanos para urgencias comunitarias 24/7."
-      }
-    ],
-    "metaTitle": "Call center Administradores de Finca | minute call",
-    "metaDescription": "Recepción 24/7 para administradores de fincas: atiende a vecinos, coordina reparaciones y registra incidencias.",
-    "clientes": "los administradores de fincas",
-    "servicio": "Recepcionista virtual para administradores de fincas",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para administradores de fincas"
-  },
-  {
-    "slug": "recepcionista-ia-clinicas-cirugia-estetica",
-    "sector": "Clínicas de Cirugía Estética",
-    "title": "Call center para Clínicas de Cirugía Estética.",
-    "heroTag": "Call center para clínicas de cirugía estética",
-    "heroSubtitle": "Nuestro call center para clínicas de cirugía estética atiende consultas con privacidad total, agenda valoraciones y coordina preoperatorios - 24/7. Agentes nativos o IA sin permanencia.",
-    "socialProof": "Partner comercial de Teleperformance",
-    "features": [
-      {
-        "title": "Agendamiento de Consultas Estéticas",
-        "description": "Pacientes llaman interesados en procedimientos: aumento, liposucción, rinoplastia. Tu recepcionista IA agenda con privacidad."
-      },
-      {
-        "title": "Información sobre Procedimientos",
-        "description": "Explica tipos de cirugías, resultados esperados, tiempos de recuperación. Responde preguntas frecuentes sobre seguridad."
-      },
-      {
-        "title": "Gestión Post-Operatoria",
-        "description": "Coordina citas de seguimiento, explica cuidados post-operatorios. Comunica cambios en horarios de recuperación."
-      },
-      {
-        "title": "Información sobre Financiamiento",
-        "description": "Ofrece opciones de pago, planes de financiamiento flexible. Responde preguntas sobre cobertura de seguros si aplica."
-      },
-      {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
-      }
-    ],
-    "faq": [
-      {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
-      },
-      {
-        "question": "¿Cómo protege Minute Call confidencialidad en cirugía estética?",
-        "answer": "Máxima privacidad garantizada. Nuestros agentes no comparten información. Cumplimos GDPR y regulaciones de privacidad sanitaria."
-      },
-      {
-        "question": "¿Pueden los agentes responder preguntas médicas sobre procedimientos?",
-        "answer": "Proporciona información general. Preguntas médicas específicas son respondidas por cirujano en consulta de evaluación."
-      },
-      {
-        "question": "¿Integra Minute Call con sistemas de clínicas estéticas?",
-        "answer": "Sí, integramos con softwares médicos especializados. Respetamos máxima confidencialidad de datos estéticos."
-      },
-      {
-        "question": "¿Cuándo usar IA y cuándo agente humano para cirugía estética?",
-        "answer": "IA para precio, disponibilidad e información. Operarse es una decisión personal: el paciente necesita confianza humana desde la primera llamada."
-      },
-      {
-        "question": "¿En qué se diferencia Minute Call?",
-        "answer": "La primera impresión determina si el paciente viene. Nuestros agentes representan la imagen premium de tu clínica. Desde España, sin permanencia."
-      },
-      {
-        "question": "¿Cómo garantizáis la calidad?",
-        "answer": "Supervisamos tono profesional, información correcta, confidencialidad absoluta."
-      },
-      {
-        "question": "¿Cuánto cuesta y hay permanencia?",
-        "answer": "Un procedimiento factura precio personalizado. Sin permanencia."
-      },
-      {
-        "question": "¿Puedo alternar IA y agente humano?",
-        "answer": "Sí. IA para seguimiento y precios; humanos para primeras consultas."
-      }
-    ],
-    "metaTitle": "Call center Clínicas de Cirugía Este | minute call",
-    "metaDescription": "Recepción 24/7 para clínicas de cirugía estética: agenda consultas, informa y gestiona el seguimiento postoperatorio.",
-    "clientes": "las clínicas de cirugía estética",
-    "servicio": "Recepcionista virtual para clínicas de cirugía estética",
-    "esServicio": false,
-    "servicioCorto": "Recepcionista para cirugía estética"
+    ]
   },
   {
     "slug": "call-center-para-empresas",

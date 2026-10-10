@@ -162,7 +162,7 @@ export function buildOpenApiDocument() {
               name: 'slug',
               in: 'path',
               required: true,
-              description: 'Industry identifier, for example `recepcionista-ia-clinicas`.',
+              description: 'Industry identifier, for example `call-center-clinicas`.',
               schema: { type: 'string', pattern: '^[a-z0-9-]+$' },
             },
           ],
