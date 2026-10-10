@@ -85,15 +85,15 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 
 ### BPO y Externalización de Procesos
 - Slug: /lp/bpo-externalizacion
-- Descripción: Externaliza tu atención telefónica con especialistas en BPO: reduce costes operativos, sin contratos anuales y con agentes nativos.
+- Descripción: Externaliza tu atención telefónica con el modelo de un BPO sin su tamaño mínimo: agentes compartidos o equipo de 1 a 5 agentes, sin permanencia.
 
 ### Call Center 24 Horas
 - Slug: /lp/call-center-24-horas
-- Descripción: Atención telefónica 24 horas para pymes en España: no pierdas ninguna llamada fuera de horario. Agentes nativos o IA, sin permanencia.
+- Descripción: Call center 24 horas, 365 días: agentes o IA según la franja, escalado de urgencias y registro de cada llamada. Agentes compartidos o equipo de 1 a 5.
 
 ### Outsourcing de Atención al Cliente
 - Slug: /lp/outsourcing-atencion-cliente
-- Descripción: Externaliza tu atención al cliente con agentes bilingües: mejora la satisfacción, reduce costes, sin mínimo de volumen ni permanencia.
+- Descripción: Outsourcing de atención al cliente sin mínimo de puestos: consultas, incidencias y reclamaciones con tu procedimiento. Agentes compartidos o de 1 a 5.
 
 ### Centralita Virtual para Empresas
 - Slug: /lp/centralita-virtual-empresas
@@ -101,7 +101,7 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 
 ### Recepcion de llamadas
 - Slug: /lp/recepcion-de-llamadas
-- Descripción: Recepción de llamadas profesional para empresas en España. Agentes nativos o IA atienden en nombre de tu empresa las 24h. Sin personal fijo. Prueba gratis.
+- Descripción: Recepción de llamadas para empresas: filtrado, transferencias, recados y citas con tu nombre. Agentes nativos o IA, en tu horario o 24/7, sin permanencia.
 
 ### Secretaria virtual
 - Slug: /lp/secretaria-virtual

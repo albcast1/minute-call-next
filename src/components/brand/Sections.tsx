@@ -302,7 +302,7 @@ export function CtaFinal({
             <span>Llamada entrante</span>
           </div>
           <div className="cc-who">Tu próximo cliente</div>
-          <div className="cc-sub">Respondida en 15 s · 24/7</div>
+          <div className="cc-sub">Respondida en 20 s · 24/7</div>
           <WaveBars />
           <Link className="btn btn-white cc-btn" href={cta.href ?? "/reserva-llamada"}>
             {cta.label ?? "Reserva una llamada"}

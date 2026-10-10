@@ -86,7 +86,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
         <Ed tag="En cifras" flush>
           <Stats
             items={[
-              { value: '15 s', label: 'Tiempo de respuesta' },
+              { value: '20 s', label: 'Tiempo de espera habitual' },
               { value: '98%', label: 'Tasa de respuesta' },
               { value: '48 h', label: 'Activación' },
               { value: '4,4', label: 'Trustpilot' },

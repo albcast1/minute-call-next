@@ -380,7 +380,7 @@ export default function Home() {
             <div className="call-card">
               <div className="cc-top"><Voice /><span>Llamada entrante</span></div>
               <div className="cc-who">Tu próximo cliente</div>
-              <div className="cc-sub">Respondida en 15 s · 24/7</div>
+              <div className="cc-sub">Respondida en 20 s · 24/7</div>
               <WaveBars />
               <Link className="btn btn-white cc-btn" href="/reserva-llamada">Reserva una llamada</Link>
             </div>
