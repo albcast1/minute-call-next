@@ -9,7 +9,11 @@ import SectorRail from "@/components/brand/SectorRail";
 /* Pasarela de sectores: la lista se pinta dos veces para que el bucle sea continuo. */
 const SECTORS = [
   { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas", c: "lime" },
-  { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "purple" },
+  { name: "Grandes empresas", href: "/lp/call-center-para-empresas", c: "purple" },
+  { name: "Farmacéuticas y laboratorios", href: "/lp/call-center-farmaceuticas", c: "ink" },
+  { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "lime" },
+  { name: "Comercializadoras de energía", href: "/lp/call-center-energia", c: "purple" },
+  { name: "Logística y e-commerce", href: "/lp/call-center-logistica-ecommerce", c: "orange" },
   { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes", c: "ink" },
   { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados", c: "lime" },
   { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales", c: "purple" },
@@ -217,7 +221,7 @@ export default function Home() {
         {/* ===== SECTORES / INDUSTRIAS ===== */}
         <section className="section center" id="sectores">
           <div className="wrap">
-            <h2 className="h2">Diseñado para PYMES.</h2>
+            <h2 className="h2">De la pyme a la gran empresa.</h2>
             <SectorRail sectors={SECTORS} />
           </div>
         </section>

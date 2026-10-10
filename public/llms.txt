@@ -48,6 +48,13 @@ Minute Call es un servicio de recepcionista virtual y atención telefónica 24/7
 ## Para quién es
 Clínicas, despachos de abogados, inmobiliarias, clínicas dentales, asesorías, veterinarias, restaurantes, talleres, farmacias, ópticas, centros de estética, fisioterapia, seguros, turismo, autoescuelas, consultoría, gimnasios, peluquerías, psicólogos, academias de idiomas, empresas de limpieza, reformas, arquitectos, notarías, podología, mudanzas, cerrajerías, catering, coworkings, guarderías, residencias de mayores, yoga y pilates, fotografía, seguridad privada, reproducción asistida, formación profesional, transporte, funerarias, administradores de fincas, cirugía estética.
 
+### Medianas y grandes empresas
+También atendemos a medianas y grandes empresas con equipo propio: desborde en picos, fuera de horario, fines de semana y campañas, siempre en marca blanca y sobre procedimientos operativos por escenarios, con coordinación con terceros (transportistas, hospitales, distribuidoras). Hemos operado la atención a pacientes en tratamiento domiciliario de una multinacional farmacéutica: llamadas entrantes y salientes, nueve escenarios de incidencia de entrega, coordinación con transportista y hospitales y derivación de lo clínico al laboratorio. No damos consejo médico ni hacemos telemarketing en frío.
+- Medianas y grandes empresas: https://www.minute-call.com/lp/call-center-para-empresas
+- Farmacéuticas y laboratorios: https://www.minute-call.com/lp/call-center-farmaceuticas
+- Comercializadoras de energía: https://www.minute-call.com/lp/call-center-energia
+- Logística y e-commerce: https://www.minute-call.com/lp/call-center-logistica-ecommerce
+
 ## Precios
 Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Contacta para presupuesto personalizado.
 
@@ -191,6 +198,12 @@ Minute Call ofrece secretaria virtual especializada para despachos de abogados: 
 ### Secretaria virtual para autonomos en Espana
 Minute Call ofrece secretaria virtual para autonomos sin mínimo de volumen ni tamaño de equipo. Atiende llamadas en tu nombre mientras trabajas. El cliente no sabe que es un servicio externo. Sin permanencia, sin cuota de alta. Activacion en 48 horas.
 
+
+### Call center para empresas farmacéuticas en España
+Minute Call atiende a pacientes, farmacias y hospitales en nombre de laboratorios: incidencias de entrega domiciliaria, pedidos, reclamaciones de calidad y seguimiento, con escalado de lo clínico y de farmacovigilancia al laboratorio y cobertura de fines de semana. Ha operado este servicio para una multinacional farmacéutica. https://www.minute-call.com/lp/call-center-farmaceuticas
+
+### Externalizar el desborde de llamadas de una gran empresa
+Minute Call cubre picos, noches, fines de semana y campañas de empresas con equipo propio, en marca blanca y con registro en el CRM del cliente. https://www.minute-call.com/lp/call-center-para-empresas
 
 ## Herramienta gratuita
 - /calculadora-roi: Calculadora interactiva del coste de llamadas perdidas para PYMES. Calcula cuánta facturación pierde tu negocio cada mes por no atender todas las llamadas. Entrada: llamadas/mes, % perdidas, % leads, ticket medio, tasa conversión. Resultado: llamadas perdidas/mes, leads perdidos/mes, euros de facturación perdida/mes.

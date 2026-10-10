@@ -3161,104 +3161,495 @@
   },
   {
     "slug": "call-center-para-empresas",
-    "sector": "Call Center para Empresas",
-    "title": "Soluciones de Call Center Profesional para tu Empresa.",
-    "heroTag": "Call center para PYMES: la alternativa a los grandes",
-    "heroSubtitle": "Todo lo que necesita una PYME en atención telefónica - sin los contratos de los grandes call centers. Agentes nativos en España, sin permanencia, activa en 48 horas.",
-    "socialProof": "Más de 500 empresas españolas confían en Minute Call para gestionar sus llamadas entrantes y mejorar la experiencia de cliente · Partner comercial de Teleperformance",
-    "testimonial": {
-      "quote": "Desde que usamos Minute Call, hemos reducido el tiempo de respuesta a nuestros clientes un 75%. Sin costo de inversión inicial.",
-      "author": "Carlos Martínez",
-      "role": "Director de Operaciones, Grupo Tecnológico"
-    },
+    "sector": "medianas y grandes empresas",
+    "title": "Call center para medianas y grandes empresas.",
+    "heroTag": "Call center para empresas",
+    "heroTitle": "Call center para medianas y grandes empresas.",
+    "heroSubtitle": "Atendemos a tus clientes, pacientes o distribuidores en tu nombre y siguiendo tus procedimientos al detalle: desborde en picos, fuera de horario, fines de semana y coordinación con tus proveedores. Agentes nativos en España, en español, inglés y francés.",
+    "socialProof": "Partner comercial de Teleperformance · Hemos operado la atención a pacientes de una multinacional farmacéutica",
     "features": [
       {
-        "title": "Agentes Profesionales Dedicados",
-        "description": "Tu equipo de recepción disponible 24/7 con formación específica en tu sector. Scripts personalizados y gestión profesional de todas tus llamadas."
+        "title": "Tus procedimientos, al pie de la letra",
+        "description": "Convertimos tus procesos en un procedimiento por escenarios: qué decir, qué registrar y a quién avisar en cada caso. Ninguna llamada se resuelve fuera de él."
       },
       {
-        "title": "Ahorro de Hasta el 70% en Costos",
-        "description": "Elimina los costos de nómina, oficina y tecnología de un call center interno. Modelo de suscripción flexible con presupuesto ajustado a tu volumen sin permanencia obligatoria."
+        "title": "Desborde, fuera de horario y fines de semana",
+        "description": "Cubrimos los picos que tu equipo interno no absorbe y las franjas que no compensa cubrir con plantilla propia, sin que quien llama note el cambio."
       },
       {
-        "title": "Escalabilidad Inmediata",
-        "description": "Aumenta o reduce tu capacidad de atención según tu demanda sin inversión en infraestructura. Acceso inmediato a recursos adicionales."
+        "title": "Coordinación con terceros",
+        "description": "Hablamos con tus transportistas, hospitales, distribuidoras o técnicos hasta cerrar la incidencia, y documentamos cada caso en tu CRM o por email."
       },
       {
-        "title": "Integración Transparente con tu Sistema",
-        "description": "Conexión directa con tu teléfono corporativo, CRM y sistemas existentes. Reportes en tiempo real y seguimiento de KPIs."
+        "title": "Marca blanca",
+        "description": "El agente se presenta con el nombre de tu empresa o de tu servicio. Para quien llama, es tu equipo."
       },
       {
-        "title": "Agentes Nativos o IA - Tú Eliges",
-        "description": "A diferencia de los grandes call centers con agentes en LATAM, Minute Call te ofrece recepcionistas nativos basados en España o asistentes de IA, según lo que necesite tu negocio. Sin permanencia y sin coste de alta. Partner comercial de Teleperformance."
+        "title": "Agentes nativos o IA",
+        "description": "Agentes nativos en España para las llamadas que requieren criterio y empatía, e IA para consultas repetitivas o de alto volumen. Partner comercial de Teleperformance."
       }
     ],
+    "faqFrom": 0,
     "faq": [
       {
-        "question": "¿Qué es Minute Call?",
-        "answer": "Minute Call es un servicio de recepción telefónica 24/7 con agentes humanos reales. Atendemos a pymes de Europa en español, inglés y francés."
+        "question": "¿Trabajáis con empresas grandes o solo con pymes?",
+        "answer": "Con ambas. Además de pymes, hemos operado procedimientos complejos para empresas grandes, como la atención a pacientes en tratamiento domiciliario de una multinacional farmacéutica, con coordinación diaria con transportista y hospitales."
       },
       {
-        "question": "¿Cuánto cuesta un call center para una PYME en España?",
-        "answer": "Con Minute Call, el precio se ajusta al volumen: Plan Starter (hasta 200 llamadas en horario comercial) y Plan Business con cobertura 24/7. Sin coste de activación, sin permanencia. Los grandes call centers (Teleperformance, Konecta) requieren contratos anuales con costes de 5.000 euros/mes o más - están diseñados para empresas con cientos de llamadas diarias."
+        "question": "¿Podéis cubrir solo los picos o las horas fuera de horario?",
+        "answer": "Sí. Es el uso más habitual en empresas con equipo propio: tu plantilla atiende en horario normal y nosotros recogemos el desborde, las noches, los fines de semana o las campañas puntuales."
       },
       {
-        "question": "¿Puedo personalizar los scripts y saludos?",
-        "answer": "Sí, completamente. Formamos a nuestros agentes con tus scripts específicos, información de productos y protocolos de atención. Los saludos se personalizan con el nombre de tu empresa."
+        "question": "¿Podéis atender con el nombre de nuestra marca o de nuestro servicio?",
+        "answer": "Sí. Atendemos en marca blanca: el agente se presenta con el nombre que nos indiques y quien llama habla con tu servicio, no con un proveedor externo."
       },
       {
-        "question": "¿Cuál es el proceso para empezar?",
-        "answer": "Es muy simple: Reserva una llamada con nuestro equipo, define tus necesidades específicas, y en 48 horas tus agentes ya están disponibles atendiendo llamadas en tu nombre."
+        "question": "¿Hacéis también llamadas salientes?",
+        "answer": "Sí, las ligadas a la operación: avisos de incidencias, confirmaciones y seguimiento de casos abiertos. No hacemos telemarketing en frío."
       },
       {
-        "question": "¿Cuándo conviene IA y cuándo agentes humanos?",
-        "answer": "IA para volumen de llamadas repetitivas y cobertura fuera de horario. Humanos para criterio, empatía o negociación."
+        "question": "¿Cómo tratáis los datos personales de nuestros clientes?",
+        "answer": "Actuamos como encargado del tratamiento y firmamos el contrato que exige el artículo 28 del RGPD. Solo accedemos a los datos que el procedimiento necesita y los registramos donde tú indiques: tu CRM, tu herramienta de tickets o un email a tu equipo."
       },
       {
-        "question": "¿Qué diferencia a Minute Call?",
-        "answer": "Call centers tradicionales: LATAM, contratos rígidos, scripts genéricos. Minute Call: agentes nativos en España, mes a mes, tecnología propia. Partner comercial de Teleperformance."
+        "question": "¿Cuánto tarda en estar operativo?",
+        "answer": "Depende del procedimiento. Un servicio sencillo arranca en 48 horas; uno con escenarios y escalados propios arranca cuando el procedimiento está validado y el equipo formado sobre él."
       },
       {
-        "question": "¿Cómo se garantiza la calidad?",
-        "answer": "Supervisamos cada conversación. Formación específica para cada cliente."
-      },
-      {
-        "question": "¿Cuánto cuesta externalizar?",
-        "answer": "Más económico que personal dedicado, con cobertura 24/7."
-      },
-      {
-        "question": "¿Se puede escalar?",
-        "answer": "Sí. Aumentas o reduces cobertura sin penalización. Mes a mes."
+        "question": "¿Os integráis con nuestras herramientas?",
+        "answer": "Sí. Registramos los casos en tu CRM o en tu herramienta de tickets, o los enviamos por email con el formato que necesite tu equipo."
       }
     ],
-    "metaTitle": "Call center para empresas en España | minute call",
-    "metaDescription": "Call center para pymes sin los contratos rígidos de los grandes BPO: agentes nativos, sin permanencia y precio según tu volumen.",
+    "metaTitle": "Call center para medianas y grandes empresas | minute call",
+    "metaDescription": "Atención telefónica externalizada para medianas y grandes empresas: desborde, fuera de horario y procedimientos a medida, con agentes nativos en España.",
     "deepDive": [
       {
-        "heading": "Qué hace realmente un call center para empresas",
-        "body": "Un call center para empresas es un equipo externo que atiende las llamadas de tu compañía en tu nombre, siguiendo un protocolo que defines tú. El cliente marca tu número de siempre y al otro lado responde un agente que se presenta con el nombre de tu empresa, conoce tu catálogo de servicios y sabe qué hacer con cada tipo de llamada.\n\nEn la práctica cubre cuatro funciones: atender y filtrar la llamada entrante, resolver lo que se pueda resolver de primeras, agendar o modificar citas en tu calendario, y escalarte solo lo que de verdad requiere a alguien de tu equipo. La diferencia con un contestador o un menú de opciones es que hay una persona decidiendo, no un árbol de teclas."
+        "heading": "Qué externaliza una empresa grande (y qué no)",
+        "body": "Una empresa con equipo propio de atención rara vez externaliza todo. Lo habitual es sacar fuera lo que su plantilla no puede absorber sin sobredimensionarse: los picos previsibles (campañas, cambios de tarifa, lanzamientos), los imprevistos (incidencias masivas, temporales), y las franjas que no compensa cubrir con personal propio, como noches, fines de semana y festivos.\n\nLo que no suele externalizarse es lo que exige acceso profundo a sistemas internos o decisiones que solo puede tomar la empresa. Por eso un buen servicio externo no improvisa: resuelve lo que el procedimiento le permite y escala el resto, con la información ya recogida, a la persona que corresponde."
       },
       {
-        "heading": "Cuándo compensa externalizar y cuándo no",
-        "body": "Compensa cuando el teléfono te interrumpe más de lo que te aporta: cuando el equipo abandona lo que está haciendo para coger llamadas que en su mayoría no son urgentes, cuando pierdes llamadas en horas concretas y previsibles, o cuando la demanda es tan estacional que dimensionar una plantilla fija no tiene sentido.\n\nNo compensa cuando el volumen es muy bajo y esporádico —ahí basta con un buzón bien configurado— ni cuando cada llamada requiere conocimiento técnico profundo que no se puede transferir a un protocolo. Y tampoco cuando lo que buscas es emisión de llamadas y campañas de telemarketing: eso es otro servicio distinto."
+        "heading": "Del procedimiento al guion: cómo se monta el servicio",
+        "body": "El trabajo empieza antes de la primera llamada. Se identifican los tipos de llamada, se agrupan en escenarios y, para cada uno, se define qué se le dice a quien llama, qué datos se registran, qué se resuelve en la llamada y a quién se avisa si no se puede resolver.\n\nEse documento es el procedimiento operativo. Sobre él se escriben los guiones, se forma al equipo y se mide el servicio. Cuando aparece un caso que el procedimiento no cubría, no se improvisa: se escala, y el procedimiento se actualiza para la próxima vez."
       },
       {
-        "heading": "Los tres modelos de contratación del mercado español",
-        "body": "**Por hora de agente.** El modelo clásico de los grandes BPO. Pagas la disponibilidad de una persona durante un horario, la use quien la use. Predecible en coste, caro si tu volumen es irregular, y normalmente con permanencia y mínimos.\n\n**Por llamada atendida.** Pagas solo lo que se gestiona, casi siempre con un mínimo mensual. Encaja bien cuando el volumen es estable y conocido; se descontrola si tienes picos.\n\n**Por paquete mensual.** Un número determinado de llamadas o minutos a precio cerrado. Es el modelo más habitual para pymes porque hace el gasto previsible sin obligarte a comprar una jornada completa.\n\nAntes de comparar presupuestos conviene calcular la alternativa interna completa: salario bruto, Seguridad Social a cargo de la empresa, vacaciones, bajas, formación y puesto de trabajo. La comparación honesta no es contra el sueldo, es contra el coste total."
-      },
-      {
-        "heading": "Qué preguntar antes de firmar",
-        "body": "**¿Dónde están los agentes y en qué idiomas atienden?** No es lo mismo un equipo nativo en España que un centro deslocalizado; se nota en la primera frase y tu cliente lo percibe.\n\n**¿Hay permanencia y coste de alta?** Un contrato de doce meses para un servicio que aún no sabes si funciona es una mala forma de empezar.\n\n**¿Se cobran aparte las noches, fines de semana y festivos?** Muchos presupuestos parecen competitivos hasta que aparecen los recargos.\n\n**¿Puedo escuchar llamadas reales y ver métricas?** Sin grabación ni panel no tienes forma de auditar la calidad de algo que habla en nombre de tu empresa.\n\n**¿Cuánto tarda en estar operativo y hay que cambiar de número?** Un despliegue que exige portabilidad o instalación es un proyecto; uno que se resuelve con un desvío es un trámite."
-      },
-      {
-        "heading": "Cómo funciona con Minute Call",
-        "body": "Atendemos con agentes nativos en España, con IA para las tareas repetitivas o con una combinación de ambos, según lo que pida cada tipo de llamada. Definimos contigo el protocolo —cómo saludar, qué preguntar, qué resolver, qué escalar y a quién—, configuramos el desvío desde tu numeración actual y el servicio arranca en menos de 48 horas. No cambias de número ni instalas nada.\n\nNo hay permanencia ni coste de alta, y la cobertura fuera de horario no se factura como extra. El presupuesto se ajusta al volumen real de llamadas de cada empresa, así que se calcula caso por caso en lugar de encajarte en un plan cerrado."
+        "heading": "Qué pedir a un proveedor de atención telefónica",
+        "body": "**Procedimientos por escrito.** Si el proveedor no te devuelve un procedimiento documentado, cada agente atenderá a su manera.\n\n**Escalados claros.** Quién recibe cada incidencia, por qué canal y con qué información.\n\n**Trazabilidad.** Registro de cada llamada y de cada caso abierto, en tu herramienta o en la suya con acceso para tu equipo.\n\n**Datos personales.** Contrato de encargado del tratamiento y acceso mínimo a la información.\n\n**Flexibilidad.** Poder ampliar o reducir la cobertura según tus picos sin renegociar un contrato anual."
       }
     ],
+    "caseStudy": {
+      "title": "Atención a pacientes en tratamiento domiciliario para una multinacional farmacéutica.",
+      "context": "El laboratorio entregaba tratamientos a domicilio a pacientes crónicos a través de una empresa de mensajería. Cualquier fallo en la entrega ponía en riesgo la continuidad del tratamiento, también en fin de semana, así que cada incidencia tenía que resolverse el mismo día y con el paciente informado.",
+      "scope": [
+        "Atención con la marca del servicio del laboratorio: llamadas entrantes de pacientes y llamadas salientes ante cada incidencia de entrega.",
+        "Procedimiento operativo con nueve escenarios: ausencia del paciente, retraso del transportista, entrega imposible, fuerza mayor, reclamaciones de calidad, error de dirección, entrega cruzada, cantidad inferior y producto dañado.",
+        "Coordinación en tiempo real con el transportista para segundos intentos y devoluciones, y con el hospital cuando el paciente estaba ingresado.",
+        "Comprobación de la cobertura del paciente hasta la siguiente entrega y derivación a su farmacia hospitalaria cuando no la tenía.",
+        "Apertura de incidencias por email a atención al cliente, marketing y hospital, con fotografías del producto cuando el procedimiento lo pedía."
+      ],
+      "outcome": "Un servicio crítico, con pacientes, hospital y transportista en la misma conversación, operado al pie de la letra sobre el procedimiento del laboratorio. Las consultas clínicas nunca se resolvían en la llamada: se derivaban siempre al equipo del laboratorio."
+    },
+    "steps": [
+      {
+        "title": "Diagnóstico",
+        "desc": "Mapeamos contigo los tipos de llamada, los volúmenes por franja y quién resuelve qué dentro de tu empresa."
+      },
+      {
+        "title": "Procedimiento",
+        "desc": "Redactamos el procedimiento por escenarios, con guiones, registros y escalados, y formamos al equipo sobre él."
+      },
+      {
+        "title": "Operación",
+        "desc": "Atendemos con tu marca, registramos cada caso y revisamos el procedimiento con los datos reales de las primeras semanas."
+      }
+    ],
+    "related": [
+      {
+        "href": "/lp/call-center-farmaceuticas",
+        "label": "Farmacéuticas y laboratorios"
+      },
+      {
+        "href": "/lp/call-center-energia",
+        "label": "Comercializadoras de energía"
+      },
+      {
+        "href": "/lp/call-center-logistica-ecommerce",
+        "label": "Logística y e-commerce"
+      },
+      {
+        "href": "/articulos/desborde-de-llamadas-externalizar-picos",
+        "label": "Guía: desborde de llamadas"
+      },
+      {
+        "href": "/lp/bpo-externalizacion",
+        "label": "BPO y externalización"
+      },
+      {
+        "href": "/lp/call-center-24-horas",
+        "label": "Call center 24 horas"
+      }
+    ],
+    "cta": {
+      "title": "Hablemos de tu operación.",
+      "text": "Cuéntanos qué llamadas quieres externalizar y en qué franjas. Te proponemos un procedimiento y un presupuesto ajustado a tu volumen."
+    },
     "servicio": "Call center para empresas",
     "clientes": "las empresas",
     "esServicio": true,
     "servicioCorto": "Call center para empresas"
+  },
+  {
+    "slug": "call-center-farmaceuticas",
+    "sector": "farmacéuticas y laboratorios",
+    "title": "Call center para farmacéuticas y laboratorios.",
+    "heroTag": "Call center para farmacéuticas",
+    "heroTitle": "Call center para farmacéuticas y laboratorios.",
+    "heroSubtitle": "Atendemos a pacientes, farmacias y hospitales en nombre de tu laboratorio: incidencias de entrega, pedidos, reclamaciones y seguimiento, con procedimientos cerrados y escalado inmediato de todo lo clínico a tu equipo. Agentes nativos en España.",
+    "socialProof": "Hemos operado la atención a pacientes de una multinacional farmacéutica · Partner comercial de Teleperformance",
+    "features": [
+      {
+        "title": "Procedimientos de compañía regulada",
+        "description": "Trabajamos con un procedimiento por escenarios: qué decir, qué registrar y a quién escalar. Ninguna llamada se resuelve fuera de él."
+      },
+      {
+        "title": "Continuidad del tratamiento",
+        "description": "Ante un retraso o una entrega fallida, comprobamos si el paciente tiene cobertura hasta la siguiente entrega y, si no la tiene, activamos la alternativa que marque tu protocolo."
+      },
+      {
+        "title": "Lo clínico, a tu equipo",
+        "description": "No damos consejo médico. Las consultas clínicas y cualquier posible efecto adverso se registran y se derivan de inmediato a tu departamento médico o de farmacovigilancia."
+      },
+      {
+        "title": "Fines de semana cubiertos",
+        "description": "Es la franja crítica en tratamientos domiciliarios: cuando no está tu equipo, un paciente sin tratamiento no puede esperar al lunes sin una alternativa."
+      },
+      {
+        "title": "Marca blanca",
+        "description": "Atendemos con el nombre de tu servicio de atención a pacientes o de tu programa de soporte."
+      }
+    ],
+    "faqFrom": 0,
+    "faq": [
+      {
+        "question": "¿Qué llamadas puede externalizar un laboratorio?",
+        "answer": "Las operativas: incidencias de entrega a pacientes, pedidos y consultas de farmacias y hospitales, reclamaciones de calidad (con recogida de fotografías y datos del lote para tu equipo), cambios de dirección y seguimiento de casos abiertos. Las consultas clínicas no se resuelven en la llamada: se derivan."
+      },
+      {
+        "question": "¿Dais información médica a los pacientes?",
+        "answer": "No. Nuestros agentes no dan consejo médico ni interpretan pautas. Cualquier consulta clínica se registra y se deriva al profesional que indique tu procedimiento, y al paciente se le remite al responsable de su tratamiento."
+      },
+      {
+        "question": "¿Qué ocurre si un paciente comunica un posible efecto adverso?",
+        "answer": "Se recogen los datos mínimos que establezca tu procedimiento y se notifican a tu departamento de farmacovigilancia por el canal y en el plazo que tú definas. El agente no valora el caso."
+      },
+      {
+        "question": "¿Cómo tratáis los datos de salud?",
+        "answer": "Los datos de salud son una categoría especial en el RGPD. Actuamos como encargado del tratamiento con contrato del artículo 28, accedemos solo a lo que el procedimiento necesita y registramos la información únicamente en los sistemas que tú indiques."
+      },
+      {
+        "question": "¿Podéis atender con el nombre de nuestra marca o de nuestro servicio?",
+        "answer": "Sí. Atendemos en marca blanca: el agente se presenta con el nombre que nos indiques y quien llama habla con tu servicio, no con un proveedor externo."
+      },
+      {
+        "question": "¿Atendéis fines de semana y festivos?",
+        "answer": "Sí. En tratamientos domiciliarios es donde más se nota: si una entrega falla un viernes, hay que comprobar si el paciente tiene cobertura hasta el lunes y, si no, activar la alternativa prevista en tu protocolo."
+      }
+    ],
+    "metaTitle": "Call center para farmacéuticas y laboratorios | minute call",
+    "metaDescription": "Atención telefónica a pacientes, farmacias y hospitales para laboratorios: incidencias de entrega, reclamaciones y escalado a farmacovigilancia, con agentes nativos.",
+    "deepDive": [
+      {
+        "heading": "Qué llamadas recibe el servicio de atención de un laboratorio",
+        "body": "Un laboratorio con entrega domiciliaria o con programas de soporte a pacientes recibe llamadas muy distintas a las de cualquier otro sector: pacientes que no han recibido su tratamiento, farmacias y hospitales con pedidos, reclamaciones por el estado del producto y consultas que a veces son clínicas aunque no lo parezcan.\n\nLa clave de un servicio externo es separar bien unas de otras. Lo operativo se resuelve en la llamada con el procedimiento; lo clínico y lo que pueda ser un efecto adverso se registra y se deriva siempre, sin excepciones y sin que el agente valore nada."
+      },
+      {
+        "heading": "Por qué el fin de semana es la franja crítica",
+        "body": "Entre semana, una incidencia de entrega se resuelve con el equipo interno disponible. El viernes por la tarde cambia todo: si el transportista no ha podido entregar, el paciente puede quedarse sin tratamiento hasta el lunes.\n\nPor eso el procedimiento tiene que responder a una pregunta concreta en cada llamada: ¿tiene el paciente cobertura hasta la siguiente entrega? Si la tiene, se registra y el equipo lo gestiona el lunes. Si no, se activa la alternativa prevista, normalmente a través de su hospital o de su farmacia hospitalaria."
+      },
+      {
+        "heading": "Cómo se diseña el procedimiento",
+        "body": "Se parte de los escenarios reales: ausencia del paciente, retraso del transportista, entrega imposible, error de dirección, entrega cruzada, cantidad inferior, producto dañado o reclamación de calidad. Para cada uno se define qué se le dice al paciente, qué se pregunta, a quién se contacta (transportista, hospital, equipo de calidad) y qué incidencia se abre.\n\nEl resultado es un documento que cualquier agente formado puede seguir sin improvisar, y que tu equipo de calidad puede auditar."
+      }
+    ],
+    "caseStudy": {
+      "title": "Atención a pacientes en tratamiento domiciliario para una multinacional farmacéutica.",
+      "context": "El laboratorio entregaba tratamientos a domicilio a pacientes crónicos a través de una empresa de mensajería. Cualquier fallo en la entrega ponía en riesgo la continuidad del tratamiento, también en fin de semana, así que cada incidencia tenía que resolverse el mismo día y con el paciente informado.",
+      "scope": [
+        "Atención con la marca del servicio del laboratorio: llamadas entrantes de pacientes y llamadas salientes ante cada incidencia de entrega.",
+        "Procedimiento operativo con nueve escenarios: ausencia del paciente, retraso del transportista, entrega imposible, fuerza mayor, reclamaciones de calidad, error de dirección, entrega cruzada, cantidad inferior y producto dañado.",
+        "Coordinación en tiempo real con el transportista para segundos intentos y devoluciones, y con el hospital cuando el paciente estaba ingresado.",
+        "Comprobación de la cobertura del paciente hasta la siguiente entrega y derivación a su farmacia hospitalaria cuando no la tenía.",
+        "Apertura de incidencias por email a atención al cliente, marketing y hospital, con fotografías del producto cuando el procedimiento lo pedía."
+      ],
+      "outcome": "Un servicio crítico, con pacientes, hospital y transportista en la misma conversación, operado al pie de la letra sobre el procedimiento del laboratorio. Las consultas clínicas nunca se resolvían en la llamada: se derivaban siempre al equipo del laboratorio."
+    },
+    "steps": [
+      {
+        "title": "Diagnóstico",
+        "desc": "Mapeamos contigo los tipos de llamada, los volúmenes por franja y quién resuelve qué dentro de tu empresa."
+      },
+      {
+        "title": "Procedimiento",
+        "desc": "Redactamos el procedimiento por escenarios, con guiones, registros y escalados, y formamos al equipo sobre él."
+      },
+      {
+        "title": "Operación",
+        "desc": "Atendemos con tu marca, registramos cada caso y revisamos el procedimiento con los datos reales de las primeras semanas."
+      }
+    ],
+    "related": [
+      {
+        "href": "/articulos/externalizar-atencion-telefonica-laboratorio-farmaceutico",
+        "label": "Guía: externalizar la atención de un laboratorio"
+      },
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para medianas y grandes empresas"
+      },
+      {
+        "href": "/lp/call-center-logistica-ecommerce",
+        "label": "Logística y e-commerce"
+      }
+    ],
+    "cta": {
+      "title": "Hablemos de tu operación.",
+      "text": "Cuéntanos qué llamadas quieres externalizar y en qué franjas. Te proponemos un procedimiento y un presupuesto ajustado a tu volumen."
+    },
+    "servicio": "Call center para farmacéuticas y laboratorios",
+    "clientes": "los laboratorios",
+    "esServicio": true,
+    "servicioCorto": "Call center para farmacéuticas"
+  },
+  {
+    "slug": "call-center-energia",
+    "sector": "comercializadoras de energía",
+    "title": "Call center para comercializadoras de energía.",
+    "heroTag": "Call center para energía",
+    "heroTitle": "Call center para comercializadoras de energía.",
+    "heroSubtitle": "Atendemos a los clientes de tu comercializadora: dudas de factura, altas y cambios de titular, lecturas, avisos de avería y los picos que llegan con cada cambio de tarifa. Con tu procedimiento, con tu marca y con agentes nativos en España.",
+    "socialProof": "Partner comercial de Teleperformance",
+    "features": [
+      {
+        "title": "Picos sin colas",
+        "description": "Olas de frío o de calor, cambios de tarifa, envíos masivos de facturas: absorbemos el desborde para que tu equipo no colapse y tus clientes no esperen."
+      },
+      {
+        "title": "Averías, a quien corresponde",
+        "description": "En España las averías de suministro las gestiona la distribuidora de cada zona. Lo explicamos, damos el teléfono de urgencias correcto y registramos el aviso."
+      },
+      {
+        "title": "Cada gestión, registrada",
+        "description": "Titular, CUPS, motivo de la llamada y resolución, en tu CRM o en tu herramienta de tickets, para que tu equipo retome el caso sin volver a preguntar."
+      },
+      {
+        "title": "Clientes extranjeros",
+        "description": "Atención en inglés y francés bajo demanda para clientes residentes y segundas residencias."
+      },
+      {
+        "title": "Marca blanca",
+        "description": "El agente se presenta con el nombre de tu comercializadora."
+      }
+    ],
+    "faqFrom": 0,
+    "faq": [
+      {
+        "question": "¿Qué gestiones atendéis para una comercializadora?",
+        "answer": "Las de primer nivel: dudas de factura, altas, bajas y cambios de titular, lecturas, cambios de datos y de cuenta bancaria, información de tarifas y seguimiento de solicitudes abiertas. Lo que requiera acceso a tus sistemas de facturación se registra y se escala a tu equipo, salvo que nos des acceso."
+      },
+      {
+        "question": "¿Gestionáis las averías?",
+        "answer": "Las averías de suministro las resuelve la distribuidora de cada zona, no la comercializadora. Explicamos al cliente a quién debe llamar, le damos el teléfono de urgencias que corresponde y dejamos registrado el aviso en tu sistema."
+      },
+      {
+        "question": "¿Podéis cubrir solo campañas o picos?",
+        "answer": "Sí. Es el uso más habitual: cambios de tarifa, envíos de facturas o episodios de clima extremo. Tu equipo mantiene el volumen base y nosotros recogemos el desborde."
+      },
+      {
+        "question": "¿Cómo verificáis la identidad del titular?",
+        "answer": "Con las preguntas de verificación que marque tu procedimiento, por ejemplo DNI, dirección de suministro o CUPS. Si la verificación no se supera, no se tramita la gestión."
+      },
+      {
+        "question": "¿Hacéis también llamadas salientes?",
+        "answer": "Sí, las ligadas a la operación: avisos de incidencias, confirmaciones y seguimiento de casos abiertos. No hacemos telemarketing en frío."
+      },
+      {
+        "question": "¿Cómo tratáis los datos personales de nuestros clientes?",
+        "answer": "Actuamos como encargado del tratamiento y firmamos el contrato que exige el artículo 28 del RGPD. Solo accedemos a los datos que el procedimiento necesita y los registramos donde tú indiques: tu CRM, tu herramienta de tickets o un email a tu equipo."
+      }
+    ],
+    "metaTitle": "Call center para comercializadoras de energía | minute call",
+    "metaDescription": "Atención telefónica para comercializadoras de luz y gas: facturas, altas, cambios de titular, picos por cambios de tarifa y avisos de avería, con agentes nativos.",
+    "deepDive": [
+      {
+        "heading": "Qué llamadas recibe una comercializadora",
+        "body": "La mayoría son repetitivas y previsibles: dudas sobre la factura, cambios de titular, lecturas, cambios de cuenta y consultas de tarifas. A ellas se suman las que generan más tensión, como un corte de suministro, que el cliente atribuye a la comercializadora aunque la avería la gestione la distribuidora.\n\nUn servicio externo bien diseñado resuelve el primer nivel, explica con claridad lo que corresponde a la distribuidora y escala a tu equipo solo lo que exige acceso a tus sistemas o una decisión comercial."
+      },
+      {
+        "heading": "Picos previsibles e imprevisibles",
+        "body": "Los previsibles se pueden planificar: la llegada de las facturas, un cambio de tarifa, el fin de una promoción. Los imprevisibles no: una ola de frío, una incidencia en el cobro de recibos o una noticia sobre precios disparan las llamadas en horas.\n\nCubrir los dos con plantilla propia obliga a sobredimensionar el equipo todo el año. Externalizar el desborde permite mantener el equipo interno ajustado al volumen base."
+      },
+      {
+        "heading": "Qué tener definido antes de externalizar",
+        "body": "**Verificación del titular.** Qué datos se piden y qué gestiones se pueden tramitar sin ellos.\n\n**Límites del agente.** Qué se resuelve en la llamada y qué se escala, y a quién.\n\n**Registro.** En qué sistema queda cada gestión y con qué campos.\n\n**Averías.** El listado de teléfonos de urgencias por distribuidora y zona."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Diagnóstico",
+        "desc": "Mapeamos contigo los tipos de llamada, los volúmenes por franja y quién resuelve qué dentro de tu empresa."
+      },
+      {
+        "title": "Procedimiento",
+        "desc": "Redactamos el procedimiento por escenarios, con guiones, registros y escalados, y formamos al equipo sobre él."
+      },
+      {
+        "title": "Operación",
+        "desc": "Atendemos con tu marca, registramos cada caso y revisamos el procedimiento con los datos reales de las primeras semanas."
+      }
+    ],
+    "related": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para medianas y grandes empresas"
+      },
+      {
+        "href": "/articulos/desborde-de-llamadas-externalizar-picos",
+        "label": "Guía: desborde de llamadas"
+      },
+      {
+        "href": "/lp/call-center-24-horas",
+        "label": "Call center 24 horas"
+      }
+    ],
+    "cta": {
+      "title": "Hablemos de tu operación.",
+      "text": "Cuéntanos qué llamadas quieres externalizar y en qué franjas. Te proponemos un procedimiento y un presupuesto ajustado a tu volumen."
+    },
+    "servicio": "Call center para comercializadoras de energía",
+    "clientes": "las comercializadoras",
+    "esServicio": true,
+    "servicioCorto": "Call center para energía"
+  },
+  {
+    "slug": "call-center-logistica-ecommerce",
+    "sector": "logística y e-commerce",
+    "title": "Call center para logística y e-commerce.",
+    "heroTag": "Call center para logística",
+    "heroTitle": "Call center para logística y e-commerce.",
+    "heroSubtitle": "Gestionamos las llamadas de destinatarios y clientes: dónde está mi pedido, ausencias, segundos intentos, cambios de dirección, devoluciones e incidencias con el transportista. Coordinamos con tu operador logístico hasta cerrar cada caso.",
+    "socialProof": "Hemos gestionado incidencias de entrega a domicilio para una multinacional farmacéutica · Partner comercial de Teleperformance",
+    "features": [
+      {
+        "title": "Contacto antes de la devolución",
+        "description": "Si el repartidor no encuentra al destinatario, le llamamos para fijar un segundo intento o una dirección alternativa antes de que el paquete vuelva al almacén."
+      },
+      {
+        "title": "Coordinación con el transportista",
+        "description": "Trasladamos al transportista horarios, direcciones y autorizaciones de entrega a un vecino o comercio, y confirmamos con el cliente."
+      },
+      {
+        "title": "Incidencias trazables",
+        "description": "Entrega cruzada, cantidad inferior o producto dañado: pedimos fotografías, abrimos la incidencia y avisamos a los equipos que correspondan."
+      },
+      {
+        "title": "Picos de campaña",
+        "description": "Black Friday, Navidad o rebajas: absorbemos el desborde de llamadas sin que tengas que ampliar plantilla."
+      },
+      {
+        "title": "Marca blanca",
+        "description": "Atendemos con el nombre de tu tienda o de tu servicio de entregas."
+      }
+    ],
+    "faqFrom": 0,
+    "faq": [
+      {
+        "question": "¿Qué llamadas atendéis en logística y e-commerce?",
+        "answer": "Consultas de estado del pedido, ausencias y segundos intentos, cambios de dirección o de franja, devoluciones, entregas cruzadas, cantidades incorrectas y productos dañados, además de reclamaciones de clientes."
+      },
+      {
+        "question": "¿Llamáis al cliente cuando falla una entrega?",
+        "answer": "Sí, si tu procedimiento lo prevé. Llamamos al destinatario para fijar un nuevo intento, una dirección alternativa o una persona autorizada, y lo trasladamos al transportista antes de que el paquete se devuelva."
+      },
+      {
+        "question": "¿Os coordináis directamente con el transportista?",
+        "answer": "Sí. Ya lo hacemos en servicios de entrega domiciliaria: trasladamos horarios y autorizaciones, pedimos segundos intentos y gestionamos devoluciones a origen cuando no hay alternativa."
+      },
+      {
+        "question": "¿Podéis cubrir solo las campañas?",
+        "answer": "Sí. Puedes contratar cobertura para los picos de Black Friday, Navidad o rebajas y mantener tu equipo interno el resto del año."
+      },
+      {
+        "question": "¿Podéis atender con el nombre de nuestra marca o de nuestro servicio?",
+        "answer": "Sí. Atendemos en marca blanca: el agente se presenta con el nombre que nos indiques y quien llama habla con tu servicio, no con un proveedor externo."
+      },
+      {
+        "question": "¿Cómo tratáis los datos personales de nuestros clientes?",
+        "answer": "Actuamos como encargado del tratamiento y firmamos el contrato que exige el artículo 28 del RGPD. Solo accedemos a los datos que el procedimiento necesita y los registramos donde tú indiques: tu CRM, tu herramienta de tickets o un email a tu equipo."
+      }
+    ],
+    "metaTitle": "Call center para logística y e-commerce | minute call",
+    "metaDescription": "Atención telefónica para logística y e-commerce: estado de pedidos, ausencias, devoluciones y coordinación con el transportista, con agentes nativos.",
+    "deepDive": [
+      {
+        "heading": "Las llamadas que más se repiten",
+        "body": "En logística y comercio electrónico, la mayoría de llamadas giran alrededor de una entrega: dónde está el pedido, por qué no ha llegado, cómo cambiar la dirección o la franja, qué hacer si ha llegado mal. Son llamadas cortas y repetitivas, pero con un cliente que normalmente ya está molesto.\n\nResolverlas bien exige dos cosas: información actualizada del envío y capacidad de actuar, es decir, poder hablar con el transportista y no limitarse a tomar nota."
+      },
+      {
+        "heading": "Por qué conviene llamar antes de devolver",
+        "body": "Una entrega fallida que vuelve al almacén cuesta un segundo envío, un cliente insatisfecho y, a veces, una venta perdida. Una llamada al destinatario a tiempo, para fijar un segundo intento o autorizar la entrega a un vecino, evita buena parte de esas devoluciones.\n\nPara que funcione, el procedimiento tiene que definir quién llama, en qué plazo y qué alternativas se pueden ofrecer, y el transportista tiene que recibir la información antes de su siguiente ruta."
+      },
+      {
+        "heading": "Cómo se diseña el procedimiento",
+        "body": "Se parte de los escenarios reales: ausencia, retraso, dirección errónea, entrega cruzada, cantidad inferior, producto dañado y devolución. Para cada uno se define qué se le dice al cliente, qué información se pide (por ejemplo, fotografías del embalaje), a quién se avisa y qué incidencia se abre.\n\nEs el mismo método que hemos aplicado en entregas a domicilio de tratamientos farmacéuticos, donde el margen de error era todavía menor."
+      }
+    ],
+    "caseStudy": {
+      "title": "Atención a pacientes en tratamiento domiciliario para una multinacional farmacéutica.",
+      "context": "El laboratorio entregaba tratamientos a domicilio a pacientes crónicos a través de una empresa de mensajería. Cualquier fallo en la entrega ponía en riesgo la continuidad del tratamiento, también en fin de semana, así que cada incidencia tenía que resolverse el mismo día y con el paciente informado.",
+      "scope": [
+        "Atención con la marca del servicio del laboratorio: llamadas entrantes de pacientes y llamadas salientes ante cada incidencia de entrega.",
+        "Procedimiento operativo con nueve escenarios: ausencia del paciente, retraso del transportista, entrega imposible, fuerza mayor, reclamaciones de calidad, error de dirección, entrega cruzada, cantidad inferior y producto dañado.",
+        "Coordinación en tiempo real con el transportista para segundos intentos y devoluciones, y con el hospital cuando el paciente estaba ingresado.",
+        "Comprobación de la cobertura del paciente hasta la siguiente entrega y derivación a su farmacia hospitalaria cuando no la tenía.",
+        "Apertura de incidencias por email a atención al cliente, marketing y hospital, con fotografías del producto cuando el procedimiento lo pedía."
+      ],
+      "outcome": "Un servicio crítico, con pacientes, hospital y transportista en la misma conversación, operado al pie de la letra sobre el procedimiento del laboratorio. Las consultas clínicas nunca se resolvían en la llamada: se derivaban siempre al equipo del laboratorio."
+    },
+    "steps": [
+      {
+        "title": "Diagnóstico",
+        "desc": "Mapeamos contigo los tipos de llamada, los volúmenes por franja y quién resuelve qué dentro de tu empresa."
+      },
+      {
+        "title": "Procedimiento",
+        "desc": "Redactamos el procedimiento por escenarios, con guiones, registros y escalados, y formamos al equipo sobre él."
+      },
+      {
+        "title": "Operación",
+        "desc": "Atendemos con tu marca, registramos cada caso y revisamos el procedimiento con los datos reales de las primeras semanas."
+      }
+    ],
+    "related": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para medianas y grandes empresas"
+      },
+      {
+        "href": "/lp/call-center-farmaceuticas",
+        "label": "Farmacéuticas y laboratorios"
+      },
+      {
+        "href": "/articulos/desborde-de-llamadas-externalizar-picos",
+        "label": "Guía: desborde de llamadas"
+      }
+    ],
+    "cta": {
+      "title": "Hablemos de tu operación.",
+      "text": "Cuéntanos qué llamadas quieres externalizar y en qué franjas. Te proponemos un procedimiento y un presupuesto ajustado a tu volumen."
+    },
+    "servicio": "Call center para logística y e-commerce",
+    "clientes": "las empresas de logística y e-commerce",
+    "esServicio": true,
+    "servicioCorto": "Call center para logística"
   },
   {
     "slug": "bpo-externalizacion",
