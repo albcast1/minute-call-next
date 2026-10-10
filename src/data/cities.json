@@ -20,24 +20,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-consultoria",
-        "title": "Recepcionista Virtual para consultoría y formación."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
-      },
-      {
-        "slug": "recepcionista-ia-seguros",
-        "title": "Recepcionista Virtual para seguros y corredurías."
+        "slug": "call-center-seguros",
+        "title": "Call center para seguros y corredurías"
       }
     ],
     "sectorContext": "Madrid concentra el 15% de las PYMES españolas y tiene la mayor densidad de clínicas privadas, despachos de abogados y consultoras del país. La competencia por captar clientes es máxima y cada llamada perdida se convierte en una oportunidad para la competencia.",
@@ -86,24 +82,16 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-consultoria",
-        "title": "Recepcionista Virtual para consultoría y formación."
+        "slug": "call-center-turismo",
+        "title": "Call center para hoteles y agencias de viajes"
       },
       {
-        "slug": "recepcionista-ia-turismo",
-        "title": "Recepcionista Virtual para agencias de viajes."
-      },
-      {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
-      },
-      {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       }
     ],
     "sectorContext": "Barcelona lidera en empresas tecnologicas, diseño y turismo internacional. Las empresas barcelonesas reciben llamadas en catalan, castellano e inglés, y la primera impresion telefónica es determinante para captar clientes de alto valor.",
@@ -152,24 +140,16 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
-      },
-      {
-        "slug": "recepcionista-ia-turismo",
-        "title": "Recepcionista Virtual para agencias de viajes."
-      },
-      {
-        "slug": "recepcionista-ia-talleres-mecanicos",
-        "title": "Recepcionista Virtual para Talleres Mecánicos."
+        "slug": "call-center-turismo",
+        "title": "Call center para hoteles y agencias de viajes"
       }
     ],
     "sectorContext": "Valencia destaca en empresas de importacion-exportacion, sector inmobiliario costero y turismo. El mercado valenciano es muy competitivo en los sectores de salud y servicios profesionales, donde la rapidez de respuesta define quien se lleva el cliente.",
@@ -218,24 +198,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-turismo",
-        "title": "Recepcionista Virtual para agencias de viajes."
+        "slug": "call-center-turismo",
+        "title": "Call center para hoteles y agencias de viajes"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
-      },
-      {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       }
     ],
     "sectorContext": "Sevilla es el hub económico del sur de España, con fuerte presencia de despachos de abogados, asesorías y empresas de turismo. La cultura empresarial sevillana valora especialmente la atención personalizada y el trato cercano.",
@@ -284,24 +260,16 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-turismo",
-        "title": "Recepcionista Virtual para agencias de viajes."
+        "slug": "call-center-turismo",
+        "title": "Call center para hoteles y agencias de viajes"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
-      },
-      {
-        "slug": "recepcionista-ia-centros-estetica",
-        "title": "Recepcionista Virtual para centros de estética."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       }
     ],
     "sectorContext": "Málaga es la ciudad española con mayor crecimiento empresarial: más de 1.200 startups tech, un sector inmobiliario de lujo muy activo y un turismo internacional que exige atención en varios idiomas. Los negocios malagueños pierden entre un 30-40% de llamadas por falta de recursos. Minute Call opera con agentes nativos en España, no en LATAM.",
@@ -350,20 +318,16 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-consultoria",
-        "title": "Recepcionista Virtual para consultoría y formación."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
-      },
-      {
-        "slug": "recepcionista-ia-seguros",
-        "title": "Recepcionista Virtual para seguros y corredurías."
+        "slug": "call-center-seguros",
+        "title": "Call center para seguros y corredurías"
       }
     ],
     "sectorContext": "Bilbao y el Pais Vasco tienen el PIB per capita más alto de España. Las empresas vascas priorizan la calidad sobre el precio y tienen alta exigencia en la atención al cliente. Sectores industriales, juridicos y financieros dominan el tejido empresarial.",
@@ -412,24 +376,16 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-talleres-mecanicos",
-        "title": "Recepcionista Virtual para Talleres Mecánicos."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
-      },
-      {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
-      },
-      {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       }
     ],
     "sectorContext": "Zaragoza es hub logistico de España por su posicion central entre Madrid, Barcelona y el norte. El sector del transporte, la logistica y la industria automovilistica son los principales demandantes de atención telefónica profesional.",
@@ -478,24 +434,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
-      },
-      {
-        "slug": "recepcionista-ia-veterinarias",
-        "title": "Recepcionista Virtual para veterinarias."
+        "slug": "call-center-veterinarias",
+        "title": "Call center para veterinarias"
       }
     ],
     "sectorContext": "Murcia destaca en el sector agroalimentario, construccion y servicios sanitarios. La región tiene una de las tasas de crecimiento empresarial más altas del país, con muchas PYMES familiares que necesitan profesionalizar su atención telefónica.",
@@ -544,24 +496,16 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-turismo",
-        "title": "Recepcionista Virtual para agencias de viajes."
+        "slug": "call-center-turismo",
+        "title": "Call center para hoteles y agencias de viajes"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
-      },
-      {
-        "slug": "recepcionista-ia-clinicas-dentales",
-        "title": "Recepcionista Virtual para clínicas dentales."
-      },
-      {
-        "slug": "recepcionista-ia-centros-estetica",
-        "title": "Recepcionista Virtual para centros de estética."
+        "slug": "call-center-clinicas-dentales",
+        "title": "Call center para clínicas dentales"
       }
     ],
     "sectorContext": "Palma y las Islas Baleares tienen la economia más dependiente del turismo de España, pero también un sector inmobiliario de lujo muy activo. Los negocios atienden a clientes alemanes, britanicos y escandinavos y necesitan atención multilingüe.",
@@ -610,24 +554,16 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-turismo",
-        "title": "Recepcionista Virtual para agencias de viajes."
+        "slug": "call-center-turismo",
+        "title": "Call center para hoteles y agencias de viajes"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
-      },
-      {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
-      },
-      {
-        "slug": "recepcionista-ia-empresas-limpieza",
-        "title": "Recepcionista Virtual para Empresas de Limpieza."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       }
     ],
     "sectorContext": "Las Palmas de Gran Canaria es el principal hub económico de Canarias, con un sector turistico internacional muy potente y un regimen fiscal especial (ZEC) que atrae empresas internacionales. La atención en inglés y alemán es fundamental.",
@@ -676,24 +612,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -740,24 +672,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -804,24 +732,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -868,24 +792,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -932,24 +852,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -997,24 +913,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1062,24 +974,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1127,24 +1035,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1192,24 +1096,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1257,24 +1157,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1322,24 +1218,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1387,24 +1279,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1452,24 +1340,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1517,24 +1401,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1582,24 +1462,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1647,24 +1523,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1712,24 +1584,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1777,24 +1645,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1842,24 +1706,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1907,24 +1767,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -1972,24 +1828,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2037,24 +1889,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2102,24 +1950,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2167,24 +2011,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2232,24 +2072,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2297,24 +2133,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2362,24 +2194,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2427,24 +2255,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2492,24 +2316,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2557,24 +2377,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2622,24 +2438,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2687,24 +2499,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2752,24 +2560,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2817,24 +2621,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2882,24 +2682,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -2947,24 +2743,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -3012,24 +2804,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -3077,24 +2865,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -3142,24 +2926,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [
@@ -3207,24 +2987,20 @@
     },
     "topSectors": [
       {
-        "slug": "recepcionista-ia-clinicas",
-        "title": "Recepcionista Virtual para clínicas."
+        "slug": "call-center-clinicas",
+        "title": "Call center para clínicas"
       },
       {
-        "slug": "recepcionista-ia-inmobiliarias",
-        "title": "Recepcionista Virtual para inmobiliarias."
+        "slug": "call-center-inmobiliarias",
+        "title": "Call center para inmobiliarias"
       },
       {
-        "slug": "recepcionista-ia-abogados",
-        "title": "Recepcionista Virtual para despachos de abogados."
+        "slug": "call-center-abogados",
+        "title": "Call center para despachos de abogados"
       },
       {
-        "slug": "recepcionista-ia-restaurantes",
-        "title": "Recepcionista Virtual para restaurantes."
-      },
-      {
-        "slug": "recepcionista-ia-asesorias",
-        "title": "Recepcionista Virtual para asesorías y gestorías."
+        "slug": "call-center-asesorias",
+        "title": "Call center para asesorías y gestorías"
       }
     ],
     "faq": [

@@ -34,164 +34,36 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 ## Sectores cubiertos (47 sectores especializados)
 
 ### clínicas
-- Slug: /lp/recepcionista-ia-clinicas
-- Descripción: Recepcionista con IA para clínicas en España: atiende llamadas, gestiona citas y filtra urgencias 24/7. Agentes de IA o humanos.
+- Slug: /lp/call-center-clinicas
+- Descripción: Call center para clínicas: citas, cambios, dudas de pacientes y urgencias con agentes nativos o IA, 24/7. Compartidos o equipo dedicado, sin permanencia.
 
 ### inmobiliarias
-- Slug: /lp/recepcionista-ia-inmobiliarias
-- Descripción: Servicio de call center con agentes nativos o IA para agencias inmobiliarias. Atendemos llamadas, filtramos leads y agendamos visitas 24/7.
-
-### restaurantes
-- Slug: /lp/recepcionista-ia-restaurantes
-- Descripción: Servicio de call center con agentes nativos o IA para hostelería. Gestiona reservas, atiende llamadas y filtra consultas 24/7.
+- Slug: /lp/call-center-inmobiliarias
+- Descripción: Call center para inmobiliarias: leads de portales, visitas, captación y gestión de alquileres con agentes nativos o IA, 7 días. Sin permanencia.
 
 ### despachos de abogados
-- Slug: /lp/recepcionista-ia-abogados
-- Descripción: Call center para despachos de abogados: filtra urgencias por prioridad, protege datos RGPD y cuida la confidencialidad.
+- Slug: /lp/call-center-abogados
+- Descripción: Call center para despachos de abogados: nuevas consultas, citas, recados y urgencias con agentes nativos o IA y confidencialidad. Sin permanencia.
 
 ### clínicas dentales
-- Slug: /lp/recepcionista-ia-clinicas-dentales
-- Descripción: Call center para odontología. Gestión de citas, cancelaciones, recordatorios y captura de urgencias dentales. Agentes nativos o IA - tú eliges.
+- Slug: /lp/call-center-clinicas-dentales
+- Descripción: Call center para clínicas dentales: primeras visitas, citas, presupuestos y urgencias con agentes nativos o IA, 24/7. Compartidos o equipo dedicado.
 
 ### asesorías y gestorías
-- Slug: /lp/recepcionista-ia-asesorias
-- Descripción: Secretaria virtual con agentes nativos en España. Para PYMES, autónomos y profesionales independientes. Precios competitivos. Sin permanencia. Activa en 48h.
+- Slug: /lp/call-center-asesorias
+- Descripción: Call center para asesorías y gestorías: clientes, nuevas altas, recados y picos de campaña fiscal con agentes nativos o IA. Sin permanencia.
 
 ### veterinarias
-- Slug: /lp/recepcionista-ia-veterinarias
-- Descripción: Call center para clínicas veterinarias. Triaje de urgencias, gestión de citas y información sobre vacunaciones. Agentes nativos o IA - tú eliges.
-
-### centros de estética
-- Slug: /lp/recepcionista-ia-centros-estetica
-- Descripción: Call center para centros de belleza. Gestión de citas, recordatorios y captura de nuevos clientes. Agentes nativos o IA - tú eliges.
-
-### fisioterapia
-- Slug: /lp/recepcionista-ia-fisioterapia
-- Descripción: Call center para fisioterapia. Gestión de citas recurrentes, listas de espera y soporte 24/7. Agentes nativos o IA - tú eliges.
+- Slug: /lp/call-center-veterinarias
+- Descripción: Call center para clínicas veterinarias: citas, vacunas, dudas de propietarios y urgencias con agentes nativos o IA, 24/7. Sin permanencia.
 
 ### seguros y corredurías
-- Slug: /lp/recepcionista-ia-seguros
-- Descripción: Call center para corredurías. Recepción de siniestros, cualificación de leads y gestión de pólizas 24/7. Agentes nativos o IA - tú eliges.
+- Slug: /lp/call-center-seguros
+- Descripción: Call center para corredurías de seguros: siniestros, consultas de pólizas, nuevos clientes y renovaciones con agentes nativos o IA, 24/7.
 
 ### turismo y agencias de viajes
-- Slug: /lp/recepcionista-ia-turismo
+- Slug: /lp/call-center-turismo
 - Descripción: Call center para turismo: reservas directas para hoteles sin comisión de OTA, atención multilingüe y soporte a viajeros 24/7. Agentes nativos o IA.
-
-### autoescuelas
-- Slug: /lp/recepcionista-ia-autoescuelas
-- Descripción: Call center para academias de conducción. Gestión de cambios de horario, información DGT y captura de alumnos. Agentes nativos o IA - tú eliges.
-
-### consultoría y formación
-- Slug: /lp/recepcionista-ia-consultoria
-- Descripción: Call center para consultores: filtrado inteligente de llamadas, agenda de reuniones y gestión de leads de alto valor.
-
-### Gimnasios y Centros Deportivos
-- Slug: /lp/recepcionista-ia-gimnasios-deportivos
-- Descripción: Recepcionista de IA 24/7 para gimnasios. Gestiona reservas de clases, inscripciones y consultas de miembros automáticamente.
-
-### Peluquerías y Salones de Belleza
-- Slug: /lp/recepcionista-ia-peluquerias-belleza
-- Descripción: Recepción 24/7 para peluquerías: agenda cortes y tratamientos, reduce cancelaciones y maximiza la ocupación de sillas.
-
-### Farmacias
-- Slug: /lp/recepcionista-ia-farmacias
-- Descripción: Recepcionista 24/7 para farmacias: resuelve dudas de horarios, entregas a domicilio y consultas farmacéuticas.
-
-### Ópticas
-- Slug: /lp/recepcionista-ia-opticas
-- Descripción: Recepción 24/7 para ópticas: agenda revisiones visuales y consultas de gafas y lentes de contacto de forma automática.
-
-### Psicólogos y Terapeutas
-- Slug: /lp/recepcionista-ia-psicologos-terapeutas
-- Descripción: Recepción 24/7 para psicólogos y terapeutas: agenda citas, maneja llamadas delicadas y protege la confidencialidad.
-
-### Academias de Idiomas
-- Slug: /lp/recepcionista-ia-academias-idiomas
-- Descripción: Recepcionista 24/7 para academias de idiomas: gestiona inscripciones, consultas de cursos y pruebas de nivel.
-
-### Talleres Mecánicos
-- Slug: /lp/recepcionista-ia-talleres-mecanicos
-- Descripción: Servicio de recepción 24/7 para talleres. Agenda reparaciones, cotizaciones y diagnósticos. Maximiza ocupación de mecánicos. Agentes nativos o IA - tú eliges.
-
-### Empresas de Limpieza
-- Slug: /lp/recepcionista-ia-empresas-limpieza
-- Descripción: Recepción 24/7 para empresas de limpieza: capta nuevos clientes, agenda servicios y gestiona la disponibilidad de equipos.
-
-### Empresas de Reformas
-- Slug: /lp/recepcionista-ia-empresas-reformas
-- Descripción: Recepción 24/7 para empresas de reformas: capta consultas, recoge peticiones de presupuesto y agenda visitas.
-
-### Arquitectos e Ingenieros
-- Slug: /lp/recepcionista-ia-arquitectos-ingenieros
-- Descripción: Recepción 24/7 para arquitectura e ingeniería: coordina consultas, visitas a obra y presupuestos de proyecto.
-
-### Notarías
-- Slug: /lp/recepcionista-ia-notarias
-- Descripción: Recepción 24/7 para notarías: agenda citas, atiende consultas y gestiona documentación de forma segura y confidencial.
-
-### Clínicas de Podología
-- Slug: /lp/recepcionista-ia-clinicas-podologia
-- Descripción: Servicio de recepción 24/7 para clínicas de podología. Agenda tratamientos, consultas y cirugías podológicas automáticamente. Agentes nativos o IA - tú eliges.
-
-### Empresas de Mudanzas
-- Slug: /lp/recepcionista-ia-empresas-mudanzas
-- Descripción: Recepción 24/7 para empresas de mudanzas: capta solicitudes, cotiza servicios y cierra fechas de forma automática.
-
-### Cerrajerías
-- Slug: /lp/recepcionista-ia-cerrajerias
-- Descripción: Recepción 24/7 para cerrajerías: atiende urgencias y emergencias a cualquier hora y despacha los avisos al instante.
-
-### Empresas de Catering
-- Slug: /lp/recepcionista-ia-empresas-catering
-- Descripción: Servicio de recepción 24/7 para empresas de catering. Captura pedidos, cotiza menús y gestiona fechas de eventos. Agentes nativos o IA - tú eliges.
-
-### Coworkings y Espacios de Trabajo
-- Slug: /lp/recepcionista-ia-coworkings-espacios-trabajo
-- Descripción: Servicio de recepción 24/7 para coworkings. Gestiona membresías, salas de reuniones y consultas de emprendedores. Agentes nativos o IA - tú eliges.
-
-### Guarderías y Escuelas Infantiles
-- Slug: /lp/recepcionista-ia-guarderias-escuelas-infantiles
-- Descripción: Recepción para guarderías y escuelas infantiles: gestiona inscripciones, horarios y avisos a las familias.
-
-### Residencias de Mayores
-- Slug: /lp/recepcionista-ia-residencias-mayores
-- Descripción: Recepción 24/7 para residencias de mayores: atiende a familiares, gestiona visitas e informa del estado del residente.
-
-### Centros de Yoga y Pilates
-- Slug: /lp/recepcionista-ia-centros-yoga-pilates
-- Descripción: Servicio de recepción 24/7 para centros de yoga y pilates. Agenda clases, canaliza nuevos alumnos y gestiona membresías. Agentes nativos o IA - tú eliges.
-
-### Estudios de Fotografía
-- Slug: /lp/recepcionista-ia-estudios-fotografia
-- Descripción: Servicio de recepción 24/7 para estudios de fotografía. Agenda sesiones de fotos, consulta de paquetes y gestión de eventos. Agentes nativos o IA - tú eliges.
-
-### Empresas de Seguridad Privada
-- Slug: /lp/recepcionista-ia-empresas-seguridad-privada
-- Descripción: Servicio de recepción 24/7 para empresas de seguridad privada. Coordina servicios, identifica emergencias y despacha personal. Agentes nativos o IA - tú eliges.
-
-### Clínicas de Reproducción Asistida
-- Slug: /lp/recepcionista-ia-clinicas-reproduccion-asistida
-- Descripción: Recepción para clínicas de reproducción asistida: atiende consultas delicadas, agenda citas y cuida la confidencialidad.
-
-### Centros de Formación Profesional
-- Slug: /lp/recepcionista-ia-centros-formacion-profesional
-- Descripción: Servicio de recepción 24/7 para centros de formación. Gestiona inscripciones, horarios y consultas de alumnos. Agentes nativos o IA - tú eliges.
-
-### Empresas de Transporte
-- Slug: /lp/recepcionista-ia-empresas-transporte
-- Descripción: Servicio de recepción 24/7 para empresas de transporte. Coordina envíos, rastreo y consultas de clientes. Agentes nativos o IA - tú eliges.
-
-### Funerarias y Tanatorios
-- Slug: /lp/recepcionista-ia-funerarias-tanatorios
-- Descripción: Servicio de recepción 24/7 para funerarias. Atiende con empatía, gestiona servicios y coordina trámites fúnebres. Agentes nativos o IA - tú eliges.
-
-### Administradores de Fincas
-- Slug: /lp/recepcionista-ia-administradores-fincas
-- Descripción: Recepción 24/7 para administradores de fincas: atiende a vecinos, coordina reparaciones y registra incidencias.
-
-### Clínicas de Cirugía Estética
-- Slug: /lp/recepcionista-ia-clinicas-cirugia-estetica
-- Descripción: Recepción 24/7 para clínicas de cirugía estética: agenda consultas, informa y gestiona el seguimiento postoperatorio.
 
 ### Call center para medianas y grandes empresas
 - Slug: /lp/call-center-para-empresas

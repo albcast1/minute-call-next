@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic'
 /**
  * Markdown representation of any page.
  *
- * Reached either directly (`/md?path=/lp/recepcionista-ia-clinicas`), through a
+ * Reached either directly (`/md?path=/lp/call-center-clinicas`), through a
  * `.md` URL, or through the Accept-header rewrite in middleware. Unknown paths
  * return a real 404 with a short Markdown recovery body.
  */

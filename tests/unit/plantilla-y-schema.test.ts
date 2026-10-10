@@ -54,7 +54,7 @@ test('ningun title empieza en minuscula ni pierde el servicio', () => {
     if (primera !== primera.toUpperCase()) malos.push(`${s.slug}: "${t}"`)
     // Un title que sea solo el nombre del cliente ("Clinicas en X") no dice
     // que servicio se ofrece: tiene que llevar la frase de servicio.
-    if (!s.esServicio && !/recepcionista/i.test(t)) malos.push(`${s.slug} sin servicio: "${t}"`)
+    if (!s.esServicio && !/recepcionista|call center/i.test(t)) malos.push(`${s.slug} sin servicio: "${t}"`)
   }
   assert.deepEqual(malos, [], malos.slice(0, 6).join(' | '))
 })

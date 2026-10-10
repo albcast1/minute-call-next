@@ -1,6 +1,5 @@
 {
   "_comment": "Contenido unico escrito a mano para las combinaciones ciudad x sector que MAS impresiones acumulan en Search Console (90 dias). Estas 25 URLs concentran unas 5.500 de las 12.651 impresiones de toda la ruta /atencion-telefonica/{ciudad}/{sector}, con solo 8 clics entre todas: son paginas que Google ya muestra y en las que nadie hace clic. El resto de combinaciones usa la plantilla generada en src/lib/seo/city-sector.ts. Objetivo: medir si el contenido diferenciado mueve posicion y CTR antes de decidir que hacer con las 2.400. Clave: '{ciudad}:{sector}'.",
-
   "malaga:call-center-24-horas": {
     "heading": "En Málaga el 35% de las llamadas se pierde en hora punta",
     "intro": "Málaga registra el porcentaje de llamadas no atendidas más alto de Andalucía en hora punta, y el problema no se reparte de forma uniforme: se concentra en las horas en las que el negocio está lleno y en las que ya ha cerrado. Entre el turismo, la hostelería y el auge tecnológico, buena parte de las llamadas llegan de noche, en fin de semana o desde otro huso horario, cuando no hay nadie para descolgarlas.",
@@ -21,7 +20,6 @@
     "intro": "La agricultura intensiva y la logística agroexportadora almerienses trabajan contra reloj y con clientes centroeuropeos que llaman en su horario. Casi cuatro de cada diez pedidos o incidencias no obtienen respuesta inmediata, y en un producto perecedero una respuesta tardía equivale a una respuesta que no sirve.",
     "angle": "Atendemos 24/7 recogiendo referencia, cantidad y urgencia del pedido, y aplicamos tu escalado para que lo crítico no espere a mañana."
   },
-
   "bilbao:centralita-virtual-empresas": {
     "heading": "Bilbao: una centralita que no obliga a instalar nada",
     "intro": "El tejido industrial y financiero bilbaíno arrastra centralitas físicas heredadas que encarecen cada cambio: añadir una extensión, mover un departamento o dar cobertura a un turno nuevo se convierte en una obra. Y mientras tanto, en los picos de expansión se sigue perdiendo en torno al 20% de las llamadas.",
@@ -62,7 +60,6 @@
     "intro": "Las bodegas y el comercio de bebidas jerezanos venden a importadores de Reino Unido, Alemania y Estados Unidos, que llaman en su horario y en su idioma. Casi cuatro de cada diez de esas consultas no encuentran a nadie al otro lado.",
     "angle": "Atendemos en horario ampliado y en varios idiomas, recogiendo volumen, mercado y contacto antes de pasarte la oportunidad."
   },
-
   "madrid:call-center-para-pymes": {
     "heading": "Una pyme de Madrid compite con 420.000 más por el mismo teléfono",
     "intro": "Madrid concentra más de 420.000 pymes y una media del 25% de llamadas no atendidas. Para una empresa pequeña eso significa que el cliente que no consigue hablar contigo tiene, literalmente, cientos de alternativas a un clic. No hace falta que le atiendan mejor: basta con que le atiendan.",
@@ -83,7 +80,6 @@
     "intro": "Una pyme murciana de agroalimentación o distribución recibe el 32% de sus llamadas en horarios que no encajan con los locales, porque vienen de compradores y transportistas de otros países. No es un problema de volumen, es un problema de calendario.",
     "angle": "Damos cobertura ampliada y en varios idiomas, con protocolo por franja para que solo te interrumpa lo que de verdad no puede esperar."
   },
-
   "valencia:call-center-para-empresas": {
     "heading": "Valencia: por qué un call center clásico no encaja aquí",
     "intro": "La empresa valenciana media —agroexportación, logística de puerto, tecnología emergente— no tiene volumen para justificar un call center tradicional con mínimos y permanencia, pero sí pierde el 28% de sus llamadas en los picos. Está atrapada entre un servicio sobredimensionado y no tener ninguno.",
@@ -114,7 +110,6 @@
     "intro": "El polo tecnológico y el turismo han multiplicado la actividad empresarial malagueña más rápido de lo que las empresas han podido dimensionar su atención telefónica. De ahí el 35% de llamadas no atendidas en hora punta: no es dejadez, es que el crecimiento va por delante de la plantilla.",
     "angle": "Absorbemos el pico sin que tengas que contratar, con agentes nativos y multiidioma y activación en 48 horas."
   },
-
   "barcelona:outsourcing-atencion-cliente": {
     "heading": "Barcelona: externalizar sin que se note que has externalizado",
     "intro": "Las startups, agencias y ecommerce barceloneses viven de la experiencia de cliente, y ese es justo el motivo por el que desconfían de externalizar: temen que se note. Mientras tanto, el 30% de las oportunidades se pierde por no tener recepción profesional, que es un coste mucho más real que el hipotético.",
@@ -124,10 +119,5 @@
     "heading": "Tarragona: consultas técnicas que no admiten demora",
     "intro": "La petroquímica y la química industrial tarraconenses generan un tipo de llamada muy concreto —consultas técnicas, incidencias de planta, coordinación logística— y el 38% no se procesa de forma inmediata. No es una llamada comercial que se pueda devolver mañana: es una que condiciona el turno siguiente.",
     "angle": "Externalizamos la primera capa con protocolo técnico definido por ti: clasificamos, registramos y escalamos según criticidad, 24/7."
-  },
-  "barcelona:recepcionista-ia-clinicas-cirugia-estetica": {
-    "heading": "Cirugía estética en Barcelona: la primera llamada decide",
-    "intro": "En estética el paciente compara varias clínicas antes de decidirse y la primera consulta es casi siempre telefónica, hecha con discreción y a menudo fuera del horario laboral. En una ciudad donde el 30% de las oportunidades se pierden por no tener recepción profesional, esa primera llamada sin atender es una valoración que se hace en otro sitio.",
-    "angle": "Atendemos con discreción y sin presionar, recogemos el tratamiento de interés y dejamos agendada la valoración, también fuera de horario."
   }
 }

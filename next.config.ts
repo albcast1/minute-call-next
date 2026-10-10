@@ -42,6 +42,48 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
+      // Sectores (oct 2026): 8 páginas pasan a /lp/call-center-*; las otras 32 se fusionan en la más cercana.
+      { source: '/lp/recepcionista-ia-clinicas', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-ia-clinicas-dentales', destination: '/lp/call-center-clinicas-dentales', permanent: true },
+      { source: '/lp/recepcionista-ia-inmobiliarias', destination: '/lp/call-center-inmobiliarias', permanent: true },
+      { source: '/lp/recepcionista-ia-abogados', destination: '/lp/call-center-abogados', permanent: true },
+      { source: '/lp/recepcionista-ia-asesorias', destination: '/lp/call-center-asesorias', permanent: true },
+      { source: '/lp/recepcionista-ia-seguros', destination: '/lp/call-center-seguros', permanent: true },
+      { source: '/lp/recepcionista-ia-veterinarias', destination: '/lp/call-center-veterinarias', permanent: true },
+      { source: '/lp/recepcionista-ia-turismo', destination: '/lp/call-center-turismo', permanent: true },
+      { source: '/lp/recepcionista-ia-centros-estetica', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-ia-fisioterapia', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-ia-psicologos-terapeutas', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-ia-clinicas-podologia', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-ia-clinicas-reproduccion-asistida', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-ia-clinicas-cirugia-estetica', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-ia-farmacias', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-ia-opticas', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-ia-residencias-mayores', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-ia-restaurantes', destination: '/lp/call-center-turismo', permanent: true },
+      { source: '/lp/recepcionista-ia-notarias', destination: '/lp/call-center-abogados', permanent: true },
+      { source: '/lp/recepcionista-ia-administradores-fincas', destination: '/lp/call-center-inmobiliarias', permanent: true },
+      { source: '/lp/recepcionista-ia-consultoria', destination: '/lp/call-center-asesorias', permanent: true },
+      { source: '/lp/recepcionista-ia-arquitectos-ingenieros', destination: '/lp/call-center-asesorias', permanent: true },
+      { source: '/lp/recepcionista-ia-empresas-transporte', destination: '/lp/call-center-logistica-ecommerce', permanent: true },
+      { source: '/lp/recepcionista-ia-empresas-mudanzas', destination: '/lp/call-center-logistica-ecommerce', permanent: true },
+      { source: '/lp/recepcionista-ia-empresas-seguridad-privada', destination: '/lp/call-center-24-horas', permanent: true },
+      { source: '/lp/recepcionista-ia-autoescuelas', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-gimnasios-deportivos', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-peluquerias-belleza', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-academias-idiomas', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-talleres-mecanicos', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-empresas-limpieza', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-empresas-reformas', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-cerrajerias', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-empresas-catering', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-coworkings-espacios-trabajo', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-guarderias-escuelas-infantiles', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-centros-yoga-pilates', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-estudios-fotografia', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-centros-formacion-profesional', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/lp/recepcionista-ia-funerarias-tanatorios', destination: '/lp/call-center-para-pymes', permanent: true },
+      { source: '/atencion-telefonica/:ciudad/recepcionista-ia-:sector', destination: '/atencion-telefonica/:ciudad', permanent: true },
       // Canibalizacion blog <-> ciudad (punto 2.4 de la auditoria). Verificado
       // en Search Console: para "secretaria virtual madrid" competian
       // /atencion-telefonica/madrid/secretaria-virtual (pos 5,5) y
@@ -52,15 +94,15 @@ const nextConfig: NextConfig = {
       { source: '/articulos/recepcionista-virtual-barcelona', destination: '/atencion-telefonica/barcelona/recepcion-de-llamadas', permanent: true },
       { source: '/articulos/recepcionista-virtual-valencia', destination: '/atencion-telefonica/valencia/recepcion-de-llamadas', permanent: true },
       { source: '/articulos/recepcionista-virtual-sevilla', destination: '/atencion-telefonica/sevilla/recepcion-de-llamadas', permanent: true },
-      { source: '/articulos/recepcionista-virtual-para-inmobiliarias-madrid-barcelona', destination: '/atencion-telefonica/madrid/recepcionista-ia-inmobiliarias', permanent: true },
+      { source: '/articulos/recepcionista-virtual-para-inmobiliarias-madrid-barcelona', destination: '/atencion-telefonica/madrid/call-center-inmobiliarias', permanent: true },
 
       // URLs internas rotas que Google llevaba tiempo rastreando y devolvian 404.
       // La de teleperformance acumulaba 296 impresiones en 90 dias apuntando a
       // una pagina que no existe.
       { source: '/articulos/call-center-pymes-espana-alternativa-teleperformance', destination: '/lp/call-center-para-pymes', permanent: true },
-      { source: '/lp/recepcionista-virtual-clinicas', destination: '/lp/recepcionista-ia-clinicas', permanent: true },
-      { source: '/lp/recepcionista-virtual-despachos-abogados', destination: '/lp/recepcionista-ia-abogados', permanent: true },
-      { source: '/lp/recepcionista-virtual-inmobiliarias', destination: '/lp/recepcionista-ia-inmobiliarias', permanent: true },
+      { source: '/lp/recepcionista-virtual-clinicas', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/lp/recepcionista-virtual-despachos-abogados', destination: '/lp/call-center-abogados', permanent: true },
+      { source: '/lp/recepcionista-virtual-inmobiliarias', destination: '/lp/call-center-inmobiliarias', permanent: true },
       { source: '/lp/recepcionista-virtual-para-pymes', destination: '/lp/secretaria-virtual', permanent: true },
 
       // Consolidacion del cluster comercial. Para la consulta "call center para
@@ -93,12 +135,12 @@ const nextConfig: NextConfig = {
       { source: '/articulos/secretaria-virtual-para-consultores-autonomos', destination: '/articulos/secretaria-virtual-autonomos-espana', permanent: true },
       { source: '/articulos/atencion-telefonica-externalizada-sector-salud', destination: '/articulos/recepcionista-virtual-clinicas-espana', permanent: true },
       { source: '/articulos/mejores-soluciones-filtrar-llamadas-comerciales', destination: '/articulos/mejores-soluciones-reducir-interrupciones-telefonicas', permanent: true },
-      { source: '/articulos/mejores-soluciones-atencion-telefonica-asesorias', destination: '/lp/recepcionista-ia-asesorias', permanent: true },
-      { source: '/articulos/mejores-soluciones-atencion-telefonica-turismo', destination: '/lp/recepcionista-ia-turismo', permanent: true },
+      { source: '/articulos/mejores-soluciones-atencion-telefonica-asesorias', destination: '/lp/call-center-asesorias', permanent: true },
+      { source: '/articulos/mejores-soluciones-atencion-telefonica-turismo', destination: '/lp/call-center-turismo', permanent: true },
       // Hoteles se fusiona en la página de turismo (oct 2026).
-      { source: '/call-center-para-hoteles', destination: '/lp/recepcionista-ia-turismo', permanent: true },
-      { source: '/articulos/mejores-soluciones-atencion-telefonica-estetica', destination: '/lp/recepcionista-ia-centros-estetica', permanent: true },
-      { source: '/articulos/mejores-soluciones-atencion-telefonica-autoescuelas', destination: '/lp/recepcionista-ia-autoescuelas', permanent: true },
+      { source: '/call-center-para-hoteles', destination: '/lp/call-center-turismo', permanent: true },
+      { source: '/articulos/mejores-soluciones-atencion-telefonica-estetica', destination: '/lp/call-center-clinicas', permanent: true },
+      { source: '/articulos/mejores-soluciones-atencion-telefonica-autoescuelas', destination: '/lp/call-center-para-pymes', permanent: true },
 
       // Ruta duplicada retirada: /lp/{sector}/{ciudad} generaba 2.400 paginas
       // noindex que Google seguia rastreando sin beneficio (2.248 confirmadas en
@@ -121,7 +163,7 @@ const nextConfig: NextConfig = {
       { source: '/recepcion-telefonica-servicios-tecnicos', destination: '/lp/recepcion-de-llamadas', permanent: true },
       { source: '/recepcionista-ia-empresas', destination: '/lp/secretaria-virtual', permanent: true },
       { source: '/alberto-castiel-atencion-cliente', destination: '/', permanent: true },
-      { source: '/recepcion-telefonica-inmobiliarias', destination: '/atencion-telefonica/madrid/recepcionista-ia-inmobiliarias', permanent: true },
+      { source: '/recepcion-telefonica-inmobiliarias', destination: '/atencion-telefonica/madrid/call-center-inmobiliarias', permanent: true },
 
       // Old EN pages Google has cached - 301 to Spanish equivalents
       { source: '/overview', destination: '/', permanent: true },

@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString()
 
   const TOP_CITY_SLUGS = ['madrid','barcelona','valencia','sevilla','malaga','bilbao','zaragoza','murcia','palma-de-mallorca','las-palmas']
-  const TOP_SECTOR_SLUGS = ['recepcionista-ia-clinicas','recepcionista-ia-abogados','recepcionista-ia-asesorias','recepcionista-ia-inmobiliarias','recepcionista-ia-restaurantes','recepcionista-ia-veterinarias','recepcionista-ia-seguros','recepcionista-ia-consultoria','recepcionista-ia-clinicas-dentales','recepcionista-ia-fisioterapia']
+  const TOP_SECTOR_SLUGS = ['call-center-clinicas','call-center-abogados','call-center-asesorias','call-center-inmobiliarias','call-center-turismo','call-center-veterinarias','call-center-seguros','call-center-clinicas-dentales']
 
   const staticPages = [
     { url: baseUrl, lastModified: now, changeFrequency: 'weekly' as const, priority: 1 },

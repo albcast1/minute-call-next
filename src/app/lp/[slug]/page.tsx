@@ -125,20 +125,14 @@ export default async function LandingPage({
           <Steps
             items={
               extra.steps ?? [
-                { title: "Configuración", desc: "Te conocemos. Entrenamos a la IA con tus datos, políticas y FAQs." },
-                { title: "Integración", desc: "Configuramos tu número. Los clientes siguen llamando al mismo número." },
-                { title: "Gestión", desc: "La IA atiende, filtra leads y agenda citas. Tú solo enfocado en cerrar." },
+                { title: "Diagnóstico", desc: "Repasamos contigo los tipos de llamada, el horario a cubrir y qué hay que resolver, registrar o escalar." },
+                { title: "Procedimiento", desc: "Lo convertimos en un procedimiento por escenarios y formamos a los agentes (o configuramos la IA) sobre él." },
+                { title: "Operación", desc: "Atendemos con tu nombre, registramos cada llamada en tu herramienta y revisamos el procedimiento contigo." },
               ]
             }
           />
         </Ed>
 
-        <Ed tag="Preguntas" title="FAQ">
-          <Faq items={faqs.map((f) => ({ q: f.question, a: f.answer }))} />
-        </Ed>
-
-        {/* Contenido en profundidad: aquí vive el contenido que antes estaba
-            repartido en cuatro URLs (consolidación del cluster SEO). */}
         {deepDive && (
           <Ed tag="En detalle" title="En detalle." flush={false}>
             <div className="dd">
@@ -159,6 +153,12 @@ export default async function LandingPage({
           </Ed>
         )}
 
+        <Ed tag="Preguntas" title="FAQ">
+          <Faq items={faqs.map((f) => ({ q: f.question, a: f.answer }))} />
+        </Ed>
+
+        {/* Contenido en profundidad: aquí vive el contenido que antes estaba
+            repartido en cuatro URLs (consolidación del cluster SEO). */}
         {extra.related && extra.related.length > 0 && (
           <Ed tag="Relacionado" title="Sigue leyendo.">
             <Chips links={extra.related} />
@@ -175,7 +175,7 @@ export default async function LandingPage({
         <CtaFinal
           tag="Empieza hoy"
           title={extra.cta?.title ?? "¿Listo para transformar tu atención?"}
-          text={extra.cta?.text ?? "Prueba Minute Call sin compromiso. La mayoría de clientes ven resultados en la primera semana."}
+          text={extra.cta?.text ?? "Te proponemos un procedimiento y un presupuesto ajustado a tu volumen, sin permanencia."}
         />
       </BrandPage>
     </>

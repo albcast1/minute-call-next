@@ -161,7 +161,7 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .faq2 summary::-webkit-details-marker{display:none}
 .faq2 .pl{flex:none;font-family:var(--mono);font-size:18px;color:var(--ink-2);width:20px;text-align:center}
 .faq2 details[open] .pl{transform:rotate(45deg);color:var(--ink)}
-.faq2 details p{padding:0 40px 22px 0;color:var(--ink-2);max-width:64ch}
+.faq2 details p{padding:0 40px 22px 0;color:var(--ink-2)}
 .btn-nav{background:var(--white);color:var(--ink);border-radius:5px;transition:background-color .2s ease}
 .btn-nav:hover{background:#F1F0ED}
 .btn-nav.is-lime{background:var(--lime)}

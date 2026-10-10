@@ -94,8 +94,8 @@ Every public page is available as Markdown, either through content negotiation o
 through a `.md` suffix:
 
 ```bash
-curl -s -H 'Accept: text/markdown' https://www.minute-call.com/lp/recepcionista-ia-clinicas
-curl -s https://www.minute-call.com/lp/recepcionista-ia-clinicas.md
+curl -s -H 'Accept: text/markdown' https://www.minute-call.com/lp/call-center-clinicas
+curl -s https://www.minute-call.com/lp/call-center-clinicas.md
 ```
 
 Markdown responses set `Content-Type: text/markdown; charset=utf-8` and
