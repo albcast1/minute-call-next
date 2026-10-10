@@ -381,9 +381,6 @@ function sectorDoc(sector: Sector): string {
     '',
     ...sector.features.map((f) => `- **${f.title}:** ${f.description}`),
     '',
-    ...(sector.testimonial
-      ? ['## Testimonio', '', `> ${sector.testimonial.quote}`, '>', `> — ${sector.testimonial.author}, ${sector.testimonial.role}`, '']
-      : []),
     faqSection(sector.faq),
     '## Cobertura por ciudad',
     '',

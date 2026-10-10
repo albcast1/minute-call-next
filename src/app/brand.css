@@ -89,7 +89,7 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .lk span{font-size:14.5px;padding:8px 13px;border-radius:5px;background:var(--soft);color:var(--ink-2)}
 .lk a:hover{background:#E6E3DE}
 .footer{border-top:1px solid var(--line);padding-block:64px 32px}
-.fgrid{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:40px}
+.fgrid{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(4,minmax(0,1fr));gap:40px}
 .fgrid .brand svg{width:40px}
 .footer .tagline{margin-top:18px;color:var(--ink-2);max-width:32ch}
 .footer h5{margin:0 0 14px}
