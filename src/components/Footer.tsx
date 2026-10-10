@@ -61,7 +61,7 @@ export default function Footer() {
               minute call
             </Link>
             <p className="tagline">
-              No pierdas ninguna llamada más. Atención telefónica 24/7 para PYMES y empresas, sin mínimo de puestos.
+              No pierdas ninguna llamada más. Atención telefónica 24/7 para PYMES y grandes empresas, sin mínimo de puestos.
             </p>
           </div>
           <div>

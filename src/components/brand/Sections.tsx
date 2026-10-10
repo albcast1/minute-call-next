@@ -276,7 +276,7 @@ export function splitFigure(text: string): { value: string; label: string } | nu
 export function CtaFinal({
   tag = "Activación en menos de 48 h",
   title = "No pierdas ninguna llamada más.",
-  text = "Atención telefónica 24/7 para PYMES y empresas, sin mínimo de puestos.",
+  text = "Atención telefónica 24/7 para PYMES y grandes empresas, sin mínimo de puestos.",
   cta = {},
   id = "contacto",
 }: {
