@@ -20,6 +20,7 @@ const SERVICES = [
   ["/lp/call-center-para-empresas", "Call center para empresas"],
   ["/lp/outsourcing-atencion-cliente", "Outsourcing de atención al cliente"],
   ["/lp/call-center-24-horas", "Call center 24 horas"],
+  ["/lp/call-center-multilingue", "Call center multilingüe"],
   ["/lp/centralita-virtual-empresas", "Centralita virtual"],
   ["/lp/recepcion-de-llamadas", "Recepción de llamadas"],
   ["/lp/bpo-externalizacion", "Externalización BPO"],

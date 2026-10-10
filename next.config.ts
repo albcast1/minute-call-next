@@ -42,6 +42,14 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
+      // Idiomas (oct 2026): solo español, inglés y francés con agentes nativos; el resto, al hub multilingüe.
+      { source: '/call-center-en-aleman', destination: '/lp/call-center-multilingue', permanent: true },
+      { source: '/call-center-en-danes', destination: '/lp/call-center-multilingue', permanent: true },
+      { source: '/call-center-en-hebreo', destination: '/lp/call-center-multilingue', permanent: true },
+      { source: '/call-center-en-holandes', destination: '/lp/call-center-multilingue', permanent: true },
+      { source: '/call-center-en-italiano', destination: '/lp/call-center-multilingue', permanent: true },
+      { source: '/call-center-en-noruego', destination: '/lp/call-center-multilingue', permanent: true },
+      { source: '/call-center-en-sueco', destination: '/lp/call-center-multilingue', permanent: true },
       // Sectores (oct 2026): 8 páginas pasan a /lp/call-center-*; las otras 32 se fusionan en la más cercana.
       { source: '/lp/recepcionista-ia-clinicas', destination: '/lp/call-center-clinicas', permanent: true },
       { source: '/lp/recepcionista-ia-clinicas-dentales', destination: '/lp/call-center-clinicas-dentales', permanent: true },

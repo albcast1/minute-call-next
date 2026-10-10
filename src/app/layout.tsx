@@ -8,6 +8,7 @@ import BrandMotion from "@/components/brand/BrandMotion";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Script from "next/script";
+import AttributionCapture from "@/components/AttributionCapture";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
@@ -190,6 +191,7 @@ export default function RootLayout({
             que es lo que dejo de registrar datos entre el 28 de agosto y la
             reverificacion de la propiedad. Sin cookies y sin datos personales. */}
         <Analytics />
+        <AttributionCapture />
       </body>
     </html>
   );

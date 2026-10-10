@@ -119,7 +119,7 @@ export default function CallCenterInglesPage() {
                 'Cobertura 24/7 todo el año',
                 'Equipo siempre disponible',
                 'Activación en 48 horas',
-                'Múltiples idiomas disponibles',
+                'Español, inglés y francés',
                 'Escala automática en picos',]}
         faq={faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.text }))}
         ctaTitle={"Atiende a tus clientes angloparlantes como se merecen."}
