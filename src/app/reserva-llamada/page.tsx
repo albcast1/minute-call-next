@@ -12,28 +12,11 @@ export const metadata: Metadata = {
   },
 };
 
-/* Lo que resuelve las dudas justo antes de enviar el formulario. */
-const TRUST = [
-  "Sin permanencia, mes a mes",
-  "En marcha en 48 horas",
-  "Agentes nativos en España, 24/7",
-  "Partner comercial de Teleperformance",
-];
-
+/* Solo Trustpilot junto al formulario: la atención va al formulario. */
 function Trust({ className }: { className: string }) {
   return (
-    <div className={className}>
-      <ul className="rsv-trust">
-        {TRUST.map((t) => (
-          <li key={t}>
-            <i aria-hidden="true">✓</i>
-            {t}
-          </li>
-        ))}
-      </ul>
-      <div className="rsv-tp">
-        <TrustpilotBadge />
-      </div>
+    <div className={`rsv-tp ${className}`}>
+      <TrustpilotBadge />
     </div>
   );
 }

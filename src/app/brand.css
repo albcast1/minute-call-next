@@ -592,13 +592,9 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .dd-body p:last-child{margin-bottom:0}
 .dd-body strong{color:var(--ink);font-weight:500}
 @media (max-width:760px){.dd-row{grid-template-columns:minmax(0,1fr);gap:12px;padding:24px 0}}
-/* Reserva: señales de confianza junto al formulario, en neutro para no competir con el botón. */
-.rsv-side{margin-top:32px}
+/* Reserva: solo Trustpilot junto al formulario. */
+.rsv-side{margin-top:24px}
 .rsv-bottom{display:none;margin-top:40px}
-.rsv-trust{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
-.rsv-trust li{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);font-size:16px;color:var(--ink)}
-.rsv-trust i{font-style:normal;flex:none;width:20px;height:20px;border-radius:4px;background:var(--ink);color:var(--lime);display:grid;place-items:center;font-size:11px}
-.rsv-tp{margin-top:18px}
 .mband-solid svg{display:block}
 .mband-purple{color:var(--purple)}
 .mband-ink{color:var(--ink)}
