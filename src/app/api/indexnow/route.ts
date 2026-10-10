@@ -16,7 +16,6 @@ export async function GET() {
     'https://www.minute-call.com/articulos/alternativa-secretaria-es-minute-call-comparativa',
     'https://www.minute-call.com/articulos/centralita-virtual-vs-recepcionista-virtual-diferencias',
     'https://www.minute-call.com/articulos/llamadas-perdidas-impacto-negocio-espana',
-    'https://www.minute-call.com/articulos/recepcionista-virtual-inmobiliarias-espana',
     'https://www.minute-call.com/llms-full.txt',
   ]
 
