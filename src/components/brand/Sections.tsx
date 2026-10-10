@@ -313,6 +313,57 @@ export function CtaFinal({
   );
 }
 
+export type CaseStudyData = {
+  title: string;
+  label?: string;
+  context: string;
+  scope: string[];
+  outcome: string;
+  kpis?: { value: string; label: string }[];
+};
+
+/** Caso real: panel con cifras, reto, qué hicimos y resultado. */
+export function CaseStudy({ title, label, context, scope, outcome, kpis }: CaseStudyData) {
+  return (
+    <section className="section" style={{ paddingTop: 0 }}>
+      <div className="wrap">
+        <article className="case">
+          <span className="tag">{label ? `Caso real · ${label}` : "Caso real"}</span>
+          <h2 className="h2 h2-c h2-m">{title}</h2>
+          {kpis && kpis.length > 0 && (
+            <div className="stats2">
+              {kpis.map((k, i) => (
+                <div key={i}>
+                  <strong>{k.value}</strong>
+                  <span>{k.label}</span>
+                </div>
+              ))}
+            </div>
+          )}
+          <div className="case-grid">
+            <div>
+              <h3>El reto</h3>
+              <p>{context}</p>
+            </div>
+            <div>
+              <h3>Qué hicimos</h3>
+              <ul className="case-list">
+                {scope.map((s, i) => (
+                  <li key={i}>
+                    <i aria-hidden="true">✓</i>
+                    <span>{s}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <p className="case-out">{outcome}</p>
+        </article>
+      </div>
+    </section>
+  );
+}
+
 /** Texto largo (contenido SEO, legales, artículos). */
 export function Prose({ children }: { children: ReactNode }) {
   return <div className="prose">{children}</div>;

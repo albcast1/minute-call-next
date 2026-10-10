@@ -3135,7 +3135,22 @@
           "Protocolo diseñado a medida con el cliente: qué se resuelve en la llamada, qué se registra y a quién se escala.",
           "Revisión del protocolo con el cliente cuando cambian sus procesos."
         ],
-        "outcome": "El 94% de las llamadas se atiende en menos de un minuto. El grupo tiene cobertura continua en España sin dimensionar una plantilla propia para un volumen bajo."
+        "outcome": "El 94% de las llamadas se atiende en menos de un minuto. El grupo tiene cobertura continua en España sin dimensionar una plantilla propia para un volumen bajo.",
+        "label": "Grupo europeo · Servicios",
+        "kpis": [
+          {
+            "value": "94%",
+            "label": "llamadas atendidas en menos de 1 minuto"
+          },
+          {
+            "value": "24/7",
+            "label": "todos los días del año"
+          },
+          {
+            "value": "ES · EN",
+            "label": "según el idioma de quien llama"
+          }
+        ]
       },
       {
         "title": "Atención a pacientes en tratamiento domiciliario para una multinacional farmacéutica.",
@@ -3147,7 +3162,18 @@
           "Comprobación de la cobertura del paciente hasta la siguiente entrega y derivación a su farmacia hospitalaria cuando no la tenía.",
           "Apertura de incidencias por email a atención al cliente, marketing y hospital, con fotografías del producto cuando el procedimiento lo pedía."
         ],
-        "outcome": "Un servicio crítico, con pacientes, hospital y transportista en la misma conversación, operado al pie de la letra sobre el procedimiento del laboratorio. Las consultas clínicas nunca se resolvían en la llamada: se derivaban siempre al equipo del laboratorio."
+        "outcome": "Un servicio crítico, con pacientes, hospital y transportista en la misma conversación, operado al pie de la letra sobre el procedimiento del laboratorio. Las consultas clínicas nunca se resolvían en la llamada: se derivaban siempre al equipo del laboratorio.",
+        "label": "Multinacional farmacéutica",
+        "kpis": [
+          {
+            "value": "9",
+            "label": "escenarios en el procedimiento operativo"
+          },
+          {
+            "value": "3",
+            "label": "partes coordinadas: paciente, transportista y hospital"
+          }
+        ]
       }
     ]
   },
@@ -3234,7 +3260,18 @@
         "Comprobación de la cobertura del paciente hasta la siguiente entrega y derivación a su farmacia hospitalaria cuando no la tenía.",
         "Apertura de incidencias por email a atención al cliente, marketing y hospital, con fotografías del producto cuando el procedimiento lo pedía."
       ],
-      "outcome": "Un servicio crítico, con pacientes, hospital y transportista en la misma conversación, operado al pie de la letra sobre el procedimiento del laboratorio. Las consultas clínicas nunca se resolvían en la llamada: se derivaban siempre al equipo del laboratorio."
+      "outcome": "Un servicio crítico, con pacientes, hospital y transportista en la misma conversación, operado al pie de la letra sobre el procedimiento del laboratorio. Las consultas clínicas nunca se resolvían en la llamada: se derivaban siempre al equipo del laboratorio.",
+      "label": "Multinacional farmacéutica",
+      "kpis": [
+        {
+          "value": "9",
+          "label": "escenarios en el procedimiento operativo"
+        },
+        {
+          "value": "3",
+          "label": "partes coordinadas: paciente, transportista y hospital"
+        }
+      ]
     },
     "steps": [
       {
@@ -3466,7 +3503,18 @@
         "Comprobación de la cobertura del paciente hasta la siguiente entrega y derivación a su farmacia hospitalaria cuando no la tenía.",
         "Apertura de incidencias por email a atención al cliente, marketing y hospital, con fotografías del producto cuando el procedimiento lo pedía."
       ],
-      "outcome": "Un servicio crítico, con pacientes, hospital y transportista en la misma conversación, operado al pie de la letra sobre el procedimiento del laboratorio. Las consultas clínicas nunca se resolvían en la llamada: se derivaban siempre al equipo del laboratorio."
+      "outcome": "Un servicio crítico, con pacientes, hospital y transportista en la misma conversación, operado al pie de la letra sobre el procedimiento del laboratorio. Las consultas clínicas nunca se resolvían en la llamada: se derivaban siempre al equipo del laboratorio.",
+      "label": "Multinacional farmacéutica",
+      "kpis": [
+        {
+          "value": "9",
+          "label": "escenarios en el procedimiento operativo"
+        },
+        {
+          "value": "3",
+          "label": "partes coordinadas: paciente, transportista y hospital"
+        }
+      ]
     },
     "steps": [
       {
