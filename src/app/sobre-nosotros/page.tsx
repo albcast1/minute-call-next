@@ -86,7 +86,7 @@ export default function SobreNosotros() {
   ];
 
   const icp = [
-    "PYMES y grandes empresas que necesitan agentes compartidos o un equipo dedicado pequeño.",
+    "PYMES y grandes empresas que necesitan agentes compartidos o un equipo dedicado de 1 a 5 agentes.",
     "Empresas que reciben entre unas decenas y unos cientos de llamadas al mes.",
     "Clínicas, clínicas dentales y veterinarias.",
     "Despachos de abogados, asesorías y corredurías de seguros.",

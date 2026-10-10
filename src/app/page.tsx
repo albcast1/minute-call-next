@@ -23,11 +23,11 @@ const RIBBON = [
   "Agentes nativos en España",
   "Sin permanencia",
   "Agentes compartidos, sin mínimos",
+  "Equipos dedicados de 1 a 5 agentes",
   "Activación en 48 h",
   "Inglés y francés bajo demanda",
   "Integración con tu CRM",
   "Personas o IA",
-  "Equipos dedicados o compartidos",
   "Cualificación de leads",
   "Reserva de citas",
   "Atención 24/7",
@@ -37,11 +37,11 @@ export default function Home() {
   const faqs = [
     {
       q: "¿Qué es Minute Call?",
-      a: "Minute Call es un servicio de atención telefónica externalizada: agentes nativos en España o IA atienden las llamadas en nombre de tu empresa, con tu procedimiento. Estamos especializados en agentes compartidos: un equipo formado en tu procedimiento que atiende tus llamadas sin que pagues puestos completos. Si lo necesitas, también montamos equipos dedicados pequeños. Cobertura 24/7.",
+      a: "Minute Call es un servicio de atención telefónica externalizada: agentes nativos en España o IA atienden las llamadas en nombre de tu empresa, con tu procedimiento. Estamos especializados en agentes compartidos: un equipo formado en tu procedimiento que atiende tus llamadas sin que pagues puestos completos. Si lo necesitas, también montamos equipos dedicados de 1 a 5 agentes. Cobertura 24/7.",
     },
     {
       q: "¿En qué se diferencia de un gran BPO o de un call center tradicional?",
-      a: "Los grandes BPO están pensados para programas de muchos agentes: suelen pedir equipos de unas diez personas y contratos anuales. Minute Call trabaja con agentes compartidos, sin mínimo de puestos, o con equipos dedicados pequeños; mes a mes y siguiendo tu procedimiento por escenarios. Es la opción cuando el volumen no justifica un programa grande pero cada llamada tiene que atenderse bien.",
+      a: "Los grandes BPO están pensados para programas de muchos agentes: suelen pedir equipos de unas diez personas y contratos anuales. Minute Call trabaja con agentes compartidos, sin mínimo de puestos, o con equipos dedicados de 1 a 5 agentes; mes a mes y siguiendo tu procedimiento por escenarios. Es la opción cuando el volumen no justifica un programa grande pero cada llamada tiene que atenderse bien.",
     },
     {
       q: "¿Para qué tipo de empresas está pensado el servicio?",
@@ -49,7 +49,7 @@ export default function Home() {
     },
     {
       q: "¿Cuál es el mínimo de agentes?",
-      a: "No hay mínimo de puestos. Lo habitual es empezar con agentes compartidos, que cubren tu línea sin pagar un puesto completo, y pasar a un equipo dedicado pequeño si crece el volumen.",
+      a: "No hay mínimo de puestos. Lo habitual es empezar con agentes compartidos, que cubren tu línea sin pagar un puesto completo, y pasar a un equipo dedicado de 1 a 5 agentes si crece el volumen.",
     },
     {
       q: "¿Qué diferencia hay entre agentes dedicados y compartidos?",
@@ -92,7 +92,7 @@ export default function Home() {
       <FAQPageSchema faqs={faqs.map((f) => ({ question: f.q, answer: f.a }))} />
       <ServiceSchema
         services={[
-          { name: "Call center con agentes compartidos, sin mínimo de puestos", description: "Agentes nativos en España compartidos o en equipos dedicados pequeños, con cobertura 24/7 y tu procedimiento." },
+          { name: "Call center con agentes compartidos, sin mínimo de puestos", description: "Agentes nativos en España compartidos o en equipos dedicados de 1 a 5 agentes, con cobertura 24/7 y tu procedimiento." },
           { name: "Recepcionista virtual", description: "Agentes nativos en España atienden las llamadas de tu empresa con tu protocolo y tu nombre." },
           { name: "Toma de mensajes", description: "Recogemos el recado con el contexto que necesitas y te lo hacemos llegar en tiempo real." },
           { name: "Cualificación de leads", description: "Filtramos y cualificamos cada llamada para que tu equipo solo dedique tiempo a lo relevante." },
@@ -145,7 +145,7 @@ export default function Home() {
                 {[
                   {
                     title: "Agentes compartidos",
-                    desc: "Un equipo formado en tu procedimiento, sin pagar puestos completos. Y equipos dedicados pequeños si los necesitas.",
+                    desc: "Un equipo formado en tu procedimiento, sin pagar puestos completos. Y equipos dedicados de 1 a 5 agentes si los necesitas.",
                   },
                   {
                     title: "Cobertura 24/7 y desbordes",

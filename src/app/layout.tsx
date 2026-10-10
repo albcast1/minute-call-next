@@ -13,7 +13,7 @@ import { Analytics } from "@vercel/analytics/next";
 export const metadata: Metadata = {
   title: "Minute Call | Call center para PYMES y grandes empresas",
   description:
-    "Call center para PYMES y grandes empresas con agentes nativos en España: agentes compartidos o equipos dedicados pequeños, 24/7. Sin mínimo de puestos ni permanencia.",
+    "Call center para PYMES y grandes empresas con agentes nativos en España: agentes compartidos o equipos dedicados de 1 a 5 agentes, 24/7. Sin mínimo de puestos ni permanencia.",
   metadataBase: new URL("https://www.minute-call.com"),
   alternates: { canonical: "/" },
   openGraph: {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: "website",
     title: "Minute Call | Call center para PYMES y grandes empresas",
     description:
-      "Call center para PYMES y grandes empresas con agentes nativos en España: agentes compartidos o equipos dedicados pequeños, 24/7. Sin mínimo de puestos.",
+      "Call center para PYMES y grandes empresas con agentes nativos en España: agentes compartidos o equipos dedicados de 1 a 5 agentes, 24/7. Sin mínimo de puestos.",
     url: "https://www.minute-call.com",
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Minute Call | Call center para PYMES y grandes empresas",
     description:
-      "Call center para PYMES y grandes empresas: agentes compartidos o equipos dedicados pequeños, 24/7.",
+      "Call center para PYMES y grandes empresas: agentes compartidos o equipos dedicados de 1 a 5 agentes, 24/7.",
     images: ["/og-image.png"],
   },
   icons: {
@@ -125,7 +125,7 @@ export default function RootLayout({
                 "logo": { "@type": "ImageObject", "url": "https://www.minute-call.com/logo.png" },
                 "image": "https://www.minute-call.com/og-image.png",
                 "description":
-                  "Call center y atención telefónica 24/7 para PYMES y grandes empresas en España: agentes compartidos o equipos dedicados pequeños, nativos o IA. Sin mínimo de puestos ni permanencia.",
+                  "Call center y atención telefónica 24/7 para PYMES y grandes empresas en España: agentes compartidos o equipos dedicados de 1 a 5 agentes, nativos o IA. Sin mínimo de puestos ni permanencia.",
                 "foundingDate": "2024",
                 // Direccion segun el aviso legal. Antes el schema decia Madrid
                 // y el aviso legal Malaga: una contradiccion que penaliza la
