@@ -42,12 +42,6 @@ export default function Nav() {
             minute call
           </Link>
           <div className="nav-right">
-            <div className="links">
-              <Link href="/articulos">Blog</Link>
-              <Link href="/lp">Sectores</Link>
-              <Link href="/atencion-telefonica">Ciudades</Link>
-              <Link href="/sobre-nosotros">Sobre nosotros</Link>
-            </div>
             <Link className={`btn btn-nav${lime ? " is-lime" : ""}`} href="/reserva-llamada">
               ¿Hablamos?
             </Link>

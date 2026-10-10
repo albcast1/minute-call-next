@@ -4,6 +4,7 @@ import { LogoMark } from "@/components/brand/Logo";
 const NAV = [
   ["/", "Home"],
   ["/sobre-nosotros", "Nosotros"],
+  ["/atencion-telefonica", "Ciudades"],
   ["/politica-privacidad", "Política de privacidad"],
   ["/politica-cookies", "Política de cookies"],
   ["/aviso-legal", "Aviso legal"],
