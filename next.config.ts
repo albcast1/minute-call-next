@@ -73,6 +73,31 @@ const nextConfig: NextConfig = {
       { source: '/articulos/call-center-para-pequenas-empresas', destination: '/lp/call-center-para-pymes', permanent: true },
       { source: '/articulos/call-center-24-7-para-pymes-espana', destination: '/lp/call-center-24-horas', permanent: true },
 
+      // Poda de articulos (oct 2026). Sin impresiones relevantes entre el 28/05 y
+      // el 27/08/2026 (menos de 60 en 3 meses, 0-1 clics) y con otro articulo o
+      // landing que ya cubre la misma intencion: se fusionan en el mas fuerte.
+      { source: '/articulos/recepcionista-virtual-ia-vs-agente-humano', destination: '/articulos/recepcionista-virtual-humano-vs-recepcionista-ia-diferencias-ventajas-para-pymes', permanent: true },
+      { source: '/articulos/modelo-hibrido-recepcionista-virtual-equipo-interno-cuando-funciona-mejor', destination: '/articulos/recepcionista-virtual-humano-vs-recepcionista-ia-diferencias-ventajas-para-pymes', permanent: true },
+      { source: '/articulos/recepcionista-virtual-ia-empresas-espana-ahorro-costes-cuando-implementarlo', destination: '/articulos/agente-telefonico-ia-para-pymes-casos-uso-beneficios', permanent: true },
+      { source: '/articulos/externalizar-vs-contratar-atencion-telefonica-pymes-espana', destination: '/articulos/coste-externalizar-atencion-telefonica-pyme-espana', permanent: true },
+      { source: '/articulos/alternativas-recepcionista-interna-pymes', destination: '/articulos/coste-externalizar-atencion-telefonica-pyme-espana', permanent: true },
+      { source: '/articulos/mejores-alternativas-contratar-recepcionista', destination: '/articulos/coste-externalizar-atencion-telefonica-pyme-espana', permanent: true },
+      { source: '/articulos/como-elegir-servicio-secretaria-virtual-sin-perder-calidad', destination: '/articulos/secretaria-virtual-pymes-espana', permanent: true },
+      { source: '/articulos/como-elegir-servicio-atencion-telefonica', destination: '/articulos/recepcion-llamadas-empresas-espana-guia', permanent: true },
+      { source: '/articulos/atencion-telefonica-multilingue-espanol-ingles-frances-empresas-europa', destination: '/articulos/mejores-soluciones-atencion-telefonica-multilingue', permanent: true },
+      { source: '/articulos/atencion-telefonica-profesional-para-clinicas-despachos-e-inmobiliarias-cuando-externalizar-la-recepcion', destination: '/articulos/recepcion-llamadas-empresas-espana-guia', permanent: true },
+      { source: '/articulos/recepcionista-virtual-para-pymes-evitar-llamadas-perdidas-leads-frios-y-distracciones-en-el-equipo', destination: '/articulos/llamadas-perdidas-impacto-negocio-espana', permanent: true },
+      { source: '/articulos/mejores-soluciones-no-perder-llamadas', destination: '/articulos/llamadas-perdidas-impacto-negocio-espana', permanent: true },
+      { source: '/articulos/recepcionista-virtual-inmobiliarias-espana', destination: '/articulos/mejores-soluciones-atencion-telefonica-inmobiliarias', permanent: true },
+      { source: '/articulos/externalizar-atencion-telefonica-clinica-dental', destination: '/articulos/mejores-soluciones-atencion-telefonica-clinicas-dentales', permanent: true },
+      { source: '/articulos/secretaria-virtual-para-consultores-autonomos', destination: '/articulos/secretaria-virtual-autonomos-espana', permanent: true },
+      { source: '/articulos/atencion-telefonica-externalizada-sector-salud', destination: '/articulos/recepcionista-virtual-clinicas-espana', permanent: true },
+      { source: '/articulos/mejores-soluciones-filtrar-llamadas-comerciales', destination: '/articulos/mejores-soluciones-reducir-interrupciones-telefonicas', permanent: true },
+      { source: '/articulos/mejores-soluciones-atencion-telefonica-asesorias', destination: '/lp/recepcionista-ia-asesorias', permanent: true },
+      { source: '/articulos/mejores-soluciones-atencion-telefonica-turismo', destination: '/lp/recepcionista-ia-turismo', permanent: true },
+      { source: '/articulos/mejores-soluciones-atencion-telefonica-estetica', destination: '/lp/recepcionista-ia-centros-estetica', permanent: true },
+      { source: '/articulos/mejores-soluciones-atencion-telefonica-autoescuelas', destination: '/lp/recepcionista-ia-autoescuelas', permanent: true },
+
       // Ruta duplicada retirada: /lp/{sector}/{ciudad} generaba 2.400 paginas
       // noindex que Google seguia rastreando sin beneficio (2.248 confirmadas en
       // Search Console). Consolidamos toda la senal en la ruta canonica indexable.

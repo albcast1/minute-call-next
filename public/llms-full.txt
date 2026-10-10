@@ -290,13 +290,6 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 
 El recepcionista virtual humano actúa como una extensión directa de la empresa en la primera ate...
 
-### Recepcionista virtual con IA para empresas en España: ahorro de costes y cuándo tiene sentido implementarlo
-- URL: /articulos/recepcionista-virtual-ia-empresas-espana-ahorro-costes-cuando-implementarlo
-- Resumen: Un recepcionista virtual con IA es una solución que atiende llamadas de forma automática, recoge información básica del llamante y gestiona tareas simples de filtrado y clasificación. Su función no es sustituir completamente la atención humana, sino cubrir las situaciones en las que una empresa necesita garantizar respuesta inmediata sin aumentar estructura interna.
-- Contenido: En el contexto de las pymes y empresas europeas con operaciones en España, el uso de recepcionistas virtuales con IA se centra principalmente en dos objetivos: mejorar la disponibilidad telefónica y reducir el coste asociado a la recepción tradicional.
-
-Las funciones típicas incluyen responder llama...
-
 ### Agente telefónico con IA para PYMES en España: casos de uso reales y beneficios
 - URL: /articulos/agente-telefonico-ia-para-pymes-casos-uso-beneficios
 - Resumen: Un agente telefónico con IA es un sistema automatizado que atiende llamadas de forma autónoma, mantiene conversaciones naturales y gestiona tareas básicas de recepción y soporte. A diferencia de los antiguos sistemas IVR, estos agentes utilizan modelos de lenguaje que permiten comprender la intención del llamante y adaptar las respuestas según el contexto.
@@ -304,57 +297,10 @@ Las funciones típicas incluyen responder llama...
 
 Los agentes de IA ...
 
-### ¿Qué es un recepcionista virtual con IA y cuándo tiene sentido frente a un agente humano?
-- URL: /articulos/recepcionista-virtual-ia-vs-agente-humano
-- Resumen: Un recepcionista virtual con IA es un sistema automatizado que atiende llamadas telefónicas y gestiona la primera interacción con el cliente utilizando modelos de lenguaje y voz. Su función principal es resolver consultas básicas, ofrecer información general, filtrar llamadas y derivar solo los casos relevantes al equipo humano.
-- Contenido: Aunque ambos modelos -IA y agente humano- cumplen un rol similar en la recepción telefónica, no son equivalentes. Cada uno aporta ventajas distintas según el tipo de negocio, el volumen de llamadas y la naturaleza de las interacciones. En muchas pymes la mejor solución no es elegir uno u otro, sino ...
-
 ### Atención telefónica 24/7: ventajas, riesgos y cuándo tiene sentido realmente para una pyme
 - URL: /articulos/atencion-telefonica-24-7-ventajas-riesgos-y-cuando-tiene-sentido-realmente-para-una-pyme
 - Resumen: La idea de ofrecer atención telefónica 24/7 resulta atractiva para muchas pymes: mejor disponibilidad, más confianza del cliente y la posibilidad de atender llamadas fuera del horario habitual. Sin embargo, no siempre es necesario ni rentable. Antes de implantar cobertura permanente, conviene analizar si existe una demanda real, qué impacto tiene en costes y en qué casos genera un retorno claro.
 - Contenido: Un servicio 24/7 implica que la empresa garantiza respuesta constante todos los días del año, incluyendo noches, fines de semana y festivos. Esto no siempre significa resolver todos los casos en el momento, sino asegurar que nadie se queda sin atención y que la información de contacto se recoge de f...
-
-### Externalizar atención telefónica vs contratar personal administrativo: comparación real para pymes en España
-- URL: /articulos/externalizar-vs-contratar-atencion-telefonica-pymes-espana
-- Resumen: Muchas pymes en España llegan al mismo punto: el teléfono interrumpe el trabajo del equipo, se pierden llamadas y algunos leads no reciben respuesta a tiempo. Ante esta situación, surgen dos opciones habituales: contratar personal administrativo interno para atender el teléfono o externalizar la recepción y filtrado de llamadas a un servicio profesional. Aunque ambas soluciones buscan lo mismo -mejorar la atención y no perder oportunidades- su impacto en costes, flexibilidad y operativa es muy diferente.
-- Contenido: Contratar una persona a tiempo completo significa que la empresa es responsable de:
-
-[análisis de costes](/articulos/coste-externalizar-atencion-telefonica-pyme-espana). Salario bruto: 1.200-1.800 euros según experiencia y regionCostes fijos de estructura: 400-600 euros (SS, seguros, impuestos)Forma...
-
-### Modelo híbrido: recepcionista virtual + equipo interno. Cuándo funciona mejor en una pyme
-- URL: /articulos/modelo-hibrido-recepcionista-virtual-equipo-interno-cuando-funciona-mejor
-- Resumen: Cada vez más pymes y startups en España adoptan un modelo híbrido de atención telefónica en el que un servicio de recepcionista virtual se encarga de la primera respuesta y filtrado de llamadas, mientras que el equipo interno gestiona las conversaciones de mayor valor o especialización. Este enfoque busca evitar llamadas perdidas y reducir interrupciones sin perder control sobre la relación con el cliente.
-- Contenido: El objetivo del modelo híbrido no es sustituir al equipo interno, sino organizar mejor el acceso a él, priorizando las llamadas importantes y mejorando la experiencia del primer contacto.
-
-[disponibilidad 24/7](/articulos/atencion-telefonica-24-7-ventajas-riesgos-y-cuando-tiene-sentido-realmente-par...
-
-### Cómo elegir un servicio de secretaría virtual sin perder calidad de atención al cliente
-- URL: /articulos/como-elegir-servicio-secretaria-virtual-sin-perder-calidad
-- Resumen: Externalizar la atención telefónica puede ayudar a una pyme o startup a no perder llamadas, reducir interrupciones internas y ofrecer una imagen más profesional. Sin embargo, una de las dudas más frecuentes antes de contratar un servicio de secretaría virtual es cómo asegurarse de que la calidad de atención no se resiente al pasar de un modelo interno a uno externalizado.
-- Contenido: Elegir el proveedor adecuado no consiste solo en comparar precios, sino en evaluar cómo trabaja, qué procesos utiliza y hasta qué punto es capaz de integrarse en la operativa real de la empresa.
-
-[secretaría virtual para pymes](/articulos/secretaria-virtual-pymes-espana). El primer paso no es revisa...
-
-### Atención telefónica multilingüe para empresas: español, inglés y francés desde España y Europa
-- URL: /articulos/atencion-telefonica-multilingue-espanol-ingles-frances-empresas-europa
-- Resumen: Cada vez más empresas europeas trabajan con clientes, proveedores y socios internacionales. Ese contexto hace que la atención telefónica en un solo idioma ya no sea suficiente para muchas pymes, despachos profesionales, startups, clínicas privadas o empresas de servicios. La primera impresión que recibe un cliente extranjero suele producirse por teléfono y, si la llamada no puede atenderse correctamente en su idioma, la oportunidad se pierde o se enfría.
-- Contenido: La atención telefónica multilingüe permite a una empresa atender llamadas en español, inglés, francés y otros idiomas sin aumentar estructura interna.
-
-[criterios de selección](/articulos/como-elegir-servicio-secretaria-virtual-sin-perder-calidad). Un cliente que llama en su idioma materno tiene una...
-
-### Atención telefónica profesional para clínicas, despachos e inmobiliarias: cuándo externalizar la recepción
-- URL: /articulos/atencion-telefonica-profesional-para-clinicas-despachos-e-inmobiliarias-cuando-externalizar-la-recepcion
-- Resumen: La primera llamada de un cliente, paciente o potencial comprador define gran parte de la percepción de una empresa. En sectores como clínicas privadas, despachos profesionales e inmobiliarias, una llamada perdida no es solo una incidencia operativa: puede significar una cita menos, un cliente menos o una oportunidad comercial que no volverá.
-- Contenido: Por eso cada vez más empresas externalizan la recepción telefónica y la primera atención, buscando continuidad, profesionalidad y capacidad para responder incluso cuando el equipo interno no está disponible.
-
-[opciones de recepcionista](/articulos/recepcionista-virtual-humano-vs-recepcionista-ia-dif...
-
-### Recepcionista virtual para PYMES: evitar llamadas perdidas, leads fríos y distracciones en el equipo
-- URL: /articulos/recepcionista-virtual-para-pymes-evitar-llamadas-perdidas-leads-frios-y-distracciones-en-el-equipo
-- Resumen: Para muchas pymes en España, el teléfono sigue siendo uno de los principales canales de entrada de clientes y oportunidades comerciales. Sin embargo, en el día a día, las llamadas suelen llegar en momentos imprevistos, interrumpen tareas importantes o directamente se pierden porque nadie puede atender a tiempo. Ahí es donde entra en juego el modelo de recepcionista virtual: una solución de atención telefónica profesional que garantiza respuesta inmediata sin añadir estructura interna fija.
-- Contenido: En lugar de que las llamadas se pierdan, se atienda de forma improvisada, o se generen interrupciones constantes, un recepcionista virtual proporciona una primera capa profesional que filtra, captura información y transfiere solo lo necesario al equipo.
-
-El problema de fondo es que muchas pymes tien...
 
 ### Servicio de secretaría virtual en España: qué incluye, precios y cuándo compensa para una pyme
 - URL: /articulos/servicio-secretaria-virtual-espana-precios-pymes
@@ -408,13 +354,6 @@ Segun datos del sector, entre el 30 y el 50% de las llamadas a clinicas no se at
 
 La clave para elegir bien es entender que incluye cad...
 
-### Alternativas a la recepcionista interna para PYMES: comparativa 2025
-- URL: /articulos/alternativas-recepcionista-interna-pymes
-- Resumen: Contratar una recepcionista interna cuesta entre 1.500 y 2.200 euros/mes. Existen alternativas mas flexibles y economicas que cubren el 100% de las llamadas.
-- Contenido: Muchas PYMES en Espana se enfrentan al dilema de como gestionar la atencion telefonica sin asumir los costes de una recepcionista interna. Las opciones son varias: recepcionista virtual con agentes humanos, asistente de IA, centralita virtual con IVR, o call center externalizado.
-
-Cada opcion tiene ...
-
 ### Cuanto cuesta una secretaria virtual en Espana en 2025: comparativa real de precios
 - URL: /articulos/cuanto-cuesta-secretaria-virtual-espana-2025
 - Resumen: Los precios de secretaria virtual en Espana van desde 9 euros/mes para contestadores basicos hasta mas de 900 euros/mes para equipos dedicados 24/7. Te explicamos que incluye cada plan y cual es la mejor opcion para tu tipo de negocio.
@@ -458,13 +397,6 @@ Una secretaria virtual para ...
 Hay cuatro modelos principales en Espana:
 
 Recepcionista interna: la opcion mas cara (1.500-2.200 euros/m...
-
-### Recepcionista virtual para inmobiliarias en Espana: como no perder ni un lead
-- URL: /articulos/recepcionista-virtual-inmobiliarias-espana
-- Resumen: Una inmobiliaria que no coge el telefono pierde la venta. Con Minute Call, tus agentes se enteran de cada lead al instante: presupuesto, zona y urgencia del comprador, listos para cerrar.
-- Contenido: En el sector inmobiliario espanol, la velocidad de respuesta es la diferencia entre cerrar una venta y perderla. El 78% de los compradores contactan con el primer agente que les responde. Si tu telefono no se coge, el lead llama a la siguiente inmobiliaria de la lista.
-
-El problema es que los agente...
 
 ### Centralita virtual vs recepcionista virtual: cual necesita tu empresa
 - URL: /articulos/centralita-virtual-vs-recepcionista-virtual-diferencias

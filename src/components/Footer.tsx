@@ -14,10 +14,7 @@ const NAV = [
 const ARTICLES = [
   ["/articulos/secretaria-virtual-pymes-espana", "Qué es un servicio de secretaría virtual"],
   ["/articulos/secretaria-virtual-o-call-center-para-pymes", "Secretaría virtual vs call center"],
-  [
-    "/articulos/recepcionista-virtual-para-pymes-evitar-llamadas-perdidas-leads-frios-y-distracciones-en-el-equipo",
-    "Recepcionista virtual para PYMES",
-  ],
+  ["/articulos/cuanto-cuesta-contratar-call-center-espana", "Cuánto cuesta un call center"],
   ["/articulos/coste-externalizar-atencion-telefonica-pyme-espana", "Cuánto cuesta externalizar la atención telefónica"],
 ] as const;
 
