@@ -2,9 +2,9 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Pagina no encontrada (404) | minute call',
+  title: 'Página no encontrada (404) | minute call',
   description:
-    'La pagina que buscas no existe. Consulta el sitemap, llms.txt o la documentacion para agentes de minute call.',
+    'La página que buscas no existe. Consulta el sitemap, llms.txt o la documentacion para agentes de minute call.',
   robots: { index: false, follow: true },
 }
 
@@ -18,7 +18,7 @@ export default function NotFound() {
   return (
     <div className="min-h-[60vh] flex flex-col items-center justify-center px-6 py-24 text-center">
       <span className="pill-label" style={{ marginBottom: 20 }}>Error 404</span>
-      <h1>Pagina no encontrada</h1>
+      <h1>Página no encontrada</h1>
       <p style={{ maxWidth: 440, marginBottom: 32 }}>
         Lo sentimos, la página que buscas no existe o ha sido movida.
       </p>

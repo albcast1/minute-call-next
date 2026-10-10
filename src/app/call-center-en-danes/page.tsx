@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Call center en danés con agentes nativos para empresas españolas. Atención 24/7 y sin permanencia, ideal para turismo y comercio internacional.',
   alternates: { canonical: 'https://www.minute-call.com/call-center-en-danes' },
   openGraph: {
-    title: 'Call center en danes | minute call',
+    title: 'Call center en danés | minute call',
     description: 'Atención telefónica en danés con agentes nativos. Contact center especializado para empresas que necesitan comunicarse con clientes danesoparlantes.',
     url: 'https://www.minute-call.com/call-center-en-danes',
     siteName: 'minute call',
@@ -28,7 +28,7 @@ const painPoints = [
   },
   {
     icon: '🗣️',
-    title: 'Traducciones automaticas que no convencen',
+    title: 'Traducciones automáticas que no convencen',
     description: 'Un script traducido al danés no es atención en danés. Los clientes notan la diferencia y la confianza se pierde.',
   },
   {
@@ -40,7 +40,7 @@ const painPoints = [
 
 const services = [
   {
-    title: 'Atencion telefonica en danes nativo',
+    title: 'Atención telefónica en danés nativo',
     description: 'Agentes nativos en danés que atienden a tus clientes con fluidez real, no con guiones traducidos.',
   },
   {
@@ -52,15 +52,15 @@ const services = [
     description: 'Cubrimos cualquier franja horaria: mañanas, tardes, noches, fines de semana y festivos.',
   },
   {
-    title: 'Gestion de reservas y pedidos',
+    title: 'Gestión de reservas y pedidos',
     description: 'Recibimos llamadas de clientes daneses, procesamos reservas, consultas y pedidos siguiendo tu protocolo.',
   },
   {
-    title: 'Filtrado y clasificacion de llamadas',
+    title: 'Filtrado y clasificación de llamadas',
     description: 'Clasificamos cada llamada en danés por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atención.',
   },
   {
-    title: 'Integracion con tus herramientas',
+    title: 'Integración con tus herramientas',
     description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacción queda registrada en tu plataforma.',
   },
 ]
@@ -74,7 +74,7 @@ const stats = [
 
 const steps = [
   { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cómo quieres que atendamos a tus clientes danesoparlantes: tono, información clave, procedimientos y escalado.' },
-  { step: '02', title: 'Configuramos el desvio', description: 'Desvías las llamadas en danés a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
+  { step: '02', title: 'Configuramos el desvío', description: 'Desvías las llamadas en danés a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
   { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en danés nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacción.' },
 ]
 
@@ -96,16 +96,16 @@ export default function CallCenterDanesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <LanguageLanding
-        heroTag={"Call center y contact center en danes"}
-        heroTitle={"Call center en danes. Atencion telefonica nativa para tus clientes daneses."}
+        heroTag={"Call center y contact center en danés"}
+        heroTitle={"Call center en danés. Atención telefónica nativa para tus clientes daneses."}
         heroSub={"Contact center en danés con agentes nativos para empresas españolas. Atendemos a tus clientes de Dinamarca - sin permanencia y con activación en 48 horas."}
         heroCta={"Solicita presupuesto gratuito"}
         stats={stats}
-        painTitle={"Por que pierdes clientes daneses sin un call center en danes."}
+        painTitle={"Por qué pierdes clientes daneses sin un call center en danés."}
         painPoints={painPoints}
-        servicesTitle={"Que incluye nuestro contact center en danes."}
+        servicesTitle={"Qué incluye nuestro contact center en danés."}
         services={services}
-        stepsTitle={"Como funciona."}
+        stepsTitle={"Cómo funciona."}
         steps={steps}
         compareTitle={"Contratar un nativo vs externalizar con Minute Call."}
         themLabel={"Contratar empleado nativo"}

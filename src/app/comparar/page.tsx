@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 }
 
 const useCases = [
-  { icon: '🏥', title: 'Clinicas y centros medicos', description: 'Protocolo sanitario, gestión de urgencias y citas con Doctoralia o Cliniccloud. Lo que Teleperformance no puede hacer a tu escala.' },
+  { icon: '🏥', title: 'Clínicas y centros médicos', description: 'Protocolo sanitario, gestión de urgencias y citas con Doctoralia o Cliniccloud. Lo que Teleperformance no puede hacer a tu escala.' },
   { icon: '⚖️', title: 'Despachos de abogados', description: 'Confidencialidad, terminología jurídica y cualificación de nuevos asuntos. Sin los contratos anuales de los grandes BPO.' },
   { icon: '🏠', title: 'Inmobiliarias', description: 'Cualificación de compradores (presupuesto, zona, urgencia) para que tu comercial llame preparado. Presupuesto personalizado.' },
   { icon: '📊', title: 'Asesorias y consultoras', description: 'Primera impresión profesional sin tener que contratar recepcionista. Activa en 48 horas, cancela cuando quieras.' },
@@ -66,14 +66,14 @@ export default function CompararPage() {
             ]}
           />
         </Ed>
-        <Ed tag="Sectores" title="Para que tipo de empresa es Minute Call.">
+        <Ed tag="Sectores" title="Para qué tipo de empresa es Minute Call.">
           <Rows items={useCases.map((uc) => ({ title: uc.title, desc: uc.description }))} />
         </Ed>
         <Ed tag="Preguntas" title="FAQ">
           <Faq items={faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.text }))} />
         </Ed>
         <CtaFinal
-          title="Prueba la alternativa espanola a los grandes call centers."
+          title="Prueba la alternativa española a los grandes call centers."
           text="Sin contratos, sin permanencia, sin agentes en LATAM. Activa en 48 horas."
           cta={{ label: 'Reserva una llamada gratuita' }}
         />

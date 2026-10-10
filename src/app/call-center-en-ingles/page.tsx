@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Call center en inglés con agentes nativos para empresas españolas. Atención 24/7 y sin permanencia, ideal para turismo y comercio internacional.',
   alternates: { canonical: 'https://www.minute-call.com/call-center-en-ingles' },
   openGraph: {
-    title: 'Call center en ingles | minute call',
+    title: 'Call center en inglés | minute call',
     description: 'Atención telefónica en inglés con agentes nativos. Contact center especializado para empresas que necesitan comunicarse con clientes angloparlantes.',
     url: 'https://www.minute-call.com/call-center-en-ingles',
     siteName: 'minute call',
@@ -28,7 +28,7 @@ const painPoints = [
   },
   {
     icon: '🗣️',
-    title: 'Traducciones automaticas que no convencen',
+    title: 'Traducciones automáticas que no convencen',
     description: 'Un script traducido al inglés no es atención en inglés. Los clientes notan la diferencia y la confianza se pierde.',
   },
   {
@@ -40,7 +40,7 @@ const painPoints = [
 
 const services = [
   {
-    title: 'Atencion telefonica en ingles nativo',
+    title: 'Atención telefónica en inglés nativo',
     description: 'Agentes nativos en inglés que atienden a tus clientes con fluidez real, no con guiones traducidos.',
   },
   {
@@ -52,15 +52,15 @@ const services = [
     description: 'Cubrimos cualquier franja horaria: mañanas, tardes, noches, fines de semana y festivos.',
   },
   {
-    title: 'Gestion de reservas y pedidos',
+    title: 'Gestión de reservas y pedidos',
     description: 'Recibimos llamadas de clientes angloparlantes, procesamos reservas, consultas y pedidos siguiendo tu protocolo.',
   },
   {
-    title: 'Filtrado y clasificacion de llamadas',
+    title: 'Filtrado y clasificación de llamadas',
     description: 'Clasificamos cada llamada en inglés por tipo: venta, soporte, incidencia. Solo te pasamos lo que necesita tu atención.',
   },
   {
-    title: 'Integracion con tus herramientas',
+    title: 'Integración con tus herramientas',
     description: 'Trabajamos con tu CRM, PMS o sistema de tickets. Cada interacción queda registrada en tu plataforma.',
   },
 ]
@@ -74,7 +74,7 @@ const stats = [
 
 const steps = [
   { step: '01', title: 'Definimos tu protocolo', description: 'Nos cuentas cómo quieres que atendamos a tus clientes angloparlantes: tono, información clave, procedimientos y escalado.' },
-  { step: '02', title: 'Configuramos el desvio', description: 'Desvías las llamadas en inglés a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
+  { step: '02', title: 'Configuramos el desvío', description: 'Desvías las llamadas en inglés a nuestro equipo. Tus clientes nunca notan que es un servicio externo.' },
   { step: '03', title: 'Atendemos como tu equipo', description: 'Gestionamos cada llamada en inglés nativo siguiendo tu protocolo. Recibes un resumen detallado de cada interacción.' },
 ]
 
@@ -96,16 +96,16 @@ export default function CallCenterInglesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <LanguageLanding
-        heroTag={"Call center y contact center en ingles"}
-        heroTitle={"Call center en ingles. Atencion telefonica nativa para tus clientes angloparlantes."}
+        heroTag={"Call center y contact center en inglés"}
+        heroTitle={"Call center en inglés. Atención telefónica nativa para tus clientes angloparlantes."}
         heroSub={"Contact center en inglés con agentes nativos para empresas españolas. Atendemos a tus clientes de Reino Unido, Estados Unidos, Irlanda y otros países angloparlantes — sin permanencia y con activación en 48 horas."}
         heroCta={"Solicita presupuesto gratuito"}
         stats={stats}
-        painTitle={"Por que pierdes clientes angloparlantes sin un call center en ingles."}
+        painTitle={"Por qué pierdes clientes angloparlantes sin un call center en inglés."}
         painPoints={painPoints}
-        servicesTitle={"Que incluye nuestro contact center en ingles."}
+        servicesTitle={"Qué incluye nuestro contact center en inglés."}
         services={services}
-        stepsTitle={"Como funciona."}
+        stepsTitle={"Cómo funciona."}
         steps={steps}
         compareTitle={"Contratar un nativo vs externalizar con Minute Call."}
         themLabel={"Contratar empleado nativo"}

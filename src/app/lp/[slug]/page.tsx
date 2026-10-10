@@ -4,7 +4,6 @@ import cities from "@/data/cities.json";
 import indexables from "@/data/city-sector-indexables.json";
 import { CITY_SECTOR_INDEXABLE } from "@/lib/seo/noindex";
 import { FAQPageSchema, BreadcrumbSchema , ServiceSchema } from "@/components/JsonLd";
-import VideoCard from "@/components/VideoCard";
 import { BrandPage, Hero, Ed, Rows, Steps, Faq, Quote, Chips, CtaFinal, Prose } from "@/components/brand/Sections";
 
 export async function generateStaticParams() {
@@ -39,7 +38,7 @@ export async function generateMetadata({
 }
 
 /**
- * Ciudades con pagina ciudad x sector indexable para este sector. Esas paginas
+ * Ciudades con página ciudad x sector indexable para este sector. Esas paginas
  * estan en el sitemap pero no las enlazaba ninguna otra (auditoria SE Ranking:
  * "sin enlaces entrantes"); desde aqui y desde la ciudad reciben dos enlaces.
  */
@@ -102,11 +101,7 @@ export default async function LandingPage({
           title={sector.heroTitle ? sector.heroTitle : <>Recepcionista de IA para {sector.sector}.</>}
           sub={sector.heroSubtitle}
           extra={sector.socialProof}
-        >
-          <div className="hero-media">
-            <VideoCard />
-          </div>
-        </Hero>
+        />
 
         {extra.testimonial && (
           <Ed tag="Clientes" title="Lo que dicen nuestros clientes." flush={false}>
@@ -119,7 +114,7 @@ export default async function LandingPage({
         )}
 
         {(extra.caseStudies ?? (extra.caseStudy ? [extra.caseStudy] : [])).map((cs, n) => (
-          <Ed key={n} tag="Caso real" title={cs.title} flush={false}>
+          <Ed key={n} tag="Caso real" title={cs.title} flush={false} size="m">
             <Prose>
               <p>{cs.context}</p>
               <ul>

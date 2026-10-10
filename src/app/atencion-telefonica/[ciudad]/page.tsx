@@ -66,7 +66,7 @@ type SectorRow = { slug: string; title: string; servicio?: string };
 /**
  * Paginas ciudad x sector indexables de esta ciudad.
  *
- * Estan en el sitemap pero ninguna pagina las enlazaba (la auditoria de SE Ranking
+ * Estan en el sitemap pero ninguna página las enlazaba (la auditoria de SE Ranking
  * las marcaba como "sin enlaces entrantes"). Se enlazan desde su ciudad y desde
  * la landing de su sector para que Google las encuentre rastreando la web.
  */

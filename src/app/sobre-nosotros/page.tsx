@@ -71,15 +71,15 @@ export default function SobreNosotros() {
   ];
 
   const services = [
-    { title: "Recepcion de llamadas", body: "Atendemos con el nombre de tu empresa y tu protocolo, para que tu cliente hable con alguien que suena como parte de tu equipo." },
-    { title: "Cualificacion de leads", body: "Hacemos las preguntas que definas y te enviamos el resumen al momento, para que llames solo a quien merece la pena." },
-    { title: "Gestion de citas", body: "Agendamos en tu calendario o CRM según tu disponibilidad real y confirmamos la cita al cliente." },
+    { title: "Recepción de llamadas", body: "Atendemos con el nombre de tu empresa y tu protocolo, para que tu cliente hable con alguien que suena como parte de tu equipo." },
+    { title: "Cualificación de leads", body: "Hacemos las preguntas que definas y te enviamos el resumen al momento, para que llames solo a quien merece la pena." },
+    { title: "Gestión de citas", body: "Agendamos en tu calendario o CRM según tu disponibilidad real y confirmamos la cita al cliente." },
     { title: "Cobertura 24/7 y desbordamiento", body: "Cubrimos noches, festivos y picos de volumen con agentes o IA, sin que tengas que ampliar plantilla." },
   ];
 
   const differentiators = [
     { title: "Sin permanencia, mes a mes", body: "Minute Call se contrata mes a mes y se cancela cuando quieras. Grandes BPO como Konecta o Atento suelen trabajar con contratos anuales o plurianuales." },
-    { title: "Sin volumen minimo ni equipo dedicado obligatorio", body: "No exigimos un mínimo de llamadas ni agentes en exclusiva. Los grandes BPO suelen pedir un equipo dedicado de varios agentes a jornada completa." },
+    { title: "Sin volumen mínimo ni equipo dedicado obligatorio", body: "No exigimos un mínimo de llamadas ni agentes en exclusiva. Los grandes BPO suelen pedir un equipo dedicado de varios agentes a jornada completa." },
     { title: "Activo en 48 horas", body: "Definimos el protocolo y empezamos a atender en dos días laborables. En un gran BPO la puesta en marcha suele llevar semanas o meses." },
     { title: "Agentes nativos, sin deslocalizar", body: "Quien atiende tus llamadas tiene acento nativo y conoce el contexto local. Muchas operaciones de gran volumen reparten la atención entre varios países." },
     { title: "Humano e IA en el mismo servicio", body: "Combinamos agentes humanos para las llamadas de valor con IA para noches, festivos y confirmaciones. Los servicios de secretaría tradicionales suelen trabajar solo con personas." },
@@ -126,9 +126,9 @@ export default function SobreNosotros() {
 
   const faqs = [
     { q: "¿Minute Call es un call center o una secretaria virtual?", a: "Es un call center flexible para pymes y empresas medianas: atiende, cualifica y agenda como un call center, pero sin volumen mínimo ni permanencia y con un trato tan cercano como el de una secretaría virtual." },
-    { q: "¿Hay permanencia o volumen minimo?", a: "No. El servicio es mes a mes y no exigimos un mínimo de llamadas ni agentes dedicados en exclusiva." },
-    { q: "¿Donde estan los agentes?", a: "En España. Son agentes nativos que atienden en español, inglés y francés; la IA es opcional para noches, festivos y confirmaciones." },
-    { q: "¿Cuanto tarda en ponerse en marcha?", a: "48 horas laborables desde que definimos el protocolo contigo." },
+    { q: "¿Hay permanencia o volumen mínimo?", a: "No. El servicio es mes a mes y no exigimos un mínimo de llamadas ni agentes dedicados en exclusiva." },
+    { q: "¿Dónde están los agentes?", a: "En España. Son agentes nativos que atienden en español, inglés y francés; la IA es opcional para noches, festivos y confirmaciones." },
+    { q: "¿Cuánto tarda en ponerse en marcha?", a: "48 horas laborables desde que definimos el protocolo contigo." },
   ];
 
   return (

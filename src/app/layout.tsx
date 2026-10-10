@@ -104,7 +104,7 @@ export default function RootLayout({
         />
         
       {/* JSON-LD unificado.
-          Antes se inyectaban CUATRO bloques en cada pagina: Organization
+          Antes se inyectaban CUATRO bloques en cada página: Organization
           definida 3 veces bajo el mismo @id con logo y sameAs distintos,
           WebSite 2 veces con dos SearchAction que apuntaban a buscadores que
           no existen, y aggregateRating auto-declarado (5,0 de 13 resenas), que

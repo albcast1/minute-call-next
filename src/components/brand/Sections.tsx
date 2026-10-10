@@ -94,27 +94,29 @@ export function Hero({
   );
 }
 
-/** Sección editorial: etiqueta a la izquierda, titular y contenido a la derecha. */
+/** Sección: titular centrado, como en la home, y contenido debajo. Los bloques
+ *  de texto (prosa, párrafos, citas, chips) van en una columna centrada.
+ *  `size="m"` para titulares largos (casos reales). `tag` queda como nombre
+ *  interno de la sección; no se muestra. */
 export function Ed({
-  tag,
   title,
   id,
   flush = true,
+  size = "l",
   children,
 }: {
-  tag: ReactNode;
+  tag?: ReactNode;
   title?: ReactNode;
   id?: string;
   flush?: boolean;
+  size?: "l" | "m";
   children?: ReactNode;
 }) {
   return (
     <section className="section" id={id} style={flush ? { paddingTop: 0 } : undefined}>
       <div className="wrap ed">
-        {/* La etiqueta solo se muestra si no hay titular: si lo hay, lo repetiría. */}
-        <div className="ed-side">{!title && <span className="tag">{tag}</span>}</div>
         <div className="ed-main">
-          {title && <h2 className="h2 left">{title}</h2>}
+          {title && <h2 className={`h2 h2-c${size === "m" ? " h2-m" : ""}`}>{title}</h2>}
           {children}
         </div>
       </div>

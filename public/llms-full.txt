@@ -75,7 +75,7 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 
 ### turismo y agencias de viajes
 - Slug: /lp/recepcionista-ia-turismo
-- Descripción: Call center para turismo. Atención multilingüe, gestión de reservas y soporte durante viajes. Agentes nativos o IA - tú eliges.
+- Descripción: Call center para turismo: reservas directas para hoteles sin comisión de OTA, atención multilingüe y soporte a viajeros 24/7. Agentes nativos o IA.
 
 ### autoescuelas
 - Slug: /lp/recepcionista-ia-autoescuelas

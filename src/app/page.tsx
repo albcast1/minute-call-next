@@ -8,11 +8,11 @@ import HomeEffects from "@/components/brand/HomeEffects";
 /* Sectores de la home: 8 para que la rejilla de 4 columnas quede completa.
    El resto de landings de sector siguen enlazadas desde el pie y el sitemap. */
 const SECTORS = [
+  { name: "Grupos empresariales", href: "/lp/call-center-para-empresas", c: "purple" },
   { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas", c: "lime" },
-  { name: "Grandes empresas", href: "/lp/call-center-para-empresas", c: "purple" },
   { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "lime" },
   { name: "Comercializadoras de energía", href: "/lp/call-center-energia", c: "purple" },
-  { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes", c: "ink" },
+  { name: "Turismo", href: "/lp/recepcionista-ia-turismo", c: "ink" },
   { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados", c: "lime" },
   { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales", c: "purple" },
   { name: "Asesorías y gestorías", href: "/lp/recepcionista-ia-asesorias", c: "orange" },
@@ -123,9 +123,9 @@ export default function Home() {
           <div className="wrap">
             <span className="eyebrow">Somos partners de empresas líderes</span>
             <div className="logos">
-              <img src="/assets/partners/teleperformance.png" alt="Teleperformance" width={200} height={49} style={{ height: "clamp(24px, 3vw, 32px)" }} />
-              <img src="/assets/partners/intelcia.png" alt="Intelcia" width={140} height={36} style={{ height: "clamp(22px, 2.8vw, 30px)" }} />
-              <img src="/assets/partners/zendesk.png" alt="Zendesk" width={120} height={24} style={{ height: "clamp(16px, 2vw, 21px)" }} />
+              <img src="/assets/partners/teleperformance.png" alt="Teleperformance" width={200} height={49} style={{ height: "clamp(20px, 2.4vw, 26px)" }} />
+              <img src="/assets/partners/intelcia.png" alt="Intelcia" width={140} height={36} style={{ height: "clamp(18px, 2.2vw, 24px)" }} />
+              <img src="/assets/partners/zendesk.png" alt="Zendesk" width={120} height={24} style={{ height: "clamp(13px, 1.6vw, 17px)" }} />
             </div>
           </div>
         </section>
