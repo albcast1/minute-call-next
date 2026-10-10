@@ -8,7 +8,21 @@ const NAV = [
   ["/politica-privacidad", "Política de privacidad"],
   ["/politica-cookies", "Política de cookies"],
   ["/aviso-legal", "Aviso legal"],
+  ["/calculadora-roi", "Calculadora de ROI"],
   ["/docs", "API y documentación"],
+] as const;
+
+/* Páginas de servicio: son las que más valor comercial tienen y antes solo
+   recibían 6-11 enlaces internos cada una. */
+const SERVICES = [
+  ["/lp/secretaria-virtual", "Secretaria virtual"],
+  ["/lp/call-center-para-pymes", "Call center para PYMES"],
+  ["/lp/call-center-para-empresas", "Call center para empresas"],
+  ["/lp/outsourcing-atencion-cliente", "Outsourcing de atención al cliente"],
+  ["/lp/call-center-24-horas", "Call center 24 horas"],
+  ["/lp/centralita-virtual-empresas", "Centralita virtual"],
+  ["/lp/recepcion-de-llamadas", "Recepción de llamadas"],
+  ["/lp/bpo-externalizacion", "Externalización BPO"],
 ] as const;
 
 const ARTICLES = [
@@ -16,6 +30,7 @@ const ARTICLES = [
   ["/articulos/secretaria-virtual-o-call-center-para-pymes", "Secretaría virtual vs call center"],
   ["/articulos/cuanto-cuesta-contratar-call-center-espana", "Cuánto cuesta un call center"],
   ["/articulos/coste-externalizar-atencion-telefonica-pyme-espana", "Cuánto cuesta externalizar la atención telefónica"],
+  ["/articulos/gran-bpo-o-call-center-a-medida", "Gran BPO o call center a medida"],
 ] as const;
 
 const SECTORS = [
@@ -57,6 +72,14 @@ export default function Footer() {
                 <li key={href}><Link href={href}>{label}</Link></li>
               ))}
               <li><a href="/agent-instructions.md">Instrucciones para agentes</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5><span className="tag">Servicios</span></h5>
+            <ul>
+              {SERVICES.map(([href, label]) => (
+                <li key={href}><Link href={href}>{label}</Link></li>
+              ))}
             </ul>
           </div>
           <div>

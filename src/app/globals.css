@@ -378,8 +378,7 @@ a.card:hover {
     display: none;
   }
   .contact-form-card {
-    padding: 24px 20px !important;
-    border-radius: 16px !important;
+    padding: 0 !important;
   }
   .contact-form {
     gap: 14px !important;

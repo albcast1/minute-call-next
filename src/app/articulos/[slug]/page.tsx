@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import articles from "@/data/articles.json";
 import { NOINDEX_ARTICLES } from "@/lib/seo/noindex";
+import { relatedArticles } from "@/lib/seo/related";
 import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/JsonLd";
 
 export async function generateStaticParams() {
@@ -67,7 +68,7 @@ export default async function ArticlePage({
     );
   }
 
-  const relatedArticles = articles.filter((a) => a.slug !== slug && !NOINDEX_ARTICLES.has(a.slug)).slice(0, 2);
+  const related = relatedArticles(slug);
 
   // Extract H2 headings for Table of Contents
   const blocks = article.content.split("\n\n");
@@ -548,7 +549,7 @@ export default async function ArticlePage({
       )}
 
       {/* Related Articles */}
-      {relatedArticles.length > 0 && (
+      {related.length > 0 && (
         <section style={{ marginTop: 64 }}>
           <span className="pill-label" style={{ marginBottom: 16 }}>Blog</span>
           <h2
@@ -568,10 +569,10 @@ export default async function ArticlePage({
               gap: "0 28px",
             }}
           >
-            {relatedArticles.map((related) => (
-              <Link key={related.slug} href={`/articulos/${related.slug}`} className="dir-item">
-                <b>{related.title}</b>
-                <span>{related.excerpt}</span>
+            {related.map((r) => (
+              <Link key={r.slug} href={`/articulos/${r.slug}`} className="dir-item">
+                <b>{r.title}</b>
+                <span>{r.excerpt}</span>
               </Link>
             ))}
           </div>

@@ -5,7 +5,7 @@ import sectors from "@/data/sectors.json";
 import indexables from "@/data/city-sector-indexables.json";
 import { CITY_SECTOR_INDEXABLE } from "@/lib/seo/noindex";
 import { FAQPageSchema, BreadcrumbSchema, CityLocalBusinessSchema, CityServiceSchema } from "@/components/JsonLd";
-import { BrandPage, Hero, Ed, Stats, Faq, Quote, Chips, CtaFinal, splitFigure } from "@/components/brand/Sections";
+import { BrandPage, Hero, Ed, Stats, Faq, Chips, CtaFinal, splitFigure } from "@/components/brand/Sections";
 
 export async function generateStaticParams() {
   return cities.map((city) => ({
@@ -219,10 +219,6 @@ export default async function CityPage({
 
         <Ed tag="Sectores" title={<>Sectores que atendemos en {city.city}.</>}>
           <Chips links={city.keySectors.map((sector) => ({ href: getSectorLink(sector), label: sector }))} />
-        </Ed>
-
-        <Ed tag="Clientes" title="Lo que dicen nuestros clientes.">
-          <Quote quote={city.testimonial.quote} author={city.testimonial.author} role={city.testimonial.role} />
         </Ed>
 
         {faqs.length > 0 && (

@@ -63,9 +63,12 @@ export default function SobreNosotros() {
     { value: "3", label: "Idiomas nativos (ES, EN, FR)" },
   ];
 
-  const rev1Body = "Desde que implementamos Minute Call, hemos recuperado un 30% de leads que antes perdíamos fuera de horario.";
-  const rev2Body = "La calidad es indistinguible de tener una recepcionista propia. Nuestros clientes no saben que es externo.";
-  const rev3Body = "En temporada de declaraciones el volumen se disparaba y perdíamos clientes. Ahora cada llamada se atiende.";
+  // Opiniones reales publicadas en Trustpilot (texto literal, nombre tal como aparece allí).
+  const reviews = [
+    { name: "Jesus", role: "Opinión en Trustpilot, febrero 2025", body: "Agentes serios y con experiencia. Saben lo que hacen." },
+    { name: "Beatriz M. C.", role: "Opinión en Trustpilot, febrero 2025", body: "Excelente servicio al cliente a todos los niveles." },
+    { name: "Santiago Cabrera Santana", role: "Opinión en Trustpilot, febrero 2025", body: "Minute Call funciona de maravilla." },
+  ];
 
   const services = [
     { title: "Recepcion de llamadas", body: "Atendemos con el nombre de tu empresa y tu protocolo, para que tu cliente hable con alguien que suena como parte de tu equipo." },
@@ -281,11 +284,7 @@ export default function SobreNosotros() {
 
         <Ed tag="Clientes" title="Lo que dicen nuestros clientes.">
           <div className="reviews">
-            {[
-              { name: "María Monsalve", role: "Directora de Clínica", body: rev1Body },
-              { name: "Carlos Fernández", role: "Responsable de Inmobiliaria", body: rev2Body },
-              { name: "Laura Martínez", role: "Gerente de Asesoría", body: rev3Body },
-            ].map((review) => (
+            {reviews.map((review) => (
               <figure key={review.name}>
                 <blockquote>&ldquo;{review.body}&rdquo;</blockquote>
                 <figcaption>

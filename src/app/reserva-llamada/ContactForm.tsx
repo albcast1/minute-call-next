@@ -82,19 +82,14 @@ export default function ContactForm() {
     display: "block",
     fontSize: 13,
     fontWeight: 500,
-    color: "var(--ink-2)",
+    color: "var(--ink)",
     marginBottom: 6,
   };
 
   return (
     <div
       className="contact-form-card"
-      style={{
-        background: FORM_BG,
-        borderRadius: 14,
-        padding: "36px 40px",
-        border: "1px solid var(--line)",
-      }}
+      style={{ padding: 0 }}
     >
       <form onSubmit={handleSubmit} autoComplete="on" className="contact-form" style={{ display: "flex", flexDirection: "column", gap: 20 }}>
         

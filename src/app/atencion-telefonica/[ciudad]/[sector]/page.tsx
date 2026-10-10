@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import sectors from '@/data/sectors.json'
 import cities from '@/data/cities.json'
 import { FAQPageSchema, BreadcrumbSchema, ServiceSchema } from '@/components/JsonLd'
-import { BrandPage, Hero, Ed, Stats, Faq, Quote, CtaFinal } from '@/components/brand/Sections'
+import { BrandPage, Hero, Ed, Stats, Faq, CtaFinal } from '@/components/brand/Sections'
 import highlights from '@/data/city-sector-highlights.json'
 import indexables from '@/data/city-sector-indexables.json'
 import { CITY_SECTOR_INDEXABLE } from '@/lib/seo/noindex'
@@ -120,17 +120,6 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
                 Trabajamos también con el resto del tejido empresarial de {city.city}: {city.keySectors.map(s => s.toLowerCase()).join(', ')}.
               </p>
             )}
-          </Ed>
-        )}
-
-        {sec.testimonial && (
-          <Ed tag="Clientes" title={<>Lo que dicen {clientes} que nos usan.</>}>
-            {sec.socialProof && <p className="lead2">{sec.socialProof}</p>}
-            <Quote
-              quote={(sec.testimonial as { quote: string; author: string; role: string }).quote}
-              author={(sec.testimonial as { quote: string; author: string; role: string }).author}
-              role={(sec.testimonial as { quote: string; author: string; role: string }).role}
-            />
           </Ed>
         )}
 

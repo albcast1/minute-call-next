@@ -37,6 +37,7 @@ export default function Nav() {
         <nav className="nav" aria-label="Principal">
           <Link className="brand nav-mark" href="/" aria-label="minute call, inicio">
             <LogoMark height={15} />
+            <span className="sr-only">minute call</span>
           </Link>
           <Link className="nav-word" href="/" tabIndex={-1} aria-hidden="true">
             minute call

@@ -14,11 +14,6 @@
       "Servicios profesionales y consultoría",
       "Finanzas e inversión"
     ],
-    "testimonial": {
-      "quote": "Gracias a minute call, hemos reducido las llamadas perdidas un 90% sin necesidad de contratar recepcionista presencial. El ROI se vio en el primer mes.",
-      "author": "María López",
-      "role": "Directora de RRHH de consultora tecnológica en Madrid"
-    },
     "stats": {
       "pymes": "420.000+",
       "callsLost": "25% de llamadas no atendidas"
@@ -85,11 +80,6 @@
       "Agencias digitales y diseño",
       "Comercio electrónico"
     ],
-    "testimonial": {
-      "quote": "Trabajamos con clientes de toda Europa. minute call nos permite atender en 5 idiomas sin duplicar costos. Ha sido crucial para nuestro crecimiento internacional.",
-      "author": "Carlos Martínez",
-      "role": "CEO de agencia digital en Barcelona"
-    },
     "stats": {
       "pymes": "85.000+",
       "callsLost": "30% de oportunidades sin recepción profesional"
@@ -156,11 +146,6 @@
       "Logística y puerto",
       "Tecnología emergente"
     ],
-    "testimonial": {
-      "quote": "Cómo empresa agrícola exportadora, nuestros clientes internacionales valoran la respuesta profesional. minute call nos ha permitido mantener presencia 24/7 sin costos fijos.",
-      "author": "Juan García",
-      "role": "Gerente operativo de empresa agrícola en Valencia"
-    },
     "stats": {
       "pymes": "125.000+",
       "callsLost": "28% de llamadas en horarios pico"
@@ -227,11 +212,6 @@
       "Turismo de lujo",
       "Patrimonio y eventos"
     ],
-    "testimonial": {
-      "quote": "En un bufete, la primera impresión al teléfono es fundamental. minute call nos ha permitido proyectar una imagen de empresa consolidada sin gastos de recepción presencial.",
-      "author": "Ana Ruiz",
-      "role": "Socia directora de bufete de abogados en Sevilla"
-    },
     "stats": {
       "pymes": "95.000+",
       "callsLost": "22% en horarios de comida y tardes"
@@ -298,11 +278,6 @@
       "Turismo e inmobiliaria de lujo",
       "Hostelería y restauración"
     ],
-    "testimonial": {
-      "quote": "Tenemos clientes alemanes, britanicos y escandinavos. Minute Call atiende en su idioma y filtra las oportunidades reales.",
-      "author": "Carlos M.",
-      "role": "Gerenta de Inmobiliaria en Málaga"
-    },
     "stats": {
       "pymes": "19.000+",
       "callsLost": "35% de llamadas no atendidas en hora punta"
@@ -369,11 +344,6 @@
       "Servicios financieros",
       "Construcción y obra civil"
     ],
-    "testimonial": {
-      "quote": "En Bilbao, nuestros clientes esperan máxima calidad en cada interacción. minute call mantiene ese nivel sin comprometer nuestro presupuesto operativo.",
-      "author": "Iñigo Etxebarria",
-      "role": "Director de operaciones de empresa industrial en Bilbao"
-    },
     "stats": {
       "pymes": "78.000+",
       "callsLost": "20% de llamadas en períodos de expansión"
@@ -436,11 +406,6 @@
       "Transporte y almacenaje",
       "Manufactura industrial"
     ],
-    "testimonial": {
-      "quote": "En logística, los tiempos de respuesta son críticos. minute call atiende nuestras llamadas en segundos, 24/7, sin sobrecostos de personal.",
-      "author": "Roberto Jiménez",
-      "role": "Responsable de atención al cliente en empresa logística de Zaragoza"
-    },
     "stats": {
       "pymes": "65.000+",
       "callsLost": "40% de llamadas fuera de horario comercial"
@@ -507,11 +472,6 @@
       "Comercio y distribución",
       "Servicios de empaque y logística"
     ],
-    "testimonial": {
-      "quote": "Nuestros clientes en Francia, Alemania e Italia valoran la respuesta rápida. Con minute call podemos atender internacionalmente manteniendo márgenes ajustados.",
-      "author": "Leticia Fernández",
-      "role": "Directora comercial de empresa agroexportadora en Murcia"
-    },
     "stats": {
       "pymes": "52.000+",
       "callsLost": "32% de llamadas internacionales en horarios locales"
@@ -578,11 +538,6 @@
       "Servicios gastronómicos y entretenimiento",
       "Comercio minorista premium"
     ],
-    "testimonial": {
-      "quote": "En temporada alta, recibimos consultas en 6 idiomas simultáneamente. minute call maneja todo sin que tengamos que contratar personal estacional. Ahorro increíble.",
-      "author": "Isabel Calafat",
-      "role": "Gerente de hotel boutique en Palma de Mallorca"
-    },
     "stats": {
       "pymes": "38.000+",
       "callsLost": "45% de oportunidades en picos estacionales"
@@ -649,11 +604,6 @@
       "Turismo y servicios",
       "Logística y puerto"
     ],
-    "testimonial": {
-      "quote": "Nuestro equipo está distribuido entre Las Palmas, Madrid y remoto. minute call nos da presencia profesional centralizada para clientes en cualquier zona horaria.",
-      "author": "Miguel Rodríguez",
-      "role": "Director ejecutivo de fintech en Las Palmas"
-    },
     "stats": {
       "pymes": "30.000+",
       "callsLost": "38% sin atención distribuida en múltiples zonas horarias"
@@ -720,11 +670,6 @@
       "Tecnología y comercio electrónico",
       "Servicios logísticos y portuarios"
     ],
-    "testimonial": {
-      "quote": "Cómo tienda online, nuestros clientes llaman desde toda Europa. minute call atiende en español e inglés, capturando cada oportunidad de venta.",
-      "author": "Patricia Gómez",
-      "role": "Directora de operaciones de e-commerce en Alicante"
-    },
     "stats": {
       "pymes": "43.000+",
       "callsLost": "29% de consultas de clientes internacionales"
@@ -789,11 +734,6 @@
       "Logística y distribución industrial",
       "Servicios de ingeniería"
     ],
-    "testimonial": {
-      "quote": "Cómo proveedor de automoción, los tiempos de respuesta son críticos. minute call garantiza que nunca perdamos llamadas de producción, quality checks o urgencias de cliente.",
-      "author": "Fernando García",
-      "role": "Responsable de atención en proveedor automoción de Valladolid"
-    },
     "stats": {
       "pymes": "50.000+",
       "callsLost": "33% en períodos de máxima producción"
@@ -858,11 +798,6 @@
       "Logística y distribución",
       "Comercio minorista"
     ],
-    "testimonial": {
-      "quote": "En el sector textil, la coordinación con proveedores y distribuidores es constante. minute call mantiene todas las líneas funcionando 24/7 sin duplicar costos operativos.",
-      "author": "Yolanda Sáez",
-      "role": "Coordinadora de operaciones en empresa textil de A Coruña"
-    },
     "stats": {
       "pymes": "36.000+",
       "callsLost": "26% de llamadas en coordinación logística"
@@ -927,11 +862,6 @@
       "Turismo experiencial y ocio premium",
       "Servicios de hospedaje y entretenimiento"
     ],
-    "testimonial": {
-      "quote": "En San Sebastián, nuestro diferencial es experiencia premium en cada detalle. minute call atiende como si fuera nuestra recepcionista personal, 24/7, en la lengua del cliente.",
-      "author": "Gorka Azcona",
-      "role": "Propietario de restaurante boutique en San Sebastián"
-    },
     "stats": {
       "pymes": "19.000+",
       "callsLost": "18% de reservas y consultas de clientes VIP"
@@ -996,11 +926,6 @@
       "Educación y servicios académicos",
       "Servicios profesionales y comercio"
     ],
-    "testimonial": {
-      "quote": "Con 80.000 estudiantes y millones de turistas, nuestros negocios necesitan respuesta 24/7 en múltiples idiomas. minute call ha sido perfecto para escalar sin gastos de estructura.",
-      "author": "Rafael López",
-      "role": "Propietario de academias de idiomas en Granada"
-    },
     "stats": {
       "pymes": "33.000+",
       "callsLost": "31% de consultas de estudiantes e internacionales"
@@ -1066,11 +991,6 @@
       "Conservas Alimentarias",
       "Comercio Exterior"
     ],
-    "testimonial": {
-      "quote": "Desde que usamos minute call, no perdemos ni una sola llamada de nuestros clientes en el extranjero. Es fundamental en nuestro negocio de exportación de mejillones.",
-      "author": "Carlos Fernández",
-      "role": "Gerente de Exportación en Vigo"
-    },
     "stats": {
       "pymes": "5.200+",
       "callsLost": "35% de llamadas perdidas por cobertura insuficiente"
@@ -1136,11 +1056,6 @@
       "Construcción",
       "Comercio Minorista"
     ],
-    "testimonial": {
-      "quote": "Con nuestros tres hoteles en Gijón, es imposible responder todas las llamadas en julio. Minute call nos permite mantener a cada cliente cuidado sin perder reservas.",
-      "author": "María López Rodríguez",
-      "role": "Directora de Operaciones Hoteleras en Gijón"
-    },
     "stats": {
       "pymes": "4.800+",
       "callsLost": "40% de llamadas no atendidas en temporada alta"
@@ -1206,11 +1121,6 @@
       "Transporte Marítimo",
       "Comercio Regional"
     ],
-    "testimonial": {
-      "quote": "En el sector financiero, cada llamada no contestada es una oportunidad perdida. Minute call es nuestro partner de confianza en Santander.",
-      "author": "Diego Martínez Valle",
-      "role": "Director de Atención al Cliente en Santander"
-    },
     "stats": {
       "pymes": "3.500+",
       "callsLost": "32% de consultas sin respuesta durante horarios pico"
@@ -1276,11 +1186,6 @@
       "Tecnología",
       "Turismo Cultural"
     ],
-    "testimonial": {
-      "quote": "Nuestras proveedoras en Alemania e Italia necesitan respuestas rápidas. Minute call es nuestra ventanilla al mundo con servicio en español de 24 horas.",
-      "author": "Javier Etxebarria",
-      "role": "Responsable Comercial en Pamplona"
-    },
     "stats": {
       "pymes": "4.200+",
       "callsLost": "38% de llamadas internacionales sin atender"
@@ -1346,11 +1251,6 @@
       "Logística y Distribución",
       "Industria Manufacturera"
     ],
-    "testimonial": {
-      "quote": "En nuestra empresa de productos agroalimentarios, cada llamada de un distribuidor es crítica. Minute call nos da la cobertura que necesitamos sin expandir nuestro equipo.",
-      "author": "Izaskun Goikoetxea",
-      "role": "Directora de Ventas en Vitoria"
-    },
     "stats": {
       "pymes": "3.800+",
       "callsLost": "36% de llamadas de distribuidores sin atender"
@@ -1416,11 +1316,6 @@
       "Turismo Gastronómico",
       "Comercio Especializado"
     ],
-    "testimonial": {
-      "quote": "Nuestras bodegas reciben llamadas de Francia, Italia y Alemania a todas horas. Minute call nos permite responder como si tuviéramos un equipo internacional dedicado.",
-      "author": "Ramón Martínez de la Riva",
-      "role": "Gerente de Bodega en Logroño"
-    },
     "stats": {
       "pymes": "2.200+",
       "callsLost": "34% de consultas de importadores sin respuesta"
@@ -1486,11 +1381,6 @@
       "Industria Metalúrgica",
       "Hostelería"
     ],
-    "testimonial": {
-      "quote": "Nuestro negocio de tours por Córdoba necesita responder reservas en tiempo real. Minute call nos ha permitido crecer sin contratar más personal administrativo.",
-      "author": "Francesca Gutiérrez Morales",
-      "role": "Propietaria de Agencia de Turismo en Córdoba"
-    },
     "stats": {
       "pymes": "5.100+",
       "callsLost": "38% de reservas no procesadas por falta de atención"
@@ -1556,11 +1446,6 @@
       "Turismo Náutico",
       "Servicios Portuarios"
     ],
-    "testimonial": {
-      "quote": "Nuestras operaciones portuarias no pueden esperar. Con minute call tenemos cobertura 24/7 sin aumentar costes de personal.",
-      "author": "Ángel Rodríguez Montes",
-      "role": "Supervisor de Operaciones Portuarias en Cádiz"
-    },
     "stats": {
       "pymes": "3.900+",
       "callsLost": "40% de consultas operativas sin respuesta inmediata"
@@ -1626,11 +1511,6 @@
       "Agroalimentación",
       "Logística Exportadora"
     ],
-    "testimonial": {
-      "quote": "Nuestras fábricas de cerámica no pueden perder llamadas de clientes en Italia o Alemania. Minute call es esencial para nuestra competitividad global.",
-      "author": "Susana Aparicio Sempere",
-      "role": "Gerenta de Ventas Internacionales en Castellón"
-    },
     "stats": {
       "pymes": "4.300+",
       "callsLost": "42% de contactos de importadores sin procesar"
@@ -1696,11 +1576,6 @@
       "Educación Superior",
       "Comercio Urbano"
     ],
-    "testimonial": {
-      "quote": "Cómo empresa de servicios a la administración, necesitamos responder rápidamente. Minute call nos permite mantener profesionalismo en todas nuestras comunicaciones.",
-      "author": "Patricia Fernández Álvarez",
-      "role": "Directora de Operaciones en Oviedo"
-    },
     "stats": {
       "pymes": "4.500+",
       "callsLost": "36% de consultas administrativas sin atender"
@@ -1766,11 +1641,6 @@
       "Transporte Marítimo Canario",
       "Logística Insular"
     ],
-    "testimonial": {
-      "quote": "En temporada alta, nuestros hoteles reciben reservas en 8 idiomas simultáneamente. Minute call nos ayuda a no perder ni una sola.",
-      "author": "Miguel Rodríguez Peña",
-      "role": "Gerente de Cadena Hotelera en Tenerife"
-    },
     "stats": {
       "pymes": "5.800+",
       "callsLost": "44% de reservas internacionales sin procesar"
@@ -1836,11 +1706,6 @@
       "Juguetes y Juegos",
       "Comercio Mayorista"
     ],
-    "testimonial": {
-      "quote": "Nuestras fábricas de zapatos reciben pedidos de toda Europa. Con minute call nunca perdemos una oportunidad por no responder.",
-      "author": "Cristina Ripoll Navarro",
-      "role": "Responsable de Ventas en Elche"
-    },
     "stats": {
       "pymes": "6.200+",
       "callsLost": "39% de pedidos internacionales sin procesar"
@@ -1906,11 +1771,6 @@
       "Gastronomía",
       "Comercio de Bebidas"
     ],
-    "testimonial": {
-      "quote": "Nuestras bodegas necesitan responder a compradores en Francia, Reino Unido y Japón. Minute call es nuestro secreto comercial para no perder oportunidades.",
-      "author": "Rodrigo Alcázar Herrera",
-      "role": "Director Comercial de Bodega en Jerez"
-    },
     "stats": {
       "pymes": "3.600+",
       "callsLost": "37% de consultas de importadores sin atender"
@@ -1976,11 +1836,6 @@
       "Transporte Marítimo",
       "Servicios Navales"
     ],
-    "testimonial": {
-      "quote": "Cómo operador portuario, cada minuto sin respuesta nos cuesta dinero. Minute call es la solución perfecta para nuestra operativa.",
-      "author": "Fernando Martínez López",
-      "role": "Jefe de Operaciones en Cartagena"
-    },
     "stats": {
       "pymes": "4.200+",
       "callsLost": "41% de operativas portuarias sin respuesta inmediata"
@@ -2046,11 +1901,6 @@
       "Turismo de Playa",
       "Logística Portuaria"
     ],
-    "testimonial": {
-      "quote": "Nuestras plantas químicas reciben consultas técnicas de clientes europeos todo el día. Minute call garantiza que alguien competente siempre responda.",
-      "author": "Montserrat Puig Solé",
-      "role": "Directora de Atención Técnica en Tarragona"
-    },
     "stats": {
       "pymes": "4.700+",
       "callsLost": "38% de consultas técnicas sin procesamiento inmediato"
@@ -2116,11 +1966,6 @@
       "Real Estate de Lujo",
       "Comercio Exclusivo"
     ],
-    "testimonial": {
-      "quote": "En Marbella, nuestros clientes son oligarcas rusos, empresarios franceses y celebridades. Necesitamos respuestas impecables en múltiples idiomas. Minute call es exactamente eso.",
-      "author": "Emilia de la Cruz Navarro",
-      "role": "Gestora de Propiedades de Lujo en Marbella"
-    },
     "stats": {
       "pymes": "3.400+",
       "callsLost": "35% de consultas de clientela premium sin respuesta inmediata"
@@ -2186,11 +2031,6 @@
       "Turismo Cultural",
       "Comercio Urbano"
     ],
-    "testimonial": {
-      "quote": "Nuestra academia de español recibe estudiantes de Japón, Brasil y Suecia. Minute call nos permite dar atención bilingüe sin costosos empleados dedicados.",
-      "author": "Beatriz Macías González",
-      "role": "Directora de Academia en Salamanca"
-    },
     "stats": {
       "pymes": "2.900+",
       "callsLost": "33% de consultas de estudiantes internacionales sin respuesta"
@@ -2256,11 +2096,6 @@
       "Construcción",
       "Logística"
     ],
-    "testimonial": {
-      "quote": "Nuestras plantas de componentes automotrices funcionan 24 horas. Minute call nos da la cobertura que necesitamos sin costosos turnos administrativos.",
-      "author": "Aurelio Fernández González",
-      "role": "Gerente de Planta en Burgos"
-    },
     "stats": {
       "pymes": "3.700+",
       "callsLost": "37% de consultas técnicas de clientes sin respuesta"
@@ -2326,11 +2161,6 @@
       "Comercio Mayorista",
       "Logística Internacional"
     ],
-    "testimonial": {
-      "quote": "Nuestros cuchillos viajan al mundo entero. Minute call nos permite responder a compradores en Japón, Francia y Suecia sin dilaciones.",
-      "author": "Enrique Martínez Castillo",
-      "role": "Director Comercial en Albacete"
-    },
     "stats": {
       "pymes": "2.600+",
       "callsLost": "32% de pedidos internacionales sin procesar"
@@ -2396,11 +2226,6 @@
       "Construcción",
       "Comercio Fronterizo"
     ],
-    "testimonial": {
-      "quote": "Nuestros productos de jamón se venden en Portugal y el centro de España. Minute call nos facilita responder de forma profesional a clientes portugueses.",
-      "author": "Rosario Díaz Freire",
-      "role": "Responsable de Ventas en Badajoz"
-    },
     "stats": {
       "pymes": "3.200+",
       "callsLost": "35% de consultas de clientes fronterizos sin respuesta"
@@ -2466,11 +2291,6 @@
       "Calzado",
       "Comercio de Lujo"
     ],
-    "testimonial": {
-      "quote": "Nuestras pieles viajan a Milán, París y Barcelona. Minute call garantiza que siempre haya alguien profesional para responder a nuestros clientes.",
-      "author": "Javier Pérez Rebollo",
-      "role": "Gerente de Fábrica Peletera en León"
-    },
     "stats": {
       "pymes": "3.100+",
       "callsLost": "36% de pedidos internacionales sin procesar"
@@ -2536,11 +2356,6 @@
       "Logística Portuaria",
       "Comercio Internacional"
     ],
-    "testimonial": {
-      "quote": "Nuestras fresas van a toda Europa y nuestras plantas químicas operan 24 horas. Minute call es nuestra base telefónica confiable.",
-      "author": "María Elena Ribera Ruiz",
-      "role": "Directora de Logística en Huelva"
-    },
     "stats": {
       "pymes": "2.800+",
       "callsLost": "38% de pedidos de importadores sin respuesta inmediata"
@@ -2606,11 +2421,6 @@
       "Logística Agroexportadora",
       "Comercio Mayorista"
     ],
-    "testimonial": {
-      "quote": "Nuestras frutas se venden en Francia, Alemania e Italia. Minute call nos permite responder pedidos sin retrasos sin contratar más gente.",
-      "author": "Josep M. Pallarès Costa",
-      "role": "Responsable Comercial en Lleida"
-    },
     "stats": {
       "pymes": "3.400+",
       "callsLost": "34% de pedidos de mercados europeos sin procesamiento"
@@ -2676,11 +2486,6 @@
       "Restauración Gourmet",
       "Comercio Turístico"
     ],
-    "testimonial": {
-      "quote": "En verano, nuestros hoteles en Costa Brava reciben reservas en 12 idiomas. Minute call nos permite no perder ninguna reserva de valor.",
-      "author": "Albert Francés Puig",
-      "role": "Gerente de Hoteles en Girona"
-    },
     "stats": {
       "pymes": "4.100+",
       "callsLost": "40% de reservas internacionales sin procesar"
@@ -2746,11 +2551,6 @@
       "Logística Agroexportadora",
       "Turismo de Playa"
     ],
-    "testimonial": {
-      "quote": "Nuestros tomates y pimientos alimentan Europa. Recibimos 200 llamadas de compradores holandeses, franceses e italianos cada semana. Minute call es imprescindible.",
-      "author": "Francisco Riquelme Montoya",
-      "role": "Director de Exportación en Almería"
-    },
     "stats": {
       "pymes": "3.900+",
       "callsLost": "39% de pedidos europeos sin respuesta inmediata"
@@ -2816,11 +2616,6 @@
       "Metalurgia",
       "Componentes Mecánicos"
     ],
-    "testimonial": {
-      "quote": "Nuestras máquinas textiles se venden en Italia, Turquía e India. Minute call nos permite responder consultas técnicas sin costosos ingenieros en recepción.",
-      "author": "Sergi Blanc Espinosa",
-      "role": "Responsable Técnico-Comercial en Terrassa"
-    },
     "stats": {
       "pymes": "3.600+",
       "callsLost": "36% de consultas técnicas internacionales sin respuesta"
@@ -2886,11 +2681,6 @@
       "Comercio de Indumentaria",
       "Logística de Moda"
     ],
-    "testimonial": {
-      "quote": "Nuestras colecciones de ropa se venden en tiendas de París y Milán. Minute call nos permite responder pedidos de compradores sin demoras administrativas.",
-      "author": "Laura Garrido Mercado",
-      "role": "Directora Comercial en Sabadell"
-    },
     "stats": {
       "pymes": "4.000+",
       "callsLost": "37% de pedidos de moda sin respuesta inmediata"
@@ -2956,11 +2746,6 @@
       "Electrónica Industrial",
       "Ingeniería Avanzada"
     ],
-    "testimonial": {
-      "quote": "Nuestros componentes aeronáuticos se venden a Airbus, Rolls-Royce y Boeing. Minute call nos permite mantener profesionalismo en cada contacto internacional.",
-      "author": "Gonzalo Martín Sánchez",
-      "role": "Gerente de Ventas Aeronáuticas en Getafe"
-    },
     "stats": {
       "pymes": "2.800+",
       "callsLost": "34% de consultas técnicas de grandes clientes sin respuesta"
@@ -3026,11 +2811,6 @@
       "Transporte y Mensajería",
       "Servicios Logísticos"
     ],
-    "testimonial": {
-      "quote": "Nuestro almacén distribuye a toda Cataluña. Recibimos 300 llamadas diarias de clientes sobre envíos. Minute call nos da la capacidad de responder todas.",
-      "author": "David Castellanos Romeu",
-      "role": "Gerente de Logística en Hospitalet"
-    },
     "stats": {
       "pymes": "4.500+",
       "callsLost": "39% de consultas de seguimiento sin respuesta inmediata"
@@ -3096,11 +2876,6 @@
       "Comercio Mayorista",
       "Transporte Regional"
     ],
-    "testimonial": {
-      "quote": "Nuestro centro de distribución atiende 500 clientes en el área de Madrid. Minute call nos permite dar servicio sin ampliar nuestro equipo administrativo.",
-      "author": "Pilar Rodríguez Gómez",
-      "role": "Supervisora de Operaciones en Torrejón"
-    },
     "stats": {
       "pymes": "3.100+",
       "callsLost": "36% de consultas de clientes sin respuesta en horario punta"
@@ -3166,11 +2941,6 @@
       "Hostelería Cultural",
       "Guía Turístico"
     ],
-    "testimonial": {
-      "quote": "Nuestras visitas guiadas a ruinas romanas atraen turistas de todo el mundo. Minute call nos permite responder en español e inglés sin costosos traductores.",
-      "author": "Carmen Sáenz López",
-      "role": "Directora de Agencia Turística en Mérida"
-    },
     "stats": {
       "pymes": "1.800+",
       "callsLost": "31% de consultas de turistas internacionales sin atender"
@@ -3236,11 +3006,6 @@
       "Deportes de Aventura",
       "Hostelería de Montaña"
     ],
-    "testimonial": {
-      "quote": "Nuestro lodge en los Pirineos recibe reservas de británicos, franceses y alemanes. Minute call nos permite responder sin tener personal bilingüe costoso.",
-      "author": "Andrés Casals Ibáñez",
-      "role": "Propietario de Alojamiento Turístico en Huesca"
-    },
     "stats": {
       "pymes": "2.100+",
       "callsLost": "33% de reservas internacionales sin respuesta"
@@ -3306,11 +3071,6 @@
       "Restauración Gastronómica",
       "Comercio de Souvenirs"
     ],
-    "testimonial": {
-      "quote": "Toledo recibe turistas de todo el mundo que llaman buscando información. Minute call nos permite captar más reservas hoteleras respondiendo todas las llamadas.",
-      "author": "Vicente Moreno Alcázar",
-      "role": "Propietario de Hostal en Toledo"
-    },
     "stats": {
       "pymes": "2.400+",
       "callsLost": "35% de consultas pre-visita sin respuesta"
@@ -3376,11 +3136,6 @@
       "Comercio Mayorista",
       "Servicios de Transporte"
     ],
-    "testimonial": {
-      "quote": "Nuestro centro logístico distribuye productos a toda Castilla-La Mancha. Minute call nos permite responder a clientes sin dilaciones.",
-      "author": "Alfredo Molina Gutiérrez",
-      "role": "Supervisor de Almacén en Ciudad Real"
-    },
     "stats": {
       "pymes": "2.300+",
       "callsLost": "34% de consultas de clientes sin respuesta en picos"
@@ -3446,11 +3201,6 @@
       "Agroalimentación",
       "Comercio Local"
     ],
-    "testimonial": {
-      "quote": "Nuestro hotel en el casco antiguo de Cáceres recibe llamadas de turistas en francés, inglés y alemán. Minute call nos permite no perder reservas.",
-      "author": "Bárbara Romo Sánchez",
-      "role": "Gerenta de Hotel Histórico en Cáceres"
-    },
     "stats": {
       "pymes": "2.200+",
       "callsLost": "32% de reservas internacionales sin procesamiento"
