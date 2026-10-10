@@ -3,6 +3,7 @@ import Link from "next/link";
 import cities from "@/data/cities.json";
 import sectors from "@/data/sectors.json";
 import indexables from "@/data/city-sector-indexables.json";
+import { CITY_SECTOR_INDEXABLE } from "@/lib/seo/noindex";
 import { FAQPageSchema, BreadcrumbSchema, CityLocalBusinessSchema, CityServiceSchema } from "@/components/JsonLd";
 import { BrandPage, Hero, Ed, Stats, Faq, Quote, Chips, CtaFinal, splitFigure } from "@/components/brand/Sections";
 
@@ -70,6 +71,8 @@ type SectorRow = { slug: string; title: string; servicio?: string };
  * la landing de su sector para que Google las encuentre rastreando la web.
  */
 function servicesForCity(ciudad: string): { href: string; label: string }[] {
+  // Con las paginas ciudad x sector en noindex no se enlazan desde la ciudad.
+  if (!CITY_SECTOR_INDEXABLE) return [];
   const prefix = `${ciudad}/`;
   const rows = sectors as unknown as SectorRow[];
   return (indexables.indexables as string[])

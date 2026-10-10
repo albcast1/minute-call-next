@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import articles from "@/data/articles.json";
+import { NOINDEX_ARTICLES } from "@/lib/seo/noindex";
 import { BrandPage, Hero, Ed, CtaFinal } from "@/components/brand/Sections";
 
 export const metadata: Metadata = {
@@ -23,7 +24,7 @@ export default function ArticlesPage() {
       />
       <Ed tag="Blog" flush={false}>
         <div className="dir-grid dir-articles">
-          {articles.map((article) => (
+          {articles.filter((a) => !NOINDEX_ARTICLES.has(a.slug)).map((article) => (
             <Link key={article.slug} href={`/articulos/${article.slug}`} className="dir-item">
               <b>{article.title}</b>
               <span>{article.excerpt}</span>
