@@ -276,7 +276,7 @@ export function splitFigure(text: string): { value: string; label: string } | nu
 export function CtaFinal({
   tag = "Activación en menos de 48 h",
   title = "No pierdas ninguna llamada más.",
-  text = "Servicio premium de secretaría virtual y atención telefónica para PYMES.",
+  text = "Atención telefónica 24/7 para PYMES y empresas, sin mínimo de puestos.",
   cta = {},
   id = "contacto",
 }: {

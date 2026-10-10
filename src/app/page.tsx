@@ -22,12 +22,12 @@ const SECTORS = [
 const RIBBON = [
   "Agentes nativos en España",
   "Sin permanencia",
-  "Hecho para PYMES y startups",
+  "De 1 a 5 agentes, sin mínimos",
   "Activación en 48 h",
   "Inglés y francés bajo demanda",
   "Integración con tu CRM",
   "Personas o IA",
-  "Toma de mensajes",
+  "Equipos dedicados o compartidos",
   "Cualificación de leads",
   "Reserva de citas",
   "Atención 24/7",
@@ -36,44 +36,48 @@ const RIBBON = [
 export default function Home() {
   const faqs = [
     {
-      q: "\u00bfQu\u00e9 es Minute Call?",
-      a: "Minute Call es un servicio de atenci\u00f3n telef\u00f3nica para empresas que atiende llamadas en nombre del negocio con recepcionistas nativos o agentes de IA para evitar perder contactos y oportunidades comerciales.",
+      q: "¿Qué es Minute Call?",
+      a: "Minute Call es un servicio de atención telefónica externalizada: agentes nativos en España o IA atienden las llamadas en nombre de tu empresa, con tu procedimiento. Montamos equipos de 1 a 5 agentes, dedicados o compartidos, con cobertura 24/7.",
     },
     {
-      q: "\u00bfEn qu\u00e9 se diferencia de un call center tradicional?",
-      a: "Un call center tradicional est\u00e1 orientado a grandes vol\u00famenes de llamadas, mientras que Minute Call se centra en la atenci\u00f3n telef\u00f3nica para pymes y empresas de servicios donde cada llamada es relevante.",
+      q: "¿En qué se diferencia de un gran BPO o de un call center tradicional?",
+      a: "Los grandes BPO están pensados para programas de muchos agentes: suelen pedir equipos de unas diez personas y contratos anuales. Minute Call empieza con un solo agente o con un equipo compartido, trabaja mes a mes y sigue tu procedimiento por escenarios. Es la opción cuando el volumen no justifica un programa grande pero cada llamada tiene que atenderse bien.",
     },
     {
-      q: "\u00bfLas llamadas las atienden humanos o IA?",
-      a: "Las empresas pueden elegir entre recepcionistas nativos, agentes de IA o una combinaci\u00f3n seg\u00fan su volumen de llamadas, horario y tipo de cliente.",
+      q: "¿Para qué tipo de empresas está pensado el servicio?",
+      a: "Para PYMES y para empresas medianas y grandes que necesitan entre 1 y 5 agentes: grupos empresariales, farmacéuticas, energía, logística, clínicas o despachos. Atendemos líneas concretas, noches y fines de semana, desbordes y campañas.",
     },
     {
-      q: "\u00bfPara qu\u00e9 tipo de empresas est\u00e1 pensado el servicio?",
-      a: "Principalmente para pymes, cl\u00ednicas, despachos, inmobiliarias y empresas de servicios que reciben llamadas frecuentes y no pueden permitirse perder oportunidades por no atender el tel\u00e9fono.",
+      q: "¿Cuál es el mínimo de agentes?",
+      a: "No hay mínimo de puestos. Puedes empezar con un agente dedicado, con un equipo compartido o con una combinación de ambos, y ampliar cuando crezca el volumen.",
     },
     {
-      q: "\u00bfQu\u00e9 ocurre cuando no se atiende una llamada?",
-      a: "Cuando una empresa no responde una llamada, es habitual que el cliente potencial no vuelva a llamar. Por eso la atenci\u00f3n telef\u00f3nica continua es clave para la captaci\u00f3n y conversi\u00f3n de clientes.",
+      q: "¿Qué diferencia hay entre agentes dedicados y compartidos?",
+      a: "Un agente dedicado atiende solo a tu empresa en el horario acordado. Un equipo compartido está formado en tu procedimiento y atiende también a otras empresas, lo que permite cubrir 24/7 con poco volumen sin pagar turnos completos. Lo habitual es combinar ambos: dedicado en horario laboral y compartido por la noche y el fin de semana.",
     },
     {
-      q: "\u00bfCu\u00e1nto cuesta el servicio de recepcionista virtual?",
-      a: "El precio de Minute Call se define según el volumen de llamadas, el horario de cobertura y las necesidades de cada empresa. Sin mínimo de tamaño ni permanencia.",
+      q: "¿Las llamadas las atienden personas o IA?",
+      a: "Tú eliges: agentes nativos, agentes de IA o una combinación según el volumen, el horario y el tipo de llamada.",
     },
     {
-      q: "\u00bfHay permanencia o compromiso de duraci\u00f3n?",
-      a: "No. Minute Call funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelaci\u00f3n. Puedes activar o desactivar el servicio cuando lo necesites.",
+      q: "¿En qué idiomas se atienden las llamadas?",
+      a: "En español, inglés y francés, con agentes nativos en cada idioma.",
     },
     {
-      q: "\u00bfCu\u00e1nto se tarda en activar el servicio?",
-      a: "El servicio se activa en menos de 48 horas. Definimos contigo el protocolo de atenci\u00f3n y configuramos todo para que las llamadas se atiendan siguiendo las instrucciones de tu empresa.",
+      q: "¿Cuánto cuesta el servicio?",
+      a: "El precio depende del volumen de llamadas, el horario de cobertura y si los agentes son dedicados o compartidos. Sin mínimo de puestos ni permanencia.",
     },
     {
-      q: "\u00bfSe integra con mi CRM o agenda?",
-      a: "S\u00ed. Minute Call se integra con los principales CRM y herramientas de agenda para agendar citas, registrar leads y enviar notificaciones autom\u00e1ticas a tu equipo.",
+      q: "¿Hay permanencia o compromiso de duración?",
+      a: "No. Minute Call funciona mes a mes, sin contratos a largo plazo ni penalizaciones por cancelación.",
     },
     {
-      q: "\u00bfEn qu\u00e9 idiomas se atienden las llamadas?",
-      a: "Nuestros agentes atienden en espa\u00f1ol, ingl\u00e9s y franc\u00e9s. Todos los recepcionistas son nativos, garantizando una atenci\u00f3n profesional y natural en cada idioma.",
+      q: "¿Cuánto se tarda en activar el servicio?",
+      a: "Menos de 48 horas para un servicio estándar. Para procedimientos complejos, definimos contigo los escenarios, los escalados y los registros antes de empezar.",
+    },
+    {
+      q: "¿Se integra con nuestro CRM o nuestras herramientas?",
+      a: "Sí. Trabajamos en tu CRM, tu sistema de tickets o tu agenda para registrar cada llamada, abrir incidencias y avisar a tu equipo.",
     },
   ]
 
@@ -88,6 +92,7 @@ export default function Home() {
       <FAQPageSchema faqs={faqs.map((f) => ({ question: f.q, answer: f.a }))} />
       <ServiceSchema
         services={[
+          { name: "Call center externalizado sin mínimo de puestos", description: "Equipos de 1 a 5 agentes nativos en España, dedicados o compartidos, con cobertura 24/7 y tu procedimiento." },
           { name: "Recepcionista virtual", description: "Agentes nativos en España atienden las llamadas de tu empresa con tu protocolo y tu nombre." },
           { name: "Toma de mensajes", description: "Recogemos el recado con el contexto que necesitas y te lo hacemos llegar en tiempo real." },
           { name: "Cualificación de leads", description: "Filtramos y cualificamos cada llamada para que tu equipo solo dedique tiempo a lo relevante." },
@@ -101,13 +106,13 @@ export default function Home() {
         {/* ===== HERO ===== */}
         <section className="hero">
           <div className="wrap">
-            <span className="tag"><Voice />Call center para PYMES</span>
+            <span className="tag"><Voice />Call center para PYMES y empresas</span>
             <h1 style={{ marginTop: 28 }}>
               Atención telefónica <Star /> 24/7.
             </h1>
             <p className="sub">
               Atendemos las llamadas de tu empresa con <span className="chip">personas</span> o{" "}
-              <span className="chip">asistentes de IA</span> - tú eliges. Sin permanencia, diseñado para PYMES.
+              <span className="chip">asistentes de IA</span> - tú eliges. Desde un solo agente, sin permanencia.
             </p>
             <div className="hero-actions">
               <Link href="/reserva-llamada" className="btn btn-lime" data-hero-cta>
@@ -139,16 +144,16 @@ export default function Home() {
               <div className="rows">
                 {[
                   {
-                    title: "Toma de mensajes",
-                    desc: "Personalizamos el protocolo para que des la mejor atención a tus clientes y no se te escape una oportunidad.",
+                    title: "Equipos de 1 a 5 agentes",
+                    desc: "Dedicados, compartidos o mixtos. Sin el mínimo de puestos que piden los grandes BPO.",
                   },
                   {
-                    title: "Cualificación de leads",
-                    desc: "Cualificamos y recopilamos datos clave, para que tu equipo solo dedique tiempo a leads relevantes.",
+                    title: "Cobertura 24/7 y desbordes",
+                    desc: "Noches, fines de semana, picos y campañas, en español, inglés y francés.",
                   },
                   {
-                    title: "Reserva de citas",
-                    desc: "Nos integramos en tu CRM y programamos citas en tu nombre, siguiendo tu disponibilidad.",
+                    title: "Tu procedimiento, al pie de la letra",
+                    desc: "Cualificamos, agendamos y escalamos según tus escenarios, dentro de tu CRM.",
                   },
                 ].map((service) => (
                   <div className="row" key={service.title}>
@@ -232,18 +237,18 @@ export default function Home() {
               <h2 className="h2 h2-c">Por qué nos eligen.</h2>
               <div className="vs">
                 <div className="vs-head">
-                  <span>Otros Call Centers</span>
+                  <span>Grandes BPO y call centers</span>
                   <span className="us">
                     <LogoMark height={12} />
                     minute call
                   </span>
                 </div>
                 {[
-                  ["Agentes basados en LATAM", "Agentes nativos basados en España"],
-                  ["Rigidez en la duración", "Sin contratos a largo plazo. Mes a mes."],
-                  ["Bajo nivel tech", "Agentes humanos o IA. Tú eliges."],
-                  ["Errores frecuentes", "Control de calidad de cada conversación."],
-                  ["Falta de profesionalidad", "Partner comercial de Teleperformance."],
+                  ["Equipos desde unos diez puestos", "Desde un agente, dedicado o compartido."],
+                  ["Contratos anuales", "Mes a mes, sin permanencia."],
+                  ["Agentes deslocalizados", "Agentes nativos basados en España."],
+                  ["Guiones genéricos", "Tu procedimiento por escenarios, revisado contigo."],
+                  ["Eres una cuenta pequeña", "Trato directo. Partner comercial de Teleperformance."],
                 ].map(([them, ours]) => (
                   <div className="vs-row" key={them}>
                     <span className="them"><i aria-hidden="true">✕</i><span>{them}</span></span>
@@ -327,7 +332,7 @@ export default function Home() {
                 {[
                   { step: "01", title: "Definición del flujo", desc: "Personalizamos contigo el guión de llamada y acciones del agente." },
                   { step: "02", title: "Llamada entrante", desc: "Respondemos en nombre de tu empresa siguiendo tu procedimiento." },
-                  { step: "03", title: "Citas y mensajes", desc: "Agendamos la cita o enviamos el mensaje al instante a tu email." },
+                  { step: "03", title: "Registro y escalado", desc: "Registramos cada llamada en tu herramienta y avisamos a quien corresponde, al momento." },
                 ].map((item) => (
                   <div key={item.step}>
                     <span className="n">{item.step}</span>
@@ -369,7 +374,7 @@ export default function Home() {
               <span className="tag">Activación en menos de 48 h</span>
               <div>
                 <h2>No pierdas ninguna llamada más.</h2>
-                <p>Servicio premium de secretaría virtual y atención telefónica para PYMES.</p>
+                <p>Atención telefónica 24/7 para PYMES y empresas, sin mínimo de puestos.</p>
               </div>
             </div>
             <div className="call-card">

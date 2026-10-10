@@ -61,7 +61,7 @@ export default function Footer() {
               minute call
             </Link>
             <p className="tagline">
-              No pierdas ninguna llamada más. Servicio premium de secretaría virtual y atención telefónica para PYMES.
+              No pierdas ninguna llamada más. Atención telefónica 24/7 para PYMES y empresas, sin mínimo de puestos.
             </p>
           </div>
           <div>

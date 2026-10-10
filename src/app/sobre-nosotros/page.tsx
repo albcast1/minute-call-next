@@ -86,13 +86,13 @@ export default function SobreNosotros() {
   ];
 
   const icp = [
-    "Pymes y empresas medianas de servicios, de 1 a 50 empleados.",
+    "PYMES y empresas medianas y grandes que necesitan entre 1 y 5 agentes, dedicados o compartidos.",
     "Empresas que reciben entre unas decenas y unos cientos de llamadas al mes.",
     "Clínicas, clínicas dentales y veterinarias.",
     "Despachos de abogados, asesorías y corredurías de seguros.",
     "Inmobiliarias.",
     "Empresas B2B (tecnología, industria, ecommerce, logística) que quieren cubrir picos o fuera de horario sin contratar.",
-    "Negocios que no llegan al mínimo de agentes que exige un BPO.",
+    "Grupos empresariales con líneas concretas (pacientes, distribuidores, clientes internacionales) que no llegan al mínimo de puestos de un gran BPO.",
   ];
 
   const howItWorks = [

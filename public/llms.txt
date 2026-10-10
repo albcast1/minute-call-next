@@ -2,9 +2,9 @@
 
 > Full content: https://www.minute-call.com/llms-full.txt
 
-# minute call - Recepcionista virtual para PYMES
+# minute call - Call center para PYMES y empresas, sin mínimo de puestos
 # https://www.minute-call.com
-# Servicio de atención telefónica 24/7 con agentes nativos o IA para PYMES en España.
+# Atención telefónica 24/7 con agentes nativos o IA para PYMES y empresas en España: equipos de 1 a 5 agentes, dedicados o compartidos, donde un gran BPO pide unos diez puestos.
 # Sin permanencia. Activa en 48 horas. Partner comercial de Teleperformance.
 
 ## Cuando usar Minute Call (when to use this)
