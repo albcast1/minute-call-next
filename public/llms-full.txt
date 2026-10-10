@@ -233,10 +233,23 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 - Descripción: Recepción 24/7 para clínicas de cirugía estética: agenda consultas, informa y gestiona el seguimiento postoperatorio.
 - Testimonial: "Nuestros cirujanos estaban abrumados con llamadas de consulta. Minute Call pre-califica pacientes, agenda y reduce tiempo en teléfono." - Dra. María Sánchez, Cirujana Estética
 
-### Call Center para Empresas
+### Call center para medianas y grandes empresas
 - Slug: /lp/call-center-para-empresas
-- Descripción: Call center para pymes sin los contratos rígidos de los grandes BPO: agentes nativos, sin permanencia y precio según tu volumen.
-- Testimonial: "Desde que usamos Minute Call, hemos reducido el tiempo de respuesta a nuestros clientes un 75%. Sin costo de inversión inicial." - Carlos Martínez, Director de Operaciones, Grupo Tecnológico
+- Descripción: Atención telefónica externalizada para medianas y grandes empresas: desborde, fuera de horario y procedimientos a medida, con agentes nativos en España.
+- Caso real: atención a pacientes en tratamiento domiciliario para una multinacional farmacéutica (anonimizado).
+
+### Call center para farmacéuticas y laboratorios
+- Slug: /lp/call-center-farmaceuticas
+- Descripción: Atención telefónica a pacientes, farmacias y hospitales para laboratorios: incidencias de entrega, reclamaciones y escalado a farmacovigilancia, con agentes nativos.
+- Caso real: atención a pacientes en tratamiento domiciliario para una multinacional farmacéutica (anonimizado).
+
+### Call center para comercializadoras de energía
+- Slug: /lp/call-center-energia
+- Descripción: Atención telefónica para comercializadoras de luz y gas: facturas, altas, cambios de titular, picos por cambios de tarifa y avisos de avería, con agentes nativos.
+
+### Call center para logística y e-commerce
+- Slug: /lp/call-center-logistica-ecommerce
+- Descripción: Atención telefónica para logística y e-commerce: estado de pedidos, ausencias, devoluciones y coordinación con el transportista, con agentes nativos.
 
 ### BPO y Externalización de Procesos
 - Slug: /lp/bpo-externalizacion

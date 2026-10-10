@@ -537,3 +537,7 @@ main{padding-top:calc(56px + env(safe-area-inset-top,0px))}
 .links{gap:20px}
 
 @media (max-width:760px){.nav{grid-template-columns:auto minmax(0,1fr)}.nav-word{display:none}}
+
+/* Etiquetas con moderación: texto plano para rótulos y sin hueco cuando la columna lateral queda vacía */
+.eyebrow{display:inline-block;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+@media (max-width:900px){.ed-side:empty{display:none}}

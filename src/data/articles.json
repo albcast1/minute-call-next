@@ -2829,5 +2829,93 @@
     ],
     "datePublished": null,
     "dateModified": "2026-09-06"
+  },
+  {
+    "slug": "externalizar-atencion-telefonica-laboratorio-farmaceutico",
+    "title": "Cómo externalizar la atención telefónica de un laboratorio farmacéutico",
+    "metaTitle": "Externalizar la atención de un laboratorio | minute call",
+    "metaDescription": "Qué llamadas puede externalizar un laboratorio, cómo separar lo operativo de lo clínico, farmacovigilancia, datos de salud y cobertura de fin de semana.",
+    "excerpt": "Un laboratorio con entrega domiciliaria o programas de soporte a pacientes puede externalizar buena parte de sus llamadas sin perder control, siempre que el procedimiento separe bien lo operativo de lo clínico. Esta guía explica cómo hacerlo.",
+    "content": "Un laboratorio farmacéutico que entrega tratamientos a domicilio, atiende a farmacias y hospitales o gestiona programas de soporte a pacientes recibe un volumen de llamadas que no se parece al de ningún otro sector. Muchas son operativas y repetitivas; algunas, aunque no lo parezcan, son clínicas. Externalizar la atención telefónica es posible y habitual, pero solo funciona si el procedimiento separa unas de otras sin margen de interpretación.\n\n## Qué llamadas se pueden externalizar\n\nLas llamadas operativas son las candidatas naturales:\n\n- Incidencias de entrega a pacientes: ausencias, retrasos del transportista, errores de dirección, entregas cruzadas o cantidades incorrectas.\n- Pedidos y consultas de estado de farmacias y hospitales.\n- Reclamaciones de calidad, con recogida de fotografías y datos del producto para el equipo de calidad.\n- Cambios de dirección, de horario o de datos de contacto del paciente.\n- Seguimiento de casos abiertos y avisos salientes cuando hay una incidencia.\n\nLo que no se resuelve en la llamada es lo clínico: dudas sobre la pauta, síntomas, interacciones o cualquier consulta que requiera criterio médico. Esas llamadas se registran y se derivan siempre.\n\n## Lo clínico y la farmacovigilancia\n\nUn servicio externo no debe dar consejo médico ni valorar si algo es importante. El procedimiento tiene que fijar dos reglas claras.\n\n### Consultas clínicas\nEl agente registra la consulta, informa al paciente de que le contactará el profesional que corresponda o le remite al responsable de su tratamiento, y deriva el caso por el canal acordado.\n\n### Posibles efectos adversos\nSi el paciente menciona algo que pueda ser un efecto adverso, el agente recoge los datos mínimos que marque el procedimiento y los notifica al departamento de farmacovigilancia del laboratorio por el canal y en el plazo que este defina. El agente no valora el caso: solo lo recoge y lo traslada.\n\n## Datos de salud y RGPD\n\nLos datos de salud son una categoría especial de datos personales. El proveedor actúa como encargado del tratamiento y debe firmar el contrato que exige el artículo 28 del RGPD. En la práctica, conviene exigir tres cosas: acceso solo a los datos que el procedimiento necesita, registro únicamente en los sistemas que indique el laboratorio y un listado claro de quién del proveedor accede a la información.\n\n## Por qué el fin de semana es la franja crítica\n\nEntre semana, una incidencia de entrega la resuelve el equipo interno. Un viernes por la tarde, la misma incidencia puede dejar a un paciente sin tratamiento hasta el lunes. Por eso el procedimiento debe responder a una pregunta en cada llamada: ¿tiene el paciente cobertura hasta la siguiente entrega?\n\n- Si la tiene, se registra la incidencia y el equipo la gestiona el primer día laborable.\n- Si no la tiene, se activa la alternativa prevista en el protocolo, normalmente a través del hospital o de la farmacia hospitalaria del paciente.\n\n## Cómo se diseña el procedimiento\n\nEl procedimiento se construye por escenarios. Para cada uno se define qué se le dice al paciente, qué se le pregunta, a quién se contacta (transportista, hospital, equipo de calidad) y qué incidencia se abre y a quién se envía. Los escenarios habituales en entrega domiciliaria son:\n\n1. Ausencia del paciente en el primer intento.\n2. Retraso del transportista.\n3. Imposibilidad de entrega por un incidente.\n4. Imposibilidad de entrega por fuerza mayor.\n5. Reclamación de calidad del producto.\n6. Error en la dirección de entrega.\n7. Entrega del pedido de otro paciente.\n8. Cantidad entregada inferior a la prescrita.\n9. Producto dañado durante su uso.\n\nCon esa estructura, cualquier agente formado puede seguir el procedimiento sin improvisar y el equipo de calidad del laboratorio puede auditarlo.\n\n## Qué pedir a un proveedor\n\n- Procedimiento por escrito, validado por el laboratorio antes de arrancar.\n- Atención en marca blanca, con el nombre del servicio de atención o del programa de soporte.\n- Escalados definidos para lo clínico y para farmacovigilancia.\n- Cobertura de fines de semana y festivos.\n- Contrato de encargado del tratamiento y acceso mínimo a datos.\n- Registro de cada llamada e incidencia, auditable por el laboratorio.\n\nEn Minute Call hemos operado este modelo para la atención a pacientes en tratamiento domiciliario de una multinacional farmacéutica, con coordinación diaria con transportista y hospitales.",
+    "faq": [
+      {
+        "question": "¿Puede un call center externo atender a pacientes de un laboratorio?",
+        "answer": "Sí, para llamadas operativas como incidencias de entrega, pedidos o reclamaciones, siempre con un procedimiento que derive lo clínico al equipo del laboratorio y sin dar consejo médico."
+      },
+      {
+        "question": "¿Qué pasa si un paciente comunica un posible efecto adverso?",
+        "answer": "El agente recoge los datos mínimos que marque el procedimiento y los notifica al departamento de farmacovigilancia del laboratorio por el canal y en el plazo definidos. No valora el caso."
+      },
+      {
+        "question": "¿Cómo se protegen los datos de salud?",
+        "answer": "El proveedor actúa como encargado del tratamiento con contrato del artículo 28 del RGPD, accede solo a los datos necesarios y los registra únicamente en los sistemas que indique el laboratorio."
+      },
+      {
+        "question": "¿Por qué es importante cubrir los fines de semana?",
+        "answer": "Porque una entrega fallida un viernes puede dejar a un paciente sin tratamiento hasta el lunes. El procedimiento debe comprobar si tiene cobertura y, si no, activar la alternativa prevista."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/call-center-farmaceuticas",
+        "label": "Call center para farmacéuticas y laboratorios"
+      },
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para medianas y grandes empresas"
+      },
+      {
+        "href": "/lp/call-center-logistica-ecommerce",
+        "label": "Call center para logística y e-commerce"
+      }
+    ],
+    "datePublished": "2026-10-10",
+    "dateModified": "2026-10-10"
+  },
+  {
+    "slug": "desborde-de-llamadas-externalizar-picos",
+    "title": "Desborde de llamadas: cuándo y cómo externalizar los picos de atención",
+    "metaTitle": "Desborde de llamadas: cuándo externalizarlo | minute call",
+    "metaDescription": "Qué es el desborde de llamadas, cuándo compensa externalizarlo frente a ampliar plantilla y cómo montarlo sin que el cliente note el cambio de equipo.",
+    "excerpt": "El desborde es la parte de las llamadas que tu equipo no puede atender a tiempo. Externalizarlo permite mantener la plantilla ajustada al volumen base sin perder llamadas en los picos. Esta guía explica cuándo compensa y cómo montarlo.",
+    "content": "Toda empresa con un equipo propio de atención telefónica tiene un volumen base, el que su plantilla absorbe sin problemas, y unos picos que lo superan. Las llamadas que no se atienden a tiempo en esos picos son el desborde. Se pueden perder, se pueden atender con esperas largas o se pueden derivar a un equipo externo que las atienda con tu procedimiento.\n\n## Picos previsibles e imprevisibles\n\nLos picos previsibles se conocen con antelación:\n\n- Campañas comerciales y lanzamientos.\n- Envíos masivos de facturas o cambios de tarifa.\n- Temporadas altas: Navidad, rebajas, Black Friday o verano según el sector.\n- Lunes por la mañana y primeras horas tras un festivo.\n\nLos imprevisibles no avisan: una incidencia masiva en el servicio, un temporal, un problema en los cobros o una noticia que afecta a tus clientes. Son los que más daño hacen, porque llegan cuando el equipo ya está ocupado.\n\n## Cuándo compensa externalizar el desborde\n\nCompensa cuando dimensionar la plantilla para cubrir los picos obliga a tener personas sin carga durante buena parte del año. También cuando los picos caen en franjas difíciles de cubrir con personal propio, como noches, fines de semana o festivos.\n\nNo compensa cuando las llamadas del pico exigen acceso profundo a sistemas internos o decisiones que solo puede tomar tu equipo. En ese caso, el equipo externo puede filtrar, registrar y programar la devolución de la llamada, pero no resolverla.\n\n## Modelos de desborde\n\n### Por saturación\nLa llamada pasa al equipo externo cuando todos tus agentes están ocupados o cuando la espera supera un tiempo fijado.\n\n### Por franja\nEl equipo externo atiende siempre en determinadas horas: noches, fines de semana, festivos o la hora de comer.\n\n### Por campaña\nEl equipo externo refuerza durante un periodo concreto con fecha de inicio y de fin.\n\nLos tres se pueden combinar. Lo habitual es empezar por la franja más problemática y ampliar con los datos de las primeras semanas.\n\n## Cómo montarlo sin que se note\n\nPara quien llama no debería haber diferencia entre tu equipo y el externo. Eso exige:\n\n1. Un procedimiento por escrito con los tipos de llamada, qué se resuelve en cada uno y qué se escala.\n2. Atención en marca blanca, con el nombre de tu empresa.\n3. Acceso a la información mínima para resolver, o un canal rápido para consultarla.\n4. Registro de cada llamada en tu CRM o tu herramienta de tickets, para que tu equipo retome el caso sin volver a preguntar.\n5. Revisión periódica de las llamadas para ajustar el procedimiento.\n\n## Qué medir\n\n- Porcentaje de llamadas atendidas en el pico, antes y después.\n- Tiempo de espera en las franjas cubiertas.\n- Porcentaje de llamadas resueltas por el equipo externo frente a las escaladas.\n- Casos reabiertos por información incompleta.\n\nCon esas cuatro métricas se ve en pocas semanas si el desborde está bien dimensionado o si conviene ampliar o reducir la cobertura.",
+    "faq": [
+      {
+        "question": "¿Qué es el desborde de llamadas?",
+        "answer": "Es la parte de las llamadas entrantes que tu equipo no puede atender a tiempo porque todos los agentes están ocupados o porque llegan fuera de su horario."
+      },
+      {
+        "question": "¿Cuándo compensa externalizar el desborde?",
+        "answer": "Cuando cubrir los picos con plantilla propia obliga a sobredimensionar el equipo durante el resto del año, o cuando los picos caen en noches, fines de semana o festivos."
+      },
+      {
+        "question": "¿Se nota que atiende un equipo externo?",
+        "answer": "No debería. Con atención en marca blanca, un procedimiento por escrito y registro en tus herramientas, quien llama habla con tu empresa."
+      },
+      {
+        "question": "¿Qué modelos de desborde existen?",
+        "answer": "Por saturación, cuando tus agentes están ocupados; por franja, en horas concretas; y por campaña, durante un periodo cerrado. Se pueden combinar."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para medianas y grandes empresas"
+      },
+      {
+        "href": "/lp/call-center-energia",
+        "label": "Call center para comercializadoras de energía"
+      },
+      {
+        "href": "/lp/call-center-logistica-ecommerce",
+        "label": "Call center para logística y e-commerce"
+      },
+      {
+        "href": "/lp/call-center-24-horas",
+        "label": "Call center 24 horas"
+      }
+    ],
+    "datePublished": "2026-10-10",
+    "dateModified": "2026-10-10"
   }
 ]

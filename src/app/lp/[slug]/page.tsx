@@ -66,10 +66,21 @@ export default async function LandingPage({
   }
 
   const deepDive = (sector as unknown as { deepDive?: Array<{ heading: string; body: string }> }).deepDive;
+  // Campos opcionales de las páginas para medianas y grandes empresas.
+  const extra = sector as unknown as {
+    testimonial?: { quote: string; author: string; role: string };
+    caseStudy?: { title: string; context: string; scope: string[]; outcome: string };
+    related?: Array<{ href: string; label: string }>;
+    steps?: Array<{ title: string; desc: string }>;
+    faqFrom?: number;
+    cta?: { title: string; text: string };
+  };
+  const faqFrom = extra.faqFrom ?? 4;
+  const faqs = sector.faq.slice(faqFrom);
 
   return (
     <>
-      <FAQPageSchema faqs={sector.faq.slice(4).map(f => ({ question: f.question, answer: f.answer ?? "" }))} />
+      <FAQPageSchema faqs={faqs.map(f => ({ question: f.question, answer: f.answer ?? "" }))} />
       <ServiceSchema
         services={[{
           name: sector.title,
@@ -93,13 +104,29 @@ export default async function LandingPage({
           </div>
         </Hero>
 
-        <Ed tag="Clientes" title="Lo que dicen nuestros clientes." flush={false}>
-          <Quote
-            quote={sector.testimonial.quote}
-            author={sector.testimonial.author}
-            role={sector.testimonial.role}
-          />
-        </Ed>
+        {extra.testimonial && (
+          <Ed tag="Clientes" title="Lo que dicen nuestros clientes." flush={false}>
+            <Quote
+              quote={extra.testimonial.quote}
+              author={extra.testimonial.author}
+              role={extra.testimonial.role}
+            />
+          </Ed>
+        )}
+
+        {extra.caseStudy && (
+          <Ed tag="Caso real" title={extra.caseStudy.title} flush={false}>
+            <Prose>
+              <p>{extra.caseStudy.context}</p>
+              <ul>
+                {extra.caseStudy.scope.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+              <p>{extra.caseStudy.outcome}</p>
+            </Prose>
+          </Ed>
+        )}
 
         <Ed tag="Ventajas" title="Qué hacemos por ti.">
           <Rows items={sector.features.slice(0, 3).map((f) => ({ title: f.title, desc: f.description }))} />
@@ -107,16 +134,18 @@ export default async function LandingPage({
 
         <Ed tag="Cómo funciona" title="Cómo funciona.">
           <Steps
-            items={[
-              { title: "Configuración", desc: "Te conocemos. Entrenamos a la IA con tus datos, políticas y FAQs." },
-              { title: "Integración", desc: "Configuramos tu número. Los clientes siguen llamando al mismo número." },
-              { title: "Gestión", desc: "La IA atiende, filtra leads y agenda citas. Tú solo enfocado en cerrar." },
-            ]}
+            items={
+              extra.steps ?? [
+                { title: "Configuración", desc: "Te conocemos. Entrenamos a la IA con tus datos, políticas y FAQs." },
+                { title: "Integración", desc: "Configuramos tu número. Los clientes siguen llamando al mismo número." },
+                { title: "Gestión", desc: "La IA atiende, filtra leads y agenda citas. Tú solo enfocado en cerrar." },
+              ]
+            }
           />
         </Ed>
 
         <Ed tag="Preguntas" title="FAQ">
-          <Faq items={sector.faq.slice(4).map((f) => ({ q: f.question, a: f.answer }))} />
+          <Faq items={faqs.map((f) => ({ q: f.question, a: f.answer }))} />
         </Ed>
 
         {/* Contenido en profundidad: aquí vive el contenido que antes estaba
@@ -139,6 +168,12 @@ export default async function LandingPage({
           </Ed>
         )}
 
+        {extra.related && extra.related.length > 0 && (
+          <Ed tag="Relacionado" title="Sigue leyendo.">
+            <Chips links={extra.related} />
+          </Ed>
+        )}
+
         {citiesForSector(sector.slug).length > 0 && (
           <Ed tag="Ciudades" title="También por ciudad.">
             <p className="lead2">Cómo trabajamos este servicio en cada ciudad.</p>
@@ -148,8 +183,8 @@ export default async function LandingPage({
 
         <CtaFinal
           tag="Empieza hoy"
-          title="¿Listo para transformar tu atención?"
-          text="Prueba Minute Call sin compromiso. La mayoría de clientes ven resultados en la primera semana."
+          title={extra.cta?.title ?? "¿Listo para transformar tu atención?"}
+          text={extra.cta?.text ?? "Prueba Minute Call sin compromiso. La mayoría de clientes ven resultados en la primera semana."}
         />
       </BrandPage>
     </>

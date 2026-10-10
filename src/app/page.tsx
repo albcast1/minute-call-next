@@ -9,7 +9,11 @@ import SectorRail from "@/components/brand/SectorRail";
 /* Pasarela de sectores: la lista se pinta dos veces para que el bucle sea continuo. */
 const SECTORS = [
   { name: "Clínicas & Salud", href: "/lp/recepcionista-ia-clinicas", c: "lime" },
-  { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "purple" },
+  { name: "Grandes empresas", href: "/lp/call-center-para-empresas", c: "purple" },
+  { name: "Farmacéuticas y laboratorios", href: "/lp/call-center-farmaceuticas", c: "ink" },
+  { name: "Agencias inmobiliarias", href: "/lp/recepcionista-ia-inmobiliarias", c: "lime" },
+  { name: "Comercializadoras de energía", href: "/lp/call-center-energia", c: "purple" },
+  { name: "Logística y e-commerce", href: "/lp/call-center-logistica-ecommerce", c: "orange" },
   { name: "Hostelería", href: "/lp/recepcionista-ia-restaurantes", c: "ink" },
   { name: "Despachos de abogados", href: "/lp/recepcionista-ia-abogados", c: "lime" },
   { name: "Clínicas dentales", href: "/lp/recepcionista-ia-clinicas-dentales", c: "purple" },
@@ -125,7 +129,7 @@ export default function Home() {
         {/* ===== PARTNERS ===== */}
         <section className="partners" aria-label="Partners">
           <div className="wrap">
-            <span className="tag">Somos partners de empresas líderes</span>
+            <span className="eyebrow">Somos partners de empresas líderes</span>
             <div className="logos">
               <img src="/assets/partners/teleperformance.png" alt="Teleperformance" width={200} height={49} style={{ height: "clamp(24px, 3vw, 32px)" }} />
               <img src="/assets/partners/intelcia.png" alt="Intelcia" width={140} height={36} style={{ height: "clamp(22px, 2.8vw, 30px)" }} />
@@ -137,7 +141,7 @@ export default function Home() {
         {/* ===== QUÉ HACEMOS POR TI ===== */}
         <section className="section" id="servicios">
           <div className="wrap ed">
-            <div className="ed-side"><span className="tag">Qué hacemos</span></div>
+            <div className="ed-side" />
             <div className="ed-main">
               <h2 className="h2 left">Qué hacemos por ti.</h2>
               <div className="rows">
@@ -217,8 +221,7 @@ export default function Home() {
         {/* ===== SECTORES / INDUSTRIAS ===== */}
         <section className="section center" id="sectores">
           <div className="wrap">
-            <span className="tag">Creados para ser flexibles</span>
-            <h2 className="h2" style={{ marginTop: 22 }}>Diseñado para PYMES.</h2>
+            <h2 className="h2">De la pyme a la gran empresa.</h2>
             <SectorRail sectors={SECTORS} />
           </div>
         </section>
@@ -226,7 +229,7 @@ export default function Home() {
         {/* ===== POR QUÉ NOS ELIGEN ===== */}
         <section className="section" id="diferencia" style={{ paddingTop: 0 }}>
           <div className="wrap ed">
-            <div className="ed-side"><span className="tag">La diferencia</span></div>
+            <div className="ed-side" />
             <div className="ed-main">
               <h2 className="h2 left">Por qué nos eligen.</h2>
               <div className="vs">
@@ -319,7 +322,7 @@ export default function Home() {
         <section className="section" id="como-funciona" style={{ paddingTop: 0 }}>
           <div className="wrap">
           <div className="dark-panel ed">
-            <div className="ed-side"><span className="tag">Cómo funciona</span></div>
+            <div className="ed-side" />
             <div className="ed-main">
               <h2 className="h2 left">Cómo funciona.</h2>
               <div className="steps2 steps-dark">
@@ -343,7 +346,7 @@ export default function Home() {
         {/* ===== FAQ ===== */}
         <section className="section" id="faq" style={{ paddingTop: 0 }}>
           <div className="wrap ed">
-            <div className="ed-side"><span className="tag">Preguntas</span></div>
+            <div className="ed-side" />
             <div className="ed-main">
               <h2 className="h2 left">FAQ</h2>
               <div className="faq2">

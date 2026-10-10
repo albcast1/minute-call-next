@@ -22,7 +22,7 @@ export const OrganizationSchema: React.FC = () => {
     areaServed: { '@type': 'Country', name: 'España' },
     contactPoint: { '@type': 'ContactPoint', contactType: 'customer service', url: 'https://www.minute-call.com/reserva-llamada', availableLanguage: ['Spanish', 'English', 'French'] },
     sameAs: ['https://www.linkedin.com/company/minute-call/', 'https://es.trustpilot.com/review/minute-call.com'],
-    knowsAbout: ['Atención telefónica 24/7', 'Recepcionista virtual', 'Call center para PYMES', 'IA conversacional', 'BPO y externalización', 'Cualificación de leads'],
+    knowsAbout: ['Atención telefónica 24/7', 'Recepcionista virtual', 'Call center para PYMES', 'Call center para medianas y grandes empresas', 'Desborde de llamadas', 'Atención a pacientes para laboratorios farmacéuticos', 'Atención al cliente para comercializadoras de energía', 'Gestión de incidencias de entrega', 'IA conversacional', 'BPO y externalización', 'Cualificación de leads'],
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 };
