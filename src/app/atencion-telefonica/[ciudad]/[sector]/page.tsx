@@ -89,7 +89,7 @@ export default async function SectorCityPage({ params }: { params: Promise<{ ciu
               { value: '20 s', label: 'Tiempo de espera habitual' },
               { value: '98%', label: 'Tasa de respuesta' },
               { value: '48 h', label: 'Activación' },
-              { value: '4,4', label: 'Trustpilot' },
+              { value: '4,5', label: 'Trustpilot' },
             ]}
           />
         </Ed>
