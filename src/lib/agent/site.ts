@@ -35,7 +35,7 @@ export const COMPANY_FACTS = {
   founder: { name: 'Alberto Castiel', role: 'Fundador', linkedin: 'https://www.linkedin.com/in/alberto-castiel/' },
   partners: ['Teleperformance', 'Zendesk'],
   languages: ['es', 'en', 'fr'],
-  rating: { value: 5.0, best: 5, count: 13, source: 'https://es.trustpilot.com/review/minute-call.com' },
+  rating: { value: 4.5, best: 5, count: 14, source: 'https://es.trustpilot.com/review/minute-call.com' },
   averageAnswerSeconds: 15,
   answerRatePct: 98,
   profiles: [

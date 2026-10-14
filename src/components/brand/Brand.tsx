@@ -37,10 +37,10 @@ export function TrustpilotBadge() {
       href="https://es.trustpilot.com/review/minute-call.com"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Opiniones de Minute Call en Trustpilot: 4,4 sobre 5"
+      aria-label="Opiniones de Minute Call en Trustpilot: 4,5 sobre 5"
     >
       <img className="tp-logo" src="/assets/trustpilot/logo.png" alt="Trustpilot" width={165} height={40} />
-      <img className="tp-rating" src="/assets/trustpilot/rating.png" alt="4,4 sobre 5" width={297} height={44} />
+      <img className="tp-rating" src="/assets/trustpilot/rating.png" alt="4,5 sobre 5" width={297} height={44} />
     </a>
   );
 }

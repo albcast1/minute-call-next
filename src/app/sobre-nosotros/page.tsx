@@ -58,7 +58,7 @@ export default function SobreNosotros() {
 
   const stats = [
     { value: "24/7", label: "Cobertura horaria" },
-    { value: "4,4", label: "Valoración en Trustpilot" },
+    { value: "4,5", label: "Valoración en Trustpilot" },
     { value: "+50", label: "Ciudades cubiertas en España" },
     { value: "3", label: "Idiomas nativos (ES, EN, FR)" },
   ];
@@ -119,7 +119,7 @@ export default function SobreNosotros() {
     ["Cobertura", "Más de 50 ciudades en España"],
     ["Activación", "48 horas laborables"],
     ["Partners", "Teleperformance y Zendesk"],
-    ["Valoración", "4,4 en Trustpilot"],
+    ["Valoración", "4,5 en Trustpilot"],
     ["Competidores", "Konecta, Atento, Concentrix, Transcom, Secretaria.es"],
     ["Redes", "LinkedIn y Trustpilot"],
   ];
