@@ -39,6 +39,8 @@ export default function ContactForm() {
       if (res.ok) {
         // Evento para Tag Manager (conversión de GA4 / Ads y, más adelante, el píxel de OpenAI).
         (window as unknown as { dataLayer?: unknown[] }).dataLayer?.push({ event: "generate_lead", form: "reserva_llamada" });
+        // Conversión del píxel de OpenAI Ads (evento estándar "Formulario de contacto").
+        window.oaiq?.("measure", "lead_created", { type: "customer_action" });
         setSubmitted(true);
       } else {
         setError("Error al enviar. Inténtalo de nuevo.");
