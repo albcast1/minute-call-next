@@ -112,7 +112,7 @@ export default function Home() {
             </h1>
             <p className="sub">
               Atendemos las llamadas de tu empresa con <span className="chip">personas</span> o{" "}
-              <span className="chip">asistentes de IA</span> - tú eliges. Desde 13 €/hora, sin mínimo de puestos ni permanencia.
+              <span className="chip">asistentes de IA</span> - tú eliges. Sin mínimo de puestos ni permanencia.
             </p>
             <div className="hero-actions">
               <Link href="/reserva-llamada" className="btn btn-lime" data-hero-cta>
