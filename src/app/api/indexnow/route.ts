@@ -8,14 +8,14 @@ export async function GET() {
   // URLs prioritarias a notificar (las más nuevas/importantes)
   const urls = [
     'https://www.minute-call.com/',
-    'https://www.minute-call.com/lp/secretaria-virtual',
-    'https://www.minute-call.com/lp/recepcion-de-llamadas',
-    'https://www.minute-call.com/comparar',
-    'https://www.minute-call.com/articulos/cuanto-cuesta-secretaria-virtual-espana-2025',
-    'https://www.minute-call.com/articulos/secretaria-virtual-clinicas-precio-espana',
-    'https://www.minute-call.com/articulos/centralita-virtual-vs-recepcionista-virtual-diferencias',
-    'https://www.minute-call.com/articulos/llamadas-perdidas-impacto-negocio-espana',
+    'https://www.minute-call.com/sobre-nosotros',
+    'https://www.minute-call.com/articulos/cuanto-cuesta-contratar-call-center-espana',
+    'https://www.minute-call.com/articulos/coste-externalizar-atencion-telefonica-pyme-espana',
+    'https://www.minute-call.com/articulos/agentes-compartidos-o-dedicados-call-center',
+    'https://www.minute-call.com/lp/call-center-para-empresas',
+    'https://www.minute-call.com/llms.txt',
     'https://www.minute-call.com/llms-full.txt',
+    'https://www.minute-call.com/agent-instructions.md',
   ]
 
   try {

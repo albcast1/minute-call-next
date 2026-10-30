@@ -27,10 +27,10 @@ const SERVICES = [
 ] as const;
 
 const ARTICLES = [
-  ["/articulos/secretaria-virtual-pymes-espana", "Qué es un servicio de secretaría virtual"],
+  ["/articulos/agentes-compartidos-o-dedicados-call-center", "Agentes compartidos o dedicados"],
   ["/articulos/secretaria-virtual-o-call-center-para-pymes", "Secretaría virtual vs call center"],
   ["/articulos/cuanto-cuesta-contratar-call-center-espana", "Cuánto cuesta un call center"],
-  ["/articulos/coste-externalizar-atencion-telefonica-pyme-espana", "Cuánto cuesta externalizar la atención telefónica"],
+  ["/articulos/coste-externalizar-atencion-telefonica-pyme-espana", "Contratar a una persona o externalizar"],
   ["/articulos/gran-bpo-o-call-center-a-medida", "Gran BPO o call center a medida"],
 ] as const;
 

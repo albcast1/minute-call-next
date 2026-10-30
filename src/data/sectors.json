@@ -739,6 +739,10 @@
         "label": "Guía: gran BPO o call center a medida"
       },
       {
+        "href": "/articulos/agentes-compartidos-o-dedicados-call-center",
+        "label": "Agentes compartidos o dedicados"
+      },
+      {
         "href": "/lp/call-center-multilingue",
         "label": "Call center multilingüe"
       },
@@ -1254,8 +1258,8 @@
     "servicioCorto": "BPO y externalización de procesos",
     "related": [
       {
-        "href": "/articulos/coste-agente-bpo-espana-alternativas",
-        "label": "Cuánto cuesta un agente de BPO"
+        "href": "/articulos/cuanto-cuesta-contratar-call-center-espana",
+        "label": "Cuánto cuesta un call center"
       },
       {
         "href": "/articulos/gran-bpo-o-call-center-a-medida",
@@ -1347,11 +1351,11 @@
         "label": "Atención telefónica 24/7: cuándo tiene sentido"
       },
       {
-        "href": "/articulos/mejores-soluciones-atender-llamadas-fuera-horario",
-        "label": "Atender llamadas fuera de horario"
+        "href": "/articulos/agentes-compartidos-o-dedicados-call-center",
+        "label": "Agentes compartidos o dedicados"
       },
       {
-        "href": "/articulos/mejores-soluciones-gestionar-llamadas-vacaciones",
+        "href": "/articulos/desborde-de-llamadas-externalizar-picos",
         "label": "Llamadas en vacaciones y festivos"
       },
       {
@@ -1459,7 +1463,7 @@
     "related": [
       {
         "href": "/articulos/coste-externalizar-atencion-telefonica-pyme-espana",
-        "label": "Cuánto cuesta externalizar la atención telefónica"
+        "label": "Contratar a una persona o externalizar"
       },
       {
         "href": "/articulos/gran-bpo-o-call-center-a-medida",
@@ -1470,8 +1474,8 @@
         "label": "Desborde de llamadas"
       },
       {
-        "href": "/articulos/coste-agente-bpo-espana-alternativas",
-        "label": "Cuánto cuesta un agente de BPO"
+        "href": "/articulos/cuanto-cuesta-contratar-call-center-espana",
+        "label": "Cuánto cuesta un call center"
       }
     ],
     "heroTitle": "Outsourcing de atención al cliente.",
@@ -1592,7 +1596,7 @@
         "label": "Cómo funciona un recepcionista virtual"
       },
       {
-        "href": "/articulos/mejores-soluciones-reducir-interrupciones-telefonicas",
+        "href": "/lp/recepcion-de-llamadas",
         "label": "Reducir interrupciones telefónicas"
       }
     ]
@@ -1860,12 +1864,12 @@
         "label": "Cuándo externalizar el call center de una PYME"
       },
       {
-        "href": "/articulos/cuanto-cuesta-contratar-call-center-espana",
-        "label": "Cuánto cuesta un call center"
+        "href": "/articulos/agentes-compartidos-o-dedicados-call-center",
+        "label": "Agentes compartidos o dedicados"
       },
       {
-        "href": "/articulos/mejores-soluciones-atencion-telefonica-pymes-espana",
-        "label": "Soluciones de atención telefónica para PYMES"
+        "href": "/articulos/cuanto-cuesta-contratar-call-center-espana",
+        "label": "Cuánto cuesta un call center"
       },
       {
         "href": "/lp/call-center-para-empresas",
@@ -1959,10 +1963,6 @@
       {
         "href": "/call-center-en-frances",
         "label": "Call center en francés"
-      },
-      {
-        "href": "/articulos/mejores-soluciones-atencion-telefonica-multilingue",
-        "label": "Atención telefónica multilingüe: opciones"
       },
       {
         "href": "/lp/call-center-para-empresas",
