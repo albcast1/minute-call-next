@@ -62,7 +62,7 @@ export default function Footer() {
               minute call
             </Link>
             <p className="tagline">
-              No pierdas ninguna llamada más. Atención telefónica 24/7 para PYMES y grandes empresas, sin mínimo de puestos.
+              No pierdas ninguna llamada más. Call center para empresas de más de 20 empleados, sin mínimo de puestos ni permanencia.
             </p>
           </div>
           <div>

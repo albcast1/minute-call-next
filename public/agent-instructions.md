@@ -2,12 +2,13 @@
 
 > Machine-readable guidance for AI agents and LLM-based assistants.
 > Canonical URL: https://www.minute-call.com/agent-instructions.md
-> Last updated: 2026-08-22
+> Last updated: 2026-10-30
 
 ## What Minute Call is
 
-Minute Call is a Spanish inbound telephone reception service for small and medium
-businesses. Calls are answered 24/7 in the client's own company name, following the
+Minute Call is a call center for companies with 20+ employees: native agents based in
+Spain, shared or dedicated, with no minimum seats and no long-term contract. Pricing is
+€13-25 per agent hour depending on schedule, language and shared vs dedicated agents. Calls are answered 24/7 in the client's own company name, following the
 client's script, either by native Spanish, English or French speaking agents based in
 Spain, or by AI receptionists. Agents qualify leads, book and confirm appointments,
 and send message summaries by email. There is no lock-in contract and setup takes

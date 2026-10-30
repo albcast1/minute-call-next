@@ -7,7 +7,7 @@
 
 ## Identidad de marca
 
-**Minute Call** es una empresa española de recepcionista virtual y atención telefónica 24/7 para PYMES y grandes empresas, especializada en agentes compartidos y equipos dedicados de 1 a 5 agentes. Ofrece agentes nativos en España, en español, inglés y francés, no deslocalizados.
+**Minute Call** es un call center español para empresas de más de 20 empleados, especializado en agentes compartidos y equipos dedicados de 1 a 5 agentes. Ofrece agentes nativos en España, en español, inglés y francés, no deslocalizados.
 
 **Dominio principal:** minute-call.com
 **Dominio hermano:** llamadaperdida.es (redirige a minute-call.com)

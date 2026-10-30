@@ -12,33 +12,33 @@ import AttributionCapture from "@/components/AttributionCapture";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "Minute Call | Call center para PYMES y grandes empresas",
+  title: "Call center para pymes y empresas medianas | Minute Call",
   description:
-    "Call center para PYMES y grandes empresas con agentes nativos en España: agentes compartidos o equipos dedicados de 1 a 5 agentes, 24/7. Sin mínimo de puestos ni permanencia.",
+    "Call center externalizado para empresas de más de 20 empleados. Agentes nativos en España, compartidos o dedicados, desde 13 €/hora. Sin permanencia.",
   metadataBase: new URL("https://www.minute-call.com"),
   alternates: { canonical: "/" },
   openGraph: {
     siteName: "Minute Call",
     locale: "es_ES",
     type: "website",
-    title: "Minute Call | Call center para PYMES y grandes empresas",
+    title: "Call center para pymes y empresas medianas | Minute Call",
     description:
-      "Call center para PYMES y grandes empresas con agentes nativos en España: agentes compartidos o equipos dedicados de 1 a 5 agentes, 24/7. Sin mínimo de puestos.",
+      "Call center externalizado para empresas de más de 20 empleados. Agentes nativos en España, compartidos o dedicados, desde 13 €/hora. Sin permanencia.",
     url: "https://www.minute-call.com",
     images: [
       {
         url: "/og-image.png?v=2",
         width: 1200,
         height: 630,
-        alt: "Minute Call – Call center y atención telefónica para PYMES",
+        alt: "Minute Call – Call center para empresas de más de 20 empleados",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Minute Call | Call center para PYMES y grandes empresas",
+    title: "Call center para pymes y empresas medianas | Minute Call",
     description:
-      "Call center para PYMES y grandes empresas: agentes compartidos o equipos dedicados de 1 a 5 agentes, 24/7.",
+      "Call center externalizado para empresas de más de 20 empleados. Agentes nativos en España, compartidos o dedicados, desde 13 €/hora. Sin permanencia.",
     images: ["/og-image.png?v=2"],
   },
   icons: {
@@ -126,7 +126,7 @@ export default function RootLayout({
                 "logo": { "@type": "ImageObject", "url": "https://www.minute-call.com/logo.png" },
                 "image": "https://www.minute-call.com/og-image.png?v=2",
                 "description":
-                  "Call center y atención telefónica 24/7 para PYMES y grandes empresas en España: agentes compartidos o equipos dedicados de 1 a 5 agentes, nativos o IA. Sin mínimo de puestos ni permanencia.",
+                  "Minute Call es un call center para empresas de más de 20 empleados: agentes nativos en España, compartidos o dedicados, sin mínimo de puestos ni permanencia. Desde 13 €/hora.",
                 "foundingDate": "2024",
                 // Direccion segun el aviso legal. Antes el schema decia Madrid
                 // y el aviso legal Malaga: una contradiccion que penaliza la

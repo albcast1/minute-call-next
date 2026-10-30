@@ -45,7 +45,7 @@ export default function Home() {
     },
     {
       q: "¿Para qué tipo de empresas está pensado el servicio?",
-      a: "Para PYMES y grandes empresas cuyo volumen no justifica un equipo propio ni un programa con un gran BPO: grupos empresariales, farmacéuticas, energía, logística, clínicas o despachos. Atendemos líneas concretas, noches y fines de semana, desbordes y campañas.",
+      a: "Para empresas de más de 20 empleados cuyo volumen no justifica un equipo propio ni el mínimo de puestos de un gran BPO: grupos empresariales, farmacéuticas, energía, logística, clínicas o despachos. Atendemos líneas concretas, noches y fines de semana, desbordes y campañas.",
     },
     {
       q: "¿Cuál es el mínimo de agentes?",
@@ -65,7 +65,7 @@ export default function Home() {
     },
     {
       q: "¿Cuánto cuesta el servicio?",
-      a: "El precio depende del volumen de llamadas, el horario de cobertura y si los agentes son dedicados o compartidos. Sin mínimo de puestos ni permanencia.",
+      a: "Entre 13 y 25 € por hora de agente, según el horario (laboral, noches o fines de semana), el idioma y si el agente es compartido o dedicado. Sin costes de activación, sin mínimo de puestos y sin permanencia.",
     },
     {
       q: "¿Hay permanencia o compromiso de duración?",
@@ -106,13 +106,13 @@ export default function Home() {
         {/* ===== HERO ===== */}
         <section className="hero">
           <div className="wrap">
-            <span className="tag"><Voice />Call center para PYMES</span>
+            <span className="tag"><Voice />Call center para empresas de +20 empleados</span>
             <h1 style={{ marginTop: 28 }}>
               Atención telefónica <Star /> 24/7.
             </h1>
             <p className="sub">
               Atendemos las llamadas de tu empresa con <span className="chip">personas</span> o{" "}
-              <span className="chip">asistentes de IA</span> - tú eliges. Desde un solo agente, sin permanencia.
+              <span className="chip">asistentes de IA</span> - tú eliges. Desde 13 €/hora, sin mínimo de puestos ni permanencia.
             </p>
             <div className="hero-actions">
               <Link href="/reserva-llamada" className="btn btn-lime" data-hero-cta>
@@ -374,7 +374,7 @@ export default function Home() {
               <span className="tag">Activación en menos de 48 h</span>
               <div>
                 <h2>No pierdas ninguna llamada más.</h2>
-                <p>Atención telefónica 24/7 para PYMES y grandes empresas, sin mínimo de puestos.</p>
+                <p>Call center para empresas de más de 20 empleados, sin mínimo de puestos ni permanencia.</p>
               </div>
             </div>
             <div className="call-card">
