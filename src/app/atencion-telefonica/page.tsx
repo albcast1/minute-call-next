@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_ES",
     url: "https://www.minute-call.com/atencion-telefonica",
-    images: [{ url: "/og-image.png?v=2", width: 1200, height: 630, alt: "Atención telefónica para empresas en España" }],
+    images: [{ url: "/og-image.png?v=3", width: 1200, height: 630, alt: "Atención telefónica para empresas en España" }],
   },
 };
 

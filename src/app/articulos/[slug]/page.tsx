@@ -36,13 +36,13 @@ export async function generateMetadata({
       type: "article",
       locale: "es_ES",
       url: `https://www.minute-call.com/articulos/${slug}`,
-      images: [{ url: "/og-image.png?v=2", width: 1200, height: 630, alt: article.metaTitle }],
+      images: [{ url: "/og-image.png?v=3", width: 1200, height: 630, alt: article.metaTitle }],
     },
     twitter: {
       card: "summary_large_image" as const,
       title: article.metaTitle,
       description: article.metaDescription,
-      images: ["/og-image.png?v=2"],
+      images: ["/og-image.png?v=3"],
     },
   };
 }

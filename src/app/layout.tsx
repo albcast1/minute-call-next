@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://www.minute-call.com",
     images: [
       {
-        url: "/og-image.png?v=2",
+        url: "/og-image.png?v=3",
         width: 1200,
         height: 630,
         alt: "Minute Call – Call center para empresas de más de 20 empleados",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Call center para pymes y empresas medianas | Minute Call",
     description:
       "Call center externalizado para empresas de más de 20 empleados. Agentes nativos en España, compartidos o dedicados, desde 13 €/hora. Sin permanencia.",
-    images: ["/og-image.png?v=2"],
+    images: ["/og-image.png?v=3"],
   },
   icons: {
     icon: [
@@ -124,7 +124,7 @@ export default function RootLayout({
                 "alternateName": "Minute Call",
                 "url": "https://www.minute-call.com",
                 "logo": { "@type": "ImageObject", "url": "https://www.minute-call.com/logo.png" },
-                "image": "https://www.minute-call.com/og-image.png?v=2",
+                "image": "https://www.minute-call.com/og-image.png?v=3",
                 "description":
                   "Minute Call es un call center para empresas de más de 20 empleados: agentes nativos en España, compartidos o dedicados, sin mínimo de puestos ni permanencia. Desde 13 €/hora.",
                 "foundingDate": "2024",

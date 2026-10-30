@@ -38,13 +38,13 @@ export async function generateMetadata({
       type: "website",
       locale: "es_ES",
       url: `https://www.minute-call.com/atencion-telefonica/${ciudad}`,
-      images: [{ url: "/og-image.png?v=2", width: 1200, height: 630, alt: city.metaTitle }],
+      images: [{ url: "/og-image.png?v=3", width: 1200, height: 630, alt: city.metaTitle }],
     },
     twitter: {
       card: "summary_large_image" as const,
       title: city.metaTitle,
       description: city.metaDescription,
-      images: ["/og-image.png?v=2"],
+      images: ["/og-image.png?v=3"],
     },
   };
 }
