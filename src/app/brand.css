@@ -22,6 +22,8 @@
 @media (prefers-reduced-motion:reduce){.voice i{animation:none}.voice i:nth-child(1),.voice i:nth-child(4){transform:scaleY(.45)}.voice i:nth-child(3){transform:scaleY(.7)}}
 .tag.dark{background:#2E2A2A;color:var(--bg)}
 .tag.onp{background:rgba(255,255,255,.16);color:var(--white)}
+/* Home hero: el badge cabe en una linea en movil */
+@media (max-width:600px){.home .hero .tag{white-space:nowrap;font-size:clamp(9px,2.75vw,12px);letter-spacing:.02em}}
 
 .section{padding-block:clamp(48px,5.5vw,88px)}
 .center{text-align:center}
