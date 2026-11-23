@@ -151,6 +151,25 @@ export default async function ArticlePage({
       );
     }
 
+    // Handle numbered lists ("1. ", "2. "...)
+    const olLines = block.split("\n").filter((line) => line.trim().length > 0);
+    if (olLines.length > 0 && olLines.every((line) => /^\d+\.\s/.test(line))) {
+      const start = parseInt(olLines[0], 10);
+      return (
+        <ol key={index} start={start} style={{ margin: "8px 0", paddingLeft: 24, listStyle: "decimal" }}>
+          {olLines.map((item, i) => {
+            const text = item.replace(/^\d+\.\s+/, "").trim();
+            const rendered = parseLinksInText(text);
+            return (
+              <li key={i} style={{ marginBottom: 6, lineHeight: 1.7 }}>
+                {rendered}
+              </li>
+            );
+          })}
+        </ol>
+      );
+    }
+
     // Handle markdown tables
     if (block.includes('|') && block.split('\n').length > 1) {
       const lines = block.split('\n').filter((l: string) => l.trim().length > 0);
