@@ -735,6 +735,10 @@
     ],
     "related": [
       {
+        "href": "/lp/atencion-al-cliente-ley-sac",
+        "label": "Atención al cliente para cumplir la Ley SAC"
+      },
+      {
         "href": "/articulos/gran-bpo-o-call-center-a-medida",
         "label": "Guía: gran BPO o call center a medida"
       },
@@ -1975,5 +1979,151 @@
     "servicio": "Call center multilingüe",
     "esServicio": true,
     "servicioCorto": "Call center multilingüe"
+  },
+  {
+    "slug": "atencion-al-cliente-ley-sac",
+    "sector": "empresas obligadas por la Ley SAC",
+    "title": "Atención al cliente para cumplir la Ley SAC.",
+    "heroTag": "Ley SAC · Ley 10/2025",
+    "heroTitle": "Atención al cliente que cumple la Ley SAC, aunque recibas pocas llamadas.",
+    "heroSubtitle": "Si tu empresa está obligada por la Ley 10/2025 pero no tiene volumen para un call center grande, atendemos a tus clientes por teléfono, email y WhatsApp con personas en España. Y nos comprometemos por contrato a atender el 95% de las llamadas en menos de 3 minutos.",
+    "socialProof": "Partner comercial de Teleperformance · Atención 24/7 para un grupo europeo y para una multinacional farmacéutica",
+    "features": [
+      {
+        "title": "Los 3 minutos, por contrato",
+        "description": "La ley pide atender el 95% de las llamadas en menos de 3 minutos. Lo firmamos en el contrato. Hoy la espera habitual es de unos 20 segundos."
+      },
+      {
+        "title": "Personas, no solo un bot",
+        "description": "La atención automática no puede ser el único medio. Atienden agentes en España, que se identifican al inicio de cada conversación."
+      },
+      {
+        "title": "Teléfono, email y WhatsApp",
+        "description": "La ley exige teléfono y al menos un canal electrónico. Atendemos por teléfono, email o formulario web y WhatsApp, con el mismo procedimiento."
+      },
+      {
+        "title": "Registro de cada contacto",
+        "description": "Cada consulta o reclamación queda registrada con fecha, hora y motivo, por email o en tu herramienta. Las grabaciones se guardan 150 días."
+      },
+      {
+        "title": "Sin mínimo de puestos",
+        "description": "Agentes compartidos formados en tu procedimiento: cubren tu línea sin que pagues puestos completos."
+      }
+    ],
+    "faqFrom": 0,
+    "faq": [
+      {
+        "question": "¿Puedo externalizar la atención al cliente con la Ley SAC?",
+        "answer": "Sí. La ley define el servicio \"independientemente de que sean gestionados por la propia empresa o por un tercero\" (art. 3.11). La responsabilidad de cumplir sigue siendo de tu empresa."
+      },
+      {
+        "question": "¿Tengo que atender 24 horas?",
+        "answer": "No, salvo que prestes un servicio básico: el horario se ajusta a tu horario comercial (art. 14.1). Si vendes online, cuenta también el horario en que se puede comprar en tu web."
+      },
+      {
+        "question": "¿Puedo usar solo un chatbot o un contestador?",
+        "answer": "No. La atención automática no puede ser el único medio y el cliente puede pedir hablar con una persona en cualquier momento (art. 8)."
+      },
+      {
+        "question": "¿Cómo se mide la regla de los 3 minutos?",
+        "answer": "El 95% de las llamadas recibidas tienen que atenderse, de media, en menos de 3 minutos (art. 10.3). No cuenta como atendida una llamada en la que el cliente no puede explicar el motivo ni pedir un operador."
+      },
+      {
+        "question": "¿Cuándo tiene que estar adaptada mi empresa?",
+        "answer": "La ley entró en vigor el 28 de diciembre de 2025 y da 12 meses para adaptar el servicio: hasta el 28 de diciembre de 2026."
+      },
+      {
+        "question": "¿Cuánto cuesta?",
+        "answer": "Depende del volumen, los canales y el horario. Cuéntanos tu caso y te enviamos una propuesta, sin permanencia."
+      }
+    ],
+    "metaTitle": "Atención al cliente para cumplir la Ley SAC | minute call",
+    "metaDescription": "Cumple la Ley SAC aunque recibas pocas llamadas: teléfono, email y WhatsApp con personas en España y el 95% de llamadas en menos de 3 minutos, por contrato.",
+    "deepDive": [
+      {
+        "heading": "¿Tu empresa está obligada?",
+        "body": "La Ley 10/2025 de servicios de atención a la clientela obliga a dos grupos de empresas.\n\n**Grandes empresas que venden a consumidores en España:** las que en el ejercicio anterior tuvieron al menos 250 trabajadores, más de 50 millones de euros de facturación o más de 43 millones de balance.\n\n**Servicios básicos, sea cual sea su tamaño:** agua, gas, electricidad, transporte de viajeros, servicios postales, telecomunicaciones y servicios financieros.\n\nEl plazo para adaptarse termina el 28 de diciembre de 2026."
+      },
+      {
+        "heading": "Estás obligado, pero tienes poco volumen",
+        "body": "Muchas empresas grandes reciben pocas consultas de consumidores: unas pocas llamadas al día y algunos emails. Para ellas, las dos opciones habituales no encajan.\n\n**Un call center grande** monta equipos de 10 agentes o más. Con tu volumen, no les sale a cuenta o te sale caro.\n\n**Un bot o un contestador** no basta: la ley prohíbe que la atención automática sea el único medio y obliga a pasar con una persona cuando el cliente lo pide.\n\nMinute Call trabaja con agentes compartidos formados en tu procedimiento: cubren tu línea sin que pagues puestos completos."
+      },
+      {
+        "heading": "Qué exige la ley y cómo lo cubrimos",
+        "body": "**Atender el 95% de las llamadas en menos de 3 minutos (art. 10.3).** Lo firmamos en el contrato. Hoy la espera habitual es de unos 20 segundos.\n\n**Hablar con una persona cuando el cliente lo pide (art. 8).** Agentes en España, que se identifican al inicio de cada conversación.\n\n**Teléfono y al menos un canal electrónico (art. 7.1).** Teléfono, email o formulario web y WhatsApp.\n\n**Dejar constancia de cada consulta o reclamación (arts. 11 y 12).** Cada contacto queda registrado con fecha, hora y motivo, por email o en tu herramienta.\n\n**Grabar la llamada si el cliente lo consiente (art. 12.1).** Grabaciones guardadas 150 días y disponibles cuando las pidas.\n\n**Atender en tu horario comercial (art. 14.1).** Tu horario y, si lo necesitas, noches y fines de semana."
+      },
+      {
+        "heading": "Lo que sigue siendo tuyo",
+        "body": "La ley permite externalizar el servicio, pero la responsabilidad de cumplirla es de tu empresa (art. 4.7). Nosotros cubrimos la atención y el registro.\n\nTu equipo resuelve las reclamaciones en el plazo legal (15 días hábiles en general y 5 días si son de facturación), publica la información del servicio en tu web y en tus facturas y pasa la auditoría anual."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Nos cuentas tu caso",
+        "desc": "Volumen, canales, horario y tipos de consulta."
+      },
+      {
+        "title": "Preparamos el procedimiento",
+        "desc": "Qué respondemos nosotros, qué te pasamos y cómo, con cada escenario por escrito."
+      },
+      {
+        "title": "Atendemos y registramos",
+        "desc": "Cada consulta llega a tu equipo con toda la información para resolverla en plazo."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Atención telefónica 24/7 en español e inglés para un grupo europeo.",
+        "context": "Un grupo con presencia en varios países de Europa necesitaba que sus clientes en España tuvieran atención telefónica a cualquier hora, en español y en inglés. El volumen de llamadas no justificaba montar un equipo propio ni contratar un programa con un gran BPO, pero cada llamada tenía que atenderse bien y rápido.",
+        "scope": [
+          "Atención 24 horas, todos los días del año, con la marca del cliente.",
+          "Llamadas en español y en inglés, según el idioma de quien llama.",
+          "Protocolo diseñado a medida con el cliente: qué se resuelve en la llamada, qué se registra y a quién se escala.",
+          "Revisión del protocolo con el cliente cuando cambian sus procesos."
+        ],
+        "outcome": "El 94% de las llamadas se atiende en menos de un minuto. El grupo tiene cobertura continua en España sin dimensionar una plantilla propia para un volumen bajo.",
+        "label": "Grupo europeo · Servicios",
+        "kpis": [
+          {
+            "value": "94%",
+            "label": "llamadas atendidas en menos de 1 minuto"
+          },
+          {
+            "value": "24/7",
+            "label": "todos los días del año"
+          },
+          {
+            "value": "ES · EN",
+            "label": "según el idioma de quien llama"
+          }
+        ]
+      }
+    ],
+    "related": [
+      {
+        "href": "/articulos/ley-sac-a-quien-obliga",
+        "label": "Guía: a quién obliga la Ley SAC"
+      },
+      {
+        "href": "/lp/call-center-para-empresas",
+        "label": "Call center para medianas y grandes empresas"
+      },
+      {
+        "href": "/lp/outsourcing-atencion-cliente",
+        "label": "Outsourcing de atención al cliente"
+      },
+      {
+        "href": "/lp/call-center-24-horas",
+        "label": "Call center 24 horas"
+      }
+    ],
+    "cta": {
+      "title": "Cuéntanos tu caso.",
+      "text": "Volumen, canales y horario. Te proponemos un procedimiento y un presupuesto ajustado, sin permanencia."
+    },
+    "clientes": "las empresas obligadas por la Ley SAC",
+    "servicio": "Atención al cliente Ley SAC",
+    "esServicio": true,
+    "servicioCorto": "Atención al cliente Ley SAC"
   }
 ]
