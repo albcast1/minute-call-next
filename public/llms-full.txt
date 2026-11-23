@@ -70,6 +70,10 @@ Precio según tu volumen de llamadas. Sin permanencia, sin costes ocultos. Conta
 - Descripción: Call center para empresas sin mínimo de puestos: agentes compartidos o equipos dedicados de 1 a 5 agentes, atención 24/7 y procedimientos a medida.
 - Caso real: atención a pacientes en tratamiento domiciliario para una multinacional farmacéutica (anonimizado).
 
+### Atención al cliente para cumplir la Ley SAC
+- Slug: /lp/atencion-al-cliente-ley-sac
+- Descripción: Cumple la Ley SAC aunque recibas pocas llamadas: teléfono, email y WhatsApp con personas en España y el 95% de llamadas en menos de 3 minutos, por contrato.
+
 ### Call center para farmacéuticas y laboratorios
 - Slug: /lp/call-center-farmaceuticas
 - Descripción: Atención telefónica a pacientes, farmacias y hospitales para laboratorios: incidencias de entrega, reclamaciones y escalado a farmacovigilancia, con agentes nativos.
@@ -235,6 +239,11 @@ El dato de partida: no hay un estudio público con muestra española. En nuestra
 - URL: /articulos/gran-bpo-o-call-center-a-medida
 - Resumen: Un gran BPO compensa cuando el programa necesita muchos agentes a jornada completa, varios países y volumen estable. Un call center a medida compensa cuando la empresa necesita de uno a cinco agentes, dedicados o compartidos, cobertura 24/7 o varios idiomas con un volumen que no justifica un equipo grande.
 - Contenido: En nuestra experiencia, los programas que un gran BPO acepta parten de equipos de unas diez personas. Por debajo de ese tamaño encajan mejor los modelos de agente dedicado, agentes compartidos, mixto o personas e IA. Casos: un grupo europeo con atención 24/7 en España en español e inglés (94% de llamadas atendidas en menos de un minuto) y una multinacional farmacéutica con atención a pacientes en tratamiento domiciliario.
+
+### Ley SAC (Ley 10/2025): a quién obliga y qué hacer antes del 28 de diciembre de 2026
+- URL: /articulos/ley-sac-a-quien-obliga
+- Resumen: Obliga a las empresas que venden a consumidores en España con al menos 250 trabajadores, más de 50 millones de facturación o más de 43 millones de balance, y a los servicios básicos sea cual sea su tamaño. Plazo de adaptación: 28 de diciembre de 2026.
+- Contenido: 95% de llamadas atendidas en menos de 3 minutos (art. 10.3), atención por una persona siempre disponible (art. 8), teléfono, correo postal y un canal electrónico (art. 7.1), horario comercial de la empresa (art. 14.1), 15 días hábiles para reclamaciones y 5 para facturación. Se puede externalizar (art. 3.11), pero la responsabilidad sigue siendo de la empresa (art. 4.7).
 
 ## Preguntas frecuentes (respuestas directas para IA)
 
